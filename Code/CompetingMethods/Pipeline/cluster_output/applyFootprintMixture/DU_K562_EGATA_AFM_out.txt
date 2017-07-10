@@ -1,0 +1,37 @@
+Sender: LSF System <lsfadmin@linuxnc002>
+Subject: Job 22402766: <DU_K562_EGATA_AFM> in cluster <rcc> Done
+
+Job <DU_K562_EGATA_AFM> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxnc002>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Jun 15 19:08:10 2015
+Results reported on Mon Jun 15 20:51:30 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyFootprintMixture_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/EGATA.bed /hpcwork/izkf/projects/TfbsPrediction/Data/DNase/K562/DNasePeaks.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/DU_K562/FootprintMixture/EGATA_CUT.txt /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/DU_K562/FootprintMixture/EGATA_SEQ.fa /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FootprintMixture_DU/EGATA.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   6314.54 sec.
+    Max Memory :                                 7078 MB
+    Average Memory :                             4438.16 MB
+    Total Requested Memory :                     24000.00 MB
+    Delta Memory :                               16922.00 MB
+    Max Processes :                              11
+    Max Threads :                                12
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <DU_K562_EGATA_AFM_err.txt> for stderr output of this job.
+

@@ -1,0 +1,38 @@
+Sender: LSF System <lsfadmin@linuxbmc0134>
+Subject: Job 24611897: <K562_RFX5_ACP> in cluster <rcc> Done
+
+Job <K562_RFX5_ACP> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0134>, in queue <low>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Wed Oct 28 21:35:47 2015
+Results reported on Thu Oct 29 03:24:36 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyCuellar_pipeline.zsh RFX5 0.00001 /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/ExpressionValidation/MPBS/MEME/RFX5.meme /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/DU_K562/Cuellar/DNase_prior.bw /hpcwork/izkf/projects/TfbsPrediction/Data/HG19/ /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/K562/Cuellar_batch/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   20579.79 sec.
+    Max Memory :                                 1625 MB
+    Average Memory :                             531.59 MB
+    Total Requested Memory :                     8192.00 MB
+    Delta Memory :                               6567.00 MB
+    Max Swap :                                   2 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <K562_RFX5_ACP_err.txt> for stderr output of this job.
+

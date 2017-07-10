@@ -1,0 +1,2 @@
+ks_pvalue_flr_method	ks_pvalue_flr_corr	ks_pvalue_fos_method	ks_pvalue_fos_corr	ks_pvalue_protection_method	ks_pvalue_protection_corr	ks_pvalue_tc_method	ks_pvalue_tc_corr	ks_stat_flr_method	ks_stat_flr_corr	ks_stat_fos_method	ks_stat_fos_corr	ks_stat_protection_method	ks_stat_protection_corr	ks_stat_tc_method	ks_stat_tc_corr
+HINT	0.912254768763	HINT	0.917401337958	HINT	0.813007114629	HINT	0.84433502973	HINT	0.869632128435	HINT	0.792787025181	HINT	0.663367149283	HINT	0.400641025641

@@ -1,0 +1,37 @@
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 24379102: <DU_H1hesc_P300_CBDS> in cluster <rcc> Done
+
+Job <DU_H1hesc_P300_CBDS> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Oct 12 19:22:50 2015
+Results reported on Mon Oct 12 19:33:19 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./createBinDNaseSignal_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/H1hesc_Evidence/fdr_4/P300.bed /hpcwork/izkf/projects/TfbsPrediction/Data/DNase_DU/H1hesc/DNase.bam /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/DU_H1hesc/BinDNase/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   670.45 sec.
+    Max Memory :                                 664 MB
+    Average Memory :                             393.95 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11336.00 MB
+    Max Processes :                              7
+    Max Threads :                                8
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <DU_H1hesc_P300_CBDS_err.txt> for stderr output of this job.
+

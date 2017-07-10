@@ -1,0 +1,3241 @@
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711653: <EIMS_FLR> in cluster <rcc> Done
+
+Job <EIMS_FLR> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:41:05 2015
+Results reported on Tue Jun 30 03:41:31 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/CTCF.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/FootprintMixture_DU_Filtered/CTCF.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/FLR_DU/CTCF_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   13.05 sec.
+    Max Memory :                                 206 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11794.00 MB
+    Max Processes :                              1
+    Max Threads :                                1
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_FLR_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711652: <EIMS_FLR> in cluster <rcc> Done
+
+Job <EIMS_FLR> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:41:05 2015
+Results reported on Tue Jun 30 03:41:33 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/MAX.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/FootprintMixture_DU_Filtered/MAX.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/FLR_DU/MAX_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   17.63 sec.
+    Max Memory :                                 299 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11701.00 MB
+    Max Processes :                              1
+    Max Threads :                                1
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_FLR_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711649: <EIMS_FLR> in cluster <rcc> Done
+
+Job <EIMS_FLR> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:41:05 2015
+Results reported on Tue Jun 30 03:41:34 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/TCF12.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/FootprintMixture_DU_Filtered/TCF12.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/FLR_DU/TCF12_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   18.87 sec.
+    Max Memory :                                 322 MB
+    Average Memory :                             1.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11678.00 MB
+    Max Processes :                              1
+    Max Threads :                                1
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_FLR_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711651: <EIMS_FLR> in cluster <rcc> Done
+
+Job <EIMS_FLR> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:41:05 2015
+Results reported on Tue Jun 30 03:41:36 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/SRF.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/FootprintMixture_DU_Filtered/SRF.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/FLR_DU/SRF_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   20.71 sec.
+    Max Memory :                                 353 MB
+    Average Memory :                             1.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11647.00 MB
+    Max Processes :                              1
+    Max Threads :                                1
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_FLR_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711648: <EIMS_FLR> in cluster <rcc> Done
+
+Job <EIMS_FLR> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:41:05 2015
+Results reported on Tue Jun 30 03:41:36 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/ZNF143.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/FootprintMixture_DU_Filtered/ZNF143.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/FLR_DU/ZNF143_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   20.56 sec.
+    Max Memory :                                 395 MB
+    Average Memory :                             24.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11605.00 MB
+    Max Processes :                              1
+    Max Threads :                                1
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_FLR_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711647: <EIMS_FLR> in cluster <rcc> Done
+
+Job <EIMS_FLR> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:41:05 2015
+Results reported on Tue Jun 30 03:41:37 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/EGR1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/FootprintMixture_DU_Filtered/EGR1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/FLR_DU/EGR1_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   22.39 sec.
+    Max Memory :                                 373 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11627.00 MB
+    Max Processes :                              1
+    Max Threads :                                1
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_FLR_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711646: <EIMS_FLR> in cluster <rcc> Done
+
+Job <EIMS_FLR> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:41:05 2015
+Results reported on Tue Jun 30 03:42:20 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/SP1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/FootprintMixture_DU_Filtered/SP1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/FLR_DU/SP1_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   35.79 sec.
+    Max Memory :                                 627 MB
+    Average Memory :                             11.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11373.00 MB
+    Max Processes :                              1
+    Max Threads :                                1
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_FLR_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711656: <EIMS_FLR> in cluster <rcc> Done
+
+Job <EIMS_FLR> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:42:24 2015
+Results reported on Tue Jun 30 03:42:41 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/RAD21.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/FootprintMixture_DU_Filtered/RAD21.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/FLR_DU/RAD21_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   12.59 sec.
+    Max Memory :                                 210 MB
+    Average Memory :                             109.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11790.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_FLR_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711660: <EIMS_FLR> in cluster <rcc> Done
+
+Job <EIMS_FLR> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:42:26 2015
+Results reported on Tue Jun 30 03:42:42 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/RFX5.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/FootprintMixture_DU_Filtered/RFX5.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/FLR_DU/RFX5_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   13.30 sec.
+    Max Memory :                                 226 MB
+    Average Memory :                             104.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11774.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_FLR_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711658: <EIMS_FLR> in cluster <rcc> Done
+
+Job <EIMS_FLR> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:42:25 2015
+Results reported on Tue Jun 30 03:42:42 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/MYC.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/FootprintMixture_DU_Filtered/MYC.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/FLR_DU/MYC_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   12.98 sec.
+    Max Memory :                                 215 MB
+    Average Memory :                             99.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11785.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_FLR_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711661: <EIMS_FLR> in cluster <rcc> Done
+
+Job <EIMS_FLR> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:42:27 2015
+Results reported on Tue Jun 30 03:42:44 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/USF1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/FootprintMixture_DU_Filtered/USF1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/FLR_DU/USF1_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   14.34 sec.
+    Max Memory :                                 249 MB
+    Average Memory :                             106.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11751.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_FLR_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711657: <EIMS_FLR> in cluster <rcc> Done
+
+Job <EIMS_FLR> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:42:25 2015
+Results reported on Tue Jun 30 03:42:44 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/ATF3.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/FootprintMixture_DU_Filtered/ATF3.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/FLR_DU/ATF3_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   14.34 sec.
+    Max Memory :                                 247 MB
+    Average Memory :                             101.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11753.00 MB
+    Max Swap :                                   2 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_FLR_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711659: <EIMS_FLR> in cluster <rcc> Done
+
+Job <EIMS_FLR> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:42:26 2015
+Results reported on Tue Jun 30 03:42:45 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/USF2.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/FootprintMixture_DU_Filtered/USF2.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/FLR_DU/USF2_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   15.89 sec.
+    Max Memory :                                 272 MB
+    Average Memory :                             113.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11728.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_FLR_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711655: <EIMS_FLR> in cluster <rcc> Done
+
+Job <EIMS_FLR> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:42:24 2015
+Results reported on Tue Jun 30 03:42:51 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/RXRA.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/FootprintMixture_DU_Filtered/RXRA.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/FLR_DU/RXRA_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   21.87 sec.
+    Max Memory :                                 388 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11612.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_FLR_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711654: <EIMS_FLR> in cluster <rcc> Done
+
+Job <EIMS_FLR> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:42:23 2015
+Results reported on Tue Jun 30 03:43:35 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/CEBPB.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/FootprintMixture_DU_Filtered/CEBPB.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/FLR_DU/CEBPB_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   25.99 sec.
+    Max Memory :                                 526 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11474.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_FLR_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711671: <EIMS_FLR> in cluster <rcc> Done
+
+Job <EIMS_FLR> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:43:43 2015
+Results reported on Tue Jun 30 03:43:49 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/GABP.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/FootprintMixture_DU_Filtered/GABP.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/FLR_DU/GABP_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   5.27 sec.
+    Max Memory :                                 61 MB
+    Average Memory :                             53.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11939.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_FLR_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711670: <EIMS_FLR> in cluster <rcc> Done
+
+Job <EIMS_FLR> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:43:42 2015
+Results reported on Tue Jun 30 03:43:49 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/NRF1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/FootprintMixture_DU_Filtered/NRF1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/FLR_DU/NRF1_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   5.21 sec.
+    Max Memory :                                 62 MB
+    Average Memory :                             20.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11938.00 MB
+    Max Processes :                              1
+    Max Threads :                                1
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_FLR_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711668: <EIMS_FLR> in cluster <rcc> Done
+
+Job <EIMS_FLR> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:43:41 2015
+Results reported on Tue Jun 30 03:43:55 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/BRCA1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/FootprintMixture_DU_Filtered/BRCA1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/FLR_DU/BRCA1_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   7.75 sec.
+    Max Memory :                                 124 MB
+    Average Memory :                             52.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11876.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_FLR_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711665: <EIMS_FLR> in cluster <rcc> Done
+
+Job <EIMS_FLR> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:43:38 2015
+Results reported on Tue Jun 30 03:43:55 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/SP4.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/FootprintMixture_DU_Filtered/SP4.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/FLR_DU/SP4_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   11.86 sec.
+    Max Memory :                                 183 MB
+    Average Memory :                             99.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11817.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_FLR_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711672: <EIMS_FLR> in cluster <rcc> Done
+
+Job <EIMS_FLR> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:43:43 2015
+Results reported on Tue Jun 30 03:43:57 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/BACH1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/FootprintMixture_DU_Filtered/BACH1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/FLR_DU/BACH1_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   12.92 sec.
+    Max Memory :                                 224 MB
+    Average Memory :                             85.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11776.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_FLR_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711663: <EIMS_FLR> in cluster <rcc> Done
+
+Job <EIMS_FLR> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:43:36 2015
+Results reported on Tue Jun 30 03:43:57 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/P300.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/FootprintMixture_DU_Filtered/P300.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/FLR_DU/P300_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   13.10 sec.
+    Max Memory :                                 215 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11785.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_FLR_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711664: <EIMS_FLR> in cluster <rcc> Done
+
+Job <EIMS_FLR> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:43:37 2015
+Results reported on Tue Jun 30 03:43:58 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/FOSL1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/FootprintMixture_DU_Filtered/FOSL1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/FLR_DU/FOSL1_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   14.77 sec.
+    Max Memory :                                 252 MB
+    Average Memory :                             94.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11748.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_FLR_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711662: <EIMS_FLR> in cluster <rcc> Done
+
+Job <EIMS_FLR> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:43:35 2015
+Results reported on Tue Jun 30 03:44:00 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/JUN.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/FootprintMixture_DU_Filtered/JUN.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/FLR_DU/JUN_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   17.24 sec.
+    Max Memory :                                 292 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11708.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_FLR_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711669: <EIMS_FLR> in cluster <rcc> Done
+
+Job <EIMS_FLR> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:43:41 2015
+Results reported on Tue Jun 30 03:44:02 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/TBP.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/FootprintMixture_DU_Filtered/TBP.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/FLR_DU/TBP_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   17.67 sec.
+    Max Memory :                                 292 MB
+    Average Memory :                             169.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11708.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_FLR_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711667: <EIMS_FLR> in cluster <rcc> Done
+
+Job <EIMS_FLR> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:43:39 2015
+Results reported on Tue Jun 30 03:44:07 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/SIX5.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/FootprintMixture_DU_Filtered/SIX5.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/FLR_DU/SIX5_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   21.04 sec.
+    Max Memory :                                 364 MB
+    Average Memory :                             171.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11636.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_FLR_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711666: <EIMS_FLR> in cluster <rcc> Done
+
+Job <EIMS_FLR> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:43:38 2015
+Results reported on Tue Jun 30 03:44:08 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/MAFK.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/FootprintMixture_DU_Filtered/MAFK.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/FLR_DU/MAFK_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   24.51 sec.
+    Max Memory :                                 352 MB
+    Average Memory :                             129.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11648.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_FLR_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711674: <EIMS_FLR> in cluster <rcc> Done
+
+Job <EIMS_FLR> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:43:43 2015
+Results reported on Tue Jun 30 03:44:50 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/YY1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/FootprintMixture_DU_Filtered/YY1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/FLR_DU/YY1_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   26.23 sec.
+    Max Memory :                                 458 MB
+    Average Memory :                             89.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11542.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_FLR_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711684: <EIMS_FLR> in cluster <rcc> Done
+
+Job <EIMS_FLR> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:44:58 2015
+Results reported on Tue Jun 30 03:45:13 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/CTCF.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FootprintMixture_DU_Filtered/CTCF.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FLR_DU/CTCF_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   12.66 sec.
+    Max Memory :                                 207 MB
+    Average Memory :                             113.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11793.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_FLR_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711675: <EIMS_FLR> in cluster <rcc> Done
+
+Job <EIMS_FLR> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:44:50 2015
+Results reported on Tue Jun 30 03:45:15 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/JUND.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/FootprintMixture_DU_Filtered/JUND.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/FLR_DU/JUND_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   14.91 sec.
+    Max Memory :                                 255 MB
+    Average Memory :                             1.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11745.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_FLR_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711683: <EIMS_FLR> in cluster <rcc> Done
+
+Job <EIMS_FLR> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:44:57 2015
+Results reported on Tue Jun 30 03:45:19 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/MAX.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FootprintMixture_DU_Filtered/MAX.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FLR_DU/MAX_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   17.71 sec.
+    Max Memory :                                 300 MB
+    Average Memory :                             122.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11700.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_FLR_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711681: <EIMS_FLR> in cluster <rcc> Done
+
+Job <EIMS_FLR> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:44:55 2015
+Results reported on Tue Jun 30 03:45:20 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/SRF.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FootprintMixture_DU_Filtered/SRF.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FLR_DU/SRF_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   20.79 sec.
+    Max Memory :                                 355 MB
+    Average Memory :                             141.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11645.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_FLR_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711680: <EIMS_FLR> in cluster <rcc> Done
+
+Job <EIMS_FLR> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:44:55 2015
+Results reported on Tue Jun 30 03:45:21 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/ZNF143.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FootprintMixture_DU_Filtered/ZNF143.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FLR_DU/ZNF143_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   21.31 sec.
+    Max Memory :                                 376 MB
+    Average Memory :                             155.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11624.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_FLR_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711679: <EIMS_FLR> in cluster <rcc> Done
+
+Job <EIMS_FLR> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:44:54 2015
+Results reported on Tue Jun 30 03:45:24 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/EGR1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FootprintMixture_DU_Filtered/EGR1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FLR_DU/EGR1_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   23.55 sec.
+    Max Memory :                                 378 MB
+    Average Memory :                             196.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11622.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_FLR_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711682: <EIMS_FLR> in cluster <rcc> Done
+
+Job <EIMS_FLR> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:44:56 2015
+Results reported on Tue Jun 30 03:45:25 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/STAT1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FootprintMixture_DU_Filtered/STAT1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FLR_DU/STAT1_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   25.63 sec.
+    Max Memory :                                 455 MB
+    Average Memory :                             169.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11545.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_FLR_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711676: <EIMS_FLR> in cluster <rcc> Done
+
+Job <EIMS_FLR> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:44:50 2015
+Results reported on Tue Jun 30 03:45:36 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/SP2.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/FootprintMixture_DU_Filtered/SP2.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/FLR_DU/SP2_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   33.13 sec.
+    Max Memory :                                 551 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11449.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_FLR_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711677: <EIMS_FLR> in cluster <rcc> Done
+
+Job <EIMS_FLR> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:44:51 2015
+Results reported on Tue Jun 30 03:45:37 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/SP1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FootprintMixture_DU_Filtered/SP1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FLR_DU/SP1_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   37.38 sec.
+    Max Memory :                                 624 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11376.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_FLR_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711678: <EIMS_FLR> in cluster <rcc> Done
+
+Job <EIMS_FLR> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:44:52 2015
+Results reported on Tue Jun 30 03:46:04 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/ARID3A.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FootprintMixture_DU_Filtered/ARID3A.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FLR_DU/ARID3A_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   45.17 sec.
+    Max Memory :                                 756 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11244.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_FLR_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711691: <EIMS_FLR> in cluster <rcc> Done
+
+Job <EIMS_FLR> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:46:10 2015
+Results reported on Tue Jun 30 03:46:25 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/ATF3.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FootprintMixture_DU_Filtered/ATF3.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FLR_DU/ATF3_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   11.07 sec.
+    Max Memory :                                 181 MB
+    Average Memory :                             72.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11819.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_FLR_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711689: <EIMS_FLR> in cluster <rcc> Done
+
+Job <EIMS_FLR> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:46:09 2015
+Results reported on Tue Jun 30 03:46:26 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/RAD21.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FootprintMixture_DU_Filtered/RAD21.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FLR_DU/RAD21_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   12.98 sec.
+    Max Memory :                                 209 MB
+    Average Memory :                             113.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11791.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_FLR_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711685: <EIMS_FLR> in cluster <rcc> Done
+
+Job <EIMS_FLR> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:46:04 2015
+Results reported on Tue Jun 30 03:46:26 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/BHLHE40.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FootprintMixture_DU_Filtered/BHLHE40.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FLR_DU/BHLHE40_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   12.75 sec.
+    Max Memory :                                 213 MB
+    Average Memory :                             1.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11787.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_FLR_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711693: <EIMS_FLR> in cluster <rcc> Done
+
+Job <EIMS_FLR> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:46:11 2015
+Results reported on Tue Jun 30 03:46:27 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/MYC.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FootprintMixture_DU_Filtered/MYC.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FLR_DU/MYC_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   13.77 sec.
+    Max Memory :                                 217 MB
+    Average Memory :                             96.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11783.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_FLR_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711688: <EIMS_FLR> in cluster <rcc> Done
+
+Job <EIMS_FLR> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:46:08 2015
+Results reported on Tue Jun 30 03:46:28 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/TAL1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FootprintMixture_DU_Filtered/TAL1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FLR_DU/TAL1_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   15.13 sec.
+    Max Memory :                                 213 MB
+    Average Memory :                             69.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11787.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_FLR_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711696: <EIMS_FLR> in cluster <rcc> Done
+
+Job <EIMS_FLR> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:46:12 2015
+Results reported on Tue Jun 30 03:46:40 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/GATA1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FootprintMixture_DU_Filtered/GATA1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FLR_DU/GATA1_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   21.71 sec.
+    Max Memory :                                 374 MB
+    Average Memory :                             150.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11626.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_FLR_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711694: <EIMS_FLR> in cluster <rcc> Done
+
+Job <EIMS_FLR> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:46:12 2015
+Results reported on Tue Jun 30 03:46:41 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/ETS1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FootprintMixture_DU_Filtered/ETS1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FLR_DU/ETS1_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   27.20 sec.
+    Max Memory :                                 466 MB
+    Average Memory :                             233.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11534.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_FLR_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711687: <EIMS_FLR> in cluster <rcc> Done
+
+Job <EIMS_FLR> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:46:07 2015
+Results reported on Tue Jun 30 03:46:41 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/CEBPB.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FootprintMixture_DU_Filtered/CEBPB.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FLR_DU/CEBPB_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   27.05 sec.
+    Max Memory :                                 478 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11522.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_FLR_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711692: <EIMS_FLR> in cluster <rcc> Done
+
+Job <EIMS_FLR> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:46:11 2015
+Results reported on Tue Jun 30 03:47:04 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/PU1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FootprintMixture_DU_Filtered/PU1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FLR_DU/PU1_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   41.11 sec.
+    Max Memory :                                 703 MB
+    Average Memory :                             134.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11297.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_FLR_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711695: <EIMS_FLR> in cluster <rcc> Done
+
+Job <EIMS_FLR> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:46:12 2015
+Results reported on Tue Jun 30 03:47:06 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/ZNF263.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FootprintMixture_DU_Filtered/ZNF263.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FLR_DU/ZNF263_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   52.42 sec.
+    Max Memory :                                 766 MB
+    Average Memory :                             21.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11234.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_FLR_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711686: <EIMS_FLR> in cluster <rcc> Done
+
+Job <EIMS_FLR> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:46:04 2015
+Results reported on Tue Jun 30 03:47:16 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/STAT2.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FootprintMixture_DU_Filtered/STAT2.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FLR_DU/STAT2_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   59.31 sec.
+    Max Memory :                                 1078 MB
+    Average Memory :                             429.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               10922.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_FLR_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711707: <EIMS_FLR> in cluster <rcc> Done
+
+Job <EIMS_FLR> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:47:23 2015
+Results reported on Tue Jun 30 03:47:29 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/E2F4.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FootprintMixture_DU_Filtered/E2F4.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FLR_DU/E2F4_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   6.11 sec.
+    Max Memory :                                 73 MB
+    Average Memory :                             24.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11927.00 MB
+    Max Processes :                              1
+    Max Threads :                                1
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_FLR_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711704: <EIMS_FLR> in cluster <rcc> Done
+
+Job <EIMS_FLR> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:47:16 2015
+Results reported on Tue Jun 30 03:47:30 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/ATF1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FootprintMixture_DU_Filtered/ATF1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FLR_DU/ATF1_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   6.21 sec.
+    Max Memory :                                 95 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11905.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_FLR_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711705: <EIMS_FLR> in cluster <rcc> Done
+
+Job <EIMS_FLR> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:47:16 2015
+Results reported on Tue Jun 30 03:47:37 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/CTCFL.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FootprintMixture_DU_Filtered/CTCFL.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FLR_DU/CTCFL_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   12.76 sec.
+    Max Memory :                                 248 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11752.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_FLR_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711699: <EIMS_FLR> in cluster <rcc> Done
+
+Job <EIMS_FLR> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:47:16 2015
+Results reported on Tue Jun 30 03:47:38 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/RFX5.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FootprintMixture_DU_Filtered/RFX5.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FLR_DU/RFX5_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   13.52 sec.
+    Max Memory :                                 229 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11771.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_FLR_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711697: <EIMS_FLR> in cluster <rcc> Done
+
+Job <EIMS_FLR> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:46:12 2015
+Results reported on Tue Jun 30 03:47:38 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/IRF1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FootprintMixture_DU_Filtered/IRF1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FLR_DU/IRF1_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   86.43 sec.
+    Max Memory :                                 1798 MB
+    Average Memory :                             960.50 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               10202.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_FLR_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711706: <EIMS_FLR> in cluster <rcc> Done
+
+Job <EIMS_FLR> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:47:22 2015
+Results reported on Tue Jun 30 03:47:40 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/FOSL1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FootprintMixture_DU_Filtered/FOSL1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FLR_DU/FOSL1_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   15.09 sec.
+    Max Memory :                                 255 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11745.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_FLR_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711700: <EIMS_FLR> in cluster <rcc> Done
+
+Job <EIMS_FLR> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:47:16 2015
+Results reported on Tue Jun 30 03:47:41 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/USF1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FootprintMixture_DU_Filtered/USF1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FLR_DU/USF1_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   14.60 sec.
+    Max Memory :                                 248 MB
+    Average Memory :                             1.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11752.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_FLR_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711698: <EIMS_FLR> in cluster <rcc> Done
+
+Job <EIMS_FLR> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:47:16 2015
+Results reported on Tue Jun 30 03:47:43 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/USF2.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FootprintMixture_DU_Filtered/USF2.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FLR_DU/USF2_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   15.84 sec.
+    Max Memory :                                 377 MB
+    Average Memory :                             107.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11623.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_FLR_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711701: <EIMS_FLR> in cluster <rcc> Done
+
+Job <EIMS_FLR> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:47:16 2015
+Results reported on Tue Jun 30 03:47:43 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/JUN.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FootprintMixture_DU_Filtered/JUN.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FLR_DU/JUN_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   16.97 sec.
+    Max Memory :                                 292 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11708.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_FLR_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711702: <EIMS_FLR> in cluster <rcc> Done
+
+Job <EIMS_FLR> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:47:16 2015
+Results reported on Tue Jun 30 03:47:49 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/EGATA.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FootprintMixture_DU_Filtered/EGATA.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FLR_DU/EGATA_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   21.21 sec.
+    Max Memory :                                 370 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11630.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_FLR_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711703: <EIMS_FLR> in cluster <rcc> Done
+
+Job <EIMS_FLR> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:47:16 2015
+Results reported on Tue Jun 30 03:47:50 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/MAFF.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FootprintMixture_DU_Filtered/MAFF.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FLR_DU/MAFF_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   24.62 sec.
+    Max Memory :                                 430 MB
+    Average Memory :                             1.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11570.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_FLR_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711716: <EIMS_FLR> in cluster <rcc> Done
+
+Job <EIMS_FLR> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:48:28 2015
+Results reported on Tue Jun 30 03:48:41 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/ELK1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FootprintMixture_DU_Filtered/ELK1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FLR_DU/ELK1_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   3.90 sec.
+    Max Memory :                                 48 MB
+    Average Memory :                             41.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11952.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_FLR_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711708: <EIMS_FLR> in cluster <rcc> Done
+
+Job <EIMS_FLR> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:48:28 2015
+Results reported on Tue Jun 30 03:48:41 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/ZBTB33.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FootprintMixture_DU_Filtered/ZBTB33.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FLR_DU/ZBTB33_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   3.96 sec.
+    Max Memory :                                 41 MB
+    Average Memory :                             13.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11959.00 MB
+    Max Processes :                              1
+    Max Threads :                                1
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_FLR_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711715: <EIMS_FLR> in cluster <rcc> Done
+
+Job <EIMS_FLR> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:48:28 2015
+Results reported on Tue Jun 30 03:48:44 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/ZBTB7A.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FootprintMixture_DU_Filtered/ZBTB7A.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FLR_DU/ZBTB7A_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   9.89 sec.
+    Max Memory :                                 160 MB
+    Average Memory :                             86.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11840.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_FLR_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711709: <EIMS_FLR> in cluster <rcc> Done
+
+Job <EIMS_FLR> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:48:28 2015
+Results reported on Tue Jun 30 03:48:45 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/NFYA.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FootprintMixture_DU_Filtered/NFYA.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FLR_DU/NFYA_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   9.89 sec.
+    Max Memory :                                 161 MB
+    Average Memory :                             77.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11839.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_FLR_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711717: <EIMS_FLR> in cluster <rcc> Done
+
+Job <EIMS_FLR> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:48:28 2015
+Results reported on Tue Jun 30 03:48:46 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/NFYB.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FootprintMixture_DU_Filtered/NFYB.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FLR_DU/NFYB_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   10.67 sec.
+    Max Memory :                                 174 MB
+    Average Memory :                             83.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11826.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_FLR_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711712: <EIMS_FLR> in cluster <rcc> Done
+
+Job <EIMS_FLR> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:48:28 2015
+Results reported on Tue Jun 30 03:48:49 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/SMC3.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FootprintMixture_DU_Filtered/SMC3.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FLR_DU/SMC3_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   12.74 sec.
+    Max Memory :                                 207 MB
+    Average Memory :                             109.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11793.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_FLR_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711714: <EIMS_FLR> in cluster <rcc> Done
+
+Job <EIMS_FLR> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:48:28 2015
+Results reported on Tue Jun 30 03:48:50 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/CCNT2.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FootprintMixture_DU_Filtered/CCNT2.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FLR_DU/CCNT2_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   14.97 sec.
+    Max Memory :                                 258 MB
+    Average Memory :                             123.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11742.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_FLR_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711711: <EIMS_FLR> in cluster <rcc> Done
+
+Job <EIMS_FLR> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:48:28 2015
+Results reported on Tue Jun 30 03:48:50 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/EJUNB.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FootprintMixture_DU_Filtered/EJUNB.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FLR_DU/EJUNB_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   15.65 sec.
+    Max Memory :                                 260 MB
+    Average Memory :                             116.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11740.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_FLR_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711713: <EIMS_FLR> in cluster <rcc> Done
+
+Job <EIMS_FLR> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:48:28 2015
+Results reported on Tue Jun 30 03:49:37 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/STAT5A.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FootprintMixture_DU_Filtered/STAT5A.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FLR_DU/STAT5A_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   26.25 sec.
+    Max Memory :                                 465 MB
+    Average Memory :                             75.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11535.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_FLR_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711718: <EIMS_FLR> in cluster <rcc> Done
+
+Job <EIMS_FLR> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:48:28 2015
+Results reported on Tue Jun 30 03:49:38 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/MEF2A.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FootprintMixture_DU_Filtered/MEF2A.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FLR_DU/MEF2A_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   67.56 sec.
+    Max Memory :                                 1123 MB
+    Average Memory :                             31.50 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               10877.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_FLR_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711724: <EIMS_FLR> in cluster <rcc> Done
+
+Job <EIMS_FLR> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:49:41 2015
+Results reported on Tue Jun 30 03:49:53 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/NRF1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FootprintMixture_DU_Filtered/NRF1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FLR_DU/NRF1_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   6.46 sec.
+    Max Memory :                                 62 MB
+    Average Memory :                             20.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11938.00 MB
+    Max Processes :                              1
+    Max Threads :                                1
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_FLR_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711727: <EIMS_FLR> in cluster <rcc> Done
+
+Job <EIMS_FLR> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:49:41 2015
+Results reported on Tue Jun 30 03:49:54 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/GABP.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FootprintMixture_DU_Filtered/GABP.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FLR_DU/GABP_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   6.46 sec.
+    Max Memory :                                 62 MB
+    Average Memory :                             19.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11938.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_FLR_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711730: <EIMS_FLR> in cluster <rcc> Done
+
+Job <EIMS_FLR> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:49:47 2015
+Results reported on Tue Jun 30 03:50:04 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/BACH1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FootprintMixture_DU_Filtered/BACH1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FLR_DU/BACH1_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   13.95 sec.
+    Max Memory :                                 191 MB
+    Average Memory :                             62.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11809.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_FLR_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711729: <EIMS_FLR> in cluster <rcc> Done
+
+Job <EIMS_FLR> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:49:47 2015
+Results reported on Tue Jun 30 03:50:05 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/FOS.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FootprintMixture_DU_Filtered/FOS.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FLR_DU/FOS_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   16.76 sec.
+    Max Memory :                                 271 MB
+    Average Memory :                             99.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11729.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_FLR_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711726: <EIMS_FLR> in cluster <rcc> Done
+
+Job <EIMS_FLR> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:49:41 2015
+Results reported on Tue Jun 30 03:50:05 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/EFOS.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FootprintMixture_DU_Filtered/EFOS.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FLR_DU/EFOS_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   16.88 sec.
+    Max Memory :                                 274 MB
+    Average Memory :                             185.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11726.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_FLR_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711722: <EIMS_FLR> in cluster <rcc> Done
+
+Job <EIMS_FLR> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:49:41 2015
+Results reported on Tue Jun 30 03:50:06 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/TR4.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FootprintMixture_DU_Filtered/TR4.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FLR_DU/TR4_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   18.39 sec.
+    Max Memory :                                 294 MB
+    Average Memory :                             145.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11706.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_FLR_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711721: <EIMS_FLR> in cluster <rcc> Done
+
+Job <EIMS_FLR> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:49:41 2015
+Results reported on Tue Jun 30 03:50:06 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/TBP.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FootprintMixture_DU_Filtered/TBP.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FLR_DU/TBP_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   18.26 sec.
+    Max Memory :                                 295 MB
+    Average Memory :                             140.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11705.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_FLR_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711728: <EIMS_FLR> in cluster <rcc> Done
+
+Job <EIMS_FLR> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:49:47 2015
+Results reported on Tue Jun 30 03:50:09 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/GATA2.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FootprintMixture_DU_Filtered/GATA2.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FLR_DU/GATA2_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   21.10 sec.
+    Max Memory :                                 368 MB
+    Average Memory :                             183.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11632.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_FLR_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711720: <EIMS_FLR> in cluster <rcc> Done
+
+Job <EIMS_FLR> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:49:41 2015
+Results reported on Tue Jun 30 03:50:10 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/SIX5.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FootprintMixture_DU_Filtered/SIX5.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FLR_DU/SIX5_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   22.13 sec.
+    Max Memory :                                 512 MB
+    Average Memory :                             312.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11488.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_FLR_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711725: <EIMS_FLR> in cluster <rcc> Done
+
+Job <EIMS_FLR> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:49:41 2015
+Results reported on Tue Jun 30 03:50:11 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/E2F6.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FootprintMixture_DU_Filtered/E2F6.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FLR_DU/E2F6_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   22.56 sec.
+    Max Memory :                                 372 MB
+    Average Memory :                             182.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11628.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_FLR_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711723: <EIMS_FLR> in cluster <rcc> Done
+
+Job <EIMS_FLR> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:49:41 2015
+Results reported on Tue Jun 30 03:50:12 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/ELF1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FootprintMixture_DU_Filtered/ELF1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FLR_DU/ELF1_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   22.50 sec.
+    Max Memory :                                 365 MB
+    Average Memory :                             74.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11635.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_FLR_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711719: <EIMS_FLR> in cluster <rcc> Done
+
+Job <EIMS_FLR> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:49:41 2015
+Results reported on Tue Jun 30 03:50:13 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/MAFK.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FootprintMixture_DU_Filtered/MAFK.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FLR_DU/MAFK_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   25.09 sec.
+    Max Memory :                                 432 MB
+    Average Memory :                             196.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11568.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_FLR_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711738: <EIMS_FLR> in cluster <rcc> Done
+
+Job <EIMS_FLR> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:50:54 2015
+Results reported on Tue Jun 30 03:51:13 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/THAP1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FootprintMixture_DU_Filtered/THAP1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FLR_DU/THAP1_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   12.10 sec.
+    Max Memory :                                 208 MB
+    Average Memory :                             83.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11792.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_FLR_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711737: <EIMS_FLR> in cluster <rcc> Done
+
+Job <EIMS_FLR> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:50:54 2015
+Results reported on Tue Jun 30 03:51:14 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/NR2F2.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FootprintMixture_DU_Filtered/NR2F2.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FLR_DU/NR2F2_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   13.73 sec.
+    Max Memory :                                 228 MB
+    Average Memory :                             102.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11772.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_FLR_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711734: <EIMS_FLR> in cluster <rcc> Done
+
+Job <EIMS_FLR> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:50:54 2015
+Results reported on Tue Jun 30 03:51:16 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/EJUND.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FootprintMixture_DU_Filtered/EJUND.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FLR_DU/EJUND_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   15.60 sec.
+    Max Memory :                                 262 MB
+    Average Memory :                             119.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11738.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_FLR_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711733: <EIMS_FLR> in cluster <rcc> Done
+
+Job <EIMS_FLR> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:50:54 2015
+Results reported on Tue Jun 30 03:51:16 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/JUND.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FootprintMixture_DU_Filtered/JUND.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FLR_DU/JUND_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   15.25 sec.
+    Max Memory :                                 258 MB
+    Average Memory :                             119.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11742.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_FLR_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711736: <EIMS_FLR> in cluster <rcc> Done
+
+Job <EIMS_FLR> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:50:54 2015
+Results reported on Tue Jun 30 03:51:16 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/NFE2.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FootprintMixture_DU_Filtered/NFE2.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FLR_DU/NFE2_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   17.00 sec.
+    Max Memory :                                 283 MB
+    Average Memory :                             120.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11717.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_FLR_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711732: <EIMS_FLR> in cluster <rcc> Done
+
+Job <EIMS_FLR> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:50:54 2015
+Results reported on Tue Jun 30 03:51:29 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/YY1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FootprintMixture_DU_Filtered/YY1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FLR_DU/YY1_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   28.05 sec.
+    Max Memory :                                 459 MB
+    Average Memory :                             212.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11541.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_FLR_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711735: <EIMS_FLR> in cluster <rcc> Done
+
+Job <EIMS_FLR> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:50:54 2015
+Results reported on Tue Jun 30 03:52:10 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/SP2.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FootprintMixture_DU_Filtered/SP2.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FLR_DU/SP2_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   33.54 sec.
+    Max Memory :                                 554 MB
+    Average Memory :                             268.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11446.00 MB
+    Max Swap :                                   2 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_FLR_err.txt> for stderr output of this job.
+

@@ -1,0 +1,37 @@
+Sender: LSF System <lsfadmin@linuxbmc0126>
+Subject: Job 24611793: <K562_HNF1B_ACP> in cluster <rcc> Done
+
+Job <K562_HNF1B_ACP> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0126>, in queue <low>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Wed Oct 28 21:13:59 2015
+Results reported on Thu Oct 29 02:03:52 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyCuellar_pipeline.zsh HNF1B 0.00001 /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/ExpressionValidation/MPBS/MEME/HNF1B.meme /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/DU_K562/Cuellar/DNase_prior.bw /hpcwork/izkf/projects/TfbsPrediction/Data/HG19/ /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/K562/Cuellar_batch/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   17737.78 sec.
+    Max Memory :                                 3909 MB
+    Average Memory :                             2023.78 MB
+    Total Requested Memory :                     8192.00 MB
+    Delta Memory :                               4283.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <K562_HNF1B_ACP_err.txt> for stderr output of this job.
+

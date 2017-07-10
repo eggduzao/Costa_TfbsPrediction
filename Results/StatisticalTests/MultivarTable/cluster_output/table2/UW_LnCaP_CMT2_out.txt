@@ -1,0 +1,37 @@
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22327047: <UW_LnCaP_CMT2> in cluster <rcc> Done
+
+Job <UW_LnCaP_CMT2> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/StatisticalTests/MultivarTable> was used as the working directory.
+Started at Fri Jun 12 21:51:57 2015
+Results reported on Fri Jun 12 22:44:04 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./createMultivarTable_pipeline.zsh UW LnCaP
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   4360.80 sec.
+    Max Memory :                                 1954 MB
+    Average Memory :                             1602.72 MB
+    Total Requested Memory :                     24000.00 MB
+    Delta Memory :                               22046.00 MB
+    Max Processes :                              7
+    Max Threads :                                8
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <UW_LnCaP_CMT2_err.txt> for stderr output of this job.
+

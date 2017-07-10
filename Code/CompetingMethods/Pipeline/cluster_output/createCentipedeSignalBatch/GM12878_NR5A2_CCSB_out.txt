@@ -1,0 +1,37 @@
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 24735020: <GM12878_NR5A2_CCSB> in cluster <rcc> Done
+
+Job <GM12878_NR5A2_CCSB> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Fri Nov  6 18:44:59 2015
+Results reported on Fri Nov  6 19:54:47 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./createCentipedeSignal_pipeline.zsh NR5A2 /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/All/fdr_4_inside_HS/NR5A2.bed /hpcwork/izkf/projects/TfbsPrediction/Data/PhastCons/PhastCons.bw /hpcwork/izkf/projects/TfbsPrediction/Data/DistanceTSS/distanceTSS.bw 200 /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/DU_GM12878/DNasePos.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/DU_GM12878/DNaseNeg.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/DU_GM12878/Centipede_batch/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   6734.95 sec.
+    Max Memory :                                 1838 MB
+    Average Memory :                             879.33 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               10162.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <GM12878_NR5A2_CCSB_err.txt> for stderr output of this job.
+

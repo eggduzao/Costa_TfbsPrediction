@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Session genome="hg19" locus="chr1:26946167-26950776" version="4">
+    <Resources>
+        <Resource path="/home/egg/work/eg474423/eg474423_Projects/trunk/TfbsPrediction/exp/4.Footprint/Tests/applyMultiHMM/2/out/mpbs_3.bw"/>
+        <Resource path="/home/egg/work/eg474423/eg474423_Projects/trunk/TfbsPrediction/exp/4.Footprint/Tests/applyMultiHMM/2/out/mpbs_4.bw"/>
+        <Resource path="/home/egg/work/eg474423/eg474423_Projects/trunk/TfbsPrediction/exp/4.Footprint/Tests/applyMultiHMM/2/out/mpbs_0.bw"/>
+        <Resource path="/home/egg/hpcwork/izkf/projects/egg/TfbsPrediction/Results/Counts/DNase.bw"/>
+        <Resource path="/home/egg/hpcwork/izkf/projects/egg/TfbsPrediction/Results/Counts/H3K4me3.bw"/>
+        <Resource path="/home/egg/hpcwork/izkf/projects/egg/TfbsPrediction/Results/Counts/DNaseBO.bw"/>
+        <Resource path="/home/egg/work/eg474423/eg474423_Projects/trunk/TfbsPrediction/exp/4.Footprint/Tests/applyMultiHMM/2/out/mpbs_7.bw"/>
+        <Resource path="/home/egg/work/eg474423/eg474423_Projects/trunk/TfbsPrediction/exp/4.Footprint/Tests/applyMultiHMM/2/out/mpbs_1.bw"/>
+        <Resource path="/home/egg/work/eg474423/eg474423_Projects/trunk/TfbsPrediction/exp/4.Footprint/Tests/applyMultiHMM/2/out/mpbs_5.bw"/>
+        <Resource path="/home/egg/hpcwork/izkf/projects/egg/TfbsPrediction/Results/HMM/Train/Distal/annotation/bed/H3K4me3.bed"/>
+        <Resource path="/home/egg/work/eg474423/eg474423_Projects/trunk/TfbsPrediction/exp/4.Footprint/Tests/applyMultiHMM/2/out/mpbs_6.bw"/>
+        <Resource path="/home/egg/work/eg474423/eg474423_Projects/trunk/TfbsPrediction/exp/4.Footprint/Tests/applyMultiHMM/2/out/mpbs.bed"/>
+        <Resource path="/home/egg/work/eg474423/eg474423_Projects/trunk/TfbsPrediction/exp/4.Footprint/Tests/applyMultiHMM/2/out/mpbs_2.bw"/>
+    </Resources>
+    <Panel height="716" name="DataPanel" width="1901">
+        <Track altColor="0,0,178" autoscale="true" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="/home/egg/hpcwork/izkf/projects/egg/TfbsPrediction/Results/Counts/DNaseBO.bw" name="DNaseBO.bw" renderer="BAR_CHART" showDataRange="true" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="678.5" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoscale="true" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="/home/egg/hpcwork/izkf/projects/egg/TfbsPrediction/Results/Counts/DNase.bw" name="DNase.bw" renderer="BAR_CHART" showDataRange="true" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="130.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" height="45" id="/home/egg/work/eg474423/eg474423_Projects/trunk/TfbsPrediction/exp/4.Footprint/Tests/applyMultiHMM/2/out/mpbs.bed" name="mpbs.bed" renderer="BASIC_FEATURE" showDataRange="true" sortable="false" visible="true" windowFunction="count"/>
+        <Track altColor="0,0,178" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" height="45" id="/home/egg/hpcwork/izkf/projects/egg/TfbsPrediction/Results/HMM/Train/Distal/annotation/bed/H3K4me3.bed" name="H3K4me3.bed" renderer="BASIC_FEATURE" showDataRange="true" sortable="false" visible="true" windowFunction="count"/>
+        <Track altColor="0,0,178" autoscale="true" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="/home/egg/hpcwork/izkf/projects/egg/TfbsPrediction/Results/Counts/H3K4me3.bw" name="H3K4me3.bw" renderer="BAR_CHART" showDataRange="true" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="112.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoscale="false" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="/home/egg/work/eg474423/eg474423_Projects/trunk/TfbsPrediction/exp/4.Footprint/Tests/applyMultiHMM/2/out/mpbs_0.bw" name="mpbs_0.bw" renderer="BAR_CHART" showDataRange="true" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoscale="false" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="/home/egg/work/eg474423/eg474423_Projects/trunk/TfbsPrediction/exp/4.Footprint/Tests/applyMultiHMM/2/out/mpbs_1.bw" name="mpbs_1.bw" renderer="BAR_CHART" showDataRange="true" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoscale="false" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="/home/egg/work/eg474423/eg474423_Projects/trunk/TfbsPrediction/exp/4.Footprint/Tests/applyMultiHMM/2/out/mpbs_2.bw" name="mpbs_2.bw" renderer="BAR_CHART" showDataRange="true" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoscale="false" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="/home/egg/work/eg474423/eg474423_Projects/trunk/TfbsPrediction/exp/4.Footprint/Tests/applyMultiHMM/2/out/mpbs_3.bw" name="mpbs_3.bw" renderer="BAR_CHART" showDataRange="true" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoscale="false" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="/home/egg/work/eg474423/eg474423_Projects/trunk/TfbsPrediction/exp/4.Footprint/Tests/applyMultiHMM/2/out/mpbs_4.bw" name="mpbs_4.bw" renderer="BAR_CHART" showDataRange="true" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoscale="false" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="/home/egg/work/eg474423/eg474423_Projects/trunk/TfbsPrediction/exp/4.Footprint/Tests/applyMultiHMM/2/out/mpbs_5.bw" name="mpbs_5.bw" renderer="BAR_CHART" showDataRange="true" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoscale="false" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="/home/egg/work/eg474423/eg474423_Projects/trunk/TfbsPrediction/exp/4.Footprint/Tests/applyMultiHMM/2/out/mpbs_6.bw" name="mpbs_6.bw" renderer="BAR_CHART" showDataRange="true" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoscale="false" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="/home/egg/work/eg474423/eg474423_Projects/trunk/TfbsPrediction/exp/4.Footprint/Tests/applyMultiHMM/2/out/mpbs_7.bw" name="mpbs_7.bw" renderer="BAR_CHART" showDataRange="true" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+    </Panel>
+    <Panel height="187" name="FeaturePanel" width="1901">
+        <Track altColor="0,0,178" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="Reference sequence" name="Reference sequence" showDataRange="true" sortable="false" visible="true"/>
+        <Track altColor="0,0,178" color="0,0,178" colorScale="ContinuousColorScale;0.0;280.0;255,255,255;0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" height="35" id="hg19_genes" name="RefSeq Genes" renderer="BASIC_FEATURE" showDataRange="true" sortable="false" visible="true" windowFunction="count">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="280.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+    </Panel>
+    <PanelLayout dividerFractions="0.789010989010989"/>
+</Session>

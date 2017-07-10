@@ -1,0 +1,37 @@
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 24329782: <DU_H1hesc_GATA2_CFMS> in cluster <rcc> Done
+
+Job <DU_H1hesc_GATA2_CFMS> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Wed Oct  7 11:41:28 2015
+Results reported on Wed Oct  7 11:43:11 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./createFootprintMixtureSignal_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/All/fdr_4_inside_HS/GATA2.bed /hpcwork/izkf/projects/TfbsPrediction/Data/DNase_DU/H1hesc/DNase.bam /hpcwork/izkf/projects/TfbsPrediction/Data/HG19/hg19.fa /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/DU_H1hesc/FootprintMixture/GATA2
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   44.79 sec.
+    Max Memory :                                 2056 MB
+    Average Memory :                             1050.25 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               9944.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <DU_H1hesc_GATA2_CFMS_err.txt> for stderr output of this job.
+

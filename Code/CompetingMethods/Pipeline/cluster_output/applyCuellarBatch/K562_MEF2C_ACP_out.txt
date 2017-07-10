@@ -1,0 +1,37 @@
+Sender: LSF System <lsfadmin@linuxbmc0217>
+Subject: Job 24611836: <K562_MEF2C_ACP> in cluster <rcc> Done
+
+Job <K562_MEF2C_ACP> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0217>, in queue <low>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Wed Oct 28 21:24:28 2015
+Results reported on Thu Oct 29 02:13:13 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyCuellar_pipeline.zsh MEF2C 0.00001 /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/ExpressionValidation/MPBS/MEME/MEF2C.meme /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/DU_K562/Cuellar/DNase_prior.bw /hpcwork/izkf/projects/TfbsPrediction/Data/HG19/ /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/K562/Cuellar_batch/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   17227.69 sec.
+    Max Memory :                                 556 MB
+    Average Memory :                             254.26 MB
+    Total Requested Memory :                     8192.00 MB
+    Delta Memory :                               7636.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <K562_MEF2C_ACP_err.txt> for stderr output of this job.
+

@@ -1,0 +1,37 @@
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 24776903: <GM12878_TP63_ACE> in cluster <rcc> Done
+
+Job <GM12878_TP63_ACE> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Sun Nov  8 16:39:35 2015
+Results reported on Sun Nov  8 16:41:54 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyCentipede_pipeline.zsh TP63 /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/All/fdr_4_inside_HS/TP63.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/DU_GM12878/Centipede_batch/TP63_PRIOR.txt /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/DU_GM12878/Centipede_batch/TP63_DNASE.txt /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/GM12878/Centipede_batch/TP63.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   72.44 sec.
+    Max Memory :                                 738 MB
+    Average Memory :                             489.33 MB
+    Total Requested Memory :                     8192.00 MB
+    Delta Memory :                               7454.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <GM12878_TP63_ACE_err.txt> for stderr output of this job.
+

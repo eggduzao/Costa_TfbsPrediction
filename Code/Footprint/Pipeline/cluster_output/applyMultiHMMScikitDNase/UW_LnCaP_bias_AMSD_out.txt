@@ -1,0 +1,37 @@
+Sender: LSF System <lsfadmin@linuxbsc003>
+Subject: Job 21664338: <UW_LnCaP_bias_AMSD> in cluster <rcc> Done
+
+Job <UW_LnCaP_bias_AMSD> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbsc003>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Footprint/Pipeline> was used as the working directory.
+Started at Thu May 21 18:46:14 2015
+Results reported on Fri May 22 15:18:14 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyMultiHMMScikitDNase_pipeline.zsh /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/HMM/InputRegions/UW_LnCaP/dnase_HS_regions.bed /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/HMM/Models_DNase/LnCaP/Model/bias.hmm /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/NormSlopeBias/UW_LnCaP/DNaseBiasCorrected_norm.bw,/hpcwork/izkf/projects/TfbsPrediction/Results/Signals/NormSlopeBias/UW_LnCaP/DNaseBiasCorrected_slope.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/LnCaP/HMM_DNase_UW_BIAS/DNase_ModelLnCaP.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   75175.28 sec.
+    Max Memory :                                 2019 MB
+    Average Memory :                             1171.18 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               9981.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <UW_LnCaP_bias_AMSD_err.txt> for stderr output of this job.
+

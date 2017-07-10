@@ -1,0 +1,37 @@
+Sender: LSF System <lsfadmin@linuxbmc1046>
+Subject: Job 24990213: <FLM_ZBTB33> in cluster <rcc> Done
+
+Job <FLM_ZBTB33> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc1046>, in queue <low>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/ExpressionValidation/Results/GM12878_K562> was used as the working directory.
+Started at Wed Nov 18 21:37:54 2015
+Results reported on Wed Nov 18 21:38:28 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./filterMetrics_pipeline.zsh /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/ExpressionValidation/Validation/distribution/ZBTB33.txt
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   6.62 sec.
+    Max Memory :                                 418 MB
+    Average Memory :                             319.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11582.00 MB
+    Max Processes :                              5
+    Max Threads :                                6
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <FLM_ZBTB33_err.txt> for stderr output of this job.
+

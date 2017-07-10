@@ -1,0 +1,37 @@
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22746566: <HeLaS3_ELK1_ROCS> in cluster <rcc> Done
+
+Job <HeLaS3_ELK1_ROCS> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Graphics/Pipeline> was used as the working directory.
+Started at Thu Jul  2 04:33:44 2015
+Results reported on Thu Jul  2 04:37:40 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./rocFromBedSBSC_pipeline.zsh ELK1 SC,SC,SC,SB,SB,SB PWM,TC_DU,FOS_DU,HMMD_DU,HMMD_DU_BIAS,HMMD_DU_NAKED /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/HeLaS3_Evidence/fdr_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/HeLaS3/TagCount_DU.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/HeLaS3/FOS_DU.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/HeLaS3/HMM_DNase_DU_ModelHeLaS3_5.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/HeLaS3/HMM_DNase_DU_BIAS_ModelHeLaS3_5.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/HeLaS3/HMM_DNase_DU_NAKED_ModelHeLaS3_5.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/ROC_NM3/HeLaS3/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   198.04 sec.
+    Max Memory :                                 4014 MB
+    Average Memory :                             2184.33 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               7986.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <HeLaS3_ELK1_ROCS_err.txt> for stderr output of this job.
+

@@ -1,0 +1,2 @@
+ks_pvalue_flr_method	ks_pvalue_flr_corr	ks_pvalue_fos_method	ks_pvalue_fos_corr	ks_pvalue_protection_method	ks_pvalue_protection_corr	ks_pvalue_tc_method	ks_pvalue_tc_corr	ks_stat_flr_method	ks_stat_flr_corr	ks_stat_fos_method	ks_stat_fos_corr	ks_stat_protection_method	ks_stat_protection_corr	ks_stat_tc_method	ks_stat_tc_corr
+PIQ_85	0.878914325158	PIQ_85	0.857218136446	PIQ_85	0.836791897015	PIQ_85	0.793064318945	PIQ_85	0.878898683476	PIQ_85	0.807532256476	PIQ_85	0.671139892971	PIQ_85	0.32993942677

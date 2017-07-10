@@ -1,0 +1,37 @@
+Sender: LSF System <lsfadmin@linuxbmc0099>
+Subject: Job 25009116: <FMT_PIQ_85> in cluster <rcc> Done
+
+Job <FMT_PIQ_85> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0099>, in queue <low>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/ExpressionValidation/Results/H1hesc_K562> was used as the working directory.
+Started at Fri Nov 20 05:36:45 2015
+Results reported on Fri Nov 20 06:43:06 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./fetchMultivarTable_pipeline.zsh PIQ_85 /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/ExpressionValidation/Results/H1hesc_K562/multivar_table/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   3981.67 sec.
+    Max Memory :                                 1668 MB
+    Average Memory :                             1029.72 MB
+    Total Requested Memory :                     24000.00 MB
+    Delta Memory :                               22332.00 MB
+    Max Processes :                              5
+    Max Threads :                                6
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <FMT_PIQ_85_err.txt> for stderr output of this job.
+

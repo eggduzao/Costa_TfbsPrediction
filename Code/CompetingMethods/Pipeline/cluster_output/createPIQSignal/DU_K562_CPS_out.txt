@@ -1,0 +1,148 @@
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22292677: <DU_K562_CPS> in cluster <rcc> Done
+
+Job <DU_K562_CPS> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Thu Jun 11 17:37:02 2015
+Results reported on Thu Jun 11 18:02:19 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./createPIQSignal_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Data/DNase/K562/DNase.bam /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/DU_K562/PIQ/DNase.RData
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   1684.45 sec.
+    Max Memory :                                 21130 MB
+    Average Memory :                             11490.34 MB
+    Total Requested Memory :                     24000.00 MB
+    Delta Memory :                               2870.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+> args <- commandArgs(trailingOnly = TRUE)
+> print(args)
+[1] "common.r"                                                                            
+[2] "/hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/DU_K562/PIQ/DNase.RData"
+[3] "/hpcwork/izkf/projects/TfbsPrediction/Data/DNase/K562/DNase.bam"                     
+> 
+> commonfile = args[1]
+> bamout = args[2]
+> 
+> source(commonfile)
+> 
+> if(exists('readGAlignmentsFromBam')){
++     readBam = readGAlignmentsFromBam
++ }else{
++     readBam = readBamGappedAlignments
++ }
+> 
+> #if only one bam..
+> if(length(args)==3){
++ bamname = args[3]
++ bamnames=bamname
++ 
++ plusflags = ScanBamParam(flag=scanBamFlag(isUnmappedQuery=F,isMinusStrand=F,isDuplicate=F,isNotPassingQualityControls=F),what=c('mapq'))
++ plusstrand = readBam(bamname,param=plusflags)
++ 
++ minusflags = ScanBamParam(flag=scanBamFlag(isUnmappedQuery=F,isMinusStrand=T,isDuplicate=F,isNotPassingQualityControls=F),what=c('mapq'))
++ minusstrand = readBam(bamname,param=minusflags)
++ 
++ obschrnames=levels(c(seqnames(plusstrand),seqnames(minusstrand)))
++ allreads=lapply(obschrnames,function(chr){
++ 	print(chr)
++         qsel = (mcols(plusstrand)$mapq > mapq)
++         if(any(is.na(qsel))) qsel = T
++         select = (seqnames(plusstrand)==chr) & qsel
++ 	pluscoord=start(plusstrand[select])
++         qsel = (mcols(minusstrand)$mapq > mapq)
++         if(any(is.na(qsel))) qsel = T
++         select = (seqnames(minusstrand)==chr) & qsel
++         minuscoord=start(minusstrand[select])
++         lx=list(list(plus=pluscoord,minus=minuscoord))
++         names(lx)=bamnames
++         lx
++ })
++ names(allreads)=obschrnames
++ 
++ save(allreads,file=bamout)
++ 
++ }else{
++ #else multiple replicates to merge..
++     bamnames = args[3:length(args)]
++ 
++     bamlist=lapply(bamnames,function(bamname){
++         print(bamname)
++         plusflags = ScanBamParam(flag=scanBamFlag(isUnmappedQuery=F,isMinusStrand=F,isDuplicate=F,isNotPassingQualityControls=F),what=c('mapq'))
++         plusstrand = readBam(bamname,param=plusflags)
++         #
++         minusflags = ScanBamParam(flag=scanBamFlag(isUnmappedQuery=F,isMinusStrand=T,isDuplicate=F,isNotPassingQualityControls=F),what=c('mapq'))
++         minusstrand = readBam(bamname,param=minusflags)
++         list(plusstrand,minusstrand)
++     })
++ 
++     obschrnames=unique(do.call(c,lapply(bamlist,function(i){
++         levels(c(seqnames(i[[1]]),seqnames(i[[2]])))
++     })))
++ 
++     allreads=lapply(obschrnames,function(chr){
++ 	print(chr)
++         lx=lapply(bamlist,function(bam){
++             qsel = (mcols(bam[[1]])$mapq > mapq)
++             if(any(is.na(qsel))) qsel = T
++             select = (seqnames(bam[[1]])==chr) & qsel
++             pluscoord=start(bam[[1]][select])
++             qsel = (mcols(bam[[2]])$mapq > mapq)
++             if(any(is.na(qsel))) qsel = T
++             select = (seqnames(bam[[2]])==chr) & qsel
++             minuscoord=start(bam[[2]][select])
++             list(plus=pluscoord,minus=minuscoord)
++         })
++         names(lx)=bamnames
++         lx
++     })
++     names(allreads)=obschrnames
++ 
++     save(allreads,file=bamout)
++ 
++ }
+[1] "chr1"
+[1] "chr2"
+[1] "chr3"
+[1] "chr4"
+[1] "chr5"
+[1] "chr6"
+[1] "chr7"
+[1] "chr8"
+[1] "chr9"
+[1] "chr10"
+[1] "chr11"
+[1] "chr12"
+[1] "chr13"
+[1] "chr14"
+[1] "chr15"
+[1] "chr16"
+[1] "chr17"
+[1] "chr18"
+[1] "chr19"
+[1] "chr20"
+[1] "chr21"
+[1] "chr22"
+[1] "chrX"
+[1] "chrM"
+> 
+
+
+PS:
+
+Read file <DU_K562_CPS_err.txt> for stderr output of this job.
+

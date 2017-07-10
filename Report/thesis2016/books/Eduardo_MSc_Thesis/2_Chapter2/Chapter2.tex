@@ -1,0 +1,435 @@
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% ----------------------------------------------------------------------
+% Class: Chapter2.tex
+% Author: Eduardo Gade Gusmao
+% ----------------------------------------------------------------------
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Header
+\chapter{Contextualização Biológica}
+
+% Figures file
+\graphicspath{{2_Chapter2/Figures/}}
+
+% Descrição do capítulo
+Neste capítulo, serão descritos os conceitos biológicos necessários para o entendimento deste projeto de pesquisa. Em primeiro lugar, os conceitos básicos em Biologia Molecular serão apresentados. Tal apresentação será conduzida superficialmente, com objetivo único de suprir as necessidades do leitor não familiarizado com a área da Biologia Molecular. Explicações mais detalhadas a respeito de assuntos como Genética ou Biologia Molecular, podem ser encontradas em livros didáticos tais como \citep{alberts2007,lodish2007,watson2003,lewin2003,allis2007}.
+
+% Descrição do capítulo
+A seguir, será realizada uma introdução ao conceito de regulação gênica em eucariotos. Posteriormente, o mecanismo regulatório será descrito em mais detalhes através da apresentação esquemática dos elementos que participam na transcrição de forma proximal e distal. Nesse momento, serão definidos os conceitos de elementos regulatórios cis- e trans- atuantes. Em seguida, o conceito de epigenética será detalhado e mais informações serão dadas a respeito de características epigenéticas exploradas neste trabalho como as modificações das histonas. Finalmente, serão exibidos os métodos biológicos mais importantes neste tema e serão mencionados alguns estudos que fazem parte do estado da arte da identificação de sítios de ligação de fatores de transcrição.
+
+% Tradução dos termos
+Ao longo de todo o documento, foi optado por deixar alguns termos nas suas versões originais em Inglês. Alguns destes não possuem tradução direta, enquanto outros não possuem tradução consensual, fazendo com que suas respectivas traduções tornem a leitura um pouco mais difícil.
+
+% 2.1. Conceitos Básicos em Biologia Molecular
+\section{Conceitos Básicos em Biologia Molecular}\label{sec:biologiamolecular}
+
+% Introdução
+A Biologia Molecular consiste, de forma bastante sucinta, no estudo da célula no nível molecular. O principal foco desta área de conhecimento, que agrega conhecimentos, ferramentas e objetivos em comum com áreas como Bioquímica e Genética, é o estudo do material genético contido dentro da célula dos organismos e os seus produtos, as proteínas. Esta seção será baseada nos livros e artigos \citep{alberts2007,lodish2007,watson2003,lewin2003,allis2007,maston2006,setubal1997}, nos quais mais detalhes podem ser encontrados sobre os processos aqui exibidos.
+
+% Organismos, células e processos biológicos
+Estima-se que existam mais de 10 milhões, provavelmente 100 milhões, de organismos vivos no nosso planeta atualmente \citep{alberts2007}. Cada espécie possui características próprias e é capaz de se reproduzir gerando descendentes da mesma espécie, isto é, com atributos específicos na definição dessas espécies. Esse fenômeno, chamado hereditariedade, é central para a definição de vida, distinguindo-a de outros processos químicos naturais. A maioria dos organismos vivos são compostos por uma única célula (organismos unicelulares); outros, como nós humanos, são compostos por mais de uma célula (organismos multicelulares). As células são o meio pelo qual a informação hereditária se propaga através das gerações, possuindo toda a maquinaria necessária para agregar materiais naturais do ambiente e construir novas células a partir deles, contendo uma cópia completa da informação hereditária. A esse tipo de informação é dado o nome de carga genética, por motivos que ficarão mais claros no decorrer do texto. A Figura~\ref{alberts_61_EukaryoticCell} mostra um exemplo de uma célula animal e seus principais componentes
+
+\figuremacroW{alberts_61_EukaryoticCell}{Célula eucariótica animal}{Os principais componentes da célula eucariótica animal. Fonte: \citep{alberts2007}}{1.0}
+
+% Visão geral dos principais polímeros
+Dos diversos componentes presentes dentro das células, existem quatro tipos de macromoléculas. Essas macromoléculas são polímeros, isto é, são longas sequências de unidades menores agregadas umas às outras, chamadas de monômeros. São elas: carboidratos (formados por açúcares), lipídeos (formados por componentes como ácidos graxos ou glicerol), proteínas (formadas por aminoácidos) e ácidos nucleicos (formados por nucleotídeos). As duas últimas serão focadas, já que possuem relação com as características hereditárias de interesse para este trabalho. 
+
+% Visão geral da função das proteínas e DNA
+As proteínas possuem diversas funções no organismo, entre elas: catálise de reações químicas (enzimas), processamento de metabólitos, sinalização celular, regulação da produção das próprias proteínas e função estrutural. Pela grande frequência nas atividades metabólicas, número de diferentes tipos proteicos e variedade de processos em que as proteínas atuam, pode-se dizer que elas possuem um papel central para a manutenção dos organismos vivos. Os ácidos nucleicos, por sua vez, encontram-se nos formatos de ácido desoxirribonucleico (DNA) e ácido ribonucleico (RNA). A função do DNA é guardar a informação hereditária mencionada no início deste texto. O RNA, por sua vez, desempenha um papel fundamental nos processos necessários para a manifestação destas informações. O restante desta seção será focada na definição das estruturas do DNA, RNA e proteínas e no detalhamento do processo chamado dogma central da Biologia Molecular, onde as proteínas são criadas a partir da informação contida no DNA.
+
+
+% 2.2.1. DNA e RNA
+\subsection{DNA e RNA}\label{ssec:dnarna}
+
+% Estrutura do DNA
+A molécula de DNA é formada por uma dupla hélice de cadeias poliméricas emparelhadas dos mesmos quatro tipos de monômeros, os nucleotídeos adenina (A), citosina (C), guanina (G) e timina (T) (Figura~\ref{alberts_37_DnaStructure}). Cada nucleotídeo é composto por um açúcar (desoxirribose), um grupo fosfato e uma base nitrogenada (que define o tipo do nucleotídeo). Cada nucleotídeo é ligado a outro pertencente à mesma fita através de ligações fosfodiéster formando um arcabouço (em Inglês, \emph{backbone}) de açúcar fosfato. As duas fitas são conectadas através de pontes de hidrogênio formadas entre as bases nitrogenadas, que se projetam para o interior das fitas. Duas pontes de hidrogênio são formadas entre adenina e timina e três pontes de hidrogênio são formadas entre citosina e guanina. Por esta razão, é comum citar nucleotídeos como pares de bases (bp) ou apenas bases.
+
+\figuremacroW{alberts_37_DnaStructure}{Estrutura do DNA}{ (A) Esquema dos componentes que formam o nucleotídeo, unidade básica do DNA. (B) Vários nucleotídeos, dos diferentes tipos possíveis (A, C, G ou T), ligados através de ligações fosfodiéster formando uma fita simples de DNA. (C) O DNA é abundante em fita dupla. Processos biológicos permitem a adição de nucleotídeos a uma fita simples, formando uma fita dupla de DNA, em um processo nomeado polimerização. Os nucleotídeos do tipo A sempre formam duas pontes de hidrogênio com o tipo T e os nucleotídeos do tipo C sempre formam três pontes de hidrogênio com o tipo G. Também é comum o uso do termo hibridização para quando duas fitas pré-existentes se ligam devido à complementaridade de seus nucleotídeos; e o termo desnaturação, para quando algum evento, como o aumento da temperatura, separa as duas fitas preservando as ligações fosfodiéster de ambas. (D) Fita dupla exibida em um esquema linear, com objetivo meramente ilustrativo, já que o DNA geralmente ocorre em formato de dupla hélice. (E) O DNA em seu formato comum na natureza -- dupla hélice. Fonte: \citep{alberts2007}}{1.0}
+
+% Estrutura do RNA
+A molécula de RNA difere da molécula de DNA por possuir o açúcar ribose ao invés da desoxirribose, por geralmente existir no formato de fita simples, e não dupla (a ribose confere uma maior estabilidade à esta estrutura, que inclusive possui capacidade de se hibridizar consigo própria) e pelo fato de que o nucleotídeo timina é substituído pela uracila (U). As moléculas de RNA possuem várias funções, das quais algumas serão descritas adiante. Por este motivo, existe uma extensa nomenclatura para os RNAs, de acordo com sua função. Os mais comuns são o mRNA (RNA mensageiro), tRNA (RNA transportador) e rRNA (RNA ribossômico), cujas funções ficarão claras durante a explicação do dogma central da Biologia Molecular.
+
+% 2.2.2. Proteínas
+\subsection{Proteínas}\label{ssec:proteinas}
+
+% Estrutura da proteína
+As proteínas são compostos químicos de alto peso molecular formados por uma longa cadeia de aminoácidos. Elas consistem em, aproximadamente, 80\% do peso seco de uma célula. Essas macromoléculas são formadas por blocos de aminoácidos que, por sua vez, são moléculas que possuem um carbono central ligado a um grupo carboxila, um grupo amina, um hidrogênio e uma cadeia lateral. Essa cadeia lateral pode assumir um entre vinte valores diferentes, definindo o tipo do aminoácido. A ordem específica dos aminoácidos que formam a cadeia polipeptídica determina a estrutura tridimensional da proteína, pelo fato de que cada tipo de aminoácido possui certas características físico-químicas e a estrutura dos aminoácidos permite certas rotações em torno do carbono central. 
+
+% Forma da proteína dita a função
+Sabe-se que a forma da proteína está diretamente relacionada com a sua função. A simples substituição de um aminoácido da cadeia é suficiente para que a proteína modifique sua conformação levando a um mal funcionamento ou a um funcionamento incompleto. Finalmente, as proteínas possuem sítios específicos onde elas interagem com outras proteínas, moléculas ou metabólitos chamados sítios ativos. A Figura~\ref{lodish_56_DnaAndProtein} mostra a comparação das estruturas químicas da proteína e do DNA.
+
+\vspace{0.6cm}
+\figuremacroW{lodish_56_DnaAndProtein}{Comparação entre as estruturas moleculares da proteína e do DNA}{Na primeira linha estão definidos o monômero e o polímero que correspondem à proteína. Na segunda linha temos o mesmo esquema para a estrutura do DNA. Em ambos os polímeros, novos monômeros são adicionados através de uma reação de condensação. Fonte: \citep{lodish2007}}{1.0}
+\vspace{0.3cm}
+
+% Detalhes da proteína 1
+Utiliza-se o termo domínio para se referir a uma parte da proteína que parece uma estrutura estável em solução por si só. A maioria das proteínas varia, em tamanho, entre 100 e 2.000 resíduos de aminoácidos. Proteínas que possuem peso molecular maior do que 20.000 daltons geralmente são formadas por dois ou mais domínios; entretanto, proteínas de alto peso molecular (entre 500.000 a 2.500.000 daltons) são compostas por diversas cadeias polipeptídicas. Cada proteína possui uma certa quantidade de sítios ativos, que realizam alguma atividade metabólica através da capacidade de se ligar com outras moléculas, como DNA, RNA, metabólitos ou até outras proteínas. 
+
+% Detalhes da proteína 2
+Finalmente, diferentemente do que se acreditava na época em que as primeiras estruturas de proteínas foram determinadas, as proteínas possuem um número relativamente pequeno de \emph{motifs} estruturais dada a grande quantidade de proteínas diferentes que se conhece. Alguns tipos específicos de \emph{motifs} de domínios são associados a atividades específicas, como o domínio intitulado \emph{dinucleotide fold}, frequentemente encontrado em enzimas que se ligam à ATP.
+
+% 2.2.3. Estrutura da Cromatina
+\subsection{Estrutura da Cromatina}\label{ssec:cromatina}
+
+% Estrutura da cromatina 1
+Os organismos podem ser divididos em dois grandes grupos: procariotos e eucariotos. Os procariotos são organismos nos quais a carga genética, isto é, o DNA, está disposto no citoplasma da célula. Já os eucariotos, possuem um núcleo celular que contém, entre outras coisas, o DNA. Este projeto focará apenas nos organismos eucariotos. A grande maioria dos organismos eucariotos possui mais de uma molécula de DNA, que são chamadas de cromossomos, e o conjunto de todos os cromossomos de um organismo é chamado de genoma. Além disso, cada cromossomo pode conter uma certa quantidade de cópias, definindo a sua haploidia. No caso dos seres humanos, foco deste trabalho, existem duas cópias de um total de 22 cromossomos (nomeados de 1 a 22), mais dois cromossomos sexuais (chamados X e Y), formando um total de 46 cromossomos e definindo os humanos como seres diploides.
+
+% Estrutura da cromatina 2
+O DNA não se apresenta isolado no núcleo celular. Ao invés disso, ele se conforma em diversos níveis organizacionais (Figura~\ref{lodish_420_ChromatinStructure_v3}), envolvendo elementos como as proteínas histonas, o que permite sua compacidade e confere outras funções regulatórias que ainda estão sendo estudadas e serão discutidas mais adiante. De forma simples, a cromatina pode estar condensada em uma estrutura não propensa para a iniciação da transcrição (nesse caso, recebe o nome de heterocromatina) ou pode estar descondensada, permitindo que a transcrição ocorra (eucromatina).
+
+% Estrutura da cromatina 3
+O DNA encontra-se envolto em um conjunto de oito histonas, formado por quatro pares dos diferentes tipos de histonas chamadas H2A, H2B, H3 e H4. Essa unidade formada pelo DNA dando, em um estado padrão, aproximadamente 1.65 voltas (~147bp) \citep{allis2007} em torno do complexo de histonas é chamada de nucleossomo. A partir desse nível mais baixo, a estrutura da cromatina se condensa em diversos graus. De fato, caso estiquemos o genoma humano diploide de uma célula apenas, teremos uma molécula linear com aproximadamente dois metros de comprimento. Portanto a compactação do DNA deve ser realizada de forma bastante eficaz para que a cromatina caiba dentro do núcleo celular.
+
+\figuremacroW{lodish_420_ChromatinStructure_v3}{Visão global da estrutura da cromatina}{A cromatina possui vários níveis de enovelamento, o que confere ao DNA seu caráter compacto e é de extrema importância para mecanismos regulatórios mais complexos. Fonte: \citep{lodish2007}}{0.85}
+
+% 2.2.4. Dogma Central da Biologia Molecular
+\subsection{Dogma Central da Biologia Molecular}\label{ssec:dogmacentral}
+
+% Dogma central da Biologia Molecular
+Conforme mencionado previamente, as proteínas são sintetizadas a partir da informação genética contida no DNA, constituindo o processo conhecido como dogma central da Biologia Molecular (Figura~\ref{lodish_30_CentralDogma_v2}). Além da produção de proteínas, o dogma central também engloba a replicação do DNA, processo pelo qual a informação genética é transmitida durante a divisão celular. Neste trabalho, entretanto, será focada apenas a síntese de proteínas, mais especificamente a transcrição.
+
+\figuremacroW{lodish_30_CentralDogma_v2}{Dogma central da Biologia Molecular}{Os quatro principais processos biológicos, dentro do contexto celular eucarioto, para a síntese de proteínas. (1) Ativação -- Proteínas reguladoras da transcrição (fatores de transcrição) se acoplam no início do gene, preparando-o para a fase seguinte. (2) Transcrição -- O DNA é lido pela proteína RNA polimerase e uma molécula de mRNA é criada contendo a informação complementar à fita de DNA lida. (3) Processamento do mRNA -- O mRNA é processado e transportado para fora do núcleo celular. (4) Tradução -- A molécula de mRNA processada é convertida em uma proteína, em estruturas chamadas ribossomos. Fonte: \citep{lodish2007}}{0.7}
+
+% Transcrição - introdução
+A transcrição é a etapa responsável pela geração de uma molécula de RNA a partir de um trecho específico da molécula de DNA, chamado gene. De forma simplificada, podemos dizer que genes são trechos da molécula de DNA que possuem informação codificante, isto é, serão transformados em RNA. Tais genes podem apresentar algumas variações entre indivíduos de uma mesma espécia. De forma simplificada, cada uma destas versões é chamada de alelo. Uma parte do RNA produzido, chamado de mRNA, será posteriormente traduzido em uma proteína, e outra parte desse RNA realizará outras funções que fogem do escopo deste trabalho. Várias proteínas participam da transcrição e algumas delas serão descritas em detalhes nas seções posteriores, porém por simplicidade, apenas a principal proteína, chamada RNA polimerase, estará em foco. Para transcrever um gene, a RNA polimerase procede por uma série de passos bem definidos que podem ser agrupados em três fases: iniciação (ou ativação), elongação e terminação (Figura~\ref{lodish_127_TranscriptionSteps_v2}).
+
+\figuremacroW{lodish_127_TranscriptionSteps_v2}{Etapas do processo de transcrição}{Os três estágios que compõem o processo de transcrição. Siglas introduzidas nesta figura são definidas no glossário. Fonte: \citep{lodish2007}}{0.95}
+
+% Transcrição - o processo
+Durante a fase de iniciação, a RNA polimerase se liga em uma região específica no DNA chamada de região promotora. Após a ligação, a fita de DNA em volta do ponto onde a transcrição está se iniciando se desenovela permitindo que a RNA polimerase, que está ligada a uma das fitas, continue o processo. Começa então a fase de elongação, onde o RNA, após sintetizar um pequeno trecho de RNA de aproximadamente 10 bases, começa a percorrer o gene. A cada base ``lida'' pela RNA polimerase, uma base é introduzida na cadeia de RNA correspondente à base com a qual a base ``lida'' possui afinidade. Além disso, conforme a RNA polimerase se desloca, ela abre a dupla fita de DNA à sua frente e re-hibridiza as fitas previamente abertas cujo conteúdo já foi lido. Finalmente, na fase de terminação, a RNA polimerase se desestabiliza, para e libera a cadeia de RNA produzida. Em algumas células existem sequências bem definidas que correspondem a essa terminação; porém em outras ainda não está claro o que faz com que a enzima cesse o processo de transcrição. Apenas a RNA polimerase foi citada, porém, como será visto mais adiante, diversas outras proteínas participam do processo de transcrição.
+
+% Transcrição - fitas e ordem
+É importante mencionar que apenas uma das fitas é lida durante o processo (chamada de fita senso), porém as duas fitas contém informação necessária para produzir mRNA. Outro ponto importante é a orientação das fitas. Cada fita tem duas extremidades: uma corresponde a um grupo hidroxila ligado ao carbono $3^\prime$ do açúcar, e outra corresponde ao grupo fosfato, ligado ao carbono $5^\prime$ do açúcar. Por esta razão, processos que envolvem deslocamento no DNA podem possuir orientação $3^\prime \rightarrow 5^\prime$ (antisenso) ou $5^\prime \rightarrow 3^\prime$ (senso). Além disso, as duas fitas que compõem a dupla hélice de DNA estão ligadas em sentidos opostos. A transcrição sempre ocorre no sentido $5^\prime \rightarrow 3^\prime$.
+
+% Processamento do RNA - o processo
+Após a transcrição, as moléculas de mRNA que servem como molde para produção de proteínas (pré-mRNA) passam por uma série de procedimentos para torná-las aptas para o processo de tradução. Esse processo, também intitulado de \emph{splicing} do mRNA, inicia com a exclusão de certos trechos do pré-mRNA. Os genes possuem dois tipos básicos de regiões chamadas introns e exons. Nessa fase inicial do processamento do mRNA, as regiões de introns são totalmente removidas. Em adição, algumas regiões de exons podem ser removidas da mesma forma. Além do \emph{splicing}, a sequência do pré-mRNA pode ser alterada através de outros processos tais como o rearranjo de mRNA, o qual modifica o mRNA não processado através de uma desaminação sítio-específica e guiando a inserção ou deleção de uridinas. Após essa etapa, a molécula de mRNA sofre algumas alterações químicas em sua extremidade $5^\prime$ conhecida como revestimento do terminal $5^\prime$ e um fragmento adicional contendo apenas moléculas de adenina é introduzido em sua extremidade $3^\prime$ em um processo intitulado poliadenilação. O pré-mRNA passa então a ser chamado de mRNA processado e deve ser transportado para fora do núcleo celular. Porém antes do transporte, o mRNA deve ter uma coleção de características que o distinguem de outros tipos de RNA (que devem permanecer no núcleo) tais como certas proteínas que reconhecem sequências de exons.
+
+% Processamento do RNA - splicing alternativo
+No processo de \emph{splicing}, exons também podem ser removidos. Isso permite que um só gene seja capaz de gerar vários mRNAs diferentes pelo fato de que diferentes exons podem ser mantidos em resposta a diferentes estímulos celulares. Essa característica, conhecida como \emph{splicing} alternativo, explica em grande parte (juntamente com outros processos como as modificações pós-traducionais) o fato de que existe uma quantidade muito maior de diferentes proteínas do que de genes codificantes de proteínas.
+
+% Tradução - o processo
+O processo de tradução consiste na leitura do mRNA processado e na criação de uma cadeia polipeptídica através da junção de aminoácidos. A principal estrutura associada à tradução é o ribossomo, que se situa no citoplasma da célula e é composto por proteínas e por rRNA. Por este motivo, o mRNA deve sair do núcleo celular para que o processo de tradução ocorra. Assim como a transcrição, a tradução pode ser dividida em várias etapas, porém como este processo não é fundamental para o entendimento deste trabalho, uma explanação mais breve será fornecida. A tradução inicia quando o mRNA é acoplado ao ribossomo. Cada trinca de bases do mRNA (chamada códon) é ``lida'' pelo ribossomo, que irá acoplar um aminoácido correspondente à trinca na sequência de aminoácidos que está sendo gerada. Cada códon possui um aminoácido correspondente e, pelo fato de existirem 64 possíveis combinações de códons e apenas 20 aminoácidos, alguns aminoácidos correspondem a mais de um códon. Existem também códons específicos para indicar a posição onde esse processo de tradução irá começar e terminar. Os tRNAs são as estruturas responsáveis por armazenar cada aminoácido que será posteriormente acoplado à cadeia. Eles são formados por um códon específico de um lado e um aminoácido ligado ao outro e estão presentes em número muito grande no citoplasma. Quando determinado códon do mRNA é lido, um rRNA que estiver próximo do ribossomo é alinhado com este códon, acarretando na junção do aminoácido que está em uma de suas extremidades à sequência de aminoácidos corrente.
+
+% Tradução - modificações pós-traducionais
+A proteína formada irá se conformar de acordo com as propriedades físico-químicas dos aminoácidos influenciadas pelo meio aquoso do citoplasma. Após essa conformação, a proteína está pronta para realizar suas atividades. Entretanto, algumas proteínas sofrem modificações pós-traducionais, podendo acarretar em uma modificação em sua estrutura. Essas modificações geralmente envolvem a adição de grupos metil, acetil e vários outros em determinados aminoácidos. As histonas, que fazem parte da estrutura da cromatina, são exemplos de proteínas que sofrem modificações pós-traducionais e serão abordadas em detalhes mais adiante.
+
+% Conclusão
+O dogma central da Biologia Molecular é o procedimento chave para manutenção da vida como conhecemos. Algumas fases desse complexo processo foram descritas de forma bastante simplificada. As próximas seções correspondem ao detalhamento da fase de transcrição, principalmente a fase de iniciação, explicando os principais mecanismos conhecidos atualmente que contribuem para a regulação espacial e temporal das regiões gênicas que serão transcritas.
+
+% 2.2. Regulação Gênica em Eucariotos
+\section{Regulação Gênica em Eucariotos}\label{sec:regulacaogenica}
+
+% Introducao - conexão com a seção anterior
+Na seção anterior foram discutidos alguns conceitos básicos a respeito do processo de criação de proteínas a partir do DNA. É importante mencionar que a transcrição não tem como objetivo exclusivo a produção de RNA que será transformado em proteínas. Existem vários outros tipos de RNA que atuam em diversos tipos de processos moleculares. A etapa de iniciação da transcrição foi descrita anteriormente como sendo a etapa onde a RNA polimerase deve se ligar à região promotora para que o procedimento possa começar, porém vários fatores contribuem para que os genes sejam transcritos. Dá-se o nome de regulação gênica a todos os processos que as células utilizam para regular a forma como os genes são convertidos em moléculas de RNA.
+
+% Estrutura geral - introdução
+A regulação gênica pode ocorrer em vários níveis diferentes do dogma central: iniciação da transcrição, elongação da transcrição, processamento de mRNA, transporte do mRNA do núcleo até o citoplasma, tradução e estabilidade do mRNA. Entretanto, acredita-se que a maior parte dos eventos regulatórios ocorram no nível de iniciação da transcrição. Parte da regulação nesta etapa é baseada em proteínas chamadas elementos regulatórios, que utilizam propriedades físicas e químicas para fazer com que os genes sejam transcritos em diversos níveis de intensidade, desde nenhuma transcrição (gene silenciado ou inativo) até o nível máximo de transcrição comportado por aquele gene, dado o seu locus na cromatina. Os genes transcritos pela RNA polimerase II (eucariotos) tipicamente contêm dois tipos de elementos regulatórios: os elementos cis-atuantes e os elementos trans-atuantes.
+
+% Estrutura geral - elementos cis- e trans-atuantes
+Os elementos cis-atuantes constituem as regiões no DNA onde os elementos trans-atuantes se ligam. Neste trabalho, essa nomenclatura será extrapolada, sendo os elementos trans-atuantes também chamados de fatores de transcrição (TFs) e os elementos cis-atuantes, também chamados de sítios de ligação de fatores de transcrição (TFBSs). Os elementos cis-atuantes podem ser divididos em duas famílias distintas (Figura~\ref{maston_3_RegulatoryElements_v2}): (1) um promotor, composto por um núcleo e por elementos regulatórios proximais; (2) elementos regulatórios distais, divididos atualmente em amplificadores, silenciadores, insuladores e regiões de controle do locus (LCRs, do Inglês \emph{Locus Control Regions}).
+
+\figuremacroW{maston_3_RegulatoryElements_v2}{Diferentes tipos de elementos cis-atuantes}{Região regulatória típica de um gene, contendo um promotor (núcleo do promotor e elementos proximais) e elementos regulatórios distais (amplificador, silenciador, insulador e região de controle do locus) Fonte: \citep{maston2006}}{0.8}
+
+% Estrutura promotora é complexa
+A estrutura (ou disposição) dos elementos cis- e trans-atuantes pode chegar a ser bastante complexa. Essa complexidade se faz necessária dado que existem 20.000 -- 25.000 genes no genoma humano, cada um requerente de um padrão específico de expressão espacial/temporal, existindo apenas pouco mais do que 1.500 fatores de transcrição. A presença de múltiplos elementos regulatórios em regiões proximais ou distais conferem a possibilidade de uma regulação combinatória, que aumenta de forma exponencial o número total de padrões de expressão possíveis.
+
+% 2.2.1. Maquinaria Regulatória Proximal
+\subsection{Maquinaria Regulatória Proximal}\label{ssec:maquinariaregulatoria}
+
+% Fatores envolvidos
+Os fatores proximais envolvidos na transcrição eucariótica podem ser divididos em três grupos (Figura~\ref{maston_4_TranscriptionMachinery}): (1) fatores de transcrição gerais (ou básicos), que incluem a RNA polimerase II e vários componentes auxiliares (TFIIA, TFIIB, TFIID, TFIIE, TFIIF, TFIIG e TFIIH); (2) ativadores; (3) co-ativadores. Em adição a esses componentes, o Mediador -- uma estrutura grande e altamente conservada -- também é importante para a transcrição acurada.
+
+\figuremacroW{maston_4_TranscriptionMachinery}{Maquinaria transcricional eucariótica}{Fatores de transcrição gerais, ativadores e co-ativadores se montam na região promotora de uma forma ordenada, formando o complexo pré-iniciação. As interrogações representam as conexões que ainda estão sendo estudadas, cuja ordem de ligação, até o presente momento, ainda não foi conclusivamente identificada. Fonte: \citep{maston2006}}{0.60}
+
+% Montagem dos fatores no promotor
+Os fatores de transcrição gerais (GTF, do Inglês \emph{General Transcription Factors}) se montam na região promotora em uma ordem específica, para formar o complexo pré-iniciação (PIC, do Inglês \emph{Preinitiation Complex}), que direciona a RNA polimerase II para o sítio de iniciação da transcrição (TSS, do Inglês \emph{Transcription Start Site}). Primeiramente, o TFIID se liga numa região chamada caixa TATA (em Inglês, \emph{TATA box}). Após isso, alguns eventos ocorrem antes da fase de elongação, incluindo a fusão do promotor, liberação e escape. Quando a RNA polimerase II procede para a etapa de elongação, uma armação composta pelos fatores TFIID, TFIIE, TFIIH e mediador, permanece no núcleo do promotor, fazendo com que a re-iniciação da transcrição necessite apenas do recrutamento da RNA polimerase II e dos fatores TFIIF e TFIIB.
+
+% Ativadores
+A montagem do PIC no núcleo do promotor é suficiente para permitir níveis baixos e acurados de transcrição (nível basal). Os ativadores possuem a capacidade de estimular bastante o nível da transcrição. Em geral, esses fatores são proteínas que se ligam ao DNA, reconhecendo sequências que geralmente ocorrem à montante do núcleo do promotor. Eles contêm domínios de ligação no DNA e de ativação, necessários para a estimulação da transcrição. A estimulação da transcrição pode se dar de várias formas: (1) ajudando na formação rápida e apropriada do PIC através de interações diretas com um ou mais componentes da maquinaria transcricional (alvos); (2) promovendo outras etapas transcricionais como elongação ou re-iniciação; (3)~recrutando complexos modificadores de estrutura da cromatina (que, através de modificações pós-traducionais nas caudas das histonas, fazem com que a cromatina fique em um estado mais aberto e propício para a transcrição).
+
+% Co-ativadores
+O funcionamento dos ativadores pode ser modulado pelos co-ativadores. Tipicamente, os co-ativadores não contêm domínios para reconhecimento de sequências específicas no DNA. Ao invés disso, eles contêm domínios necessários para realizar interações proteína-proteína com um ou mais ativadores no DNA. O modo como este tipo de fator aumenta o nível transcricional é basicamente o mesmo dos ativadores, porém eles possuem uma propriedade adicional na qual são capazes de regular o funcionamento de um ativador para que estes realizem uma regulação positiva ou negativa.
+
+% Sinergia
+Uma das características mais interessantes observadas nos ativadores é que eles são capazes de estimular a transcrição sinergicamente. Neste fenômeno, o efeito de múltiplos fatores trabalhando juntos é maior do que a soma dos efeitos que eles teriam se estivesse trabalhando individualmente. Esse efeito pode ocorrer de forma promíscua, na qual diversos fatores de diferentes tipos encontram-se nesse estado cooperativo, ou de forma não-promíscua, na qual várias cópias de um mesmo fator estão presentes. Apesar de ter sido observado, esse fenômeno ainda não é completamente conhecido.
+
+% 2.2.2. Elementos Regulatórios Transcricionais
+\subsection{Elementos Regulatórios Transcricionais}\label{ssec:elementosregulatorios}
+
+% Elementos regulatórios transcricionais
+A seguir são descritos brevemente os elementos regulatórios transcricionais apresentados. A Figura~\ref{maston_8_DistalElementsFunction_v2} sumariza os elementos regulatórios que atuam de forma distal. Cada elemento regulatório apresentado funciona de forma diferente, contribuindo para o aumento do nível transcricional ou diminuição deste nível (e possível silenciamento total do gene) ou para ambos dependendo do contexto em que é inserido.
+
+\figuremacroW{maston_8_DistalElementsFunction_v2}{Funcionamento dos elementos regulatórios distais}{A função dos amplificadores e silenciadores é de, respectivamente, ativar e reprimir a transcrição. Insuladores evitam que genes sejam afetados por elementos regulatórios na vizinhança. Regiões de controle do locus são trechos compostos por vários elementos regulatórios cujo funcionamento em conjunto confere um padrão de expressão singular que afeta agrupamentos de genes nas proximidades. Fonte: \citep{maston2006}}{0.65}
+
+% 2.2.2.1. Núcleo do Promotor
+\subsubsection{Núcleo do Promotor}\label{sssec:nucleopromotor}
+
+% Elementos no núcleo do promotor
+É a região no início do gene que possui elementos onde a maquinaria geral de transcrição se liga e o PIC se forma, definindo a posição do TSS e a direção da transcrição. Alguns desses elementos foram bastante estudados tais como o elemento iniciador (Inr), a caixa TATA, o elemento central à jusante (DCE, do Inglês \emph{Downstream Core Element}), o elemento de reconhecimento do TFIIB (BRE, do Inglês \emph{TFIIB-Recognition Element}) e o \emph{motif} na posição 10 (MTE, do Inglês \emph{Motif Ten Element}). Com exceção do BRE, todos os outros elementos descritos até então interagem com o fator TFIID.
+
+% Tais elementos não são tão universais
+Análises estatísticas em 10.000 diferentes promotores mostraram que tais elementos não são tão universais quanto se pensava. De fato, aproximadamente um quarto dos promotores analisados não possuía nenhum desses quatro elementos mencionados, sugerindo que talvez existam arquiteturas mais complexas a serem descobertas. De fato, pesquisas recentes apontam para arquiteturas menos usuais tais como os desertos de ATG. Além disso, foi descoberto recentemente que as propriedades estruturais de ordens mais altas do promotor, que são determinadas em parte pela sequência de nucleotídeos e sua curvatura, dobrabilidade e estabilidade, podem ser usadas para identificar e classificar esses núcleos dos promotores.
+
+% 2.2.2.2. Elementos Promotores Proximais
+\subsubsection{Elementos Promotores Proximais}\label{sssec:elementosproximais}
+
+% Elementos promotores proximais
+Os elementos promotores proximais estão localizados imediatamente à montante (até no máximo algumas centenas de pares de bases) do núcleo do promotor, contendo vários sítios de ligação para ativadores. Uma característica interessante está no fato de que aproximadamente 60\% dos promotores situam-se próximos à ilhas de CpG -- trechos que variam de 500 bp a 2 kb que contêm uma alta quantidade de nucleotídeos C$+$G e uma frequência de CpG mais alta do que outras regiões do DNA. A maioria dos dinucleotídeos CpG no genoma são metilados no quinto carbono da citosina, entretanto os nucleotídeos em ilhas CpG geralmente não são metilados. Existem várias correlações interessantes a esse respeito, como o fato de que promotores que contêm caixa TATA geralmente não estão próximos a ilhas CpG, porém promotores baseados em BREs são bastante associados a essas ilhas. O fato de que a metilação do DNA está associada ao silenciamento da transcrição sugere que a função das ilhas CpG seja de impedir a metilação dessa região, consequentemente, silenciando-a.
+
+% 2.2.2.3. Amplificadores
+\subsubsection{Amplificadores}\label{sssec:amplificadores}
+
+% Amplificadores
+Elementos amplificadores regulam a expressão temporalmente e espacialmente e sua atividade independe da distância ao promotor (que pode chegar à ordem de Mb) ou da sua orientação em relação a este. Essa região é tipicamente composta por vários sítios de ligação bastante próximos uns dos outros, onde os amplificadores se ligam para aumentar a expressão do gene. Amplificadores também são modulares, isto é, a atividade de um único promotor pode ser modificada por diferentes amplificadores em tempos diferentes ou tecidos diferentes, em resposta a diferentes estímulos. Além disso, a organização espacial e orientação dos sítios de ligação que formam o amplificador podem ser vitais para sua atividade regulatória.
+
+% DNA looping
+Amplificadores são funcionalmente similares aos elementos proximais e a distinção entre eles ainda é bastante nebulosa. De fato, grande parte dos fatores que se liga em regiões proximais também se liga em amplificadores. Existem fortes evidências de que esses elementos distais (como os amplificadores) consigam atuar a partir de regiões tão distantes através do modelo de laço do DNA (em Inglês, \emph{DNA looping}). Neste modelo, o DNA se conforma de tal maneira que, apesar de estar vários bps longe do núcleo do promotor, fisicamente estas estruturas podem estar próximas umas das outras (como na junção das duas extremidades de um cadarço de tênis). Alguns modelos propõem até que parte do PIC se forme em regiões amplificadoras e que esse complexo se agregue ao restante dos fatores gerais através do processo de laço do DNA.
+
+% 2.2.2.4. Silenciadores
+\subsubsection{Silenciadores}\label{sssec:silenciadores}
+
+% Silenciadores
+Silenciadores são elementos que reprimem a expressão de um gene (efeito transcricional negativo). Assim como os amplificadores, a atuação da maioria dos silenciadores não depende da distância à região promotora nem da orientação, porém alguns silenciadores dependentes da posição foram encontrados. Os silenciadores podem estar em regiões proximais, em regiões distais de amplificadores ou em regiões distais independentes. Além disso, silenciadores podem se ligar ao DNA cooperativamente e também possuem características sinérgicas. 
+
+% Repressors and co-repressors
+O fator de transcrição que se liga em um elemento silenciador é chamado de repressor, nos quais os co-repressores podem se ligar (de forma semelhante aos ativadores e co-ativadores). Como mencionado anteriormente, ativadores podem se tornar repressores através do recrutamento de alguns co-fatores específicos. Os silenciadores podem reprimir a expressão de diversas formas: (1) não permitindo a ligação de um ativador ou componente da maquinaria transcricional, bloqueando fisicamente suas ligações ou competindo diretamente por um mesmo sítio; (2) inibindo a formação do complexo pré-iniciação; (3) recrutando modificadores de cromatina para condensar a região de forma a dificultar a ligação de ativadores ou da própria maquinaria transcricional.
+
+% 2.2.2.5. Insuladores
+\subsubsection{Insuladores}\label{sssec:insuladores}
+
+% Insuladores
+Insuladores, também conhecidos como elementos de fronteira, bloqueiam a atuação de outros elementos regulatórios definindo uma espécie de partição do genoma em blocos com sistema interno de regulação. Os insuladores têm duas propriedades específicas: (1) bloquear a influência de um amplificador sobre a expressão de um determinado gene, bloqueando a comunicação amplificador-promotor; (2) bloquear a disseminação do silenciamento de uma região por estruturas que condensam a cromatina (que geralmente agem como uma reação em cadeia, parando apenas ao encontrar o insulador). Esses elementos geralmente são dependentes de posição porém independentes de orientação. 
+
+% CTCF
+Apesar de vários fatores trans-atuantes que mediam a função do insulador serem conhecidos para a \emph{Drosophila}, em vertebrados se conhece apenas o CTCF (do Inglês \emph{CCCTC-binding factor}). A atividade deste fator pode ser regulada de várias formas, incluindo metilação do DNA, modificação pós-traducionais e interação com co-fatores.
+
+% Forma de atuação ainda não conhecida
+A forma como os insuladores realizam suas funções de bloqueio de comunicação amplificador-promotor ou barreira para heterocromatina ainda não é conhecida. Os modelos propostos podem ser agrupados em duas categorias. A primeira associa os insuladores com a maquinaria regulatória transcricional, e a segunda os associa com a organização estrutural da cromatina.
+
+% 2.2.2.6. Regiões de Controle de Locus
+\subsubsection{Regiões de Controle de Locus}\label{sssec:lcr}
+
+Regiões de controle de locus são grupos de elementos regulatórios, tais como amplificadores, silenciadores e insuladores, envolvidos na regulação de um locus inteiro ou de um agrupamento de genes. Tais regiões são definidas operacionalmente como elementos que direcionam a expressão fisiológica específica por tecido de uma forma independente de posição e dependente de variação do número de cópias gênicas (CNV, do Inglês \emph{Copy-Number Variation}). Os elementos que se ligam nestas regiões (ativadores, co-ativadores, repressores, co-repressores ou modificadores de cromatina) podem afetar a expressão de forma distinta e sua atividade coletiva que confere a função específica de cada LCR.
+
+% 2.3. Identificação de Sítios de Ligação de Fatores de Transcrição
+\section{Identificação de Sítios de Ligação de Fatores de Transcrição}\label{sec:identificacaoTFBS}
+
+% Introdução ao problema da identificação de TFBSs
+Na Seção~\ref{sec:regulacaogenica} foi apresentada uma introdução superficial à área de regulação gênica. Várias propriedades dos elementos regulatórios foram definidas, pretendendo com isso motivar estudos que propõem métodos para identificar a localização de tais estruturas no DNA. De fato, redes regulatórias complexas governam diversos mecanismos celulares críticos para a célula, tais como a proliferação, desenvolvimento, diferenciação, envelhecimento e apoptose. Para que esses mecanismos funcionem de forma correta e consistente, um número muito grande de diferentes componentes regulatórios devem desempenhar seus papeis, que podem variar de acordo com as circunstâncias, em diversas vias metabólicas. Todos os elementos mencionados na seção anterior, colaboram para a orquestração espacial/temporal apropriada da expressão gênica de processos celulares ubíquos, comuns entre certos tipos de células ou totalmente específicos por célula. Consequentemente, a identificação desses elementos regulatórios é crucial para a compreensão da função (ou funções) que cada um deles desempenha nas numerosas redes regulatórias das quais participam. Isso permite, por exemplo, a melhor compreensão de doenças causadas pela desregulação (regulação imprópria por um grande número de diferentes razões).
+
+% Dificuldade do problema - varias razoes
+Conforme mencionado anteriormente, estima-se que o número de diferentes fatores de transcrição em humanos seja maior do que 1.500. Cada um desses fatores pode se ligar no DNA diretamente ou através do recrutamento de outros fatores (por exemplo, em um esquema ativador -- co-ativador, como revisado na Seção~\ref{sssec:elementosproximais}). Além disso, alguns elementos distais compostos por várias estruturas regulatórias menores (como os LCRs) possuem função diretamente equivalente às suas configurações, isto é, aos tipos de elementos que compõem estas regiões e à disposição dos mesmos dentro destes loci. Ademais, as sequências onde tais fatores trans-atuantes têm maior afinidade de ligação geralmente são pequenas, variando entre 6 -- 12 bp, dos quais apenas um número ainda menor de nucleotídeos está presente de forma quase consensual. Somando todas essas características, a identificação destas regiões se torna bastante complexa, sendo necessários esforços (e avanços) nas áreas biológica e computacional para que esta tarefa tenha bons resultados. 
+
+% Dificuldade do problema - ativos / inativos
+Finalmente, uma das maiores dificuldades está no fato de que tais elementos regulatórios são específicos por tipo (ou linha) celular. O genoma humano consiste, em teoria, na mesma sequência de nucleotídeos para todas as células do organismo. Sabe-se atualmente que existem diferenças significativas até entre células de um mesmo tipo, como variações no número de cromossomos observadas recentemente em neurônios, porém tais diferenças não excluem a hipótese atualmente aceita de que as diferenças entre as células do organismo se dão majoritariamente devido ao controle regulatório, que ativa ou desativa, em diferentes graus, diferentes genes, modificando o padrão da expressão e consequentemente gerando diferenças estruturais significativas. A partir disso, define-se a maior limitação dos métodos computacionais automáticos, baseados em busca por sequência, como o fato de tais métodos não conseguirem distinguir quais os sítios de afinidade de ligação de proteínas no DNA estão ativos ou inativos.
+
+% Introdução aos métodos biológicos tradicionais
+Nas Seções~\ref{ssec:dnasefootprinting} e~\ref{ssec:chip} a seguir, serão explorados os dois métodos biológicos tradicionais mais comuns para a identificação de sítios de ligação de fatores de transcrição. Adicionalmente, será definida na Seção~\ref{ssec:motifmatching} a abordagem computacional padrão para o problema, que são as buscas baseadas em sequência. Tais métodos possuem limitações bem evidentes, seja terem baixo rendimento (não sendo possível a aplicação em escala genômica) ou pelas dificuldades mencionadas nos parágrafos anteriores. Entretanto, na Seção~\ref{ssec:metodosepigeneticos} serão realizadas extensões desses métodos, cuja aplicação se enquadra no estado da arte das soluções deste problema, sendo esta a motivação para a apresentação de tais tecnologias.
+
+% 2.3.1. DNase~I Footprinting
+\subsection{DNase~I Footprinting}\label{ssec:dnasefootprinting}
+
+% Digestão da DNase~I
+Este método tradicional consiste em observar padrões de digestão no DNA de algum agente de clivagem capaz de quebrar as ligações fosfodiéster desta molécula. Estes agentes podem ser, por exemplo, radicais hidroxila ou radiação ultravioleta. Porém neste trabalho será dado foco à endonuclease Desoxirribonuclease I (DNase~I). Esta enzima é capaz de se ligar no sulco menor (ou secundário) da dupla hélice de DNA e produzir uma quebra na ligação fosfodiéster. A DNase~I é perfeita em experimentos desse gênero pois o seu grande tamanho faz com que ela seja realmente sensível a proteínas que estão ligadas no DNA e também porque sua ação é facilmente controlada com EDTA (ver glossário).
+
+% Explicação do método - extração do material e PCR
+O método se inicia com a obtenção do DNA genômico. De posse do DNA de várias células do tipo específico sob estudo, a porção onde se deseja verificar se existem indícios de elementos funcionais (isto é, se possuem sítios de ligação de fatores de transcrição) é amplificada via reação em cadeia da polimerase (PCR, do Inglês \emph{Polymerase Chain Reaction}). Amplificação é o processo de geração de várias moléculas de DNA idênticas à original. O tamanho ideal para tal região deve ser entre 50 e 200 pares de bases. Neste momento se torna claro que a principal desvantagem deste método é o baixo rendimento, isto é, uma rodada deste método demora um tempo razoavelmente alto e é capaz de analisar somente um trecho bastante pequeno, tornando impraticável a aplicação deste método em estudos pangenômicos.
+
+% Explicação do método - eletroforese
+Após a amplificação, os fragmentos resultantes são rotulados com uma molécula fluorescente e são separadas duas porções deste material. Em uma delas é adicionada a proteína de interesse enquanto a outra é reservada para posterior comparação (controle). O agente de clivagem é então adicionado em ambas as porções, permitindo que ele corte o DNA em várias posições aleatórias. Além destes cortes aleatórios com a DNase~I, são realizados cortes em regiões especificadas anteriormente com enzimas de restrição, para permitir a análise posterior. Em seguida, o DNA contendo a proteína e o DNA controle são colocados numa cuba para realização de uma eletroforese com gel de poliacrilamida. Nesse experimento, DNA é colocado sobre um gel sobre o qual é aplicada uma diferença de potencial. Pelo fato de o DNA ser eletronegativo ele irá migrar para o outro lado da cuba, porém os fragmentos menores irão migrar mais rapidamente por passarem mais facilmente entre os poros do gel. Após a eletroforese, é aplicado algum agente que possibilite visualizar o marcador fluorescente (como luz ultravioleta).
+
+% Explicação do método - resultado da eletroforese
+A distribuição dos fragmentos assemelha-se a uma escada, com os fragmentos menores mais próximos da extremidade negativa da cuba e os fragmentos maiores, mais próximos da origem, na extremidade positiva. As amostras com a proteína de interesse e de controle são então comparadas. Pelo fato de a enzima DNase~I não ser capaz de cortar o DNA em regiões onde se encontram outras proteínas ligadas, fragmentos com o tamanho exato produzido, caso a DNase tivesse cortado aquela região, não estarão presentes na amostra que a enzima de interesse foi aplicada, porém estarão presentes na outra amostra. Portanto a falta de bandas na amostra de interesse em uma região onde houve presença de bandas fluorescentes na amostra de controle sinaliza que a proteína de interesse estava ligada naquela região. A esta região é dado o nome de \emph{footprint}. A Figura~\ref{lodish_472_DNAseFootprinting} detalha este processo de forma visual.
+
+% Conclusão do método
+Obviamente, o processo é muito mais complexo do que o descrito neste texto. Etapas adicionais incluem o tratamento apropriado dos fragmentos obtidos, como a inserção de ligantes. Sua vantagem está no fato de que ele é realmente preciso e é capaz de encontrar as posições exatas onde a proteína estava ligada, com um grau de confiabilidade bastante alto. Sua desvantagem, como mencionado anteriormente, é que, por ser complexo e longo, ele definitivamente possui um baixo rendimento.
+
+\figuremacroW{lodish_472_DNAseFootprinting}{Esquema do método \emph{DNase~I Footprinting}}{A amostra (A) não contém a proteína de interesse, enquanto a amostra (B) contém tal proteína (parte de cima da figura). Ao aplicar a enzima DNase~I, todo o comprimento da amostra (A) será digerido enquanto que a região que contém a proteína na amostra (B) não será digerida. Essa depleção na atividade digestiva se mostra como um intervalo sem sinal fluorescente, nos resultados da eletroforese (parte de baixo da figura). Fonte: \citep{lodish2007}}{0.7}
+
+% 2.3.2 Imunoprecipitação da Cromatina
+\subsection{Imunoprecipitação da Cromatina}\label{ssec:chip}
+
+% ChIP
+A imunoprecipitação da cromatina (ChIP, do Inglês \emph{Chromatin Immunoprecipitation}) é uma técnica experimental utilizada para investigar as interações entre proteína-DNA na célula. O objetivo é identificar os locais exatos onde proteínas específicas, tais como fatores de transcrição, estão ligadas. Essa técnica também pode ser utilizada para se identificar proteínas com algum tipo de modificação pós traducional, como as modificações nas caudas das histonas.
+
+% Explicação do método - imunoprecipitação
+De forma resumida o método funciona da seguinte forma: primeiramente a célula é quebrada para que se possa acessar o complexo DNA-proteína (cromatina). Esse complexo é clivado através de algum método (como sonicação, raios ultravioleta ou proteínas endonucleases) e os fragmentos contendo a proteína de interesse são extraídos através de imunoprecipitação. Neste método, é utilizado um anticorpo específico para a proteína de interesse para recuperar os complexos DNA-proteína fragmentados (Figura~\ref{park_3_ChIP}). Tais fragmentos possuem tamanho médio de 200 bp, porém isso varia bastante de acordo com a abordagem utilizada.
+
+\figuremacroW{park_3_ChIP}{Esquema do método ChIP}{Este simples esquema exibe as duas possibilidades de aplicação do método de ChIP: proteínas (como elementos regulatórios) ou proteínas modificadas (como histonas). Fonte: \citep{park2009}}{0.7}
+
+% Explicação do método - resultados
+A partir disso, o DNA é purificado e os fragmentos resultantes podem ser determinados através de métodos semelhantes aos descritos para o método de \emph{DNase~I Footprinting} (basicamente, PCR com eletroforese em seguida, com algumas diferenças no tratamento dos complexos). As coordenadas genômicas recuperadas estarão associadas à proteína de interesse. É importante observar que, enquanto no método de \emph{DNase~I Footprinting} as regiões de depleção de digestão de DNase~I são as regiões de interesse, no método de ChIP as regiões enriquecidas são as buscadas. Além disso, vale a pena enfatizar que no método descrito na subseção anterior, os resultados representam, dentro da região onde o método é aplicado, todos os possíveis sítios de ligação DNA-proteína (sem especificar quais são as proteínas que se ligam nestas regiões), enquanto que no método de ChIP, apenas os sítios onde uma proteína de interesse estava ligada são identificados.
+
+% 2.3.3. Motif Matching
+\subsection{Motif Matching}\label{ssec:motifmatching}
+
+% Métodos biológicos tradicionais são low-throughput
+Conforme mencionado anteriormente, ambos \emph{DNase~I Footprinting} e ChIP são métodos com baixo rendimento, isto é, são capazes de analisar apenas um pequeno trecho do genoma a cada rodada. Isso faz com que a aplicação de tais métodos seja financeiramente e tecnicamente custosa. Com a crescente demanda por métodos que consigam analisar o genoma inteiro, algumas abordagens computacionais baseadas em busca por sequência se tornaram bastante comuns. Será descrito o \emph{Motif Matching} (MM), método que se baseia em análises biológicas em primeira mão para a geração de estruturas capazes de serem aplicadas através de meios puramente computacionais, ao longo de todo o genoma e com complexidade que permite sua aplicação em diversos genomas em um curto período de tempo.
+
+\figuremacroW{wasserman_6_MotifMatching}{Método para gerar PWMs}{(a) Sítios de ligação são obtidos experimentalmente e alinhados. (b) Os sítios obtidos contêm boas estimativas sobre a preferência de ligação da proteína em questão, o que pode ser visto através da sequência consenso. (c) A PFM é criada através da contagem de nucleotídeos em cada posição. (d) Uma PWM é criada a partir da PFM através do modelo descrito pelas Equações~\ref{eq:pwm1} e~\ref{eq:pwm2}. (e) Dada uma nova sequência, uma pontuação pode ser avaliada a partir da PWM. (f) Gráficos baseados em entropia (ou \emph{logos}) são representações visuais comuns dessas matrizes de posição. Fonte: \citep{wasserman2004}}{0.75}
+
+% Explicação PFMs
+O algoritmo toma como entrada um genoma (sequência de nucleotídeos) e uma matriz de pontuação, específica por fator a ser estudado, que será definida a seguir (ver esquema completo na Figura~\ref{wasserman_6_MotifMatching}). O primeiro procedimento para gerar tal matriz consiste na obtenção de diversos fragmentos onde o elemento regulatório alvo se liga. Isso pode ser feito através de vários métodos biológicos que fogem ao escopo deste trabalho (\emph{DNase~I Footprinting} e ChIP são alguns deles). De posse desses fragmentos, eles são alinhados e as posições que são importantes para a ligação DNA-proteína são aproximadas. Uma primeira matriz, chamada de matriz de frequência de posição (PFM, do Inglês \emph{Position Frequency Matrix}) \citep{wasserman2004} é criada da seguinte forma: as linhas $ i = \{ A, C, G, T \} $ correspondem a cada um dos 4 nucleotídeos do DNA e as colunas $ j = 1, 2, ..., N $, onde $ N = $ comprimento total do \emph{motif}, correspondem a cada posição deste \emph{motif} alinhado. Cada entrada $X_{ij}$ da matriz corresponde à quantidade de nucleotídeos do tipo $ i $ na posição $ j $ do conjunto de fragmentos alinhados. Quanto mais sequência tivermos obtido inicialmente, mais confiável será essa estimativa da afinidade no DNA para esta proteína específica.
+
+% Explicação PWMs
+A partir de uma PFM, é comum serem criadas representações logarítmicas chamadas matrizes de peso de posição (PWMs, do Inglês \emph{Position Weight Matrices}) ou matrizes de pontuação específica por posição (PSSM, do Inglês \emph{Position-Specific Scoring Matrices}, pronunciada \emph{possums}) \citep{wasserman2004}. PWMs e PSSMs são termos usados como sinônimos neste trabalho, sendo o termo PWM usado com maior frequência. Vários métodos podem ser utilizados para criar PWMs a partir de PFMs. O mais comum consiste no cálculo da probabilidade corrigida $ p(i,j) $ de se encontrar a base $ i $ na posição $ j $, isto é:
+\begin{equation}\label{eq:pwm1}
+    p(i,j) = \frac{ f_{ij} + s(i) }{ N + {\sum\limits _{i^\prime \in \{ A, C, G, T \}}{ \hspace{-0.7cm} s(i^\prime)}} } \hspace{0.2cm}, 
+\end{equation}
+onde $ f_{ij} $ é a frequência da base $ i $ na posição $ j $ e $ s(i) $ é uma função simples de \emph{pseudocounts}. Esta função normalmente gera pequenos valores para evitar probabilidade nula de eventos de ligação raros mas factíveis. Tal função é crucial quando a amostra de sequência de sítios de ligação usada para estimar a PWM é pequena, algo comum. A partir da probabilidade corrigida, as entradas $ W_{ij} $ da PWM podem ser calculadas por:
+\begin{equation}\label{eq:pwm2}
+    W_{ij} = \log_2 \frac{ p(i,j) }{ p(i) } \hspace{0.2cm}, 
+\end{equation}
+ onde $ p(i) $ é a probabilidade geral de fundo do carácter $ i $ (para o \emph{motif}, região ou genoma inteiro).
+
+% Explicação do motif matching
+A partir de uma PWM é possível calcular a probabilidade de ligação, em um genoma, do fator para o qual a PWM foi calculada. Para cada sequência contígua de nucleotídeos do genoma de tamanho $ N $ (comprimento do \emph{motif}), pode ser calculado um \emph{bit score} $ B $. Existem várias formas de se calcular tal pontuação, sendo a mais simples delas a soma de todas as entradas $ W_{ij} $ para todos os nucleotídeos $ i $ da sequência, dadas as coordenadas genômicas $ j $. Isso criará um \emph{ranking} a respeito da probabilidade de ligação do fator em todas as sequências contíguas no genoma. Técnicas estatísticas podem ser aplicadas para determinar qual a pontuação de corte que determinará quais sequências representam sítios de ligação.
+
+% Desvantagens do motif matching
+Versões dessa técnica possuem taxas de acerto bastante razoáveis e suas complexidades computacionais superam bastante a tecnicidade dos métodos puramente biológicos, isto é, o MM é aplicável de forma pangenômica. Entretanto, esta técnica possui desvantagens bem críticas: (1) MM é incapaz de diferenciar sítios de ligação ativos ou inativos, produzindo sempre os mesmos resultados para todas as linhas celulares onde aplicada.  (2) Apesar de serem boas representações, PWMs geralmente são pequenas e degeneradas. Isto se dá pelo fato de que a maioria dos \emph{motifs} possuem comprimentos entre 6 -- 12 bp, com especificidade de ligação (posições onde apenas uma base possui frequência alta) variando, em geral, entre 4 -- 6 bp. Como consequência dos pontos (1) e (2), o número de falsos positivos é extremamente alto. (3) A análise biológica das sequências nos quais os fatores estão ligados faz com que seja difícil a criação de PWMs para todos os fatores possíveis, ainda mais pelo fato de que alguns ainda estão sendo estudados. (4) Alguns fatores se ligam no genoma por intermédio de outros (por exemplo, co-ativadores e co-repressores), de forma que a criação de PWMs para estes fatores é complexa. (5) A acurácia desta técnica depende bastante da forma como a PWM foi criada, do algoritmo utilizado para realizar o MM e método estatístico utilizado para determinar os verdadeiros TFBSs. Tais variáveis podem mudar bastante entre fatores diferentes, tornando o desenho experimental bastante complexo.
+
+% 2.4. Solução Epigenética
+\section{Solução Epigenética}\label{sec:epigenetica}
+
+% Solução epigenética que vêm sendo aplicada
+Os problemas encontrados pelas técnicas computacionais baseadas em busca de sequências de afinidade estão sendo amenizados por novas técnicas que estão atualmente no estado da arte no que concerne a identificação de TFBSs. Tais técnicas utilizam dados epigenéticos para encontrar regiões que contêm sítios de ligação atuantes no momento em que tais dados foram mensurados. Utilizando esta abordagem, é possível criar um mapa consistente dos sítios de ligação presentes em uma determinada linhagem celular ou dadas determinadas condições. De fato, vários estudos estão mostrando que tais mapas geram uma assinatura da cromatina bastante consistente e com múltiplas aplicações em diversos tipos de estudos \citep{barski2007,heintzman2007,hon2009,ramsey2010,shu2011}.
+
+% Epigenética reduz o espaço de busca
+O sucesso da utilização de características epigenéticas é explicado através da hipótese da cromatina descondensada/condensada. Em algumas regiões, a cromatina se encontra em um estado altamente condensado (enovelado), formando uma estrutura compacta que impede o acesso da maquinaria regulatória (e de fatores trans-atuantes) às regiões cis-regulatórias. Entretanto, em outras regiões, a cromatina é encontrada em um estado menos enovelado, formando estruturas mais permissivas à ligação de proteínas. Fatores epigenéticos, como as modificações pós-traducionais nas caudas das histonas, estão sendo diretamente relacionadas a mecanismos de abertura ou fechamento da cromatina. Sabendo que os fatores de transcrição se ligam preferencialmente em regiões mais permissivas, a utilização de características epigenéticas, como as modificações de histonas, faz com que o espaço de busca por sítios de ligação ativos possa ser reduzido. Tal delineamento epigenético das regiões mais prováveis de conter um sítio de ligação ativo consiste não só em uma abordagem com fundamentos biológicos concretos, como facilita a aplicação de metodologias computacionais (tais como o \emph{motif matching}).
+
+% Epigenética - genética vs. epigenética
+O termo \emph{epigenética} tem origem na observação de padrões de hereditariedade não-Mendelianos em vários organismos. Mutações Mendelianas clássicas resultam de diferenças nos alelos causadas por variações de diversos tipos na estrutura de DNA, que coletivamente definem os tratos fenotípicos e contribuem para a determinação das fronteiras entre as espécies. É bastante evidente que tais fronteiras sofrem pressão da seleção natural. Em contraste, estão fenômenos tais como a variação do crescimento embrionário, alterações de coloração por mosaico genético, inativação aleatória do cromossomo X, paramutação em plantas e vários outros, que podem se manifestar, por exemplo, da expressão de apenas um (dos dois) alelo \citep{allis2007}.
+
+% Epigenética - definição
+A partir da discussão realizada, epigenética pode ser definida como o estudo das variações hereditárias na expressão gênica ou fenótipo celular causadas por outros motivos que não as variações na sequência de nucleotídeos do DNA. A partícula \emph{epi-} do grego, significa sobre, acima, exterior. Em resumo, esse termo se refere às modificações funcionais relevantes para o genoma que não envolvem uma mudança na sequência de DNA. Evidências conclusivas que suportam as hipóteses epigenéticas mostram que esses mecanismos habilitam a transferência de \emph{experiências} entre gerações. De forma relacionada, esses eventos ainda seriam capazes de explicar as variações que ocorrem entre, por exemplo, gêmeos univitelinos.
+
+% Epigenética - a seguir
+Vários elementos podem compor as variações englobadas pela epigenética, entre eles estão as modificações pós-traducionais nas caudas das histonas e as histonas variantes, utilizadas neste trabalho. Além disso, neste projeto de pesquisa assumiu-se como verdadeira a hipótese do DNA aberto/fechado. Nas subseções a seguir serão definidos brevemente tais conceitos e também serão detalhados os métodos que possibilitam a obtenção de dados epigenéticos.
+
+% 2.4.1. Conceitos e Elementos Epigenéticos
+\subsection{Conceitos e Elementos Epigenéticos}\label{ssec:elementosepigen}
+
+% Epigenética - DNA aberto e fechado
+Anteriormente foram definidos dois estados em que regiões da cromatina podem se apresentar: heterocromatina -- estado de cromatina condensada, e eucromatina -- estado de cromatina descondensada. Entretanto, estudos recentes sugerem que exista um espectro de estados da cromatina, sendo esta uma macromolécula com estrutura bastante dinâmica, propensa a remodelações e reestruturações à medida que recebe entradas relevantes das vias de sinalização. Esses diversos estados em que a cromatina se apresenta fornecem dicas importantes sobre as interações proteína-DNA que ocorrem em vizinhanças distintas.
+
+% Epigenética - elementos epigenéticos
+A estrutura macromolecular da cromatina, bem como efeitos de ordens mais baixas como a disposição dos nucleossomos, pode ser alterada por fatores cis, fatores trans ou substituições de elementos do nucleossomo. A Figura~\ref{allis_1_EpigeneticElements_v2} sumariza os principais elementos epigenéticos. Nela estão representados: (1) Modificações pós-traducionais de aminoácidos na cauda das histonas; (2) Remodelamento da cromatina através de processos dependentes de energia (ATP) que modificam o posicionamento dos nucleossomos; (3) A inserção ou remoção de histonas variantes; (4) Atuação de pequenos ncRNAs; (5) Metilação do DNA, geralmente em dinucleotídeos CpG fora de ilhas (definidas na Seção~\ref{sssec:nucleopromotor}). Neste trabalho será dado foco apenas às modificações das histonas.
+
+\vspace{0.6cm}
+\figuremacroW{allis_1_EpigeneticElements_v2}{Elementos epigenéticos}{Um esquema sumarizando os principais elementos epigenéticos. O objetivo desta figura é meramente ilustrativo e não representa toda a extensão da epigenética nem um esquema funcional de como tais elementos ocorrem. Fonte: \citep{allis2007}}{0.75}
+\vspace{0.3cm}
+
+% Modificações de histonas
+Um dos fatores mais estudados é a modificação pós-traducional na cauda das histonas. As caudas das histonas podem sofrer modificações químicas em aminoácidos específicos. Entre essas modificações estão a fosforilação, acetilação, metilação e ubiquitinação. Essas modificações possuem uma nomenclatura específica, seguindo a ordem: tipo da histona, aminoácido que sofre a modificação e tipo de modificação \citep{allis2007}. Por exemplo, H3K4me2 se refere à dimetilação (me2) da lisina na posição 4 (K4) na cauda da histona H3. A Fig~\ref{felsenfeld_3_HistoneModifications} mostra um mapa das principais modificações de histonas observadas até o momento.
+
+\figuremacroW{felsenfeld_3_HistoneModifications}{Modificações de histonas}{Esquema gráfico representando as principais modificações de histonas detectadas até o presente momento. Fonte: \citep{felsenfeld2003}}{0.8}
+
+% Modificações de histonas - função
+O estudo mais aprofundado das modificações nas histonas e histonas variantes (neste texto, a nomenclatura será ocasionalmente extrapolada, sendo ambas chamadas de \emph{modificações de histonas}) têm permitido maior entendimento sobre o impacto das mesmas na estrutura da cromatina e na expressão gênica \citep{grant2001,spivakov2007}. Alguns exemplos mais conhecidos são descritos na Tabela~\ref{tab:histfunc}. Os padrões gerais de metilação e de acetilação são analisados com mais detalhes em \citep{barski2007} e \citep{ramsey2010}, respectivamente. Por fim, algumas funções para modificações específicas ainda estão sendo estudadas, como por exemplo a modificação H3K27ac, que parece ser capaz de separar regiões amplificadoras ativas de regiões estacionárias \citep{creyghton2010}.
+
+\vspace{0.2cm}
+\begin{table}[h!]
+\vspace{0.0cm}
+\begin{center}
+\caption[Impacto das modificações de histonas na estrutura da cromatina e expressão gênica]{{\bf Impacto das modificações de histonas na estrutura da cromatina e expressão gênica.} Fonte: \citep{allis2007}}
+    \renewcommand{\arraystretch}{1.2}
+    \begin{tabular}{ll}
+        \hline
+            \bf{Modificação} & \bf{Impacto} \\       
+        \hline
+            H2A.Z & Suspensão dos genes para a iniciação da transcrição e prevenção de \\
+                  & silenciamento da eucromatina. \\
+        \hline
+            H3K4me1 & Ativação de transcrição. Relações com amplificadores foram \\
+                    & identificadas. \\
+        \hline
+            H3K4me2 & Eucromatina permissiva e ativação de transcrição. \\
+        \hline
+            H3K4me3 & Eucromatina permissiva. Regiões de ponto de início da transcrição de \\
+                    & genes que são transcricionalmente iniciados, mas não necessariamente \\
+                    & completamente transcritos. \\
+        \hline
+            H3K9ac & Ativação da transcrição e deposição de histonas. \\
+        \hline
+            H3K9me1 & Silenciamento e repressão da transcrição. \\
+        \hline
+            H3K9me3 & Altamente enriquecida em gene inativos. Relações com metilação no \\
+                    & DNA foram identificadas. \\
+        \hline
+            H3K27ac & Ativação da transcrição. Relações com amplificadores foram \\
+                    & identificadas. \\
+        \hline
+            H3K27me3 & Inibição da transcrição. \\
+        \hline
+            H3K36me3 & Associada a regiões transcritas. No corpo gênico, evita o início da \\
+                     & transcrição em locais aberrantes. \\
+        \hline
+            H3K79me2 & Alongamento da transcrição e ponto de verificação crítico no controle \\
+                     & transcricional. \\
+        \hline
+            H4K20me1 & Heterocromatina e silenciamento da transcrição. \\
+        \hline
+        \label{tab:histfunc}
+    \end{tabular}
+\end{center}
+\vspace{0.0cm}
+\end{table}
+\vspace{-0.8cm}
+
+% Modificações de histonas - ativadoras
+Entre as modificações mostradas, a H2A.Z, H3K4me2, H3K4me3 e H3K9ac parecem exibir forte capacidade de separar regiões de cromatina descondensada e condensada, como evidenciado em \citep{hon2009,won2010} e nos estudos realizados internamente (mais detalhes na Seção~\ref{sec:ressinaisepi}). Por esta razão, neste estudo tais modificações nas histonas serão chamadas de modificações ativadoras, sendo as análises posteriores focadas neste grupo de modificações.
+
+% 2.4.2. Métodos de Obtenção de Dados Epigenéticos
+\subsection{Métodos de Obtenção de Dados Epigenéticos}\label{ssec:metodosepigeneticos}
+
+% Sequenciamento de próxima geração permite adaptação de métodos tradicionais
+Sequenciamento de próxima geração (\emph{Next-Generation Sequencing}) tem proporcionado meios para se realizar métodos biológicos tradicionais, baseados em eletroforese ou outra técnica de baixo rendimento, de forma pangenômica (isto é, com alto rendimento). A ideia básica consiste em substituir os procedimentos de baixo rendimento para obtenção das sequências de interesse (como a eletroforese para os métodos descritos nas Seções~\ref{ssec:dnasefootprinting} e~\ref{ssec:chip}) por técnicas de sequenciamento de alto desempenho.
+
+% Explicação de sequenciamento de próxima geração
+Existem várias técnicas de sequenciamento de alto desempenho, propostas por diferentes plataformas que comercializam seus sequenciadores. Entre elas estão: (1) sequenciamento massivo paralelo de assinaturas (MPSS, do Inglês \emph{Massively Parallel Signature Sequencing}), que baseia-se em \emph{esferas} e utiliza uma complexa abordagem de ligação e decodificação de adaptadores; (2) pirosequenciamento, que utiliza PCR de emulsão para amplificação e reação de DNA nascente com luciferase para identificar picos luminosos em rodadas revezadas de adição de nucleotídeos; (3) sequenciamento Illumina (Solexa), com amplificação via ponte e identificação de sequências via fotografias de nucleotídeos com rótulos fluorescentes. Esses são apenas alguns exemplos de uma quantidade imensa de técnicas. Cada método tradicional é adaptado mais facilmente com um subconjunto dessas técnicas, porém tais detalhes não serão abordados.
+
+% DNase-seq
+O método de DNase-seq \citep{crawford2004,song2010} consiste na digestão de sequências de DNA com a enzima DNase~I (conforme detalhado na Seção~\ref{ssec:dnasefootprinting}) e posterior identificação dos trechos através de sequenciamento de alto desempenho. Algumas etapas adicionais de tratamento de sequência são necessários, porém eles não adicionam graus muito mais elevados de tecnicidade ao método. A maior vantagem de tal abordagem se dá pelo fato de que agora é possível realizar o método de \emph{DNase~I Footprinting} ao longo de todo o genoma, obtendo resultados com alta resolução (na ordem de pares de bases) e acurados \citep{boyle2008a,boyle2011}. Através deste método é possível medir locais onde a cromatina estava acessível, ou regiões hipersensíveis à DNase~I. Além disso, é possível identificar regiões específicas onde proteínas estão ligadas ao DNA, porém sem especificar quais proteínas são estas.
+
+% ChIP-seq
+O método de ChIP-seq \citep{park2009} consiste na realização do procedimento de imunoprecipitação da cromatina (ChIP -- conforme detalhado na Seção~\ref{ssec:chip}) e posterior identificação das regiões enriquecidas para o tipo específico de proteína através de sequenciamento de alto desempenho. Assim como no método de DNase-seq, algumas etapas adicionais são necessárias entre as etapas mencionadas. Tal método é capaz de identificar, com boa resolução, regiões onde proteínas específicas se ligam no DNA. É importante observar que o método de ChIP-seq, por si só, já é capaz de identificar TFBSs com uma acurácia bastante alta, mas apenas para o caso de fatores de transcrição onde anticorpos que tenham alta afinidade de ligação com a proteína estejam disponíveis, o que se aplica apenas a um fração dos fatores de transcrição conhecidos. Em estudos onde é necessária a identificação dos sítios de ligação de uma pequena quantidade de fatores, tal método, quando disponível, representa a melhor opção atualmente. Porém, estudos atuais estão focando na identificação de assinaturas celulares, isto é, eles pretendem identificar o maior número de TFBSs possível, para todos os fatores existentes. Em tais estudos, a aplicação de ChIP-seq é bastante complexa pois um experimento completo teria que ser realizado para todos os fatores que se tem conhecimento (ou para um grande número destes), processo que é altamente custoso e técnico. Porém, tal método também é capaz de identificar fatores epigenéticos como as modificações de histonas, o que fornece dados interessantes para direcionar a identificação total de TFBSs sem que um grande número de experimentos seja conduzido.
+
+% 2.4.3. Geração de Sinais
+\subsection{Geração de Sinais}\label{ssec:geracaosinais}
+
+% Alinhamento dos reads
+Os métodos descritos na Seção~\ref{ssec:metodosepigeneticos} resultam em diversas sequências de nucleotídeos dos locais recuperados. As tecnologias de sequenciamento de alto desempenho geralmente sequenciam apenas um pequeno número de bases a partir da posição $5^\prime$. O próximo passo então consiste em alinhar os fragmentos obtidos no genoma. Nesta etapa, alguns filtros podem ser impostos. É comum, por exemplo, descartar regiões que alinharam de forma significativa em 4 ou mais locais, devido a problemas gerados por regiões repetitivas. Alguns estudos também removem regiões onde vários fragmentos foram perfeitamente alinhados sem que qualquer fragmento tenha alinhado com regiões vizinhas, para excluir problemas devido à amplificação indevida ou outras fases específicas da técnica de sequenciamento utilizada \citep{boyle2008b,zhang2008}.
+
+% Contagem dos reads alinhados
+A partir das sequências (em Inglês, \emph{reads}) alinhadas, podemos calcular um sinal genômico. Tal sinal consiste na simples contagem de quantos fragmentos se sobrepuseram em cada bp do genoma. A Figura~\ref{park_8_GenomicSignals} mostra duas abordagens comumente utilizadas. Na primeira, são considerados os \emph{reads} inteiros provenientes tanto da fita senso quanto da anti-senso. Isso gera picos bimodais, que podem ser utilizados de forma diferenciada ou igualitária. Na segunda abordagem, os \emph{reads} são estendidos englobando todo o trecho onde o fator de interesse esteve presente, gerando apenas um pico onde as regiões mais altas representariam os trechos enriquecidos \citep{park2009}.
+
+\vspace{-0.6cm}
+\figuremacroW{park_8_GenomicSignals}{Geração de Sinais Genômicos}{O esquema mostra duas abordagens possíveis (entre diversas abordagens existentes): No primeiro caso o sinal é gerado a partir dos fragmentos originais que foram sequenciados (o tamanho varia de acordo com o método de sequenciamento utilizado). No segundo caso, o fragmento é modificado (neste caso estendido) para atender a algumas características técnicas, como o fato de que os fragmentos obtidos através de ChIP têm, em média, 200 bp (muito maior do que os fragmentos sequenciados). Fonte: \citep{park2009}}{0.58}
+
+% Enriquecimento vs. depleção
+A Figura~\ref{park_8_GenomicSignals} representa a geração de sinais genômicos para o método ChIP-seq. Algumas particularidades a respeito dos métodos DNase-seq e ChIP-seq serão explorados na seção onde os métodos deste estudo são detalhados. Por ora, apresenta-se apenas o fato de que é comum gerar sinais epigenéticos com esses dois métodos de forma que a representação das regiões enriquecidas seja bem diferente. No caso do DNase-seq, é comum considerar apenas o bp da extremidade $5^\prime$ para gerar os sinais. Foi demonstrado que com tal abordagem, as regiões de TFBSs são representadas como trechos de depleção de sinal, após trechos de picos \citep{boyle2011}. Esse sinal é dito possuir alta resolução pois como apenas um bp foi utilizado para calcular as sobreposições, os sinais tendem a mostrar regiões bastante específicas, delineando picos bem claros das regiões exatas onde a DNase~I digeriu o DNA. No caso do ChIP-seq o sinal possui uma resolução um pouco mais baixa, já que é comum que os fragmentos sequenciados e alinhados sejam estendidos até o tamanho médio dos fragmentos obtidos através do método de ChIP. Consequentemente, a proteína de interesse poderia estar ligada em quase toda a região estendida. Nesse caso, que se assemelha à segunda abordagem descrita anteriormente, as regiões enriquecidas seriam representadas como picos, estando a proteína de interesse, ligada em alguma região dentro destes picos.
+
+% 2.5. Revisão da Literatura
+\section{Revisão da Literatura}\label{sec:revisaoliteratura}
+
+% Boyle
+Este projeto é parcialmente baseado em um estudo recente por Boyle et al., onde várias propriedades relativas aos resultados do DNase-seq foram discutidas e TFBSs foram preditos utilizando dados de DNase-seq e um modelo probabilístico \citep{boyle2011}. Dois resultados em especial são interessantes. Primeiro, foi demonstrado que as regiões de depleção em sinais gerados a partir de DNase-seq são ótimos preditores de regiões de TFBSs. Análises estatísticas mostram que a significância de tais regiões está bastante relacionada com o nível de enriquecimento de técnicas para fatores específicos como ChIP-seq ou com pontuações de técnicas como MM. Outra parte do estudo consistiu na criação de um modelo escondido de Markov simples univariado para a identificação automática de regiões de TFBSs a partir dos sinais de digestão de DNase~I. Este estudo foi replicado e várias características, como o conjunto de validação, foi seguido de forma idêntica, para permitir uma comparação com máxima precisão.
+
+% Crawford, Song e He
+Outros estudos que se baseiam em DNase foram publicados \citep{boyle2008a,crawford2004,crawford2006a,crawford2006b,he2012,song2010,song2011b}. Crawford et al. \citep{crawford2004} utilizaram padrões de digestão de DNase~I para recuperar regiões hipersensíveis e mostrou que essas regiões são bons preditores de sítios de ligação ativos no estado corrente da célula. Tal técnica serve como hipótese central para diversos outros estudos baseados na identificação específica de tais regiões. A partir do sucesso de tal protocolo, ele foi devidamente formalizado em Song e Crawford \citep{song2010}. Mais recentemente, estudos como He et al. \citep{he2012} estão mostrando, através de padrões em regiões de hipersensibilidade à DNase~I, que as estruturas da cromatina realmente são bastante variáveis, por uma grande quantidade de características, e além de específicos por célula, parecem ser específicos por elementos regulatórios ou módulos regulatórios.
+
+% Won e Pique-Regi
+Em relação à abordagens mais integrativas, isto é, que utilizaram várias fontes de dados epigenéticas em um só modelo (assumindo dependência ou não), alguns algoritmos provaram ser mais eficazes do que aqueles baseados apenas em DNase-seq \citep{whitington2009,ernst2010,won2010,pique2011,cuellar2012}. Talvez o método mais simples entre as abordagens integrativas seja a busca por ocorrências de um \emph{motif} específico utilizando filtros determinísticos baseados em modificações de histonas \citep{whitington2009}. Vários outros métodos integrativos foram propostos, de forma a combinar \emph{motifs} no DNA com informações a respeito da estrutura da cromatina \citep{ernst2010,won2010}. Pique-Regi et al. \citep{pique2011}, criaram um modelo bem utilizado chamado CENTIPEDE, que utiliza um modelo de mistura Bayesiana hierárquico que incorpora informações sobre a sequência de DNA, a conservação evolucionária, a distância do sítio de início de transcrição (TSS), hipersensibilidade à DNase~I e marcas de histona ativadoras e repressoras.
+
+% Cuellar-Partida
+Ainda a respeito dos modelos integrativos, Cuellar-Partida et al. \citep{cuellar2012} combinaram dados relativos às modificações de histonas H3K4me1, H3K4me3, H3K9ac, H3K27ac e digestão de DNase~I para criar um modelo Bayesiano simples, baseado em razões logarítmicas de probabilidade posterior. Foi mostrado que este modelo simples consegue melhorar o desempenho em relação a modelos mais complexos como o CENTIPEDE ou os modelos propostos em \citep{whitington2009,ernst2010,won2010}. Consideramos a validação realizada por estes estudos levemente divergentes da metodologia do Boyle et al. \citep{boyle2011}, não possibilitando a comparação direta.
+
+% Barski, Heintzman, Hon e Ramsey
+Finalmente, pesquisas recentes têm focado na busca por padrões epigenéticos (tais como as modificações de histonas) em diferentes linhas celulares, condições e padrões de expressão. De fato, diversos estudos mostram claras assinaturas da cromatina e sugeriram a aplicação de tais padrões em diversos problemas, incluindo a predição de sítios de ligação \citep{barski2007,heintzman2007,hon2009,ramsey2010}. Estudos que comparam as diferentes fontes de dados epigenéticas também são interessantes e elucidam várias questões sobre a dependência de uma sobre outra \citep{shu2011}.
+
+% 2.6. Considerações Finais
+\section{Considerações Finais}\label{sec:cfcap2}
+
+% Considerações finais
+Neste capítulo, foi realizada uma revisão sobre os principais conceitos de Biologia Molecular, Genética, epigenética e regulação gênica. A partir desse conhecimento, o problema de identificação de sítios de ligação de fatores de transcrição foi delineado, deixando bem claras as fronteiras e níveis de dificuldade diferentes em diversas abordagens do problema. Foi mostrado que sinais epigenéticos estão sendo utilizados para melhorar a predição de TFBSs e que sequenciamento de próxima geração permite a mensuração de tais dados de forma pangenômica. Por fim, uma discussão sobre os estudos situados no estado da arte foi realizada, apontando as semelhanças e diferenças com a forma como o problema será abordado neste projeto de pesquisa.

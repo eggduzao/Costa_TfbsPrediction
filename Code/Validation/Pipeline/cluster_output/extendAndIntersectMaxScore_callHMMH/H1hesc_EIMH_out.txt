@@ -1,0 +1,40 @@
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 29635059: <H1hesc_EIMH> in cluster <rcc> Done
+
+Job <H1hesc_EIMH> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Mon Jun 27 14:21:17 2016
+Results reported on Mon Jun 27 14:29:23 2016
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results_DNase/Footprints/Results/H1hesc/TCH_DU.bed /hpcwork/izkf/projects/TfbsPrediction/Results_DNase/Footprints/Predictions/H1hesc/H-HMM_D13_DU.bed /hpcwork/izkf/projects/TfbsPrediction/Results_DNase/Footprints/Results/H1hesc/HINT_H13_DU.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   475.08 sec.
+    Max Memory :                                 9242 MB
+    Average Memory :                             3952.56 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               2758.00 MB
+    Max Swap :                                   -
+    Max Processes :                              9
+    Max Threads :                                10
+    Run time :                                   484 sec.
+    Turnaround time :                            538 sec.
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <H1hesc_EIMH_err.txt> for stderr output of this job.
+

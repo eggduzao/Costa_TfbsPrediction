@@ -1,0 +1,481 @@
+Sender: LSF System <lsfadmin@linuxbmc0225>
+Subject: Job 20089296: <ENF> in cluster <rcc> Done
+
+Job <ENF> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0225>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/StatisticalTests/KmerBias> was used as the working directory.
+Started at Wed Jan 21 15:36:09 2015
+Results reported on Wed Jan 21 15:39:09 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./evaluateNormFactor_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Data/DNase/Huvec/DNase.bam /hpcwork/izkf/projects/TfbsPrediction/Data/DNase/Huvec/DNasePeaks.bed /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/StatisticalTests/KmerBias/NormFactor/DNase_Huvec_norm.txt
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   191.87 sec.
+    Max Memory :                                 836 MB
+    Average Memory :                             384.33 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11164.00 MB
+    Max Processes :                              5
+    Max Threads :                                6
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <ENF_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0225>
+Subject: Job 20089295: <ENF> in cluster <rcc> Done
+
+Job <ENF> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0225>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/StatisticalTests/KmerBias> was used as the working directory.
+Started at Wed Jan 21 15:36:09 2015
+Results reported on Wed Jan 21 15:39:09 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./evaluateNormFactor_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Data/DNase/HepG2/DNase.bam /hpcwork/izkf/projects/TfbsPrediction/Data/DNase/HepG2/DNasePeaks.bed /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/StatisticalTests/KmerBias/NormFactor/DNase_HepG2_norm.txt
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   193.35 sec.
+    Max Memory :                                 1362 MB
+    Average Memory :                             609.33 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               10638.00 MB
+    Max Processes :                              5
+    Max Threads :                                6
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <ENF_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0225>
+Subject: Job 20089294: <ENF> in cluster <rcc> Done
+
+Job <ENF> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0225>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/StatisticalTests/KmerBias> was used as the working directory.
+Started at Wed Jan 21 15:36:09 2015
+Results reported on Wed Jan 21 15:39:41 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./evaluateNormFactor_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Data/DNase/HeLaS3/DNase.bam /hpcwork/izkf/projects/TfbsPrediction/Data/DNase/HeLaS3/DNasePeaks.bed /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/StatisticalTests/KmerBias/NormFactor/DNase_HeLaS3_norm.txt
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   206.14 sec.
+    Max Memory :                                 1451 MB
+    Average Memory :                             541.33 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               10549.00 MB
+    Max Processes :                              5
+    Max Threads :                                6
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <ENF_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxnc119>
+Subject: Job 20089300: <ENF> in cluster <rcc> Done
+
+Job <ENF> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxnc119>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/StatisticalTests/KmerBias> was used as the working directory.
+Started at Wed Jan 21 15:36:08 2015
+Results reported on Wed Jan 21 15:43:17 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./evaluateNormFactor_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Data/DNaseUW/K562/DNase.bam /hpcwork/izkf/projects/TfbsPrediction/Data/DNaseUW/K562/DNasePeaks.bed /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/StatisticalTests/KmerBias/NormFactor/DNaseUW_K562_norm.txt
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   457.36 sec.
+    Max Memory :                                 3999 MB
+    Average Memory :                             1558.75 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               8001.00 MB
+    Max Processes :                              5
+    Max Threads :                                6
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <ENF_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0225>
+Subject: Job 20089293: <ENF> in cluster <rcc> Done
+
+Job <ENF> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0225>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/StatisticalTests/KmerBias> was used as the working directory.
+Started at Wed Jan 21 15:36:09 2015
+Results reported on Wed Jan 21 15:44:11 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./evaluateNormFactor_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Data/DNase/H1hesc/DNase.bam /hpcwork/izkf/projects/TfbsPrediction/Data/DNase/H1hesc/DNasePeaks.bed /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/StatisticalTests/KmerBias/NormFactor/DNase_H1hesc_norm.txt
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   512.04 sec.
+    Max Memory :                                 3257 MB
+    Average Memory :                             1336.50 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               8743.00 MB
+    Max Processes :                              5
+    Max Threads :                                6
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <ENF_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxnc070>
+Subject: Job 20089298: <ENF> in cluster <rcc> Done
+
+Job <ENF> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxnc070>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/StatisticalTests/KmerBias> was used as the working directory.
+Started at Wed Jan 21 15:36:08 2015
+Results reported on Wed Jan 21 15:45:16 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./evaluateNormFactor_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Data/DNaseUW/HepG2/DNase.bam /hpcwork/izkf/projects/TfbsPrediction/Data/DNaseUW/HepG2/DNasePeaks.bed /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/StatisticalTests/KmerBias/NormFactor/DNaseUW_HepG2_norm.txt
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   579.09 sec.
+    Max Memory :                                 4761 MB
+    Average Memory :                             2013.90 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               7239.00 MB
+    Max Processes :                              5
+    Max Threads :                                6
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <ENF_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxnc116>
+Subject: Job 20089299: <ENF> in cluster <rcc> Done
+
+Job <ENF> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxnc116>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/StatisticalTests/KmerBias> was used as the working directory.
+Started at Wed Jan 21 15:36:08 2015
+Results reported on Wed Jan 21 15:50:17 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./evaluateNormFactor_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Data/DNaseUW/Huvec/DNase.bam /hpcwork/izkf/projects/TfbsPrediction/Data/DNaseUW/Huvec/DNasePeaks.bed /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/StatisticalTests/KmerBias/NormFactor/DNaseUW_Huvec_norm.txt
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   895.51 sec.
+    Max Memory :                                 12000 MB
+    Average Memory :                             7271.29 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               0.00 MB
+    Max Processes :                              5
+    Max Threads :                                6
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <ENF_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0057>
+Subject: Job 20089297: <ENF> in cluster <rcc> Done
+
+Job <ENF> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0057>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/StatisticalTests/KmerBias> was used as the working directory.
+Started at Wed Jan 21 15:36:08 2015
+Results reported on Wed Jan 21 15:50:34 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./evaluateNormFactor_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Data/DNase/K562/DNase.bam /hpcwork/izkf/projects/TfbsPrediction/Data/DNase/K562/DNasePeaks.bed /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/StatisticalTests/KmerBias/NormFactor/DNase_K562_norm.txt
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   962.14 sec.
+    Max Memory :                                 10667 MB
+    Average Memory :                             4429.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               1333.00 MB
+    Max Processes :                              5
+    Max Threads :                                6
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <ENF_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 21615796: <ENF> in cluster <rcc> Done
+
+Job <ENF> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/StatisticalTests/KmerBias> was used as the working directory.
+Started at Mon May 18 16:34:13 2015
+Results reported on Mon May 18 16:35:20 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./evaluateNormFactor_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Data/NatMetReply/IMR90/DNase.bam /hpcwork/izkf/projects/TfbsPrediction/Data/NatMetReply/IMR90/DNasePeaks.bed /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/StatisticalTests/KmerBias/NormFactor/DNaseND_IMR90_norm.txt
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   36.48 sec.
+    Max Memory :                                 28 MB
+    Average Memory :                             25.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11972.00 MB
+    Max Processes :                              5
+    Max Threads :                                6
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <ENF_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 21616244: <ENF> in cluster <rcc> Done
+
+Job <ENF> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/StatisticalTests/KmerBias> was used as the working directory.
+Started at Mon May 18 18:40:16 2015
+Results reported on Mon May 18 18:45:37 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./evaluateNormFactor_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Data/DNase/Mcf7/DNase.bam /hpcwork/izkf/projects/TfbsPrediction/Data/DNase/Mcf7/DNasePeaks.bed /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/StatisticalTests/KmerBias/NormFactor/DNase_Mcf7_norm.txt
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   290.70 sec.
+    Max Memory :                                 1109 MB
+    Average Memory :                             230.60 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               10891.00 MB
+    Max Processes :                              5
+    Max Threads :                                6
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <ENF_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 21616247: <ENF> in cluster <rcc> Done
+
+Job <ENF> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/StatisticalTests/KmerBias> was used as the working directory.
+Started at Mon May 18 18:40:16 2015
+Results reported on Mon May 18 18:49:58 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./evaluateNormFactor_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Data/DNaseUW/m3134_with_DEX/DNase.bam /hpcwork/izkf/projects/TfbsPrediction/Data/DNaseUW/m3134_with_DEX/DNasePeaks.bed /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/StatisticalTests/KmerBias/NormFactor/DNaseUW_m3134_with_DEX_norm.txt
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   585.92 sec.
+    Max Memory :                                 4157 MB
+    Average Memory :                             1996.89 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               7843.00 MB
+    Max Processes :                              5
+    Max Threads :                                6
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <ENF_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 21616248: <ENF> in cluster <rcc> Done
+
+Job <ENF> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/StatisticalTests/KmerBias> was used as the working directory.
+Started at Mon May 18 18:40:16 2015
+Results reported on Mon May 18 18:49:59 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./evaluateNormFactor_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Data/DNaseUW/m3134_wo_DEX/DNase.bam /hpcwork/izkf/projects/TfbsPrediction/Data/DNaseUW/m3134_wo_DEX/DNasePeaks.bed /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/StatisticalTests/KmerBias/NormFactor/DNaseUW_m3134_wo_DEX_norm.txt
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   572.76 sec.
+    Max Memory :                                 1401 MB
+    Average Memory :                             241.56 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               10599.00 MB
+    Max Processes :                              5
+    Max Threads :                                6
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <ENF_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 21616245: <ENF> in cluster <rcc> Done
+
+Job <ENF> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/StatisticalTests/KmerBias> was used as the working directory.
+Started at Mon May 18 18:40:16 2015
+Results reported on Mon May 18 18:55:08 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./evaluateNormFactor_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Data/DNaseUW/LnCaP/DNase.bam /hpcwork/izkf/projects/TfbsPrediction/Data/DNaseUW/LnCaP/DNasePeaks.bed /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/StatisticalTests/KmerBias/NormFactor/DNaseUW_LnCaP_norm.txt
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   925.12 sec.
+    Max Memory :                                 1265 MB
+    Average Memory :                             244.21 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               10735.00 MB
+    Max Processes :                              5
+    Max Threads :                                6
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <ENF_err.txt> for stderr output of this job.
+

@@ -1,0 +1,37 @@
+Sender: LSF System <lsfadmin@linuxbmc0114>
+Subject: Job 24612405: <K562_SOX9_ACP> in cluster <rcc> Done
+
+Job <K562_SOX9_ACP> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0114>, in queue <low>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Wed Oct 28 22:04:38 2015
+Results reported on Thu Oct 29 02:56:26 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyCuellar_pipeline.zsh SOX9 0.00001 /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/ExpressionValidation/MPBS/MEME/SOX9.meme /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/DU_K562/Cuellar/DNase_prior.bw /hpcwork/izkf/projects/TfbsPrediction/Data/HG19/ /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/K562/Cuellar_batch/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   17999.45 sec.
+    Max Memory :                                 3086 MB
+    Average Memory :                             1549.84 MB
+    Total Requested Memory :                     8192.00 MB
+    Delta Memory :                               5106.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <K562_SOX9_ACP_err.txt> for stderr output of this job.
+

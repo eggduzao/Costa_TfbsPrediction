@@ -1,0 +1,37 @@
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 24910400: <K562_EJUNB_PROT> in cluster <rcc> Done
+
+Job <K562_EJUNB_PROT> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Fri Nov 13 16:19:48 2015
+Results reported on Fri Nov 13 19:48:10 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyProtection_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/EJUNB.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/DU_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/Protection/EJUNB.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   19961.08 sec.
+    Max Memory :                                 115 MB
+    Average Memory :                             75.75 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11885.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <K562_EJUNB_PROT_err.txt> for stderr output of this job.
+

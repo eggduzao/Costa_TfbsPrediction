@@ -1,0 +1,38 @@
+Sender: LSF System <lsfadmin@linuxbmc0067>
+Subject: Job 22548948: <DU_K562_USF2_AFM2> in cluster <rcc> Done
+
+Job <DU_K562_USF2_AFM2> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0067>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Sat Jun 20 11:37:41 2015
+Results reported on Sun Jun 21 00:46:02 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyFootprintMixture2_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/USF2.bed /hpcwork/izkf/projects/TfbsPrediction/Data/DNase/K562/DNasePeaks.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/DU_K562/FootprintMixture/USF2_CUT.txt /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/DU_K562/FootprintMixture/USF2_SEQ.fa /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FootprintMixture2_DU/USF2.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   49686.55 sec.
+    Max Memory :                                 2945 MB
+    Average Memory :                             2475.69 MB
+    Total Requested Memory :                     48000.00 MB
+    Delta Memory :                               45055.00 MB
+    Max Swap :                                   2 MB
+    Max Processes :                              11
+    Max Threads :                                12
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <DU_K562_USF2_AFM2_err.txt> for stderr output of this job.
+

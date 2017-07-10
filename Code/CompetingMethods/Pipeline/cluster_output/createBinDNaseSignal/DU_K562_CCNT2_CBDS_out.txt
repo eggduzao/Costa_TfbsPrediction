@@ -1,0 +1,37 @@
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 24379154: <DU_K562_CCNT2_CBDS> in cluster <rcc> Done
+
+Job <DU_K562_CCNT2_CBDS> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Oct 12 19:54:07 2015
+Results reported on Mon Oct 12 20:12:23 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./createBinDNaseSignal_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/CCNT2.bed /hpcwork/izkf/projects/TfbsPrediction/Data/DNase_DU/K562/DNase.bam /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/DU_K562/BinDNase/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   1159.84 sec.
+    Max Memory :                                 908 MB
+    Average Memory :                             469.31 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11092.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <DU_K562_CCNT2_CBDS_err.txt> for stderr output of this job.
+

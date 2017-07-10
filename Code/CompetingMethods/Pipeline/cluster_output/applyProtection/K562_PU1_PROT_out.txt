@@ -1,0 +1,37 @@
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 24910382: <K562_PU1_PROT> in cluster <rcc> Done
+
+Job <K562_PU1_PROT> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Fri Nov 13 12:42:32 2015
+Results reported on Fri Nov 13 22:23:37 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyProtection_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/PU1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/DU_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/Protection/PU1.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   54005.68 sec.
+    Max Memory :                                 269 MB
+    Average Memory :                             162.62 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11731.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <K562_PU1_PROT_err.txt> for stderr output of this job.
+

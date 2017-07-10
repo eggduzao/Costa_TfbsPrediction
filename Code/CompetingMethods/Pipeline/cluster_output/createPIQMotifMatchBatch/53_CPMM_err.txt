@@ -1,0 +1,7 @@
+(OK) Loading DEVELOP environment
+(OK) Loading python 2.7.5
+(!!) NumPy, SciPy and matplotlib available.
+ Build with GCC compilers.
+Bioconductor version 3.1 (BiocInstaller 1.18.3), ?biocLite for help
+There were 33 warnings (use warnings() to see them)
+There were 36 warnings (use warnings() to see them)

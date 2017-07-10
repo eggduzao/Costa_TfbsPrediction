@@ -1,0 +1,37 @@
+Sender: LSF System <lsfadmin@linuxbmc0998>
+Subject: Job 24740991: <GM12878_STAT4_ACP> in cluster <rcc> Done
+
+Job <GM12878_STAT4_ACP> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0998>, in queue <low>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Fri Nov  6 22:09:32 2015
+Results reported on Sat Nov  7 01:00:43 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyCuellarHs_pipeline.zsh STAT4 0.00001 /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/HMM/InputRegions/DU_GM12878/hd.bed /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/ExpressionValidation/MPBS/MEME/STAT4.meme /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/DU_GM12878/Cuellar/DNase_prior.bw /hpcwork/izkf/projects/TfbsPrediction/Data/HG19/ /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/GM12878/Cuellar_batch/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   10292.58 sec.
+    Max Memory :                                 328 MB
+    Average Memory :                             190.77 MB
+    Total Requested Memory :                     8192.00 MB
+    Delta Memory :                               7864.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <GM12878_STAT4_ACP_err.txt> for stderr output of this job.
+

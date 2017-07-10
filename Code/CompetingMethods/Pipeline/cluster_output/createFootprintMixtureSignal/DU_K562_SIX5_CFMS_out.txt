@@ -1,0 +1,37 @@
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22287661: <DU_K562_SIX5_CFMS> in cluster <rcc> Done
+
+Job <DU_K562_SIX5_CFMS> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Thu Jun 11 15:38:23 2015
+Results reported on Thu Jun 11 16:04:05 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./createFootprintMixtureSignal_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/SIX5.bed /hpcwork/izkf/projects/TfbsPrediction/Data/DNase/K562/DNase.bam /hpcwork/izkf/projects/TfbsPrediction/Data/HG19/hg19.fa /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/DU_K562/FootprintMixture/SIX5
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   1654.76 sec.
+    Max Memory :                                 737 MB
+    Average Memory :                             273.83 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11263.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <DU_K562_SIX5_CFMS_err.txt> for stderr output of this job.
+

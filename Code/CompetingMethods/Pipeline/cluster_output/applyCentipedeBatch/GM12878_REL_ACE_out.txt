@@ -1,0 +1,37 @@
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 24776989: <GM12878_REL_ACE> in cluster <rcc> Done
+
+Job <GM12878_REL_ACE> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Sun Nov  8 16:46:20 2015
+Results reported on Sun Nov  8 16:47:30 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyCentipede_pipeline.zsh REL /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/All/fdr_4_inside_HS/REL.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/DU_GM12878/Centipede_batch/REL_PRIOR.txt /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/DU_GM12878/Centipede_batch/REL_DNASE.txt /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/GM12878/Centipede_batch/REL.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   57.43 sec.
+    Max Memory :                                 653 MB
+    Average Memory :                             323.50 MB
+    Total Requested Memory :                     8192.00 MB
+    Delta Memory :                               7539.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <GM12878_REL_ACE_err.txt> for stderr output of this job.
+

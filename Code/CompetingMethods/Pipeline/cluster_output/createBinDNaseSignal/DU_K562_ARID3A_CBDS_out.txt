@@ -1,0 +1,37 @@
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 24379118: <DU_K562_ARID3A_CBDS> in cluster <rcc> Done
+
+Job <DU_K562_ARID3A_CBDS> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Oct 12 19:31:40 2015
+Results reported on Mon Oct 12 20:19:39 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./createBinDNaseSignal_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/ARID3A.bed /hpcwork/izkf/projects/TfbsPrediction/Data/DNase_DU/K562/DNase.bam /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/DU_K562/BinDNase/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   3065.99 sec.
+    Max Memory :                                 2674 MB
+    Average Memory :                             1678.70 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               9326.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <DU_K562_ARID3A_CBDS_err.txt> for stderr output of this job.
+

@@ -1,0 +1,97 @@
+  \documentclass[%
+	pdftex,%PDFTex verwenden
+	a4paper,%A4 Papier
+	twoside,%Einseitig	
+	%bibliography=totoc,%Literaturverzeichnis einfügen bibtotocnumbered:
+	%nummeriert listof=totoc,%Verzeichnisse einbinden in toc
+	%index=totoc,%Index ins Verzeichnis einfügen
+	%halfparskip,%Europäischer Satz mit abstand zwischen Absätzen
+	%chapterprefix,%Kapitel anschreiben als Kapitel
+	%headsepline,%Linie nach Kopfzeile
+	%footsepline,%Linie vor Fusszeile
+	%pointlessnumbers,%Nummern ohne abschließenden Punkt
+	%normalheadings,
+%  	12pt%Grössere Schrift, besser lesbar am bildschrim
+]{scrbook}
+
+\input{_stuff/praeambel}
+  
+\begin{document}
+  %   \setlength{\belowdisplayskip}{10pt}
+  %   \setlength{\belowdisplayshortskip}{10pt}
+  %   \setlength{\abovedisplayskip}{5pt}
+  %   \setlength{\abovedisplayshortskip}{5pt}
+  \include{_stuff/cover}
+  
+  \begingroup
+%   \begingroup
+%   \let\clearpage\relax
+  
+%   \endgroup
+%   \renewcommand*{\chapterpagestyle}{empty}
+  \pagestyle{empty}
+%   \pagenumbering{gobble}
+  
+  \setcounter{page}{1}
+  \pagenumbering{roman}
+  
+  \input{_stuff/acknowledgement}
+  \addcontentsline{toc}{section}{Acknowledgement}
+  \pagestyle{empty}
+  \newpage
+  \input{_stuff/autonomy}
+  \addcontentsline{toc}{section}{Selbstständigkeitserklärung (Declaration of Authenticity)}
+  \pagestyle{empty}
+  \newpage
+  \input{_stuff/publications}
+  \addcontentsline{toc}{section}{Publications}
+  \renewcommand*{\chapterpagestyle}{empty}
+  \listoffigures
+  \addcontentsline{toc}{section}{List of Figures}
+  
+  \renewcommand*{\chapterpagestyle}{empty}
+  \listoftables
+  \addcontentsline{toc}{section}{List of Tables}
+  
+  \pagestyle{empty}
+  \newpage
+  \input{_stuff/abbrev}
+  \addcontentsline{toc}{section}{Abbreviations}
+  
+  
+  \tableofcontents
+  \cleardoublepage
+  \endgroup
+
+% for Berlage
+% - pictures not clear
+% - leukemia use case
+
+  \setcounter{page}{1}
+  \pagenumbering{arabic}
+  \input{chapter/00introduction/00introduction}
+  \input{chapter/01background/01background}
+  \input{chapter/02methods/02methods}
+  \input{chapter/03expmethods/03expmethods}
+  \input{chapter/04results/04results}
+  \input{chapter/05conclusion/05conclusion}
+  
+%   \input{chapter/99remarks/99remarks}
+  
+  % Anhang
+  \appendix
+  \input{chapter/98appendix/98appendix}
+%   \chapter{Appendix}
+%   test
+%   \section{test2}
+%   testadf
+  
+  % Literaturverzeichnis
+  \bibliographystyle{abbrvnat} %plain
+  
+  \bibliography{_stuff/bib}
+  
+%   \newpage
+  %\include{_stuff/autonomy}
+
+\end{document}

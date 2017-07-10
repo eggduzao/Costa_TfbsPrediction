@@ -1,0 +1,181 @@
+\chapter{Remarks}
+% \begin{itemize}
+%  \item THOR/ODIN can be in theory also used for broad regions
+%  \item background: uniquely maped read, what about repetitive regions (pepke)
+%  \item NRF, FrIP, NSE, ESC, IDR for all datsets that we consider?
+%  \item where to put that we consider sharp chip-seq signals?
+%  \item dage dicussion: instead of gene expression use other histone modifications
+%  \item one input for all cells? (pepke) no becuase of different epigenomes
+%  \item assocaited with! not to, and correlates with! not to
+% \end{itemize}
+\section{Experimental Methods - Biological Data}
+
+This in-house study investigates in a mouse model regulatory changes in chronic myelogenous leukemia (CML).
+CML is diagnosed by the detecting of a chromosomal rearrangement (trans\-location), such that the resulting philadelphia chromosome contains parts of chromosome 22 and chromosome 9.
+In particular, gene BCR from chromosome 22 and gene ABL1 from chromosome 9 build the fusion gene BCR-ABL1 in the philadelphia chromosome.
+CML is typically treated by imatinib, an inhibitor that blocks the expression of BCR-ABL1.
+As only cancer cells contain BCR-ABL1, imatinib only effects them and makes them die~\citep{Sawyers1999}.
+
+ChIP-seq experiments with two replicates were performed for the active histone mark H3K9ac for healthy cells (Leervektor LV), cancer cells (BCR-ABL1) and cancer cells treated with imatinib (BCR-ABL1-IM).
+Input-DNA for each cell type is available.
+As this experiments does not provide gene expression data, we cannot use the ChIP-seq data for the DCA evaluation.
+
+
+\section{Experimental Methods - Experimental Setup}
+Similar to the use case with dendritic cells, we evaluate THOR's DPs for the leukemia data set of our in-house study.
+We call DPs between the cancer (BCR-ABL1) and healthy (LV) cells as well as between the cancer cells (BCR-ABL1) and cancer cells that are treated with imatinib (BCR-ABL1-IM).
+We refer to the DP analysis BCR-ABL1 vs. LV as DP-LV, and to the DP analysis BCR-ABL1 vs. BCR-ABL1-IM as DP-IM.
+We restrict our analysis to the case where peaks are gained in the untreated cancer cells BCR-ABL1.
+Similar to the use case with dendritic cells, we assign the DPs to genes and sort the genes by associated $p$-value.
+Moreover, we compute the intersection between both gene lists.
+The rationale is that treated cancer and healthy cells should exhibit similar H3K27ac marks.
+The genes that are common in BCR-ABL1 for both conditions (DP-LV and DP-IM) represent interesting genes that are not effected by the imatinib treatment.
+
+\section{Results}
+We evaluate if DPs are close to genes which play an important role for CML. 
+Sup. Table~\ref{tab_res_leukemia_LV} lists the genes that are associated with DPs in the case BCR-ABL1 vs. LV (DP-LV).
+And Sup. Table~\ref{tab_res_leukemia_IM} lists the genes that are associated with DPs in the case BCR-ABL1 vs. BCR-ABL1-IM (DP-IM).
+Genes that occur in both lists are CD48, BCRl2, EGR3 and ETV5.
+These genes are from particular importance, as they are not influenced by imatinib.
+
+Gene CD48 (rank 29 in DP-LV and rank 4 in DP-IM) plays an important role in the blood formation (haematopoiesis)~\citep{Zhang2012}.
+Expression of BCRL2 (rank 6 in DP-LV and rank 36 in DP-IM) is known to be related to the cell dying process (apoptosis) and has been associated to CML~\citep{Nagy2003}.
+Moreover, EGR3 (rank 6 in DP-LV and rank 36 in DP-IM) is an inhibitor of stem cell proliferation and therefore involved in haematopoiesis~\citep{Cheng2015}.
+Expression of ETV5 (rank 6 in DP-LV and rank 36 in DP-IM) is known to be related to CML by playing an important role in cell proliferation pathways~\citep{DeSousa214}.
+
+
+
+
+
+% j=1; while read i; do a=$(mktemp); echo $i > $a; u=$(cut -f2 $a); g=$(cut -f 1 $a); grep -wi $g rgtdata/mm9/association_file.bed | awk -v q=${j} -v t=${g} -v x=${u} -vOFS='\t' '{print q,t,$1,$2,$3,$6,x}'; let j=j+1; done < bcrabl_lv.csv
+
+% j=1; while read i; do a=$(mktemp); echo $i > $a; u=$(cut -f2 $a); g=$(cut -f 1 $a); grep -wi $g rgtdata/mm9/association_file.bed | awk -v q=${j} -v t=${g} -v x=${u} -vOFS='\t' '{print q,t,$1,$2,$3,$6,x}'; let j=j+1; done
+
+
+\section{Supplement}
+\begin{table}
+\small \centering 
+ \begin{tabular}{rllrrcr}
+rank & gene & chrom & start & end & strand & -$\log_{10}$ $p$-value \\\hline
+1 & CD244 & chr1 & 173489323 & 173515449 & + & 305.617575545 \\
+2 & STK24 & chr14 & 121685564 & 121778556 & - & 118.144891593 \\
+3 & KIF21B & chr1 & 138027965 & 138074575 & + & 93.6400155439 \\
+4 & SFI1 & chr11 & 3031852 & 3093466 & - & 83.4085297352 \\
+5 & YPEL2 & chr11 & 86749926 & 86807209 & - & 81.9743562172 \\
+6 & \textbf{BCL2L1} & chr2 & 152606403 & 152657464 & - & 76.4604017577 \\
+7 & PDCD1 & chr1 & 95934881 & 95949130 & - & 75.9550320851 \\
+8 & BCAS1 & chr2 & 170172490 & 170253345 & - & 72.8336613776 \\
+9 & GCET2 & chr16 & 45610554 & 45610563 & + & 69.3111190335 \\
+10 & 2610528E23RIK & chr16 & 57606909 & 57606924 & - & 63.6757395564 \\
+11 & FILIP1L & chr16 & 57353205 & 57573239 & + & 63.6757395564 \\
+12 & RNF150 & chr8 & 85387254 & 85615170 & + & 63.409190509 \\
+13 & FBXW4 & chr19 & 45652743 & 45734802 & - & 61.1619319613 \\
+14 & DPYS & chr15 & 39600030 & 39689016 & - & 59.9327944999 \\
+15 & CLNK & chr5 & 39097700 & 39268051 & - & 59.8937435023 \\
+16 & ATG14 & chr14 & 48160568 & 48188109 & - & 59.4558362041 \\
+17 & CLTC & chr11 & 86507852 & 86571067 & - & 57.7097508538 \\
+18 & OSBPL5 & chr7 & 150874666 & 150942890 & - & 57.2032758247 \\
+19 & TEX14 & chr11 & 87218566 & 87369325 & + & 56.1422722283 \\
+20 & 5830405N20RIK & chr10 & 129759925 & 129759961 & - & 55.7077634402 \\
+21 & MTDH & chr15 & 34012448 & 34072141 & + & 55.6706109561 \\
+22 & TMEM154 & chr3 & 84470113 & 84508497 & + & 55.6031070474 \\
+23 & IL2RA & chr2 & 11564418 & 11614818 & + & 55.3380133944 \\
+24 & WTAP & chr17 & 13159661 & 13185412 & - & 54.5622417335 \\
+25 & AHCY & chr2 & 154885045 & 154900233 & - & 52.7536207829 \\
+26 & \textbf{EGR3} & chr14 & 70477251 & 70479964 & + & 52.7251184711 \\
+27 & PEBP4 & chr14 & 70240226 & 70459693 & + & 52.7251184711 \\
+28 & N4BP2L2 & chr5 & 151410581 & 151468187 & - & 52.1893050791 \\
+29 & \textbf{CD48} & chr1 & 173612139 & 173635389 & + & 50.6977881767 \\
+30 & MX1 & chr16 & 97668641 & 97684514 & - & 49.2793393028 \\
+31 & PHF10 & chr17 & 15082013 & 15098237 & - & 49.1418586257 \\
+32 & TOX & chr4 & 6613499 & 6918704 & - & 48.3167583965 \\
+33 & GM15319 & chr8 & 19933241 & 19958788 & - & 47.8445608161 \\
+34 & DENND4C & chr4 & 86394458 & 86496507 & + & 47.8351222977 \\
+35 & 4930468A15RIK & chrX & 73827948 & 73848263 & - & 47.8233030203 \\
+36 & MRVI1 & chr7 & 118011779 & 118125975 & - & 47.3422758906 \\
+37 & EGLN3 & chr12 & 55279967 & 55304847 & - & 46.9114617062 \\
+38 & TEC & chr5 & 73146956 & 73259722 & - & 46.8967567107 \\
+39 & 5830416I19RIK & chr5 & 64436212 & 64441465 & - & 46.8005784051 \\
+40 & 5730469M10RIK & chr14 & 41821545 & 41821564 & - & 46.7866977778 \\
+41 & TSPAN14 & chr14 & 41719733 & 41780096 & - & 46.7866977778 \\
+42 & LRBA & chr3 & 86028611 & 86586615 & + & 46.4409467295 \\
+43 & SRSF3 & chr17 & 29169617 & 29180311 & + & 46.3741268508 \\
+44 & \textbf{ETV5} & chr16 & 22381381 & 22439792 & - & 45.5896028889 \\
+45 & ABHD2 & chr7 & 86418086 & 86510394 & + & 45.5377596159 \\
+46 & CSTF3 & chr2 & 104430679 & 104505586 & + & 45.2687791378 \\
+47 & TCP11L1 & chr2 & 104497444 & 104552326 & - & 45.2687791378 \\
+48 & GM11346 & chr13 & 24695728 & 24695736 & - & 44.3709280533 \\
+49 & NFE2L1 & chr11 & 96678727 & 96691282 & - & 44.3628007382 \\
+50 & TTLL11 & chr2 & 35606760 & 35835433 & - & 44.1769132505 \\
+ \end{tabular}
+\caption[List of genes associated with DP-LV]{List of genes in BCR-ABL1 vs. LV (BCR-ABL1 peaks) that are associated with DPs called by THOR.
+We rank the genes by the $p$-value of the assigned DP.
+For each gene, we give the chromosome, the start and end positions, the strand as well as the $p$-value the gene is assigned to.
+Genes that are highlighted in bold also occur in Sup. Table~\ref{tab_res_leukemia_IM}}
+\label{tab_res_leukemia_LV}
+\end{table}
+
+
+
+
+\begin{table}
+\small \centering 
+ \begin{tabular}{rllrrcr}
+rank & gene & chrom & start & end & strand & -$\log_{10}$ $p$-value \\\hline
+1 & SLC41A2 & chr10 & 82693592 & 82800627 & - & 304.057698674 \\
+2 & GLIPR2 & chr4 & 43970272 & 43991990 & + & 309.356246967 \\
+3 & 5730437N04RIK & chr17 & 5410864 & 5440260 & - & 312.177893127 \\
+4 & \textbf{CD48} & chr1 & 173612139 & 173635389 & + & 313.204903414 \\
+5 & C1QTNF6 & chr15 & 78353775 & 78360055 & - & 314.104827467 \\
+6 & IL2RB & chr15 & 78310982 & 78325496 & - & 314.104827467 \\
+7 & PODXL & chr6 & 31469487 & 31513981 & - & 316.593550199 \\
+8 & DUSP6 & chr10 & 98725864 & 98730122 & + & 319.091481134 \\
+9 & SRP9 & chr1 & 184054867 & 184062538 & + & 324.490682373 \\
+10 & ARID5A & chr1 & 36364577 & 36380874 & + & 332.418140059 \\
+11 & NEURL3 & chr1 & 36321441 & 36331524 & - & 332.418140059 \\
+12 & SPRED2 & chr11 & 19824377 & 19924029 & + & 333.133310733 \\
+13 & MYCN & chr12 & 12942901 & 12948720 & - & 333.886192802 \\
+14 & SEPT9 & chr11 & 117060974 & 117223639 & + & 337.370216782 \\
+15 & CACNG3 & chr7 & 129814005 & 129912907 & + & 340.970092996 \\
+16 & BC048644 & chr8 & 124431733 & 124442328 & + & 344.002863519 \\
+17 & SLC7A5 & chr8 & 124405049 & 124431594 & - & 344.002863519 \\
+18 & KCNK5 & chr14 & 20959279 & 21001004 & - & 348.156753276 \\
+19 & NFIL3 & chr13 & 53062577 & 53076442 & - & 356.947022022 \\
+20 & FGD2 & chr17 & 29497858 & 29516605 & + & 358.55494103 \\
+21 & 6430571L13RIK & chr9 & 107242932 & 107254753 & + & 360.941464233 \\
+22 & HEMK1 & chr9 & 107230022 & 107240681 & - & 360.941464233 \\
+23 & ARNT2 & chr7 & 91394790 & 91558469 & - & 361.911043111 \\
+24 & 4933432I09RIK & chr16 & 18209779 & 18213956 & - & 362.052881458 \\
+25 & RTN4R & chr16 & 18127734 & 18152501 & + & 362.052881458 \\
+26 & RELT & chr7 & 107994361 & 108011960 & - & 368.791270437 \\
+27 & LRP12 & chr15 & 39702148 & 39775540 & - & 372.587043335 \\
+28 & A630055G03RIK & chr16 & 10835152 & 10843328 & + & 374.060678364 \\
+29 & EGLN3 & chr12 & 55279967 & 55304847 & - & 374.370486136 \\
+30 & RARA & chr11 & 98789131 & 98836256 & + & 381.168837488 \\
+31 & PTPRE & chr7 & 142729506 & 142877977 & + & 394.374278121 \\
+32 & DOK2 & chr14 & 71165842 & 71178302 & + & 403.916546183 \\
+33 & MRVI1 & chr7 & 118011779 & 118125975 & - & 415.599587917 \\
+34 & FAM108C & chr7 & 91257866 & 91300403 & - & 417.37779626 \\
+35 & 4930413G21RIK & chr7 & 130112572 & 130113973 & - & 423.540219199 \\
+36 & \textbf{BCL2L1} & chr2 & 152606403 & 152657464 & - & 424.844753956 \\
+37 & ID1 & chr2 & 152561986 & 152563146 & + & 456.396598373 \\
+38 & ST6GAL1 & chr16 & 23224812 & 23360423 & + & 468.692107399 \\
+39 & LTB4R1 & chr14 & 56384798 & 56387331 & + & 484.598793911 \\
+40 & LTB4R2 & chr14 & 56380264 & 56382066 & + & 484.598793911 \\
+41 & EMILIN2 & chr17 & 71601515 & 71660305 & - & 505.02544286 \\
+42 & CISH & chr9 & 107198356 & 107205115 & + & 513.807483459 \\
+43 & \textbf{EGR3} & chr14 & 70477251 & 70479964 & + & 536.040947056 \\
+44 & PEBP4 & chr14 & 70240226 & 70459693 & + & 536.040947056 \\
+45 & PIK3CD & chr4 & 149023276 & 149076680 & - & 565.566691808 \\
+46 & CLEC16A & chr16 & 10545431 & 10744971 & + & 575.416108616 \\
+47 & PRKCB & chr7 & 129432264 & 129777916 & + & 588.235106264 \\
+48 & SOCS1 & chr16 & 10783900 & 10785629 & - & 595.731498392 \\
+49 & GEM & chr4 & 11631603 & 11641899 & + & 771.701807944 \\
+50 & \textbf{ETV5} & chr16 & 22381381 & 22439792 & - & 909.241703404 \\
+ \end{tabular}
+\caption[List of genes associated with DP-IM]{List of genes in BCR-ABL1 vs. BCR-ABL1-IM (BCR-ABL1 peaks) that are associated with DPs called by THOR.
+We rank the genes by the $p$-value of the assigned DP.
+For each gene, we give the chromosome, the start and end positions, the strand as well as the $p$-value the gene is assigned to.
+Genes that are highlighted in bold also occur in Sup. Table~\ref{tab_res_leukemia_LV}}
+\label{tab_res_leukemia_IM}
+\end{table}

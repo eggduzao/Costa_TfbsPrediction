@@ -1,0 +1,37 @@
+Sender: LSF System <lsfadmin@linuxbmc0147>
+Subject: Job 25009067: <FMT_Centipede_99> in cluster <rcc> Done
+
+Job <FMT_Centipede_99> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0147>, in queue <low>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/ExpressionValidation/Results/H1hesc_GM12878> was used as the working directory.
+Started at Fri Nov 20 04:38:28 2015
+Results reported on Fri Nov 20 05:42:51 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./fetchMultivarTable_pipeline.zsh Centipede_99 /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/ExpressionValidation/Results/H1hesc_GM12878/multivar_table/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   3871.32 sec.
+    Max Memory :                                 2265 MB
+    Average Memory :                             1625.56 MB
+    Total Requested Memory :                     24000.00 MB
+    Delta Memory :                               21735.00 MB
+    Max Processes :                              5
+    Max Threads :                                6
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <FMT_Centipede_99_err.txt> for stderr output of this job.
+

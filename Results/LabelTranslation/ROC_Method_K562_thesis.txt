@@ -1,0 +1,14 @@
+HINT-BC_D_DU	HINT	HINT
+Dnase2Tf_DU	DNase2TF	DNase2TF
+PIQ_90	PIQ	PIQ
+Wellington_DU	Wellington	Wellington
+Neph_DU	Neph	Neph
+Boyle_DU	Boyle	Boyle
+BinDNase_80	BinDNase	BinDNase
+Centipede_90	Centipede	Centipede
+Centipede_99	Filter	Filter
+FLR_90	FLR	FLR
+Cuellar_90	Cuellar	Cuellar
+TC_DU	TC	TC
+PWM	PWM	PWM
+FS_DU	FS	FS

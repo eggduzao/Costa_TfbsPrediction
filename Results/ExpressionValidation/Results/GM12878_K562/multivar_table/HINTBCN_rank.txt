@@ -1,0 +1,2 @@
+ks_pvalue_flr_method	ks_pvalue_flr_corr	ks_pvalue_fos_method	ks_pvalue_fos_corr	ks_pvalue_protection_method	ks_pvalue_protection_corr	ks_pvalue_tc_method	ks_pvalue_tc_corr	ks_stat_flr_method	ks_stat_flr_corr	ks_stat_fos_method	ks_stat_fos_corr	ks_stat_protection_method	ks_stat_protection_corr	ks_stat_tc_method	ks_stat_tc_corr
+HINTBCN	0.838992416249	HINTBCN	0.821156331006	HINTBCN	0.753703274352	HINTBCN	0.829377819677	HINTBCN	0.892014675465	HINTBCN	0.839300370991	HINTBCN	0.793115335369	HINTBCN	0.611305361305

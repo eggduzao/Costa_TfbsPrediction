@@ -1,0 +1,6 @@
+1. Copy all eps files to inkscape
+2. Put text and art
+3. Select all new text and art (not the figures) and click on Lower to Bottom
+4. Save svg
+5. Save eps from svg -> make sure the box "Rasterize text" is checked
+6. Save pdf from svg -> make sure the box "Rasterize text" is checked

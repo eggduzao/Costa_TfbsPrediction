@@ -1,0 +1,3404 @@
+Sender: LSF System <lsfadmin@linuxbmc0034>
+Subject: Job 17841976: <ATCU> in cluster <rcc> Done
+
+Job <ATCU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0034>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 21:02:07 2014
+Results reported on Mon Aug 25 21:37:29 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCount_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/HepG2_Evidence/fdr_4/NRF1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_HepG2/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/HepG2/fdr_4/TagCount_UW/NRF1.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   3087.60 sec.
+    Max Memory :                                 434 MB
+    Average Memory :                             226.50 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11566.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <ATCU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc1144>
+Subject: Job 17842013: <ATCU> in cluster <rcc> Done
+
+Job <ATCU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc1144>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 21:26:35 2014
+Results reported on Mon Aug 25 21:46:13 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCount_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/ELK1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/TagCount_UW/ELK1.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   1471.97 sec.
+    Max Memory :                                 444 MB
+    Average Memory :                             245.59 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11556.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <ATCU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0746>
+Subject: Job 17841965: <ATCU> in cluster <rcc> Done
+
+Job <ATCU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0746>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 20:44:42 2014
+Results reported on Mon Aug 25 21:48:24 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCount_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/HepG2_Evidence/fdr_4/BRCA1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_HepG2/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/HepG2/fdr_4/TagCount_UW/BRCA1.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   4997.02 sec.
+    Max Memory :                                 475 MB
+    Average Memory :                             272.39 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11525.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <ATCU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0214>
+Subject: Job 17841969: <ATCU> in cluster <rcc> Done
+
+Job <ATCU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0214>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 21:01:38 2014
+Results reported on Mon Aug 25 21:48:51 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCount_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/HepG2_Evidence/fdr_4/GABP.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_HepG2/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/HepG2/fdr_4/TagCount_UW/GABP.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   4160.35 sec.
+    Max Memory :                                 436 MB
+    Average Memory :                             232.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11564.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <ATCU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0299>
+Subject: Job 17842053: <ATCU> in cluster <rcc> Done
+
+Job <ATCU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0299>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 21:41:18 2014
+Results reported on Mon Aug 25 21:57:18 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCount_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/ZBTB33.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/TagCount_UW/ZBTB33.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   1165.30 sec.
+    Max Memory :                                 443 MB
+    Average Memory :                             256.07 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11557.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <ATCU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc1231>
+Subject: Job 17842003: <ATCU> in cluster <rcc> Done
+
+Job <ATCU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc1231>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 21:24:58 2014
+Results reported on Mon Aug 25 21:58:48 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCount_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/E2F4.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/TagCount_UW/E2F4.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   2592.12 sec.
+    Max Memory :                                 453 MB
+    Average Memory :                             246.90 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11547.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <ATCU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc1317>
+Subject: Job 17841995: <ATCU> in cluster <rcc> Done
+
+Job <ATCU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc1317>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 21:13:05 2014
+Results reported on Mon Aug 25 22:02:17 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCount_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/ATF1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/TagCount_UW/ATF1.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   3728.97 sec.
+    Max Memory :                                 461 MB
+    Average Memory :                             264.43 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11539.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <ATCU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0761>
+Subject: Job 17842017: <ATCU> in cluster <rcc> Done
+
+Job <ATCU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0761>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 21:27:12 2014
+Results reported on Mon Aug 25 22:02:42 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCount_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/GABP.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/TagCount_UW/GABP.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   2714.67 sec.
+    Max Memory :                                 453 MB
+    Average Memory :                             257.03 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11547.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <ATCU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0749>
+Subject: Job 17841963: <ATCU> in cluster <rcc> Done
+
+Job <ATCU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0749>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 20:44:42 2014
+Results reported on Mon Aug 25 22:18:45 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCount_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/HepG2_Evidence/fdr_4/ATF3.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_HepG2/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/HepG2/fdr_4/TagCount_UW/ATF3.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   7382.97 sec.
+    Max Memory :                                 491 MB
+    Average Memory :                             273.80 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11509.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <ATCU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0183>
+Subject: Job 17842032: <ATCU> in cluster <rcc> Done
+
+Job <ATCU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0183>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 21:32:42 2014
+Results reported on Mon Aug 25 22:19:53 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCount_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/NRF1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/TagCount_UW/NRF1.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   3925.33 sec.
+    Max Memory :                                 43 MB
+    Average Memory :                             35.79 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11957.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <ATCU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0608>
+Subject: Job 17841964: <ATCU> in cluster <rcc> Done
+
+Job <ATCU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0608>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 20:44:42 2014
+Results reported on Mon Aug 25 22:32:16 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCount_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/HepG2_Evidence/fdr_4/BHLHE40.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_HepG2/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/HepG2/fdr_4/TagCount_UW/BHLHE40.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   8455.00 sec.
+    Max Memory :                                 507 MB
+    Average Memory :                             298.48 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11493.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <ATCU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0909>
+Subject: Job 17841996: <ATCU> in cluster <rcc> Done
+
+Job <ATCU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0909>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 21:18:49 2014
+Results reported on Mon Aug 25 22:51:38 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCount_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/ATF3.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/TagCount_UW/ATF3.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   7261.92 sec.
+    Max Memory :                                 497 MB
+    Average Memory :                             285.10 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11503.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <ATCU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0894>
+Subject: Job 17842029: <ATCU> in cluster <rcc> Done
+
+Job <ATCU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0894>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 21:31:40 2014
+Results reported on Mon Aug 25 22:53:46 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCount_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/NFYA.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/TagCount_UW/NFYA.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   6448.22 sec.
+    Max Memory :                                 486 MB
+    Average Memory :                             281.96 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11514.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <ATCU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc1349>
+Subject: Job 17842052: <ATCU> in cluster <rcc> Done
+
+Job <ATCU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc1349>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 21:41:18 2014
+Results reported on Mon Aug 25 22:57:22 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCount_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/ZBTB7A.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/TagCount_UW/ZBTB7A.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   5925.00 sec.
+    Max Memory :                                 483 MB
+    Average Memory :                             272.49 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11517.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <ATCU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0334>
+Subject: Job 17842030: <ATCU> in cluster <rcc> Done
+
+Job <ATCU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0334>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 21:32:04 2014
+Results reported on Mon Aug 25 23:00:59 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCount_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/NFYB.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/TagCount_UW/NFYB.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   6950.44 sec.
+    Max Memory :                                 486 MB
+    Average Memory :                             282.19 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11514.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <ATCU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc1316>
+Subject: Job 17842002: <ATCU> in cluster <rcc> Done
+
+Job <ATCU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc1316>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 21:24:58 2014
+Results reported on Mon Aug 25 23:07:55 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCount_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/CTCFL.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/TagCount_UW/CTCFL.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   8019.48 sec.
+    Max Memory :                                 503 MB
+    Average Memory :                             282.92 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11497.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <ATCU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0877>
+Subject: Job 17841998: <ATCU> in cluster <rcc> Done
+
+Job <ATCU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0877>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 21:23:22 2014
+Results reported on Mon Aug 25 23:08:30 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCount_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/BHLHE40.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/TagCount_UW/BHLHE40.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   8194.77 sec.
+    Max Memory :                                 502 MB
+    Average Memory :                             285.04 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11498.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <ATCU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0501>
+Subject: Job 17842001: <ATCU> in cluster <rcc> Done
+
+Job <ATCU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0501>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 21:24:34 2014
+Results reported on Mon Aug 25 23:09:26 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCount_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/CTCF.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/TagCount_UW/CTCF.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   8166.41 sec.
+    Max Memory :                                 503 MB
+    Average Memory :                             282.89 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11497.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <ATCU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0645>
+Subject: Job 17842034: <ATCU> in cluster <rcc> Done
+
+Job <ATCU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0645>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 21:33:42 2014
+Results reported on Mon Aug 25 23:17:17 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCount_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/RAD21.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/TagCount_UW/RAD21.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   8046.23 sec.
+    Max Memory :                                 501 MB
+    Average Memory :                             283.34 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11499.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <ATCU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0705>
+Subject: Job 17841997: <ATCU> in cluster <rcc> Done
+
+Job <ATCU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0705>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 21:23:22 2014
+Results reported on Mon Aug 25 23:17:51 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCount_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/BACH1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/TagCount_UW/BACH1.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   8867.72 sec.
+    Max Memory :                                 508 MB
+    Average Memory :                             293.40 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11492.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <ATCU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc1051>
+Subject: Job 17842038: <ATCU> in cluster <rcc> Done
+
+Job <ATCU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc1051>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 21:34:19 2014
+Results reported on Mon Aug 25 23:19:34 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCount_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/SMC3.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/TagCount_UW/SMC3.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   8086.19 sec.
+    Max Memory :                                 498 MB
+    Average Memory :                             280.39 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11502.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <ATCU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0266>
+Subject: Job 17842047: <ATCU> in cluster <rcc> Done
+
+Job <ATCU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0266>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 21:41:18 2014
+Results reported on Mon Aug 25 23:24:35 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCount_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/THAP1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/TagCount_UW/THAP1.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   8036.46 sec.
+    Max Memory :                                 506 MB
+    Average Memory :                             289.55 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11494.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <ATCU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0446>
+Subject: Job 17842027: <ATCU> in cluster <rcc> Done
+
+Job <ATCU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0446>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 21:30:51 2014
+Results reported on Mon Aug 25 23:26:17 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCount_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/MYC.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/TagCount_UW/MYC.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   9018.43 sec.
+    Max Memory :                                 506 MB
+    Average Memory :                             296.90 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11494.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <ATCU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0552>
+Subject: Job 17842031: <ATCU> in cluster <rcc> Done
+
+Job <ATCU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0552>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 21:32:42 2014
+Results reported on Mon Aug 25 23:26:49 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCount_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/NR2F2.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/TagCount_UW/NR2F2.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   8831.15 sec.
+    Max Memory :                                 511 MB
+    Average Memory :                             295.29 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11489.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <ATCU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc1182>
+Subject: Job 17842036: <ATCU> in cluster <rcc> Done
+
+Job <ATCU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc1182>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 21:33:54 2014
+Results reported on Mon Aug 25 23:29:50 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCount_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/RFX5.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/TagCount_UW/RFX5.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   8998.37 sec.
+    Max Memory :                                 512 MB
+    Average Memory :                             292.75 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11488.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <ATCU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0996>
+Subject: Job 17842035: <ATCU> in cluster <rcc> Done
+
+Job <ATCU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0996>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 21:33:54 2014
+Results reported on Mon Aug 25 23:30:43 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCount_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/REST.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/TagCount_UW/REST.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   9060.45 sec.
+    Max Memory :                                 511 MB
+    Average Memory :                             289.89 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11489.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <ATCU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0034>
+Subject: Job 17841978: <ATCU> in cluster <rcc> Done
+
+Job <ATCU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0034>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 21:02:09 2014
+Results reported on Mon Aug 25 23:33:03 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCount_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/HepG2_Evidence/fdr_4/RAD21.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_HepG2/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/HepG2/fdr_4/TagCount_UW/RAD21.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   13430.13 sec.
+    Max Memory :                                 93 MB
+    Average Memory :                             65.60 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11907.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <ATCU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0034>
+Subject: Job 17841977: <ATCU> in cluster <rcc> Done
+
+Job <ATCU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0034>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 21:02:09 2014
+Results reported on Mon Aug 25 23:37:27 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCount_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/HepG2_Evidence/fdr_4/P300.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_HepG2/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/HepG2/fdr_4/TagCount_UW/P300.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   13854.44 sec.
+    Max Memory :                                 111 MB
+    Average Memory :                             72.43 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11889.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <ATCU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0804>
+Subject: Job 17842016: <ATCU> in cluster <rcc> Done
+
+Job <ATCU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0804>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 21:26:59 2014
+Results reported on Mon Aug 25 23:39:40 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCount_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/FOSL1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/TagCount_UW/FOSL1.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   10271.81 sec.
+    Max Memory :                                 515 MB
+    Average Memory :                             297.79 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11485.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <ATCU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0910>
+Subject: Job 17842009: <ATCU> in cluster <rcc> Done
+
+Job <ATCU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0910>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 21:26:35 2014
+Results reported on Mon Aug 25 23:39:44 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCount_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/EJUNB.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/TagCount_UW/EJUNB.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   10386.42 sec.
+    Max Memory :                                 521 MB
+    Average Memory :                             298.39 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11479.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <ATCU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0745>
+Subject: Job 17842022: <ATCU> in cluster <rcc> Done
+
+Job <ATCU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0745>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 21:28:39 2014
+Results reported on Mon Aug 25 23:40:03 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCount_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/JUND.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/TagCount_UW/JUND.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   10238.88 sec.
+    Max Memory :                                 522 MB
+    Average Memory :                             303.31 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11478.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <ATCU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0214>
+Subject: Job 17841975: <ATCU> in cluster <rcc> Done
+
+Job <ATCU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0214>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 21:01:38 2014
+Results reported on Mon Aug 25 23:40:24 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCount_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/HepG2_Evidence/fdr_4/MYC.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_HepG2/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/HepG2/fdr_4/TagCount_UW/MYC.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   14038.98 sec.
+    Max Memory :                                 371 MB
+    Average Memory :                             176.73 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11629.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <ATCU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0034>
+Subject: Job 17841979: <ATCU> in cluster <rcc> Done
+
+Job <ATCU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0034>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 21:02:09 2014
+Results reported on Mon Aug 25 23:40:45 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCount_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/HepG2_Evidence/fdr_4/REST.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_HepG2/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/HepG2/fdr_4/TagCount_UW/REST.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   14093.93 sec.
+    Max Memory :                                 124 MB
+    Average Memory :                             70.32 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11876.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <ATCU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0721>
+Subject: Job 17842010: <ATCU> in cluster <rcc> Done
+
+Job <ATCU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0721>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 21:26:35 2014
+Results reported on Mon Aug 25 23:43:39 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCount_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/EJUND.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/TagCount_UW/EJUND.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   10654.26 sec.
+    Max Memory :                                 525 MB
+    Average Memory :                             309.17 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11475.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <ATCU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0620>
+Subject: Job 17842005: <ATCU> in cluster <rcc> Done
+
+Job <ATCU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0620>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 21:25:35 2014
+Results reported on Mon Aug 25 23:47:08 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCount_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/EFOS.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/TagCount_UW/EFOS.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   11107.69 sec.
+    Max Memory :                                 527 MB
+    Average Memory :                             305.23 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11473.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <ATCU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc1302>
+Subject: Job 17842015: <ATCU> in cluster <rcc> Done
+
+Job <ATCU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc1302>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 21:26:59 2014
+Results reported on Mon Aug 25 23:49:24 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCount_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/FOS.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/TagCount_UW/FOS.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   11165.72 sec.
+    Max Memory :                                 523 MB
+    Average Memory :                             297.88 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11477.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <ATCU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0332>
+Subject: Job 17842049: <ATCU> in cluster <rcc> Done
+
+Job <ATCU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0332>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 21:41:18 2014
+Results reported on Mon Aug 25 23:51:07 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCount_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/USF1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/TagCount_UW/USF1.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   10105.37 sec.
+    Max Memory :                                 515 MB
+    Average Memory :                             290.84 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11485.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <ATCU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc1121>
+Subject: Job 17841989: <ATCU> in cluster <rcc> Done
+
+Job <ATCU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc1121>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 21:08:44 2014
+Results reported on Mon Aug 25 23:53:52 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCount_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/Huvec_Evidence/fdr_4/FOS.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_Huvec/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/Huvec/fdr_4/TagCount_UW/FOS.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   13834.16 sec.
+    Max Memory :                                 768 MB
+    Average Memory :                             427.36 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11232.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <ATCU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbdc01>
+Subject: Job 17841967: <ATCU> in cluster <rcc> Done
+
+Job <ATCU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbdc01>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 21:00:55 2014
+Results reported on Mon Aug 25 23:55:22 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCount_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/HepG2_Evidence/fdr_4/CTCF.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_HepG2/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/HepG2/fdr_4/TagCount_UW/CTCF.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   16276.13 sec.
+    Max Memory :                                 316 MB
+    Average Memory :                             123.25 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11684.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <ATCU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0214>
+Subject: Job 17841971: <ATCU> in cluster <rcc> Done
+
+Job <ATCU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0214>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 21:01:38 2014
+Results reported on Tue Aug 26 00:00:50 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCount_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/HepG2_Evidence/fdr_4/JUND.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_HepG2/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/HepG2/fdr_4/TagCount_UW/JUND.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   15640.86 sec.
+    Max Memory :                                 181 MB
+    Average Memory :                             93.35 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11819.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <ATCU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0601>
+Subject: Job 17842028: <ATCU> in cluster <rcc> Done
+
+Job <ATCU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0601>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 21:31:16 2014
+Results reported on Tue Aug 26 00:01:03 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCount_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/NFE2.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/TagCount_UW/NFE2.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   11532.39 sec.
+    Max Memory :                                 527 MB
+    Average Memory :                             307.20 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11473.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <ATCU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0903>
+Subject: Job 17842021: <ATCU> in cluster <rcc> Done
+
+Job <ATCU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0903>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 21:28:14 2014
+Results reported on Tue Aug 26 00:01:41 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCount_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/JUN.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/TagCount_UW/JUN.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   11942.03 sec.
+    Max Memory :                                 534 MB
+    Average Memory :                             309.66 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11466.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <ATCU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0454>
+Subject: Job 17841992: <ATCU> in cluster <rcc> Done
+
+Job <ATCU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0454>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 21:10:54 2014
+Results reported on Tue Aug 26 00:02:16 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCount_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/Huvec_Evidence/fdr_4/MAX.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_Huvec/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/Huvec/fdr_4/TagCount_UW/MAX.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   13810.40 sec.
+    Max Memory :                                 776 MB
+    Average Memory :                             419.15 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11224.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <ATCU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0864>
+Subject: Job 17842050: <ATCU> in cluster <rcc> Done
+
+Job <ATCU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0864>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 21:41:18 2014
+Results reported on Tue Aug 26 00:03:22 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCount_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/USF2.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/TagCount_UW/USF2.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   10999.29 sec.
+    Max Memory :                                 525 MB
+    Average Memory :                             299.81 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11475.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <ATCU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0493>
+Subject: Job 17842048: <ATCU> in cluster <rcc> Done
+
+Job <ATCU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0493>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 21:41:18 2014
+Results reported on Tue Aug 26 00:10:47 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCount_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/TR4.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/TagCount_UW/TR4.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   11608.32 sec.
+    Max Memory :                                 531 MB
+    Average Memory :                             300.15 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11469.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <ATCU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc1080>
+Subject: Job 17842046: <ATCU> in cluster <rcc> Done
+
+Job <ATCU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc1080>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 21:41:18 2014
+Results reported on Tue Aug 26 00:15:38 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCount_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/TBP.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/TagCount_UW/TBP.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   11912.35 sec.
+    Max Memory :                                 537 MB
+    Average Memory :                             316.60 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11463.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <ATCU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxscc097>
+Subject: Job 17841988: <ATCU> in cluster <rcc> Done
+
+Job <ATCU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxscc097>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 21:04:21 2014
+Results reported on Tue Aug 26 00:20:41 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCount_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/Huvec_Evidence/fdr_4/CTCF.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_Huvec/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/Huvec/fdr_4/TagCount_UW/CTCF.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   18406.58 sec.
+    Max Memory :                                 744 MB
+    Average Memory :                             406.97 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11256.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <ATCU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0060>
+Subject: Job 17842045: <ATCU> in cluster <rcc> Done
+
+Job <ATCU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0060>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 21:38:24 2014
+Results reported on Tue Aug 26 00:29:31 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCount_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/TAL1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/TagCount_UW/TAL1.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   14838.80 sec.
+    Max Memory :                                 511 MB
+    Average Memory :                             279.32 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11489.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <ATCU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0213>
+Subject: Job 17841993: <ATCU> in cluster <rcc> Done
+
+Job <ATCU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0213>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 21:11:59 2014
+Results reported on Tue Aug 26 00:31:21 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCount_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/Huvec_Evidence/fdr_4/MYC.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_Huvec/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/Huvec/fdr_4/TagCount_UW/MYC.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   16383.74 sec.
+    Max Memory :                                 736 MB
+    Average Memory :                             402.14 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11264.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <ATCU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0214>
+Subject: Job 17841970: <ATCU> in cluster <rcc> Done
+
+Job <ATCU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0214>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 21:01:38 2014
+Results reported on Tue Aug 26 00:31:25 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCount_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/HepG2_Evidence/fdr_4/JUN.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_HepG2/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/HepG2/fdr_4/TagCount_UW/JUN.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   18591.35 sec.
+    Max Memory :                                 197 MB
+    Average Memory :                             97.45 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11803.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <ATCU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0214>
+Subject: Job 17841974: <ATCU> in cluster <rcc> Done
+
+Job <ATCU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0214>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 21:01:38 2014
+Results reported on Tue Aug 26 00:32:49 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCount_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/HepG2_Evidence/fdr_4/MAX.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_HepG2/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/HepG2/fdr_4/TagCount_UW/MAX.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   18624.54 sec.
+    Max Memory :                                 180 MB
+    Average Memory :                             98.89 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11820.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <ATCU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0145>
+Subject: Job 17841991: <ATCU> in cluster <rcc> Done
+
+Job <ATCU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0145>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 21:09:35 2014
+Results reported on Tue Aug 26 00:33:25 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCount_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/Huvec_Evidence/fdr_4/JUN.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_Huvec/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/Huvec/fdr_4/TagCount_UW/JUN.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   17694.25 sec.
+    Max Memory :                                 770 MB
+    Average Memory :                             416.23 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11230.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <ATCU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc1287>
+Subject: Job 17842019: <ATCU> in cluster <rcc> Done
+
+Job <ATCU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc1287>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 21:27:49 2014
+Results reported on Tue Aug 26 00:38:08 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCount_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/GATA2.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/TagCount_UW/GATA2.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   14812.95 sec.
+    Max Memory :                                 557 MB
+    Average Memory :                             324.81 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11443.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <ATCU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc1251>
+Subject: Job 17842011: <ATCU> in cluster <rcc> Done
+
+Job <ATCU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc1251>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 21:26:35 2014
+Results reported on Tue Aug 26 00:38:10 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCount_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/ELF1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/TagCount_UW/ELF1.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   14918.20 sec.
+    Max Memory :                                 556 MB
+    Average Memory :                             315.19 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11444.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <ATCU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc1009>
+Subject: Job 17842018: <ATCU> in cluster <rcc> Done
+
+Job <ATCU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc1009>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 21:27:24 2014
+Results reported on Tue Aug 26 00:39:59 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCount_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/GATA1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/TagCount_UW/GATA1.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   14914.14 sec.
+    Max Memory :                                 558 MB
+    Average Memory :                             324.75 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11442.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <ATCU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0272>
+Subject: Job 17842006: <ATCU> in cluster <rcc> Done
+
+Job <ATCU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0272>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 21:25:47 2014
+Results reported on Tue Aug 26 00:40:26 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCount_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/EGATA.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/TagCount_UW/EGATA.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   14993.69 sec.
+    Max Memory :                                 556 MB
+    Average Memory :                             323.33 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11444.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <ATCU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0505>
+Subject: Job 17842004: <ATCU> in cluster <rcc> Done
+
+Job <ATCU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0505>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 21:25:10 2014
+Results reported on Tue Aug 26 00:40:47 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCount_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/E2F6.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/TagCount_UW/E2F6.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   15338.00 sec.
+    Max Memory :                                 561 MB
+    Average Memory :                             314.38 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11439.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <ATCU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0170>
+Subject: Job 17841999: <ATCU> in cluster <rcc> Done
+
+Job <ATCU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0170>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 21:23:34 2014
+Results reported on Tue Aug 26 00:40:52 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCount_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/CCNT2.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/TagCount_UW/CCNT2.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   16403.49 sec.
+    Max Memory :                                 258 MB
+    Average Memory :                             109.90 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11742.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <ATCU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0907>
+Subject: Job 17842037: <ATCU> in cluster <rcc> Done
+
+Job <ATCU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0907>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 21:34:19 2014
+Results reported on Tue Aug 26 00:45:10 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCount_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/SIX5.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/TagCount_UW/SIX5.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   14845.68 sec.
+    Max Memory :                                 554 MB
+    Average Memory :                             312.38 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11446.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <ATCU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0453>
+Subject: Job 17842041: <ATCU> in cluster <rcc> Done
+
+Job <ATCU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0453>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 21:34:56 2014
+Results reported on Tue Aug 26 00:46:20 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCount_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/SRF.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/TagCount_UW/SRF.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   14908.49 sec.
+    Max Memory :                                 550 MB
+    Average Memory :                             318.85 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11450.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <ATCU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0962>
+Subject: Job 17842007: <ATCU> in cluster <rcc> Done
+
+Job <ATCU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0962>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 21:26:11 2014
+Results reported on Tue Aug 26 00:46:46 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCount_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/EGR1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/TagCount_UW/EGR1.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   15468.67 sec.
+    Max Memory :                                 557 MB
+    Average Memory :                             310.11 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11443.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <ATCU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0610>
+Subject: Job 17842054: <ATCU> in cluster <rcc> Done
+
+Job <ATCU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0610>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 21:41:18 2014
+Results reported on Tue Aug 26 00:52:11 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCount_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/ZNF143.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/TagCount_UW/ZNF143.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   14801.34 sec.
+    Max Memory :                                 565 MB
+    Average Memory :                             324.88 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11435.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <ATCU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxscc028>
+Subject: Job 17841985: <ATCU> in cluster <rcc> Done
+
+Job <ATCU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxscc028>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 21:03:58 2014
+Results reported on Tue Aug 26 01:00:25 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCount_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/HepG2_Evidence/fdr_4/USF1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_HepG2/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/HepG2/fdr_4/TagCount_UW/USF1.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   22226.50 sec.
+    Max Memory :                                 522 MB
+    Average Memory :                             299.34 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11478.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <ATCU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0113>
+Subject: Job 17841990: <ATCU> in cluster <rcc> Done
+
+Job <ATCU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0113>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 21:09:10 2014
+Results reported on Tue Aug 26 01:07:41 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCount_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/Huvec_Evidence/fdr_4/GATA2.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_Huvec/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/Huvec/fdr_4/TagCount_UW/GATA2.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   20257.69 sec.
+    Max Memory :                                 793 MB
+    Average Memory :                             444.81 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11207.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <ATCU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0054>
+Subject: Job 17841983: <ATCU> in cluster <rcc> Done
+
+Job <ATCU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0054>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 21:02:34 2014
+Results reported on Tue Aug 26 01:08:38 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCount_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/HepG2_Evidence/fdr_4/SRF.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_HepG2/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/HepG2/fdr_4/TagCount_UW/SRF.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   21301.55 sec.
+    Max Memory :                                 544 MB
+    Average Memory :                             292.06 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11456.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <ATCU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0263>
+Subject: Job 17842023: <ATCU> in cluster <rcc> Done
+
+Job <ATCU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0263>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 21:29:39 2014
+Results reported on Tue Aug 26 01:11:43 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCount_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/MAFF.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/TagCount_UW/MAFF.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   17304.35 sec.
+    Max Memory :                                 579 MB
+    Average Memory :                             337.17 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11421.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <ATCU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0983>
+Subject: Job 17842024: <ATCU> in cluster <rcc> Done
+
+Job <ATCU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0983>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 21:30:03 2014
+Results reported on Tue Aug 26 01:17:17 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCount_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/MAFK.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/TagCount_UW/MAFK.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   17773.70 sec.
+    Max Memory :                                 576 MB
+    Average Memory :                             332.42 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11424.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <ATCU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc1299>
+Subject: Job 17842042: <ATCU> in cluster <rcc> Done
+
+Job <ATCU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc1299>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 21:34:56 2014
+Results reported on Tue Aug 26 01:25:17 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCount_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/STAT1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/TagCount_UW/STAT1.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   17986.51 sec.
+    Max Memory :                                 587 MB
+    Average Memory :                             338.84 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11413.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <ATCU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0390>
+Subject: Job 17842014: <ATCU> in cluster <rcc> Done
+
+Job <ATCU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0390>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 21:26:59 2014
+Results reported on Tue Aug 26 01:34:12 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCount_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/ETS1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/TagCount_UW/ETS1.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   19181.41 sec.
+    Max Memory :                                 594 MB
+    Average Memory :                             338.70 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11406.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <ATCU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxscc126>
+Subject: Job 17841986: <ATCU> in cluster <rcc> Done
+
+Job <ATCU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxscc126>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 21:03:58 2014
+Results reported on Tue Aug 26 01:34:19 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCount_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/HepG2_Evidence/fdr_4/USF2.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_HepG2/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/HepG2/fdr_4/TagCount_UW/USF2.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   25706.61 sec.
+    Max Memory :                                 529 MB
+    Average Memory :                             306.25 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11471.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <ATCU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc1205>
+Subject: Job 17842000: <ATCU> in cluster <rcc> Done
+
+Job <ATCU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc1205>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 21:24:10 2014
+Results reported on Tue Aug 26 01:34:30 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCount_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/CEBPB.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/TagCount_UW/CEBPB.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   19604.52 sec.
+    Max Memory :                                 597 MB
+    Average Memory :                             340.56 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11403.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <ATCU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0034>
+Subject: Job 17841980: <ATCU> in cluster <rcc> Done
+
+Job <ATCU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0034>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 21:02:09 2014
+Results reported on Tue Aug 26 01:35:11 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCount_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/HepG2_Evidence/fdr_4/RXRA.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_HepG2/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/HepG2/fdr_4/TagCount_UW/RXRA.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   24007.23 sec.
+    Max Memory :                                 346 MB
+    Average Memory :                             147.20 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11654.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <ATCU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0806>
+Subject: Job 17842051: <ATCU> in cluster <rcc> Done
+
+Job <ATCU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0806>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 21:41:18 2014
+Results reported on Tue Aug 26 01:43:50 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCount_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/YY1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/TagCount_UW/YY1.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   18996.39 sec.
+    Max Memory :                                 587 MB
+    Average Memory :                             330.05 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11413.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <ATCU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0214>
+Subject: Job 17841972: <ATCU> in cluster <rcc> Done
+
+Job <ATCU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0214>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 21:01:38 2014
+Results reported on Tue Aug 26 01:57:14 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCount_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/HepG2_Evidence/fdr_4/MAFF.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_HepG2/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/HepG2/fdr_4/TagCount_UW/MAFF.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   25853.23 sec.
+    Max Memory :                                 366 MB
+    Average Memory :                             164.82 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11634.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <ATCU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxscc023>
+Subject: Job 17841984: <ATCU> in cluster <rcc> Done
+
+Job <ATCU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxscc023>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 21:03:58 2014
+Results reported on Tue Aug 26 01:58:04 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCount_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/HepG2_Evidence/fdr_4/TBP.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_HepG2/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/HepG2/fdr_4/TagCount_UW/TBP.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   27968.88 sec.
+    Max Memory :                                 542 MB
+    Average Memory :                             330.28 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11458.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <ATCU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0214>
+Subject: Job 17841973: <ATCU> in cluster <rcc> Done
+
+Job <ATCU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0214>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 21:01:38 2014
+Results reported on Tue Aug 26 02:00:15 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCount_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/HepG2_Evidence/fdr_4/MAFK.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_HepG2/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/HepG2/fdr_4/TagCount_UW/MAFK.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   25860.20 sec.
+    Max Memory :                                 202 MB
+    Average Memory :                             121.04 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11798.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <ATCU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0236>
+Subject: Job 17841966: <ATCU> in cluster <rcc> Done
+
+Job <ATCU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0236>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 21:00:41 2014
+Results reported on Tue Aug 26 02:24:36 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCount_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/HepG2_Evidence/fdr_4/CEBPB.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_HepG2/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/HepG2/fdr_4/TagCount_UW/CEBPB.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   28102.01 sec.
+    Max Memory :                                 585 MB
+    Average Memory :                             316.22 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11415.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <ATCU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0871>
+Subject: Job 17842040: <ATCU> in cluster <rcc> Done
+
+Job <ATCU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0871>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 21:34:44 2014
+Results reported on Tue Aug 26 02:24:58 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCount_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/SP2.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/TagCount_UW/SP2.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   22621.04 sec.
+    Max Memory :                                 622 MB
+    Average Memory :                             352.25 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11378.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <ATCU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0036>
+Subject: Job 17841968: <ATCU> in cluster <rcc> Done
+
+Job <ATCU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0036>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 21:01:23 2014
+Results reported on Tue Aug 26 02:36:16 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCount_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/HepG2_Evidence/fdr_4/ELF1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_HepG2/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/HepG2/fdr_4/TagCount_UW/ELF1.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   27098.93 sec.
+    Max Memory :                                 444 MB
+    Average Memory :                             232.02 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11556.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <ATCU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0034>
+Subject: Job 17842044: <ATCU> in cluster <rcc> Done
+
+Job <ATCU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0034>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 21:37:47 2014
+Results reported on Tue Aug 26 02:55:17 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCount_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/STAT5A.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/TagCount_UW/STAT5A.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   27789.72 sec.
+    Max Memory :                                 582 MB
+    Average Memory :                             322.72 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11418.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <ATCU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc1127>
+Subject: Job 17842039: <ATCU> in cluster <rcc> Done
+
+Job <ATCU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc1127>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 21:34:32 2014
+Results reported on Tue Aug 26 03:11:02 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCount_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/SP1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/TagCount_UW/SP1.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   26139.34 sec.
+    Max Memory :                                 641 MB
+    Average Memory :                             359.02 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11359.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <ATCU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc1324>
+Subject: Job 17841962: <ATCU> in cluster <rcc> Done
+
+Job <ATCU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc1324>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 20:44:42 2014
+Results reported on Tue Aug 26 03:17:21 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCount_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/HepG2_Evidence/fdr_4/ARID3A.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_HepG2/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/HepG2/fdr_4/TagCount_UW/ARID3A.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   30577.53 sec.
+    Max Memory :                                 695 MB
+    Average Memory :                             406.20 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11305.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <ATCU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0034>
+Subject: Job 17841982: <ATCU> in cluster <rcc> Done
+
+Job <ATCU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0034>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 21:02:09 2014
+Results reported on Tue Aug 26 03:28:20 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCount_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/HepG2_Evidence/fdr_4/SP2.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_HepG2/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/HepG2/fdr_4/TagCount_UW/SP2.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   33436.69 sec.
+    Max Memory :                                 285 MB
+    Average Memory :                             170.71 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11715.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <ATCU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0809>
+Subject: Job 17842033: <ATCU> in cluster <rcc> Done
+
+Job <ATCU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0809>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 21:32:54 2014
+Results reported on Tue Aug 26 03:50:06 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCount_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/PU1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/TagCount_UW/PU1.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   29337.17 sec.
+    Max Memory :                                 672 MB
+    Average Memory :                             385.31 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11328.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <ATCU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0034>
+Subject: Job 17841981: <ATCU> in cluster <rcc> Done
+
+Job <ATCU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0034>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 21:02:09 2014
+Results reported on Tue Aug 26 04:05:24 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCount_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/HepG2_Evidence/fdr_4/SP1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_HepG2/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/HepG2/fdr_4/TagCount_UW/SP1.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   36524.41 sec.
+    Max Memory :                                 249 MB
+    Average Memory :                             149.14 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11751.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <ATCU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0699>
+Subject: Job 17841994: <ATCU> in cluster <rcc> Done
+
+Job <ATCU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0699>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 21:13:05 2014
+Results reported on Tue Aug 26 04:14:17 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCount_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/ARID3A.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/TagCount_UW/ARID3A.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   33887.73 sec.
+    Max Memory :                                 509 MB
+    Average Memory :                             245.94 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11491.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <ATCU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxscc079>
+Subject: Job 17841987: <ATCU> in cluster <rcc> Done
+
+Job <ATCU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxscc079>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 21:03:58 2014
+Results reported on Tue Aug 26 04:40:49 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCount_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/HepG2_Evidence/fdr_4/YY1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_HepG2/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/HepG2/fdr_4/TagCount_UW/YY1.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   43217.46 sec.
+    Max Memory :                                 593 MB
+    Average Memory :                             348.92 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11407.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <ATCU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc1274>
+Subject: Job 17842020: <ATCU> in cluster <rcc> Done
+
+Job <ATCU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc1274>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 21:28:14 2014
+Results reported on Tue Aug 26 04:40:56 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCount_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/IRF1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/TagCount_UW/IRF1.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   33673.00 sec.
+    Max Memory :                                 715 MB
+    Average Memory :                             410.03 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11285.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <ATCU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0427>
+Subject: Job 17842055: <ATCU> in cluster <rcc> Done
+
+Job <ATCU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0427>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 21:41:18 2014
+Results reported on Tue Aug 26 05:37:03 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCount_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/ZNF263.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/TagCount_UW/ZNF263.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   37097.61 sec.
+    Max Memory :                                 748 MB
+    Average Memory :                             423.34 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11252.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <ATCU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc1004>
+Subject: Job 17842043: <ATCU> in cluster <rcc> Done
+
+Job <ATCU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc1004>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 21:35:21 2014
+Results reported on Tue Aug 26 07:04:45 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCount_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/STAT2.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/TagCount_UW/STAT2.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   44411.00 sec.
+    Max Memory :                                 808 MB
+    Average Memory :                             461.70 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11192.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <ATCU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0781>
+Subject: Job 17842026: <ATCU> in cluster <rcc> Done
+
+Job <ATCU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0781>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 21:30:15 2014
+Results reported on Tue Aug 26 07:38:52 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCount_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/MEF2A.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/TagCount_UW/MEF2A.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   48076.52 sec.
+    Max Memory :                                 818 MB
+    Average Memory :                             468.24 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11182.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <ATCU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc1167>
+Subject: Job 17857538: <ATCU> in cluster <rcc> Done
+
+Job <ATCU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc1167>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Tue Aug 26 13:22:25 2014
+Results reported on Tue Aug 26 16:04:16 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCount_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/MAX.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/TagCount_UW/MAX.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   12661.51 sec.
+    Max Memory :                                 367 MB
+    Average Memory :                             219.11 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11633.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <ATCU_err.txt> for stderr output of this job.
+

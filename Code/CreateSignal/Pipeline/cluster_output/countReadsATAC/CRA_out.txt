@@ -1,0 +1,74 @@
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 23817766: <CRA> in cluster <rcc> Done
+
+Job <CRA> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CreateSignal/Pipeline> was used as the working directory.
+Started at Thu Sep  3 15:42:39 2015
+Results reported on Thu Sep  3 16:54:02 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./countReadsATAC_pipeline.zsh 4,-5,0,1 /hpcwork/izkf/projects/TfbsPrediction/Data/ATAC/K562/ATAC.bam /hpcwork/izkf/projects/TfbsPrediction/Data/HG19/hg19.chrom.sizes.filtered /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/ATAC/Counts/K562/ATAC.wig
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   4547.19 sec.
+    Max Memory :                                 46317 MB
+    Average Memory :                             13723.18 MB
+    Total Requested Memory :                     60000.00 MB
+    Delta Memory :                               13683.00 MB
+    Max Processes :                              16
+    Max Threads :                                20
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <CRA_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 23817767: <CRA> in cluster <rcc> Done
+
+Job <CRA> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CreateSignal/Pipeline> was used as the working directory.
+Started at Thu Sep  3 15:42:39 2015
+Results reported on Thu Sep  3 16:55:33 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./countReadsATAC_pipeline.zsh 0,0,0,9 /hpcwork/izkf/projects/TfbsPrediction/Data/ATAC/K562/ATAC.bam /hpcwork/izkf/projects/TfbsPrediction/Data/HG19/hg19.chrom.sizes.filtered /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/ATAC/Counts/K562/ATACBO.wig
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   4672.15 sec.
+    Max Memory :                                 46405 MB
+    Average Memory :                             13346.11 MB
+    Total Requested Memory :                     60000.00 MB
+    Delta Memory :                               13595.00 MB
+    Max Processes :                              16
+    Max Threads :                                20
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <CRA_err.txt> for stderr output of this job.
+

@@ -1,0 +1,37 @@
+Sender: LSF System <lsfadmin@linuxnc006>
+Subject: Job 24611406: <H1hesc_CDX2_ACP> in cluster <rcc> Done
+
+Job <H1hesc_CDX2_ACP> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxnc006>, in queue <low>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Wed Oct 28 16:47:15 2015
+Results reported on Wed Oct 28 21:15:38 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyCuellar_pipeline.zsh CDX2 0.00001 /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/ExpressionValidation/MPBS/MEME/CDX2.meme /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/DU_H1hesc/Cuellar/DNase_prior.bw /hpcwork/izkf/projects/TfbsPrediction/Data/HG19/ /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/Cuellar_batch/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   15841.39 sec.
+    Max Memory :                                 3808 MB
+    Average Memory :                             1922.80 MB
+    Total Requested Memory :                     8192.00 MB
+    Delta Memory :                               4384.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <H1hesc_CDX2_ACP_err.txt> for stderr output of this job.
+

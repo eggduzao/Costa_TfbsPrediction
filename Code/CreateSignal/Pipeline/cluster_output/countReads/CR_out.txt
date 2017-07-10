@@ -1,0 +1,37 @@
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22670437: <CR> in cluster <rcc> Done
+
+Job <CR> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CreateSignal/Pipeline> was used as the working directory.
+Started at Sat Jun 27 03:36:55 2015
+Results reported on Sat Jun 27 06:03:52 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./countReads_pipeline.zsh 0 1 /hpcwork/izkf/projects/TfbsPrediction/Data/DNaseUW/H7hesc/DNase.bam /hpcwork/izkf/projects/TfbsPrediction/Data/HG19/hg19.chrom.sizes.filtered /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_H7hesc/DNase.wig
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   9345.65 sec.
+    Max Memory :                                 49392 MB
+    Average Memory :                             11274.09 MB
+    Total Requested Memory :                     60000.00 MB
+    Delta Memory :                               10608.00 MB
+    Max Processes :                              16
+    Max Threads :                                19
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <CR_err.txt> for stderr output of this job.
+

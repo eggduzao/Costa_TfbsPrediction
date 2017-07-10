@@ -1,0 +1,440 @@
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 24428391: <74_CPMM> in cluster <rcc> Done
+
+Job <74_CPMM> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Oct 19 19:20:45 2015
+Results reported on Mon Oct 19 19:25:09 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./createPIQMotifMatch_pipeline.zsh 74 /hpcwork/izkf/projects/TfbsPrediction/Data/PWM/PIQ/Expression_Analysis/PIQjaspar.txt /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/PIQ_batch/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   247.58 sec.
+    Max Memory :                                 3893 MB
+    Average Memory :                             2530.25 MB
+    Total Requested Memory :                     24000.00 MB
+    Delta Memory :                               20107.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+> args <- commandArgs(trailingOnly = TRUE)
+> print(args)
+[1] "common.r"                                                                            
+[2] "/hpcwork/izkf/projects/TfbsPrediction/Data/PWM/PIQ/Expression_Analysis/PIQjaspar.txt"
+[3] "74"                                                                                  
+[4] "/hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/PIQ_batch/"                    
+> 
+> commonfile = args[1]
+> jaspardir = args[2]
+> pwmid = as.double(args[3])
+> outdir = args[4]
+> 
+> outdir=paste0(outdir,'/')
+> source(commonfile)
+> if(!overwrite & file.exists(paste0(outdir,pwmid,'.pwmout.RData'))){
++   stop("pwm file already exists")
++ }
+> 
+> 
+> 
+> ####
+> # load PWMs
+> ####
+> 
+> #pwmin = 'pwms/'
+> 
+> 
+> importJaspar <- function(file=myloc) {
++   vec <- readLines(file)
++   vec <- gsub("\t"," ",vec)
++   vec <- gsub("\\[|\\]", "", vec)
++   start <- grep(">", vec); end <- grep(">", vec) - 1
++   pos <- data.frame(start=start, end=c(end[-1], length(vec)))
++   pwm <- sapply(seq(along=pos[,1]), function(x) vec[pos[x,1]:pos[x,2]])
++   pwm <- sapply(seq(along=pwm), function(x) strsplit(pwm[[x]], " {1,}"))
++   pwm <- lapply(seq(along=start), function(x) matrix(as.numeric(t(as.data.frame(pwm[(pos[x,1]+1):pos[x,2]]))[,-1]), nrow=4, dimnames=list(c("A", "C", "G", "T"), NULL)))
++   names(pwm) <- gsub(">", "", vec[start])
++   return(pwm)
++ }
+> pwmtable <- importJaspar(jaspardir)
+> 
+> pwmnum = pwmid
+> pwmin = pwmtable[[pwmnum]] + 1e-20
+> pwmname = names(pwmtable)[pwmnum]
+> 
+> ####
+> # end input script
+> # assert: existence of pwmin and pwmname
+> ####
+> 
+> 
+> ####
+> # motif match
+> 
+> pwmnorm=t(t(pwmin)/colSums(pwmin))
+> #informbase=colSums((log(pwmnorm+0.01)-log(1/4))*pwmnorm) #
+> #pwmnorm = pwmnorm[,(informbase > basecut)]
+> ipr=log(pwmnorm)-log(1/4)
+> 
+> #chr names
+> chrstr = seqnames(genome)
+> 
+> if(exists('blacklist') & !is.null(blacklist)){
++     blacktable=read.table(blacklist)
++ }
+> 
+> if(exists('whitelist') & !is.null(whitelist)){
++     whitetable=read.table(whitelist)
++ }
+> 
+> #####
+> # fw motif match
+> 
+> pwuse = ipr
+> 
+> coords.list = lapply(chrstr,function(i){
++     print(i)
++     gi=genome[[i]]
++     if(remove.repeatmask & !is.null(masks(gi))){
++         active(masks(gi)) <- rep(T,length(masks(gi)))
++     }
++     if(exists('blacklist') & !is.null(blacklist)){
++         blacksel= blacktable[,1]==i
++         if(sum(blacksel)>0){
++             flsize = wsize*flank.blacklist
++             ir=intersect(IRanges(1,length(gi)),reduce(IRanges(blacktable[blacksel,2]-flsize,blacktable[blacksel,3]+flsize)))
++             mask=Mask(length(gi),start(ir),end(ir))
++             masks(gi) = append(masks(gi),mask)
++         }
++     }
++     if(exists('whitetable')){
++         whitesel=whitetable[,1]==i
++         if(sum(whitesel)>0){
++             wchr=whitetable[whitesel,,drop=F]
++             ir=IRanges(wchr[,2],wchr[,3])
++             air=IRanges(1,length(gi))
++             nir=setdiff(air,ir)
++             rir=reduce(IRanges(start(nir)-wsize,end(nir)+wsize))
++             maskr=intersect(rir,air)
++             mask = Mask(length(gi),start(maskr),end(maskr))
++             masks(gi) = append(masks(gi),mask)
++         }else{
++             mask = Mask(length(gi),1,length(gi))
++             masks(gi) = append(masks(gi),mask)
++         }
++     }
++     mpwm=matchPWM(pwuse,gi,min.score=motifcut)
++     pscore=PWMscoreStartingAt(pwuse,as(gi,"DNAString"),start(mpwm))
++     list(mpwm,pscore)
++ })
+[1] "chr1"
+[1] "chr2"
+[1] "chr3"
+[1] "chr4"
+[1] "chr5"
+[1] "chr6"
+[1] "chr7"
+[1] "chr8"
+[1] "chr9"
+[1] "chr10"
+[1] "chr11"
+[1] "chr12"
+[1] "chr13"
+[1] "chr14"
+[1] "chr15"
+[1] "chr16"
+[1] "chr17"
+[1] "chr18"
+[1] "chr19"
+[1] "chr20"
+[1] "chr21"
+[1] "chr22"
+[1] "chrX"
+[1] "chrY"
+[1] "chrM"
+[1] "chr1_gl000191_random"
+[1] "chr1_gl000192_random"
+[1] "chr4_ctg9_hap1"
+[1] "chr4_gl000193_random"
+[1] "chr4_gl000194_random"
+[1] "chr6_apd_hap1"
+[1] "chr6_cox_hap2"
+[1] "chr6_dbb_hap3"
+[1] "chr6_mann_hap4"
+[1] "chr6_mcf_hap5"
+[1] "chr6_qbl_hap6"
+[1] "chr6_ssto_hap7"
+[1] "chr7_gl000195_random"
+[1] "chr8_gl000196_random"
+[1] "chr8_gl000197_random"
+[1] "chr9_gl000198_random"
+[1] "chr9_gl000199_random"
+[1] "chr9_gl000200_random"
+[1] "chr9_gl000201_random"
+[1] "chr11_gl000202_random"
+[1] "chr17_ctg5_hap1"
+[1] "chr17_gl000203_random"
+[1] "chr17_gl000204_random"
+[1] "chr17_gl000205_random"
+[1] "chr17_gl000206_random"
+[1] "chr18_gl000207_random"
+[1] "chr19_gl000208_random"
+[1] "chr19_gl000209_random"
+[1] "chr21_gl000210_random"
+[1] "chrUn_gl000211"
+[1] "chrUn_gl000212"
+[1] "chrUn_gl000213"
+[1] "chrUn_gl000214"
+[1] "chrUn_gl000215"
+[1] "chrUn_gl000216"
+[1] "chrUn_gl000217"
+[1] "chrUn_gl000218"
+[1] "chrUn_gl000219"
+[1] "chrUn_gl000220"
+[1] "chrUn_gl000221"
+[1] "chrUn_gl000222"
+[1] "chrUn_gl000223"
+[1] "chrUn_gl000224"
+[1] "chrUn_gl000225"
+[1] "chrUn_gl000226"
+[1] "chrUn_gl000227"
+[1] "chrUn_gl000228"
+[1] "chrUn_gl000229"
+[1] "chrUn_gl000230"
+[1] "chrUn_gl000231"
+[1] "chrUn_gl000232"
+[1] "chrUn_gl000233"
+[1] "chrUn_gl000234"
+[1] "chrUn_gl000235"
+[1] "chrUn_gl000236"
+[1] "chrUn_gl000237"
+[1] "chrUn_gl000238"
+[1] "chrUn_gl000239"
+[1] "chrUn_gl000240"
+[1] "chrUn_gl000241"
+[1] "chrUn_gl000242"
+[1] "chrUn_gl000243"
+[1] "chrUn_gl000244"
+[1] "chrUn_gl000245"
+[1] "chrUn_gl000246"
+[1] "chrUn_gl000247"
+[1] "chrUn_gl000248"
+[1] "chrUn_gl000249"
+> 
+> if(sum(sapply(coords.list,function(i){length(i[[2]])}))>0){
++ 
++ allpwm=do.call(c,lapply(coords.list,function(i){i[[2]]}))
++ pwmcut2=sort(allpwm,decreasing=T)[min(length(allpwm),maxcand)]
++ rm(allpwm)
++ print(pwmcut2)
++ 
++ coords=lapply(1:length(coords.list),function(i){
++     as(coords.list[[i]][[1]],'IRanges')[coords.list[[i]][[2]] >= pwmcut2]
++ })
++ 
++ coords.pwm=lapply(coords.list,function(i){i[[2]][i[[2]] >= pwmcut2]})
++ 
++ #coords=lapply(coords.list,unlist)
++ 
++ clengths=sapply(coords,length)
++ print(sum(clengths))
++ coords.short=coords[clengths>0]
++ names(coords.short)=chrstr[clengths>0]
++ ncoords=chrstr[clengths>0]#names(coords)
++ coords2=sapply(coords.short,flank,width=wsize,both=T)
++ 
++ save(coords,coords.pwm,ipr,pwmin,pwmname,chrstr,clengths,coords.short,ncoords,coords2,file=paste0(outdir,pwmid,'.pwmout.RData'))
++ 
++ }else{
++ clengths=0
++ save(clengths,file=paste0(outdir,pwmid,'.pwmout.RData'))
++ }
+[1] 7.573745
+[1] 1000193
+> 
+> #
+> #####
+> 
+> #####
+> # RC motif match
+> 
+> pwuse = reverseComplement(ipr)
+> 
+> coords.list = lapply(chrstr,function(i){
++     print(i)
++     gi=genome[[i]]
++     if(remove.repeatmask & !is.null(masks(gi))){
++         active(masks(gi)) <- rep(T,length(masks(gi)))
++     }
++     if(exists('blacklist') & !is.null(blacklist)){
++         blacksel= blacktable[,1]==i
++         if(sum(blacksel)>0){
++             flsize = wsize*flank.blacklist
++             ir=intersect(IRanges(1,length(gi)),reduce(IRanges(blacktable[blacksel,2]-flsize,blacktable[blacksel,3]+flsize)))
++             mask=Mask(length(gi),start(ir),end(ir))
++             masks(gi) = append(masks(gi),mask)
++         }
++     }
++     if(exists('whitetable')){
++         whitesel=whitetable[,1]==i
++         if(sum(whitesel)>0){
++             wchr=whitetable[whitesel,,drop=F]
++             ir=IRanges(wchr[,2],wchr[,3])
++             air=IRanges(1,length(gi))
++             nir=setdiff(air,ir)
++             rir=reduce(IRanges(start(nir)-wsize,end(nir)+wsize))
++             maskr=intersect(rir,air)
++             mask = Mask(length(gi),start(maskr),end(maskr))
++             masks(gi) = append(masks(gi),mask)
++         }else{
++             mask = Mask(length(gi),1,length(gi))
++             masks(gi) = append(masks(gi),mask)
++         }
++     }
++     mpwm=matchPWM(pwuse,gi,min.score=motifcut)
++     pscore=PWMscoreStartingAt(pwuse,as(gi,"DNAString"),start(mpwm))
++     list(mpwm,pscore)
++ })
+[1] "chr1"
+[1] "chr2"
+[1] "chr3"
+[1] "chr4"
+[1] "chr5"
+[1] "chr6"
+[1] "chr7"
+[1] "chr8"
+[1] "chr9"
+[1] "chr10"
+[1] "chr11"
+[1] "chr12"
+[1] "chr13"
+[1] "chr14"
+[1] "chr15"
+[1] "chr16"
+[1] "chr17"
+[1] "chr18"
+[1] "chr19"
+[1] "chr20"
+[1] "chr21"
+[1] "chr22"
+[1] "chrX"
+[1] "chrY"
+[1] "chrM"
+[1] "chr1_gl000191_random"
+[1] "chr1_gl000192_random"
+[1] "chr4_ctg9_hap1"
+[1] "chr4_gl000193_random"
+[1] "chr4_gl000194_random"
+[1] "chr6_apd_hap1"
+[1] "chr6_cox_hap2"
+[1] "chr6_dbb_hap3"
+[1] "chr6_mann_hap4"
+[1] "chr6_mcf_hap5"
+[1] "chr6_qbl_hap6"
+[1] "chr6_ssto_hap7"
+[1] "chr7_gl000195_random"
+[1] "chr8_gl000196_random"
+[1] "chr8_gl000197_random"
+[1] "chr9_gl000198_random"
+[1] "chr9_gl000199_random"
+[1] "chr9_gl000200_random"
+[1] "chr9_gl000201_random"
+[1] "chr11_gl000202_random"
+[1] "chr17_ctg5_hap1"
+[1] "chr17_gl000203_random"
+[1] "chr17_gl000204_random"
+[1] "chr17_gl000205_random"
+[1] "chr17_gl000206_random"
+[1] "chr18_gl000207_random"
+[1] "chr19_gl000208_random"
+[1] "chr19_gl000209_random"
+[1] "chr21_gl000210_random"
+[1] "chrUn_gl000211"
+[1] "chrUn_gl000212"
+[1] "chrUn_gl000213"
+[1] "chrUn_gl000214"
+[1] "chrUn_gl000215"
+[1] "chrUn_gl000216"
+[1] "chrUn_gl000217"
+[1] "chrUn_gl000218"
+[1] "chrUn_gl000219"
+[1] "chrUn_gl000220"
+[1] "chrUn_gl000221"
+[1] "chrUn_gl000222"
+[1] "chrUn_gl000223"
+[1] "chrUn_gl000224"
+[1] "chrUn_gl000225"
+[1] "chrUn_gl000226"
+[1] "chrUn_gl000227"
+[1] "chrUn_gl000228"
+[1] "chrUn_gl000229"
+[1] "chrUn_gl000230"
+[1] "chrUn_gl000231"
+[1] "chrUn_gl000232"
+[1] "chrUn_gl000233"
+[1] "chrUn_gl000234"
+[1] "chrUn_gl000235"
+[1] "chrUn_gl000236"
+[1] "chrUn_gl000237"
+[1] "chrUn_gl000238"
+[1] "chrUn_gl000239"
+[1] "chrUn_gl000240"
+[1] "chrUn_gl000241"
+[1] "chrUn_gl000242"
+[1] "chrUn_gl000243"
+[1] "chrUn_gl000244"
+[1] "chrUn_gl000245"
+[1] "chrUn_gl000246"
+[1] "chrUn_gl000247"
+[1] "chrUn_gl000248"
+[1] "chrUn_gl000249"
+> 
+> if(sum(sapply(coords.list,function(i){length(i[[2]])}))>0){
++ 
++ allpwm=do.call(c,lapply(coords.list,function(i){i[[2]]}))
++ pwmcut2=sort(allpwm,decreasing=T)[min(length(allpwm),maxcand)]
++ rm(allpwm)
++ print(pwmcut2)
++ 
++ coords=lapply(1:length(coords.list),function(i){
++     as(coords.list[[i]][[1]],'IRanges')[coords.list[[i]][[2]] >= pwmcut2]
++ })
++ 
++ coords.pwm=lapply(coords.list,function(i){i[[2]][i[[2]] >= pwmcut2]})
++ 
++ #coords=lapply(coords.list,unlist)
++ 
++ clengths=sapply(coords,length)
++ print(sum(clengths))
++ coords.short=coords[clengths>0]
++ names(coords.short)=chrstr[clengths>0]
++ ncoords=chrstr[clengths>0]#names(coords)
++ coords2=sapply(coords.short,flank,width=wsize,both=T)
++ 
++ save(coords,coords.pwm,ipr,pwmin,pwmname,chrstr,clengths,coords.short,ncoords,coords2,file=paste0(outdir,pwmid,'.pwmout.rc.RData'))
++ 
++ }else{
++ clengths=0
++ save(clengths,file=paste0(outdir,pwmid,'.pwmout.rc.RData'))
++ }
+[1] 7.588485
+[1] 1000033
+> 
+
+
+PS:
+
+Read file <74_CPMM_err.txt> for stderr output of this job.
+

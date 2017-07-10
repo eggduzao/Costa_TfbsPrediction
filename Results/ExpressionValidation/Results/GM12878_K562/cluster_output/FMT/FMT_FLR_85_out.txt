@@ -1,0 +1,37 @@
+Sender: LSF System <lsfadmin@linuxbmc0250>
+Subject: Job 24991315: <FMT_FLR_85> in cluster <rcc> Done
+
+Job <FMT_FLR_85> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0250>, in queue <low>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/ExpressionValidation/Results/GM12878_K562> was used as the working directory.
+Started at Thu Nov 19 00:48:39 2015
+Results reported on Thu Nov 19 01:57:50 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./fetchMultivarTable_pipeline.zsh FLR_85 /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/ExpressionValidation/Results/GM12878_K562/multivar_table/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   4146.70 sec.
+    Max Memory :                                 16008 MB
+    Average Memory :                             8359.44 MB
+    Total Requested Memory :                     24000.00 MB
+    Delta Memory :                               7992.00 MB
+    Max Processes :                              5
+    Max Threads :                                6
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <FMT_FLR_85_err.txt> for stderr output of this job.
+

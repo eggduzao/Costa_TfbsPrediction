@@ -1,0 +1,675 @@
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% ----------------------------------------------------------------------
+% Class: Chapter5.tex
+% Author: Eduardo Gade Gusmao
+% ----------------------------------------------------------------------
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Header
+\chapter{Resultados e Discussão}
+
+% Figures file
+\graphicspath{{5_Chapter5/Figures/}}
+
+% Descrição dos resultados
+Neste capítulo serão mostrados os resultados referentes à aplicação do método proposto. Tais resultados serão exibidos no formato de: (1) gráficos de sinais epigenéticos, que mostram padrões médios ao redor de regiões de interesse; (2) tabelas, com as estatísticas representando a acurácia de modelos, isto é, a eficiência preditiva dos sinais. Além disso serão exibidos dados a respeito do tempo computacional e capacidade de armazenamento necessário para a realização dos experimentos.
+
+% Descrição da discussão
+Tais resultados apresentados também serão discutidos, sob a ótica das considerações feitas durante a apresentação da fundamentação teórica biológica e computacional. Serão realizadas observações a respeito de: (1) análises realizadas envolvendo os sinais epigenéticos presentes nas regiões de interesse; (2) análises envolvendo os estados do HMM nas regiões de interesse; (3) acurácia dos modelos. Serão discutidos também alguns exemplos da aplicação dos modelos propostos, mostrando as ocasiões em que o modelo funcionou conforme previsto e as melhorias que ainda precisam ser realizadas.
+
+% Resultados - introdução
+A apresentação dos resultados foi dividida em duas partes. Na primeira, é realizada uma análise mais profunda das características que os sinais epigenéticos possuem em certas regiões de interesse (Seção~\ref{sec:ressinaisepi}). Essa foi a primeira análise realizada neste trabalho e teve como objetivo o entendimento do comportamento dos sinais epigenéticos que seriam utilizados posteriormente no modelo probabilístico. Na segunda parte, os resultados da aplicação do HMM descrito na Seção~\ref{sec:footprinting} serão exibidos (Seção~\ref{sec:resacuraciamodelo}). São exibidos resultados tanto para o HMM proposto quanto para o HMM segundo a abordagem anterior.
+
+% Padrões epigenéticos e fatores analisados
+Conforme mencionado anteriormente, foram investigados os padrões epigenéticos relativos à digestão de DNase~I (nomeado \emph{DNase}), à histona variante H2A.Z e às histonas ativadoras H3K4me2, H3K4me3 e H3K9ac. Esse conjunto de características epigenéticas foi utilizado pelo fato de que ele marca, de forma eficaz, regiões de cromatina descondensada (ver Seção~\ref{ssec:elementosepigen}). Em relação aos fatores de transcrição (e aos seus respectivos \emph{motifs}), a análise dos sinais epigenéticos médios foi realizada em todos os fatores presentes na Tabela~\ref{tab:dadosusados}. A acurácia do modelo, entretanto, foi acessada apenas para um conjunto representativo destes, a saber, ATF3 (com PWM obtida no Transfac), CTCF (com \emph{motifs} do Jaspar e Renlab), GABP (PWMs do Jaspar e Transfac) e REST (com \emph{motifs} do Jaspar e Transfac). Os fatores CTCF, GABP e REST foram escolhidos por terem sido também utilizados em \citep{boyle2011}. O fator REST, em especial, foi utilizado como forma de avaliar fatores que possuem baixos níveis de marcas epigenéticas. O fator ATF3 foi escolhido pois observou-se que este fator possui a maior razão entre instâncias negativas e instâncias positivas (ver Tabela~\ref{tab:regioesmpbschip}), tendo sido este caso o mais desafiador para a nova abordagem proposta (ver discussão realizada na Seção~\ref{sec:resacuraciamodelo}).
+
+% 5.1 Análise dos Sinais Epigenéticos
+\section{Análise dos Sinais Epigenéticos}\label{sec:ressinaisepi}
+
+%  Análise dos sinais epigenéticos - introdução
+Serão realizados três tipos diferentes de análises nesta seção. A primeira análise consiste na investigação do comportamento dos sinais ao redor de regiões de MPBSs. O objetivo disto é a apresentação dos sinais epigenéticos para que o leitor se familiarize com os padrões observados. A segunda análise corresponde à investigação destes sinais em regiões de MPBSs com e sem evidência de ChIP-seq, com objetivo de mostrar a capacidade de separação de cada sinal epigenético, em diferentes fatores de transcrição, com base nas definições do \emph{gold standard}. Finalmente, a terceira análise engloba MPBSs, evidência de ChIP-seq, e predições realizadas com o modelo previamente proposto, com objetivo de entender os pontos positivos e negativos deste modelo baseado em DNase apenas.
+
+%  Gráficos PWM
+A primeira análise consiste na visualização dos sinais epigenéticos ao redor dos 100 MPBSs com maior \emph{bit score} (Figura~\ref{gusmao_1_PwmTop_correct}).  Cada região analisada consiste na extensão de 500 bp para a esquerda e direita do local onde a PWM foi identificada no genoma. Para cada sinal, é mostrado um gráfico de cores (parte superior) onde as linhas correspondem às regiões analisadas e as colunas correspondem às coordenadas genômicas. A intensidade de cada ponto neste gráfico corresponde à intensidade do respectivo sinal epigenético (\emph{low} $=$ baixa intensidade e \emph{high} = alta intensidade, nas escalas de cores). Além do gráfico de cores, existe um gráfico de linha (parte inferior) correspondente à média do sinal ao longo de toda a extensão analisada, para cada região. Nesta análise, cujo objetivo é apenas apresentar as características epigenéticas usuais, são apresentados os resultados apenas o fator CTCF com \emph{motif} obtido no repositório Jaspar.
+
+\figuremacroW{gusmao_1_PwmTop_correct}{Análise das melhores regiões de MPBS para o CTCF}{Análise dos sinais epigenéticos nas 100 regiões com maior \emph{bit score}.}{1.0}
+
+% PWM e ChIP - Depleção da DNase (específico) vs. depleção de histonas (amplo)
+Através da análise da Figura~\ref{gusmao_1_PwmTop_correct} é possível constatar claramente os padrões de depleção de DNase e de modificações de histonas nas regiões com alta afinidade de ligação para o \emph{motif} CTCF. A alta resolução do sinal de digestão de DNase~I faz com que a depleção seja bastante específica, em média, delineando os fatores de transcrição de forma precisa. A adição de tais dados dão ao modelo uma capacidade maior para realizar a principal tarefa proposta: a de identificar de forma precisa os TFBSs. Com resolução um pouco mais baixa, os sinais das histonas (obtidos através de ChIP-seq) possuem, em média, depleções mais abrangentes, que geralmente englobam áreas inteiras de HS (isto é, diversos picos e depleções de DNase).
+
+% Gráficos PWM + TFBS
+A segunda análise consiste na visualização, para cada fator de transcrição, dos sinais epigenéticos ao redor das 100 regiões de MPBSs com maiores \emph{bit score} que possuem evidência de ChIP-seq e das 100 regiões de MPBSs com maiores \emph{bit score} que não possuem evidência de ChIP-seq (Figuras~\ref{gusmao_1_PwmTfbsActiv1} e~\ref{gusmao_1_PwmTfbsActiv2}). Cada região analisada consiste na extensão de 500 bp para a esquerda e para a direita do local onde o \emph{motif} foi identificado no genoma. Na figura, são exibidos gráficos de linha contendo a média dos sinais para todas estas regiões sobre toda a extensão analisada. A linha verde corresponde aos MPBSs sem evidência de ChIP-seq e a linha vermelha corresponde aos MPBSs com evidência de ChIP-seq. 
+
+% Gráficos PWM + TFBS
+Todos os fatores analisados são mostrados neste caso, para todos os sinais epigenéticos. Os rótulos dos fatores estão no formato \emph{NOME\_XN}, onde \emph{NOME} corresponde ao nome do fator, \emph{X} corresponde à inicial do repositório onde tal fator foi obtido e \emph{N} corresponde ao número do \emph{motif}, em ordem de entrada no repositório, deste fator (como mencionado anteriormente, alguns fatores possuem mais de um PWM por repositório). Caso existam menos de 10 sinais (do máximo de 100) para qualquer categoria descrita (com evidência ChIP e sem evidência ChIP), a curva correspondente a esta categoria não é exibida, para que problemas relativos à computação da média de poucas regiões não enviesasse a visualização. Esse caso ocorreu apenas para o fator REST com \emph{motif} obtido no repositório Transfac.
+
+% Objetivo dos Gráficos PWM + TFBS
+O objetivo deste gráfico, que junta informação de MPBSs com enriquecimento de ChIP-seq, é visualizar os padrões epigenéticos com base no que foi considerado o \emph{gold standard} deste projeto. A partir de tal visualização, é possível observar o comportamento dos sinais epigenéticos em regiões onde se deseja que o modelo reconheça como TFBS e em regiões onde se deseja que o modelo não considere um TFBS.
+
+% PWM+ChIP - Sinais epigenéticos 1
+Os gráficos presentes na Figura~\ref{gusmao_1_PwmTfbsActiv1} mostram os principais argumentos em favor da utilização de dados epigenéticos. Observa-se com clareza, neste gráfico, a diferença de intensidade e formato dos picos/vales entre regiões de MPBSs com evidência de ChIP-seq e sem tal evidência. É importante ressaltar que tal diferença ocorre mesmo tendo sido consideradas as melhores regiões sem evidência de ChIP-seq, isto é, as regiões que possuem maiores \emph{bit score}. Os fatores ATF3, CTCF e GABP possuem padrões de depleção (pico-vale-pico) bem delineados, enquanto o fator E2F4 possui depleções mais suaves tanto para os dados de DNase-seq quanto para obtidos com ChIP-seq.
+
+% PWM+ChIP - Contraste 1
+O contraste das curvas entre as regiões enriquecidas e não enriquecidas, observado nestes gráficos, variou bastante. O GABP (ativador) possui contrastes enormes, tendo as regiões não enriquecidas de ChIP-seq praticamente nenhuma depleção visível em média. O ativador E2F4 também apresentou contrastes semelhantes ao do fator GABP, porém nesse caso o sinal médio relativo às regiões com evidência de ChIP-seq possuiu depleções menos acentuadas em relação ao GABP. Os ativadores, em geral, possuíam níveis mais altos de histonas consideradas ativadoras, enquanto o nível de DNase geralmente não variou de forma tão abrupta. Os fatores ATF3 e CTCF estão em leve discordância com esse fato, apresentando depleções suaves (porém visíveis) até em regiões sem evidência de ChIP-seq.
+
+% PWM+ChIP - Sinais epigenéticos 2
+Por outro lado, os gráficos presentes na Figura~\ref{gusmao_1_PwmTfbsActiv2} mostram sinais epigenéticos com padrões mais fracos e destoantes dos exibidos na Figura~\ref{gusmao_1_PwmTfbsActiv1}. O fator CEBPB possuiu os sinais mais fracos entre todos os fatores analisados, porém ainda assim é possível verificar diferenças na intensidade dos sinais epigenéticos, em especial nas modificações de histonas. Apesar de possuírem altos níveis de presença dos sinais epigenéticos, os fatores MEF2A e P300 diferem dos fatores da figura anterior pelo fato de que a depleção é bem menos caracterizada, em especial para o sinal de DNase. Finalmente, para o silenciador REST, foram observados padrões claros em relação à DNase, porém pouca evidência das histonas ativadoras.
+
+\figuremacroW{gusmao_1_PwmTfbsActiv1}{Regiões de TFBS com e sem evidência de ChIP-seq Pt.1}{Análise dos sinais epigenéticos ao redor dos 100 MPBSs com maior \emph{bit score} que possuem ou não possuem evidência de ChIP-seq. São analisadas regiões de 1000 bp, sendo necessárias pelo menos 10 regiões para cada categoria, para que o sinal seja exibido (evitando vieses estatísticos). Nesta figura, são exibidos os fatores de transcrição que apresentaram os sinais epigenéticos mais delineados dentre os fatores estudados.}{1.0}
+
+\figuremacroW{gusmao_1_PwmTfbsActiv2}{Regiões de TFBS com e sem evidência de ChIP-seq Pt.2}{Análise dos sinais epigenéticos ao redor dos 100 MPBSs com maior \emph{bit score} que possuem ou não possuem evidência de ChIP-seq. São analisadas regiões de 1000 bp, sendo necessárias pelo menos 10 regiões para cada categoria, para que o sinal seja exibido (evitando vieses estatísticos). Nesta figura, são exibidos os fatores de transcrição que apresentaram os sinais epigenéticos menos claros dentre os fatores estudados.}{1.0}
+
+\FloatBarrier
+
+% PWM+ChIP - Contrastes 2
+Os contrastes nesta segunda figura apresentaram variações ainda maiores. O fator CEBPB, apesar dos sinais fracos, apresentou um leve contraste para os sinais relativos às modificações de histonas. Os fatores MEF2A e P300, apesar da depleção suave, possuíram altos contrastes entre as regiões enriquecidas de ChIP-seq e não enriquecidas. O REST, como notado anteriormente, possuiu contrastes relevantes em relação à DNase, porém contrastes não tão precisos em relação às modificações de histonas.
+
+% PWM+ChIP - Diferentes arredores
+Além da intensidade entre MPBSs com e sem evidência de ChIP-seq e entre fatores de diferentes tipos, é interessante observar o formato em que o gráfico da média dessas regiões toma. As modificações das histonas, para o fator CTCF por exemplo, apresentam picos com comprimentos (frequência) menores do que os presentes no fator GABP ou E2F4. Para estes, a primeira subida e última descida (relativas ao aspecto bimodal dos padrões) não estão nem visíveis nesta janela de tamanho 1.000 bp para, por exemplo, as modificações H3K4me2 e H3K4me3. Tais padrões não foram especificamente analisados neste trabalho, porém podem representar um interessante estudo futuro, com hipótese de que o formato dos sinais epigenéticos ao redor de regiões enriquecidas de proteínas reflete o formato estrutural daquela proteína (os elementos regulatórios possuem \emph{motifs} estruturais bem definidos).
+
+% Gráficos PWM + TFBS + FP
+A terceira análise consiste na visualização, para cada TF, dos sinais epigenéticos ao redor das 100 regiões de MPBSs com maiores \emph{bit score} que: (1) não possuem evidência de ChIP-seq nem um \emph{footprint} associado, isto é, verdadeiros negativos (linhas de cor verde); (2) não possuem evidência de ChIP-seq porém possuem um \emph{footprint} associado, isto é, falsos positivos (linhas de cor vermelha); (3) possuem evidência de ChIP-seq porém não possuem \emph{footprint} associado, isto é, falsos negativos (linhas de cor azul); (4) possuem evidência de ChIP-seq e \emph{footprint}, isto é, verdadeiros positivos (linhas de cor amarela) (Figuras~\ref{gusmao_1_PwmTfbsFootActiv1} e~\ref{gusmao_1_PwmTfbsFootActiv2}). Nestas figuras, são exibidos gráficos de linha contendo a média dos sinais para todas estas regiões sobre toda a extensão analisada.
+
+% Gráficos PWM + TFBS + FP
+Os rótulos dos fatores seguiram a mesma descrição dada para as Figuras~\ref{gusmao_1_PwmTfbsActiv1} e~\ref{gusmao_1_PwmTfbsActiv2}. Caso existam menos de 10 sinais (do máximo de 100) para qualquer categoria descrita, a curva correspondente a esta categoria não é exibida, para que problemas relativos à computação da média de poucas regiões não enviesasse a visualização. Esse caso ocorreu para os fatores: CTCF com \emph{motif} obtido no repositório Jaspar, REST com \emph{motifs} obtidos nos repositórios Jaspar e Transfac.
+
+% Objetivo dos Gráficos PWM + TFBS + FP
+O objetivo destes gráficos é analisar as predições realizadas pelo modelo anterior, em relação aos sinais epigenéticos que se pretende inserir no modelo proposto. A partir destas análises o conjunto de histonas que seria utilizado no novo modelo foi determinado. Os fins de tal determinação foram apenas o teste empírico da hipótese proposta, e não a asserção determinística de quais histonas são melhores preditoras para cada caso. Um passo na direção deste tipo de informação será dado em estudos futuros.
+
+\figuremacroW{gusmao_1_PwmTfbsFootActiv1}{Regiões de TFBS com e sem evidência de ChIP-seq e \emph{footprint} associado Pt. 1}{Análise dos sinais epigenéticos ao redor dos 100 MPBSs com maior \emph{bit score} que possuem ou não possuem evidência de ChIP-seq e \emph{footprint} associado. São analisadas regiões de 1000 bp, sendo necessárias pelo menos 10 regiões para cada categoria, para que o sinal seja exibido (evitando vieses estatísticos). Nesta figura, são exibidos os fatores de transcrição que apresentaram os sinais epigenéticos mais delineados dentre os fatores estudados.}{1.0}
+
+\figuremacroW{gusmao_1_PwmTfbsFootActiv2}{Regiões de TFBS com e sem evidência de ChIP-seq e \emph{footprint} associado Pt. 2}{Análise dos sinais epigenéticos ao redor dos 100 MPBSs com maior \emph{bit score} que possuem ou não possuem evidência de ChIP-seq e \emph{footprint} associado. São analisadas regiões de 1000 bp, sendo necessárias pelo menos 10 regiões para cada categoria, para que o sinal seja exibido (evitando vieses estatísticos). Nesta figura, são exibidos os fatores de transcrição que apresentaram os sinais epigenéticos menos claros dentre os fatores estudados.}{1.0}
+
+\FloatBarrier
+
+% PWM+ChIP+FP - Para ATF3: Confusão de amarelo-azul-vermelho para DNase e H2AZ, mas aparentemente não para os outros
+Através da observação dos gráficos para o fator ATF3, percebe-se que os sinais de falsos positivos (vermelho) se confundem com o sinal de verdadeiros positivos (amarelo) para a DNase e para a histona variante H2A.Z. Porém, para os outros sinais epigenéticos parece existir uma proximidade maior entre os sinais de falsos negativos (azul) e de verdadeiros positivos do que entre os verdadeiros positivos e falsos positivos, o que faria com que um modelo que utilizasse tais sinais ganhasse essa informação adicional. Alguns fatores, como o CEBP e MEF2A, entretanto, não possuem evidências interessantes para os sinais com evidência de ChIP e sem \emph{footprint} (azul).
+
+% PWM+ChIP+FP - Para CTCF: Curvas consistentes - problemas de under-representation do vermelho para o renlab
+Para o fator CTCF, as curvas pareceram bastante consistentes, porém não é possível realizar inferências a respeito da adição de histonas no modelo, dado que os sinais de falsos positivos estão pouco representados. Para o caso do \emph{motif} obtido no Jaspar, a quantidade de falsos positivos foi muito pequena, fazendo com que tal sinal fosse excluído da análise. Para o caso do \emph{motif} obtido no Renlab, este sinal parece ter sido sobre-representado. Porém é possível observar a lógica recorrente de que os falsos negativos geralmente têm sinal mais baixo do que verdadeiros positivos, porém apresentam o mesmo formato de vale.
+
+% PWM+ChIP+FP - Para E2F4 e P300
+Os padrões médios observados para os fatores E2F4 e P300 possuem características semelhantes. No caso do E2F4, os verdadeiros positivos e falsos positivos se confundem, tornando a predição menos eficaz. Entretanto, os sinais relativos aos falsos negativos, apesar de não apresentarem tendência pico-vale-pico evidentes, possuem intensidades mais altas do que os falsos positivos (na mesma faixa dos verdadeiros positivos), o que poderia sinalizar um ponto positivo. Por outro lado, no caso do P300, os padrões são semelhantes porém a linha relativa aos falsos negativos está aproximadamente na mesma faixa dos falsos positivos, o que provavelmente acarretaria em piores inferências.
+
+% PWM+ChIP+FP - Para GABP: DNase tem vermelho maior porem as histonas nao - caso mais interessante
+A análise dos padrões para o fator GABP fornece, assim como para o fator ATF3, um ponto positivo para a inserção das modificações de histonas. É possível visualizar que a linha representando os falsos positivos está bastante próxima da linha representando os falsos negativos para a DNase, porém para as histonas ela se apresenta consistentemente abaixo em todos os casos. É importante mencionar que uma análise relativa aos desvios padrões foi realizada, porém não exibidas nos gráficos pela dificuldade de leitura que ela apresentou. A análise de desvios padrões não demonstrou variância significativa entre tais sinais, porém espera-se que pelo menos os padrões tidos como falsos negativos sejam identificados pelo novo modelo, já que sua curvatura possui interseção consistente com as curvaturas dos verdadeiros positivos em todos os casos.
+
+% PWM+ChIP+FP - Para REST: Poucos exemplos devido a PWM de boa qualidade - linha azul com ruins resultados
+Assim como o fator CTCF, o fator REST possui \emph{motif} grande e com grande quantidade de bases conservadas. Isso faz com que o número de falsos positivos não seja grande o suficiente para ser exibido nesses gráficos. Nos gráficos relativos ao \emph{motif} obtido no Transfac, nem os verdadeiros negativos (que são bem numerosos em outros casos) tiveram representatividade significativa.
+
+% PWM+ChIP+FP - Em geral, espera-se que as histonas acrescentem boas informações
+Em geral, espera-se que as histonas acrescentem informações úteis ao novo modelo proposto. A análise destes gráficos para diversos fatores de transcrição diferentes mostra que esta é a tendência sobre uma quantidade razoável de fatores de transcrição. Na seção seguinte, tal hipótese será testada através do modelo descrito na Seção~\ref{sec:footprinting}.
+
+% 5.2. Acurácia do Modelo Proposto
+\section{Acurácia do Modelo Proposto}\label{sec:resacuraciamodelo}
+
+\renewcommand{\multirowsetup}{\centering}
+
+% Acurácia do Modelo Proposto - introdução
+Nesta seção, primeiramente serão mostradas estatísticas gerais a respeito da quantidade de regiões encontradas pelos métodos de enriquecimento, pelo \emph{motif matching} e pela aplicação dos modelos. Então, serão apresentadas as tabelas correspondentes ao cálculo das estatísticas em relação à aplicação do modelo no genoma inteiro (Seção~\ref{sec:footprinting}) e do \emph{gold standard} definido na Seção~\ref{sec:goldstandard}. O objetivo da apresentação de tais resultados é a comparação do modelo anterior com o modelo proposto neste trabalho.
+
+% Tabela com estatísticas dos footprints
+Na Tabela~\ref{tab:regioesfootprint} são exibidas as quantidade de regiões preditas (isto é, \emph{footprints}) utilizando ambos os modelos (prévio e proposto) e ambas as formas de treinamento (FMR1 e STAMP). O número total de regiões hipersensíveis à DNase~I nas quais todos os métodos foram aplicados foi igual a 133.372. Todos os modelos foram aplicados somente nestas regiões, obtidas de forma idêntica às regiões enriquecidas de ChIP-seq (ver Seção~\ref{sec:enriquecimento}).
+
+\begin{table}[h!]
+\vspace{0.2cm}
+\begin{center}
+\caption[Quantidade de \emph{footprints} encontrados com cada modelo]{{\bf Quantidade de \emph{footprints} encontrados com cada modelo --} Nesta tabela são exibidas as quantidade de regiões preditas (\#footprints) utilizando todos os modelos e formas de treinamento. Os modelos bivariados propostos são referenciados apenas pela histona correspondente.}
+\renewcommand{\arraystretch}{1.2}
+  \begin{tabular}{>{\centering\arraybackslash} m{3.0cm}
+                  >{\centering\arraybackslash} m{1.5cm}
+                  >{\centering\arraybackslash} m{2.5cm} }
+  % Header
+  \hline
+  Modelo & Treino & \#footprints \\
+  % Boyle
+  \hline
+      \multirow{2}{*}{DNase apenas} 
+      & FMR1  & 109648 \\
+      & STAMP & 67758  \\
+  % H2A.Z
+  \hline
+      \multirow{2}{*}{H2A.Z} 
+      & FMR1  & 422537 \\
+      & STAMP & 192274 \\
+  % H3K4me2
+  \hline
+      \multirow{2}{*}{H3K4me2} 
+      & FMR1  & 436509 \\
+      & STAMP & 200293 \\
+  % H3K4me3
+  \hline
+      \multirow{2}{*}{H3K4me3} 
+      & FMR1  & 475023 \\
+      & STAMP & 202496 \\
+  % H3K9ac
+  \hline
+      \multirow{2}{*}{H3K9ac} 
+      & FMR1  & 460468 \\
+      & STAMP & 183744 \\
+  \hline
+  \label{tab:regioesfootprint}
+  \end{tabular}
+\end{center}
+\vspace{-0.6cm}
+\end{table}
+
+% Breve discussão da tabela com estatísticas dos footprints
+Devem ser consideradas duas informações contidas na Tabela~\ref{tab:regioesfootprint}. Primeiramente, pode-se perceber que os modelos propostos geram uma quantidade muito maior (até quase cinco vezes maior) de predições do que o modelo baseado em DNase apenas. Esse fato possui algumas vantagens e desvantagens, que serão discutidas mais adiante. Também é possível observar que os modelos treinados com a abordagem STAMP produzem quantidades bem menores de predições do que os modelos treinados com a abordagem FMR1. Novamente, as implicações serão descritas posteriormente.
+
+% Tabelas de resultados
+São apresentadas, então, as tabelas contendo a comparação entre o método prévio e o novo modelo proposto. Para cada fator, são calculadas a sensibilidade (Ss), especificidade (Sp), \emph{positive predictive value} (Pp), \emph{negative predictive value} (Np) e taxa de acerto (Cr) (ver Tabela~\ref{tab:statistics}), relativas aos \emph{footprints} gerados pela aplicação do modelo anterior e do modelo proposto. O modelo anterior foi replicado e aplicado com as ferramentas utilizadas neste projeto, para remover vieses gerados pelas mesmas. Em cada modelo foram aplicadas as duas formas de treinamento (FMR1 e STAMP).
+
+% Estatísticas - Nosso modelo aumenta sensibilidade com pequena diminuição na especificidade.
+As estatísticas apresentadas nas Tabelas~\ref{tab:resatft} a~\ref{tab:resrestt} mostram que o modelo proposto, em geral, aumenta bastante a sensibilidade (em até 49.37\% a mais) enquanto que apresenta uma pequena queda na especificidade (em, no máximo, 10.35\%) (ver Tabela~\ref{tab:comparacaomelhores} a seguir). A taxa de acerto (\emph{Cr}) apresentou um aumento para os fatores CTCF e REST, enquanto para outros fatores os valores da precisão foram equivalentes. Isso ocorre, possivelmente, pela quantidade de exemplos negativos, para esses outros \emph{motifs}, ser maior (dado que as PWMs têm qualidade inferior), fazendo com que a parcela de especificidade tenha uma maior contribuição na taxa de acerto geral do que a sensibilidade (ver Tabela~\ref{tab:regioesmpbschip}). Em adição, para o fator REST, é interessante observar que houve grandes diferenças nos resultados entre PWMs provenientes de repositórios diferentes, mostrando que existe impacto relacionado com a qualidade dos \emph{motifs}.
+
+\begin{table}[h!]
+\vspace{1.0cm}
+\begin{center}
+\caption[Resultados para o fator ATF3]{{\bf Resultados (em \%) para o fator ATF3 (PWM obtida no Transfac) --} São exibidos resultados para o modelo prévio (DNase apenas) e para os modelos bivariados com DNase $+$ modificação de histona (apenas o nome desta é exibido). Para cada modelo, ambas formas de treinamento são consideradas (FMR1 e STAMP). O melhor resultado para cada estatística é destacado em negrito.}
+\renewcommand{\arraystretch}{1.2}
+  \begin{tabular}{>{\centering\arraybackslash} m{2.5cm}
+                  >{\centering\arraybackslash} m{1.5cm}
+                  >{\centering\arraybackslash} m{1.5cm}
+                  >{\centering\arraybackslash} m{1.5cm}
+                  >{\centering\arraybackslash} m{1.5cm}
+                  >{\centering\arraybackslash} m{1.5cm}
+                  >{\centering\arraybackslash} m{1.5cm} }
+  % Header
+  \hline
+  Modelo & Treino & Sn & Sp & Pp & Np & Cr \\
+  % Boyle
+  \hline
+      \multirow{2}{*}{DNase apenas} 
+      & FMR1  & 58.75 & 96.8  & 10.28 & 99.73 & 96.57 \\
+      & STAMP & 71.25 & {\bf 96.99} & {\bf 12.87} & 99.82 & {\bf 96.83} \\
+  % H2A.Z
+  \hline
+      \multirow{2}{*}{H2A.Z} 
+      & FMR1  & 31.25 & 94.34 & 3.33  & 99.55 & 93.95 \\
+      & STAMP & 70.0  & 90.32 & 4.31  & 99.79 & 90.19 \\
+  % H3K4me2
+  \hline
+      \multirow{2}{*}{H3K4me2} 
+      & FMR1  & 32.5  & 92.66 & 2.69  & 99.55 & 92.29 \\
+      & STAMP & 76.25 & 89.68 & 4.41  & {\bf 99.84} & 89.6  \\
+  % H3K4me3
+  \hline
+      \multirow{2}{*}{H3K4me3} 
+      & FMR1  & 35.0  & 92.08 & 2.68  & 99.56 & 91.72 \\
+      & STAMP & {\bf 77.5}  & 89.32 & 4.33  & {\bf 99.84} & 89.25 \\
+  % H3K9ac
+  \hline
+      \multirow{2}{*}{H3K9ac} 
+      & FMR1  & 25.0  & 93.11 & 2.21  & 99.5  & 92.69 \\
+      & STAMP & 67.5  & 89.88 & 3.99  & 99.77 & 89.74 \\
+  \hline
+  \label{tab:resatft}
+  \end{tabular}
+\end{center}
+\vspace{0.0cm}
+\end{table} 
+
+
+\begin{table}[h!]
+\vspace{0.0cm}
+\begin{center}
+\caption[Resultados para o fator CTCF]{{\bf Resultados (em \%) para o fator CTCF (PWM obtida no Jaspar) --} São exibidos resultados para o modelo prévio (DNase apenas) e para os modelos bivariados com DNase $+$ modificação de histona (apenas o nome desta é exibido). Para cada modelo, ambas formas de treinamento são consideradas (FMR1 e STAMP). O melhor resultado para cada estatística é destacado em negrito.}
+\renewcommand{\arraystretch}{1.2}
+  \begin{tabular}{>{\centering\arraybackslash} m{2.5cm}
+                  >{\centering\arraybackslash} m{1.5cm}
+                  >{\centering\arraybackslash} m{1.5cm}
+                  >{\centering\arraybackslash} m{1.5cm}
+                  >{\centering\arraybackslash} m{1.5cm}
+                  >{\centering\arraybackslash} m{1.5cm}
+                  >{\centering\arraybackslash} m{1.5cm} }
+  % Header
+  \hline
+  Modelo & Treino & Sn & Sp & Pp & Np & Cr \\
+  % Boyle
+  \hline
+      \multirow{2}{*}{DNase apenas} 
+      & FMR1  & 29.45 & 99.59 & {\bf 99.87} & 11.35 & 35.28 \\
+      & STAMP & 26.08 & {\bf 99.86} & 99.95 & 10.91 & 32.21 \\
+  % H2A.Z
+  \hline
+      \multirow{2}{*}{H2A.Z} 
+      & FMR1  & 50.33 & 97.93 & 99.63 & 15.16 & 54.29 \\
+      & STAMP & 71.80 & 94.74 & 99.34 & 23.35 & 73.71 \\
+  % H3K4me2
+  \hline
+      \multirow{2}{*}{H3K4me2} 
+      & FMR1  & 63.71 & 95.85 & 99.41 & 19.32 & 66.38 \\
+      & STAMP & 74.76 & 94.74 & 99.37 & 25.39 & 76.42 \\
+  % H3K4me3
+  \hline
+      \multirow{2}{*}{H3K4me3} 
+      & FMR1  & 65.13 & 96.13 & 99.46 & 19.99 & 67.71 \\
+      & STAMP & {\bf 75.45} & 94.33 & 99.32 & {\bf 25.83} & {\bf 77.02} \\
+  % H3K9ac
+  \hline
+      \multirow{2}{*}{H3K9ac} 
+      & FMR1  & 60.95 & 96.68 & 99.51 & 18.33 & 63.92 \\
+      & STAMP & 74.96 & 94.33 & 99.32 & 25.46 & 76.57 \\
+  \hline
+  \label{tab:resctcfj}
+  \end{tabular}
+\end{center}
+\vspace{0.0cm}
+\end{table} 
+
+
+\begin{table}[h!]
+\vspace{0.0cm}
+\begin{center}
+\caption[Resultados para o fator CTCF]{{\bf Resultados (em \%) para o fator CTCF (PWM obtida no Renlab) --} São exibidos resultados para o modelo prévio (DNase apenas) e para os modelos bivariados com DNase $+$ modificação de histona (apenas o nome desta é exibido). Para cada modelo, ambas formas de treinamento são consideradas (FMR1 e STAMP). O melhor resultado para cada estatística é destacado em negrito.}
+\renewcommand{\arraystretch}{1.2}
+  \begin{tabular}{>{\centering\arraybackslash} m{2.5cm}
+                  >{\centering\arraybackslash} m{1.5cm}
+                  >{\centering\arraybackslash} m{1.5cm}
+                  >{\centering\arraybackslash} m{1.5cm}
+                  >{\centering\arraybackslash} m{1.5cm}
+                  >{\centering\arraybackslash} m{1.5cm}
+                  >{\centering\arraybackslash} m{1.5cm} }
+  % Header
+  \hline
+  Modelo & Treino & Sn & Sp & Pp & Np & Cr \\
+  % Boyle
+  \hline
+      \multirow{2}{*}{DNase apenas} 
+      & FMR1  & 29.68 & 98.4  & {\bf 98.82} & 23.64 & 42.13 \\
+      & STAMP & 25.61 & {\bf 98.61} & {\bf 98.82} & 22.68 & 38.84 \\
+  % H2A.Z
+  \hline
+      \multirow{2}{*}{H2A.Z} 
+      & FMR1  & 50.19 & 92.85 & 96.95 & 29.2  & 57.92 \\
+      & STAMP & 69.16 & 88.26 & 96.38 & 38.77 & 72.62 \\
+  % H3K4me2
+  \hline
+      \multirow{2}{*}{H3K4me2} 
+      & FMR1  & 61.51 & 89.64 & 96.41 & 34.01 & 66.6  \\
+      & STAMP & 72.51 & 87.82 & 96.42 & 41.42 & 75.29 \\
+  % H3K4me3
+  \hline
+      \multirow{2}{*}{H3K4me3} 
+      & FMR1  & 63.07 & 89.5  & 96.45 & 34.91 & 67.86 \\
+      & STAMP & {\bf 72.98} & 87.45 & 96.34 & {\bf 41.73} & {\bf 75.6}  \\
+  % H3K9ac
+  \hline
+      \multirow{2}{*}{H3K9ac} 
+      & FMR1  & 59.57 & 91.61 & 96.98 & 33.4  & 65.38 \\
+      & STAMP & 72.27 & 88.11 & 96.49 & 41.29 & 75.14 \\
+  \hline
+  \label{tab:resctcfr}
+  \end{tabular}
+\end{center}
+\vspace{0.0cm}
+\end{table} 
+
+
+\begin{table}[h!]
+\vspace{0.0cm}
+\begin{center}
+\caption[Resultados para o fator GABP]{{\bf Resultados (em \%) para o fator GABP (PWM obtida no Jaspar) --} São exibidos resultados para o modelo prévio (DNase apenas) e para os modelos bivariados com DNase $+$ modificação de histona (apenas o nome desta é exibido). Para cada modelo, ambas formas de treinamento são consideradas (FMR1 e STAMP). O melhor resultado para cada estatística é destacado em negrito.}
+\renewcommand{\arraystretch}{1.2}
+  \begin{tabular}{>{\centering\arraybackslash} m{2.5cm}
+                  >{\centering\arraybackslash} m{1.5cm}
+                  >{\centering\arraybackslash} m{1.5cm}
+                  >{\centering\arraybackslash} m{1.5cm}
+                  >{\centering\arraybackslash} m{1.5cm}
+                  >{\centering\arraybackslash} m{1.5cm}
+                  >{\centering\arraybackslash} m{1.5cm} }
+  % Header
+  \hline
+  Modelo & Treino & Sn & Sp & Pp & Np & Cr \\
+  % Boyle
+  \hline
+      \multirow{2}{*}{DNase apenas} 
+      & FMR1  & 27.9  & 99.77 & 91.84 & 93.66 & 93.62 \\
+      & STAMP & 27.8  & {\bf 99.86} & {\bf 94.96} & 93.66 & {\bf 93.69} \\
+  % H2A.Z
+  \hline
+      \multirow{2}{*}{H2A.Z} 
+      & FMR1  & 39.09 & 97.9  & 63.52 & 94.5  & 92.86 \\
+      & STAMP & 46.32 & 94.96 & 46.27 & 94.97 & 90.8  \\
+  % H3K4me2
+  \hline
+      \multirow{2}{*}{H3K4me2} 
+      & FMR1  & 37.27 & 96.28 & 48.38 & 94.25 & 91.23 \\
+      & STAMP & 50.87 & 94.55 & 46.61 & 95.36 & 90.81 \\
+  % H3K4me3
+  \hline
+      \multirow{2}{*}{H3K4me3} 
+      & FMR1  & 40.29 & 96.14 & 49.42 & 94.51 & 91.36 \\
+      & STAMP & {\bf 53.11} & 94.37 & 46.91 & {\bf 95.56} & 90.84 \\
+  % H3K9ac
+  \hline
+      \multirow{2}{*}{H3K9ac} 
+      & FMR1  & 36.34 & 96.96 & 52.83 & 94.21 & 91.77 \\
+      & STAMP & 42.19 & 94.49 & 41.74 & 94.58 & 90.01 \\
+  \hline
+  \label{tab:resgabpj}
+  \end{tabular}
+\end{center}
+\vspace{0.0cm}
+\end{table} 
+
+
+\begin{table}[h!]
+\vspace{0.0cm}
+\begin{center}
+\caption[Resultados para o fator GABP]{{\bf Resultados (em \%) para o fator GABP (PWM obtida no Transfac) --} São exibidos resultados para o modelo prévio (DNase apenas) e para os modelos bivariados com DNase $+$ modificação de histona (apenas o nome desta é exibido). Para cada modelo, ambas formas de treinamento são consideradas (FMR1 e STAMP). O melhor resultado para cada estatística é destacado em negrito.}
+\renewcommand{\arraystretch}{1.2}
+  \begin{tabular}{>{\centering\arraybackslash} m{2.5cm}
+                  >{\centering\arraybackslash} m{1.5cm}
+                  >{\centering\arraybackslash} m{1.5cm}
+                  >{\centering\arraybackslash} m{1.5cm}
+                  >{\centering\arraybackslash} m{1.5cm}
+                  >{\centering\arraybackslash} m{1.5cm}
+                  >{\centering\arraybackslash} m{1.5cm} }
+  % Header
+  \hline
+  Modelo & Treino & Sn & Sp & Pp & Np & Cr \\
+  % Boyle
+  \hline
+      \multirow{2}{*}{DNase apenas} 
+      & FMR1  & 26.26 & 99.75 & 86.62 & 95.61 & 95.46 \\
+      & STAMP & 25.19 & {\bf 99.84} & {\bf 90.97} & 95.56 & {\bf 95.48} \\
+  % H2A.Z
+  \hline
+      \multirow{2}{*}{H2A.Z} 
+      & FMR1  & 38.48 & 97.84 & 52.45 & 96.25 & 94.37 \\
+      & STAMP & 44.81 & 95.36 & 37.48 & 96.53 & 92.41 \\
+  % H3K4me2
+  \hline
+      \multirow{2}{*}{H3K4me2} 
+      & FMR1  & 36.73 & 96.44 & 38.99 & 96.09 & 92.95 \\
+      & STAMP & 49.38 & 95.04 & 38.16 & 96.8  & 92.37 \\
+  % H3K4me3
+  \hline
+      \multirow{2}{*}{H3K4me3} 
+      & FMR1  & 40.61 & 96.36 & 40.9  & 96.32 & 93.1  \\
+      & STAMP & {\bf 52.63} & 94.87 & 38.89 & {\bf 97.0}  & 92.4  \\
+  % H3K9ac
+  \hline
+      \multirow{2}{*}{H3K9ac} 
+      & FMR1  & 36.01 & 97.04 & 43.04 & 96.07 & 93.48 \\
+      & STAMP & 41.62 & 94.97 & 33.9  & 96.33 & 91.85 \\
+  \hline
+  \label{tab:resgabpt}
+  \end{tabular}
+\end{center}
+\vspace{0.0cm}
+\end{table} 
+
+
+\begin{table}[h!]
+\vspace{0.0cm}
+\begin{center}
+\caption[Resultados para o fator REST]{{\bf Resultados (em \%) para o fator REST (PWM obtida no Jaspar) --} São exibidos resultados para o modelo prévio (DNase apenas) e para os modelos bivariados com DNase $+$ modificação de histona (apenas o nome desta é exibido). Para cada modelo, ambas formas de treinamento são consideradas (FMR1 e STAMP). O melhor resultado para cada estatística é destacado em negrito.}
+\renewcommand{\arraystretch}{1.2}
+  \begin{tabular}{>{\centering\arraybackslash} m{2.5cm}
+                  >{\centering\arraybackslash} m{1.5cm}
+                  >{\centering\arraybackslash} m{1.5cm}
+                  >{\centering\arraybackslash} m{1.5cm}
+                  >{\centering\arraybackslash} m{1.5cm}
+                  >{\centering\arraybackslash} m{1.5cm}
+                  >{\centering\arraybackslash} m{1.5cm} }
+  % Header
+  \hline
+  Modelo & Treino & Sn & Sp & Pp & Np & Cr \\
+  % Boyle
+  \hline
+      \multirow{2}{*}{DNase apenas} 
+      & FMR1  & 20.49 & 96.67 & 99.18 & 5.82  & 24.17 \\
+      & STAMP & 14.39 & {\bf 98.33} & 99.42 & 5.51  & 18.45 \\
+  % H2A.Z
+  \hline
+      \multirow{2}{*}{H2A.Z} 
+      & FMR1  & 35.39 & 95.0  & 99.29 & 6.95  & 38.28 \\
+      & STAMP & {\bf 55.21} & 95.0  & 99.54 & {\bf 9.73}  & {\bf 57.13} \\
+  % H3K4me2
+  \hline
+      \multirow{2}{*}{H3K4me2} 
+      & FMR1  & 49.96 & 96.67 & {\bf 99.66} & 8.94  & 52.22 \\
+      & STAMP & 55.04 & 95.0  & 99.54 & 9.69  & 56.97 \\
+  % H3K4me3
+  \hline
+      \multirow{2}{*}{H3K4me3} 
+      & FMR1  & 48.52 & 95.0  & 99.48 & 8.57  & 50.77 \\
+      & STAMP & 55.04 & 95.0  & 99.54 & 9.69  & 56.97 \\
+  % H3K9ac
+  \hline
+      \multirow{2}{*}{H3K9ac} 
+      & FMR1  & 43.27 & 95.0  & 99.42 & 7.84  & 45.77 \\
+      & STAMP & {\bf 55.21} & 95.0  & 99.54 & {\bf 9.73}  & {\bf 57.13} \\
+  \hline
+  \label{tab:resrestj}
+  \end{tabular}
+\end{center}
+\vspace{0.0cm}
+\end{table} 
+
+
+\begin{table}[h!]
+\vspace{0.0cm}
+\begin{center}
+\caption[Resultados para o fator REST]{{\bf Resultados (em \%) para o fator REST (PWM obtida no Transfac) --} São exibidos resultados para o modelo prévio (DNase apenas) e para os modelos bivariados com DNase $+$ modificação de histona (apenas o nome desta é exibido). Para cada modelo, ambas formas de treinamento são consideradas (FMR1 e STAMP). O melhor resultado para cada estatística é destacado em negrito.}
+\renewcommand{\arraystretch}{1.2}
+  \begin{tabular}{>{\centering\arraybackslash} m{2.5cm}
+                  >{\centering\arraybackslash} m{1.5cm}
+                  >{\centering\arraybackslash} m{1.5cm}
+                  >{\centering\arraybackslash} m{1.5cm}
+                  >{\centering\arraybackslash} m{1.5cm}
+                  >{\centering\arraybackslash} m{1.5cm}
+                  >{\centering\arraybackslash} m{1.5cm} }
+  % Header
+  \hline
+  Modelo & Treino & Sn & Sp & Pp & Np & Cr \\
+  % Boyle
+  \hline
+      \multirow{2}{*}{DNase apenas} 
+      & FMR1  & 31.78 & {\bf 100.0} & {\bf 100.0} & 3.13  & 33.25\\
+      & STAMP & 23.96 & {\bf 100.0} & {\bf 100.0} & 2.81  & 25.6 \\
+  % H2A.Z
+  \hline
+      \multirow{2}{*}{H2A.Z} 
+      & FMR1  & 46.21 & {\bf 100.0} & {\bf 100.0} & 3.93  & 47.37 \\
+      & STAMP & {\bf 69.44} & {\bf 100.0} & {\bf 100.0} & {\bf 6.72}  & {\bf 70.1}  \\
+  % H3K4me2
+  \hline
+      \multirow{2}{*}{H3K4me2} 
+      & FMR1  & 63.57 & {\bf 100.0} & {\bf 100.0} & 5.7   & 64.35 \\
+      & STAMP & 68.95 & {\bf 100.0} & {\bf 100.0} & 6.62  & 69.62 \\
+  % H3K4me3
+  \hline
+      \multirow{2}{*}{H3K4me3} 
+      & FMR1  & 61.12 & {\bf 100.0} & {\bf 100.0} & 5.36  & 61.96 \\
+      & STAMP & 69.19 & {\bf 100.0} & {\bf 100.0} & 6.67  & 69.86 \\
+  % H3K9ac
+  \hline
+      \multirow{2}{*}{H3K9ac} 
+      & FMR1  & 55.5  & {\bf 100.0} & {\bf 100.0} & 4.71  & 56.46 \\
+      & STAMP & {\bf 69.44} & {\bf 100.0} & {\bf 100.0} & {\bf 6.72}  & {\bf 70.1}  \\
+  \hline
+  \label{tab:resrestt}
+  \end{tabular}
+\end{center}
+\vspace{0.0cm}
+\end{table}
+
+\FloatBarrier
+
+% Estatísticas - resultados de forma analítica
+A Tabela~\ref{tab:comparacaomelhores} compara os resultados, em relação à sensibilidade e especificidade, de forma mais direta e analítica. Esta tabela compara a diferença entre os melhores resultados para o método proposto e os resultados para o método prévio, levando em consideração ambas as formas de treinamento. Esta tabela evidencia a proporção de o quanto o método proposto aumentou a sensibilidade em razão da sensibilidade. Pode-se observar também que os maiores aumentos da sensibilidade ocorrem ao utilizar o método STAMP para treinar os modelos propostos. Também é interessante o fato de que as diferenças entre os modelos foram próximas para \emph{motifs} diferentes de um mesmo fator de transcrição, evidenciando a robustez dos resultados em relação às análises considerando um fator específico.
+
+\begin{table}[h!]
+\vspace{0.7cm}
+\begin{center}
+\caption[Comparação da sensibilidade e especificidade entre o modelo prévio e o proposto]{{\bf Comparação da sensibilidade e especificidade entre o modelo prévio e o proposto --} Cada célula exibe (em \%) a diferença, na sensibilidade ou especificidade, entre o melhor resultado obtido entre um dos métodos propostos e o resultado para o método prévio. Diferenças positivas representam melhoria dos resultados.}
+\renewcommand{\arraystretch}{1.2}
+  \begin{tabular}{>{\centering\arraybackslash} m{4.5cm}
+                  >{\centering\arraybackslash} m{1.5cm}
+                  >{\centering\arraybackslash} m{1.8cm}
+                  >{\centering\arraybackslash} m{1.8cm} }
+  % Header
+  \hline
+      Fatores & Treino & Sn & Sp \\
+  \hline
+      \multirow{2}{*}{ATF3 (Transfac)} 
+      & FMR1  & -23.75 & -2.46  \\
+      & STAMP & +6.25  & -6.67  \\
+  \hline
+      \multirow{2}{*}{CTCF (Jaspar)} 
+      & FMR1  & +35.68 & -1.66  \\
+      & STAMP & +49.37 & -5.12  \\
+  \hline
+      \multirow{2}{*}{CTCF (Renlab)} 
+      & FMR1  & +33.39 & -5.55  \\
+      & STAMP & +47.37 & -10.35 \\
+  \hline
+      \multirow{2}{*}{GABP (Jaspar)} 
+      & FMR1  & +12.39 & -1.87  \\
+      & STAMP & +25.31 & -4.9   \\
+  \hline
+      \multirow{2}{*}{GABP (Transfac)} 
+      & FMR1  & +14.35 & -1.91  \\
+      & STAMP & +27.44 & -4.48  \\
+  \hline
+      \multirow{2}{*}{REST (Jaspar)} 
+      & FMR1  & +29.47 & 0.0    \\
+      & STAMP & +40.82 & -3.33  \\
+  \hline
+      \multirow{2}{*}{REST (Transfac)} 
+      & FMR1  & +31.79 & 0.0    \\
+      & STAMP & +45.48 & 0.0    \\
+  \hline
+  \label{tab:comparacaomelhores}
+  \end{tabular}
+\end{center}
+\vspace{-0.2cm}
+\end{table}
+
+% Estatísticas - sensibilidade é preferida
+Considera-se que o modelo proposto foi bem sucedido pelo fato de que o reconhecimento de um número maior de regiões corretas (maior sensibilidade) é preferível, nestes casos, sobre a rejeição de tais TFBSs verdadeiros em razão de um aumento na especificidade. Tais resultados são utilizados por exemplo, como nos estudos \citep{barski2007,heintzman2007,hon2009,ramsey2010}, para criar mapas regulatórios consistentes, que possuem em sua natureza a preferência por uma quantidade maior de marcadores positivos.
+
+% Paralelo com a tabela de footprints
+Neste momento, é necessário traçar um paralelo dos resultados com o número de regiões preditas pelos modelos (Tabela~\ref{tab:regioesfootprint}). O número de \emph{footprints} identificados pelos modelos baseados em FMR1 é grande devido ao fato de que os parâmetros estimados correspondem apenas à uma região anotada (a região promotora do gene FMR1 -- ver Seção~\ref{sec:estimacaohmmrealizada}). A quantidade de \emph{footprints} relacionados aos modelos propostos é bastante alta pelo fato de que, nesta região, o sinal das histonas não era tão intenso. Isto mostra a dificuldade da aplicação de métodos, como o FMR1, baseados na realização de experimentos biológicos custosos adicionais ou na busca por tais resultados na literatura. Estima-se que o sucesso da aplicação do método STAMP, bem como a identificação de uma quantidade de predições mais real, têm origem no fato de que, por permitir uma quantidade maior de regiões anotadas, os parâmetros dos modelos são estimados de forma mais precisa.
+
+% Estatísticas - Como modelo novo melhora predição
+Foram observadas duas formas pelas quais o modelo proposto é capaz de produzir melhores resultados. A primeira, que aconteceu numa grande escala, corresponde ao aumento no número de verdadeiros positivos. Observou-se que a as regiões de vale das histonas proveram uma permissividade maior de entrada no estado de \emph{footprint} em regiões com baixos sinais de digestão de DNase. A segunda forma, que ocorreu em escala menor, corresponde à desconsideração de alguns falsos positivos críticos em regiões onde as histonas tinham sinais mais elevados. Esta segunda forma foi capaz de manter a especificidade em níveis altos, ainda que não melhores do que no modelo prévio. A Figura~\ref{gusmao_1_GoodPredSample_v2} mostra um exemplo relativo à este segundo ponto discutido.
+
+% Crítica ao pique
+A partir da Figura~\ref{gusmao_1_GoodPredSample_v2}, podemos visualizar o quão preciso é o modelo. Uma das principais vantagens da abordagem utilizada é que ela tira proveito do aspecto espacial dos dados, isto é, das características que os sinais epigenéticos tomam, ao longo do genoma. Além de prover uma base probabilística robusta, o aproveitamento espacial faz com que sejam possíveis predições com alta precisão, dado que os sinais possuem boa resolução. Métodos que ignoram dados espaciais, apenas levando em consideração características obtidas ao se observar as regiões analisadas como um todo, não possuem tal precisão. Essa é uma das principais críticas ao método descrito em \citep{pique2011}.
+
+% Estatísticas - Porque do STAMP para DNase apenas e FMR1 para os novos modelos - Melhores resultados do modelo anterior foram obtidos com STAMP
+A nova forma de treinamento (STAMP) foi aplicada ao modelo prévio e a forma de treinamento prévia (FMR1) foi aplicada aos novos modelos com objetivo de verificar o impacto das técnicas de treinamento nos resultados. Melhorias nos novos modelos poderiam ser devidas simplesmente ao uso de uma forma de treinamento mais consistente do que pela inserção de sinais epigenéticos. Observou-se que a nova forma de treinamento contribuiu para algumas estatísticas maiores, porém que ela não parece ter sido o motivo dos melhoramentos observados. Um exemplo de evidência neste sentido é o fato de que o novo método de treinamento de fato aumentou a especificidade do modelo prévio, reduzindo a sensibilidade do mesmo na maioria dos casos, o que corresponde ao caminho inverso da melhoria observada com a adição das modificações de histonas.
+
+\figuremacroW{gusmao_1_GoodPredSample_v2}{Exemplo de uma região com resultados melhorados pelo modelo proposto}{São exibidos os sinais epigenéticos em uma região do cromossomo 6. Os mapas de cores abaixo do gráfico que mostra a intensidade dos sinais, demonstram os estados do HMM para cada coordenada, com cores correspondentes ao modelo exibido na Figura~\ref{gusmao_1_ModelSignal1}. Os retângulos vermelhos demonstram as duas regiões de falsos positivos pelo método prévio, que foram mascaradas pela adição das histonas na nova abordagem.}{1.0}
+\vspace{-1.0cm}
+
+% Estatísticas - Melhores resultados para o novo modelo variam entre histonas, de acordo com o fator
+É interessante observar também que as melhores estatísticas variam de acordo com a adição das diferentes modificações de histonas, para diferentes modelos. Para os ativadores ATF3 e GABP e o insulador CTCF, as melhores sensibilidades com o novo método de treinamento foram observadas com a adição das histonas H3K4me2 e H3K4me3. Enquanto que o repressor REST obteve as melhores sensibilidades para as histonas H2A.Z e H3K9ac.
+
+% Estatísticas - Problemas com nosso modelo - previsões amplas demais
+Apesar dos bons resultados observados, o modelo possui um problema que ocorre com mais frequência do que no modelo prévio. Esse problema consiste em previsões demasiadamente extensas. Em detalhes, o propósito desta abordagem ao problema de identificação de TFBSs consiste em utilizar tais dados de alta resolução para prever posições bastante específicas onde os TFs se ligam. Esses trechos preditos variam entre 5 e 30 bp em média, não devendo ser maior do que 50 bp. Porém a baixa resolução correspondente à inserção das histonas fez com que alguns fragmentos preditos tivessem mais do que 50 bp, às vezes chegando a 200 bp. Dessa forma, a ideologia do problema é ferida por tais predições muito extensas. Estudos futuros pretendem focar nas diferenças de resolução entre os sinais para que se chegue a um consenso ideal. A Figura~\ref{gusmao_1_BadPredSample_v2} mostra um exemplo dessas predições demasiadamente longas.
+
+\figuremacroW{gusmao_1_BadPredSample_v2}{Exemplo do problema das previsões amplas}{São exibidos os sinais de DNase e da modificação de histona H3K4me2 para uma região do cromossomo 6. O mapa de cores demonstra os estados do HMM para cada coordenada a respeito da aplicação do modelo bivariado baseado em DNase $+$ H3K4me2, com cores correspondentes ao modelo exibido na Figura~\ref{gusmao_1_ModelSignal1}. Os retângulos verdes mostram regiões corretamente preditas, porém os retângulos vermelhos mostram regiões inapropriadamente extensas para a proposta de resolução deste problema.}{1.0}
+
+% 5.3. Tempo de Execução e Armazenamento
+\section{Tempo de Execução e Armazenamento}\label{sec:tempoexec}
+
+% Tempo de execução e memória necessária
+Estima-se que o projeto necessitou de um total de 1.874 horas computacionais para ser executado completamente, sem levar em consideração os testes realizados ao longo do processo experimental. A Tabela~\ref{tab:tempocomp} exibe o tempo computacional mínimo, médio e máximo para a realização de todas as etapas do processo. O tempo mínimo e máximo correspondem, respectivamente, aos menores e maiores tempos relativos à aplicação de uma tarefa que envolve diversas instâncias. Por exemplo, a aplicação do método \emph{motif matching} era realizada para cada fator de transcrição, sendo estes considerados as instâncias neste caso. Esta tabela também exibe a quantidade de memória necessária para executar cada fase. No fim, a tabela exibe o tempo total, considerando a soma dos tempos relativos à multiplicação de todos os tempos individuais pelo número de instâncias. Pode-se dizer que o projeto só pôde ser realizado devido ao uso de um \emph{grid engine} com 60 cores, que permitiu a execução em paralelo de várias fases do estudo.
+
+\begin{table}[h!]
+\vspace{0.7cm}
+\begin{center}
+\caption[Tempo de execução e memória]{{\bf Tempo de execução e memória --} São exibidos os tempos de execução e quantidade de memória, mínimo (min), médio (med) e máximo (max), para cada etapa do processo experimental. Todos os valores desta tabela correspondem ao tempo de execução de uma instância da respectiva etapa, com exceção da linha \emph{Total}, onde são exibidos o tempo total considerando todas as instâncias de todas as etapas. Quando maiores que 1h, os tempos mínimo e máximo foram truncados para a hora mais próxima. O total em relação à memória consumida corresponde ao máximo de memória necessária considerando as fases do experimento.}
+\renewcommand{\arraystretch}{1.2}
+  \begin{tabular}{|>{\centering\arraybackslash} m{3.2cm}|
+                   >{\centering\arraybackslash} m{1.5cm}
+                   >{\centering\arraybackslash} m{1.5cm}
+                   >{\centering\arraybackslash} m{1.5cm}|
+                   >{\centering\arraybackslash} m{1.5cm}
+                   >{\centering\arraybackslash} m{1.5cm}
+                   >{\centering\arraybackslash} m{1.5cm}| }
+  \hline
+      \multirow{2}{*}{{\bf Etapa}} & \multicolumn{3}{c|}{\centering {\bf Tempo} } & \multicolumn{3}{c|}{\centering {\bf Memória} } \\
+  \cline{2-7}
+      & {\bf min} & {\bf max} & {\bf med} & {\bf min} & {\bf max} & {\bf med} \\
+  \hline
+      Motif Matching & 8:00  & 14:00 & 11:47 & 413MB   & 413MB   & 413MB   \\
+  \hline
+      Enriquecimento & 15:00 & 35:00 & 21:32 & 1821MB  & 1849MB  & 1839MB  \\
+  \hline
+      Contagem Bruta & 5:00  & 12:00 & 7:45  & 1500MB  & 1600MB  & 1530MB  \\
+  \hline
+      Normalização   & 9:00  & 9:00  & 9:00  & 1700MB  & 1700MB  & 1700MB  \\
+  \hline
+      Savitzky-Golay & 5:00  & 5:00  & 5:00  & 1500MB  & 1500MB  & 1500MB  \\
+  \hline
+      Treino FMR1    & 1:00  & 3:00  & 2:21  & 812MB   & 835MB   & 814MB   \\
+  \hline
+      Treino STAMP   & 0:25  & 0:37  & 0:28  & 812MB   & 841MB   & 815MB   \\
+  \hline
+      Aplicação HMM  & 16:00 & 19:00 & 17:03 & 512MB   & 540MB   & 535MB   \\
+  \hline
+      Validação      & 3:00  & 6:00  & 5:12  & 500MB   & 514MB   & 511MB   \\
+  \hline
+      Gráficos       & 28:00 & 57:00 & 31:41 & 1900MB  & 1900MB  & 1900MB  \\
+  \hline
+      Total          & \multicolumn{3}{c|}{\centering 1874:00 } & \multicolumn{3}{c|}{\centering 1900MB } \\
+  \hline
+  \end{tabular}
+  \label{tab:tempocomp}
+\end{center}  
+\vspace{-1.0cm}
+\end{table}
+
+\begin{table}[h!]
+\vspace{0.7cm}
+\begin{center}
+\caption[Espaço necessário para armazenamento]{{\bf Espaço necessário para armazenamento --} É exibido o espaço necessário para armazenar os arquivos que representam os dados e resultados utilizados neste projeto. É descrito o tipo (entrada ou saída), o nome do dado, os formatos nos quais o mesmo poderia se encontrar, o espaço médio (aproximado) necessário para armazenar um instância (Ind.), o número de instâncias (Inst.) e o espaço total médio necessário para armazenar os dados (Total).}
+\renewcommand{\arraystretch}{1.2}
+  \begin{tabular}{>{\centering\arraybackslash} m{1.8cm}
+                  >{\centering\arraybackslash} m{4.0cm}
+                  >{\centering\arraybackslash} m{2.0cm}
+                  >{\centering\arraybackslash} m{1.3cm}
+                  >{\centering\arraybackslash} m{1.3cm}
+                  >{\centering\arraybackslash} m{2.0cm} }
+  \hline
+      {\bf Tipo} & {\bf Dados} & {\bf Formatos} & {\bf Ind.} & {\bf Inst.} & {\bf Total} \\
+  \hline
+      \multirow{5}{*}{Entrada} & DNase-seq            & bed\&wig & 10GB  & 1     & 10GB   \\
+                               & ChIP-seq Histonas    & bed      & 14GB  & 4     & 56GB   \\
+                               & ChIP-seq TFBS        & bed\&wig & 14GB  & 8     & 112GB  \\
+                               & PWM                  & pwm      & $<$1MB  & 13    & 10MB   \\
+  \hline
+      \multirow{5}{*}{Saída}   & MPBSs                & bed      & 1GB   & 13    & 13GB   \\
+                               & Regiões enriquecidas & bed      & 0.5GB & 9     & 4.5GB  \\
+                               & Sinais processados   & bw       & 20GB  & 5     & 100GB  \\
+                               & Resultados           & bed\&txt & 0.2GB & 10    & 2GB    \\
+                               & Gráficos             & eps      & 1GB   & 39    & 39GB   \\
+  \hline
+  \label{tab:armazenamento}
+  \end{tabular}
+\end{center}  
+\vspace{-1.0cm}
+\end{table}
+
+% Armazenamento
+A Tabela~\ref{tab:armazenamento} exibe o tamanho médio para cada tipo de dado de entrada e saída dos métodos. Nesta tabela, são definidos os formatos desses dados, o tamanho médio para cada instância individual (Ind), o número de instâncias para cada dado (Inst) e o tamanho total considerando a todas as instâncias (Grp). Pode-se dizer que, em média, foram necessários 340 GB de armazenamento para a execução apropriada deste estudo, desconsiderando todos os arquivos gerados durante as fases de teste.
+
+% Formato dos dados
+Três tipos de dados principais foram utilizados no decorrer do projeto. O primeiro tipo, chamado \emph{bed}, consiste em um arquivo de texto simples contendo, em cada linha, informações de coordenadas genômicas. O tamanho de tais arquivos variou entre pequeno (por exemplo, TFBSs para um fator com \emph{motif} de alta qualidade, isto é, poucos TFBSs) e grande (por exemplo, os fragmentos alinhados advindos das técnicas de DNase-seq ou ChIP-seq). O segundo tipo, chamado \emph{wig} ou \emph{wiggle}, consiste em um arquivo de texto simples contendo um valor de ponto flutuante para cada coordenada genômica de interesse. O tamanho de tais arquivos foi, em geral, grande, correspondendo principalmente aos sinais genômicos durante a etapa de contagem, normalização e aplicação do método de Savitzky-Golay. Tal tipo de arquivo pode ser comprimido em um formato nomeado \emph{bw} ou \emph{bigwig}. Finalmente, temos os arquivos \emph{pwm} que representavam as PWMs para cada fator de transcrição analisado. Tais arquivos são geralmente pequenos, contendo apenas as informações de afinidade (ponto flutuante) para cada um dos quatro nucleotídeos e para cada posição do \emph{motif} (não maior do que 20 bases). Os outros formatos mencionados são de uso comum.
+
+% 5.4. Considerações Finais
+\section{Considerações Finais}\label{sec:cfcap5}
+
+% Considerações finais - resultados
+Neste capítulo foram exibidos os gráficos e tabelas referentes aos resultados obtidos neste estudo. Foram exibidos os gráficos necessários para a análise de regiões de interesse envolvendo MPBSs, regiões enriquecidas em ChIP-seq para os fatores de transcrição e resultados do modelo anterior. Além disso, após mostrar estatísticas gerais relacionadas com a quantidade de regiões produzidas durante o processo experimental, foram descritas as estatísticas avaliadas a partir da aplicação do modelo anterior e do modelo proposto. Finalmente, foi realizada uma discussão referente ao tempo computacional, processamento e armazenamento necessários durante a execução do projeto.
+
+% Considerações Finais - discussão
+Após a apresentação dos resultados, em cada seção foram realizadas discussões a respeito dos mesmos. Primeiramente, foram discutidos os gráficos que visualizam tendências médias nos sinais epigenéticos em diversas regiões de interesse (e combinações dessas regiões). Após isso, foram discutidos os resultados da aplicação do método anterior e do método proposto. Foram apontadas as formas como o método proposto melhorou as predições e também as limitações deste novo modelo. Finalmente, discutiu-se a infraestrutura necessária para realização de um projeto deste gênero.

@@ -1,0 +1,138 @@
+* Creating a prior with alpha=1.0000 and beta=10000
+* Creating output directory...Done!
+* Getting max and min scores across the whole genome...Done!
+	Max: 12084.0000 Min: 0 Sequence size: 90354753
+* Calculating prior sum across the whole genome...Done!
+* Writing prior out to disk...Done!
+* Creating a prior with alpha=1.0000 and beta=10000
+* Creating output directory...Done!
+* Getting max and min scores across the whole genome...Done!
+	Max: 16419.0000 Min: 0 Sequence size: 159138663
+* Calculating prior sum across the whole genome...Done!
+* Writing prior out to disk...Done!
+* Creating a prior with alpha=1.0000 and beta=10000
+* Creating output directory...Done!
+* Getting max and min scores across the whole genome...Done!
+	Max: 22224.0000 Min: 0 Sequence size: 48129895
+* Calculating prior sum across the whole genome...Done!
+* Writing prior out to disk...Done!
+* Creating a prior with alpha=1.0000 and beta=10000
+* Creating output directory...Done!
+* Getting max and min scores across the whole genome...Done!
+	Max: 163110.0000 Min: 0 Sequence size: 198022430
+* Calculating prior sum across the whole genome...Done!
+* Writing prior out to disk...Done!
+* Creating a prior with alpha=1.0000 and beta=10000
+* Creating output directory...Done!
+* Getting max and min scores across the whole genome...Done!
+	Max: 13153.0000 Min: 0 Sequence size: 180915260
+* Calculating prior sum across the whole genome...Done!
+* Writing prior out to disk...Done!
+* Creating a prior with alpha=1.0000 and beta=10000
+* Creating output directory...Done!
+* Getting max and min scores across the whole genome...Done!
+	Max: 5458340.0000 Min: 0 Sequence size: 135006516
+* Calculating prior sum across the whole genome...Done!
+* Writing prior out to disk...Done!
+* Creating a prior with alpha=1.0000 and beta=10000
+* Creating output directory...Done!
+* Getting max and min scores across the whole genome...Done!
+	Max: 5220.0000 Min: 0 Sequence size: 191154276
+* Calculating prior sum across the whole genome...Done!
+* Writing prior out to disk...Done!
+* Creating a prior with alpha=1.0000 and beta=10000
+* Creating output directory...Done!
+* Getting max and min scores across the whole genome...Done!
+	Max: 2108.0000 Min: 0 Sequence size: 102531392
+* Calculating prior sum across the whole genome...Done!
+* Writing prior out to disk...Done!
+* Creating a prior with alpha=1.0000 and beta=10000
+* Creating output directory...Done!
+* Getting max and min scores across the whole genome...Done!
+	Max: 11945.0000 Min: 0 Sequence size: 63025520
+* Calculating prior sum across the whole genome...Done!
+* Writing prior out to disk...Done!
+* Creating a prior with alpha=1.0000 and beta=10000
+* Creating output directory...Done!
+* Getting max and min scores across the whole genome...Done!
+	Max: 14251.0000 Min: 0 Sequence size: 171115067
+* Calculating prior sum across the whole genome...Done!
+* Writing prior out to disk...Done!
+* Creating a prior with alpha=1.0000 and beta=10000
+* Creating output directory...Done!
+* Getting max and min scores across the whole genome...Done!
+	Max: 54073.0000 Min: 0 Sequence size: 249250621
+* Calculating prior sum across the whole genome...Done!
+* Writing prior out to disk...Done!
+* Creating a prior with alpha=1.0000 and beta=10000
+* Creating output directory...Done!
+* Getting max and min scores across the whole genome...Done!
+	Max: 12667.0000 Min: 0 Sequence size: 243199373
+* Calculating prior sum across the whole genome...Done!
+* Writing prior out to disk...Done!
+* Creating a prior with alpha=1.0000 and beta=10000
+* Creating output directory...Done!
+* Getting max and min scores across the whole genome...Done!
+	Max: 11008.0000 Min: 0 Sequence size: 155270560
+* Calculating prior sum across the whole genome...Done!
+* Writing prior out to disk...Done!
+* Creating a prior with alpha=1.0000 and beta=10000
+* Creating output directory...Done!
+* Getting max and min scores across the whole genome...Done!
+	Max: 5732.0000 Min: 0 Sequence size: 141213431
+* Calculating prior sum across the whole genome...Done!
+* Writing prior out to disk...Done!
+* Creating a prior with alpha=1.0000 and beta=10000
+* Creating output directory...Done!
+* Getting max and min scores across the whole genome...Done!
+	Max: 33114.0000 Min: 0 Sequence size: 78077248
+* Calculating prior sum across the whole genome...Done!
+* Writing prior out to disk...Done!
+* Creating a prior with alpha=1.0000 and beta=10000
+* Creating output directory...Done!
+* Getting max and min scores across the whole genome...Done!
+	Max: 15603.0000 Min: 0 Sequence size: 133851895
+* Calculating prior sum across the whole genome...Done!
+* Writing prior out to disk...Done!
+* Creating a prior with alpha=1.0000 and beta=10000
+* Creating output directory...Done!
+* Getting max and min scores across the whole genome...Done!
+	Max: 14903.0000 Min: 0 Sequence size: 81195210
+* Calculating prior sum across the whole genome...Done!
+* Writing prior out to disk...Done!
+* Creating a prior with alpha=1.0000 and beta=10000
+* Creating output directory...Done!
+* Getting max and min scores across the whole genome...Done!
+	Max: 4680.0000 Min: 0 Sequence size: 107349540
+* Calculating prior sum across the whole genome...Done!
+* Writing prior out to disk...Done!
+* Creating a prior with alpha=1.0000 and beta=10000
+* Creating output directory...Done!
+* Getting max and min scores across the whole genome...Done!
+	Max: 7261.0000 Min: 0 Sequence size: 146364022
+* Calculating prior sum across the whole genome...Done!
+* Writing prior out to disk...Done!
+* Creating a prior with alpha=1.0000 and beta=10000
+* Creating output directory...Done!
+* Getting max and min scores across the whole genome...Done!
+	Max: 10462.0000 Min: 0 Sequence size: 59128983
+* Calculating prior sum across the whole genome...Done!
+* Writing prior out to disk...Done!
+* Creating a prior with alpha=1.0000 and beta=10000
+* Creating output directory...Done!
+* Getting max and min scores across the whole genome...Done!
+	Max: 2159.0000 Min: 0 Sequence size: 115169878
+* Calculating prior sum across the whole genome...Done!
+* Writing prior out to disk...Done!
+* Creating a prior with alpha=1.0000 and beta=10000
+* Creating output directory...Done!
+* Getting max and min scores across the whole genome...Done!
+	Max: 7296.0000 Min: 0 Sequence size: 135534747
+* Calculating prior sum across the whole genome...Done!
+* Writing prior out to disk...Done!
+* Creating a prior with alpha=1.0000 and beta=10000
+* Creating output directory...Done!
+* Getting max and min scores across the whole genome...Done!
+	Max: 2304.0000 Min: 0 Sequence size: 51304566
+* Calculating prior sum across the whole genome...Done!
+* Writing prior out to disk...Done!

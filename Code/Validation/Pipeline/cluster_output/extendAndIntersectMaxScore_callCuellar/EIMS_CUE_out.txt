@@ -1,0 +1,3357 @@
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711850: <EIMS_CUE> in cluster <rcc> Done
+
+Job <EIMS_CUE> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 04:02:03 2015
+Results reported on Tue Jun 30 04:02:26 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/RAD21.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/Cuellar5/DNase_priorH3K4me1_priorH3K4me3_priorH3K9ac_prior_RAD21.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/Cuellar_DU/RAD21_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   15.78 sec.
+    Max Memory :                                 225 MB
+    Average Memory :                             181.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11775.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CUE_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711844: <EIMS_CUE> in cluster <rcc> Done
+
+Job <EIMS_CUE> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 04:02:03 2015
+Results reported on Tue Jun 30 04:02:27 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/USF1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/Cuellar5/DNase_priorH3K4me1_priorH3K4me3_priorH3K9ac_prior_USF1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/Cuellar_DU/USF1_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   15.97 sec.
+    Max Memory :                                 252 MB
+    Average Memory :                             136.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11748.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CUE_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711841: <EIMS_CUE> in cluster <rcc> Done
+
+Job <EIMS_CUE> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 04:02:03 2015
+Results reported on Tue Jun 30 04:02:27 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/ATF3.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/Cuellar5/DNase_priorH3K4me1_priorH3K4me3_priorH3K9ac_prior_ATF3.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/Cuellar_DU/ATF3_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   16.16 sec.
+    Max Memory :                                 253 MB
+    Average Memory :                             134.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11747.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CUE_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711847: <EIMS_CUE> in cluster <rcc> Done
+
+Job <EIMS_CUE> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 04:02:03 2015
+Results reported on Tue Jun 30 04:02:27 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/USF2.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/Cuellar5/DNase_priorH3K4me1_priorH3K4me3_priorH3K9ac_prior_USF2.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/Cuellar_DU/USF2_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   17.12 sec.
+    Max Memory :                                 276 MB
+    Average Memory :                             155.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11724.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CUE_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711843: <EIMS_CUE> in cluster <rcc> Done
+
+Job <EIMS_CUE> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 04:02:03 2015
+Results reported on Tue Jun 30 04:02:27 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/JUND.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/Cuellar5/DNase_priorH3K4me1_priorH3K4me3_priorH3K9ac_prior_JUND.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/Cuellar_DU/JUND_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   17.63 sec.
+    Max Memory :                                 218 MB
+    Average Memory :                             99.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11782.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CUE_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711842: <EIMS_CUE> in cluster <rcc> Done
+
+Job <EIMS_CUE> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 04:02:03 2015
+Results reported on Tue Jun 30 04:02:33 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/TCF12.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/Cuellar5/DNase_priorH3K4me1_priorH3K4me3_priorH3K9ac_prior_TCF12.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/Cuellar_DU/TCF12_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   21.48 sec.
+    Max Memory :                                 333 MB
+    Average Memory :                             218.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11667.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CUE_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711839: <EIMS_CUE> in cluster <rcc> Done
+
+Job <EIMS_CUE> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 04:02:03 2015
+Results reported on Tue Jun 30 04:02:34 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/SIX5.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/Cuellar5/DNase_priorH3K4me1_priorH3K4me3_priorH3K9ac_prior_SIX5.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/Cuellar_DU/SIX5_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   23.65 sec.
+    Max Memory :                                 375 MB
+    Average Memory :                             175.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11625.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CUE_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711845: <EIMS_CUE> in cluster <rcc> Done
+
+Job <EIMS_CUE> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 04:02:03 2015
+Results reported on Tue Jun 30 04:02:36 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/RXRA.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/Cuellar5/DNase_priorH3K4me1_priorH3K4me3_priorH3K9ac_prior_RXRA.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/Cuellar_DU/RXRA_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   25.03 sec.
+    Max Memory :                                 400 MB
+    Average Memory :                             209.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11600.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CUE_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711846: <EIMS_CUE> in cluster <rcc> Done
+
+Job <EIMS_CUE> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 04:02:03 2015
+Results reported on Tue Jun 30 04:02:37 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/MAFK.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/Cuellar5/DNase_priorH3K4me1_priorH3K4me3_priorH3K9ac_prior_MAFK.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/Cuellar_DU/MAFK_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   26.47 sec.
+    Max Memory :                                 355 MB
+    Average Memory :                             144.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11645.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CUE_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711840: <EIMS_CUE> in cluster <rcc> Done
+
+Job <EIMS_CUE> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 04:02:03 2015
+Results reported on Tue Jun 30 04:02:39 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/YY1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/Cuellar5/DNase_priorH3K4me1_priorH3K4me3_priorH3K9ac_prior_YY1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/Cuellar_DU/YY1_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   28.19 sec.
+    Max Memory :                                 462 MB
+    Average Memory :                             228.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11538.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CUE_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711849: <EIMS_CUE> in cluster <rcc> Done
+
+Job <EIMS_CUE> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 04:02:03 2015
+Results reported on Tue Jun 30 04:02:51 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/EGR1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/Cuellar5/DNase_priorH3K4me1_priorH3K4me3_priorH3K9ac_prior_EGR1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/Cuellar_DU/EGR1_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   30.57 sec.
+    Max Memory :                                 490 MB
+    Average Memory :                             135.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11510.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CUE_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711848: <EIMS_CUE> in cluster <rcc> Done
+
+Job <EIMS_CUE> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 04:02:03 2015
+Results reported on Tue Jun 30 04:02:53 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/SP2.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/Cuellar5/DNase_priorH3K4me1_priorH3K4me3_priorH3K9ac_prior_SP2.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/Cuellar_DU/SP2_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   42.36 sec.
+    Max Memory :                                 651 MB
+    Average Memory :                             149.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11349.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CUE_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711860: <EIMS_CUE> in cluster <rcc> Done
+
+Job <EIMS_CUE> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 04:03:15 2015
+Results reported on Tue Jun 30 04:03:37 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/SP4.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/Cuellar5/DNase_priorH3K4me1_priorH3K4me3_priorH3K9ac_prior_SP4.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/Cuellar_DU/SP4_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   13.82 sec.
+    Max Memory :                                 210 MB
+    Average Memory :                             175.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11790.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CUE_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711857: <EIMS_CUE> in cluster <rcc> Done
+
+Job <EIMS_CUE> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 04:03:15 2015
+Results reported on Tue Jun 30 04:03:37 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/BACH1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/Cuellar5/DNase_priorH3K4me1_priorH3K4me3_priorH3K9ac_prior_BACH1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/Cuellar_DU/BACH1_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   14.17 sec.
+    Max Memory :                                 228 MB
+    Average Memory :                             124.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11772.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CUE_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711855: <EIMS_CUE> in cluster <rcc> Done
+
+Job <EIMS_CUE> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 04:03:15 2015
+Results reported on Tue Jun 30 04:03:38 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/P300.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/Cuellar5/DNase_priorH3K4me1_priorH3K4me3_priorH3K9ac_prior_P300.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/Cuellar_DU/P300_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   14.77 sec.
+    Max Memory :                                 221 MB
+    Average Memory :                             163.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11779.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CUE_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711854: <EIMS_CUE> in cluster <rcc> Done
+
+Job <EIMS_CUE> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 04:03:15 2015
+Results reported on Tue Jun 30 04:03:38 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/CTCF.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/Cuellar5/DNase_priorH3K4me1_priorH3K4me3_priorH3K9ac_prior_CTCF.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/Cuellar_DU/CTCF_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   15.16 sec.
+    Max Memory :                                 223 MB
+    Average Memory :                             183.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11777.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CUE_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711859: <EIMS_CUE> in cluster <rcc> Done
+
+Job <EIMS_CUE> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 04:03:15 2015
+Results reported on Tue Jun 30 04:03:39 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/RFX5.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/Cuellar5/DNase_priorH3K4me1_priorH3K4me3_priorH3K9ac_prior_RFX5.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/Cuellar_DU/RFX5_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   15.29 sec.
+    Max Memory :                                 214 MB
+    Average Memory :                             140.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11786.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CUE_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711851: <EIMS_CUE> in cluster <rcc> Done
+
+Job <EIMS_CUE> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 04:03:15 2015
+Results reported on Tue Jun 30 04:03:39 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/FOSL1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/Cuellar5/DNase_priorH3K4me1_priorH3K4me3_priorH3K9ac_prior_FOSL1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/Cuellar_DU/FOSL1_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   16.42 sec.
+    Max Memory :                                 258 MB
+    Average Memory :                             151.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11742.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CUE_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711856: <EIMS_CUE> in cluster <rcc> Done
+
+Job <EIMS_CUE> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 04:03:15 2015
+Results reported on Tue Jun 30 04:03:41 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/JUN.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/Cuellar5/DNase_priorH3K4me1_priorH3K4me3_priorH3K9ac_prior_JUN.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/Cuellar_DU/JUN_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   18.05 sec.
+    Max Memory :                                 294 MB
+    Average Memory :                             141.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11706.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CUE_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711853: <EIMS_CUE> in cluster <rcc> Done
+
+Job <EIMS_CUE> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 04:03:15 2015
+Results reported on Tue Jun 30 04:03:46 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/SRF.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/Cuellar5/DNase_priorH3K4me1_priorH3K4me3_priorH3K9ac_prior_SRF.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/Cuellar_DU/SRF_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   21.95 sec.
+    Max Memory :                                 299 MB
+    Average Memory :                             109.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11701.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CUE_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711858: <EIMS_CUE> in cluster <rcc> Done
+
+Job <EIMS_CUE> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 04:03:15 2015
+Results reported on Tue Jun 30 04:03:47 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/ZNF143.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/Cuellar5/DNase_priorH3K4me1_priorH3K4me3_priorH3K9ac_prior_ZNF143.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/Cuellar_DU/ZNF143_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   23.74 sec.
+    Max Memory :                                 320 MB
+    Average Memory :                             147.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11680.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CUE_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711852: <EIMS_CUE> in cluster <rcc> Done
+
+Job <EIMS_CUE> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 04:03:15 2015
+Results reported on Tue Jun 30 04:04:31 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/POU5F1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/Cuellar5/DNase_priorH3K4me1_priorH3K4me3_priorH3K9ac_prior_POU5F1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/Cuellar_DU/POU5F1_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   48.65 sec.
+    Max Memory :                                 786 MB
+    Average Memory :                             77.50 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11214.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CUE_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711863: <EIMS_CUE> in cluster <rcc> Done
+
+Job <EIMS_CUE> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 04:04:32 2015
+Results reported on Tue Jun 30 04:04:42 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/GABP.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/Cuellar5/DNase_priorH3K4me1_priorH3K4me3_priorH3K9ac_prior_GABP.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/Cuellar_DU/GABP_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   7.58 sec.
+    Max Memory :                                 69 MB
+    Average Memory :                             16.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11931.00 MB
+    Max Processes :                              1
+    Max Threads :                                1
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CUE_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711869: <EIMS_CUE> in cluster <rcc> Done
+
+Job <EIMS_CUE> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 04:04:35 2015
+Results reported on Tue Jun 30 04:04:44 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/NRF1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/Cuellar5/DNase_priorH3K4me1_priorH3K4me3_priorH3K9ac_prior_NRF1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/Cuellar_DU/NRF1_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   6.36 sec.
+    Max Memory :                                 113 MB
+    Average Memory :                             48.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11887.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CUE_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711866: <EIMS_CUE> in cluster <rcc> Done
+
+Job <EIMS_CUE> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 04:04:33 2015
+Results reported on Tue Jun 30 04:04:51 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/BRCA1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/Cuellar5/DNase_priorH3K4me1_priorH3K4me3_priorH3K9ac_prior_BRCA1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/Cuellar_DU/BRCA1_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   11.30 sec.
+    Max Memory :                                 235 MB
+    Average Memory :                             207.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11765.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CUE_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711868: <EIMS_CUE> in cluster <rcc> Done
+
+Job <EIMS_CUE> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 04:04:34 2015
+Results reported on Tue Jun 30 04:04:52 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/MYC.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/Cuellar5/DNase_priorH3K4me1_priorH3K4me3_priorH3K9ac_prior_MYC.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/Cuellar_DU/MYC_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   15.68 sec.
+    Max Memory :                                 194 MB
+    Average Memory :                             141.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11806.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CUE_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711864: <EIMS_CUE> in cluster <rcc> Done
+
+Job <EIMS_CUE> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 04:04:32 2015
+Results reported on Tue Jun 30 04:04:53 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/REST.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/Cuellar5/DNase_priorH3K4me1_priorH3K4me3_priorH3K9ac_prior_REST.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/Cuellar_DU/REST_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   15.35 sec.
+    Max Memory :                                 198 MB
+    Average Memory :                             127.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11802.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CUE_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711867: <EIMS_CUE> in cluster <rcc> Done
+
+Job <EIMS_CUE> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 04:04:34 2015
+Results reported on Tue Jun 30 04:04:54 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/TBP.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/Cuellar5/DNase_priorH3K4me1_priorH3K4me3_priorH3K9ac_prior_TBP.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/Cuellar_DU/TBP_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   17.42 sec.
+    Max Memory :                                 293 MB
+    Average Memory :                             117.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11707.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CUE_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711873: <EIMS_CUE> in cluster <rcc> Done
+
+Job <EIMS_CUE> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 04:04:36 2015
+Results reported on Tue Jun 30 04:04:54 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/EFOS.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/K562/Cuellar5/DNase_priorH3K4me1_priorH3K4me3_priorH3K9ac_prior_EFOS.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Cuellar_DU/EFOS_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   17.93 sec.
+    Max Memory :                                 236 MB
+    Average Memory :                             121.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11764.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CUE_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711861: <EIMS_CUE> in cluster <rcc> Done
+
+Job <EIMS_CUE> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 04:04:31 2015
+Results reported on Tue Jun 30 04:05:00 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/MAX.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/Cuellar5/DNase_priorH3K4me1_priorH3K4me3_priorH3K9ac_prior_MAX.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/Cuellar_DU/MAX_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   20.24 sec.
+    Max Memory :                                 309 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11691.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CUE_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711870: <EIMS_CUE> in cluster <rcc> Done
+
+Job <EIMS_CUE> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 04:04:36 2015
+Results reported on Tue Jun 30 04:05:02 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/SIX5.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/K562/Cuellar5/DNase_priorH3K4me1_priorH3K4me3_priorH3K9ac_prior_SIX5.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Cuellar_DU/SIX5_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   24.68 sec.
+    Max Memory :                                 317 MB
+    Average Memory :                             136.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11683.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CUE_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711872: <EIMS_CUE> in cluster <rcc> Done
+
+Job <EIMS_CUE> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 04:04:36 2015
+Results reported on Tue Jun 30 04:05:23 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/YY1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/K562/Cuellar5/DNase_priorH3K4me1_priorH3K4me3_priorH3K9ac_prior_YY1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Cuellar_DU/YY1_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   28.46 sec.
+    Max Memory :                                 466 MB
+    Average Memory :                             228.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11534.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CUE_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711865: <EIMS_CUE> in cluster <rcc> Done
+
+Job <EIMS_CUE> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 04:04:33 2015
+Results reported on Tue Jun 30 04:05:23 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/CEBPB.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/Cuellar5/DNase_priorH3K4me1_priorH3K4me3_priorH3K9ac_prior_CEBPB.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/Cuellar_DU/CEBPB_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   27.84 sec.
+    Max Memory :                                 478 MB
+    Average Memory :                             230.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11522.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CUE_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711862: <EIMS_CUE> in cluster <rcc> Done
+
+Job <EIMS_CUE> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 04:04:31 2015
+Results reported on Tue Jun 30 04:05:24 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/SP1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/Cuellar5/DNase_priorH3K4me1_priorH3K4me3_priorH3K9ac_prior_SP1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/Cuellar_DU/SP1_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   46.88 sec.
+    Max Memory :                                 715 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11285.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CUE_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711877: <EIMS_CUE> in cluster <rcc> Done
+
+Job <EIMS_CUE> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 04:05:42 2015
+Results reported on Tue Jun 30 04:06:02 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/NFYA.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/K562/Cuellar5/DNase_priorH3K4me1_priorH3K4me3_priorH3K9ac_prior_NFYA.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Cuellar_DU/NFYA_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   11.15 sec.
+    Max Memory :                                 166 MB
+    Average Memory :                             89.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11834.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CUE_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711874: <EIMS_CUE> in cluster <rcc> Done
+
+Job <EIMS_CUE> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 04:05:42 2015
+Results reported on Tue Jun 30 04:06:03 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/ATF3.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/K562/Cuellar5/DNase_priorH3K4me1_priorH3K4me3_priorH3K9ac_prior_ATF3.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Cuellar_DU/ATF3_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   13.34 sec.
+    Max Memory :                                 196 MB
+    Average Memory :                             161.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11804.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CUE_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711883: <EIMS_CUE> in cluster <rcc> Done
+
+Job <EIMS_CUE> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 04:05:42 2015
+Results reported on Tue Jun 30 04:06:04 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/THAP1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/K562/Cuellar5/DNase_priorH3K4me1_priorH3K4me3_priorH3K9ac_prior_THAP1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Cuellar_DU/THAP1_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   15.57 sec.
+    Max Memory :                                 274 MB
+    Average Memory :                             229.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11726.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CUE_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711882: <EIMS_CUE> in cluster <rcc> Done
+
+Job <EIMS_CUE> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 04:05:42 2015
+Results reported on Tue Jun 30 04:06:05 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/CCNT2.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/K562/Cuellar5/DNase_priorH3K4me1_priorH3K4me3_priorH3K9ac_prior_CCNT2.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Cuellar_DU/CCNT2_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   16.10 sec.
+    Max Memory :                                 262 MB
+    Average Memory :                             139.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11738.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CUE_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711880: <EIMS_CUE> in cluster <rcc> Done
+
+Job <EIMS_CUE> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 04:05:42 2015
+Results reported on Tue Jun 30 04:06:05 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/USF1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/K562/Cuellar5/DNase_priorH3K4me1_priorH3K4me3_priorH3K9ac_prior_USF1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Cuellar_DU/USF1_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   16.12 sec.
+    Max Memory :                                 254 MB
+    Average Memory :                             142.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11746.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CUE_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711878: <EIMS_CUE> in cluster <rcc> Done
+
+Job <EIMS_CUE> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 04:05:42 2015
+Results reported on Tue Jun 30 04:06:06 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/EJUND.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/K562/Cuellar5/DNase_priorH3K4me1_priorH3K4me3_priorH3K9ac_prior_EJUND.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Cuellar_DU/EJUND_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   17.23 sec.
+    Max Memory :                                 267 MB
+    Average Memory :                             169.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11733.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CUE_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711876: <EIMS_CUE> in cluster <rcc> Done
+
+Job <EIMS_CUE> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 04:05:42 2015
+Results reported on Tue Jun 30 04:06:06 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/JUND.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/K562/Cuellar5/DNase_priorH3K4me1_priorH3K4me3_priorH3K9ac_prior_JUND.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Cuellar_DU/JUND_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   17.35 sec.
+    Max Memory :                                 265 MB
+    Average Memory :                             167.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11735.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CUE_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711875: <EIMS_CUE> in cluster <rcc> Done
+
+Job <EIMS_CUE> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 04:05:42 2015
+Results reported on Tue Jun 30 04:06:06 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/EJUNB.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/K562/Cuellar5/DNase_priorH3K4me1_priorH3K4me3_priorH3K9ac_prior_EJUNB.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Cuellar_DU/EJUNB_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   17.16 sec.
+    Max Memory :                                 268 MB
+    Average Memory :                             173.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11732.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CUE_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711881: <EIMS_CUE> in cluster <rcc> Done
+
+Job <EIMS_CUE> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 04:05:42 2015
+Results reported on Tue Jun 30 04:06:07 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/NFE2.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/K562/Cuellar5/DNase_priorH3K4me1_priorH3K4me3_priorH3K9ac_prior_NFE2.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Cuellar_DU/NFE2_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   18.13 sec.
+    Max Memory :                                 289 MB
+    Average Memory :                             161.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11711.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CUE_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711879: <EIMS_CUE> in cluster <rcc> Done
+
+Job <EIMS_CUE> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 04:05:42 2015
+Results reported on Tue Jun 30 04:06:57 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/ETS1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/K562/Cuellar5/DNase_priorH3K4me1_priorH3K4me3_priorH3K9ac_prior_ETS1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Cuellar_DU/ETS1_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   30.30 sec.
+    Max Memory :                                 477 MB
+    Average Memory :                             245.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11523.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CUE_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711886: <EIMS_CUE> in cluster <rcc> Done
+
+Job <EIMS_CUE> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 04:06:58 2015
+Results reported on Tue Jun 30 04:07:08 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/ZBTB33.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/K562/Cuellar5/DNase_priorH3K4me1_priorH3K4me3_priorH3K9ac_prior_ZBTB33.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Cuellar_DU/ZBTB33_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   3.54 sec.
+    Max Memory :                                 47 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11953.00 MB
+    Max Processes :                              1
+    Max Threads :                                1
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CUE_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711885: <EIMS_CUE> in cluster <rcc> Done
+
+Job <EIMS_CUE> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 04:06:58 2015
+Results reported on Tue Jun 30 04:07:15 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/ZBTB7A.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/K562/Cuellar5/DNase_priorH3K4me1_priorH3K4me3_priorH3K9ac_prior_ZBTB7A.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Cuellar_DU/ZBTB7A_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   10.42 sec.
+    Max Memory :                                 163 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11837.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CUE_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711896: <EIMS_CUE> in cluster <rcc> Done
+
+Job <EIMS_CUE> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 04:07:02 2015
+Results reported on Tue Jun 30 04:07:17 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/BHLHE40.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/K562/Cuellar5/DNase_priorH3K4me1_priorH3K4me3_priorH3K9ac_prior_BHLHE40.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Cuellar_DU/BHLHE40_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   13.64 sec.
+    Max Memory :                                 218 MB
+    Average Memory :                             53.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11782.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CUE_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711892: <EIMS_CUE> in cluster <rcc> Done
+
+Job <EIMS_CUE> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 04:07:01 2015
+Results reported on Tue Jun 30 04:07:17 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/RAD21.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/K562/Cuellar5/DNase_priorH3K4me1_priorH3K4me3_priorH3K9ac_prior_RAD21.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Cuellar_DU/RAD21_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   14.82 sec.
+    Max Memory :                                 184 MB
+    Average Memory :                             93.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11816.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CUE_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711887: <EIMS_CUE> in cluster <rcc> Done
+
+Job <EIMS_CUE> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 04:06:59 2015
+Results reported on Tue Jun 30 04:07:18 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/SMC3.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/K562/Cuellar5/DNase_priorH3K4me1_priorH3K4me3_priorH3K9ac_prior_SMC3.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Cuellar_DU/SMC3_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   15.23 sec.
+    Max Memory :                                 218 MB
+    Average Memory :                             65.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11782.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CUE_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711888: <EIMS_CUE> in cluster <rcc> Done
+
+Job <EIMS_CUE> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 04:06:59 2015
+Results reported on Tue Jun 30 04:07:25 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/USF2.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/K562/Cuellar5/DNase_priorH3K4me1_priorH3K4me3_priorH3K9ac_prior_USF2.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Cuellar_DU/USF2_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   17.93 sec.
+    Max Memory :                                 279 MB
+    Average Memory :                             68.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11721.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CUE_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711895: <EIMS_CUE> in cluster <rcc> Done
+
+Job <EIMS_CUE> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 04:07:02 2015
+Results reported on Tue Jun 30 04:07:26 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/ELF1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/K562/Cuellar5/DNase_priorH3K4me1_priorH3K4me3_priorH3K9ac_prior_ELF1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Cuellar_DU/ELF1_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   23.06 sec.
+    Max Memory :                                 373 MB
+    Average Memory :                             89.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11627.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CUE_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711894: <EIMS_CUE> in cluster <rcc> Done
+
+Job <EIMS_CUE> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 04:07:02 2015
+Results reported on Tue Jun 30 04:07:27 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/GATA1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/K562/Cuellar5/DNase_priorH3K4me1_priorH3K4me3_priorH3K9ac_prior_GATA1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Cuellar_DU/GATA1_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   24.11 sec.
+    Max Memory :                                 380 MB
+    Average Memory :                             68.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11620.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CUE_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711884: <EIMS_CUE> in cluster <rcc> Done
+
+Job <EIMS_CUE> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 04:06:57 2015
+Results reported on Tue Jun 30 04:07:31 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/MAFK.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/K562/Cuellar5/DNase_priorH3K4me1_priorH3K4me3_priorH3K9ac_prior_MAFK.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Cuellar_DU/MAFK_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   25.74 sec.
+    Max Memory :                                 435 MB
+    Average Memory :                             1.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11565.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CUE_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711890: <EIMS_CUE> in cluster <rcc> Done
+
+Job <EIMS_CUE> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 04:07:01 2015
+Results reported on Tue Jun 30 04:07:32 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/EGR1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/K562/Cuellar5/DNase_priorH3K4me1_priorH3K4me3_priorH3K9ac_prior_EGR1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Cuellar_DU/EGR1_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   29.24 sec.
+    Max Memory :                                 466 MB
+    Average Memory :                             79.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11534.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CUE_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711889: <EIMS_CUE> in cluster <rcc> Done
+
+Job <EIMS_CUE> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 04:07:00 2015
+Results reported on Tue Jun 30 04:08:09 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/SP2.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/K562/Cuellar5/DNase_priorH3K4me1_priorH3K4me3_priorH3K9ac_prior_SP2.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Cuellar_DU/SP2_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   45.15 sec.
+    Max Memory :                                 603 MB
+    Average Memory :                             33.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11397.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CUE_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711893: <EIMS_CUE> in cluster <rcc> Done
+
+Job <EIMS_CUE> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 04:07:02 2015
+Results reported on Tue Jun 30 04:08:10 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/MEF2A.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/K562/Cuellar5/DNase_priorH3K4me1_priorH3K4me3_priorH3K9ac_prior_MEF2A.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Cuellar_DU/MEF2A_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   73.11 sec.
+    Max Memory :                                 1132 MB
+    Average Memory :                             236.50 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               10868.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CUE_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711899: <EIMS_CUE> in cluster <rcc> Done
+
+Job <EIMS_CUE> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 04:08:12 2015
+Results reported on Tue Jun 30 04:08:28 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/ATF1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/K562/Cuellar5/DNase_priorH3K4me1_priorH3K4me3_priorH3K9ac_prior_ATF1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Cuellar_DU/ATF1_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   7.17 sec.
+    Max Memory :                                 228 MB
+    Average Memory :                             180.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11772.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CUE_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711901: <EIMS_CUE> in cluster <rcc> Done
+
+Job <EIMS_CUE> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 04:08:14 2015
+Results reported on Tue Jun 30 04:08:30 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/NFYB.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/K562/Cuellar5/DNase_priorH3K4me1_priorH3K4me3_priorH3K9ac_prior_NFYB.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Cuellar_DU/NFYB_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   11.72 sec.
+    Max Memory :                                 181 MB
+    Average Memory :                             130.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11819.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CUE_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711906: <EIMS_CUE> in cluster <rcc> Done
+
+Job <EIMS_CUE> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 04:08:16 2015
+Results reported on Tue Jun 30 04:08:32 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/BACH1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/K562/Cuellar5/DNase_priorH3K4me1_priorH3K4me3_priorH3K9ac_prior_BACH1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Cuellar_DU/BACH1_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   14.32 sec.
+    Max Memory :                                 194 MB
+    Average Memory :                             103.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11806.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CUE_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711900: <EIMS_CUE> in cluster <rcc> Done
+
+Job <EIMS_CUE> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 04:08:13 2015
+Results reported on Tue Jun 30 04:08:32 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/NR2F2.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/K562/Cuellar5/DNase_priorH3K4me1_priorH3K4me3_priorH3K9ac_prior_NR2F2.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Cuellar_DU/NR2F2_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   14.27 sec.
+    Max Memory :                                 196 MB
+    Average Memory :                             98.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11804.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CUE_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711903: <EIMS_CUE> in cluster <rcc> Done
+
+Job <EIMS_CUE> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 04:08:14 2015
+Results reported on Tue Jun 30 04:08:33 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/CTCF.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/K562/Cuellar5/DNase_priorH3K4me1_priorH3K4me3_priorH3K9ac_prior_CTCF.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Cuellar_DU/CTCF_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   14.93 sec.
+    Max Memory :                                 216 MB
+    Average Memory :                             176.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11784.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CUE_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711905: <EIMS_CUE> in cluster <rcc> Done
+
+Job <EIMS_CUE> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 04:08:15 2015
+Results reported on Tue Jun 30 04:08:33 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/TAL1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/K562/Cuellar5/DNase_priorH3K4me1_priorH3K4me3_priorH3K9ac_prior_TAL1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Cuellar_DU/TAL1_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   15.63 sec.
+    Max Memory :                                 217 MB
+    Average Memory :                             97.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11783.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CUE_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711897: <EIMS_CUE> in cluster <rcc> Done
+
+Job <EIMS_CUE> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 04:08:10 2015
+Results reported on Tue Jun 30 04:08:35 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/FOSL1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/K562/Cuellar5/DNase_priorH3K4me1_priorH3K4me3_priorH3K9ac_prior_FOSL1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Cuellar_DU/FOSL1_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   16.94 sec.
+    Max Memory :                                 265 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11735.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CUE_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711904: <EIMS_CUE> in cluster <rcc> Done
+
+Job <EIMS_CUE> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 04:08:15 2015
+Results reported on Tue Jun 30 04:08:36 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/JUN.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/K562/Cuellar5/DNase_priorH3K4me1_priorH3K4me3_priorH3K9ac_prior_JUN.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Cuellar_DU/JUN_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   18.68 sec.
+    Max Memory :                                 299 MB
+    Average Memory :                             158.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11701.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CUE_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711902: <EIMS_CUE> in cluster <rcc> Done
+
+Job <EIMS_CUE> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 04:08:14 2015
+Results reported on Tue Jun 30 04:09:23 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/SRF.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/K562/Cuellar5/DNase_priorH3K4me1_priorH3K4me3_priorH3K9ac_prior_SRF.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Cuellar_DU/SRF_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   22.53 sec.
+    Max Memory :                                 367 MB
+    Average Memory :                             144.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11633.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CUE_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711898: <EIMS_CUE> in cluster <rcc> Done
+
+Job <EIMS_CUE> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 04:08:11 2015
+Results reported on Tue Jun 30 04:09:24 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/EGATA.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/K562/Cuellar5/DNase_priorH3K4me1_priorH3K4me3_priorH3K9ac_prior_EGATA.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Cuellar_DU/EGATA_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   22.67 sec.
+    Max Memory :                                 376 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11624.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CUE_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711918: <EIMS_CUE> in cluster <rcc> Done
+
+Job <EIMS_CUE> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 04:09:31 2015
+Results reported on Tue Jun 30 04:09:37 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/GABP.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/K562/Cuellar5/DNase_priorH3K4me1_priorH3K4me3_priorH3K9ac_prior_GABP.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Cuellar_DU/GABP_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   6.09 sec.
+    Max Memory :                                 66 MB
+    Average Memory :                             15.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11934.00 MB
+    Max Processes :                              1
+    Max Threads :                                1
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CUE_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711907: <EIMS_CUE> in cluster <rcc> Done
+
+Job <EIMS_CUE> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 04:09:24 2015
+Results reported on Tue Jun 30 04:09:46 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/ARID3A.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/K562/Cuellar5/DNase_priorH3K4me1_priorH3K4me3_priorH3K9ac_prior_ARID3A.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Cuellar_DU/ARID3A_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   11.65 sec.
+    Max Memory :                                 495 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11505.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CUE_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711915: <EIMS_CUE> in cluster <rcc> Done
+
+Job <EIMS_CUE> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 04:09:29 2015
+Results reported on Tue Jun 30 04:09:46 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/CTCFL.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/K562/Cuellar5/DNase_priorH3K4me1_priorH3K4me3_priorH3K9ac_prior_CTCFL.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Cuellar_DU/CTCFL_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   14.79 sec.
+    Max Memory :                                 218 MB
+    Average Memory :                             176.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11782.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CUE_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711913: <EIMS_CUE> in cluster <rcc> Done
+
+Job <EIMS_CUE> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 04:09:28 2015
+Results reported on Tue Jun 30 04:09:48 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/RFX5.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/K562/Cuellar5/DNase_priorH3K4me1_priorH3K4me3_priorH3K9ac_prior_RFX5.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Cuellar_DU/RFX5_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   15.97 sec.
+    Max Memory :                                 237 MB
+    Average Memory :                             158.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11763.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CUE_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711909: <EIMS_CUE> in cluster <rcc> Done
+
+Job <EIMS_CUE> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 04:09:26 2015
+Results reported on Tue Jun 30 04:09:51 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/FOS.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/K562/Cuellar5/DNase_priorH3K4me1_priorH3K4me3_priorH3K9ac_prior_FOS.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Cuellar_DU/FOS_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   18.32 sec.
+    Max Memory :                                 279 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11721.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CUE_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711914: <EIMS_CUE> in cluster <rcc> Done
+
+Job <EIMS_CUE> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 04:09:29 2015
+Results reported on Tue Jun 30 04:09:52 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/TR4.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/K562/Cuellar5/DNase_priorH3K4me1_priorH3K4me3_priorH3K9ac_prior_TR4.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Cuellar_DU/TR4_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   20.01 sec.
+    Max Memory :                                 256 MB
+    Average Memory :                             118.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11744.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CUE_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711916: <EIMS_CUE> in cluster <rcc> Done
+
+Job <EIMS_CUE> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 04:09:30 2015
+Results reported on Tue Jun 30 04:09:52 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/MAX.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/K562/Cuellar5/DNase_priorH3K4me1_priorH3K4me3_priorH3K9ac_prior_MAX.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Cuellar_DU/MAX_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   21.09 sec.
+    Max Memory :                                 314 MB
+    Average Memory :                             154.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11686.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CUE_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711911: <EIMS_CUE> in cluster <rcc> Done
+
+Job <EIMS_CUE> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 04:09:27 2015
+Results reported on Tue Jun 30 04:10:00 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/ZNF143.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/K562/Cuellar5/DNase_priorH3K4me1_priorH3K4me3_priorH3K9ac_prior_ZNF143.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Cuellar_DU/ZNF143_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   24.56 sec.
+    Max Memory :                                 387 MB
+    Average Memory :                             200.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11613.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CUE_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711912: <EIMS_CUE> in cluster <rcc> Done
+
+Job <EIMS_CUE> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 04:09:27 2015
+Results reported on Tue Jun 30 04:10:02 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/STAT1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/K562/Cuellar5/DNase_priorH3K4me1_priorH3K4me3_priorH3K9ac_prior_STAT1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Cuellar_DU/STAT1_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   29.43 sec.
+    Max Memory :                                 469 MB
+    Average Memory :                             229.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11531.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CUE_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711917: <EIMS_CUE> in cluster <rcc> Done
+
+Job <EIMS_CUE> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 04:09:30 2015
+Results reported on Tue Jun 30 04:10:36 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/SP1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/K562/Cuellar5/DNase_priorH3K4me1_priorH3K4me3_priorH3K9ac_prior_SP1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Cuellar_DU/SP1_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   46.23 sec.
+    Max Memory :                                 681 MB
+    Average Memory :                             133.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11319.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CUE_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711910: <EIMS_CUE> in cluster <rcc> Done
+
+Job <EIMS_CUE> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 04:09:26 2015
+Results reported on Tue Jun 30 04:10:37 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/STAT2.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/K562/Cuellar5/DNase_priorH3K4me1_priorH3K4me3_priorH3K9ac_prior_STAT2.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Cuellar_DU/STAT2_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   71.10 sec.
+    Max Memory :                                 1093 MB
+    Average Memory :                             57.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               10907.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CUE_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711922: <EIMS_CUE> in cluster <rcc> Done
+
+Job <EIMS_CUE> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 04:10:37 2015
+Results reported on Tue Jun 30 04:10:59 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/E2F4.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/K562/Cuellar5/DNase_priorH3K4me1_priorH3K4me3_priorH3K9ac_prior_E2F4.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Cuellar_DU/E2F4_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   7.27 sec.
+    Max Memory :                                 99 MB
+    Average Memory :                             28.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11901.00 MB
+    Max Processes :                              1
+    Max Threads :                                1
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CUE_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711924: <EIMS_CUE> in cluster <rcc> Done
+
+Job <EIMS_CUE> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 04:10:37 2015
+Results reported on Tue Jun 30 04:11:00 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/REST.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/K562/Cuellar5/DNase_priorH3K4me1_priorH3K4me3_priorH3K9ac_prior_REST.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Cuellar_DU/REST_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   15.37 sec.
+    Max Memory :                                 237 MB
+    Average Memory :                             167.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11763.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CUE_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711927: <EIMS_CUE> in cluster <rcc> Done
+
+Job <EIMS_CUE> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 04:10:37 2015
+Results reported on Tue Jun 30 04:11:01 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/MYC.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/K562/Cuellar5/DNase_priorH3K4me1_priorH3K4me3_priorH3K9ac_prior_MYC.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Cuellar_DU/MYC_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   16.02 sec.
+    Max Memory :                                 237 MB
+    Average Memory :                             195.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11763.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CUE_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711926: <EIMS_CUE> in cluster <rcc> Done
+
+Job <EIMS_CUE> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 04:10:37 2015
+Results reported on Tue Jun 30 04:11:02 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/TBP.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/K562/Cuellar5/DNase_priorH3K4me1_priorH3K4me3_priorH3K9ac_prior_TBP.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Cuellar_DU/TBP_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   17.37 sec.
+    Max Memory :                                 294 MB
+    Average Memory :                             124.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11706.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CUE_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711928: <EIMS_CUE> in cluster <rcc> Done
+
+Job <EIMS_CUE> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 04:10:37 2015
+Results reported on Tue Jun 30 04:11:09 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/GATA2.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/K562/Cuellar5/DNase_priorH3K4me1_priorH3K4me3_priorH3K9ac_prior_GATA2.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Cuellar_DU/GATA2_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   22.02 sec.
+    Max Memory :                                 374 MB
+    Average Memory :                             163.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11626.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CUE_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711923: <EIMS_CUE> in cluster <rcc> Done
+
+Job <EIMS_CUE> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 04:10:37 2015
+Results reported on Tue Jun 30 04:11:09 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/E2F6.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/K562/Cuellar5/DNase_priorH3K4me1_priorH3K4me3_priorH3K9ac_prior_E2F6.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Cuellar_DU/E2F6_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   25.45 sec.
+    Max Memory :                                 388 MB
+    Average Memory :                             214.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11612.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CUE_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711921: <EIMS_CUE> in cluster <rcc> Done
+
+Job <EIMS_CUE> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 04:10:37 2015
+Results reported on Tue Jun 30 04:11:11 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/MAFF.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/K562/Cuellar5/DNase_priorH3K4me1_priorH3K4me3_priorH3K9ac_prior_MAFF.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Cuellar_DU/MAFF_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   25.58 sec.
+    Max Memory :                                 434 MB
+    Average Memory :                             223.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11566.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CUE_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711925: <EIMS_CUE> in cluster <rcc> Done
+
+Job <EIMS_CUE> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 04:10:37 2015
+Results reported on Tue Jun 30 04:11:12 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/CEBPB.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/K562/Cuellar5/DNase_priorH3K4me1_priorH3K4me3_priorH3K9ac_prior_CEBPB.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Cuellar_DU/CEBPB_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   27.89 sec.
+    Max Memory :                                 481 MB
+    Average Memory :                             244.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11519.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CUE_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711908: <EIMS_CUE> in cluster <rcc> Done
+
+Job <EIMS_CUE> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 04:09:24 2015
+Results reported on Tue Jun 30 04:11:30 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/ZNF263.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/K562/Cuellar5/DNase_priorH3K4me1_priorH3K4me3_priorH3K9ac_prior_ZNF263.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Cuellar_DU/ZNF263_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   106.35 sec.
+    Max Memory :                                 2119 MB
+    Average Memory :                             682.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               9881.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CUE_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711919: <EIMS_CUE> in cluster <rcc> Done
+
+Job <EIMS_CUE> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 04:10:37 2015
+Results reported on Tue Jun 30 04:11:31 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/PU1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/K562/Cuellar5/DNase_priorH3K4me1_priorH3K4me3_priorH3K9ac_prior_PU1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Cuellar_DU/PU1_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   45.86 sec.
+    Max Memory :                                 725 MB
+    Average Memory :                             158.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11275.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CUE_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711920: <EIMS_CUE> in cluster <rcc> Done
+
+Job <EIMS_CUE> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 04:10:37 2015
+Results reported on Tue Jun 30 04:11:52 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/IRF1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/K562/Cuellar5/DNase_priorH3K4me1_priorH3K4me3_priorH3K9ac_prior_IRF1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Cuellar_DU/IRF1_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   61.34 sec.
+    Max Memory :                                 995 MB
+    Average Memory :                             148.50 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11005.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CUE_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711931: <EIMS_CUE> in cluster <rcc> Done
+
+Job <EIMS_CUE> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 04:11:54 2015
+Results reported on Tue Jun 30 04:12:05 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/ELK1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/K562/Cuellar5/DNase_priorH3K4me1_priorH3K4me3_priorH3K9ac_prior_ELK1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Cuellar_DU/ELK1_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   5.39 sec.
+    Max Memory :                                 62 MB
+    Average Memory :                             12.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11938.00 MB
+    Max Processes :                              1
+    Max Threads :                                1
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CUE_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711929: <EIMS_CUE> in cluster <rcc> Done
+
+Job <EIMS_CUE> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 04:11:52 2015
+Results reported on Tue Jun 30 04:12:06 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/NRF1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/K562/Cuellar5/DNase_priorH3K4me1_priorH3K4me3_priorH3K9ac_prior_NRF1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Cuellar_DU/NRF1_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   5.60 sec.
+    Max Memory :                                 169 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11831.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CUE_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711930: <EIMS_CUE> in cluster <rcc> Done
+
+Job <EIMS_CUE> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 04:11:54 2015
+Results reported on Tue Jun 30 04:13:08 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/STAT5A.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/K562/Cuellar5/DNase_priorH3K4me1_priorH3K4me3_priorH3K9ac_prior_STAT5A.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Cuellar_DU/STAT5A_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   28.81 sec.
+    Max Memory :                                 475 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11525.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CUE_err.txt> for stderr output of this job.
+

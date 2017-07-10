@@ -1,0 +1,37 @@
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 24091621: <CIH_UWHS_Monocd14> in cluster <rcc> Done
+
+Job <CIH_UWHS_Monocd14> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/StatisticalTests/KmerBiasFull> was used as the working directory.
+Started at Sat Sep 26 02:37:18 2015
+Results reported on Sat Sep 26 03:31:07 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./createKmerDict_pipeline.zsh 6 N /hpcwork/izkf/projects/TfbsPrediction/Data/DNase/UWHS/Monocd14.bam /hpcwork/izkf/projects/TfbsPrediction/Data/DNase/UWHS/Monocd14.bed /hpcwork/izkf/projects/TfbsPrediction/Data/HG19/hg19.fa /hpcwork/izkf/projects/TfbsPrediction/Data/HG19/hg19.chrom.sizes.filtered /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/StatisticalTests/KmerBiasFull/bias/dict/hs_UWHS_Monocd14_6
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   4392.43 sec.
+    Max Memory :                                 1576 MB
+    Average Memory :                             784.96 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               10424.00 MB
+    Max Processes :                              5
+    Max Threads :                                6
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <CIH_UWHS_Monocd14_err.txt> for stderr output of this job.
+

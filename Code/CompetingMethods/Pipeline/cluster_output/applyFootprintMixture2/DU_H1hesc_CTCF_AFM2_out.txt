@@ -1,0 +1,38 @@
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22670351: <DU_H1hesc_CTCF_AFM2> in cluster <rcc> Exited
+
+Job <DU_H1hesc_CTCF_AFM2> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Sat Jun 27 03:07:50 2015
+Results reported on Fri Jul  3 18:36:30 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyFootprintMixture2_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/H1hesc_Evidence/fdr_4/CTCF.bed /hpcwork/izkf/projects/TfbsPrediction/Data/DNase/H1hesc/DNasePeaks.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/DU_H1hesc/FootprintMixture/CTCF_CUT.txt /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/DU_H1hesc/FootprintMixture/CTCF_SEQ.fa /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/FootprintMixture2_DU/CTCF.bed
+------------------------------------------------------------
+
+TERM_OWNER: job killed by owner.
+Exited with exit code 130.
+
+Resource usage summary:
+
+    CPU time :                                   564493.12 sec.
+    Max Memory :                                 176 MB
+    Average Memory :                             113.93 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11824.00 MB
+    Max Processes :                              10
+    Max Threads :                                11
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <DU_H1hesc_CTCF_AFM2_err.txt> for stderr output of this job.
+

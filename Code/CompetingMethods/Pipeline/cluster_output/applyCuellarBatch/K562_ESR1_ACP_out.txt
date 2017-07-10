@@ -1,0 +1,37 @@
+Sender: LSF System <lsfadmin@linuxbmc0066>
+Subject: Job 24611735: <K562_ESR1_ACP> in cluster <rcc> Done
+
+Job <K562_ESR1_ACP> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0066>, in queue <low>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Wed Oct 28 20:49:32 2015
+Results reported on Thu Oct 29 01:12:53 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyCuellar_pipeline.zsh ESR1 0.00001 /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/ExpressionValidation/MPBS/MEME/ESR1.meme /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/DU_K562/Cuellar/DNase_prior.bw /hpcwork/izkf/projects/TfbsPrediction/Data/HG19/ /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/K562/Cuellar_batch/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   16094.47 sec.
+    Max Memory :                                 3904 MB
+    Average Memory :                             1952.41 MB
+    Total Requested Memory :                     8192.00 MB
+    Delta Memory :                               4288.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <K562_ESR1_ACP_err.txt> for stderr output of this job.
+

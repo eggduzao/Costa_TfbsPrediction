@@ -1,0 +1,538 @@
+Sender: LSF System <lsfadmin@linuxbmc0061>
+Subject: Job 24442728: <H1hesc_FOXO1_APQ> in cluster <rcc> Done
+
+Job <H1hesc_FOXO1_APQ> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0061>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Tue Oct 20 18:55:42 2015
+Results reported on Tue Oct 20 19:11:19 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyPIQ_pipeline.zsh 42 FOXO1 /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/PIQ_batch/ /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/DU_H1hesc/PIQ/DNase.RData /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/PIQ_batch/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   947.32 sec.
+    Max Memory :                                 3052 MB
+    Average Memory :                             2132.45 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               8948.00 MB
+    Max Processes :                              15
+    Max Threads :                                16
+
+The output (if any) follows:
+
+> args <- commandArgs(trailingOnly = TRUE)
+> print(args)
+[1] "common.r"                                                                                         
+[2] "/hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/PIQ_batch/"                                 
+[3] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/PIQ_batch/temp_FOXO1/"
+[4] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/PIQ_batch/res_FOXO1/" 
+[5] "/hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/DU_H1hesc/PIQ/DNase.RData"           
+[6] "42"                                                                                               
+> 
+> #location of common.r containing runtime parameters
+> commonfile = args[1]
+> 
+> #directory where pwm matches are stored
+> pwmdir = args[2]
+> 
+> #directory to use as fast temporary storage
+> tmpdir = args[3]
+> 
+> #location of output calls
+> outdir = args[4]
+> 
+> #location of the bam RData file made by bam2rdata.r
+> bamfile = args[5]
+> 
+> #which pwm file to use in pwmdir
+> pwmid = args[6]
+> 
+> ###
+> # do FW
+> 
+> match.rc = F
+> dump.chropen = F
+> 
+> two.pass = F
+> suppressWarnings(source(commonfile))
+> if(overwrite==F & file.exists( file.path(outdir,paste0(pwmid,'-diag.pdf')))){
++   stop(paste0('found previous run for ',pwmid,' avoiding overwrite'))
++ }
+> 
+> debugstring = c('loading pwm','loadbam','clustering','binding outputs')
+> 
+> dump.bed = T
+> 
+> tryCatch({
++ phase=0
++ load(paste0(pwmdir,pwmid,'.pwmout.RData'))
++ if(sum(clengths[1])>0){
++ phase=1
++ at<-Sys.time()
++ source('loadbam.r')
++ print(Sys.time()-at);at<-Sys.time()
++ phase=2
++ source('cluster.r')
++ print(Sys.time()-at);at<-Sys.time()
++ phase=3
++ source('bindcall.r')
++ print(Sys.time()-at);at<-Sys.time()
++ }
++ },error = function(e){
++    e$message=paste0('error during ',debugstring[phase+1],'\n','Error msg: ',e$message,'\n Args:',paste0(commandArgs(trailingOnly = TRUE),collapse=':'))
++    stop(e)
++ })
+[1] "chr1"
+[1] "chr2"
+[1] "chr3"
+[1] "chr4"
+[1] "chr5"
+[1] "chr6"
+[1] "chr7"
+[1] "chr8"
+[1] "chr9"
+[1] "chr10"
+[1] "chr11"
+[1] "chr12"
+[1] "chr13"
+[1] "chr14"
+[1] "chr15"
+[1] "chr16"
+[1] "chr17"
+[1] "chr18"
+[1] "chr19"
+[1] "chr20"
+[1] "chr21"
+[1] "chr22"
+[1] "chrX"
+[1] "chrY"
+[1] "chrM"
+[1] "chr1"
+[1] "chr2"
+[1] "chr3"
+[1] "chr4"
+[1] "chr5"
+[1] "chr6"
+[1] "chr7"
+[1] "chr8"
+[1] "chr9"
+[1] "chr10"
+[1] "chr11"
+[1] "chr12"
+[1] "chr13"
+[1] "chr14"
+[1] "chr15"
+[1] "chr16"
+[1] "chr17"
+[1] "chr18"
+[1] "chr19"
+[1] "chr20"
+[1] "chr21"
+[1] "chr22"
+[1] "chrX"
+[1] "chrY"
+[1] "chrM"
+Time difference of 1.483737 mins
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/PIQ_batch/temp_FOXO1//42//positive.tf42-chr1.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/PIQ_batch/temp_FOXO1//42//positive.tf42-chr10.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/PIQ_batch/temp_FOXO1//42//positive.tf42-chr11.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/PIQ_batch/temp_FOXO1//42//positive.tf42-chr12.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/PIQ_batch/temp_FOXO1//42//positive.tf42-chr13.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/PIQ_batch/temp_FOXO1//42//positive.tf42-chr14.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/PIQ_batch/temp_FOXO1//42//positive.tf42-chr15.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/PIQ_batch/temp_FOXO1//42//positive.tf42-chr16.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/PIQ_batch/temp_FOXO1//42//positive.tf42-chr17.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/PIQ_batch/temp_FOXO1//42//positive.tf42-chr18.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/PIQ_batch/temp_FOXO1//42//positive.tf42-chr19.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/PIQ_batch/temp_FOXO1//42//positive.tf42-chr2.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/PIQ_batch/temp_FOXO1//42//positive.tf42-chr20.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/PIQ_batch/temp_FOXO1//42//positive.tf42-chr21.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/PIQ_batch/temp_FOXO1//42//positive.tf42-chr22.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/PIQ_batch/temp_FOXO1//42//positive.tf42-chr3.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/PIQ_batch/temp_FOXO1//42//positive.tf42-chr4.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/PIQ_batch/temp_FOXO1//42//positive.tf42-chr5.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/PIQ_batch/temp_FOXO1//42//positive.tf42-chr6.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/PIQ_batch/temp_FOXO1//42//positive.tf42-chr7.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/PIQ_batch/temp_FOXO1//42//positive.tf42-chr8.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/PIQ_batch/temp_FOXO1//42//positive.tf42-chr9.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/PIQ_batch/temp_FOXO1//42//positive.tf42-chrM.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/PIQ_batch/temp_FOXO1//42//positive.tf42-chrX.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/PIQ_batch/temp_FOXO1//42//positive.tf42-chrY.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/PIQ_batch/temp_FOXO1//42//background.tf42-chr1.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/PIQ_batch/temp_FOXO1//42//background.tf42-chr10.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/PIQ_batch/temp_FOXO1//42//background.tf42-chr11.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/PIQ_batch/temp_FOXO1//42//background.tf42-chr12.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/PIQ_batch/temp_FOXO1//42//background.tf42-chr13.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/PIQ_batch/temp_FOXO1//42//background.tf42-chr14.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/PIQ_batch/temp_FOXO1//42//background.tf42-chr15.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/PIQ_batch/temp_FOXO1//42//background.tf42-chr16.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/PIQ_batch/temp_FOXO1//42//background.tf42-chr17.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/PIQ_batch/temp_FOXO1//42//background.tf42-chr18.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/PIQ_batch/temp_FOXO1//42//background.tf42-chr19.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/PIQ_batch/temp_FOXO1//42//background.tf42-chr2.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/PIQ_batch/temp_FOXO1//42//background.tf42-chr20.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/PIQ_batch/temp_FOXO1//42//background.tf42-chr21.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/PIQ_batch/temp_FOXO1//42//background.tf42-chr22.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/PIQ_batch/temp_FOXO1//42//background.tf42-chr3.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/PIQ_batch/temp_FOXO1//42//background.tf42-chr4.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/PIQ_batch/temp_FOXO1//42//background.tf42-chr5.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/PIQ_batch/temp_FOXO1//42//background.tf42-chr6.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/PIQ_batch/temp_FOXO1//42//background.tf42-chr7.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/PIQ_batch/temp_FOXO1//42//background.tf42-chr8.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/PIQ_batch/temp_FOXO1//42//background.tf42-chr9.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/PIQ_batch/temp_FOXO1//42//background.tf42-chrM.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/PIQ_batch/temp_FOXO1//42//background.tf42-chrX.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/PIQ_batch/temp_FOXO1//42//background.tf42-chrY.RData"
+Time difference of 1.352566 mins
+[1] "background.tf42-chr1.RData"
+[1] "background.tf42-chr10.RData"
+[1] "background.tf42-chr11.RData"
+[1] "background.tf42-chr12.RData"
+[1] "background.tf42-chr13.RData"
+[1] "background.tf42-chr14.RData"
+[1] "background.tf42-chr15.RData"
+[1] "background.tf42-chr16.RData"
+[1] "background.tf42-chr17.RData"
+[1] "background.tf42-chr18.RData"
+[1] "background.tf42-chr19.RData"
+[1] "background.tf42-chr2.RData"
+[1] "background.tf42-chr20.RData"
+[1] "background.tf42-chr21.RData"
+[1] "background.tf42-chr22.RData"
+[1] "background.tf42-chr3.RData"
+[1] "background.tf42-chr4.RData"
+[1] "background.tf42-chr5.RData"
+[1] "background.tf42-chr6.RData"
+[1] "background.tf42-chr7.RData"
+[1] "background.tf42-chr8.RData"
+[1] "background.tf42-chr9.RData"
+[1] "background.tf42-chrM.RData"
+[1] "background.tf42-chrX.RData"
+[1] "background.tf42-chrY.RData"
+[1] "background.tf42-chr1.RData"
+[1] 1258.927
+[1] "background.tf42-chr10.RData"
+[1] 1146.357
+[1] "background.tf42-chr11.RData"
+[1] 877.9812
+[1] "background.tf42-chr12.RData"
+[1] 1060.507
+[1] "background.tf42-chr13.RData"
+[1] 1107.467
+[1] "background.tf42-chr14.RData"
+[1] 1463.171
+[1] "background.tf42-chr15.RData"
+[1] 845.2045
+[1] "background.tf42-chr16.RData"
+[1] 979.2192
+[1] "background.tf42-chr17.RData"
+[1] 881.0309
+[1] "background.tf42-chr18.RData"
+[1] 1120.95
+[1] "background.tf42-chr19.RData"
+[1] 1045.538
+[1] "background.tf42-chr2.RData"
+[1] 1015.805
+[1] "background.tf42-chr20.RData"
+[1] 1417.493
+[1] "background.tf42-chr21.RData"
+[1] 1157.033
+[1] "background.tf42-chr22.RData"
+[1] 824.0434
+[1] "background.tf42-chr3.RData"
+[1] 1230.835
+[1] "background.tf42-chr4.RData"
+[1] 1370.091
+[1] "background.tf42-chr5.RData"
+[1] 1178.013
+[1] "background.tf42-chr6.RData"
+[1] 1064.253
+[1] "background.tf42-chr7.RData"
+[1] 1073.193
+[1] "background.tf42-chr8.RData"
+[1] 1035.554
+[1] "background.tf42-chr9.RData"
+[1] 906.083
+[1] "background.tf42-chrM.RData"
+[1] 70.74984
+[1] "background.tf42-chrX.RData"
+[1] 912.1776
+[1] "background.tf42-chrY.RData"
+[1] 612.4221
+[1] 1
+[1] 2
+[1] 3
+[1] 4
+[1] 5
+[1] 6
+[1] 7
+[1] 8
+[1] 9
+[1] 10
+[1] 11
+[1] 12
+[1] 13
+[1] 14
+[1] 15
+[1] 16
+[1] 17
+[1] 18
+[1] 19
+[1] 20
+[1] 21
+[1] 22
+[1] 23
+[1] 24
+[1] 25
+Time difference of 4.348117 mins
+> 
+> ###
+> # do RC
+> 
+> match.rc = T
+> 
+> suppressWarnings(source(commonfile))
+> if(overwrite==F & file.exists( file.path(outdir,paste0(pwmid,'-diag.rc.pdf')))){
++   stop(paste0('found previous run for ',pwmid,' avoiding overwrite'))
++ }
+> 
+> debugstring = c('loading pwm.rc','loadbam.rc','clustering.rc','binding outputs.rc')
+> 
+> tryCatch({
++ phase=0
++ load(paste0(pwmdir,pwmid,'.pwmout.rc.RData'))
++ if(sum(clengths[1])>0){
++ phase=1
++ at<-Sys.time()
++ source('loadbam.r')
++ print(Sys.time()-at);at<-Sys.time()
++ phase=2
++ source('cluster.r')
++ print(Sys.time()-at);at<-Sys.time()
++ phase=3
++ source('bindcall.r')
++ print(Sys.time()-at);at<-Sys.time()
++ }
++ },error = function(e){
++    e$message=paste0('error during ',debugstring[phase+1],'\n','Error msg: ',e$message,'\n Args:',paste0(commandArgs(trailingOnly = TRUE),collapse=':'))
++    stop(e)
++ })
+[1] "chr1"
+[1] "chr2"
+[1] "chr3"
+[1] "chr4"
+[1] "chr5"
+[1] "chr6"
+[1] "chr7"
+[1] "chr8"
+[1] "chr9"
+[1] "chr10"
+[1] "chr11"
+[1] "chr12"
+[1] "chr13"
+[1] "chr14"
+[1] "chr15"
+[1] "chr16"
+[1] "chr17"
+[1] "chr18"
+[1] "chr19"
+[1] "chr20"
+[1] "chr21"
+[1] "chr22"
+[1] "chrX"
+[1] "chrY"
+[1] "chrM"
+[1] "chr1"
+[1] "chr2"
+[1] "chr3"
+[1] "chr4"
+[1] "chr5"
+[1] "chr6"
+[1] "chr7"
+[1] "chr8"
+[1] "chr9"
+[1] "chr10"
+[1] "chr11"
+[1] "chr12"
+[1] "chr13"
+[1] "chr14"
+[1] "chr15"
+[1] "chr16"
+[1] "chr17"
+[1] "chr18"
+[1] "chr19"
+[1] "chr20"
+[1] "chr21"
+[1] "chr22"
+[1] "chrX"
+[1] "chrY"
+[1] "chrM"
+Time difference of 2.158575 mins
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/PIQ_batch/temp_FOXO1//42//positive.tf42-chr1.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/PIQ_batch/temp_FOXO1//42//positive.tf42-chr10.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/PIQ_batch/temp_FOXO1//42//positive.tf42-chr11.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/PIQ_batch/temp_FOXO1//42//positive.tf42-chr12.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/PIQ_batch/temp_FOXO1//42//positive.tf42-chr13.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/PIQ_batch/temp_FOXO1//42//positive.tf42-chr14.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/PIQ_batch/temp_FOXO1//42//positive.tf42-chr15.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/PIQ_batch/temp_FOXO1//42//positive.tf42-chr16.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/PIQ_batch/temp_FOXO1//42//positive.tf42-chr17.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/PIQ_batch/temp_FOXO1//42//positive.tf42-chr18.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/PIQ_batch/temp_FOXO1//42//positive.tf42-chr19.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/PIQ_batch/temp_FOXO1//42//positive.tf42-chr2.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/PIQ_batch/temp_FOXO1//42//positive.tf42-chr20.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/PIQ_batch/temp_FOXO1//42//positive.tf42-chr21.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/PIQ_batch/temp_FOXO1//42//positive.tf42-chr22.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/PIQ_batch/temp_FOXO1//42//positive.tf42-chr3.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/PIQ_batch/temp_FOXO1//42//positive.tf42-chr4.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/PIQ_batch/temp_FOXO1//42//positive.tf42-chr5.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/PIQ_batch/temp_FOXO1//42//positive.tf42-chr6.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/PIQ_batch/temp_FOXO1//42//positive.tf42-chr7.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/PIQ_batch/temp_FOXO1//42//positive.tf42-chr8.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/PIQ_batch/temp_FOXO1//42//positive.tf42-chr9.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/PIQ_batch/temp_FOXO1//42//positive.tf42-chrM.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/PIQ_batch/temp_FOXO1//42//positive.tf42-chrX.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/PIQ_batch/temp_FOXO1//42//positive.tf42-chrY.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/PIQ_batch/temp_FOXO1//42//background.tf42-chr1.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/PIQ_batch/temp_FOXO1//42//background.tf42-chr10.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/PIQ_batch/temp_FOXO1//42//background.tf42-chr11.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/PIQ_batch/temp_FOXO1//42//background.tf42-chr12.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/PIQ_batch/temp_FOXO1//42//background.tf42-chr13.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/PIQ_batch/temp_FOXO1//42//background.tf42-chr14.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/PIQ_batch/temp_FOXO1//42//background.tf42-chr15.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/PIQ_batch/temp_FOXO1//42//background.tf42-chr16.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/PIQ_batch/temp_FOXO1//42//background.tf42-chr17.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/PIQ_batch/temp_FOXO1//42//background.tf42-chr18.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/PIQ_batch/temp_FOXO1//42//background.tf42-chr19.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/PIQ_batch/temp_FOXO1//42//background.tf42-chr2.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/PIQ_batch/temp_FOXO1//42//background.tf42-chr20.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/PIQ_batch/temp_FOXO1//42//background.tf42-chr21.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/PIQ_batch/temp_FOXO1//42//background.tf42-chr22.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/PIQ_batch/temp_FOXO1//42//background.tf42-chr3.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/PIQ_batch/temp_FOXO1//42//background.tf42-chr4.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/PIQ_batch/temp_FOXO1//42//background.tf42-chr5.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/PIQ_batch/temp_FOXO1//42//background.tf42-chr6.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/PIQ_batch/temp_FOXO1//42//background.tf42-chr7.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/PIQ_batch/temp_FOXO1//42//background.tf42-chr8.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/PIQ_batch/temp_FOXO1//42//background.tf42-chr9.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/PIQ_batch/temp_FOXO1//42//background.tf42-chrM.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/PIQ_batch/temp_FOXO1//42//background.tf42-chrX.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/PIQ_batch/temp_FOXO1//42//background.tf42-chrY.RData"
+Time difference of 1.169397 mins
+[1] "background.tf42-chr1.RData"
+[1] "background.tf42-chr10.RData"
+[1] "background.tf42-chr11.RData"
+[1] "background.tf42-chr12.RData"
+[1] "background.tf42-chr13.RData"
+[1] "background.tf42-chr14.RData"
+[1] "background.tf42-chr15.RData"
+[1] "background.tf42-chr16.RData"
+[1] "background.tf42-chr17.RData"
+[1] "background.tf42-chr18.RData"
+[1] "background.tf42-chr19.RData"
+[1] "background.tf42-chr2.RData"
+[1] "background.tf42-chr20.RData"
+[1] "background.tf42-chr21.RData"
+[1] "background.tf42-chr22.RData"
+[1] "background.tf42-chr3.RData"
+[1] "background.tf42-chr4.RData"
+[1] "background.tf42-chr5.RData"
+[1] "background.tf42-chr6.RData"
+[1] "background.tf42-chr7.RData"
+[1] "background.tf42-chr8.RData"
+[1] "background.tf42-chr9.RData"
+[1] "background.tf42-chrM.RData"
+[1] "background.tf42-chrX.RData"
+[1] "background.tf42-chrY.RData"
+[1] "background.tf42-chr1.RData"
+[1] 1005.023
+[1] "background.tf42-chr10.RData"
+[1] 804.618
+[1] "background.tf42-chr11.RData"
+[1] 950.4267
+[1] "background.tf42-chr12.RData"
+[1] 983.4491
+[1] "background.tf42-chr13.RData"
+[1] 1208.873
+[1] "background.tf42-chr14.RData"
+[1] 894.718
+[1] "background.tf42-chr15.RData"
+[1] 1094.627
+[1] "background.tf42-chr16.RData"
+[1] 874.6605
+[1] "background.tf42-chr17.RData"
+[1] 750.3779
+[1] "background.tf42-chr18.RData"
+[1] 1092.452
+[1] "background.tf42-chr19.RData"
+[1] 708.4332
+[1] "background.tf42-chr2.RData"
+[1] 1094.741
+[1] "background.tf42-chr20.RData"
+[1] 857.8568
+[1] "background.tf42-chr21.RData"
+[1] 1152.205
+[1] "background.tf42-chr22.RData"
+[1] 942.9265
+[1] "background.tf42-chr3.RData"
+[1] 1340.296
+[1] "background.tf42-chr4.RData"
+[1] 1357.914
+[1] "background.tf42-chr5.RData"
+[1] 1148.992
+[1] "background.tf42-chr6.RData"
+[1] 1094.15
+[1] "background.tf42-chr7.RData"
+[1] 1141.968
+[1] "background.tf42-chr8.RData"
+[1] 1181.827
+[1] "background.tf42-chr9.RData"
+[1] 1705.469
+[1] "background.tf42-chrM.RData"
+[1] 72.12084
+[1] "background.tf42-chrX.RData"
+[1] 944.1937
+[1] "background.tf42-chrY.RData"
+[1] 653.2378
+[1] 1
+[1] 2
+[1] 3
+[1] 4
+[1] 5
+[1] 6
+[1] 7
+[1] 8
+[1] 9
+[1] 10
+[1] 11
+[1] 12
+[1] 13
+[1] 14
+[1] 15
+[1] 16
+[1] 17
+[1] 18
+[1] 19
+[1] 20
+[1] 21
+[1] 22
+[1] 23
+[1] 24
+[1] 25
+Time difference of 4.450685 mins
+> 
+
+
+PS:
+
+Read file <H1hesc_FOXO1_APQ_err.txt> for stderr output of this job.
+

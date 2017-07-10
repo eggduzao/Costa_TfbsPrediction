@@ -1,0 +1,37 @@
+Sender: LSF System <lsfadmin@linuxbcsc67>
+Subject: Job 22416079: <DU_H1hesc_EGR1_AFM> in cluster <rcc> Done
+
+Job <DU_H1hesc_EGR1_AFM> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbcsc67>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Jun 15 23:56:08 2015
+Results reported on Tue Jun 16 00:34:16 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyFootprintMixture_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/H1hesc_Evidence/fdr_4/EGR1.bed /hpcwork/izkf/projects/TfbsPrediction/Data/DNase/H1hesc/DNasePeaks.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/DU_H1hesc/FootprintMixture/EGR1_CUT.txt /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/DU_H1hesc/FootprintMixture/EGR1_SEQ.fa /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/FootprintMixture_DU/EGR1.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   2317.47 sec.
+    Max Memory :                                 5103 MB
+    Average Memory :                             3503.65 MB
+    Total Requested Memory :                     24000.00 MB
+    Delta Memory :                               18897.00 MB
+    Max Processes :                              11
+    Max Threads :                                12
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <DU_H1hesc_EGR1_AFM_err.txt> for stderr output of this job.
+

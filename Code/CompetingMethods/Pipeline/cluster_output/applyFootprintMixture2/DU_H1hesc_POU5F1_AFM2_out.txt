@@ -1,0 +1,39 @@
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22758886: <DU_H1hesc_POU5F1_AFM2> in cluster <rcc> Exited
+
+Job <DU_H1hesc_POU5F1_AFM2> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Sat Jul  4 01:12:07 2015
+Results reported on Wed Jul 22 20:17:09 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyFootprintMixture2_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/H1hesc_Evidence/fdr_4/POU5F1.bed /hpcwork/izkf/projects/TfbsPrediction/Data/DNase/H1hesc/DNasePeaks.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/DU_H1hesc/FootprintMixture/POU5F1_CUT.txt /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/DU_H1hesc/FootprintMixture/POU5F1_SEQ.fa /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/FootprintMixture_DU/POU5F1.bed
+------------------------------------------------------------
+
+TERM_OWNER: job killed by owner.
+Exited with exit code 130.
+
+Resource usage summary:
+
+    CPU time :                                   1632257.25 sec.
+    Max Memory :                                 6156 MB
+    Average Memory :                             3405.62 MB
+    Total Requested Memory :                     48000.00 MB
+    Delta Memory :                               41844.00 MB
+    Max Swap :                                   2 MB
+    Max Processes :                              11
+    Max Threads :                                12
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <DU_H1hesc_POU5F1_AFM2_err.txt> for stderr output of this job.
+

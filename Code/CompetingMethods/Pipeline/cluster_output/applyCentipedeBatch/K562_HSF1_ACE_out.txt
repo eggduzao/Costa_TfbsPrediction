@@ -1,0 +1,37 @@
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 24454667: <K562_HSF1_ACE> in cluster <rcc> Done
+
+Job <K562_HSF1_ACE> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Wed Oct 21 20:40:54 2015
+Results reported on Wed Oct 21 20:41:39 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyCentipede_pipeline.zsh HSF1 /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/All/fdr_4_inside_HS/HSF1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/DU_K562/Centipede_batch/HSF1_PRIOR.txt /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/DU_K562/Centipede_batch/HSF1_DNASE.txt /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/K562/Centipede_batch/HSF1.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   37.63 sec.
+    Max Memory :                                 454 MB
+    Average Memory :                             210.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11546.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <K562_HSF1_ACE_err.txt> for stderr output of this job.
+

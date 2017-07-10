@@ -1,0 +1,37 @@
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 24454633: <K562_ZFX_ACE> in cluster <rcc> Done
+
+Job <K562_ZFX_ACE> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Wed Oct 21 20:39:16 2015
+Results reported on Wed Oct 21 20:42:15 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyCentipede_pipeline.zsh ZFX /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/All/fdr_4_inside_HS/ZFX.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/DU_K562/Centipede_batch/ZFX_PRIOR.txt /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/DU_K562/Centipede_batch/ZFX_DNASE.txt /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/K562/Centipede_batch/ZFX.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   169.65 sec.
+    Max Memory :                                 1451 MB
+    Average Memory :                             804.17 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               10549.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <K562_ZFX_ACE_err.txt> for stderr output of this job.
+

@@ -1,0 +1,37 @@
+Sender: LSF System <lsfadmin@linuxbsc003>
+Subject: Job 25008877: <FLM_TCF12> in cluster <rcc> Done
+
+Job <FLM_TCF12> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbsc003>, in queue <low>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/ExpressionValidation/Results/H1hesc_GM12878> was used as the working directory.
+Started at Fri Nov 20 04:04:29 2015
+Results reported on Fri Nov 20 04:06:18 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./filterMetrics_pipeline.zsh /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/ExpressionValidation/Validation/distribution/TCF12.txt
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   90.08 sec.
+    Max Memory :                                 2642 MB
+    Average Memory :                             1622.33 MB
+    Total Requested Memory :                     24000.00 MB
+    Delta Memory :                               21358.00 MB
+    Max Processes :                              5
+    Max Threads :                                6
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <FLM_TCF12_err.txt> for stderr output of this job.
+

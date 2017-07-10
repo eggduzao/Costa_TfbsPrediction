@@ -1,0 +1,522 @@
+Sender: LSF System <lsfadmin@linuxbcsc67>
+Subject: Job 22415757: <DU_K562_TBP_APQ> in cluster <rcc> Done
+
+Job <DU_K562_TBP_APQ> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbcsc67>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Jun 15 20:53:58 2015
+Results reported on Tue Jun 16 01:10:33 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyPIQ_pipeline.zsh 48 TBP /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/PIQ/ /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/DU_K562/PIQ/DNase.RData /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   13874.59 sec.
+    Max Memory :                                 24000 MB
+    Average Memory :                             15782.10 MB
+    Total Requested Memory :                     24000.00 MB
+    Delta Memory :                               0.00 MB
+    Max Processes :                              15
+    Max Threads :                                16
+
+The output (if any) follows:
+
+> args <- commandArgs(trailingOnly = TRUE)
+> print(args)
+[1] "common.r"                                                                                     
+[2] "/hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/PIQ/"                                   
+[3] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/temp_TBP/"
+[4] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/res_TBP/" 
+[5] "/hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/DU_K562/PIQ/DNase.RData"         
+[6] "48"                                                                                           
+> 
+> #location of common.r containing runtime parameters
+> commonfile = args[1]
+> 
+> #directory where pwm matches are stored
+> pwmdir = args[2]
+> 
+> #directory to use as fast temporary storage
+> tmpdir = args[3]
+> 
+> #location of output calls
+> outdir = args[4]
+> 
+> #location of the bam RData file made by bam2rdata.r
+> bamfile = args[5]
+> 
+> #which pwm file to use in pwmdir
+> pwmid = args[6]
+> 
+> ###
+> # do FW
+> 
+> match.rc = F
+> dump.chropen = F
+> 
+> two.pass = F
+> suppressWarnings(source(commonfile))
+> if(overwrite==F & file.exists( file.path(outdir,paste0(pwmid,'-diag.pdf')))){
++   stop(paste0('found previous run for ',pwmid,' avoiding overwrite'))
++ }
+> 
+> debugstring = c('loading pwm','loadbam','clustering','binding outputs')
+> 
+> dump.bed = T
+> 
+> tryCatch({
++ phase=0
++ load(paste0(pwmdir,pwmid,'.pwmout.RData'))
++ if(sum(clengths[1])>0){
++ phase=1
++ at<-Sys.time()
++ source('loadbam.r')
++ print(Sys.time()-at);at<-Sys.time()
++ phase=2
++ source('cluster.r')
++ print(Sys.time()-at);at<-Sys.time()
++ phase=3
++ source('bindcall.r')
++ print(Sys.time()-at);at<-Sys.time()
++ }
++ },error = function(e){
++    e$message=paste0('error during ',debugstring[phase+1],'\n','Error msg: ',e$message,'\n Args:',paste0(commandArgs(trailingOnly = TRUE),collapse=':'))
++    stop(e)
++ })
+[1] "chr1"
+[1] "chr2"
+[1] "chr3"
+[1] "chr4"
+[1] "chr5"
+[1] "chr6"
+[1] "chr7"
+[1] "chr8"
+[1] "chr9"
+[1] "chr10"
+[1] "chr11"
+[1] "chr12"
+[1] "chr13"
+[1] "chr14"
+[1] "chr15"
+[1] "chr16"
+[1] "chr17"
+[1] "chr18"
+[1] "chr19"
+[1] "chr20"
+[1] "chr21"
+[1] "chr22"
+[1] "chrX"
+[1] "chrM"
+[1] "chr1"
+[1] "chr2"
+[1] "chr3"
+[1] "chr4"
+[1] "chr5"
+[1] "chr6"
+[1] "chr7"
+[1] "chr8"
+[1] "chr9"
+[1] "chr10"
+[1] "chr11"
+[1] "chr12"
+[1] "chr13"
+[1] "chr14"
+[1] "chr15"
+[1] "chr16"
+[1] "chr17"
+[1] "chr18"
+[1] "chr19"
+[1] "chr20"
+[1] "chr21"
+[1] "chr22"
+[1] "chrX"
+[1] "chrM"
+Time difference of 22.51719 mins
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/temp_TBP//48//positive.tf48-chr1.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/temp_TBP//48//positive.tf48-chr10.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/temp_TBP//48//positive.tf48-chr11.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/temp_TBP//48//positive.tf48-chr12.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/temp_TBP//48//positive.tf48-chr13.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/temp_TBP//48//positive.tf48-chr14.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/temp_TBP//48//positive.tf48-chr15.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/temp_TBP//48//positive.tf48-chr16.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/temp_TBP//48//positive.tf48-chr17.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/temp_TBP//48//positive.tf48-chr18.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/temp_TBP//48//positive.tf48-chr19.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/temp_TBP//48//positive.tf48-chr2.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/temp_TBP//48//positive.tf48-chr20.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/temp_TBP//48//positive.tf48-chr21.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/temp_TBP//48//positive.tf48-chr22.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/temp_TBP//48//positive.tf48-chr3.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/temp_TBP//48//positive.tf48-chr4.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/temp_TBP//48//positive.tf48-chr5.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/temp_TBP//48//positive.tf48-chr6.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/temp_TBP//48//positive.tf48-chr7.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/temp_TBP//48//positive.tf48-chr8.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/temp_TBP//48//positive.tf48-chr9.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/temp_TBP//48//positive.tf48-chrM.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/temp_TBP//48//positive.tf48-chrX.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/temp_TBP//48//background.tf48-chr1.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/temp_TBP//48//background.tf48-chr10.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/temp_TBP//48//background.tf48-chr11.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/temp_TBP//48//background.tf48-chr12.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/temp_TBP//48//background.tf48-chr13.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/temp_TBP//48//background.tf48-chr14.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/temp_TBP//48//background.tf48-chr15.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/temp_TBP//48//background.tf48-chr16.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/temp_TBP//48//background.tf48-chr17.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/temp_TBP//48//background.tf48-chr18.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/temp_TBP//48//background.tf48-chr19.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/temp_TBP//48//background.tf48-chr2.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/temp_TBP//48//background.tf48-chr20.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/temp_TBP//48//background.tf48-chr21.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/temp_TBP//48//background.tf48-chr22.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/temp_TBP//48//background.tf48-chr3.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/temp_TBP//48//background.tf48-chr4.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/temp_TBP//48//background.tf48-chr5.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/temp_TBP//48//background.tf48-chr6.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/temp_TBP//48//background.tf48-chr7.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/temp_TBP//48//background.tf48-chr8.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/temp_TBP//48//background.tf48-chr9.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/temp_TBP//48//background.tf48-chrM.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/temp_TBP//48//background.tf48-chrX.RData"
+Time difference of 19.11639 mins
+[1] "background.tf48-chr1.RData"
+[1] "background.tf48-chr10.RData"
+[1] "background.tf48-chr11.RData"
+[1] "background.tf48-chr12.RData"
+[1] "background.tf48-chr13.RData"
+[1] "background.tf48-chr14.RData"
+[1] "background.tf48-chr15.RData"
+[1] "background.tf48-chr16.RData"
+[1] "background.tf48-chr17.RData"
+[1] "background.tf48-chr18.RData"
+[1] "background.tf48-chr19.RData"
+[1] "background.tf48-chr2.RData"
+[1] "background.tf48-chr20.RData"
+[1] "background.tf48-chr21.RData"
+[1] "background.tf48-chr22.RData"
+[1] "background.tf48-chr3.RData"
+[1] "background.tf48-chr4.RData"
+[1] "background.tf48-chr5.RData"
+[1] "background.tf48-chr6.RData"
+[1] "background.tf48-chr7.RData"
+[1] "background.tf48-chr8.RData"
+[1] "background.tf48-chr9.RData"
+[1] "background.tf48-chrM.RData"
+[1] "background.tf48-chrX.RData"
+[1] "background.tf48-chr1.RData"
+[1] 2137.746
+[1] "background.tf48-chr10.RData"
+[1] 2294.967
+[1] "background.tf48-chr11.RData"
+[1] 1579.58
+[1] "background.tf48-chr12.RData"
+[1] 1938.654
+[1] "background.tf48-chr13.RData"
+[1] 2223.88
+[1] "background.tf48-chr14.RData"
+[1] 2341.38
+[1] "background.tf48-chr15.RData"
+[1] 1747.159
+[1] "background.tf48-chr16.RData"
+[1] 1728.72
+[1] "background.tf48-chr17.RData"
+[1] 1835.844
+[1] "background.tf48-chr18.RData"
+[1] 2518.564
+[1] "background.tf48-chr19.RData"
+[1] 1736.861
+[1] "background.tf48-chr2.RData"
+[1] 2034.007
+[1] "background.tf48-chr20.RData"
+[1] 1882.037
+[1] "background.tf48-chr21.RData"
+[1] 1688.682
+[1] "background.tf48-chr22.RData"
+[1] 2672.766
+[1] "background.tf48-chr3.RData"
+[1] 2127.997
+[1] "background.tf48-chr4.RData"
+[1] 2164.101
+[1] "background.tf48-chr5.RData"
+[1] 1902.417
+[1] "background.tf48-chr6.RData"
+[1] 2249.11
+[1] "background.tf48-chr7.RData"
+[1] 2146.523
+[1] "background.tf48-chr8.RData"
+[1] 2181.196
+[1] "background.tf48-chr9.RData"
+[1] 2343.351
+[1] "background.tf48-chrM.RData"
+[1] 307.6355
+[1] "background.tf48-chrX.RData"
+[1] 2068.84
+[1] 1
+[1] 2
+[1] 3
+[1] 4
+[1] 5
+[1] 6
+[1] 7
+[1] 8
+[1] 9
+[1] 10
+[1] 11
+[1] 12
+[1] 13
+[1] 14
+[1] 15
+[1] 16
+[1] 17
+[1] 18
+[1] 19
+[1] 20
+[1] 21
+[1] 22
+[1] 23
+[1] 24
+Time difference of 1.128555 hours
+> 
+> ###
+> # do RC
+> 
+> match.rc = T
+> 
+> suppressWarnings(source(commonfile))
+> if(overwrite==F & file.exists( file.path(outdir,paste0(pwmid,'-diag.rc.pdf')))){
++   stop(paste0('found previous run for ',pwmid,' avoiding overwrite'))
++ }
+> 
+> debugstring = c('loading pwm.rc','loadbam.rc','clustering.rc','binding outputs.rc')
+> 
+> tryCatch({
++ phase=0
++ load(paste0(pwmdir,pwmid,'.pwmout.rc.RData'))
++ if(sum(clengths[1])>0){
++ phase=1
++ at<-Sys.time()
++ source('loadbam.r')
++ print(Sys.time()-at);at<-Sys.time()
++ phase=2
++ source('cluster.r')
++ print(Sys.time()-at);at<-Sys.time()
++ phase=3
++ source('bindcall.r')
++ print(Sys.time()-at);at<-Sys.time()
++ }
++ },error = function(e){
++    e$message=paste0('error during ',debugstring[phase+1],'\n','Error msg: ',e$message,'\n Args:',paste0(commandArgs(trailingOnly = TRUE),collapse=':'))
++    stop(e)
++ })
+[1] "chr1"
+[1] "chr2"
+[1] "chr3"
+[1] "chr4"
+[1] "chr5"
+[1] "chr6"
+[1] "chr7"
+[1] "chr8"
+[1] "chr9"
+[1] "chr10"
+[1] "chr11"
+[1] "chr12"
+[1] "chr13"
+[1] "chr14"
+[1] "chr15"
+[1] "chr16"
+[1] "chr17"
+[1] "chr18"
+[1] "chr19"
+[1] "chr20"
+[1] "chr21"
+[1] "chr22"
+[1] "chrX"
+[1] "chrM"
+[1] "chr1"
+[1] "chr2"
+[1] "chr3"
+[1] "chr4"
+[1] "chr5"
+[1] "chr6"
+[1] "chr7"
+[1] "chr8"
+[1] "chr9"
+[1] "chr10"
+[1] "chr11"
+[1] "chr12"
+[1] "chr13"
+[1] "chr14"
+[1] "chr15"
+[1] "chr16"
+[1] "chr17"
+[1] "chr18"
+[1] "chr19"
+[1] "chr20"
+[1] "chr21"
+[1] "chr22"
+[1] "chrX"
+[1] "chrM"
+Time difference of 36.64252 mins
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/temp_TBP//48//positive.tf48-chr1.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/temp_TBP//48//positive.tf48-chr10.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/temp_TBP//48//positive.tf48-chr11.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/temp_TBP//48//positive.tf48-chr12.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/temp_TBP//48//positive.tf48-chr13.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/temp_TBP//48//positive.tf48-chr14.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/temp_TBP//48//positive.tf48-chr15.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/temp_TBP//48//positive.tf48-chr16.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/temp_TBP//48//positive.tf48-chr17.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/temp_TBP//48//positive.tf48-chr18.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/temp_TBP//48//positive.tf48-chr19.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/temp_TBP//48//positive.tf48-chr2.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/temp_TBP//48//positive.tf48-chr20.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/temp_TBP//48//positive.tf48-chr21.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/temp_TBP//48//positive.tf48-chr22.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/temp_TBP//48//positive.tf48-chr3.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/temp_TBP//48//positive.tf48-chr4.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/temp_TBP//48//positive.tf48-chr5.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/temp_TBP//48//positive.tf48-chr6.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/temp_TBP//48//positive.tf48-chr7.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/temp_TBP//48//positive.tf48-chr8.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/temp_TBP//48//positive.tf48-chr9.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/temp_TBP//48//positive.tf48-chrM.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/temp_TBP//48//positive.tf48-chrX.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/temp_TBP//48//background.tf48-chr1.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/temp_TBP//48//background.tf48-chr10.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/temp_TBP//48//background.tf48-chr11.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/temp_TBP//48//background.tf48-chr12.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/temp_TBP//48//background.tf48-chr13.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/temp_TBP//48//background.tf48-chr14.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/temp_TBP//48//background.tf48-chr15.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/temp_TBP//48//background.tf48-chr16.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/temp_TBP//48//background.tf48-chr17.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/temp_TBP//48//background.tf48-chr18.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/temp_TBP//48//background.tf48-chr19.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/temp_TBP//48//background.tf48-chr2.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/temp_TBP//48//background.tf48-chr20.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/temp_TBP//48//background.tf48-chr21.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/temp_TBP//48//background.tf48-chr22.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/temp_TBP//48//background.tf48-chr3.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/temp_TBP//48//background.tf48-chr4.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/temp_TBP//48//background.tf48-chr5.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/temp_TBP//48//background.tf48-chr6.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/temp_TBP//48//background.tf48-chr7.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/temp_TBP//48//background.tf48-chr8.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/temp_TBP//48//background.tf48-chr9.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/temp_TBP//48//background.tf48-chrM.RData"
+[1] "/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/temp_TBP//48//background.tf48-chrX.RData"
+Time difference of 25.90956 mins
+[1] "background.tf48-chr1.RData"
+[1] "background.tf48-chr10.RData"
+[1] "background.tf48-chr11.RData"
+[1] "background.tf48-chr12.RData"
+[1] "background.tf48-chr13.RData"
+[1] "background.tf48-chr14.RData"
+[1] "background.tf48-chr15.RData"
+[1] "background.tf48-chr16.RData"
+[1] "background.tf48-chr17.RData"
+[1] "background.tf48-chr18.RData"
+[1] "background.tf48-chr19.RData"
+[1] "background.tf48-chr2.RData"
+[1] "background.tf48-chr20.RData"
+[1] "background.tf48-chr21.RData"
+[1] "background.tf48-chr22.RData"
+[1] "background.tf48-chr3.RData"
+[1] "background.tf48-chr4.RData"
+[1] "background.tf48-chr5.RData"
+[1] "background.tf48-chr6.RData"
+[1] "background.tf48-chr7.RData"
+[1] "background.tf48-chr8.RData"
+[1] "background.tf48-chr9.RData"
+[1] "background.tf48-chrM.RData"
+[1] "background.tf48-chrX.RData"
+[1] "background.tf48-chr1.RData"
+[1] 2158.105
+[1] "background.tf48-chr10.RData"
+[1] 2301.187
+[1] "background.tf48-chr11.RData"
+[1] 1731.752
+[1] "background.tf48-chr12.RData"
+[1] 1873.141
+[1] "background.tf48-chr13.RData"
+[1] 2791.929
+[1] "background.tf48-chr14.RData"
+[1] 2344.953
+[1] "background.tf48-chr15.RData"
+[1] 1982.399
+[1] "background.tf48-chr16.RData"
+[1] 1839.693
+[1] "background.tf48-chr17.RData"
+[1] 1805.344
+[1] "background.tf48-chr18.RData"
+[1] 2168.085
+[1] "background.tf48-chr19.RData"
+[1] 1718.18
+[1] "background.tf48-chr2.RData"
+[1] 1976.588
+[1] "background.tf48-chr20.RData"
+[1] 2086.424
+[1] "background.tf48-chr21.RData"
+[1] 2286.819
+[1] "background.tf48-chr22.RData"
+[1] 2490.564
+[1] "background.tf48-chr3.RData"
+[1] 2144.716
+[1] "background.tf48-chr4.RData"
+[1] 2216.602
+[1] "background.tf48-chr5.RData"
+[1] 2059.029
+[1] "background.tf48-chr6.RData"
+[1] 2452.193
+[1] "background.tf48-chr7.RData"
+[1] 2222.177
+[1] "background.tf48-chr8.RData"
+[1] 2061.653
+[1] "background.tf48-chr9.RData"
+[1] 2388.758
+[1] "background.tf48-chrM.RData"
+[1] 312.2431
+[1] "background.tf48-chrX.RData"
+[1] 2059.207
+[1] 1
+[1] 2
+[1] 3
+[1] 4
+[1] 5
+[1] 6
+[1] 7
+[1] 8
+[1] 9
+[1] 10
+[1] 11
+[1] 12
+[1] 13
+[1] 14
+[1] 15
+[1] 16
+[1] 17
+[1] 18
+[1] 19
+[1] 20
+[1] 21
+[1] 22
+[1] 23
+[1] 24
+Time difference of 1.217218 hours
+> 
+
+
+PS:
+
+Read file <DU_K562_TBP_APQ_err.txt> for stderr output of this job.
+

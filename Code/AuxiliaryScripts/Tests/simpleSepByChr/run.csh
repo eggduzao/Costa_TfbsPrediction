@@ -1,0 +1,1 @@
+simpleSepByChr spc ./ ./reps/*

@@ -1,0 +1,37 @@
+Sender: LSF System <lsfadmin@linuxbmc0045>
+Subject: Job 24612399: <K562_PPARG_ACP> in cluster <rcc> Done
+
+Job <K562_PPARG_ACP> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0045>, in queue <low>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Wed Oct 28 22:03:24 2015
+Results reported on Thu Oct 29 04:25:42 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyCuellar_pipeline.zsh PPARG 0.00001 /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/ExpressionValidation/MPBS/MEME/PPARG.meme /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/DU_K562/Cuellar/DNase_prior.bw /hpcwork/izkf/projects/TfbsPrediction/Data/HG19/ /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/K562/Cuellar_batch/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   17327.53 sec.
+    Max Memory :                                 730 MB
+    Average Memory :                             267.39 MB
+    Total Requested Memory :                     8192.00 MB
+    Delta Memory :                               7462.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <K562_PPARG_ACP_err.txt> for stderr output of this job.
+

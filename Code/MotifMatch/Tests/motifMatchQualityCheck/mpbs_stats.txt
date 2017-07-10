@@ -1,0 +1,6 @@
+Total # Mismatches:	46
+Total # Sequences:	10
+Total Motif Length:	8
+Mean:	4.6
+Var:	6.44
+Std:	2.53771550809

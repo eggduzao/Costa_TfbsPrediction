@@ -1,0 +1,3404 @@
+Sender: LSF System <lsfadmin@linuxbmc0054>
+Subject: Job 17841919: <FOSU> in cluster <rcc> Done
+
+Job <FOSU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0054>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 20:22:19 2014
+Results reported on Mon Aug 25 20:45:53 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyFOS_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/ELK1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/FOS_UW/ELK1.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   1974.90 sec.
+    Max Memory :                                 431 MB
+    Average Memory :                             244.20 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11569.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <FOSU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0699>
+Subject: Job 17841959: <FOSU> in cluster <rcc> Done
+
+Job <FOSU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0699>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 20:44:42 2014
+Results reported on Mon Aug 25 20:59:51 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyFOS_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/ZBTB33.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/FOS_UW/ZBTB33.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   1196.81 sec.
+    Max Memory :                                 443 MB
+    Average Memory :                             224.31 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11557.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <FOSU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0236>
+Subject: Job 17841911: <FOSU> in cluster <rcc> Done
+
+Job <FOSU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0236>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 20:17:20 2014
+Results reported on Mon Aug 25 21:00:28 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyFOS_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/E2F4.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/FOS_UW/E2F4.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   3871.08 sec.
+    Max Memory :                                 440 MB
+    Average Memory :                             247.37 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11560.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <FOSU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0036>
+Subject: Job 17841884: <FOSU> in cluster <rcc> Done
+
+Job <FOSU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0036>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 20:13:29 2014
+Results reported on Mon Aug 25 21:01:06 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyFOS_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/HepG2_Evidence/fdr_4/NRF1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_HepG2/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/HepG2/fdr_4/FOS_UW/NRF1.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   3953.11 sec.
+    Max Memory :                                 432 MB
+    Average Memory :                             223.94 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11568.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <FOSU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0145>
+Subject: Job 17841923: <FOSU> in cluster <rcc> Done
+
+Job <FOSU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0145>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 20:25:33 2014
+Results reported on Mon Aug 25 21:09:15 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyFOS_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/GABP.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/FOS_UW/GABP.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   3759.02 sec.
+    Max Memory :                                 452 MB
+    Average Memory :                             262.88 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11548.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <FOSU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0213>
+Subject: Job 17841877: <FOSU> in cluster <rcc> Done
+
+Job <FOSU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0213>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 20:13:09 2014
+Results reported on Mon Aug 25 21:11:45 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyFOS_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/HepG2_Evidence/fdr_4/GABP.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_HepG2/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/HepG2/fdr_4/FOS_UW/GABP.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   4940.49 sec.
+    Max Memory :                                 442 MB
+    Average Memory :                             246.82 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11558.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <FOSU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0170>
+Subject: Job 17841938: <FOSU> in cluster <rcc> Done
+
+Job <FOSU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0170>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 20:36:10 2014
+Results reported on Mon Aug 25 21:23:19 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyFOS_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/NRF1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/FOS_UW/NRF1.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   3811.57 sec.
+    Max Memory :                                 444 MB
+    Average Memory :                             251.58 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11556.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <FOSU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0183>
+Subject: Job 17841903: <FOSU> in cluster <rcc> Done
+
+Job <FOSU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0183>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 20:16:18 2014
+Results reported on Mon Aug 25 21:32:32 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyFOS_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/ATF1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/FOS_UW/ATF1.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   6175.09 sec.
+    Max Memory :                                 452 MB
+    Average Memory :                             255.82 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11548.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <FOSU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0060>
+Subject: Job 17841873: <FOSU> in cluster <rcc> Done
+
+Job <FOSU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0060>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 20:13:09 2014
+Results reported on Mon Aug 25 21:38:12 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyFOS_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/HepG2_Evidence/fdr_4/BRCA1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_HepG2/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/HepG2/fdr_4/FOS_UW/BRCA1.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   7590.63 sec.
+    Max Memory :                                 464 MB
+    Average Memory :                             274.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11536.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <FOSU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0340>
+Subject: Job 17841958: <FOSU> in cluster <rcc> Done
+
+Job <FOSU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0340>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 20:44:42 2014
+Results reported on Mon Aug 25 22:00:58 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyFOS_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/ZBTB7A.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/FOS_UW/ZBTB7A.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   5975.55 sec.
+    Max Memory :                                 483 MB
+    Average Memory :                             273.13 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11517.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <FOSU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0933>
+Subject: Job 17841953: <FOSU> in cluster <rcc> Done
+
+Job <FOSU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0933>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 20:44:42 2014
+Results reported on Mon Aug 25 22:26:32 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyFOS_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/THAP1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/FOS_UW/THAP1.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   7948.77 sec.
+    Max Memory :                                 499 MB
+    Average Memory :                             285.56 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11501.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <FOSU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbdc01>
+Subject: Job 17841871: <FOSU> in cluster <rcc> Done
+
+Job <FOSU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbdc01>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 19:56:38 2014
+Results reported on Mon Aug 25 22:30:10 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyFOS_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/HepG2_Evidence/fdr_4/ATF3.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_HepG2/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/HepG2/fdr_4/FOS_UW/ATF3.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   14592.51 sec.
+    Max Memory :                                 490 MB
+    Average Memory :                             270.29 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11510.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <FOSU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0060>
+Subject: Job 17841896: <FOSU> in cluster <rcc> Done
+
+Job <FOSU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0060>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 20:15:57 2014
+Results reported on Mon Aug 25 22:31:37 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyFOS_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/Huvec_Evidence/fdr_4/CTCF.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_Huvec/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/Huvec/fdr_4/FOS_UW/CTCF.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   11800.26 sec.
+    Max Memory :                                 711 MB
+    Average Memory :                             367.40 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11289.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <FOSU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0060>
+Subject: Job 17841872: <FOSU> in cluster <rcc> Done
+
+Job <FOSU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0060>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 20:13:09 2014
+Results reported on Mon Aug 25 22:38:32 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyFOS_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/HepG2_Evidence/fdr_4/BHLHE40.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_HepG2/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/HepG2/fdr_4/FOS_UW/BHLHE40.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   13110.17 sec.
+    Max Memory :                                 267 MB
+    Average Memory :                             108.90 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11733.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <FOSU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0236>
+Subject: Job 17841910: <FOSU> in cluster <rcc> Done
+
+Job <FOSU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0236>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 20:17:20 2014
+Results reported on Mon Aug 25 22:47:22 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyFOS_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/CTCFL.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/FOS_UW/CTCFL.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   13695.27 sec.
+    Max Memory :                                 378 MB
+    Average Memory :                             172.84 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11622.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <FOSU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0584>
+Subject: Job 17841955: <FOSU> in cluster <rcc> Done
+
+Job <FOSU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0584>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 20:44:42 2014
+Results reported on Mon Aug 25 22:48:44 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyFOS_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/USF1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/FOS_UW/USF1.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   9797.43 sec.
+    Max Memory :                                 515 MB
+    Average Memory :                             290.95 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11485.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <FOSU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0040>
+Subject: Job 17841904: <FOSU> in cluster <rcc> Done
+
+Job <FOSU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0040>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 20:16:39 2014
+Results reported on Mon Aug 25 22:50:34 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyFOS_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/ATF3.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/FOS_UW/ATF3.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   12840.54 sec.
+    Max Memory :                                 483 MB
+    Average Memory :                             261.03 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11517.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <FOSU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0236>
+Subject: Job 17841909: <FOSU> in cluster <rcc> Done
+
+Job <FOSU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0236>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 20:17:20 2014
+Results reported on Mon Aug 25 22:51:43 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyFOS_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/CTCF.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/FOS_UW/CTCF.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   14126.74 sec.
+    Max Memory :                                 118 MB
+    Average Memory :                             70.32 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11882.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <FOSU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc1203>
+Subject: Job 17841951: <FOSU> in cluster <rcc> Done
+
+Job <FOSU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc1203>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 20:44:42 2014
+Results reported on Mon Aug 25 22:51:59 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyFOS_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/TAL1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/FOS_UW/TAL1.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   10056.58 sec.
+    Max Memory :                                 516 MB
+    Average Memory :                             299.92 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11484.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <FOSU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0156>
+Subject: Job 17841905: <FOSU> in cluster <rcc> Done
+
+Job <FOSU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0156>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 20:17:00 2014
+Results reported on Mon Aug 25 22:53:41 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyFOS_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/BACH1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/FOS_UW/BACH1.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   14112.79 sec.
+    Max Memory :                                 499 MB
+    Average Memory :                             276.97 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11501.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <FOSU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0054>
+Subject: Job 17841933: <FOSU> in cluster <rcc> Done
+
+Job <FOSU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0054>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 20:32:55 2014
+Results reported on Mon Aug 25 22:55:41 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyFOS_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/MYC.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/FOS_UW/MYC.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   12599.67 sec.
+    Max Memory :                                 396 MB
+    Average Memory :                             192.14 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11604.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <FOSU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0067>
+Subject: Job 17841940: <FOSU> in cluster <rcc> Done
+
+Job <FOSU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0067>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 20:36:28 2014
+Results reported on Mon Aug 25 22:56:46 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyFOS_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/RAD21.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/FOS_UW/RAD21.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   12317.66 sec.
+    Max Memory :                                 499 MB
+    Average Memory :                             283.66 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11501.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <FOSU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0118>
+Subject: Job 17841935: <FOSU> in cluster <rcc> Done
+
+Job <FOSU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0118>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 20:35:52 2014
+Results reported on Mon Aug 25 22:59:15 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyFOS_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/NFYA.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/FOS_UW/NFYA.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   11963.19 sec.
+    Max Memory :                                 259 MB
+    Average Memory :                             111.93 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11741.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <FOSU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0667>
+Subject: Job 17841956: <FOSU> in cluster <rcc> Done
+
+Job <FOSU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0667>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 20:44:42 2014
+Results reported on Mon Aug 25 23:01:41 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyFOS_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/USF2.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/FOS_UW/USF2.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   10731.30 sec.
+    Max Memory :                                 522 MB
+    Average Memory :                             296.44 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11478.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <FOSU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0118>
+Subject: Job 17841936: <FOSU> in cluster <rcc> Done
+
+Job <FOSU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0118>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 20:35:52 2014
+Results reported on Mon Aug 25 23:07:11 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyFOS_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/NFYB.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/FOS_UW/NFYB.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   12604.72 sec.
+    Max Memory :                                 261 MB
+    Average Memory :                             163.49 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11739.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <FOSU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0156>
+Subject: Job 17841893: <FOSU> in cluster <rcc> Done
+
+Job <FOSU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0156>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 20:15:36 2014
+Results reported on Mon Aug 25 23:07:45 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyFOS_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/HepG2_Evidence/fdr_4/USF1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_HepG2/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/HepG2/fdr_4/FOS_UW/USF1.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   15300.34 sec.
+    Max Memory :                                 506 MB
+    Average Memory :                             281.17 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11494.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <FOSU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc1123>
+Subject: Job 17841954: <FOSU> in cluster <rcc> Done
+
+Job <FOSU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc1123>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 20:44:42 2014
+Results reported on Mon Aug 25 23:10:56 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyFOS_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/TR4.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/FOS_UW/TR4.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   11516.71 sec.
+    Max Memory :                                 532 MB
+    Average Memory :                             301.96 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11468.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <FOSU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0435>
+Subject: Job 17841952: <FOSU> in cluster <rcc> Done
+
+Job <FOSU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0435>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 20:44:42 2014
+Results reported on Mon Aug 25 23:14:20 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyFOS_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/TBP.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/FOS_UW/TBP.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   11801.93 sec.
+    Max Memory :                                 530 MB
+    Average Memory :                             308.46 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11470.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <FOSU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0213>
+Subject: Job 17841875: <FOSU> in cluster <rcc> Done
+
+Job <FOSU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0213>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 20:13:09 2014
+Results reported on Mon Aug 25 23:15:23 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyFOS_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/HepG2_Evidence/fdr_4/CTCF.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_HepG2/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/HepG2/fdr_4/FOS_UW/CTCF.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   15388.25 sec.
+    Max Memory :                                 372 MB
+    Average Memory :                             171.11 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11628.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <FOSU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0156>
+Subject: Job 17841922: <FOSU> in cluster <rcc> Done
+
+Job <FOSU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0156>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 20:22:19 2014
+Results reported on Mon Aug 25 23:19:39 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyFOS_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/FOSL1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/FOS_UW/FOSL1.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   16030.67 sec.
+    Max Memory :                                 186 MB
+    Average Memory :                             81.18 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11814.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <FOSU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0054>
+Subject: Job 17841921: <FOSU> in cluster <rcc> Done
+
+Job <FOSU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0054>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 20:22:19 2014
+Results reported on Mon Aug 25 23:23:32 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyFOS_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/FOS.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/FOS_UW/FOS.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   15978.75 sec.
+    Max Memory :                                 249 MB
+    Average Memory :                             135.46 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11751.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <FOSU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0083>
+Subject: Job 17841941: <FOSU> in cluster <rcc> Done
+
+Job <FOSU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0083>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 20:36:28 2014
+Results reported on Mon Aug 25 23:24:03 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyFOS_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/REST.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/FOS_UW/REST.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   13495.20 sec.
+    Max Memory :                                 507 MB
+    Average Memory :                             262.06 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11493.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <FOSU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0046>
+Subject: Job 17841916: <FOSU> in cluster <rcc> Done
+
+Job <FOSU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0046>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 20:21:40 2014
+Results reported on Mon Aug 25 23:24:50 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyFOS_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/EJUNB.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/FOS_UW/EJUNB.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   16575.73 sec.
+    Max Memory :                                 513 MB
+    Average Memory :                             293.68 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11487.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <FOSU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0213>
+Subject: Job 17841906: <FOSU> in cluster <rcc> Done
+
+Job <FOSU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0213>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 20:17:00 2014
+Results reported on Mon Aug 25 23:25:00 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyFOS_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/BHLHE40.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/FOS_UW/BHLHE40.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   15946.96 sec.
+    Max Memory :                                 497 MB
+    Average Memory :                             281.48 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11503.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <FOSU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0060>
+Subject: Job 17841897: <FOSU> in cluster <rcc> Done
+
+Job <FOSU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0060>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 20:15:57 2014
+Results reported on Mon Aug 25 23:27:09 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyFOS_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/Huvec_Evidence/fdr_4/FOS.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_Huvec/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/Huvec/fdr_4/FOS_UW/FOS.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   17095.61 sec.
+    Max Memory :                                 337 MB
+    Average Memory :                             126.74 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11663.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <FOSU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0036>
+Subject: Job 17841886: <FOSU> in cluster <rcc> Done
+
+Job <FOSU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0036>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 20:13:29 2014
+Results reported on Mon Aug 25 23:30:45 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyFOS_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/HepG2_Evidence/fdr_4/RAD21.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_HepG2/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/HepG2/fdr_4/FOS_UW/RAD21.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   16445.37 sec.
+    Max Memory :                                 283 MB
+    Average Memory :                             130.49 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11717.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <FOSU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0156>
+Subject: Job 17841894: <FOSU> in cluster <rcc> Done
+
+Job <FOSU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0156>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 20:15:36 2014
+Results reported on Mon Aug 25 23:31:36 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyFOS_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/HepG2_Evidence/fdr_4/USF2.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_HepG2/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/HepG2/fdr_4/FOS_UW/USF2.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   17841.33 sec.
+    Max Memory :                                 178 MB
+    Average Memory :                             86.32 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11822.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <FOSU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0046>
+Subject: Job 17841892: <FOSU> in cluster <rcc> Done
+
+Job <FOSU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0046>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 20:15:36 2014
+Results reported on Mon Aug 25 23:34:36 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyFOS_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/HepG2_Evidence/fdr_4/TBP.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_HepG2/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/HepG2/fdr_4/FOS_UW/TBP.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   17668.64 sec.
+    Max Memory :                                 511 MB
+    Average Memory :                             291.42 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11489.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <FOSU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0036>
+Subject: Job 17841885: <FOSU> in cluster <rcc> Done
+
+Job <FOSU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0036>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 20:13:29 2014
+Results reported on Mon Aug 25 23:35:27 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyFOS_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/HepG2_Evidence/fdr_4/P300.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_HepG2/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/HepG2/fdr_4/FOS_UW/P300.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   16818.37 sec.
+    Max Memory :                                 116 MB
+    Average Memory :                             76.06 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11884.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <FOSU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0236>
+Subject: Job 17841913: <FOSU> in cluster <rcc> Done
+
+Job <FOSU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0236>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 20:17:20 2014
+Results reported on Mon Aug 25 23:37:04 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyFOS_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/EFOS.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/FOS_UW/EFOS.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   17998.91 sec.
+    Max Memory :                                 257 MB
+    Average Memory :                             113.80 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11743.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <FOSU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0040>
+Subject: Job 17841879: <FOSU> in cluster <rcc> Done
+
+Job <FOSU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0040>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 20:13:09 2014
+Results reported on Mon Aug 25 23:38:03 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyFOS_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/HepG2_Evidence/fdr_4/JUND.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_HepG2/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/HepG2/fdr_4/FOS_UW/JUND.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   17315.37 sec.
+    Max Memory :                                 513 MB
+    Average Memory :                             276.84 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11487.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <FOSU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0036>
+Subject: Job 17841883: <FOSU> in cluster <rcc> Done
+
+Job <FOSU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0036>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 20:13:29 2014
+Results reported on Mon Aug 25 23:42:56 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyFOS_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/HepG2_Evidence/fdr_4/MYC.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_HepG2/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/HepG2/fdr_4/FOS_UW/MYC.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   17564.18 sec.
+    Max Memory :                                 246 MB
+    Average Memory :                             145.89 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11754.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <FOSU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0173>
+Subject: Job 17841887: <FOSU> in cluster <rcc> Done
+
+Job <FOSU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0173>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 20:13:29 2014
+Results reported on Mon Aug 25 23:43:34 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyFOS_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/HepG2_Evidence/fdr_4/REST.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_HepG2/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/HepG2/fdr_4/FOS_UW/REST.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   17034.31 sec.
+    Max Memory :                                 505 MB
+    Average Memory :                             283.62 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11495.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <FOSU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0076>
+Subject: Job 17841944: <FOSU> in cluster <rcc> Done
+
+Job <FOSU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0076>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 20:37:25 2014
+Results reported on Mon Aug 25 23:45:31 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyFOS_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/SMC3.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/FOS_UW/SMC3.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   16509.28 sec.
+    Max Memory :                                 450 MB
+    Average Memory :                             221.28 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11550.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <FOSU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0139>
+Subject: Job 17841901: <FOSU> in cluster <rcc> Done
+
+Job <FOSU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0139>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 20:15:57 2014
+Results reported on Mon Aug 25 23:46:35 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyFOS_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/Huvec_Evidence/fdr_4/MYC.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_Huvec/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/Huvec/fdr_4/FOS_UW/MYC.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   17762.77 sec.
+    Max Memory :                                 736 MB
+    Average Memory :                             405.87 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11264.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <FOSU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc1163>
+Subject: Job 17841960: <FOSU> in cluster <rcc> Done
+
+Job <FOSU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc1163>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 20:44:42 2014
+Results reported on Mon Aug 25 23:49:35 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyFOS_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/ZNF143.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/FOS_UW/ZNF143.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   14517.57 sec.
+    Max Memory :                                 562 MB
+    Average Memory :                             320.36 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11438.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <FOSU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0145>
+Subject: Job 17841931: <FOSU> in cluster <rcc> Done
+
+Job <FOSU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0145>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 20:28:41 2014
+Results reported on Mon Aug 25 23:50:55 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyFOS_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/MAX.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/FOS_UW/MAX.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   17896.96 sec.
+    Max Memory :                                 213 MB
+    Average Memory :                             108.81 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11787.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <FOSU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0170>
+Subject: Job 17841937: <FOSU> in cluster <rcc> Done
+
+Job <FOSU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0170>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 20:36:10 2014
+Results reported on Mon Aug 25 23:53:14 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyFOS_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/NR2F2.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/FOS_UW/NR2F2.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   16651.44 sec.
+    Max Memory :                                 405 MB
+    Average Memory :                             194.03 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11595.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <FOSU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0145>
+Subject: Job 17841927: <FOSU> in cluster <rcc> Done
+
+Job <FOSU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0145>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 20:28:22 2014
+Results reported on Mon Aug 25 23:53:21 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyFOS_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/JUN.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/FOS_UW/JUN.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   18377.82 sec.
+    Max Memory :                                 366 MB
+    Average Memory :                             204.47 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11634.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <FOSU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0076>
+Subject: Job 17841942: <FOSU> in cluster <rcc> Done
+
+Job <FOSU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0076>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 20:37:20 2014
+Results reported on Tue Aug 26 00:01:03 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyFOS_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/RFX5.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/FOS_UW/RFX5.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   17809.29 sec.
+    Max Memory :                                 156 MB
+    Average Memory :                             85.81 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11844.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <FOSU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0118>
+Subject: Job 17841928: <FOSU> in cluster <rcc> Done
+
+Job <FOSU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0118>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 20:28:22 2014
+Results reported on Tue Aug 26 00:02:09 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyFOS_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/JUND.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/FOS_UW/JUND.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   17867.91 sec.
+    Max Memory :                                 313 MB
+    Average Memory :                             157.40 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11687.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <FOSU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0030>
+Subject: Job 17841917: <FOSU> in cluster <rcc> Done
+
+Job <FOSU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0030>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 20:22:00 2014
+Results reported on Tue Aug 26 00:08:32 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyFOS_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/EJUND.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/FOS_UW/EJUND.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   18297.61 sec.
+    Max Memory :                                 521 MB
+    Average Memory :                             297.60 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11479.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <FOSU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0062>
+Subject: Job 17841888: <FOSU> in cluster <rcc> Done
+
+Job <FOSU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0062>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 20:13:51 2014
+Results reported on Tue Aug 26 00:13:17 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyFOS_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/HepG2_Evidence/fdr_4/RXRA.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_HepG2/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/HepG2/fdr_4/FOS_UW/RXRA.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   20244.37 sec.
+    Max Memory :                                 569 MB
+    Average Memory :                             325.38 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11431.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <FOSU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0173>
+Subject: Job 17841907: <FOSU> in cluster <rcc> Done
+
+Job <FOSU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0173>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 20:17:00 2014
+Results reported on Tue Aug 26 00:14:39 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyFOS_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/CCNT2.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/FOS_UW/CCNT2.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   19781.37 sec.
+    Max Memory :                                 502 MB
+    Average Memory :                             275.61 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11498.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <FOSU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0054>
+Subject: Job 17841918: <FOSU> in cluster <rcc> Done
+
+Job <FOSU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0054>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 20:22:19 2014
+Results reported on Tue Aug 26 00:16:48 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyFOS_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/ELF1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/FOS_UW/ELF1.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   20507.81 sec.
+    Max Memory :                                 297 MB
+    Average Memory :                             122.75 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11703.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <FOSU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0118>
+Subject: Job 17841934: <FOSU> in cluster <rcc> Done
+
+Job <FOSU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0118>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 20:32:55 2014
+Results reported on Tue Aug 26 00:25:59 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyFOS_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/NFE2.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/FOS_UW/NFE2.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   19362.36 sec.
+    Max Memory :                                 219 MB
+    Average Memory :                             89.32 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11781.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <FOSU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0046>
+Subject: Job 17841891: <FOSU> in cluster <rcc> Done
+
+Job <FOSU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0046>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 20:15:36 2014
+Results reported on Tue Aug 26 00:35:27 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyFOS_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/HepG2_Evidence/fdr_4/SRF.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_HepG2/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/HepG2/fdr_4/FOS_UW/SRF.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   23277.88 sec.
+    Max Memory :                                 246 MB
+    Average Memory :                             115.98 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11754.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <FOSU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0145>
+Subject: Job 17841925: <FOSU> in cluster <rcc> Done
+
+Job <FOSU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0145>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 20:27:44 2014
+Results reported on Tue Aug 26 00:35:29 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyFOS_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/GATA2.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/FOS_UW/GATA2.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   22064.69 sec.
+    Max Memory :                                 244 MB
+    Average Memory :                             117.60 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11756.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <FOSU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0236>
+Subject: Job 17841914: <FOSU> in cluster <rcc> Done
+
+Job <FOSU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0236>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 20:17:21 2014
+Results reported on Tue Aug 26 00:36:13 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyFOS_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/EGATA.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/FOS_UW/EGATA.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   23212.40 sec.
+    Max Memory :                                 315 MB
+    Average Memory :                             137.46 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11685.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <FOSU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0183>
+Subject: Job 17841882: <FOSU> in cluster <rcc> Done
+
+Job <FOSU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0183>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 20:13:17 2014
+Results reported on Tue Aug 26 00:36:32 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyFOS_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/HepG2_Evidence/fdr_4/MAX.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_HepG2/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/HepG2/fdr_4/FOS_UW/MAX.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   22073.63 sec.
+    Max Memory :                                 517 MB
+    Average Memory :                             289.64 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11483.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <FOSU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0213>
+Subject: Job 17841878: <FOSU> in cluster <rcc> Done
+
+Job <FOSU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0213>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 20:13:09 2014
+Results reported on Tue Aug 26 00:37:41 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyFOS_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/HepG2_Evidence/fdr_4/JUN.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_HepG2/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/HepG2/fdr_4/FOS_UW/JUN.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   22420.39 sec.
+    Max Memory :                                 297 MB
+    Average Memory :                             138.45 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11703.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <FOSU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0326>
+Subject: Job 17841957: <FOSU> in cluster <rcc> Done
+
+Job <FOSU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0326>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 20:44:42 2014
+Results reported on Tue Aug 26 00:39:13 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyFOS_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/YY1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/FOS_UW/YY1.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   18354.12 sec.
+    Max Memory :                                 596 MB
+    Average Memory :                             343.04 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11404.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <FOSU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0760>
+Subject: Job 17841950: <FOSU> in cluster <rcc> Done
+
+Job <FOSU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0760>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 20:44:42 2014
+Results reported on Tue Aug 26 00:39:50 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyFOS_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/STAT5A.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/FOS_UW/STAT5A.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   18738.03 sec.
+    Max Memory :                                 593 MB
+    Average Memory :                             346.99 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11407.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <FOSU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0236>
+Subject: Job 17841912: <FOSU> in cluster <rcc> Done
+
+Job <FOSU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0236>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 20:17:20 2014
+Results reported on Tue Aug 26 00:43:21 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyFOS_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/E2F6.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/FOS_UW/E2F6.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   23907.20 sec.
+    Max Memory :                                 242 MB
+    Average Memory :                             128.17 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11758.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <FOSU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0173>
+Subject: Job 17841899: <FOSU> in cluster <rcc> Done
+
+Job <FOSU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0173>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 20:15:57 2014
+Results reported on Tue Aug 26 00:48:54 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyFOS_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/Huvec_Evidence/fdr_4/JUN.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_Huvec/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/Huvec/fdr_4/FOS_UW/JUN.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   22666.99 sec.
+    Max Memory :                                 763 MB
+    Average Memory :                             405.55 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11237.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <FOSU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0046>
+Subject: Job 17841924: <FOSU> in cluster <rcc> Done
+
+Job <FOSU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0046>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 20:25:33 2014
+Results reported on Tue Aug 26 00:50:05 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyFOS_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/GATA1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/FOS_UW/GATA1.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   23683.00 sec.
+    Max Memory :                                 307 MB
+    Average Memory :                             125.28 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11693.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <FOSU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0040>
+Subject: Job 17841898: <FOSU> in cluster <rcc> Done
+
+Job <FOSU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0040>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 20:15:57 2014
+Results reported on Tue Aug 26 00:50:45 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyFOS_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/Huvec_Evidence/fdr_4/GATA2.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_Huvec/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/Huvec/fdr_4/FOS_UW/GATA2.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   23255.63 sec.
+    Max Memory :                                 792 MB
+    Average Memory :                             395.19 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11208.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <FOSU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0248>
+Subject: Job 17841915: <FOSU> in cluster <rcc> Done
+
+Job <FOSU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0248>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 20:17:20 2014
+Results reported on Tue Aug 26 00:59:08 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyFOS_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/EGR1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/FOS_UW/EGR1.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   23072.16 sec.
+    Max Memory :                                 557 MB
+    Average Memory :                             282.25 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11443.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <FOSU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0139>
+Subject: Job 17841900: <FOSU> in cluster <rcc> Done
+
+Job <FOSU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0139>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 20:15:57 2014
+Results reported on Tue Aug 26 01:04:35 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyFOS_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/Huvec_Evidence/fdr_4/MAX.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_Huvec/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/Huvec/fdr_4/FOS_UW/MAX.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   24136.77 sec.
+    Max Memory :                                 315 MB
+    Average Memory :                             120.10 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11685.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <FOSU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0156>
+Subject: Job 17841895: <FOSU> in cluster <rcc> Done
+
+Job <FOSU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0156>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 20:15:36 2014
+Results reported on Tue Aug 26 01:29:15 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyFOS_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/HepG2_Evidence/fdr_4/YY1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_HepG2/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/HepG2/fdr_4/FOS_UW/YY1.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   27617.84 sec.
+    Max Memory :                                 392 MB
+    Average Memory :                             163.89 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11608.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <FOSU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0060>
+Subject: Job 17841874: <FOSU> in cluster <rcc> Done
+
+Job <FOSU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0060>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 20:13:09 2014
+Results reported on Tue Aug 26 01:29:33 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyFOS_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/HepG2_Evidence/fdr_4/CEBPB.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_HepG2/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/HepG2/fdr_4/FOS_UW/CEBPB.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   27819.01 sec.
+    Max Memory :                                 505 MB
+    Average Memory :                             238.85 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11495.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <FOSU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0076>
+Subject: Job 17841943: <FOSU> in cluster <rcc> Done
+
+Job <FOSU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0076>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 20:37:21 2014
+Results reported on Tue Aug 26 01:30:50 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyFOS_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/SIX5.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/FOS_UW/SIX5.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   25768.84 sec.
+    Max Memory :                                 165 MB
+    Average Memory :                             96.87 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11835.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <FOSU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0076>
+Subject: Job 17841947: <FOSU> in cluster <rcc> Done
+
+Job <FOSU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0076>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 20:37:26 2014
+Results reported on Tue Aug 26 01:30:51 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyFOS_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/SRF.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/FOS_UW/SRF.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   25694.43 sec.
+    Max Memory :                                 334 MB
+    Average Memory :                             145.54 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11666.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <FOSU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0040>
+Subject: Job 17841880: <FOSU> in cluster <rcc> Done
+
+Job <FOSU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0040>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 20:13:09 2014
+Results reported on Tue Aug 26 01:31:26 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyFOS_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/HepG2_Evidence/fdr_4/MAFF.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_HepG2/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/HepG2/fdr_4/FOS_UW/MAFF.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   27054.86 sec.
+    Max Memory :                                 348 MB
+    Average Memory :                             139.52 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11652.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <FOSU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0054>
+Subject: Job 17841920: <FOSU> in cluster <rcc> Done
+
+Job <FOSU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0054>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 20:22:19 2014
+Results reported on Tue Aug 26 01:32:27 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyFOS_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/ETS1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/FOS_UW/ETS1.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   27021.95 sec.
+    Max Memory :                                 396 MB
+    Average Memory :                             181.61 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11604.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <FOSU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0213>
+Subject: Job 17841876: <FOSU> in cluster <rcc> Done
+
+Job <FOSU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0213>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 20:13:09 2014
+Results reported on Tue Aug 26 01:39:29 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyFOS_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/HepG2_Evidence/fdr_4/ELF1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_HepG2/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/HepG2/fdr_4/FOS_UW/ELF1.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   27379.89 sec.
+    Max Memory :                                 322 MB
+    Average Memory :                             152.86 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11678.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <FOSU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0170>
+Subject: Job 17841948: <FOSU> in cluster <rcc> Done
+
+Job <FOSU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0170>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 20:38:30 2014
+Results reported on Tue Aug 26 02:10:45 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyFOS_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/STAT1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/FOS_UW/STAT1.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   28030.92 sec.
+    Max Memory :                                 436 MB
+    Average Memory :                             196.55 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11564.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <FOSU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0046>
+Subject: Job 17841890: <FOSU> in cluster <rcc> Done
+
+Job <FOSU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0046>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 20:15:36 2014
+Results reported on Tue Aug 26 02:23:43 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyFOS_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/HepG2_Evidence/fdr_4/SP2.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_HepG2/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/HepG2/fdr_4/FOS_UW/SP2.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   32255.91 sec.
+    Max Memory :                                 444 MB
+    Average Memory :                             193.21 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11556.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <FOSU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0183>
+Subject: Job 17841881: <FOSU> in cluster <rcc> Done
+
+Job <FOSU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0183>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 20:13:17 2014
+Results reported on Tue Aug 26 02:24:35 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyFOS_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/HepG2_Evidence/fdr_4/MAFK.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_HepG2/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/HepG2/fdr_4/FOS_UW/MAFK.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   30921.21 sec.
+    Max Memory :                                 306 MB
+    Average Memory :                             143.66 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11694.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <FOSU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0847>
+Subject: Job 17841870: <FOSU> in cluster <rcc> Done
+
+Job <FOSU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0847>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 18:33:37 2014
+Results reported on Tue Aug 26 02:40:58 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyFOS_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/HepG2_Evidence/fdr_4/ARID3A.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_HepG2/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/HepG2/fdr_4/FOS_UW/ARID3A.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   42672.88 sec.
+    Max Memory :                                 562 MB
+    Average Memory :                             310.91 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11438.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <FOSU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0173>
+Subject: Job 17841908: <FOSU> in cluster <rcc> Done
+
+Job <FOSU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0173>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 20:17:00 2014
+Results reported on Tue Aug 26 03:22:15 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyFOS_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/CEBPB.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/FOS_UW/CEBPB.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   35127.18 sec.
+    Max Memory :                                 390 MB
+    Average Memory :                             174.13 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11610.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <FOSU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0139>
+Subject: Job 17841930: <FOSU> in cluster <rcc> Done
+
+Job <FOSU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0139>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 20:28:22 2014
+Results reported on Tue Aug 26 03:25:52 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyFOS_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/MAFK.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/FOS_UW/MAFK.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   35491.39 sec.
+    Max Memory :                                 392 MB
+    Average Memory :                             187.04 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11608.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <FOSU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0139>
+Subject: Job 17841929: <FOSU> in cluster <rcc> Done
+
+Job <FOSU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0139>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 20:28:22 2014
+Results reported on Tue Aug 26 03:26:54 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyFOS_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/MAFF.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/FOS_UW/MAFF.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   35716.54 sec.
+    Max Memory :                                 314 MB
+    Average Memory :                             201.10 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11686.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <FOSU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0076>
+Subject: Job 17841946: <FOSU> in cluster <rcc> Done
+
+Job <FOSU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0076>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 20:37:25 2014
+Results reported on Tue Aug 26 03:31:32 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyFOS_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/SP2.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/FOS_UW/SP2.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   35723.68 sec.
+    Max Memory :                                 301 MB
+    Average Memory :                             162.55 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11699.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <FOSU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0183>
+Subject: Job 17841889: <FOSU> in cluster <rcc> Done
+
+Job <FOSU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0183>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 20:13:51 2014
+Results reported on Tue Aug 26 04:10:45 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyFOS_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/HepG2_Evidence/fdr_4/SP1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_HepG2/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/HepG2/fdr_4/FOS_UW/SP1.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   39269.13 sec.
+    Max Memory :                                 355 MB
+    Average Memory :                             174.56 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11645.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <FOSU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0076>
+Subject: Job 17841945: <FOSU> in cluster <rcc> Done
+
+Job <FOSU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0076>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 20:37:25 2014
+Results reported on Tue Aug 26 04:16:35 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyFOS_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/SP1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/FOS_UW/SP1.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   39824.80 sec.
+    Max Memory :                                 260 MB
+    Average Memory :                             143.82 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11740.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <FOSU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc1177>
+Subject: Job 17841961: <FOSU> in cluster <rcc> Done
+
+Job <FOSU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc1177>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 20:44:42 2014
+Results reported on Tue Aug 26 04:22:21 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyFOS_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/ZNF263.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/FOS_UW/ZNF263.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   36121.19 sec.
+    Max Memory :                                 760 MB
+    Average Memory :                             432.31 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11240.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <FOSU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0170>
+Subject: Job 17841939: <FOSU> in cluster <rcc> Done
+
+Job <FOSU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0170>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 20:36:10 2014
+Results reported on Tue Aug 26 04:41:52 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyFOS_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/PU1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/FOS_UW/PU1.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   40535.53 sec.
+    Max Memory :                                 375 MB
+    Average Memory :                             212.17 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11625.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <FOSU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0145>
+Subject: Job 17841926: <FOSU> in cluster <rcc> Done
+
+Job <FOSU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0145>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 20:27:44 2014
+Results reported on Tue Aug 26 04:43:08 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyFOS_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/IRF1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/FOS_UW/IRF1.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   42212.27 sec.
+    Max Memory :                                 610 MB
+    Average Memory :                             296.91 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11390.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <FOSU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc1256>
+Subject: Job 17841949: <FOSU> in cluster <rcc> Done
+
+Job <FOSU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc1256>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 20:44:42 2014
+Results reported on Tue Aug 26 05:53:37 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyFOS_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/STAT2.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/FOS_UW/STAT2.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   43359.11 sec.
+    Max Memory :                                 818 MB
+    Average Memory :                             468.67 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11182.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <FOSU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbmc0139>
+Subject: Job 17841902: <FOSU> in cluster <rcc> Done
+
+Job <FOSU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0139>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 20:15:57 2014
+Results reported on Tue Aug 26 06:21:11 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyFOS_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/ARID3A.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/FOS_UW/ARID3A.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   51344.71 sec.
+    Max Memory :                                 469 MB
+    Average Memory :                             215.86 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11531.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <FOSU_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxbdc01>
+Subject: Job 17841932: <FOSU> in cluster <rcc> Done
+
+Job <FOSU> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbdc01>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Aug 25 20:29:19 2014
+Results reported on Tue Aug 26 11:57:25 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyFOS_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/MEF2A.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/UW_K562/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/fdr_4/FOS_UW/MEF2A.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   86594.49 sec.
+    Max Memory :                                 821 MB
+    Average Memory :                             465.61 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11179.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <FOSU_err.txt> for stderr output of this job.
+

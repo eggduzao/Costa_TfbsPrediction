@@ -1,0 +1,40 @@
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 29635060: <K562_EIMH> in cluster <rcc> Done
+
+Job <K562_EIMH> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Mon Jun 27 14:21:17 2016
+Results reported on Mon Jun 27 14:39:24 2016
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results_DNase/Footprints/Results/K562/TCH_DU.bed /hpcwork/izkf/projects/TfbsPrediction/Results_DNase/Footprints/Predictions/K562/H-HMM_D13_DU.bed /hpcwork/izkf/projects/TfbsPrediction/Results_DNase/Footprints/Results/K562/HINT_H13_DU.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   1113.23 sec.
+    Max Memory :                                 12000 MB
+    Average Memory :                             7663.14 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               0.00 MB
+    Max Swap :                                   -
+    Max Processes :                              9
+    Max Threads :                                10
+    Run time :                                   1087 sec.
+    Turnaround time :                            1138 sec.
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <K562_EIMH_err.txt> for stderr output of this job.
+

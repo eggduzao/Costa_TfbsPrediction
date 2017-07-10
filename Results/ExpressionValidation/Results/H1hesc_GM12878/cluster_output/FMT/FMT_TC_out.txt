@@ -1,0 +1,37 @@
+Sender: LSF System <lsfadmin@linuxbsc003>
+Subject: Job 25009090: <FMT_TC> in cluster <rcc> Done
+
+Job <FMT_TC> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbsc003>, in queue <low>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/ExpressionValidation/Results/H1hesc_GM12878> was used as the working directory.
+Started at Fri Nov 20 04:38:27 2015
+Results reported on Fri Nov 20 06:26:00 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./fetchMultivarTable_pipeline.zsh TC /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/ExpressionValidation/Results/H1hesc_GM12878/multivar_table/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   6529.47 sec.
+    Max Memory :                                 1827 MB
+    Average Memory :                             1204.33 MB
+    Total Requested Memory :                     24000.00 MB
+    Delta Memory :                               22173.00 MB
+    Max Processes :                              5
+    Max Threads :                                6
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <FMT_TC_err.txt> for stderr output of this job.
+

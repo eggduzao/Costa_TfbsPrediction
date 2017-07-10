@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/bin/../CompetingMethods/applyFootprintMixture.py", line 62, in <module>
+    resFile = open(tempFileName,"r")
+IOError: [Errno 2] No such file or directory: '/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FootprintMixture_DU/RFX5.bed.temp'

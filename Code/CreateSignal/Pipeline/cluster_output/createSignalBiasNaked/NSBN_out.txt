@@ -1,0 +1,481 @@
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 21651333: <NSBN> in cluster <rcc> Done
+
+Job <NSBN> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CreateSignal/Pipeline> was used as the working directory.
+Started at Wed May 20 17:35:32 2015
+Results reported on Wed May 20 23:02:04 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./createSignal_pipeline.zsh 9 98 98 /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/HMM/InputRegions/DU_H1hesc/hd.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/BiasNaked/DU_H1hesc/DNaseBiasCorrected.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/NormSlopeBiasNaked/DU_H1hesc/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   20013.86 sec.
+    Max Memory :                                 8593 MB
+    Average Memory :                             3672.58 MB
+    Total Requested Memory :                     60000.00 MB
+    Delta Memory :                               51407.00 MB
+    Max Processes :                              7
+    Max Threads :                                8
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <NSBN_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 21651337: <NSBN> in cluster <rcc> Done
+
+Job <NSBN> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CreateSignal/Pipeline> was used as the working directory.
+Started at Wed May 20 17:35:32 2015
+Results reported on Wed May 20 23:41:50 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./createSignal_pipeline.zsh 9 98 98 /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/HMM/InputRegions/DU_Huvec/hd.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/BiasNaked/DU_Huvec/DNaseBiasCorrected.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/NormSlopeBiasNaked/DU_Huvec/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   22395.59 sec.
+    Max Memory :                                 9693 MB
+    Average Memory :                             4067.24 MB
+    Total Requested Memory :                     60000.00 MB
+    Delta Memory :                               50307.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <NSBN_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 21651336: <NSBN> in cluster <rcc> Done
+
+Job <NSBN> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CreateSignal/Pipeline> was used as the working directory.
+Started at Wed May 20 17:35:32 2015
+Results reported on Wed May 20 23:57:33 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./createSignal_pipeline.zsh 9 98 98 /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/HMM/InputRegions/DU_HepG2/hd.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/BiasNaked/DU_HepG2/DNaseBiasCorrected.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/NormSlopeBiasNaked/DU_HepG2/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   23301.67 sec.
+    Max Memory :                                 10227 MB
+    Average Memory :                             4303.49 MB
+    Total Requested Memory :                     60000.00 MB
+    Delta Memory :                               49773.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <NSBN_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 21651342: <NSBN> in cluster <rcc> Done
+
+Job <NSBN> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CreateSignal/Pipeline> was used as the working directory.
+Started at Wed May 20 23:42:23 2015
+Results reported on Thu May 21 00:00:37 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./createSignal_pipeline.zsh 9 98 98 /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/HMM/InputRegions/UW_IMR90/hd.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/BiasNaked/UW_IMR90/DNaseBiasCorrected.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/NormSlopeBiasNaked/UW_IMR90/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   1085.71 sec.
+    Max Memory :                                 533 MB
+    Average Memory :                             285.78 MB
+    Total Requested Memory :                     60000.00 MB
+    Delta Memory :                               59467.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <NSBN_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 21651334: <NSBN> in cluster <rcc> Done
+
+Job <NSBN> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CreateSignal/Pipeline> was used as the working directory.
+Started at Wed May 20 17:35:32 2015
+Results reported on Thu May 21 00:26:17 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./createSignal_pipeline.zsh 9 98 98 /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/HMM/InputRegions/DU_HeLaS3/hd.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/BiasNaked/DU_HeLaS3/DNaseBiasCorrected.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/NormSlopeBiasNaked/DU_HeLaS3/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   25052.34 sec.
+    Max Memory :                                 10959 MB
+    Average Memory :                             4627.14 MB
+    Total Requested Memory :                     60000.00 MB
+    Delta Memory :                               49041.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <NSBN_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 21651339: <NSBN> in cluster <rcc> Done
+
+Job <NSBN> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CreateSignal/Pipeline> was used as the working directory.
+Started at Wed May 20 22:03:08 2015
+Results reported on Thu May 21 04:29:51 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./createSignal_pipeline.zsh 9 98 98 /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/HMM/InputRegions/DU_Mcf7/hd.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/BiasNaked/DU_Mcf7/DNaseBiasCorrected.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/NormSlopeBiasNaked/DU_Mcf7/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   23767.09 sec.
+    Max Memory :                                 10160 MB
+    Average Memory :                             5040.92 MB
+    Total Requested Memory :                     60000.00 MB
+    Delta Memory :                               49840.00 MB
+    Max Processes :                              7
+    Max Threads :                                8
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <NSBN_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 21651344: <NSBN> in cluster <rcc> Done
+
+Job <NSBN> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CreateSignal/Pipeline> was used as the working directory.
+Started at Thu May 21 00:01:28 2015
+Results reported on Thu May 21 04:57:38 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./createSignal_pipeline.zsh 9 98 98 /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/HMM/InputRegions/UW_LnCaP/hd.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/BiasNaked/UW_LnCaP/DNaseBiasCorrected.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/NormSlopeBiasNaked/UW_LnCaP/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   18172.41 sec.
+    Max Memory :                                 7938 MB
+    Average Memory :                             3931.20 MB
+    Total Requested Memory :                     60000.00 MB
+    Delta Memory :                               52062.00 MB
+    Max Processes :                              7
+    Max Threads :                                8
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <NSBN_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 21651340: <NSBN> in cluster <rcc> Done
+
+Job <NSBN> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CreateSignal/Pipeline> was used as the working directory.
+Started at Wed May 20 22:22:20 2015
+Results reported on Thu May 21 05:18:27 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./createSignal_pipeline.zsh 9 98 98 /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/HMM/InputRegions/UW_HepG2/hd.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/BiasNaked/UW_HepG2/DNaseBiasCorrected.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/NormSlopeBiasNaked/UW_HepG2/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   25399.69 sec.
+    Max Memory :                                 10955 MB
+    Average Memory :                             5432.74 MB
+    Total Requested Memory :                     60000.00 MB
+    Delta Memory :                               49045.00 MB
+    Max Processes :                              7
+    Max Threads :                                8
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <NSBN_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 21651338: <NSBN> in cluster <rcc> Done
+
+Job <NSBN> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CreateSignal/Pipeline> was used as the working directory.
+Started at Wed May 20 22:01:22 2015
+Results reported on Thu May 21 05:27:06 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./createSignal_pipeline.zsh 9 98 98 /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/HMM/InputRegions/DU_K562/hd.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/BiasNaked/DU_K562/DNaseBiasCorrected.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/NormSlopeBiasNaked/DU_K562/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   27213.04 sec.
+    Max Memory :                                 11730 MB
+    Average Memory :                             5805.99 MB
+    Total Requested Memory :                     60000.00 MB
+    Delta Memory :                               48270.00 MB
+    Max Processes :                              7
+    Max Threads :                                8
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <NSBN_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 21651343: <NSBN> in cluster <rcc> Done
+
+Job <NSBN> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CreateSignal/Pipeline> was used as the working directory.
+Started at Wed May 20 23:57:58 2015
+Results reported on Thu May 21 07:53:24 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./createSignal_pipeline.zsh 9 98 98 /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/HMM/InputRegions/UW_K562/hd.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/BiasNaked/UW_K562/DNaseBiasCorrected.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/NormSlopeBiasNaked/UW_K562/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   29123.81 sec.
+    Max Memory :                                 12594 MB
+    Average Memory :                             6166.01 MB
+    Total Requested Memory :                     60000.00 MB
+    Delta Memory :                               47406.00 MB
+    Max Processes :                              7
+    Max Threads :                                8
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <NSBN_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 21651341: <NSBN> in cluster <rcc> Done
+
+Job <NSBN> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CreateSignal/Pipeline> was used as the working directory.
+Started at Wed May 20 23:02:48 2015
+Results reported on Thu May 21 08:49:47 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./createSignal_pipeline.zsh 9 98 98 /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/HMM/InputRegions/UW_Huvec/hd.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/BiasNaked/UW_Huvec/DNaseBiasCorrected.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/NormSlopeBiasNaked/UW_Huvec/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   35931.91 sec.
+    Max Memory :                                 15393 MB
+    Average Memory :                             7589.03 MB
+    Total Requested Memory :                     60000.00 MB
+    Delta Memory :                               44607.00 MB
+    Max Processes :                              7
+    Max Threads :                                8
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <NSBN_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 21651345: <NSBN> in cluster <rcc> Done
+
+Job <NSBN> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CreateSignal/Pipeline> was used as the working directory.
+Started at Thu May 21 04:30:23 2015
+Results reported on Thu May 21 09:03:19 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./createSignal_pipeline.zsh 9 98 98 /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/HMM/InputRegions/UW_m3134_with_DEX/hd.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/BiasNaked/UW_m3134_with_DEX/DNaseBiasCorrected.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/NormSlopeBiasNaked/UW_m3134_with_DEX/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   16762.60 sec.
+    Max Memory :                                 14215 MB
+    Average Memory :                             3719.92 MB
+    Total Requested Memory :                     60000.00 MB
+    Delta Memory :                               45785.00 MB
+    Max Processes :                              7
+    Max Threads :                                8
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <NSBN_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 21651346: <NSBN> in cluster <rcc> Done
+
+Job <NSBN> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CreateSignal/Pipeline> was used as the working directory.
+Started at Thu May 21 04:58:00 2015
+Results reported on Thu May 21 09:34:19 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./createSignal_pipeline.zsh 9 98 98 /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/HMM/InputRegions/UW_m3134_wo_DEX/hd.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/BiasNaked/UW_m3134_wo_DEX/DNaseBiasCorrected.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/NormSlopeBiasNaked/UW_m3134_wo_DEX/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   17007.99 sec.
+    Max Memory :                                 14383 MB
+    Average Memory :                             3732.77 MB
+    Total Requested Memory :                     60000.00 MB
+    Delta Memory :                               45617.00 MB
+    Max Processes :                              7
+    Max Threads :                                8
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <NSBN_err.txt> for stderr output of this job.
+

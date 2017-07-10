@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/ExpressionValidation/Results/GM12878_K562/filterMetrics.py", line 70, in <module>
+    mf = mfDictH[factor]
+KeyError: 'DUX4L1'

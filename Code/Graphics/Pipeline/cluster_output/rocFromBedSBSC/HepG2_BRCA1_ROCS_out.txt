@@ -1,0 +1,37 @@
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22746590: <HepG2_BRCA1_ROCS> in cluster <rcc> Done
+
+Job <HepG2_BRCA1_ROCS> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Graphics/Pipeline> was used as the working directory.
+Started at Thu Jul  2 04:46:43 2015
+Results reported on Thu Jul  2 04:56:24 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./rocFromBedSBSC_pipeline.zsh BRCA1 SC,SC,SC,SC,SC,SB,SB,SB,SB,SB,SB PWM,TC_DU,TC_UW,FOS_DU,FOS_UW,HMMD_DU,HMMD_DU_BIAS,HMMD_DU_NAKED,HMMD_UW,HMMD_UW_BIAS,HMMD_UW_NAKED /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/HepG2_Evidence/fdr_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/HepG2/TagCount_DU.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/HepG2/TagCount_UW.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/HepG2/FOS_DU.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/HepG2/FOS_UW.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/HepG2/HMM_DNase_DU_ModelHepG2_5.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/HepG2/HMM_DNase_DU_BIAS_ModelHepG2_5.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/HepG2/HMM_DNase_DU_NAKED_ModelHepG2_5.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/HepG2/HMM_DNase_UW_ModelHepG2_5.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/HepG2/HMM_DNase_UW_BIAS_ModelHepG2_5.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/HepG2/HMM_DNase_UW_NAKED_ModelHepG2_5.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/ROC_NM3/HepG2/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   559.75 sec.
+    Max Memory :                                 1587 MB
+    Average Memory :                             528.50 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               10413.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <HepG2_BRCA1_ROCS_err.txt> for stderr output of this job.
+

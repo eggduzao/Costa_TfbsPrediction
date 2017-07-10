@@ -1,0 +1,2 @@
+ChiFriedman: 315.6136363636364 F_Friedman: -531.9986789960369 df1: 3 df2:261
+ARQUIVO: /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/FriedmanNemenyi/NatMetAn/Threshold/Input/sb.txt

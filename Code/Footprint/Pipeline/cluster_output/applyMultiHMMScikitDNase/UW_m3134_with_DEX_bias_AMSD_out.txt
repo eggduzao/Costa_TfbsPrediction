@@ -1,0 +1,37 @@
+Sender: LSF System <lsfadmin@linuxbmc0384>
+Subject: Job 21664339: <UW_m3134_with_DEX_bias_AMSD> in cluster <rcc> Done
+
+Job <UW_m3134_with_DEX_bias_AMSD> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0384>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Footprint/Pipeline> was used as the working directory.
+Started at Thu May 21 18:51:18 2015
+Results reported on Fri May 22 05:58:08 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyMultiHMMScikitDNase_pipeline.zsh /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/HMM/InputRegions/UW_m3134_with_DEX/dnase_HS_regions.bed /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/HMM/Models_DNase/m3134_with_DEX/Model/bias.hmm /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/NormSlopeBias/UW_m3134_with_DEX/DNaseBiasCorrected_norm.bw,/hpcwork/izkf/projects/TfbsPrediction/Results/Signals/NormSlopeBias/UW_m3134_with_DEX/DNaseBiasCorrected_slope.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/m3134_with_DEX/HMM_DNase_UW_BIAS/DNase_Modelm3134_with_DEX.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   40478.23 sec.
+    Max Memory :                                 1761 MB
+    Average Memory :                             963.27 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               10239.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <UW_m3134_with_DEX_bias_AMSD_err.txt> for stderr output of this job.
+

@@ -1,0 +1,25 @@
+ChiFriedman: 176.08695652173898 F_Friedman: 2024.9999999999607 df1: 2 df2:182
+Estatisticas -- /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/FriedmanNemenyi/NatMet/Naked/Input/10AUC.txt(true)
+Ranking:
+1	1.0217391304347827
+2	2.0
+0	2.9782608695652173
+Friedman teste pvalue: 4.47549766802609E-125
+
+Nemenyi Test:CritDiff(.05) 0.3456039452270789
+CritDiff(.10) 0.3025508940298489
+0 2 0.9782608695652173
+0 1 1.9565217391304346
+2 1 0.9782608695652173
+
+
+Tabela de Comparacao (+ significa diferenca estatistica 90% e * 95%)
+,0,1,2,
+0,,*,*,
+1,,,,
+2,,*,,
+Win/Tie/Loss -- /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/FriedmanNemenyi/NatMet/Naked/Input/10AUC.txt
+
+---,1/0/91,1/0/91,
+91/0/1,---,91/0/1,
+91/0/1,1/0/91,---,

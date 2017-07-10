@@ -1,0 +1,37 @@
+Sender: LSF System <lsfadmin@linuxbmc0099>
+Subject: Job 25008969: <FLM_KLF1> in cluster <rcc> Done
+
+Job <FLM_KLF1> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0099>, in queue <low>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/ExpressionValidation/Results/H1hesc_K562> was used as the working directory.
+Started at Fri Nov 20 04:10:46 2015
+Results reported on Fri Nov 20 04:11:20 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./filterMetrics_pipeline.zsh /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/ExpressionValidation/Validation/distribution/KLF1.txt
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   15.17 sec.
+    Max Memory :                                 1004 MB
+    Average Memory :                             693.00 MB
+    Total Requested Memory :                     24000.00 MB
+    Delta Memory :                               22996.00 MB
+    Max Processes :                              5
+    Max Threads :                                6
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <FLM_KLF1_err.txt> for stderr output of this job.
+

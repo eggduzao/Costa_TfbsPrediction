@@ -1,0 +1,37 @@
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 21653772: <UW_m3134_wo_DEX_regular_AMSD> in cluster <rcc> Done
+
+Job <UW_m3134_wo_DEX_regular_AMSD> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Footprint/Pipeline> was used as the working directory.
+Started at Thu May 21 05:19:41 2015
+Results reported on Thu May 21 19:38:54 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyMultiHMMScikitDNase_pipeline.zsh /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/HMM/InputRegions/UW_m3134_wo_DEX/dnase_HS_regions.bed /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/HMM/Models_DNase/m3134_wo_DEX/Model/regular.hmm /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/NormSlope/UW_m3134_wo_DEX/DNase_norm.bw,/hpcwork/izkf/projects/TfbsPrediction/Results/Signals/NormSlope/UW_m3134_wo_DEX/DNase_slope.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/m3134_wo_DEX/HMM_DNase_UW/DNase_Modelm3134_wo_DEX.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   52376.08 sec.
+    Max Memory :                                 1641 MB
+    Average Memory :                             874.87 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               10359.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <UW_m3134_wo_DEX_regular_AMSD_err.txt> for stderr output of this job.
+

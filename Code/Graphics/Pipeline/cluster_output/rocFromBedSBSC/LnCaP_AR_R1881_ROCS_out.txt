@@ -1,0 +1,37 @@
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22746693: <LnCaP_AR_R1881_ROCS> in cluster <rcc> Done
+
+Job <LnCaP_AR_R1881_ROCS> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Graphics/Pipeline> was used as the working directory.
+Started at Thu Jul  2 07:25:40 2015
+Results reported on Thu Jul  2 07:29:52 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./rocFromBedSBSC_pipeline.zsh AR_R1881 SC,SC,SC,SB,SB,SB PWM,TC_UW,FOS_UW,HMMD_UW,HMMD_UW_BIAS,HMMD_UW_NAKED /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/LnCaP_Evidence/fdr_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/LnCaP/TagCount_UW.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/LnCaP/FOS_UW.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/LnCaP/HMM_DNase_UW_ModelLnCaP_5.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/LnCaP/HMM_DNase_UW_BIAS_ModelLnCaP_5.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/LnCaP/HMM_DNase_UW_NAKED_ModelLnCaP_5.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/ROC_NM3/LnCaP/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   242.13 sec.
+    Max Memory :                                 2366 MB
+    Average Memory :                             1267.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               9634.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <LnCaP_AR_R1881_ROCS_err.txt> for stderr output of this job.
+

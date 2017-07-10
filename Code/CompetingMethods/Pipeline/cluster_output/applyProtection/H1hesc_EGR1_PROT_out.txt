@@ -1,0 +1,37 @@
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 24910337: <H1hesc_EGR1_PROT> in cluster <rcc> Done
+
+Job <H1hesc_EGR1_PROT> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Thu Nov 12 15:43:13 2015
+Results reported on Thu Nov 12 22:11:45 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyProtection_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/H1hesc_Evidence/fdr_4/EGR1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/DU_H1hesc/DNase.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/H1hesc/Protection/EGR1.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   38678.93 sec.
+    Max Memory :                                 178 MB
+    Average Memory :                             99.71 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11822.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <H1hesc_EGR1_PROT_err.txt> for stderr output of this job.
+

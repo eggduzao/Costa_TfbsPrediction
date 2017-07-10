@@ -1,0 +1,3350 @@
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711559: <EIMS_PIQ> in cluster <rcc> Done
+
+Job <EIMS_PIQ> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:30:03 2015
+Results reported on Tue Jun 30 03:30:39 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/NRF1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/H1hesc/PIQ_DU/PIQ_NRF1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/PIQ_DU/NRF1_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   12.51 sec.
+    Max Memory :                                 276 MB
+    Average Memory :                             74.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11724.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_PIQ_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711549: <EIMS_PIQ> in cluster <rcc> Done
+
+Job <EIMS_PIQ> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:30:03 2015
+Results reported on Tue Jun 30 03:30:40 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/GABP.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/H1hesc/PIQ_DU/PIQ_GABP.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/PIQ_DU/GABP_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   23.11 sec.
+    Max Memory :                                 719 MB
+    Average Memory :                             93.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11281.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_PIQ_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711563: <EIMS_PIQ> in cluster <rcc> Done
+
+Job <EIMS_PIQ> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:30:03 2015
+Results reported on Tue Jun 30 03:30:45 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/CTCF.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/H1hesc/PIQ_DU/PIQ_CTCF.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/PIQ_DU/CTCF_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   28.40 sec.
+    Max Memory :                                 628 MB
+    Average Memory :                             84.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11372.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_PIQ_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711557: <EIMS_PIQ> in cluster <rcc> Done
+
+Job <EIMS_PIQ> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:30:03 2015
+Results reported on Tue Jun 30 03:30:46 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/JUND.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/H1hesc/PIQ_DU/PIQ_JUND.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/PIQ_DU/JUND_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   29.52 sec.
+    Max Memory :                                 555 MB
+    Average Memory :                             89.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11445.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_PIQ_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711565: <EIMS_PIQ> in cluster <rcc> Done
+
+Job <EIMS_PIQ> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:30:03 2015
+Results reported on Tue Jun 30 03:30:46 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/SP4.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/H1hesc/PIQ_DU/PIQ_SP4.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/PIQ_DU/SP4_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   30.48 sec.
+    Max Memory :                                 752 MB
+    Average Memory :                             93.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11248.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_PIQ_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711562: <EIMS_PIQ> in cluster <rcc> Done
+
+Job <EIMS_PIQ> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:30:03 2015
+Results reported on Tue Jun 30 03:30:52 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/RAD21.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/H1hesc/PIQ_DU/PIQ_RAD21.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/PIQ_DU/RAD21_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   31.76 sec.
+    Max Memory :                                 630 MB
+    Average Memory :                             57.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11370.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_PIQ_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711548: <EIMS_PIQ> in cluster <rcc> Done
+
+Job <EIMS_PIQ> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:30:03 2015
+Results reported on Tue Jun 30 03:30:54 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/SIX5.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/H1hesc/PIQ_DU/PIQ_SIX5.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/PIQ_DU/SIX5_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   35.75 sec.
+    Max Memory :                                 624 MB
+    Average Memory :                             75.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11376.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_PIQ_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711555: <EIMS_PIQ> in cluster <rcc> Done
+
+Job <EIMS_PIQ> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:30:03 2015
+Results reported on Tue Jun 30 03:31:06 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/JUN.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/H1hesc/PIQ_DU/PIQ_JUN.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/PIQ_DU/JUN_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   40.48 sec.
+    Max Memory :                                 892 MB
+    Average Memory :                             93.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11108.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_PIQ_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711570: <EIMS_PIQ> in cluster <rcc> Done
+
+Job <EIMS_PIQ> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:30:03 2015
+Results reported on Tue Jun 30 03:31:07 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/MAX.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/H1hesc/PIQ_DU/PIQ_MAX.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/PIQ_DU/MAX_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   50.79 sec.
+    Max Memory :                                 1308 MB
+    Average Memory :                             102.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               10692.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_PIQ_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711553: <EIMS_PIQ> in cluster <rcc> Done
+
+Job <EIMS_PIQ> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:30:03 2015
+Results reported on Tue Jun 30 03:31:08 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/TCF12.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/H1hesc/PIQ_DU/PIQ_TCF12.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/PIQ_DU/TCF12_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   51.21 sec.
+    Max Memory :                                 1283 MB
+    Average Memory :                             84.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               10717.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_PIQ_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711572: <EIMS_PIQ> in cluster <rcc> Done
+
+Job <EIMS_PIQ> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:30:03 2015
+Results reported on Tue Jun 30 03:31:09 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/USF1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/H1hesc/PIQ_DU/PIQ_USF1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/PIQ_DU/USF1_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   52.40 sec.
+    Max Memory :                                 1477 MB
+    Average Memory :                             93.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               10523.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_PIQ_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711552: <EIMS_PIQ> in cluster <rcc> Done
+
+Job <EIMS_PIQ> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:30:03 2015
+Results reported on Tue Jun 30 03:31:10 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/USF2.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/H1hesc/PIQ_DU/PIQ_USF2.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/PIQ_DU/USF2_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   52.60 sec.
+    Max Memory :                                 1180 MB
+    Average Memory :                             66.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               10820.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_PIQ_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711566: <EIMS_PIQ> in cluster <rcc> Done
+
+Job <EIMS_PIQ> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:30:03 2015
+Results reported on Tue Jun 30 03:31:11 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/RFX5.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/H1hesc/PIQ_DU/PIQ_RFX5.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/PIQ_DU/RFX5_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   53.99 sec.
+    Max Memory :                                 1407 MB
+    Average Memory :                             66.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               10593.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_PIQ_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711569: <EIMS_PIQ> in cluster <rcc> Done
+
+Job <EIMS_PIQ> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:30:03 2015
+Results reported on Tue Jun 30 03:31:23 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/SRF.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/H1hesc/PIQ_DU/PIQ_SRF.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/PIQ_DU/SRF_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   59.09 sec.
+    Max Memory :                                 1379 MB
+    Average Memory :                             75.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               10621.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_PIQ_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711560: <EIMS_PIQ> in cluster <rcc> Done
+
+Job <EIMS_PIQ> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:30:03 2015
+Results reported on Tue Jun 30 03:31:24 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/EGR1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/H1hesc/PIQ_DU/PIQ_EGR1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/PIQ_DU/EGR1_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   72.53 sec.
+    Max Memory :                                 1631 MB
+    Average Memory :                             149.50 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               10369.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_PIQ_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711551: <EIMS_PIQ> in cluster <rcc> Done
+
+Job <EIMS_PIQ> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:30:03 2015
+Results reported on Tue Jun 30 03:31:35 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/BRCA1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/H1hesc/PIQ_DU/PIQ_BRCA1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/PIQ_DU/BRCA1_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   77.69 sec.
+    Max Memory :                                 2795 MB
+    Average Memory :                             1060.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               9205.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_PIQ_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711554: <EIMS_PIQ> in cluster <rcc> Done
+
+Job <EIMS_PIQ> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:30:03 2015
+Results reported on Tue Jun 30 03:31:36 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/CEBPB.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/H1hesc/PIQ_DU/PIQ_CEBPB.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/PIQ_DU/CEBPB_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   79.97 sec.
+    Max Memory :                                 1961 MB
+    Average Memory :                             1020.50 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               10039.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_PIQ_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711564: <EIMS_PIQ> in cluster <rcc> Done
+
+Job <EIMS_PIQ> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:30:03 2015
+Results reported on Tue Jun 30 03:31:38 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/YY1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/H1hesc/PIQ_DU/PIQ_YY1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/PIQ_DU/YY1_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   81.33 sec.
+    Max Memory :                                 1932 MB
+    Average Memory :                             996.50 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               10068.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_PIQ_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711571: <EIMS_PIQ> in cluster <rcc> Done
+
+Job <EIMS_PIQ> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:30:03 2015
+Results reported on Tue Jun 30 03:31:53 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/SP2.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/H1hesc/PIQ_DU/PIQ_SP2.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/PIQ_DU/SP2_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   96.78 sec.
+    Max Memory :                                 2462 MB
+    Average Memory :                             747.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               9538.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_PIQ_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711568: <EIMS_PIQ> in cluster <rcc> Done
+
+Job <EIMS_PIQ> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:30:03 2015
+Results reported on Tue Jun 30 03:31:55 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/RXRA.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/H1hesc/PIQ_DU/PIQ_RXRA.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/PIQ_DU/RXRA_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   97.66 sec.
+    Max Memory :                                 2968 MB
+    Average Memory :                             526.50 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               9032.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_PIQ_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711558: <EIMS_PIQ> in cluster <rcc> Done
+
+Job <EIMS_PIQ> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:30:03 2015
+Results reported on Tue Jun 30 03:32:31 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/TBP.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/H1hesc/PIQ_DU/PIQ_TBP.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/PIQ_DU/TBP_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   141.88 sec.
+    Max Memory :                                 4347 MB
+    Average Memory :                             861.33 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               7653.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_PIQ_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711556: <EIMS_PIQ> in cluster <rcc> Done
+
+Job <EIMS_PIQ> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:30:03 2015
+Results reported on Tue Jun 30 03:32:48 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/POU5F1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/H1hesc/PIQ_DU/PIQ_POU5F1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/PIQ_DU/POU5F1_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   150.42 sec.
+    Max Memory :                                 3929 MB
+    Average Memory :                             2068.33 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               8071.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_PIQ_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711581: <EIMS_PIQ> in cluster <rcc> Done
+
+Job <EIMS_PIQ> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:32:36 2015
+Results reported on Tue Jun 30 03:33:04 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/BACH1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/H1hesc/PIQ_DU/PIQ_BACH1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/PIQ_DU/BACH1_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   19.50 sec.
+    Max Memory :                                 318 MB
+    Average Memory :                             76.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11682.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_PIQ_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711576: <EIMS_PIQ> in cluster <rcc> Done
+
+Job <EIMS_PIQ> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:32:32 2015
+Results reported on Tue Jun 30 03:33:04 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/REST.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/H1hesc/PIQ_DU/PIQ_REST.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/PIQ_DU/REST_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   18.64 sec.
+    Max Memory :                                 285 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11715.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_PIQ_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711586: <EIMS_PIQ> in cluster <rcc> Done
+
+Job <EIMS_PIQ> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:32:40 2015
+Results reported on Tue Jun 30 03:33:05 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/GABP.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/PIQ_GABP.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/PIQ_DU/GABP_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   22.98 sec.
+    Max Memory :                                 731 MB
+    Average Memory :                             76.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11269.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_PIQ_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711582: <EIMS_PIQ> in cluster <rcc> Done
+
+Job <EIMS_PIQ> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:32:37 2015
+Results reported on Tue Jun 30 03:33:15 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/FOSL1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/H1hesc/PIQ_DU/PIQ_FOSL1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/PIQ_DU/FOSL1_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   32.02 sec.
+    Max Memory :                                 671 MB
+    Average Memory :                             75.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11329.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_PIQ_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711578: <EIMS_PIQ> in cluster <rcc> Done
+
+Job <EIMS_PIQ> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:32:35 2015
+Results reported on Tue Jun 30 03:33:16 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/ZNF143.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/H1hesc/PIQ_DU/PIQ_ZNF143.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/PIQ_DU/ZNF143_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   34.52 sec.
+    Max Memory :                                 630 MB
+    Average Memory :                             71.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11370.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_PIQ_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711584: <EIMS_PIQ> in cluster <rcc> Done
+
+Job <EIMS_PIQ> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:32:38 2015
+Results reported on Tue Jun 30 03:33:16 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/SIX5.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/PIQ_SIX5.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/PIQ_DU/SIX5_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   34.26 sec.
+    Max Memory :                                 621 MB
+    Average Memory :                             70.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11379.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_PIQ_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711575: <EIMS_PIQ> in cluster <rcc> Done
+
+Job <EIMS_PIQ> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:32:31 2015
+Results reported on Tue Jun 30 03:33:35 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/MYC.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/H1hesc/PIQ_DU/PIQ_MYC.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/PIQ_DU/MYC_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   41.30 sec.
+    Max Memory :                                 957 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11043.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_PIQ_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711580: <EIMS_PIQ> in cluster <rcc> Done
+
+Job <EIMS_PIQ> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:32:36 2015
+Results reported on Tue Jun 30 03:33:36 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/ATF3.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/H1hesc/PIQ_DU/PIQ_ATF3.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/PIQ_DU/ATF3_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   53.04 sec.
+    Max Memory :                                 1477 MB
+    Average Memory :                             75.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               10523.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_PIQ_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711583: <EIMS_PIQ> in cluster <rcc> Done
+
+Job <EIMS_PIQ> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:32:38 2015
+Results reported on Tue Jun 30 03:33:46 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/ELK1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/PIQ_ELK1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/PIQ_DU/ELK1_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   72.36 sec.
+    Max Memory :                                 2444 MB
+    Average Memory :                             135.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               9556.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_PIQ_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711585: <EIMS_PIQ> in cluster <rcc> Done
+
+Job <EIMS_PIQ> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:32:39 2015
+Results reported on Tue Jun 30 03:33:57 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/ELF1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/PIQ_ELF1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/PIQ_DU/ELF1_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   72.13 sec.
+    Max Memory :                                 1963 MB
+    Average Memory :                             171.50 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               10037.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_PIQ_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711577: <EIMS_PIQ> in cluster <rcc> Done
+
+Job <EIMS_PIQ> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:32:34 2015
+Results reported on Tue Jun 30 03:34:18 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/MAFK.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/H1hesc/PIQ_DU/PIQ_MAFK.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/PIQ_DU/MAFK_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   82.11 sec.
+    Max Memory :                                 2279 MB
+    Average Memory :                             1146.50 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               9721.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_PIQ_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711595: <EIMS_PIQ> in cluster <rcc> Done
+
+Job <EIMS_PIQ> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:33:46 2015
+Results reported on Tue Jun 30 03:34:20 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/SMC3.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/PIQ_SMC3.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/PIQ_DU/SMC3_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   27.89 sec.
+    Max Memory :                                 635 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11365.00 MB
+    Max Processes :                              2
+    Max Threads :                                2
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_PIQ_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711588: <EIMS_PIQ> in cluster <rcc> Done
+
+Job <EIMS_PIQ> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:33:46 2015
+Results reported on Tue Jun 30 03:34:21 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/EJUND.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/PIQ_EJUND.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/PIQ_DU/EJUND_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   28.71 sec.
+    Max Memory :                                 559 MB
+    Average Memory :                             1.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11441.00 MB
+    Max Processes :                              1
+    Max Threads :                                1
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_PIQ_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711579: <EIMS_PIQ> in cluster <rcc> Done
+
+Job <EIMS_PIQ> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:32:36 2015
+Results reported on Tue Jun 30 03:34:22 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/SP1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/H1hesc/PIQ_DU/PIQ_SP1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/PIQ_DU/SP1_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   101.38 sec.
+    Max Memory :                                 2491 MB
+    Average Memory :                             508.50 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               9509.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_PIQ_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711593: <EIMS_PIQ> in cluster <rcc> Done
+
+Job <EIMS_PIQ> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:33:46 2015
+Results reported on Tue Jun 30 03:34:31 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/JUN.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/PIQ_JUN.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/PIQ_DU/JUN_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   39.73 sec.
+    Max Memory :                                 913 MB
+    Average Memory :                             1.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11087.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_PIQ_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711590: <EIMS_PIQ> in cluster <rcc> Done
+
+Job <EIMS_PIQ> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:33:46 2015
+Results reported on Tue Jun 30 03:34:32 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/FOS.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/PIQ_FOS.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/PIQ_DU/FOS_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   40.73 sec.
+    Max Memory :                                 993 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11007.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_PIQ_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711589: <EIMS_PIQ> in cluster <rcc> Done
+
+Job <EIMS_PIQ> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:33:46 2015
+Results reported on Tue Jun 30 03:34:37 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/NR2F2.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/PIQ_NR2F2.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/PIQ_DU/NR2F2_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   45.56 sec.
+    Max Memory :                                 1292 MB
+    Average Memory :                             1.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               10708.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_PIQ_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711587: <EIMS_PIQ> in cluster <rcc> Done
+
+Job <EIMS_PIQ> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:33:46 2015
+Results reported on Tue Jun 30 03:34:38 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/USF2.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/PIQ_USF2.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/PIQ_DU/USF2_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   46.88 sec.
+    Max Memory :                                 1155 MB
+    Average Memory :                             1.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               10845.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_PIQ_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711573: <EIMS_PIQ> in cluster <rcc> Done
+
+Job <EIMS_PIQ> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:32:31 2015
+Results reported on Tue Jun 30 03:35:00 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/P300.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/H1hesc/PIQ_DU/PIQ_P300.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/PIQ_DU/P300_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   125.26 sec.
+    Max Memory :                                 4143 MB
+    Average Memory :                             1809.67 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               7857.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_PIQ_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711592: <EIMS_PIQ> in cluster <rcc> Done
+
+Job <EIMS_PIQ> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:33:46 2015
+Results reported on Tue Jun 30 03:35:11 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/CEBPB.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/PIQ_CEBPB.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/PIQ_DU/CEBPB_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   76.99 sec.
+    Max Memory :                                 2008 MB
+    Average Memory :                             155.50 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               9992.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_PIQ_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711600: <EIMS_PIQ> in cluster <rcc> Done
+
+Job <EIMS_PIQ> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:35:02 2015
+Results reported on Tue Jun 30 03:35:19 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/NRF1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/PIQ_NRF1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/PIQ_DU/NRF1_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   11.87 sec.
+    Max Memory :                                 274 MB
+    Average Memory :                             30.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11726.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_PIQ_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711594: <EIMS_PIQ> in cluster <rcc> Done
+
+Job <EIMS_PIQ> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:33:46 2015
+Results reported on Tue Jun 30 03:35:20 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/STAT5A.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/PIQ_STAT5A.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/PIQ_DU/STAT5A_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   88.75 sec.
+    Max Memory :                                 2431 MB
+    Average Memory :                             1051.50 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               9569.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_PIQ_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711604: <EIMS_PIQ> in cluster <rcc> Done
+
+Job <EIMS_PIQ> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:35:04 2015
+Results reported on Tue Jun 30 03:35:34 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/RAD21.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/PIQ_RAD21.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/PIQ_DU/RAD21_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   28.19 sec.
+    Max Memory :                                 636 MB
+    Average Memory :                             31.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11364.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_PIQ_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711598: <EIMS_PIQ> in cluster <rcc> Done
+
+Job <EIMS_PIQ> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:35:01 2015
+Results reported on Tue Jun 30 03:35:35 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/JUND.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/PIQ_JUND.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/PIQ_DU/JUND_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   29.77 sec.
+    Max Memory :                                 556 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11444.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_PIQ_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711603: <EIMS_PIQ> in cluster <rcc> Done
+
+Job <EIMS_PIQ> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:35:03 2015
+Results reported on Tue Jun 30 03:36:05 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/NFE2.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/PIQ_NFE2.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/PIQ_DU/NFE2_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   34.18 sec.
+    Max Memory :                                 683 MB
+    Average Memory :                             39.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11317.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_PIQ_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711597: <EIMS_PIQ> in cluster <rcc> Done
+
+Job <EIMS_PIQ> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:35:00 2015
+Results reported on Tue Jun 30 03:36:06 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/E2F6.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/PIQ_E2F6.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/PIQ_DU/E2F6_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   64.79 sec.
+    Max Memory :                                 1480 MB
+    Average Memory :                             114.50 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               10520.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_PIQ_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711601: <EIMS_PIQ> in cluster <rcc> Done
+
+Job <EIMS_PIQ> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:35:02 2015
+Results reported on Tue Jun 30 03:36:10 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/EGR1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/PIQ_EGR1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/PIQ_DU/EGR1_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   69.34 sec.
+    Max Memory :                                 1634 MB
+    Average Memory :                             140.50 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               10366.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_PIQ_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711596: <EIMS_PIQ> in cluster <rcc> Done
+
+Job <EIMS_PIQ> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:35:00 2015
+Results reported on Tue Jun 30 03:36:11 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/GATA1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/PIQ_GATA1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/PIQ_DU/GATA1_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   67.38 sec.
+    Max Memory :                                 1739 MB
+    Average Memory :                             134.50 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               10261.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_PIQ_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711610: <EIMS_PIQ> in cluster <rcc> Done
+
+Job <EIMS_PIQ> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:36:16 2015
+Results reported on Tue Jun 30 03:36:40 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/ZBTB33.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/PIQ_ZBTB33.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/PIQ_DU/ZBTB33_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   7.34 sec.
+    Max Memory :                                 158 MB
+    Average Memory :                             147.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11842.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_PIQ_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711602: <EIMS_PIQ> in cluster <rcc> Done
+
+Job <EIMS_PIQ> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:35:03 2015
+Results reported on Tue Jun 30 03:36:41 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/ETS1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/PIQ_ETS1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/PIQ_DU/ETS1_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   96.26 sec.
+    Max Memory :                                 2557 MB
+    Average Memory :                             574.50 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               9443.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_PIQ_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711609: <EIMS_PIQ> in cluster <rcc> Done
+
+Job <EIMS_PIQ> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:36:15 2015
+Results reported on Tue Jun 30 03:37:01 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/CTCF.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/PIQ_CTCF.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/PIQ_DU/CTCF_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   28.09 sec.
+    Max Memory :                                 635 MB
+    Average Memory :                             89.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11365.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_PIQ_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711607: <EIMS_PIQ> in cluster <rcc> Done
+
+Job <EIMS_PIQ> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:36:11 2015
+Results reported on Tue Jun 30 03:37:02 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/EJUNB.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/PIQ_EJUNB.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/PIQ_DU/EJUNB_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   40.01 sec.
+    Max Memory :                                 788 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11212.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_PIQ_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711615: <EIMS_PIQ> in cluster <rcc> Done
+
+Job <EIMS_PIQ> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:36:19 2015
+Results reported on Tue Jun 30 03:37:14 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/TR4.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/PIQ_TR4.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/PIQ_DU/TR4_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   47.90 sec.
+    Max Memory :                                 1030 MB
+    Average Memory :                             66.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               10970.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_PIQ_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711599: <EIMS_PIQ> in cluster <rcc> Done
+
+Job <EIMS_PIQ> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:35:01 2015
+Results reported on Tue Jun 30 03:37:15 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/TBP.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/PIQ_TBP.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/PIQ_DU/TBP_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   136.73 sec.
+    Max Memory :                                 4331 MB
+    Average Memory :                             560.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               7669.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_PIQ_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711616: <EIMS_PIQ> in cluster <rcc> Done
+
+Job <EIMS_PIQ> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:36:19 2015
+Results reported on Tue Jun 30 03:37:16 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/RFX5.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/PIQ_RFX5.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/PIQ_DU/RFX5_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   52.89 sec.
+    Max Memory :                                 1386 MB
+    Average Memory :                             66.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               10614.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_PIQ_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711608: <EIMS_PIQ> in cluster <rcc> Done
+
+Job <EIMS_PIQ> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:36:14 2015
+Results reported on Tue Jun 30 03:37:32 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/EGATA.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/PIQ_EGATA.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/PIQ_DU/EGATA_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   69.56 sec.
+    Max Memory :                                 1784 MB
+    Average Memory :                             890.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               10216.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_PIQ_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711612: <EIMS_PIQ> in cluster <rcc> Done
+
+Job <EIMS_PIQ> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:36:17 2015
+Results reported on Tue Jun 30 03:37:38 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/YY1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/PIQ_YY1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/PIQ_DU/YY1_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   77.45 sec.
+    Max Memory :                                 1968 MB
+    Average Memory :                             250.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               10032.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_PIQ_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711620: <EIMS_PIQ> in cluster <rcc> Done
+
+Job <EIMS_PIQ> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:37:24 2015
+Results reported on Tue Jun 30 03:38:10 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/ATF1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/PIQ_ATF1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/PIQ_DU/ATF1_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   10.96 sec.
+    Max Memory :                                 218 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11782.00 MB
+    Max Processes :                              1
+    Max Threads :                                1
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_PIQ_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711624: <EIMS_PIQ> in cluster <rcc> Done
+
+Job <EIMS_PIQ> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:37:24 2015
+Results reported on Tue Jun 30 03:38:11 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/MYC.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/PIQ_MYC.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/PIQ_DU/MYC_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   36.98 sec.
+    Max Memory :                                 963 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11037.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_PIQ_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711617: <EIMS_PIQ> in cluster <rcc> Done
+
+Job <EIMS_PIQ> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:37:24 2015
+Results reported on Tue Jun 30 03:38:22 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/TAL1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/PIQ_TAL1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/PIQ_DU/TAL1_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   45.84 sec.
+    Max Memory :                                 1205 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               10795.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_PIQ_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711621: <EIMS_PIQ> in cluster <rcc> Done
+
+Job <EIMS_PIQ> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:37:24 2015
+Results reported on Tue Jun 30 03:38:23 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/MAX.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/PIQ_MAX.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/PIQ_DU/MAX_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   49.83 sec.
+    Max Memory :                                 1293 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               10707.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_PIQ_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711605: <EIMS_PIQ> in cluster <rcc> Done
+
+Job <EIMS_PIQ> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:36:10 2015
+Results reported on Tue Jun 30 03:38:24 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/THAP1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/PIQ_THAP1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/PIQ_DU/THAP1_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   129.35 sec.
+    Max Memory :                                 4450 MB
+    Average Memory :                             1945.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               7550.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_PIQ_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711623: <EIMS_PIQ> in cluster <rcc> Done
+
+Job <EIMS_PIQ> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:37:24 2015
+Results reported on Tue Jun 30 03:38:27 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/USF1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/PIQ_USF1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/PIQ_DU/USF1_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   53.16 sec.
+    Max Memory :                                 1479 MB
+    Average Memory :                             1.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               10521.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_PIQ_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711618: <EIMS_PIQ> in cluster <rcc> Done
+
+Job <EIMS_PIQ> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:37:24 2015
+Results reported on Tue Jun 30 03:38:28 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/SRF.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/PIQ_SRF.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/PIQ_DU/SRF_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   55.30 sec.
+    Max Memory :                                 1358 MB
+    Average Memory :                             14.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               10642.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_PIQ_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711614: <EIMS_PIQ> in cluster <rcc> Done
+
+Job <EIMS_PIQ> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:36:18 2015
+Results reported on Tue Jun 30 03:38:38 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/PU1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/PIQ_PU1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/PIQ_DU/PU1_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   140.84 sec.
+    Max Memory :                                 3440 MB
+    Average Memory :                             1368.67 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               8560.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_PIQ_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711613: <EIMS_PIQ> in cluster <rcc> Done
+
+Job <EIMS_PIQ> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:36:18 2015
+Results reported on Tue Jun 30 03:38:44 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/IRF1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/PIQ_IRF1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/PIQ_DU/IRF1_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   141.93 sec.
+    Max Memory :                                 3450 MB
+    Average Memory :                             1287.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               8550.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_PIQ_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711619: <EIMS_PIQ> in cluster <rcc> Done
+
+Job <EIMS_PIQ> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:37:24 2015
+Results reported on Tue Jun 30 03:39:09 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/MAFF.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/PIQ_MAFF.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/PIQ_DU/MAFF_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   88.27 sec.
+    Max Memory :                                 2492 MB
+    Average Memory :                             393.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               9508.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_PIQ_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711628: <EIMS_PIQ> in cluster <rcc> Done
+
+Job <EIMS_PIQ> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:38:41 2015
+Results reported on Tue Jun 30 03:39:10 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/REST.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/PIQ_REST.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/PIQ_DU/REST_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   18.69 sec.
+    Max Memory :                                 282 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11718.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_PIQ_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711622: <EIMS_PIQ> in cluster <rcc> Done
+
+Job <EIMS_PIQ> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:37:24 2015
+Results reported on Tue Jun 30 03:39:11 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/SP2.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/PIQ_SP2.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/PIQ_DU/SP2_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   96.53 sec.
+    Max Memory :                                 2458 MB
+    Average Memory :                             1215.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               9542.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_PIQ_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711629: <EIMS_PIQ> in cluster <rcc> Done
+
+Job <EIMS_PIQ> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:38:44 2015
+Results reported on Tue Jun 30 03:39:17 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/NFYA.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/PIQ_NFYA.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/PIQ_DU/NFYA_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   21.56 sec.
+    Max Memory :                                 480 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11520.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_PIQ_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711625: <EIMS_PIQ> in cluster <rcc> Done
+
+Job <EIMS_PIQ> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:38:38 2015
+Results reported on Tue Jun 30 03:39:19 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/NFYB.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/PIQ_NFYB.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/PIQ_DU/NFYB_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   26.91 sec.
+    Max Memory :                                 671 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11329.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_PIQ_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711632: <EIMS_PIQ> in cluster <rcc> Done
+
+Job <EIMS_PIQ> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:38:48 2015
+Results reported on Tue Jun 30 03:39:26 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/ZNF143.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/PIQ_ZNF143.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/PIQ_DU/ZNF143_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   33.97 sec.
+    Max Memory :                                 705 MB
+    Average Memory :                             185.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11295.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_PIQ_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711631: <EIMS_PIQ> in cluster <rcc> Done
+
+Job <EIMS_PIQ> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:38:48 2015
+Results reported on Tue Jun 30 03:39:28 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/ZBTB7A.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/PIQ_ZBTB7A.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/PIQ_DU/ZBTB7A_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   36.01 sec.
+    Max Memory :                                 1060 MB
+    Average Memory :                             102.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               10940.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_PIQ_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711606: <EIMS_PIQ> in cluster <rcc> Done
+
+Job <EIMS_PIQ> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:36:11 2015
+Results reported on Tue Jun 30 03:39:52 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/ARID3A.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/PIQ_ARID3A.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/PIQ_DU/ARID3A_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   208.93 sec.
+    Max Memory :                                 6269 MB
+    Average Memory :                             3096.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               5731.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_PIQ_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711627: <EIMS_PIQ> in cluster <rcc> Done
+
+Job <EIMS_PIQ> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:38:41 2015
+Results reported on Tue Jun 30 03:39:57 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/GATA2.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/PIQ_GATA2.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/PIQ_DU/GATA2_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   68.67 sec.
+    Max Memory :                                 1784 MB
+    Average Memory :                             890.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               10216.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_PIQ_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711630: <EIMS_PIQ> in cluster <rcc> Done
+
+Job <EIMS_PIQ> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:38:45 2015
+Results reported on Tue Jun 30 03:40:15 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/MAFK.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/PIQ_MAFK.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/PIQ_DU/MAFK_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   81.18 sec.
+    Max Memory :                                 2204 MB
+    Average Memory :                             740.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               9796.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_PIQ_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711642: <EIMS_PIQ> in cluster <rcc> Done
+
+Job <EIMS_PIQ> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:40:01 2015
+Results reported on Tue Jun 30 03:40:16 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/E2F4.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/PIQ_E2F4.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/PIQ_DU/E2F4_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   12.07 sec.
+    Max Memory :                                 309 MB
+    Average Memory :                             204.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11691.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_PIQ_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711640: <EIMS_PIQ> in cluster <rcc> Done
+
+Job <EIMS_PIQ> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:39:59 2015
+Results reported on Tue Jun 30 03:40:30 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/BACH1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/PIQ_BACH1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/PIQ_DU/BACH1_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   19.34 sec.
+    Max Memory :                                 318 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11682.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_PIQ_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711636: <EIMS_PIQ> in cluster <rcc> Done
+
+Job <EIMS_PIQ> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:39:55 2015
+Results reported on Tue Jun 30 03:40:31 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/CTCFL.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/PIQ_CTCFL.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/PIQ_DU/CTCFL_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   27.95 sec.
+    Max Memory :                                 636 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11364.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_PIQ_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711634: <EIMS_PIQ> in cluster <rcc> Done
+
+Job <EIMS_PIQ> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:39:53 2015
+Results reported on Tue Jun 30 03:40:47 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/EFOS.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/PIQ_EFOS.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/PIQ_DU/EFOS_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   41.13 sec.
+    Max Memory :                                 995 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11005.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_PIQ_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711641: <EIMS_PIQ> in cluster <rcc> Done
+
+Job <EIMS_PIQ> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:40:00 2015
+Results reported on Tue Jun 30 03:40:48 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/CCNT2.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/PIQ_CCNT2.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/PIQ_DU/CCNT2_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   45.49 sec.
+    Max Memory :                                 1258 MB
+    Average Memory :                             153.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               10742.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_PIQ_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711637: <EIMS_PIQ> in cluster <rcc> Done
+
+Job <EIMS_PIQ> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:39:56 2015
+Results reported on Tue Jun 30 03:40:50 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/BHLHE40.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/PIQ_BHLHE40.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/PIQ_DU/BHLHE40_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   46.47 sec.
+    Max Memory :                                 1368 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               10632.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_PIQ_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711638: <EIMS_PIQ> in cluster <rcc> Done
+
+Job <EIMS_PIQ> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:39:57 2015
+Results reported on Tue Jun 30 03:41:12 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/ATF3.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/PIQ_ATF3.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/PIQ_DU/ATF3_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   70.95 sec.
+    Max Memory :                                 2197 MB
+    Average Memory :                             119.50 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               9803.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_PIQ_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711626: <EIMS_PIQ> in cluster <rcc> Done
+
+Job <EIMS_PIQ> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:38:39 2015
+Results reported on Tue Jun 30 03:41:14 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/STAT2.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/PIQ_STAT2.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/PIQ_DU/STAT2_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   148.65 sec.
+    Max Memory :                                 3070 MB
+    Average Memory :                             1941.33 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               8930.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_PIQ_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711635: <EIMS_PIQ> in cluster <rcc> Done
+
+Job <EIMS_PIQ> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:39:53 2015
+Results reported on Tue Jun 30 03:41:46 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/SP1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/PIQ_SP1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/PIQ_DU/SP1_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   101.05 sec.
+    Max Memory :                                 2520 MB
+    Average Memory :                             473.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               9480.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_PIQ_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711644: <EIMS_PIQ> in cluster <rcc> Done
+
+Job <EIMS_PIQ> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:41:05 2015
+Results reported on Tue Jun 30 03:41:47 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/FOSL1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/PIQ_FOSL1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/PIQ_DU/FOSL1_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   31.72 sec.
+    Max Memory :                                 669 MB
+    Average Memory :                             1.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11331.00 MB
+    Max Processes :                              1
+    Max Threads :                                1
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_PIQ_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711643: <EIMS_PIQ> in cluster <rcc> Done
+
+Job <EIMS_PIQ> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:41:05 2015
+Results reported on Tue Jun 30 03:42:23 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/STAT1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/PIQ_STAT1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/PIQ_DU/STAT1_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   71.98 sec.
+    Max Memory :                                 1529 MB
+    Average Memory :                             141.50 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               10471.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_PIQ_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711639: <EIMS_PIQ> in cluster <rcc> Done
+
+Job <EIMS_PIQ> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:39:57 2015
+Results reported on Tue Jun 30 03:42:41 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/ZNF263.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/PIQ_ZNF263.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/PIQ_DU/ZNF263_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   154.26 sec.
+    Max Memory :                                 3933 MB
+    Average Memory :                             1009.33 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               8067.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_PIQ_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22711633: <EIMS_PIQ> in cluster <rcc> Done
+
+Job <EIMS_PIQ> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Tue Jun 30 03:39:52 2015
+Results reported on Tue Jun 30 03:42:52 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/MEF2A.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/PIQ_MEF2A.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/PIQ_DU/MEF2A_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   169.86 sec.
+    Max Memory :                                 4027 MB
+    Average Memory :                             2043.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               7973.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_PIQ_err.txt> for stderr output of this job.
+

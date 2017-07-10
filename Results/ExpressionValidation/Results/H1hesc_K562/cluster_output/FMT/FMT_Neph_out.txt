@@ -1,0 +1,37 @@
+Sender: LSF System <lsfadmin@linuxbmc0116>
+Subject: Job 25009114: <FMT_Neph> in cluster <rcc> Done
+
+Job <FMT_Neph> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0116>, in queue <low>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/ExpressionValidation/Results/H1hesc_K562> was used as the working directory.
+Started at Fri Nov 20 05:31:25 2015
+Results reported on Fri Nov 20 06:42:20 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./fetchMultivarTable_pipeline.zsh Neph /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/ExpressionValidation/Results/H1hesc_K562/multivar_table/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   4281.98 sec.
+    Max Memory :                                 1864 MB
+    Average Memory :                             1218.18 MB
+    Total Requested Memory :                     24000.00 MB
+    Delta Memory :                               22136.00 MB
+    Max Processes :                              5
+    Max Threads :                                6
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <FMT_Neph_err.txt> for stderr output of this job.
+

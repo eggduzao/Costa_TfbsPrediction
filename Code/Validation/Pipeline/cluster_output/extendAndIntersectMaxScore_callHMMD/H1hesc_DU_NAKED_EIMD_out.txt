@@ -1,0 +1,37 @@
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22739144: <H1hesc_DU_NAKED_EIMD> in cluster <rcc> Done
+
+Job <H1hesc_DU_NAKED_EIMD> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Wed Jul  1 20:52:07 2015
+Results reported on Wed Jul  1 21:03:15 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 5 5 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/H1hesc/HMM_DNase_DU_NAKED_ModelH1hesc.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/HMM_DNase_DU_NAKED_ModelH1hesc_5.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   608.91 sec.
+    Max Memory :                                 9252 MB
+    Average Memory :                             3675.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               2748.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <H1hesc_DU_NAKED_EIMD_err.txt> for stderr output of this job.
+

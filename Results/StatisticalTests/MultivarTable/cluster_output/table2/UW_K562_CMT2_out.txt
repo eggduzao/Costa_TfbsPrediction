@@ -1,0 +1,37 @@
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22327046: <UW_K562_CMT2> in cluster <rcc> Done
+
+Job <UW_K562_CMT2> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/StatisticalTests/MultivarTable> was used as the working directory.
+Started at Fri Jun 12 21:51:11 2015
+Results reported on Sat Jun 13 09:25:05 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./createMultivarTable_pipeline.zsh UW K562
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   56457.01 sec.
+    Max Memory :                                 793 MB
+    Average Memory :                             128.52 MB
+    Total Requested Memory :                     24000.00 MB
+    Delta Memory :                               23207.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <UW_K562_CMT2_err.txt> for stderr output of this job.
+

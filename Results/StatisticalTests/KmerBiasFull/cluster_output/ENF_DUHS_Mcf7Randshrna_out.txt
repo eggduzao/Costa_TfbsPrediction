@@ -1,0 +1,37 @@
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 24091714: <ENF_DUHS_Mcf7Randshrna> in cluster <rcc> Done
+
+Job <ENF_DUHS_Mcf7Randshrna> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/StatisticalTests/KmerBiasFull> was used as the working directory.
+Started at Sat Sep 26 04:47:36 2015
+Results reported on Sat Sep 26 05:02:34 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./evaluateNormFactor_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Data/DNase/DUHS/Mcf7Randshrna.bam /hpcwork/izkf/projects/TfbsPrediction/Data/DNase/DUHS/Mcf7Randshrna.bed /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/StatisticalTests/KmerBiasFull/bias/norm/DUHS_Mcf7Randshrna
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   890.83 sec.
+    Max Memory :                                 8009 MB
+    Average Memory :                             2969.65 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               3991.00 MB
+    Max Processes :                              5
+    Max Threads :                                6
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <ENF_DUHS_Mcf7Randshrna_err.txt> for stderr output of this job.
+

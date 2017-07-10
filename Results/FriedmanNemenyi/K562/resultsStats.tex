@@ -1,0 +1,227 @@
+\documentclass[landscape, 8pt]{report}
+\usepackage[landscape]{geometry}
+\usepackage{rotating}
+\usepackage{multirow}
+\begin{document}
+
+\begin{table}[h!]
+\label{tab:ranking}
+\vspace{0.0cm}
+\begin{center}
+\caption{Friedman ranking. For each metric, the methods are displayed in decreasing order with their respective Friedman ranking.}
+\renewcommand{\arraystretch}{1.2}
+  \begin{tabular}{ |lr|lr|lr|lr|lr|lr| }
+    \hline
+    \multicolumn{2}{|c|}{\textbf{Ac}} & \multicolumn{2}{|c|}{\textbf{Ba}} & \multicolumn{2}{|c|}{\textbf{Sn}} & \multicolumn{2}{|c|}{\textbf{Sp}} & \multicolumn{2}{|c|}{\textbf{Pp}} & \multicolumn{2}{|c|}{\textbf{Np}} \\
+    \hline
+    Boyle & 1.3475 &     Cent.(estimated) & 1.7288 &     Cent.(estimated) & 2.3814 &     Boyle & 1.0763 &     Boyle & 1.2881 &     Cent.(estimated) & 2.2373 \\
+    Neph & 1.6864 &     DH-HMM(3) & 2.7288 &     Cuellar(2) & 2.5847 &     Neph & 1.9237 &     Neph & 1.7119 &     Cuellar(2) & 2.6695 \\
+    DH-HMM(2) & 3.5678 &     Cuellar(2) & 3.3814 &     Cuellar(3) & 2.8644 &     DH-HMM(2) & 3.5424 &     Cent.(estimated) & 3.6525 &     Cuellar(3) & 2.7966 \\
+    Cent.(estimated) & 3.8051 &     Cuellar(3) & 3.9407 &     DH-HMM(3) & 3.5932 &     Cent.(estimated) & 3.8644 &     DH-HMM(2) & 4.0169 &     DH-HMM(3) & 3.5169 \\
+    DH-HMM(3) & 4.6271 &     DH-HMM(2) & 4.0508 &     DH-HMM(2) & 4.8814 &     DH-HMM(3) & 4.6271 &     DH-HMM(3) & 4.4661 &     DH-HMM(2) & 4.6441 \\
+    Cuellar(2) & 6.4915 &     Neph & 6.2881 &     H-HMM(3) & 5.2373 &     Cuellar(2) & 6.6102 &     Cuellar(2) & 6.178 &     H-HMM(3) & 5.7966 \\
+    H-HMM(2) & 7.322 &     H-HMM(3) & 6.5593 &     H-HMM(2) & 6.9831 &     H-HMM(2) & 7.2542 &     Cuellar(3) & 6.9746 &     Neph & 7.1441 \\
+    Cuellar(3) & 7.3983 &     H-HMM(2) & 7.5763 &     Neph & 7.5085 &     Cuellar(3) & 7.5085 &     H-HMM(2) & 8.1695 &     H-HMM(2) & 7.2881 \\
+    H-HMM(3) & 8.7542 &     Boyle & 8.7458 &     Boyle & 8.9661 &     H-HMM(3) & 8.5932 &     H-HMM(3) & 8.5424 &     Boyle & 8.9068 \\
+    \hline
+  \end{tabular}
+\end{center}
+\vspace{0.0cm}
+\end{table}
+
+\begin{table}[h!]
+\label{tab:friedman.nemenyi.ac}
+\vspace{0.0cm}
+\begin{center}
+\caption{Friedman-Nemenyi hypothesis test results for the \textbf{Ac} metric. The asterisc and the cross, respectively, mean that the method in the column outperformed the method in the row with significance levels of 0.05 and 0.1}
+\vspace{0.5cm}
+\renewcommand{\arraystretch}{1.2}
+  \begin{tabular}{ rccccccccc }
+    & \rotatebox{90}{Boyle} & \rotatebox{90}{Neph} & \rotatebox{90}{DH-HMM(2)} & \rotatebox{90}{Cent.(estimated)} & \rotatebox{90}{DH-HMM(3)} & \rotatebox{90}{Cuellar(2)} & \rotatebox{90}{H-HMM(2)} & \rotatebox{90}{Cuellar(3)} & \rotatebox{90}{H-HMM(3)} \\
+    \hline
+    Boyle &     &     &     &     &     &     &     &     &     \\
+    Neph &     &     &     &     &     &     &     &     &     \\
+    DH-HMM(2) & $*$ & $*$ &     &     &     &     &     &     &     \\
+    Cent.(estimated) & $*$ & $*$ &     &     &     &     &     &     &     \\
+    DH-HMM(3) & $*$ & $*$ &     &     &     &     &     &     &     \\
+    Cuellar(2) & $*$ & $*$ & $*$ & $*$ & $*$ &     &     &     &     \\
+    H-HMM(2) & $*$ & $*$ & $*$ & $*$ & $*$ &     &     &     &     \\
+    Cuellar(3) & $*$ & $*$ & $*$ & $*$ & $*$ &     &     &     &     \\
+    H-HMM(3) & $*$ & $*$ & $*$ & $*$ & $*$ & $*$ &     &     &     \\
+    \hline
+  \end{tabular}
+\end{center}
+\vspace{0.0cm}
+\end{table}
+
+\begin{table}[h!]
+\label{tab:friedman.nemenyi.ba}
+\vspace{0.0cm}
+\begin{center}
+\caption{Friedman-Nemenyi hypothesis test results for the \textbf{Ba} metric. The asterisc and the cross, respectively, mean that the method in the column outperformed the method in the row with significance levels of 0.05 and 0.1}
+\vspace{0.5cm}
+\renewcommand{\arraystretch}{1.2}
+  \begin{tabular}{ rccccccccc }
+    & \rotatebox{90}{Cent.(estimated)} & \rotatebox{90}{DH-HMM(3)} & \rotatebox{90}{Cuellar(2)} & \rotatebox{90}{Cuellar(3)} & \rotatebox{90}{DH-HMM(2)} & \rotatebox{90}{Neph} & \rotatebox{90}{H-HMM(3)} & \rotatebox{90}{H-HMM(2)} & \rotatebox{90}{Boyle} \\
+    \hline
+    Cent.(estimated) &     &     &     &     &     &     &     &     &     \\
+    DH-HMM(3) &     &     &     &     &     &     &     &     &     \\
+    Cuellar(2) & $*$ &     &     &     &     &     &     &     &     \\
+    Cuellar(3) & $*$ &     &     &     &     &     &     &     &     \\
+    DH-HMM(2) & $*$ &     &     &     &     &     &     &     &     \\
+    Neph & $*$ & $*$ & $*$ & $*$ & $*$ &     &     &     &     \\
+    H-HMM(3) & $*$ & $*$ & $*$ & $*$ & $*$ &     &     &     &     \\
+    H-HMM(2) & $*$ & $*$ & $*$ & $*$ & $*$ &     &     &     &     \\
+    Boyle & $*$ & $*$ & $*$ & $*$ & $*$ & $*$ & $*$ &     &     \\
+    \hline
+  \end{tabular}
+\end{center}
+\vspace{0.0cm}
+\end{table}
+
+\begin{table}[h!]
+\label{tab:friedman.nemenyi.sn}
+\vspace{0.0cm}
+\begin{center}
+\caption{Friedman-Nemenyi hypothesis test results for the \textbf{Sn} metric. The asterisc and the cross, respectively, mean that the method in the column outperformed the method in the row with significance levels of 0.05 and 0.1}
+\vspace{0.5cm}
+\renewcommand{\arraystretch}{1.2}
+  \begin{tabular}{ rccccccccc }
+    & \rotatebox{90}{Cent.(estimated)} & \rotatebox{90}{Cuellar(2)} & \rotatebox{90}{Cuellar(3)} & \rotatebox{90}{DH-HMM(3)} & \rotatebox{90}{DH-HMM(2)} & \rotatebox{90}{H-HMM(3)} & \rotatebox{90}{H-HMM(2)} & \rotatebox{90}{Neph} & \rotatebox{90}{Boyle} \\
+    \hline
+    Cent.(estimated) &     &     &     &     &     &     &     &     &     \\
+    Cuellar(2) &     &     &     &     &     &     &     &     &     \\
+    Cuellar(3) &     &     &     &     &     &     &     &     &     \\
+    DH-HMM(3) &     &     &     &     &     &     &     &     &     \\
+    DH-HMM(2) & $*$ & $*$ & $*$ &     &     &     &     &     &     \\
+    H-HMM(3) & $*$ & $*$ & $*$ & $*$ &     &     &     &     &     \\
+    H-HMM(2) & $*$ & $*$ & $*$ & $*$ & $*$ & $*$ &     &     &     \\
+    Neph & $*$ & $*$ & $*$ & $*$ & $*$ & $*$ &     &     &     \\
+    Boyle & $*$ & $*$ & $*$ & $*$ & $*$ & $*$ & $*$ & $+$ &     \\
+    \hline
+  \end{tabular}
+\end{center}
+\vspace{0.0cm}
+\end{table}
+
+\begin{table}[h!]
+\label{tab:friedman.nemenyi.sp}
+\vspace{0.0cm}
+\begin{center}
+\caption{Friedman-Nemenyi hypothesis test results for the \textbf{Sp} metric. The asterisc and the cross, respectively, mean that the method in the column outperformed the method in the row with significance levels of 0.05 and 0.1}
+\vspace{0.5cm}
+\renewcommand{\arraystretch}{1.2}
+  \begin{tabular}{ rccccccccc }
+    & \rotatebox{90}{Boyle} & \rotatebox{90}{Neph} & \rotatebox{90}{DH-HMM(2)} & \rotatebox{90}{Cent.(estimated)} & \rotatebox{90}{DH-HMM(3)} & \rotatebox{90}{Cuellar(2)} & \rotatebox{90}{H-HMM(2)} & \rotatebox{90}{Cuellar(3)} & \rotatebox{90}{H-HMM(3)} \\
+    \hline
+    Boyle &     &     &     &     &     &     &     &     &     \\
+    Neph &     &     &     &     &     &     &     &     &     \\
+    DH-HMM(2) & $*$ & $*$ &     &     &     &     &     &     &     \\
+    Cent.(estimated) & $*$ & $*$ &     &     &     &     &     &     &     \\
+    DH-HMM(3) & $*$ & $*$ &     &     &     &     &     &     &     \\
+    Cuellar(2) & $*$ & $*$ & $*$ & $*$ & $*$ &     &     &     &     \\
+    H-HMM(2) & $*$ & $*$ & $*$ & $*$ & $*$ &     &     &     &     \\
+    Cuellar(3) & $*$ & $*$ & $*$ & $*$ & $*$ &     &     &     &     \\
+    H-HMM(3) & $*$ & $*$ & $*$ & $*$ & $*$ & $*$ &     &     &     \\
+    \hline
+  \end{tabular}
+\end{center}
+\vspace{0.0cm}
+\end{table}
+
+\begin{table}[h!]
+\label{tab:friedman.nemenyi.pp}
+\vspace{0.0cm}
+\begin{center}
+\caption{Friedman-Nemenyi hypothesis test results for the \textbf{Pp} metric. The asterisc and the cross, respectively, mean that the method in the column outperformed the method in the row with significance levels of 0.05 and 0.1}
+\vspace{0.5cm}
+\renewcommand{\arraystretch}{1.2}
+  \begin{tabular}{ rccccccccc }
+    & \rotatebox{90}{Boyle} & \rotatebox{90}{Neph} & \rotatebox{90}{Cent.(estimated)} & \rotatebox{90}{DH-HMM(2)} & \rotatebox{90}{DH-HMM(3)} & \rotatebox{90}{Cuellar(2)} & \rotatebox{90}{Cuellar(3)} & \rotatebox{90}{H-HMM(2)} & \rotatebox{90}{H-HMM(3)} \\
+    \hline
+    Boyle &     &     &     &     &     &     &     &     &     \\
+    Neph &     &     &     &     &     &     &     &     &     \\
+    Cent.(estimated) & $*$ & $*$ &     &     &     &     &     &     &     \\
+    DH-HMM(2) & $*$ & $*$ &     &     &     &     &     &     &     \\
+    DH-HMM(3) & $*$ & $*$ &     &     &     &     &     &     &     \\
+    Cuellar(2) & $*$ & $*$ & $*$ & $*$ & $*$ &     &     &     &     \\
+    Cuellar(3) & $*$ & $*$ & $*$ & $*$ & $*$ &     &     &     &     \\
+    H-HMM(2) & $*$ & $*$ & $*$ & $*$ & $*$ & $*$ &     &     &     \\
+    H-HMM(3) & $*$ & $*$ & $*$ & $*$ & $*$ & $*$ & $*$ &     &     \\
+    \hline
+  \end{tabular}
+\end{center}
+\vspace{0.0cm}
+\end{table}
+
+\begin{table}[h!]
+\label{tab:friedman.nemenyi.np}
+\vspace{0.0cm}
+\begin{center}
+\caption{Friedman-Nemenyi hypothesis test results for the \textbf{Np} metric. The asterisc and the cross, respectively, mean that the method in the column outperformed the method in the row with significance levels of 0.05 and 0.1}
+\vspace{0.5cm}
+\renewcommand{\arraystretch}{1.2}
+  \begin{tabular}{ rccccccccc }
+    & \rotatebox{90}{Cent.(estimated)} & \rotatebox{90}{Cuellar(2)} & \rotatebox{90}{Cuellar(3)} & \rotatebox{90}{DH-HMM(3)} & \rotatebox{90}{DH-HMM(2)} & \rotatebox{90}{H-HMM(3)} & \rotatebox{90}{Neph} & \rotatebox{90}{H-HMM(2)} & \rotatebox{90}{Boyle} \\
+    \hline
+    Cent.(estimated) &     &     &     &     &     &     &     &     &     \\
+    Cuellar(2) &     &     &     &     &     &     &     &     &     \\
+    Cuellar(3) &     &     &     &     &     &     &     &     &     \\
+    DH-HMM(3) &     &     &     &     &     &     &     &     &     \\
+    DH-HMM(2) & $*$ & $*$ & $*$ &     &     &     &     &     &     \\
+    H-HMM(3) & $*$ & $*$ & $*$ & $*$ &     &     &     &     &     \\
+    Neph & $*$ & $*$ & $*$ & $*$ & $*$ &     &     &     &     \\
+    H-HMM(2) & $*$ & $*$ & $*$ & $*$ & $*$ & $+$ &     &     &     \\
+    Boyle & $*$ & $*$ & $*$ & $*$ & $*$ & $*$ & $*$ & $*$ &     \\
+    \hline
+  \end{tabular}
+\end{center}
+\vspace{0.0cm}
+\end{table}
+
+\begin{table}[h!]
+\label{tab:friedman.nemenyi}
+\vspace{0.0cm}
+\begin{center}
+\caption{Friedman-Nemenyi hypothesis test results for all metrics. The asterisc and the cross, respectively, mean that the method in the column outperformed the method in the row with significance levels of 0.05 and 0.1}
+\renewcommand{\arraystretch}{1.2}
+  \begin{tabular}{ llccccccccc }
+  \hline
+  & & \begin{sideways}Boyle\end{sideways} &
+  \begin{sideways}Neph\end{sideways} &
+  \begin{sideways}Cuellar(2)\end{sideways} &
+  \begin{sideways}Cuellar(3)\end{sideways} &
+  \begin{sideways}Cent.(estimated)\end{sideways} &
+  \begin{sideways}DH-HMM(2)\end{sideways} &
+  \begin{sideways}DH-HMM(3)\end{sideways} &
+  \begin{sideways}H-HMM(2)\end{sideways} &
+  \begin{sideways}H-HMM(3)\end{sideways} \\
+  \hline
+    \multirow{7}{*}{\begin{sideways}Sn\end{sideways}}
+    & Boyle &     & $+$ & $*$ & $*$ & $*$ & $*$ & $*$ & $*$ & $*$ \\
+    & Neph &     &     & $*$ & $*$ & $*$ & $*$ & $*$ &     & $*$ \\
+    & Cuellar(2) &     &     &     &     &     &     &     &     &     \\
+    & Cuellar(3) &     &     &     &     &     &     &     &     &     \\
+    & Cent.(estimated) &     &     &     &     &     &     &     &     &     \\
+    & DH-HMM(2) &     &     & $*$ & $*$ & $*$ &     &     &     &     \\
+    & DH-HMM(3) &     &     &     &     &     &     &     &     &     \\
+    & H-HMM(2) &     &     & $*$ & $*$ & $*$ & $*$ & $*$ &     & $*$ \\
+    & H-HMM(3) &     &     & $*$ & $*$ & $*$ &     & $*$ &     &     \\
+  \hline
+    \multirow{7}{*}{\begin{sideways}Sp\end{sideways}}
+    & Boyle &     &     &     &     &     &     &     &     &     \\
+    & Neph &     &     &     &     &     &     &     &     &     \\
+    & Cuellar(2) & $*$ & $*$ &     &     & $*$ & $*$ & $*$ &     &     \\
+    & Cuellar(3) & $*$ & $*$ &     &     & $*$ & $*$ & $*$ &     &     \\
+    & Cent.(estimated) & $*$ & $*$ &     &     &     &     &     &     &     \\
+    & DH-HMM(2) & $*$ & $*$ &     &     &     &     &     &     &     \\
+    & DH-HMM(3) & $*$ & $*$ &     &     &     &     &     &     &     \\
+    & H-HMM(2) & $*$ & $*$ &     &     & $*$ & $*$ & $*$ &     &     \\
+    & H-HMM(3) & $*$ & $*$ & $*$ &     & $*$ & $*$ & $*$ &     &     \\
+  \hline
+  \end{tabular}
+\end{center}
+\vspace{0.0cm}
+\end{table}
+
+\end{document}

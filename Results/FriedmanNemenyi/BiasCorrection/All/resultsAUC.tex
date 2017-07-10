@@ -1,0 +1,49 @@
+\documentclass[landscape, 8pt]{report}
+\usepackage[landscape]{geometry}
+\usepackage{rotating}
+\usepackage{multirow}
+\begin{document}
+
+\begin{table}[h!]
+\label{tab:ranking}
+\vspace{0.0cm}
+\begin{center}
+\caption{Friedman ranking. For each metric, the methods are displayed in decreasing order with their respective Friedman ranking.}
+\renewcommand{\arraystretch}{1.2}
+  \begin{tabular}{ |lr| }
+    \hline
+    \multicolumn{2}{|c|}{\textbf{AUC}} \\
+    \hline
+    HINT(BC) & 1.2763 \\
+    HINT & 2.1228 \\
+    TC & 3.0439 \\
+    PWM & 4.1667 \\
+    FOS & 4.3904 \\
+    \hline
+  \end{tabular}
+\end{center}
+\vspace{0.0cm}
+\end{table}
+
+\begin{table}[h!]
+\label{tab:friedman.nemenyi.auc}
+\vspace{0.0cm}
+\begin{center}
+\caption{Friedman-Nemenyi hypothesis test results for the \textbf{AUC} metric. The asterisc and the cross, respectively, mean that the method in the column outperformed the method in the row with significance levels of 0.05 and 0.1}
+\vspace{0.5cm}
+\renewcommand{\arraystretch}{1.2}
+  \begin{tabular}{ rccccccc }
+    & \rotatebox{90}{HINT(BC)} & \rotatebox{90}{HINT} & \rotatebox{90}{TC} & \rotatebox{90}{PWM} & \rotatebox{90}{FOS} \\
+    \hline
+    HINT(BC) &     &     &     &     &     \\
+    HINT & $*$ &     &     &     &     \\
+    TC & $*$ & $*$ &     &     &     \\
+    PWM & $*$ & $*$ & $*$ &     &     \\
+    FOS & $*$ & $*$ & $*$ &     &     \\
+    \hline
+  \end{tabular}
+\end{center}
+\vspace{0.0cm}
+\end{table}
+
+\end{document}

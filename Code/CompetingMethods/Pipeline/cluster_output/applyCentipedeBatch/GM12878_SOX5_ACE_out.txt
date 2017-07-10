@@ -1,0 +1,37 @@
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 24776992: <GM12878_SOX5_ACE> in cluster <rcc> Done
+
+Job <GM12878_SOX5_ACE> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Sun Nov  8 16:46:39 2015
+Results reported on Sun Nov  8 16:47:27 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyCentipede_pipeline.zsh SOX5 /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/All/fdr_4_inside_HS/SOX5.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/DU_GM12878/Centipede_batch/SOX5_PRIOR.txt /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/DU_GM12878/Centipede_batch/SOX5_DNASE.txt /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/GM12878/Centipede_batch/SOX5.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   40.19 sec.
+    Max Memory :                                 760 MB
+    Average Memory :                             394.50 MB
+    Total Requested Memory :                     8192.00 MB
+    Delta Memory :                               7432.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <GM12878_SOX5_ACE_err.txt> for stderr output of this job.
+

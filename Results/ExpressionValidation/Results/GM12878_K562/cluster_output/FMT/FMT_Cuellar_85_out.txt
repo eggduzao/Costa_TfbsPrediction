@@ -1,0 +1,37 @@
+Sender: LSF System <lsfadmin@linuxbsc010>
+Subject: Job 24991309: <FMT_Cuellar_85> in cluster <rcc> Done
+
+Job <FMT_Cuellar_85> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbsc010>, in queue <low>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/ExpressionValidation/Results/GM12878_K562> was used as the working directory.
+Started at Thu Nov 19 00:47:47 2015
+Results reported on Thu Nov 19 02:31:38 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./fetchMultivarTable_pipeline.zsh Cuellar_85 /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/ExpressionValidation/Results/GM12878_K562/multivar_table/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   6288.66 sec.
+    Max Memory :                                 2805 MB
+    Average Memory :                             1723.82 MB
+    Total Requested Memory :                     24000.00 MB
+    Delta Memory :                               21195.00 MB
+    Max Processes :                              5
+    Max Threads :                                6
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <FMT_Cuellar_85_err.txt> for stderr output of this job.
+

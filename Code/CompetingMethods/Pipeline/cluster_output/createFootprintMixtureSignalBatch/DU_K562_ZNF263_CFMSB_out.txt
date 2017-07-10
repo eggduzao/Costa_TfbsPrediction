@@ -1,0 +1,37 @@
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 24378032: <DU_K562_ZNF263_CFMSB> in cluster <rcc> Done
+
+Job <DU_K562_ZNF263_CFMSB> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Oct 12 18:08:29 2015
+Results reported on Mon Oct 12 18:32:49 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./createFootprintMixtureSignal_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/All/fdr_4_inside_HS/ZNF263.bed /hpcwork/izkf/projects/TfbsPrediction/Data/DNase_DU/K562/DNase.bam /hpcwork/izkf/projects/TfbsPrediction/Data/HG19/hg19.fa /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/DU_K562/FootprintMixture_batch/ZNF263
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   1499.92 sec.
+    Max Memory :                                 287 MB
+    Average Memory :                             155.71 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11713.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <DU_K562_ZNF263_CFMSB_err.txt> for stderr output of this job.
+

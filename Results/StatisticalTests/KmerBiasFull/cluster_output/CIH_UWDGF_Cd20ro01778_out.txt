@@ -1,0 +1,37 @@
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 24091560: <CIH_UWDGF_Cd20ro01778> in cluster <rcc> Done
+
+Job <CIH_UWDGF_Cd20ro01778> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/StatisticalTests/KmerBiasFull> was used as the working directory.
+Started at Fri Sep 25 16:37:41 2015
+Results reported on Sat Sep 26 00:30:09 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./createKmerDict_pipeline.zsh 6 N /hpcwork/izkf/projects/TfbsPrediction/Data/DNase/UWDGF/Cd20ro01778.bam /hpcwork/izkf/projects/TfbsPrediction/Data/DNase/UWDGF/Cd20ro01778.bed /hpcwork/izkf/projects/TfbsPrediction/Data/HG19/hg19.fa /hpcwork/izkf/projects/TfbsPrediction/Data/HG19/hg19.chrom.sizes.filtered /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/StatisticalTests/KmerBiasFull/bias/dict/hs_UWDGF_Cd20ro01778_6
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   38433.28 sec.
+    Max Memory :                                 8811 MB
+    Average Memory :                             4195.11 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               3189.00 MB
+    Max Processes :                              5
+    Max Threads :                                6
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <CIH_UWDGF_Cd20ro01778_err.txt> for stderr output of this job.
+

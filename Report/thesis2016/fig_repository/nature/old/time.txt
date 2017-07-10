@@ -1,0 +1,79 @@
+
+HINTBC 
+Input: 14.6GB (BAM) + 3.1GB (genome)
+    CPU time :                                   100641.85 sec.
+    Max Memory :                                 3037 MB
+    CPU time :                                   100641.85 sec.
+    Max Memory :                                 3037 MB
+
+Dnase2TF 
+Input: 14.6GB (BAM) + 11.6GB (cuts txt) + 3.1GB (genome)
+    CPU time :                                   27284.00 sec.
+    Max Memory :                                 15930 MB
+    CPU time :                                   8743.50 sec.
+    Max Memory :                                 5164 MB
+    CPU time :                                   42532.60 sec.
+    Max Memory :                                 13383 MB
+    CPU time :                                   35007.19 sec.
+    Max Memory :                                 22888 MB
+
+Wellington 
+Input: 14.6GB (BAM)
+    CPU time :                                   223534.12 sec.
+    Max Memory :                                 5170 MB
+    CPU time :                                   197021.20 sec.
+    Max Memory :                                 13754 MB
+
+PIQ
+Input: 14.6GB (BAM) + 1GB (cuts txt) + 3.1GB (genome)
+    CPU time :                                   1684.45 sec.
+    Max Memory :                                 21130 MB
+    CPU time :                                   509.05 sec.
+    Max Memory :                                 8699 MB
+    CPU time :                                   15774.52 sec.
+    Max Memory :                                 24000 MB
+
+FLR
+Input: 14.6GB (BAM) + 25.4GB (cuts txt) + 3.1GB (genome)
+    CPU time :                                   4289.17 sec.
+    Max Memory :                                 1903 MB
+    CPU time :                                   35520.48 sec.
+    Max Memory :                                 15287 MB
+
+BinDNase 
+Input: 14.6GB (BAM) + 78GB (cuts txt) + 3.1GB (genome)
+    CPU time :                                   4971.87 sec.
+    Max Memory :                                 2819 MB
+    CPU time :                                   287708.72 sec.
+    Max Memory :                                 6478 MB
+
+Centipede 
+Input: 14.6GB (BAM) + 140GB (cuts txt) + 3.1GB (genome)
+    CPU time :                                   4971.87 sec.
+    Max Memory :                                 2819 MB
+    CPU time :                                   290402.32 sec.
+    Max Memory :                                 6478 MB
+
+Cuellar 
+Input: 14.6GB (BAM) + 7.7GB (cuts txt) + 3.1GB (genome)
+    CPU time :                                   9378.99 sec.
+    Max Memory :                                 4025 MB
+    CPU time :                                   9378.99 sec.
+    Max Memory :                                 4025 MB
+    CPU time :                                   4556.08 sec.
+    Max Memory :                                 56281 MB
+    CPU time :                                   23257.77 sec.
+    Max Memory :                                 3911 MB
+
+Boyle
+NA
+
+Neph
+Input: 14.6GB (BAM)
+    CPU time :                                   82622.12 sec.
+    Max Memory :                                 4556 MB
+    CPU time :                                   84691.16 sec.
+    Max Memory :                                 4052 MB
+
+
+

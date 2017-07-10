@@ -1,0 +1,37 @@
+Sender: LSF System <lsfadmin@linuxbsc009>
+Subject: Job 25008840: <FLM_NFATC2> in cluster <rcc> Done
+
+Job <FLM_NFATC2> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbsc009>, in queue <low>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/ExpressionValidation/Results/H1hesc_GM12878> was used as the working directory.
+Started at Fri Nov 20 04:02:41 2015
+Results reported on Fri Nov 20 04:03:13 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./filterMetrics_pipeline.zsh /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/ExpressionValidation/Validation/distribution/NFATC2.txt
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   21.59 sec.
+    Max Memory :                                 775 MB
+    Average Memory :                             50.00 MB
+    Total Requested Memory :                     24000.00 MB
+    Delta Memory :                               23225.00 MB
+    Max Processes :                              5
+    Max Threads :                                6
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <FLM_NFATC2_err.txt> for stderr output of this job.
+

@@ -1,0 +1,37 @@
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 24776961: <GM12878_FOXQ1_ACE> in cluster <rcc> Done
+
+Job <GM12878_FOXQ1_ACE> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Sun Nov  8 16:44:11 2015
+Results reported on Sun Nov  8 16:44:55 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyCentipede_pipeline.zsh FOXQ1 /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/All/fdr_4_inside_HS/FOXQ1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/DU_GM12878/Centipede_batch/FOXQ1_PRIOR.txt /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/DU_GM12878/Centipede_batch/FOXQ1_DNASE.txt /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/GM12878/Centipede_batch/FOXQ1.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   40.82 sec.
+    Max Memory :                                 413 MB
+    Average Memory :                             204.50 MB
+    Total Requested Memory :                     8192.00 MB
+    Delta Memory :                               7779.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <GM12878_FOXQ1_ACE_err.txt> for stderr output of this job.
+

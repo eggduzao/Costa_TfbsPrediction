@@ -1,0 +1,37 @@
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 24474668: <H1hesc_MYOG_ACP> in cluster <rcc> Done
+
+Job <H1hesc_MYOG_ACP> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Oct 26 11:32:26 2015
+Results reported on Tue Oct 27 22:48:43 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyCuellar_pipeline.zsh MYOG 0.00001 /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/ExpressionValidation/MPBS/MEME/MYOG.meme /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/DU_H1hesc/Cuellar/DNase_prior.bw /hpcwork/izkf/projects/TfbsPrediction/Data/HG19/ /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/Cuellar_batch/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   20842.16 sec.
+    Max Memory :                                 807 MB
+    Average Memory :                             342.23 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11193.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <H1hesc_MYOG_ACP_err.txt> for stderr output of this job.
+

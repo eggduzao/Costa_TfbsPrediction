@@ -1,0 +1,2 @@
+METHOD	protection	tc	fos	flr
+PWM	137	66	39	36

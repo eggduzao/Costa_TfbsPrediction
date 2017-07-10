@@ -1,0 +1,37 @@
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 24474692: <H1hesc_ETS1_ACP> in cluster <rcc> Done
+
+Job <H1hesc_ETS1_ACP> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Oct 26 11:49:54 2015
+Results reported on Tue Oct 27 23:21:16 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyCuellar_pipeline.zsh ETS1 0.00001 /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/ExpressionValidation/MPBS/MEME/ETS1.meme /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/DU_H1hesc/Cuellar/DNase_prior.bw /hpcwork/izkf/projects/TfbsPrediction/Data/HG19/ /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/Cuellar_batch/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   20864.86 sec.
+    Max Memory :                                 503 MB
+    Average Memory :                             269.49 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11497.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <H1hesc_ETS1_ACP_err.txt> for stderr output of this job.
+

@@ -1,0 +1,37 @@
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 24454571: <H1hesc_NR3C1_ACE> in cluster <rcc> Done
+
+Job <H1hesc_NR3C1_ACE> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Wed Oct 21 20:35:12 2015
+Results reported on Wed Oct 21 20:36:24 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyCentipede_pipeline.zsh NR3C1 /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/All/fdr_4_inside_HS/NR3C1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/DU_H1hesc/Centipede_batch/NR3C1_PRIOR.txt /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/DU_H1hesc/Centipede_batch/NR3C1_DNASE.txt /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/Centipede_batch/NR3C1.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   40.01 sec.
+    Max Memory :                                 431 MB
+    Average Memory :                             213.50 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11569.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <H1hesc_NR3C1_ACE_err.txt> for stderr output of this job.
+

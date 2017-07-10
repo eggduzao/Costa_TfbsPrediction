@@ -1,0 +1,37 @@
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 24443270: <K562_NKX3-2_CCSB> in cluster <rcc> Done
+
+Job <K562_NKX3-2_CCSB> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Wed Oct 21 00:11:41 2015
+Results reported on Wed Oct 21 00:31:29 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./createCentipedeSignal_pipeline.zsh NKX3-2 /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/All/fdr_4_inside_HS/NKX3-2.bed /hpcwork/izkf/projects/TfbsPrediction/Data/PhastCons/PhastCons.bw /hpcwork/izkf/projects/TfbsPrediction/Data/DistanceTSS/distanceTSS.bw 200 /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/DU_K562/DNasePos.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/DU_K562/DNaseNeg.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/DU_K562/Centipede_batch/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   1913.25 sec.
+    Max Memory :                                 595 MB
+    Average Memory :                             306.14 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11405.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <K562_NKX3-2_CCSB_err.txt> for stderr output of this job.
+

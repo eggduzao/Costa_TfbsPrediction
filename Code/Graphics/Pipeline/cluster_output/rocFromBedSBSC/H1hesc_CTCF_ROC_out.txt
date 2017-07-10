@@ -1,0 +1,37 @@
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 25237974: <H1hesc_CTCF_ROC> in cluster <rcc> Done
+
+Job <H1hesc_CTCF_ROC> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Graphics/Pipeline> was used as the working directory.
+Started at Tue Dec  8 19:23:14 2015
+Results reported on Tue Dec  8 20:10:38 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+nts/ROC_NM3/H1hesc/"
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   2772.72 sec.
+    Max Memory :                                 2964 MB
+    Average Memory :                             1796.84 MB
+    Total Requested Memory :                     48000.00 MB
+    Delta Memory :                               45036.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <H1hesc_CTCF_ROC_err.txt> for stderr output of this job.
+

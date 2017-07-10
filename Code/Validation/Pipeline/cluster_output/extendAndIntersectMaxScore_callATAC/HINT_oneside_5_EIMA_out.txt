@@ -1,0 +1,37 @@
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 26590476: <HINT_oneside_5_EIMA> in cluster <rcc> Done
+
+Job <HINT_oneside_5_EIMA> was submitted from host <cluster-linux> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Fri Mar  4 14:55:25 2016
+Results reported on Fri Mar  4 15:16:51 2016
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 5 5 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/ATAC/Results/K562/TC_100.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/ATAC/Predictions/K562/HINT_oneside_5.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/ATAC/Results/K562/HINT_oneside_5.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   1291.44 sec.
+    Max Memory :                                 12000 MB
+    Average Memory :                             5242.90 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               0.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <HINT_oneside_5_EIMA_err.txt> for stderr output of this job.
+

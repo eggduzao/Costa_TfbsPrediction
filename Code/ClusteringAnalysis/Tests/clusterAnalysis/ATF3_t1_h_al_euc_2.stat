@@ -1,0 +1,256 @@
+# All
+TP = 5.0	FP = 4.0	TN = 1.0	FN = 0.0
+CorrectRate = 0.6
+Sensitivity = 1.0
+Specificity = 0.2
+PPV = 0.555555555556
+NPV = 1.0
+Silhouette = 0.542867692172
+Adjusted Rand = -2.96059473233e-16
+Mutual Info = 0.0748817616224
+Adjusted Mutual Info = 1.12231635336e-16
+Normalized Mutual Info = 0.157748853154
+Homogeneity = 0.108031546146
+Completeness = 0.230346612255
+V Measure = 0.147082192237
+
+# DNase
+TP = 5.0	FP = 0.0	TN = 5.0	FN = 0.0
+CorrectRate = 1.0
+Sensitivity = 1.0
+Specificity = 1.0
+PPV = 1.0
+NPV = 1.0
+Silhouette = 1.0
+Adjusted Rand = 1.0
+Mutual Info = 0.69314718056
+Adjusted Mutual Info = 1.0
+Normalized Mutual Info = 1.0
+Homogeneity = 1.0
+Completeness = 1.0
+V Measure = 1.0
+
+# H2AZ
+TP = 5.0	FP = 4.0	TN = 1.0	FN = 0.0
+CorrectRate = 0.6
+Sensitivity = 1.0
+Specificity = 0.2
+PPV = 0.555555555556
+NPV = 1.0
+Silhouette = 0.552546648371
+Adjusted Rand = -2.96059473233e-16
+Mutual Info = 0.0748817616224
+Adjusted Mutual Info = 1.12231635336e-16
+Normalized Mutual Info = 0.157748853154
+Homogeneity = 0.108031546146
+Completeness = 0.230346612255
+V Measure = 0.147082192237
+
+# H3K27ac
+TP = 5.0	FP = 4.0	TN = 1.0	FN = 0.0
+CorrectRate = 0.6
+Sensitivity = 1.0
+Specificity = 0.2
+PPV = 0.555555555556
+NPV = 1.0
+Silhouette = 0.552546648371
+Adjusted Rand = -2.96059473233e-16
+Mutual Info = 0.0748817616224
+Adjusted Mutual Info = 1.12231635336e-16
+Normalized Mutual Info = 0.157748853154
+Homogeneity = 0.108031546146
+Completeness = 0.230346612255
+V Measure = 0.147082192237
+
+# H3K4me1
+TP = 5.0	FP = 4.0	TN = 1.0	FN = 0.0
+CorrectRate = 0.6
+Sensitivity = 1.0
+Specificity = 0.2
+PPV = 0.555555555556
+NPV = 1.0
+Silhouette = 0.552546648371
+Adjusted Rand = -2.96059473233e-16
+Mutual Info = 0.0748817616224
+Adjusted Mutual Info = 1.12231635336e-16
+Normalized Mutual Info = 0.157748853154
+Homogeneity = 0.108031546146
+Completeness = 0.230346612255
+V Measure = 0.147082192237
+
+# H3K4me2
+TP = 5.0	FP = 4.0	TN = 1.0	FN = 0.0
+CorrectRate = 0.6
+Sensitivity = 1.0
+Specificity = 0.2
+PPV = 0.555555555556
+NPV = 1.0
+Silhouette = 0.552546648371
+Adjusted Rand = -2.96059473233e-16
+Mutual Info = 0.0748817616224
+Adjusted Mutual Info = 1.12231635336e-16
+Normalized Mutual Info = 0.157748853154
+Homogeneity = 0.108031546146
+Completeness = 0.230346612255
+V Measure = 0.147082192237
+
+# H3K4me3
+TP = 5.0	FP = 4.0	TN = 1.0	FN = 0.0
+CorrectRate = 0.6
+Sensitivity = 1.0
+Specificity = 0.2
+PPV = 0.555555555556
+NPV = 1.0
+Silhouette = 0.552546648371
+Adjusted Rand = -2.96059473233e-16
+Mutual Info = 0.0748817616224
+Adjusted Mutual Info = 1.12231635336e-16
+Normalized Mutual Info = 0.157748853154
+Homogeneity = 0.108031546146
+Completeness = 0.230346612255
+V Measure = 0.147082192237
+
+# H3K79ac
+TP = 5.0	FP = 4.0	TN = 1.0	FN = 0.0
+CorrectRate = 0.6
+Sensitivity = 1.0
+Specificity = 0.2
+PPV = 0.555555555556
+NPV = 1.0
+Silhouette = 0.552546648371
+Adjusted Rand = -2.96059473233e-16
+Mutual Info = 0.0748817616224
+Adjusted Mutual Info = 1.12231635336e-16
+Normalized Mutual Info = 0.157748853154
+Homogeneity = 0.108031546146
+Completeness = 0.230346612255
+V Measure = 0.147082192237
+
+# H3K9ac
+TP = 5.0	FP = 4.0	TN = 1.0	FN = 0.0
+CorrectRate = 0.6
+Sensitivity = 1.0
+Specificity = 0.2
+PPV = 0.555555555556
+NPV = 1.0
+Silhouette = 0.552546648371
+Adjusted Rand = -2.96059473233e-16
+Mutual Info = 0.0748817616224
+Adjusted Mutual Info = 1.12231635336e-16
+Normalized Mutual Info = 0.157748853154
+Homogeneity = 0.108031546146
+Completeness = 0.230346612255
+V Measure = 0.147082192237
+
+# H3K27me3
+TP = 5.0	FP = 4.0	TN = 1.0	FN = 0.0
+CorrectRate = 0.6
+Sensitivity = 1.0
+Specificity = 0.2
+PPV = 0.555555555556
+NPV = 1.0
+Silhouette = 0.552546648371
+Adjusted Rand = -2.96059473233e-16
+Mutual Info = 0.0748817616224
+Adjusted Mutual Info = 1.12231635336e-16
+Normalized Mutual Info = 0.157748853154
+Homogeneity = 0.108031546146
+Completeness = 0.230346612255
+V Measure = 0.147082192237
+
+# H3K36me3
+TP = 5.0	FP = 4.0	TN = 1.0	FN = 0.0
+CorrectRate = 0.6
+Sensitivity = 1.0
+Specificity = 0.2
+PPV = 0.555555555556
+NPV = 1.0
+Silhouette = 0.552546648371
+Adjusted Rand = -2.96059473233e-16
+Mutual Info = 0.0748817616224
+Adjusted Mutual Info = 1.12231635336e-16
+Normalized Mutual Info = 0.157748853154
+Homogeneity = 0.108031546146
+Completeness = 0.230346612255
+V Measure = 0.147082192237
+
+# H3K9me1
+TP = 5.0	FP = 4.0	TN = 1.0	FN = 0.0
+CorrectRate = 0.6
+Sensitivity = 1.0
+Specificity = 0.2
+PPV = 0.555555555556
+NPV = 1.0
+Silhouette = 0.552546648371
+Adjusted Rand = -2.96059473233e-16
+Mutual Info = 0.0748817616224
+Adjusted Mutual Info = 1.12231635336e-16
+Normalized Mutual Info = 0.157748853154
+Homogeneity = 0.108031546146
+Completeness = 0.230346612255
+V Measure = 0.147082192237
+
+# H3K9me3
+TP = 5.0	FP = 4.0	TN = 1.0	FN = 0.0
+CorrectRate = 0.6
+Sensitivity = 1.0
+Specificity = 0.2
+PPV = 0.555555555556
+NPV = 1.0
+Silhouette = 0.552546648371
+Adjusted Rand = -2.96059473233e-16
+Mutual Info = 0.0748817616224
+Adjusted Mutual Info = 1.12231635336e-16
+Normalized Mutual Info = 0.157748853154
+Homogeneity = 0.108031546146
+Completeness = 0.230346612255
+V Measure = 0.147082192237
+
+# H4K20me1
+TP = 5.0	FP = 4.0	TN = 1.0	FN = 0.0
+CorrectRate = 0.6
+Sensitivity = 1.0
+Specificity = 0.2
+PPV = 0.555555555556
+NPV = 1.0
+Silhouette = 0.552546648371
+Adjusted Rand = -2.96059473233e-16
+Mutual Info = 0.0748817616224
+Adjusted Mutual Info = 1.12231635336e-16
+Normalized Mutual Info = 0.157748853154
+Homogeneity = 0.108031546146
+Completeness = 0.230346612255
+V Measure = 0.147082192237
+
+# Active Histones
+TP = 5.0	FP = 4.0	TN = 1.0	FN = 0.0
+CorrectRate = 0.6
+Sensitivity = 1.0
+Specificity = 0.2
+PPV = 0.555555555556
+NPV = 1.0
+Silhouette = 0.552546648371
+Adjusted Rand = -2.96059473233e-16
+Mutual Info = 0.0748817616224
+Adjusted Mutual Info = 1.12231635336e-16
+Normalized Mutual Info = 0.157748853154
+Homogeneity = 0.108031546146
+Completeness = 0.230346612255
+V Measure = 0.147082192237
+
+# Active Histones + DNase
+TP = 5.0	FP = 4.0	TN = 1.0	FN = 0.0
+CorrectRate = 0.6
+Sensitivity = 1.0
+Specificity = 0.2
+PPV = 0.555555555556
+NPV = 1.0
+Silhouette = 0.530005170021
+Adjusted Rand = -2.96059473233e-16
+Mutual Info = 0.0748817616224
+Adjusted Mutual Info = 1.12231635336e-16
+Normalized Mutual Info = 0.157748853154
+Homogeneity = 0.108031546146
+Completeness = 0.230346612255
+V Measure = 0.147082192237
+

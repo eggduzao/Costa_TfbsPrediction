@@ -1,0 +1,37 @@
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22746617: <Huvec_FOS_ROCS> in cluster <rcc> Done
+
+Job <Huvec_FOS_ROCS> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Graphics/Pipeline> was used as the working directory.
+Started at Thu Jul  2 05:03:53 2015
+Results reported on Thu Jul  2 05:11:43 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./rocFromBedSBSC_pipeline.zsh FOS SC,SC,SC,SC,SC,SB,SB,SB,SB,SB,SB PWM,TC_DU,TC_UW,FOS_DU,FOS_UW,HMMD_DU,HMMD_DU_BIAS,HMMD_DU_NAKED,HMMD_UW,HMMD_UW_BIAS,HMMD_UW_NAKED /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/Huvec_Evidence/fdr_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/Huvec/TagCount_DU.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/Huvec/TagCount_UW.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/Huvec/FOS_DU.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/Huvec/FOS_UW.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/Huvec/HMM_DNase_DU_ModelHuvec_5.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/Huvec/HMM_DNase_DU_BIAS_ModelHuvec_5.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/Huvec/HMM_DNase_DU_NAKED_ModelHuvec_5.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/Huvec/HMM_DNase_UW_ModelHuvec_5.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/Huvec/HMM_DNase_UW_BIAS_ModelHuvec_5.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/Huvec/HMM_DNase_UW_NAKED_ModelHuvec_5.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/ROC_NM3/Huvec/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   463.17 sec.
+    Max Memory :                                 1290 MB
+    Average Memory :                             880.14 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               10710.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <Huvec_FOS_ROCS_err.txt> for stderr output of this job.
+

@@ -1,0 +1,37 @@
+Sender: LSF System <lsfadmin@linuxbmc0558>
+Subject: Job 24741002: <GM12878_EGR1_ACP> in cluster <rcc> Done
+
+Job <GM12878_EGR1_ACP> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0558>, in queue <low>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Fri Nov  6 22:09:32 2015
+Results reported on Sat Nov  7 00:56:27 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyCuellarHs_pipeline.zsh EGR1 0.00001 /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/HMM/InputRegions/DU_GM12878/hd.bed /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/ExpressionValidation/MPBS/MEME/EGR1.meme /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/DU_GM12878/Cuellar/DNase_prior.bw /hpcwork/izkf/projects/TfbsPrediction/Data/HG19/ /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/GM12878/Cuellar_batch/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   10115.45 sec.
+    Max Memory :                                 544 MB
+    Average Memory :                             289.88 MB
+    Total Requested Memory :                     8192.00 MB
+    Delta Memory :                               7648.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <GM12878_EGR1_ACP_err.txt> for stderr output of this job.
+

@@ -1,0 +1,37 @@
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 24777010: <GM12878_E2F6_ACE> in cluster <rcc> Done
+
+Job <GM12878_E2F6_ACE> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Sun Nov  8 16:47:33 2015
+Results reported on Sun Nov  8 16:50:40 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyCentipede_pipeline.zsh E2F6 /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/All/fdr_4_inside_HS/E2F6.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/DU_GM12878/Centipede_batch/E2F6_PRIOR.txt /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/DU_GM12878/Centipede_batch/E2F6_DNASE.txt /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/GM12878/Centipede_batch/E2F6.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   183.34 sec.
+    Max Memory :                                 2287 MB
+    Average Memory :                             1920.33 MB
+    Total Requested Memory :                     8192.00 MB
+    Delta Memory :                               5905.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <GM12878_E2F6_ACE_err.txt> for stderr output of this job.
+

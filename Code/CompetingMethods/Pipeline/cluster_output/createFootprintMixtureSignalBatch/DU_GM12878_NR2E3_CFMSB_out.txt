@@ -1,0 +1,37 @@
+Sender: LSF System <lsfadmin@linuxnc077>
+Subject: Job 24705801: <DU_GM12878_NR2E3_CFMSB> in cluster <rcc> Done
+
+Job <DU_GM12878_NR2E3_CFMSB> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxnc077>, in queue <low>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Nov  2 19:44:03 2015
+Results reported on Mon Nov  2 19:46:15 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./createFootprintMixtureSignal_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/All/fdr_4_inside_HS/NR2E3.bed /hpcwork/izkf/projects/TfbsPrediction/Data/DNase_DU/GM12878/DNase.bam /hpcwork/izkf/projects/TfbsPrediction/Data/HG19/hg19.fa /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/DU_GM12878/FootprintMixture_batch/NR2E3
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   30.99 sec.
+    Max Memory :                                 5527 MB
+    Average Memory :                             2687.75 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               6473.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <DU_GM12878_NR2E3_CFMSB_err.txt> for stderr output of this job.
+

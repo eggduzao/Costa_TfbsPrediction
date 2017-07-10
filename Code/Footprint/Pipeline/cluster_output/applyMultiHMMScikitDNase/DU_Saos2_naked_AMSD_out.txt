@@ -1,0 +1,37 @@
+Sender: LSF System <lsfadmin@linuxbmc1026>
+Subject: Job 21664351: <DU_Saos2_naked_AMSD> in cluster <rcc> Done
+
+Job <DU_Saos2_naked_AMSD> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc1026>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Footprint/Pipeline> was used as the working directory.
+Started at Thu May 21 18:52:02 2015
+Results reported on Fri May 22 08:50:15 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyMultiHMMScikitDNase_pipeline.zsh /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/HMM/InputRegions/DU_Saos2/dnase_HS_regions.bed /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/HMM/Models_DNase/Saos2/Model/naked.hmm /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/NormSlopeBiasNaked/DU_Saos2/DNaseBiasCorrected_norm.bw,/hpcwork/izkf/projects/TfbsPrediction/Results/Signals/NormSlopeBiasNaked/DU_Saos2/DNaseBiasCorrected_slope.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/Saos2/HMM_DNase_DU_NAKED/DNase_ModelSaos2.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   50792.20 sec.
+    Max Memory :                                 2877 MB
+    Average Memory :                             1539.90 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               9123.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <DU_Saos2_naked_AMSD_err.txt> for stderr output of this job.
+

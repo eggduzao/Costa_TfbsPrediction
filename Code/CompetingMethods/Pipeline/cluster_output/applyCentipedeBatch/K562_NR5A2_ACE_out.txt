@@ -1,0 +1,37 @@
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 24454681: <K562_NR5A2_ACE> in cluster <rcc> Done
+
+Job <K562_NR5A2_ACE> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Wed Oct 21 20:41:48 2015
+Results reported on Wed Oct 21 20:42:56 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyCentipede_pipeline.zsh NR5A2 /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/All/fdr_4_inside_HS/NR5A2.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/DU_K562/Centipede_batch/NR5A2_PRIOR.txt /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/DU_K562/Centipede_batch/NR5A2_DNASE.txt /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/K562/Centipede_batch/NR5A2.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   57.10 sec.
+    Max Memory :                                 1224 MB
+    Average Memory :                             300.50 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               10776.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <K562_NR5A2_ACE_err.txt> for stderr output of this job.
+

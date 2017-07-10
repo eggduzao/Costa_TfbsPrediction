@@ -1,0 +1,37 @@
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 24176852: <ENF_UWDGF_K562> in cluster <rcc> Done
+
+Job <ENF_UWDGF_K562> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/StatisticalTests/KmerBiasFull> was used as the working directory.
+Started at Wed Sep 30 17:44:56 2015
+Results reported on Wed Sep 30 17:49:47 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./evaluateNormFactor_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Data/DNase/UWDGF/K562.bam /hpcwork/izkf/projects/TfbsPrediction/Data/DNase/UWDGF/K562.bed /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/StatisticalTests/KmerBiasFull/bias/norm/UWDGF_K562.txt
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   271.99 sec.
+    Max Memory :                                 2723 MB
+    Average Memory :                             1386.56 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               9277.00 MB
+    Max Processes :                              5
+    Max Threads :                                6
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <ENF_UWDGF_K562_err.txt> for stderr output of this job.
+

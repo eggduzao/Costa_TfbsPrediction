@@ -1,0 +1,37 @@
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 24728656: <DU_GM12878_ESRRA_AFM2B> in cluster <rcc> Done
+
+Job <DU_GM12878_ESRRA_AFM2B> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Thu Nov  5 01:27:24 2015
+Results reported on Thu Nov  5 01:28:14 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyFootprintMixture2_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/All/fdr_4_inside_HS/ESRRA.bed /hpcwork/izkf/projects/TfbsPrediction/Data/DNase_DU/GM12878/DNasePeaks.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/DU_GM12878/FootprintMixture_batch/ESRRA_CUT.txt /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/DU_GM12878/FootprintMixture_batch/ESRRA_SEQ.fa /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/GM12878/FLR_batch/ESRRA.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   45.56 sec.
+    Max Memory :                                 368 MB
+    Average Memory :                             155.00 MB
+    Total Requested Memory :                     24000.00 MB
+    Delta Memory :                               23632.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <DU_GM12878_ESRRA_AFM2B_err.txt> for stderr output of this job.
+

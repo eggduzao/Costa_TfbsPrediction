@@ -1,0 +1,37 @@
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 24443242: <K562_PPARG_CCSB> in cluster <rcc> Done
+
+Job <K562_PPARG_CCSB> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Tue Oct 20 23:35:21 2015
+Results reported on Wed Oct 21 00:11:03 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./createCentipedeSignal_pipeline.zsh PPARG /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/All/fdr_4_inside_HS/PPARG.bed /hpcwork/izkf/projects/TfbsPrediction/Data/PhastCons/PhastCons.bw /hpcwork/izkf/projects/TfbsPrediction/Data/DistanceTSS/distanceTSS.bw 200 /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/DU_K562/DNasePos.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/DU_K562/DNaseNeg.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/DU_K562/Centipede_batch/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   3472.90 sec.
+    Max Memory :                                 368 MB
+    Average Memory :                             104.92 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11632.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <K562_PPARG_CCSB_err.txt> for stderr output of this job.
+

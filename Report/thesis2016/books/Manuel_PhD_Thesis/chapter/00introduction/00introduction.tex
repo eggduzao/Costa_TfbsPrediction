@@ -1,0 +1,109 @@
+\chapter{Introduction}
+Gene expression is the process of selectively reading genetic information and it describes a life-essential mechanism in all known living organisms.
+Proteins that interact with DNA are key players in the regulation of gene expression.
+For example, histones are proteins that can be modified (histone modifications) to locally influence the DNA's accessibility.
+The DNA's accessibility is a crucial feature for transcription factor proteins, as they bind to the DNA.
+DNA-protein interaction sites are nowadays analysed in a genome wide manner with Chromatin immunoprecipitation followed by sequencing (ChIP-seq).
+
+ChIP is a complex multistep protocol that provides millions of short DNA fragments covering the regions around the protein-DNA interaction sites.
+The subsequent sequencing step produces DNA strings (reads) of the beginning or the end of these fragments.
+The information of the reads' positions, which is associated with the positions of the protein-DNA interaction sites, gets lost during the sequencing process.
+Sophisticated string search algorithms have to be applied to reconstruct the positions by mapping the reads back to a reference genome.
+Various challenges arise in this sequencing and mapping step: 
+due to their short lengths (words with $50-100$ characters), reads can map to various locations on the reference genome (word with $3$ billion characters) resulting in ambiguous estimates for the positions of the protein-DNA complexes.
+Furthermore, the reference genome usually differs from the original genome, which aggravates the read mapping procedure.
+Also, the exact DNA-protein interaction sites have to be determined, as the reads are only mapped to the close vicinity of the proteins of interest.
+
+After the read mapping process, computational methods have to be applied to estimate a discrete value reflecting the binding strength of the protein for each genomic position.
+Peaks, that is, regions with a signal higher than expected by chance, correspond to the protein-DNA interaction sites.
+Detecting such peaks is the fundamental computational challenge in the ChIP-seq analysis.
+The great majority of published computational tools have concentrated on the detection of peaks in a single ChIP-seq signal.
+As in every complex wet lab protocol, ChIP-seq contains a wide range of potential biases.
+% Among others, these artefacts arise from bias of DNA fragmentation to open chromatin regions, variation of IP efficiency due to antibodies, as well as PCR amplification and sequencing depth bias. 
+To reduce the effect of unwanted biases, ChIP-seq experiments are often replicated.
+Replicates help to distinguish between biological and random events and to verify the reliability of all experimental steps.
+Complex ChIP-seq based studies emphasize the demand of methods to compare replicated ChIP-seq signals which are associated with distinct biological conditions.
+For example, the detection of histones changes for distinct cellular conditions is an outstanding crucial problem in current biological and medical research which leads to a deeper understanding of biological mechanisms in general and further findings in gene expression regulation in particular.
+For example,
+\begin{itemize}
+ \item cancer can influence the histones which effect the gene expression.
+ \cite{Koues2015} for instance analyze regulatory features including histone changes between lymphoma patients and a control group with healthy individuals.
+ \item histone states have a high impact on cell differentiation which is essential to gain a deeper understanding of biological processes.
+ \cite{Lin2015} investigate regulatory changes during the development of antigen-presenting dendritic cells.
+ \item changes in histones lead to cell activation.
+ \cite{Stunnenberg2014} for instance explore how monocyte cells are activated to macrophages cells which play a key role in the defence system of the organism. 
+\end{itemize}
+
+\noindent
+Epigenetic findings cover a huge range of applications and lead to important and extensive insights in the field of biological and medical research.
+In all studies, we are interested in comparing the histone modification levels from distinct experimental conditions.
+Figure~\ref{fig_intro} gives an example for the replicated ChIP-seq signal based on histone modifications of monocyte and macrophage cells from the study of \cite{Stunnenberg2014}.
+Peaks in the green and red signal correspond to the positions of certain histone modifications.
+
+\begin{figure}[t]
+\begin{center}
+%   \includegraphics[width=\textwidth]{pics/intro_example.png}
+% \includegraphics[width=\textwidth]{pics/intro_example.pdf}
+\end{center}
+\caption[Example for changes in histone modification levels]{Example for changes in histone modification levels of monocyte and macrophage cells from the study of~\cite{Stunnenberg2014}. 
+With ChIP-seq it becomes possible to assign to each genomic position a discrete value that reflects the strength of the DNA-protein binding.
+Replicated ChIP-seq signals are shown as line plots for the monocytes (red) and macrophages (green) cells for the regions where the genes IRAK3 and PDK2 are located in the human genome.
+Differential peaks between the profiles of monocyte and macrophage cells are indicated by black boxes: DP2 and DP3 gain monocyte and DP1 and DP4 gain macrophage signal.}
+\label{fig_intro}
+\end{figure}
+
+Several computational challenges arise when detecting differential peaks (DPs).
+First, artefacts, which arise due to the complexity of the ChIP-seq protocol, produce signals with distinct signal-to-noise ratios, even when they are produced in the same lab and follow the same protocols~\citep{Furey2012,Meyer2014}. 
+Moreover, clinical samples, where patients have a distinct genetic background, introduce further variation to the ChIP-seq signals~\citep{ashoor2013}.
+% These artefacts impose great challenges to the computational analysis of ChIP-seq data.
+Second, a robust normalization method for the ChIP-seq signals is required.
+Next, replicated ChIP-seq experiments introduce further complexity which has to be reflected by the use of sophisticated statistical models.
+% Only recently, detecting peaks in replicates of ChIP-seq data of a single condition has been investigated. 
+% Later, methods solving the differential peak calling problem, that is, the detection of genomic regions with changes in ChIP-seq profiles between two distinct samples, have been proposed.
+% In Figure~\ref{fig_intro} differential peaks are indicated by red and green bars below the signal.
+Finally, the shape of ChIP-seq peaks depends on the underlying protein of interest.
+For ChIP-seq data of histone modifications, the DNA-protein interactions occur in mid size to large domains.
+In contrary, ChIP-seq from transcription factors mostly happens in small isolated peaks.
+% Methods that call DPs should be robust against the peakR shape in the ChIP-seq signals.
+
+Current differential peak calling methods fail to cover all challenges that arise due to the ChIP-seq protocol.
+In particular, the used normalization methods are not designed for ChIP-seq data.
+Only some of these methods use models that properly take replicates into account.
+Furthermore, they apply heuristic signal segmentation strategies, such as windows based approaches, to identify DPs.
+There is a clear need for computational methods that accurately identify DPs.
+
+In this thesis, we propose novel algorithms to determine changes of protein-DNA complexes for distinct cellular conditions in ChIP-seq experiments with and without replicates.
+In particular, our algorithms detect DPs in the above described studies from ~\cite{Lin2015}, \cite{Koues2015} and \cite{Stunnenberg2014}.
+Our methods address all described challenges.
+We apply proper statistical models (hidden Markov model) to call differential peaks.
+We also introduce a novel normalization strategy which is based on control regions.
+These feature lead to comprehensive algorithms to accurately call differential peaks in ChIP-seq signals.
+
+Moreover, the evaluation of differential peak calling algorithms is an open problem.
+The research community lacks both a direct metric to rate the algorithms and data sets with a genome wide map of DNA-protein interaction sites which can serve as gold standards.
+We propose two alternative approaches for the evaluation.
+First, we present an indirect metric to quantify DPs by taking advantage of gene expression data and second, we use simulation to customize artificial gold standards.
+
+
+
+% XXX contributions to computer science?
+
+\section{Organization of the Thesis}
+In Chapter~\ref{chapter_background}, we first explain the biological and technical background.
+Second, we formalize the differential peak calling problem.
+Finally, we discuss the previous work done on this field and formulate specific goals of this thesis.
+In Chapter~\ref{chapter_methods}, we explain our method to call differential peaks in ChIP-seq signals.
+We first introduce the mathematical notation.
+Second, we give details about the preprocessing pipeline which is necessary for the ChIP-seq analysis.
+Next, we explain the differential peak calling procedure.
+We conclude with the postprocessing pipeline of our method.
+In Chapter~\ref{chapter_exp_methods}, we describe the experiments performed in this thesis.
+First, we propose an algorithm to simulate ChIP-seq reads that contain differential peaks.
+Second, we describe our evaluation approach which is based on gene expression data.
+Next, we list the biological data used for our experiments and give a short introduction to the statistical test for the evaluation.
+Finally, we detail the experiments we perform to evaluate differential peak calling methods.
+In Chapter~\ref{chapter_results}, we give an overview of the results we have achieved with our experiments.
+We distinguish between our method THOR that takes replicates into account and ODIN that does not take replicates into account.
+The final Chapter~\ref{chapter_conclusion} contains a concluding discussion and an outlook to future work.
+
+

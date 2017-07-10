@@ -1,0 +1,37 @@
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 24091730: <ENF_UWHS_Helas3> in cluster <rcc> Done
+
+Job <ENF_UWHS_Helas3> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/StatisticalTests/KmerBiasFull> was used as the working directory.
+Started at Sat Sep 26 05:14:15 2015
+Results reported on Sat Sep 26 05:21:58 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./evaluateNormFactor_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Data/DNase/UWHS/Helas3.bam /hpcwork/izkf/projects/TfbsPrediction/Data/DNase/UWHS/Helas3.bed /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/StatisticalTests/KmerBiasFull/bias/norm/UWHS_Helas3
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   440.97 sec.
+    Max Memory :                                 2776 MB
+    Average Memory :                             1668.08 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               9224.00 MB
+    Max Processes :                              5
+    Max Threads :                                6
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <ENF_UWHS_Helas3_err.txt> for stderr output of this job.
+

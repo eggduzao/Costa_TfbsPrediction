@@ -1,0 +1,1240 @@
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 29624776: <H1hesc_HTCBAM> in cluster <rcc> Done
+
+Job <H1hesc_HTCBAM> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Sun Jun 26 20:33:56 2016
+Results reported on Sun Jun 26 20:38:01 2016
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCountBam_pipeline.zsh 200 /hpcwork/izkf/projects/TfbsPrediction/Results_DNase/MPBSAWG/H1hesc_Evidence/fdr_4/NRF1.bed /hpcwork/izkf/projects/TfbsPrediction/Data/Histone/H1hesc/H3K4me3.bam /hpcwork/izkf/projects/TfbsPrediction/Results_DNase/Footprints/Results/H1hesc/Histone_TC/NRF1.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   197.01 sec.
+    Max Memory :                                 859 MB
+    Average Memory :                             370.62 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11141.00 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                7
+    Run time :                                   245 sec.
+    Turnaround time :                            270 sec.
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <H1hesc_HTCBAM_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 29624777: <H1hesc_HTCBAM> in cluster <rcc> Done
+
+Job <H1hesc_HTCBAM> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Sun Jun 26 20:33:56 2016
+Results reported on Sun Jun 26 20:38:30 2016
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCountBam_pipeline.zsh 200 /hpcwork/izkf/projects/TfbsPrediction/Results_DNase/MPBSAWG/H1hesc_Evidence/fdr_4/GABP.bed /hpcwork/izkf/projects/TfbsPrediction/Data/Histone/H1hesc/H3K4me3.bam /hpcwork/izkf/projects/TfbsPrediction/Results_DNase/Footprints/Results/H1hesc/Histone_TC/GABP.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   241.26 sec.
+    Max Memory :                                 75 MB
+    Average Memory :                             31.89 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11925.00 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                7
+    Run time :                                   274 sec.
+    Turnaround time :                            299 sec.
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <H1hesc_HTCBAM_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 29624774: <H1hesc_HTCBAM> in cluster <rcc> Done
+
+Job <H1hesc_HTCBAM> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Sun Jun 26 20:33:56 2016
+Results reported on Sun Jun 26 20:41:55 2016
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCountBam_pipeline.zsh 200 /hpcwork/izkf/projects/TfbsPrediction/Results_DNase/MPBSAWG/H1hesc_Evidence/fdr_4/BRCA1.bed /hpcwork/izkf/projects/TfbsPrediction/Data/Histone/H1hesc/H3K4me3.bam /hpcwork/izkf/projects/TfbsPrediction/Results_DNase/Footprints/Results/H1hesc/Histone_TC/BRCA1.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   430.66 sec.
+    Max Memory :                                 394 MB
+    Average Memory :                             131.33 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11606.00 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                7
+    Run time :                                   479 sec.
+    Turnaround time :                            505 sec.
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <H1hesc_HTCBAM_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 29624770: <H1hesc_HTCBAM> in cluster <rcc> Done
+
+Job <H1hesc_HTCBAM> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Sun Jun 26 20:33:55 2016
+Results reported on Sun Jun 26 20:46:00 2016
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCountBam_pipeline.zsh 200 /hpcwork/izkf/projects/TfbsPrediction/Results_DNase/MPBSAWG/H1hesc_Evidence/fdr_4/SP4.bed /hpcwork/izkf/projects/TfbsPrediction/Data/Histone/H1hesc/H3K4me3.bam /hpcwork/izkf/projects/TfbsPrediction/Results_DNase/Footprints/Results/H1hesc/Histone_TC/SP4.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   675.66 sec.
+    Max Memory :                                 518 MB
+    Average Memory :                             199.22 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11482.00 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                7
+    Run time :                                   725 sec.
+    Turnaround time :                            751 sec.
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <H1hesc_HTCBAM_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 29624758: <H1hesc_HTCBAM> in cluster <rcc> Done
+
+Job <H1hesc_HTCBAM> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Sun Jun 26 20:33:55 2016
+Results reported on Sun Jun 26 20:46:45 2016
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCountBam_pipeline.zsh 200 /hpcwork/izkf/projects/TfbsPrediction/Results_DNase/MPBSAWG/H1hesc_Evidence/fdr_4/CTCF.bed /hpcwork/izkf/projects/TfbsPrediction/Data/Histone/H1hesc/H3K4me3.bam /hpcwork/izkf/projects/TfbsPrediction/Results_DNase/Footprints/Results/H1hesc/Histone_TC/CTCF.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   733.25 sec.
+    Max Memory :                                 123 MB
+    Average Memory :                             74.54 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11877.00 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                7
+    Run time :                                   769 sec.
+    Turnaround time :                            801 sec.
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <H1hesc_HTCBAM_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 29624761: <H1hesc_HTCBAM> in cluster <rcc> Done
+
+Job <H1hesc_HTCBAM> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Sun Jun 26 20:33:55 2016
+Results reported on Sun Jun 26 20:46:46 2016
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCountBam_pipeline.zsh 200 /hpcwork/izkf/projects/TfbsPrediction/Results_DNase/MPBSAWG/H1hesc_Evidence/fdr_4/RAD21.bed /hpcwork/izkf/projects/TfbsPrediction/Data/Histone/H1hesc/H3K4me3.bam /hpcwork/izkf/projects/TfbsPrediction/Results_DNase/Footprints/Results/H1hesc/Histone_TC/RAD21.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   767.30 sec.
+    Max Memory :                                 120 MB
+    Average Memory :                             64.28 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11880.00 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                7
+    Run time :                                   769 sec.
+    Turnaround time :                            800 sec.
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <H1hesc_HTCBAM_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 29624768: <H1hesc_HTCBAM> in cluster <rcc> Done
+
+Job <H1hesc_HTCBAM> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Sun Jun 26 20:33:55 2016
+Results reported on Sun Jun 26 20:47:08 2016
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCountBam_pipeline.zsh 200 /hpcwork/izkf/projects/TfbsPrediction/Results_DNase/MPBSAWG/H1hesc_Evidence/fdr_4/P300.bed /hpcwork/izkf/projects/TfbsPrediction/Data/Histone/H1hesc/H3K4me3.bam /hpcwork/izkf/projects/TfbsPrediction/Results_DNase/Footprints/Results/H1hesc/Histone_TC/P300.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   777.23 sec.
+    Max Memory :                                 123 MB
+    Average Memory :                             62.40 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11877.00 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                7
+    Run time :                                   793 sec.
+    Turnaround time :                            820 sec.
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <H1hesc_HTCBAM_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 29624778: <H1hesc_HTCBAM> in cluster <rcc> Done
+
+Job <H1hesc_HTCBAM> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Sun Jun 26 20:33:56 2016
+Results reported on Sun Jun 26 20:47:09 2016
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCountBam_pipeline.zsh 200 /hpcwork/izkf/projects/TfbsPrediction/Results_DNase/MPBSAWG/H1hesc_Evidence/fdr_4/BACH1.bed /hpcwork/izkf/projects/TfbsPrediction/Data/Histone/H1hesc/H3K4me3.bam /hpcwork/izkf/projects/TfbsPrediction/Results_DNase/Footprints/Results/H1hesc/Histone_TC/BACH1.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   778.57 sec.
+    Max Memory :                                 139 MB
+    Average Memory :                             74.36 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11861.00 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                7
+    Run time :                                   794 sec.
+    Turnaround time :                            818 sec.
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <H1hesc_HTCBAM_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 29624763: <H1hesc_HTCBAM> in cluster <rcc> Done
+
+Job <H1hesc_HTCBAM> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Sun Jun 26 20:33:55 2016
+Results reported on Sun Jun 26 20:47:19 2016
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCountBam_pipeline.zsh 200 /hpcwork/izkf/projects/TfbsPrediction/Results_DNase/MPBSAWG/H1hesc_Evidence/fdr_4/MYC.bed /hpcwork/izkf/projects/TfbsPrediction/Data/Histone/H1hesc/H3K4me3.bam /hpcwork/izkf/projects/TfbsPrediction/Results_DNase/Footprints/Results/H1hesc/Histone_TC/MYC.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   799.48 sec.
+    Max Memory :                                 99 MB
+    Average Memory :                             60.08 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11901.00 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                7
+    Run time :                                   803 sec.
+    Turnaround time :                            833 sec.
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <H1hesc_HTCBAM_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 29624765: <H1hesc_HTCBAM> in cluster <rcc> Done
+
+Job <H1hesc_HTCBAM> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Sun Jun 26 20:33:55 2016
+Results reported on Sun Jun 26 20:47:41 2016
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCountBam_pipeline.zsh 200 /hpcwork/izkf/projects/TfbsPrediction/Results_DNase/MPBSAWG/H1hesc_Evidence/fdr_4/RFX5.bed /hpcwork/izkf/projects/TfbsPrediction/Data/Histone/H1hesc/H3K4me3.bam /hpcwork/izkf/projects/TfbsPrediction/Results_DNase/Footprints/Results/H1hesc/Histone_TC/RFX5.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   820.23 sec.
+    Max Memory :                                 134 MB
+    Average Memory :                             69.85 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11866.00 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                7
+    Run time :                                   825 sec.
+    Turnaround time :                            854 sec.
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <H1hesc_HTCBAM_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 29624771: <H1hesc_HTCBAM> in cluster <rcc> Done
+
+Job <H1hesc_HTCBAM> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Sun Jun 26 20:33:55 2016
+Results reported on Sun Jun 26 20:47:56 2016
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCountBam_pipeline.zsh 200 /hpcwork/izkf/projects/TfbsPrediction/Results_DNase/MPBSAWG/H1hesc_Evidence/fdr_4/REST.bed /hpcwork/izkf/projects/TfbsPrediction/Data/Histone/H1hesc/H3K4me3.bam /hpcwork/izkf/projects/TfbsPrediction/Results_DNase/Footprints/Results/H1hesc/Histone_TC/REST.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   832.45 sec.
+    Max Memory :                                 123 MB
+    Average Memory :                             65.15 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11877.00 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                7
+    Run time :                                   841 sec.
+    Turnaround time :                            867 sec.
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <H1hesc_HTCBAM_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 29624769: <H1hesc_HTCBAM> in cluster <rcc> Done
+
+Job <H1hesc_HTCBAM> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Sun Jun 26 20:33:55 2016
+Results reported on Sun Jun 26 20:48:57 2016
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCountBam_pipeline.zsh 200 /hpcwork/izkf/projects/TfbsPrediction/Results_DNase/MPBSAWG/H1hesc_Evidence/fdr_4/FOSL1.bed /hpcwork/izkf/projects/TfbsPrediction/Data/Histone/H1hesc/H3K4me3.bam /hpcwork/izkf/projects/TfbsPrediction/Results_DNase/Footprints/Results/H1hesc/Histone_TC/FOSL1.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   894.57 sec.
+    Max Memory :                                 179 MB
+    Average Memory :                             78.55 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11821.00 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                7
+    Run time :                                   902 sec.
+    Turnaround time :                            929 sec.
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <H1hesc_HTCBAM_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 29624762: <H1hesc_HTCBAM> in cluster <rcc> Done
+
+Job <H1hesc_HTCBAM> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Sun Jun 26 20:33:55 2016
+Results reported on Sun Jun 26 20:48:58 2016
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCountBam_pipeline.zsh 200 /hpcwork/izkf/projects/TfbsPrediction/Results_DNase/MPBSAWG/H1hesc_Evidence/fdr_4/ATF3.bed /hpcwork/izkf/projects/TfbsPrediction/Data/Histone/H1hesc/H3K4me3.bam /hpcwork/izkf/projects/TfbsPrediction/Results_DNase/Footprints/Results/H1hesc/Histone_TC/ATF3.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   894.20 sec.
+    Max Memory :                                 124 MB
+    Average Memory :                             69.34 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11876.00 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                7
+    Run time :                                   902 sec.
+    Turnaround time :                            932 sec.
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <H1hesc_HTCBAM_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 29624766: <H1hesc_HTCBAM> in cluster <rcc> Done
+
+Job <H1hesc_HTCBAM> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Sun Jun 26 20:33:55 2016
+Results reported on Sun Jun 26 20:49:06 2016
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCountBam_pipeline.zsh 200 /hpcwork/izkf/projects/TfbsPrediction/Results_DNase/MPBSAWG/H1hesc_Evidence/fdr_4/USF1.bed /hpcwork/izkf/projects/TfbsPrediction/Data/Histone/H1hesc/H3K4me3.bam /hpcwork/izkf/projects/TfbsPrediction/Results_DNase/Footprints/Results/H1hesc/Histone_TC/USF1.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   894.07 sec.
+    Max Memory :                                 124 MB
+    Average Memory :                             76.17 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11876.00 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                7
+    Run time :                                   911 sec.
+    Turnaround time :                            939 sec.
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <H1hesc_HTCBAM_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 29624780: <H1hesc_HTCBAM> in cluster <rcc> Done
+
+Job <H1hesc_HTCBAM> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Sun Jun 26 20:33:56 2016
+Results reported on Sun Jun 26 20:49:18 2016
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCountBam_pipeline.zsh 200 /hpcwork/izkf/projects/TfbsPrediction/Results_DNase/MPBSAWG/H1hesc_Evidence/fdr_4/JUND.bed /hpcwork/izkf/projects/TfbsPrediction/Data/Histone/H1hesc/H3K4me3.bam /hpcwork/izkf/projects/TfbsPrediction/Results_DNase/Footprints/Results/H1hesc/Histone_TC/JUND.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   921.96 sec.
+    Max Memory :                                 124 MB
+    Average Memory :                             69.76 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11876.00 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                7
+    Run time :                                   923 sec.
+    Turnaround time :                            946 sec.
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <H1hesc_HTCBAM_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 29624764: <H1hesc_HTCBAM> in cluster <rcc> Done
+
+Job <H1hesc_HTCBAM> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Sun Jun 26 20:33:55 2016
+Results reported on Sun Jun 26 20:50:38 2016
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCountBam_pipeline.zsh 200 /hpcwork/izkf/projects/TfbsPrediction/Results_DNase/MPBSAWG/H1hesc_Evidence/fdr_4/USF2.bed /hpcwork/izkf/projects/TfbsPrediction/Data/Histone/H1hesc/H3K4me3.bam /hpcwork/izkf/projects/TfbsPrediction/Results_DNase/Footprints/Results/H1hesc/Histone_TC/USF2.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   973.64 sec.
+    Max Memory :                                 192 MB
+    Average Memory :                             87.55 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11808.00 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                7
+    Run time :                                   1002 sec.
+    Turnaround time :                            1031 sec.
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <H1hesc_HTCBAM_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 29624775: <H1hesc_HTCBAM> in cluster <rcc> Done
+
+Job <H1hesc_HTCBAM> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Sun Jun 26 20:33:56 2016
+Results reported on Sun Jun 26 20:51:29 2016
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCountBam_pipeline.zsh 200 /hpcwork/izkf/projects/TfbsPrediction/Results_DNase/MPBSAWG/H1hesc_Evidence/fdr_4/TBP.bed /hpcwork/izkf/projects/TfbsPrediction/Data/Histone/H1hesc/H3K4me3.bam /hpcwork/izkf/projects/TfbsPrediction/Results_DNase/Footprints/Results/H1hesc/Histone_TC/TBP.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   1033.66 sec.
+    Max Memory :                                 154 MB
+    Average Memory :                             79.58 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11846.00 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                7
+    Run time :                                   1053 sec.
+    Turnaround time :                            1079 sec.
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <H1hesc_HTCBAM_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 29624767: <H1hesc_HTCBAM> in cluster <rcc> Done
+
+Job <H1hesc_HTCBAM> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Sun Jun 26 20:33:55 2016
+Results reported on Sun Jun 26 20:51:53 2016
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCountBam_pipeline.zsh 200 /hpcwork/izkf/projects/TfbsPrediction/Results_DNase/MPBSAWG/H1hesc_Evidence/fdr_4/JUN.bed /hpcwork/izkf/projects/TfbsPrediction/Data/Histone/H1hesc/H3K4me3.bam /hpcwork/izkf/projects/TfbsPrediction/Results_DNase/Footprints/Results/H1hesc/Histone_TC/JUN.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   1069.03 sec.
+    Max Memory :                                 166 MB
+    Average Memory :                             82.21 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11834.00 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                7
+    Run time :                                   1077 sec.
+    Turnaround time :                            1105 sec.
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <H1hesc_HTCBAM_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 29624757: <H1hesc_HTCBAM> in cluster <rcc> Done
+
+Job <H1hesc_HTCBAM> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Sun Jun 26 20:33:55 2016
+Results reported on Sun Jun 26 20:52:12 2016
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCountBam_pipeline.zsh 200 /hpcwork/izkf/projects/TfbsPrediction/Results_DNase/MPBSAWG/H1hesc_Evidence/fdr_4/MAX.bed /hpcwork/izkf/projects/TfbsPrediction/Data/Histone/H1hesc/H3K4me3.bam /hpcwork/izkf/projects/TfbsPrediction/Results_DNase/Footprints/Results/H1hesc/Histone_TC/MAX.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   1070.27 sec.
+    Max Memory :                                 161 MB
+    Average Memory :                             85.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11839.00 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                7
+    Run time :                                   1097 sec.
+    Turnaround time :                            1128 sec.
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <H1hesc_HTCBAM_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 29624755: <H1hesc_HTCBAM> in cluster <rcc> Done
+
+Job <H1hesc_HTCBAM> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Sun Jun 26 20:33:55 2016
+Results reported on Sun Jun 26 20:53:56 2016
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCountBam_pipeline.zsh 200 /hpcwork/izkf/projects/TfbsPrediction/Results_DNase/MPBSAWG/H1hesc_Evidence/fdr_4/TCF12.bed /hpcwork/izkf/projects/TfbsPrediction/Data/Histone/H1hesc/H3K4me3.bam /hpcwork/izkf/projects/TfbsPrediction/Results_DNase/Footprints/Results/H1hesc/Histone_TC/TCF12.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   1181.66 sec.
+    Max Memory :                                 204 MB
+    Average Memory :                             100.78 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11796.00 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                7
+    Run time :                                   1201 sec.
+    Turnaround time :                            1233 sec.
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <H1hesc_HTCBAM_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 29624756: <H1hesc_HTCBAM> in cluster <rcc> Done
+
+Job <H1hesc_HTCBAM> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Sun Jun 26 20:33:55 2016
+Results reported on Sun Jun 26 20:55:22 2016
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCountBam_pipeline.zsh 200 /hpcwork/izkf/projects/TfbsPrediction/Results_DNase/MPBSAWG/H1hesc_Evidence/fdr_4/SRF.bed /hpcwork/izkf/projects/TfbsPrediction/Data/Histone/H1hesc/H3K4me3.bam /hpcwork/izkf/projects/TfbsPrediction/Results_DNase/Footprints/Results/H1hesc/Histone_TC/SRF.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   1273.83 sec.
+    Max Memory :                                 164 MB
+    Average Memory :                             93.22 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11836.00 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                7
+    Run time :                                   1285 sec.
+    Turnaround time :                            1318 sec.
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <H1hesc_HTCBAM_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 29624773: <H1hesc_HTCBAM> in cluster <rcc> Done
+
+Job <H1hesc_HTCBAM> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Sun Jun 26 20:33:56 2016
+Results reported on Sun Jun 26 20:56:11 2016
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCountBam_pipeline.zsh 200 /hpcwork/izkf/projects/TfbsPrediction/Results_DNase/MPBSAWG/H1hesc_Evidence/fdr_4/SIX5.bed /hpcwork/izkf/projects/TfbsPrediction/Data/Histone/H1hesc/H3K4me3.bam /hpcwork/izkf/projects/TfbsPrediction/Results_DNase/Footprints/Results/H1hesc/Histone_TC/SIX5.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   1334.61 sec.
+    Max Memory :                                 239 MB
+    Average Memory :                             119.45 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11761.00 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                7
+    Run time :                                   1336 sec.
+    Turnaround time :                            1361 sec.
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <H1hesc_HTCBAM_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 29624754: <H1hesc_HTCBAM> in cluster <rcc> Done
+
+Job <H1hesc_HTCBAM> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Sun Jun 26 20:33:55 2016
+Results reported on Sun Jun 26 20:56:12 2016
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCountBam_pipeline.zsh 200 /hpcwork/izkf/projects/TfbsPrediction/Results_DNase/MPBSAWG/H1hesc_Evidence/fdr_4/ZNF143.bed /hpcwork/izkf/projects/TfbsPrediction/Data/Histone/H1hesc/H3K4me3.bam /hpcwork/izkf/projects/TfbsPrediction/Results_DNase/Footprints/Results/H1hesc/Histone_TC/ZNF143.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   1335.96 sec.
+    Max Memory :                                 175 MB
+    Average Memory :                             99.64 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11825.00 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                7
+    Run time :                                   1336 sec.
+    Turnaround time :                            1369 sec.
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <H1hesc_HTCBAM_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 29624753: <H1hesc_HTCBAM> in cluster <rcc> Done
+
+Job <H1hesc_HTCBAM> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Sun Jun 26 20:33:55 2016
+Results reported on Sun Jun 26 20:57:47 2016
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCountBam_pipeline.zsh 200 /hpcwork/izkf/projects/TfbsPrediction/Results_DNase/MPBSAWG/H1hesc_Evidence/fdr_4/EGR1.bed /hpcwork/izkf/projects/TfbsPrediction/Data/Histone/H1hesc/H3K4me3.bam /hpcwork/izkf/projects/TfbsPrediction/Results_DNase/Footprints/Results/H1hesc/Histone_TC/EGR1.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   1416.41 sec.
+    Max Memory :                                 191 MB
+    Average Memory :                             108.91 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11809.00 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                7
+    Run time :                                   1431 sec.
+    Turnaround time :                            1464 sec.
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <H1hesc_HTCBAM_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 29624760: <H1hesc_HTCBAM> in cluster <rcc> Done
+
+Job <H1hesc_HTCBAM> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Sun Jun 26 20:33:55 2016
+Results reported on Sun Jun 26 20:58:03 2016
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCountBam_pipeline.zsh 200 /hpcwork/izkf/projects/TfbsPrediction/Results_DNase/MPBSAWG/H1hesc_Evidence/fdr_4/RXRA.bed /hpcwork/izkf/projects/TfbsPrediction/Data/Histone/H1hesc/H3K4me3.bam /hpcwork/izkf/projects/TfbsPrediction/Results_DNase/Footprints/Results/H1hesc/Histone_TC/RXRA.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   1454.47 sec.
+    Max Memory :                                 190 MB
+    Average Memory :                             105.73 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11810.00 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                7
+    Run time :                                   1446 sec.
+    Turnaround time :                            1478 sec.
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <H1hesc_HTCBAM_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 29624772: <H1hesc_HTCBAM> in cluster <rcc> Done
+
+Job <H1hesc_HTCBAM> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Sun Jun 26 20:33:56 2016
+Results reported on Sun Jun 26 20:59:28 2016
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCountBam_pipeline.zsh 200 /hpcwork/izkf/projects/TfbsPrediction/Results_DNase/MPBSAWG/H1hesc_Evidence/fdr_4/MAFK.bed /hpcwork/izkf/projects/TfbsPrediction/Data/Histone/H1hesc/H3K4me3.bam /hpcwork/izkf/projects/TfbsPrediction/Results_DNase/Footprints/Results/H1hesc/Histone_TC/MAFK.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   1516.29 sec.
+    Max Memory :                                 204 MB
+    Average Memory :                             122.26 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11796.00 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                7
+    Run time :                                   1533 sec.
+    Turnaround time :                            1559 sec.
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <H1hesc_HTCBAM_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 29624779: <H1hesc_HTCBAM> in cluster <rcc> Done
+
+Job <H1hesc_HTCBAM> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Sun Jun 26 20:33:56 2016
+Results reported on Sun Jun 26 21:01:51 2016
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCountBam_pipeline.zsh 200 /hpcwork/izkf/projects/TfbsPrediction/Results_DNase/MPBSAWG/H1hesc_Evidence/fdr_4/YY1.bed /hpcwork/izkf/projects/TfbsPrediction/Data/Histone/H1hesc/H3K4me3.bam /hpcwork/izkf/projects/TfbsPrediction/Results_DNase/Footprints/Results/H1hesc/Histone_TC/YY1.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   1663.86 sec.
+    Max Memory :                                 190 MB
+    Average Memory :                             108.41 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11810.00 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                7
+    Run time :                                   1675 sec.
+    Turnaround time :                            1699 sec.
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <H1hesc_HTCBAM_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 29624759: <H1hesc_HTCBAM> in cluster <rcc> Done
+
+Job <H1hesc_HTCBAM> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Sun Jun 26 20:33:55 2016
+Results reported on Sun Jun 26 21:01:52 2016
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCountBam_pipeline.zsh 200 /hpcwork/izkf/projects/TfbsPrediction/Results_DNase/MPBSAWG/H1hesc_Evidence/fdr_4/CEBPB.bed /hpcwork/izkf/projects/TfbsPrediction/Data/Histone/H1hesc/H3K4me3.bam /hpcwork/izkf/projects/TfbsPrediction/Results_DNase/Footprints/Results/H1hesc/Histone_TC/CEBPB.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   1666.01 sec.
+    Max Memory :                                 210 MB
+    Average Memory :                             123.45 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11790.00 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                7
+    Run time :                                   1675 sec.
+    Turnaround time :                            1707 sec.
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <H1hesc_HTCBAM_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 29624781: <H1hesc_HTCBAM> in cluster <rcc> Done
+
+Job <H1hesc_HTCBAM> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Sun Jun 26 20:33:56 2016
+Results reported on Sun Jun 26 21:09:03 2016
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCountBam_pipeline.zsh 200 /hpcwork/izkf/projects/TfbsPrediction/Results_DNase/MPBSAWG/H1hesc_Evidence/fdr_4/SP2.bed /hpcwork/izkf/projects/TfbsPrediction/Data/Histone/H1hesc/H3K4me3.bam /hpcwork/izkf/projects/TfbsPrediction/Results_DNase/Footprints/Results/H1hesc/Histone_TC/SP2.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   2090.78 sec.
+    Max Memory :                                 393 MB
+    Average Memory :                             209.95 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11607.00 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                7
+    Run time :                                   2107 sec.
+    Turnaround time :                            2131 sec.
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <H1hesc_HTCBAM_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 29624752: <H1hesc_HTCBAM> in cluster <rcc> Done
+
+Job <H1hesc_HTCBAM> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Sun Jun 26 20:33:55 2016
+Results reported on Sun Jun 26 21:13:08 2016
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCountBam_pipeline.zsh 200 /hpcwork/izkf/projects/TfbsPrediction/Results_DNase/MPBSAWG/H1hesc_Evidence/fdr_4/SP1.bed /hpcwork/izkf/projects/TfbsPrediction/Data/Histone/H1hesc/H3K4me3.bam /hpcwork/izkf/projects/TfbsPrediction/Results_DNase/Footprints/Results/H1hesc/Histone_TC/SP1.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   2348.79 sec.
+    Max Memory :                                 256 MB
+    Average Memory :                             148.94 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11744.00 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                7
+    Run time :                                   2352 sec.
+    Turnaround time :                            2386 sec.
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <H1hesc_HTCBAM_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 29624782: <H1hesc_HTCBAM> in cluster <rcc> Done
+
+Job <H1hesc_HTCBAM> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Sun Jun 26 20:33:56 2016
+Results reported on Sun Jun 26 21:17:45 2016
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyTagCountBam_pipeline.zsh 200 /hpcwork/izkf/projects/TfbsPrediction/Results_DNase/MPBSAWG/H1hesc_Evidence/fdr_4/POU5F1.bed /hpcwork/izkf/projects/TfbsPrediction/Data/Histone/H1hesc/H3K4me3.bam /hpcwork/izkf/projects/TfbsPrediction/Results_DNase/Footprints/Results/H1hesc/Histone_TC/POU5F1.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   2631.31 sec.
+    Max Memory :                                 304 MB
+    Average Memory :                             172.57 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11696.00 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                7
+    Run time :                                   2630 sec.
+    Turnaround time :                            2652 sec.
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <H1hesc_HTCBAM_err.txt> for stderr output of this job.
+

@@ -1,0 +1,19 @@
+
+### To create the Image:
+1. In IGV, save screen or panel in svg format
+2. Using inkscape, convert svg to eps (Always use 900 dpi/resolution)
+3. Using GIMP crop/delete/etc desired parts
+4. Open a new inkscape file and join all images done by steps 1-3 and add 
+   new elements: arrows, lines, text, boxes, etc
+5. Save to svg.
+6. Open inkscape svg and save to eps.
+7. Use epstopdf in server to convert eps to pdf
+8. Import in latex.
+
+### Changes to FootprintsHMM.svg:
+1. First change the Footprints.svg
+2. Save the svg
+3. Ctrl+C Footprints.svg to FootprintsHMM.svg
+4. Save the svg
+5. Save as eps
+

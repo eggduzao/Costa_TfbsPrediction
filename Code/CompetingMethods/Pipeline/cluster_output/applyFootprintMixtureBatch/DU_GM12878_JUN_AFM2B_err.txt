@@ -1,0 +1,4 @@
+(OK) Loading DEVELOP environment
+(OK) Loading python 2.7.5
+(!!) NumPy, SciPy and matplotlib available.
+ Build with GCC compilers.

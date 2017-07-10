@@ -1,0 +1,37 @@
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22705809: <UW_H7hesc_bias_AMSD> in cluster <rcc> Done
+
+Job <UW_H7hesc_bias_AMSD> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Footprint/Pipeline> was used as the working directory.
+Started at Mon Jun 29 19:54:16 2015
+Results reported on Thu Jul  2 00:24:34 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyMultiHMMScikitDNase_pipeline.zsh /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/HMM/InputRegions/UW_H7hesc/dnase_HS_regions.bed /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/HMM/Models_DNase/H7hesc/Model/bias.hmm /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/NormSlopeBias/UW_H7hesc/DNaseBiasCorrected_norm.bw,/hpcwork/izkf/projects/TfbsPrediction/Results/Signals/NormSlopeBias/UW_H7hesc/DNaseBiasCorrected_slope.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/H7hesc/HMM_DNase_UW_BIAS/DNase_ModelH7hesc.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   191666.19 sec.
+    Max Memory :                                 6115 MB
+    Average Memory :                             3283.97 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               5885.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <UW_H7hesc_bias_AMSD_err.txt> for stderr output of this job.
+

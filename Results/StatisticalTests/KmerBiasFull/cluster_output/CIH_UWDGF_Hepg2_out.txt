@@ -1,0 +1,37 @@
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 24176861: <CIH_UWDGF_Hepg2> in cluster <rcc> Done
+
+Job <CIH_UWDGF_Hepg2> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/StatisticalTests/KmerBiasFull> was used as the working directory.
+Started at Wed Sep 30 17:44:56 2015
+Results reported on Wed Sep 30 18:11:00 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./createKmerDict_pipeline.zsh 6 N /hpcwork/izkf/projects/TfbsPrediction/Data/DNase/UWDGF/Hepg2.bam /hpcwork/izkf/projects/TfbsPrediction/Data/DNase/UWDGF/Hepg2.bed /hpcwork/izkf/projects/TfbsPrediction/Data/HG19/hg19.fa /hpcwork/izkf/projects/TfbsPrediction/Data/HG19/hg19.chrom.sizes.filtered /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/StatisticalTests/KmerBiasFull/bias/dict/hs_UWDGF_Hepg2_6
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   2352.47 sec.
+    Max Memory :                                 36 MB
+    Average Memory :                             34.51 MB
+    Total Requested Memory :                     24000.00 MB
+    Delta Memory :                               23964.00 MB
+    Max Processes :                              5
+    Max Threads :                                6
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <CIH_UWDGF_Hepg2_err.txt> for stderr output of this job.
+

@@ -1,0 +1,34 @@
+HMMD_DU_BIAS	HINT-BC	HINT-BC
+HINT-BC_D_DU	HINT-BC	HINT-BC
+HMMD_DU_NAKED	HINT-BCN	HINT-BCN
+HINT-BCN_D_DU	HINT-BCN	HINT-BCN
+HMMD_DU	HINT	HINT
+HINT_D_DU	HINT	HINT
+DNase2TF	DNase2TF	DNase2TF
+Dnase2Tf_DU	DNase2TF	DNase2TF
+PIQ	PIQ	PIQ
+PIQ_90	PIQ	PIQ
+Wellington	Wellington	Wellington
+Wellington_DU	Wellington	Wellington
+Neph_5	Neph	Neph 5 1001.0
+Neph_DU	Neph	Neph
+Boyle	Boyle	Boyle 5 1001.0
+Boyle_DU	Boyle	Boyle
+BinDNase_80	BinDNase	BinDNase
+Pique_ces	Centipede	Pique ces 0.99
+Pique_DU	Centipede	Centipede
+Centipede_90	Centipede	Centipede
+FLR	FLR	FLR
+FLR_90	FLR	FLR
+Cuellar_D13	Cuellar (2)	Cuellar5 D13 1001.0
+Cuellar_D139	Cuellar (3)	Cuellar5 D139 1001.0
+Cuellar_DU	Cuellar	Cuellar
+Cuellar_90	Cuellar	Cuellar
+TC_DU	TC	TC
+PWM	PWM	PWM
+FOS_DU	FS	FS
+FS_DU	FS	FS
+H-HMM_13(H)	H-HMM (2)	HMMH D13 ModelH1hesc 0 1001.0
+H-HMM_139(H)	H-HMM (3)	HMMH D139 ModelH1hesc 0 1001.0
+DH-HMM_13(H)	DH-HMM (2)	HD D13 ModelH1hesc 5 1001.0
+DH-HMM_139(H)	DH-HMM (3)  	HD D139 ModelH1hesc 5 1001.0

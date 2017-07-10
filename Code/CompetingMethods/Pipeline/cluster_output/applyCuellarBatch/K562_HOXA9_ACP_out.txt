@@ -1,0 +1,37 @@
+Sender: LSF System <lsfadmin@linuxbmc0118>
+Subject: Job 24611803: <K562_HOXA9_ACP> in cluster <rcc> Done
+
+Job <K562_HOXA9_ACP> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0118>, in queue <low>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Wed Oct 28 21:15:48 2015
+Results reported on Thu Oct 29 02:34:44 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyCuellar_pipeline.zsh HOXA9 0.00001 /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/ExpressionValidation/MPBS/MEME/HOXA9.meme /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/DU_K562/Cuellar/DNase_prior.bw /hpcwork/izkf/projects/TfbsPrediction/Data/HG19/ /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/K562/Cuellar_batch/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   19126.05 sec.
+    Max Memory :                                 2423 MB
+    Average Memory :                             996.04 MB
+    Total Requested Memory :                     8192.00 MB
+    Delta Memory :                               5769.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <K562_HOXA9_ACP_err.txt> for stderr output of this job.
+

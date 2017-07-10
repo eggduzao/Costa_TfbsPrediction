@@ -1,0 +1,392 @@
+FACTOR	LAB_MH	LAB_SS	LAB_SY	LAB_IU	LAB_BB	LAB_FU	LAB_SU	LAB_WU	LAB_SH	LAB_ES	MOTIF_RAW	PWM_JASPAR_RAW	PWM_UNIPROBE_RAW	PWM_TRANSFAC_RAW	MOTIF_FB	HITS_FB	PWM_JASPAR_FB	PWM_UNIPROBE_FB	PWM_TRANSFAC_FB	CHIP_USED	PWM_USED	
+ARID3A (SC-8821)	NA	NP	NA	NA	NA	NA	NA	NA	NA	NP	ARID3A	MA0151.1	UP00078.1	NA	NA	NA	NA	NA	NA	LAB_SS	MA0151.1	
+ATF1 (06-325)	NA	NA	NA	NA	NA	NA	NA	NA	NP	NP	ATF1	NA	UP00020.1	V$ATF1_Q6	NA	NA	NA	NA	NA	LAB_SH	UP00020.1	
+ATF3 (SC-188)	BP	NA	NA	NA	NA	NA	NA	NA	NP	NP	ATF3	NA	NA	V$ATF3_Q6	CREB-ext	398	MA0018.2	NA	V$CREB_Q2	LAB_SH	MA0018.2	
+BACH1 (SC-14700)	NA	NP	NA	NA	NA	NA	NA	NA	NA	NP	BACH1	NA	NA	M00495	NA	NA	NA	NA	NA	LAB_SS	M00495	
+BCL3 (SC-185)	NA	NA	NA	NA	NA	NA	NA	NA	NA	NP	NA	NA	NA	NA	GATA1	109	MA0035	NA	V$GATA1_01	RAW=NA / FB=CRITERIA		
+BCLAF1 (SC-101388)	BP	NA	NA	NA	NA	NA	NA	NA	NA	NP	NA	NA	NA	NA	GABP	269	MA0062	UP00408	V$GABP_B	RAW=NA / FB=CRITERIA		
+BDP1 (2663)	NA	NA	NA	NA	NA	NA	NA	NA	NP	NP	NA	NA	NA	NA	A-Box	130	NA	NA	NA	RAW=NA / FB=CRITERIA		
+BHLHE40 (NB100-1800)	NA	NP	NA	NA	NA	NA	NA	NA	NA	NP	BHLHE40	MA0464.1	UP00050.1	NA	BHLHE40	441	MA0464.1	UP00050.1	NA	LAB_SS	MA0464.1	
+BRF1 (128)	NA	NA	NA	NA	NA	NA	NA	NA	NP	NP	NA	NA	NA	NA	A-Box	91	NA	NA	NA	RAW=NA / FB=CRITERIA		
+BRF2 (4295)	NA	NA	NA	NA	NA	NA	NA	NA	NP	NP	NA	NA	NA	NA	NO_MATCH	NA	NA	NA	NA	RAW=NA / FB=NA		
+BRG1 (SC-17796)	NA	NP	NA	NA	NA	NA	NA	NA	NA	NP	NA	NA	NA	NA	GATA1-ext	297	MA0140.2	NA	V$GATA1_01	RAW=NA / FB=CRITERIA		
+C-FOS (SC-7202)	NA	NA	NP	NA	NA	NA	NA	NA	NA	NP	FOS	MA0476.1	NA	NA	NFY	476	NA	NA	V$NFY_01	LAB_SY	MA0476.1	
+C-JUN (SC-1694)	NA	NP	NP	NA	NA	NA	NA	NA	NA	NP	JUN	MA0488.1	NA	V$AP1_01	AP1	394	MA0099.2	NA	V$AP1_01	LAB_SS	MA0488.1	
+C-MYC (SC-764)	NA	NP	NP	NP	NA	NA	NA	NA	NA	NP	MYC	MA0147.2	NA	V$MYCMAX_01	MYC	435	MA0147.2	NA	V$MYCMAX_01	LAB_SS	MA0147.2	
+CBX3 (SC-101004)	BP	NA	NA	NA	BP	NA	NA	NA	NA	NP	NA	NA	NA	NA	NA	NA	NA	NA	NA	RAW=NA / FB=NA		
+CCNT2 (SC-12419)	NA	NA	NA	NA	NA	NA	NA	NA	NP	NP	NA	NA	NA	NA	GATA1-ext	311	MA0140.2	NA	V$GATA1_01	LAB_SH	MA0140.2	
+CEBPB (SC-150)	BP	NP	NA	NA	NA	NA	NA	NA	NA	NP	CEBPB	MA0466.1	NA	V$CEBPB_01	CEBPB	498	MA0466.1	NA	V$CEBPB_01	LAB_SS	MA0466.1	
+CHD1 (A301-218A)	NA	NA	NA	NA	BP	NA	NA	NA	NA	NP	NA	NA	NA	NA	NA	NA	NA	NA	NA	RAW=NA / FB=NA		
+CHD2 (AB68301)	NA	NP	NA	NA	NA	NA	NA	NA	NA	NP	NA	NA	NA	NA	UA1	479	NA	NA	NA	RAW=NA / FB=NA		
+CTCF (07-729)	NA	NA	NA	NP	BP	NA	NP	NA	NA	NP	CTCF	MA0139.1	NA	NA	CTCF	500	MA0139.1	NA	NA	REPEAT		
+CTCF (SC-15914)	NA	NP	NA	NA	NA	NA	NA	NA	NA	NP	CTCF	MA0139.1	NA	NA	NA	NA	NA	NA	NA	LAB_SS	MA0139.1	
+CTCF (SC-5916)	BP	NA	NA	NA	NA	NA	NA	NA	NA	NP	CTCF	MA0139.1	NA	NA	NA	NA	NA	NA	NA	REPEAT		
+CTCFL (SC-98982)	BP	NA	NA	NA	NA	NA	NA	NA	NA	NP	CTCF	NA	NA	NA	CTCF	500	MA0139.1	NA	NA	LAB_MH	MA0139.1	
+E2F4 (SC-866)	NA	NA	NA	NA	NA	NP	NA	NA	NA	NP	E2F4	MA0470.1	NA	V$E2F4DP1_01	E2F4	465	MA0470.1	NA	V$E2F4DP1_01	LAB_FU	MA0470.1	
+E2F6 (SC-22823)	BP	NA	NA	NA	NA	NP	NA	NA	NA	NP	E2F6	MA0471.1	NA	NA	E2F4	384	MA0470.1	NA	V$E2F4DP1_01	LAB_FU	MA0471.1	
+EGR1 (SC-110)	BP	NA	NA	NA	NA	NA	NA	NA	NA	NP	EGR1	MA0162.2	UP00007.1	V$EGR1_01	EGR1	500	MA0162.2	UP00007.1	V$EGR1_01	LAB_MH	MA0162.2	
+ELF1 (SC-631)	BP	NA	NA	NA	NA	NA	NA	NA	NA	NP	ELF1	MA0473.1	NA	V$ELF1_Q6	ELF1	497	MA0473.1	NA	V$ELF1_Q6	LAB_MH	MA0473.1	
+ELK1 (1277-1)	NA	NP	NA	NA	NA	NA	NA	NA	NA	NP	ELK1	MA0028.1	NA	V$ELK1_01	NA	NA	NA	NA	NA	LAB_SS	MA0028.1	
+ETS1 (SC-350)	BP	NA	NA	NA	NA	NA	NA	NA	NA	NP	ETS1	MA0098.2	NA	V$ETS1_B	ZNF143-ext	253	MA0088	NA	V$STAF_01	LAB_MH	MA0098.2	
+EZH2 (39875)	NA	NA	NA	NA	BP	NA	NA	NA	NA	NP	NA	NA	NA	NA	NA	NA	NA	NA	NA	RAW=NA / FB=NA		
+FOS (EGFP-FOS)	NA	NA	NA	NA	NA	NA	NA	NP	NA	NP	FOS	MA0476.1	NA	NA	NA	NA	NA	NA	NA	LAB_WU	MA0476.1	
+FOSL1 (SC-183)	BP	NA	NA	NA	NA	NA	NA	NA	NA	NP	FOSL1	MA0477.1	NA	NA	AP1	472	MA0099.2	NA	V$AP1_01	LAB_MH	MA0477.1	
+GABPA (SC-28312)	BP	NA	NA	NA	NA	NA	NA	NA	NA	NP	GABP	MA0062.2	UP00408.1	V$GABP_B	GABP	488	MA0062.2	UP00408.1	V$GABP_B	LAB_MH	MA0062.2	
+GATA1	NA	NA	NA	NA	NA	NP	NA	NA	NA	NP	GATA1	MA0035.3	NA	V$GATA1_01	GATA1	486	MA0035.3	NA	V$GATA1_01	LAB_FU	MA0035.3	
+GATA2	NA	NA	NA	NA	NA	NP	NA	NA	NA	NP	GATA2	MA0036.2	NA	V$GATA2_01	GATA1-ext	483	MA0140.2	NA	V$GATA1_01	LAB_FU	MA0036.2	
+GATA2 (EGFP-GATA2)	NA	NA	NA	NA	NA	NA	NA	NP	NA	NP	GATA2	MA0036.2	NA	V$GATA2_01	GATA1	453	MA0035.3	NA	V$GATA1_01	LAB_WU	MA0036.2	
+GATA2 (SC-267)	BP	NA	NA	NA	NA	NA	NA	NA	NA	NP	GATA2	MA0036.2	NA	V$GATA2_01	GATA1-ext	499	MA0140.2	NA	V$GATA1_01	REPEAT		
+GTF2B (SC-225)	NA	NA	NA	NA	NA	NA	NA	NA	NP	NP	NA	NA	NA	NA	TBP	149	MA0108	UP00029	V$TBP_01	RAW=NA / FB=CRITERIA		
+GTF2F1 (AB28179)	NA	NP	NA	NA	NA	NA	NA	NA	NA	NP	NA	NA	NA	NA	TBP	158	MA0108	UP00029	V$TBP_01	RAW=NA / FB=CRITERIA		
+HMGN3 (NB100-61076)	NA	NA	NA	NA	NA	NA	NA	NA	NP	NP	NA	NA	NA	NA	GATA1	216	MA0035	NA	V$GATA1_01	RAW=NA / FB=CRITERIA		
+INI1 (SC-16189)	NA	NP	NA	NA	NA	NA	NA	NA	NA	NP	NA	NA	NA	NA	REST	62	MA0138	NA	V$NRSF_01	RAW=NA / FB=CRITERIA		
+IRF1 (SC-497)	NA	NP	NA	NA	NA	NA	NA	NA	NA	NP	IRF1	MA0050.2		V$IRF1_01	PRDM1	382	NA	NA	NA	LAB_SS	MA0050.2	
+JUNB (EGFP-JUNB)	NA	NA	NA	NA	NA	NA	NA	NP	NA	NP	JUNB	MA0490.1	NA	NA	AP1	462	MA0099.2	NA	V$AP1_01	LAB_WU	MA0490.1	
+JUND (EGFP-JUND)	NA	NA	NA	NA	NA	NA	NA	NP	NA	NP	JUND	MA0491.1	NA	NA	AP1	413	MA0099.2	NA	V$AP1_01	LAB_WU	MA0491.1	
+JUND (SC-74)	NA	NP	NA	NA	NA	NA	NA	NA	NA	NP	JUND	MA0491.1	NA	NA	v-JUN	422	NA	NA	V$VJUN_01	LAB_SS	MA0491.1	
+KAP1 (AB10483)	NA	NA	NA	NA	NA	NP	NA	NA	NA	NP	NA	NA	NA	NA	UA10	259	NA	NA	NA	RAW=NA / FB=CRITERIA		
+MAFF (M8194)	NA	NP	NA	NA	NA	NA	NA	NA	NA	NP	MAFF	MA0495.1	NA	NA	NA	NA	NA	NA	NA	LAB_SS	MA0495.1	
+MAFK (AB50322)	NA	NP	NA	NA	NA	NA	NA	NA	NA	NP	MAFK	MA0496.1	UP00044	V$VMAF_01	v-Maf	500	MA0495.1	NA	V$VMAF_01	LAB_SS	MA0496.1	
+MAX (SC-197)	BP	NP	NP	NA	NA	NA	NA	NA	NA	NP	MAX	MA0058.2	UP00060	V$MAX_01	MAX	492	MA0058.2	UP00060	V$MAX_01	LAB_SS	MA0058.2	
+MAZ (AB85725)	NA	NP	NA	NA	NA	NA	NA	NA	NA	NP	MAZ	NA	NA	NA	NA	NA	NA	NA	NA	RAW=NA / FB=NA		
+MEF2A (SC-313)	BP	NA	NA	NA	NA	NA	NA	NA	NA	NP	MEF2A	MA0052.2	NA	V$MEF2_01	MEF2	472	MA0052.2	NA	V$MEF2_01	LAB_MH	MA0052.2	
+MXI1 (AF4185)	NA	NP	NA	NA	NA	NA	NA	NA	NA	NP	NA	NA	NA	NA	RFX5	227	NA	NA	NA	RAW=NA / FB=CRITERIA		
+NELF-E (SC-32912)	NA	NA	NA	NA	NA	NA	NA	NA	NP	NP	NA	NA	NA	NA	TBP	39	MA0108	UP00029	V$TBP_01	RAW=NA / FB=CRITERIA		
+NF-E2 (SC-291)	NA	NA	NP	NA	NA	NA	NA	NA	NA	NP	NFE2	MA0501.1	NA	V$NFE2_01	NFE2	383	MA0501.1	NA	V$NFE2_01	LAB_SY	MA0501.1	
+NF-YA	NA	NP	NA	NA	NA	NA	NA	NA	NA	NP	NFYA	MA0060.2	NA	V$NFY_01	NFY	483	NA	NA	V$NFY_01	LAB_SS	MA0060.2	
+NF-YB	NA	NP	NA	NA	NA	NA	NA	NA	NA	NP	NFYB	MA0502.1	NA	V$NFY_01	NFY	500	NA	NA	V$NFY_01	LAB_SS	MA0502.1	
+NR2F2 (SC-271940)	BP	NA	NA	NA	NA	NA	NA	NA	NA	NP	NR2F2	NA	UP00009.1	V$ARP1_01	NA	NA	NA	NA	NA	LAB_MH	UP00009.1	
+NRF1 (AB55744)	NA	NP	NA	NA	NA	NA	NA	NA	NA	NP	NRF1	MA0506.1	NA	V$NRF1_Q6	NRF1	498	MA0506.1	NA	V$NRF1_Q6	LAB_SS	MA0506.1	
+NRSF	BP	NA	NA	NA	NA	NA	NA	NA	NA	NP	REST	MA0138.2	NA	V$NRSF_01	REST	415	MA0138.2	NA	V$NRSF_01	LAB_MH	MA0138.2	
+PHF8 (A301-772A)	NA	NA	NA	NA	BP	NA	NA	NA	NA	NP	NA	NA	NA	NA	NA	NA	NA	NA	NA	RAW=NA / FB=NA		
+PLU-1	NA	NA	NA	NA	BP	NA	NA	NA	NA	NP	NA	NA	NA	NA	NA	NA	NA	NA	NA	RAW=NA / FB=NA		
+PML (SC-71910)	BP	NA	NA	NA	NA	NA	NA	NA	NA	NP	NA	NA	NA	NA	NA	NA	NA	NA	NA	RAW=NA / FB=NA		
+PU.1 (SC-22805)	BP	NA	NA	NA	NA	NA	NA	NA	NA	NP	SPI1	MA0080.3	UP00085.1	V$PU1_Q6	PU1	500	MA0080.3	UP00085.1	V$PU1_Q6	LAB_MH	MA0080.3	
+RAD21 (AB992)	BP	NA	NP	NA	NA	NA	NA	NA	NA	NP	NA	NA	NA	NA	CTCF	499	MA0139.1	NA	NA	LAB_SY	MA0139.1	
+RBBP5 (A300-109A)	NA	NA	NA	NA	BP	NA	NA	NA	NA	NP	NA	NA	NA	NA	NA	NA	NA	NA	NA	RAW=NA / FB=NA		
+RCOR1/COREST (AB24166)	NA	NP	NA	NA	NA	NA	NA	NA	NA	NP	NA	NA	NA	NA	NA	NA	NA	NA	NA	RAW=NA / FB=NA		
+RCOR1/COREST (SC30189)	NA	NP	NA	NA	NA	NA	NA	NA	NA	NP	NA	NA	NA	NA	NA	NA	NA	NA	NA	RAW=NA / FB=NA		
+RFX5 (200-401-194)	NA	NP	NA	NA	NA	NA	NA	NA	NA	NP	RFX5	MA0510.1	NA	NA	NA	NA	NA	NA	NA	LAB_SS	MA0510.1	
+RPC155 (1900)	NA	NA	NA	NA	NA	NA	NA	NA	NP	NP	NA	NA	NA	NA	B-Box	289	NA	NA	NA	RAW=NA / FB=CRITERIA		
+SAP30 (39731)	NA	NA	NA	NA	BP	NA	NA	NA	NA	NP	NA	NA	NA	NA	NA	NA	NA	NA	NA	RAW=NA / FB=NA		
+SETDB1 (11231-1-AP)	NA	NA	NA	NA	BP	NP	NA	NA	NA	NP	NA	NA	NA	NA	UA10	97	NA	NA	NA	RAW=NA / FB=CRITERIA		
+SIN3AK20 (SC-994)	BP	NA	NA	NA	NA	NA	NA	NA	NA	NP	NA	NA	NA	NA	REST	69	MA0138	NA	V$NRSF_01	RAW=NA / FB=CRITERIA		
+SIRT6 (AB48192)	NA	NA	NA	NA	BP	NA	NA	NA	NP	NP	NA	NA	NA	NA	GATA1	262	MA0035	NA	V$GATA1_01	RAW=NA / FB=CRITERIA		
+SIX5 (SC-55706)	BP	NA	NA	NA	NA	NA	NA	NA	NA	NP	NA	NA	NA	NA	ZNF143-ext	449	MA0088.1	NA	V$STAF_01	LAB_MH	MA0088.1	
+SMC3 (AB9263)	NA	NP	NA	NA	NA	NA	NA	NA	NA	NP	NA	NA	NA	NA	CTCF	492	MA0139	NA	NA	LAB_SS	MA0139.1	
+SP1 (SC-17824)	BP	NA	NA	NA	NA	NA	NA	NA	NA	NP	SP1	MA0079.3	NA	V$SP1_01	NFY	329	NA	NA	V$NFY_01	LAB_MH	MA0079.3	
+SP2 (SC-643)	BP	NA	NA	NA	NA	NA	NA	NA	NA	NP	SP2	MA0516.1	NA	NA	NFY	341	NA	NA	V$NFY_01	LAB_MH	MA0516.1	
+SRF (SC-335)	BP	NA	NA	NA	NA	NA	NA	NA	NA	NP	SRF	MA0083.2	UP00077.1	V$SRF_01	SRF	281	MA0083.2	UP00077.1	V$SRF_01	LAB_MH	MA0083.2	
+STAT1 (SC-345)	NA	NP	NP	NA	NA	NA	NA	NA	NA	NP	STAT1	MA0137.3	NA	V$STAT1_01	STAT1	486	MA0137.3	NA	V$STAT1_01	LAB_SS	MA0137.3	
+STAT2 (SC-476X)	NA	NA	NP	NA	NA	NA	NA	NA	NA	NP	STAT2:STAT1	MA0517.1	NA	V$STAT_01	STAT2	218	MA0517.1	NA	V$STAT_01	LAB_SY	MA0517.1	
+STAT5A (SC-74442)	BP	NA	NA	NA	NA	NA	NA	NA	NA	NP	STAT5A:STAT5B	MA0519.1	NA	V$STAT5A_01	NA	NA	NA	NA	NA	LAB_MH	MA0519.1	
+TAF1 (SC-735)	BP	NA	NA	NA	NA	NA	NA	NA	NA	NP	NA	NA	NA	NA	YY1	172	MA0095	NA	V$YY1_01	RAW=NA / FB=CRITERIA		
+TAF7 (SC-101167)	BP	NA	NA	NA	NA	NA	NA	NA	NA	NP	NA	NA	NA	NA	NO_MATCH	NA	NA	NA	NA	RAW=NA / FB=NA		
+TAL1 (SC-12984)	NA	NP	NA	NA	NA	NA	NA	NA	NA	NP	TAL1:GATA1	MA0140.2	NA	V$TAL1_Q6	GATA1-ext	431	MA0140.2	NA	V$GATA1_01	LAB_SS	MA0140.2	
+TBLR1 (AB24550)	NA	NP	NA	NA	NA	NA	NA	NA	NA	NP	NA	NA	NA	NA	NA	NA	NA	NA	NA	RAW=NA / FB=NA		
+TBLR1_(NB600-270)	NA	NP	NA	NA	NA	NA	NA	NA	NA	NP	NA	NA	NA	NA	NA	NA	NA	NA	NA	RAW=NA / FB=NA		
+TBP (AB62126)	NA	NP	NA	NA	NA	NA	NA	NA	NA	NP	TBP	MA0108.2	UP00029.1	V$TBP_01	A-Box	276	NA	NA	NA	LAB_SS	MA0108.2	
+TEAD4 (SC-101184)	BP	NA	NA	NA	NA	NA	NA	NA	NA	NP	NA	NA	NA	NA	NA	NA	NA	NA	NA	RAW=NA / FB=NA		
+TFIIIC-110 (4286)	NA	NA	NA	NA	NA	NA	NA	NA	NP	NP	NA	NA	NA	NA	B-Box	404	NA	NA	NA	RAW=NA / FB=NA		
+THAP1 (SC-98174)	BP	NA	NA	NA	NA	NA	NA	NA	NA	NP	THAP1	MA0597.1	NA	NA	UA4	201	NA	NA	NA	LAB_MH	MA0597.1	
+TR4	NA	NA	NA	NA	NA	NP	NA	NA	NA	NP	NR2C2	MA0504.1	NA	NA	GABP	185	MA0062	UP00408	V$GABP_B	LAB_FU	MA0504.1	
+TRIM28 (SC-81411)	BP	NA	NA	NA	NA	NA	NA	NA	NA	NP	NA	NA	NA	NA	NA	NA	NA	NA	NA	RAW=NA / FB=NA		
+UBF (SC-13125)	NA	NP	NA	NA	NA	NA	NA	NA	NA	NP	NA	NA	NA	NA	NA	NA	NA	NA	NA	RAW=NA / FB=NA		
+UBTF (SAB1404509)	NA	NP	NA	NA	NA	NA	NA	NA	NA	NP	NA	NA	NA	NA	NA	NA	NA	NA	NA	RAW=NA / FB=NA		
+USF1 (SC-229)	BP	NA	NA	NA	NA	NA	NA	NA	NA	NP	USF1	MA0093.2	NA	V$USF_01	USF	498	MA0093.2	NA	V$USF_01	LAB_MH	MA0093.2	
+USF2 (AB60931)	NA	NP	NA	NA	NA	NA	NA	NA	NA	NP	USF2	MA0526.1	NA	V$USF2_Q6	USF	496	MA0093.2	NA	V$USF_01	LAB_SS	MA0526.1	
+YY1 (SC-1703)	BP	NA	NA	NA	NA	NP	NA	NA	NA	NP	YY1	MA0095.2	NA	V$YY1_01	YY1	465	MA0095.2	NA	V$YY1_01	LAB_FU	MA0095.2	
+YY1 (SC-281)	BP	NA	NA	NA	NA	NA	NA	NA	NA	NP	YY1	MA0095.2	NA	V$YY1_01	YY1	478	MA0095.2	NA	V$YY1_01	REPEAT		
+ZBTB33 (SC-23871)	BP	NA	NA	NA	NA	NA	NA	NA	NA	NP	ZBTB33	MA0527.1	NA	NA	UA1	492	NA	NA	NA	LAB_MH	MA0527.1	
+ZBTB7A (SC-34508)	BP	NA	NA	NA	NA	NA	NA	NA	NA	NP	ZBTB7B	NA	UP00047.1	NA	UA3	500	NA	NA	NA	LAB_MH	UP00047.1	
+ZNF143 (16618-1-AP)	NA	NP	NA	NA	NA	NA	NA	NA	NA	NP	ZNF143	MA0088.1	NA	V$STAF_01	ZNF143-ext	458	MA0088.1	NA	V$STAF_01	LAB_SS	MA0088.1	
+ZNF263 (H00010127-A01)	NA	NA	NA	NA	NA	NP	NA	NA	NA	NP	ZNF263	MA0528.1	NA	NA	ZNF263	419	MA0528.1	NA	NA	LAB_FU	MA0528.1	
+ZNF274 (H00010782-A01)	NA	NA	NA	NA	NA	NP	NA	NA	NA	NP	NA	NA	NA	NA	UA10	212	NA	NA	NA	RAW=NA / FB=CRITERIA		
+ZNF274 (H00010782-M01)	NA	NA	NA	NA	NA	NP	NA	NA	NA	NP	NA	NA	NA	NA	UA10	212	NA	NA	NA	RAW=NA / FB=CRITERIA		
+CBP (SC-369)	NA	NA	NA	NA	BP	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NO STANDARD PEAK		
+CBX2 (A302-524A)	NA	NA	NA	NA	BP	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NO STANDARD PEAK		
+CBX8 (A300-882A)	NA	NA	NA	NA	BP	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NO STANDARD PEAK		
+CDP (SC-6327)	NA	NP	NA	NA	NA	NA	NA	NA	NA	NA	CDP	NA	NA	V$CDP_01	NA	NA	NA	NA	NA	NO STANDARD PEAK		
+CEBPD (SC-636)	BP	NA	NA	NA	NA	NA	NA	NA	NA	NA	CEBPD	NA	NA	V$CEBPDELTA_Q6	NA	NA	NA	NA	NA	NO STANDARD PEAK		
+CHD4/MI2 (A301-081A)	NA	NA	NA	NA	BP	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NO STANDARD PEAK		
+CHD7 (A301-223A)	NA	NA	NA	NA	BP	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NO STANDARD PEAK		
+CREB1 (SC-240)	BP	NA	NA	NA	NA	NA	NA	NA	NA	NA	CREB1	MA0018	NA	V$CREB_Q2	NA	NA	NA	NA	NA	NO STANDARD PEAK		
+GATA1 (SC-266)	NA	NP	NA	NA	NA	NA	NA	NA	NA	NA	GATA1	MA0035	NA	V$GATA1_01	NA	NA	NA	NA	NA	NO STANDARD PEAK		
+HCFC1_(NB100-68209)	NA	NP	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NO STANDARD PEAK		
+LSD1/KDM1A (A300-215A)	NA	NA	NA	NA	BP	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NO STANDARD PEAK		
+NCOR (A301-145A)	NA	NA	NA	NA	BP	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NO STANDARD PEAK		
+NR4A1 (EGFP-NR4A1)	NA	NA	NA	NA	NA	NA	NA	NP	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NO STANDARD PEAK		
+NSD2 (AB75359)	NA	NA	NA	NA	BP	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NO STANDARD PEAK		
+P300/EP300 (SC-48343)	NA	NP	NA	NA	NA	NA	NA	NA	NA	NA	P300	NA	NA	V$P300_01	GATA1-ext	497	MA0140.2	NA	V$GATA1_01	NO STANDARD PEAK		
+PCAF/KAT2B (A301-666A)	NA	NA	NA	NA	BP	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NO STANDARD PEAK		
+REST (17-641)	NA	NA	NA	NA	BP	NA	NA	NA	NA	NA	REST	MA0138	NA	V$NRSF_01	NA	NA	NA	NA	NA	NO STANDARD PEAK		
+RNF2 (A302-869A)	NA	NA	NA	NA	BP	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NO STANDARD PEAK		
+SUZ12 (05-1317)	NA	NA	NA	NA	BP	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NO STANDARD PEAK		
+XRCC4 (AB145)	NA	NA	NP	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NO STANDARD PEAK		
+ZC3H11A_(NB100-74650)	NA	NP	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NO STANDARD PEAK		
+ZMIZ1 (AB65767)	NA	NP	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NO STANDARD PEAK		
+ZNF384 (HPA004051)	NA	NP	NA	NA	NA	NA	NA	NA	NA	NA	CIZ	NA	NA	V$CIZ_01	NA	NA	NA	NA	NA	NO STANDARD PEAK		
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						
+																						

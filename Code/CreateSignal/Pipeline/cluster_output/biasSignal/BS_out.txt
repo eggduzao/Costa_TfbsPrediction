@@ -1,0 +1,185 @@
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 21635581: <BS> in cluster <rcc> Done
+
+Job <BS> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CreateSignal/Pipeline> was used as the working directory.
+Started at Tue May 19 17:41:33 2015
+Results reported on Tue May 19 17:50:58 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./biasSignal_pipeline.zsh /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/StatisticalTests/KmerBias/KmerTable/HS/DNaseUW_IMR90_6_F.txt /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/StatisticalTests/KmerBias/KmerTable/HS/DNaseUW_IMR90_6_R.txt /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/HMM/InputRegions/UW_IMR90/hd.bed /hpcwork/izkf/projects/TfbsPrediction/Data/DNaseUW/IMR90/DNase.bam /hpcwork/izkf/projects/TfbsPrediction/Data/HG19/hg19.fa /hpcwork/izkf/projects/TfbsPrediction/Data/HG19/hg19.chrom.sizes.filtered /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Bias/UW_IMR90/DNaseBiasCorrected.wig
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   509.79 sec.
+    Max Memory :                                 5606 MB
+    Average Memory :                             2167.50 MB
+    Total Requested Memory :                     60000.00 MB
+    Delta Memory :                               54394.00 MB
+    Max Processes :                              7
+    Max Threads :                                8
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <BS_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 21635583: <BS> in cluster <rcc> Done
+
+Job <BS> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CreateSignal/Pipeline> was used as the working directory.
+Started at Tue May 19 17:41:33 2015
+Results reported on Tue May 19 19:51:54 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./biasSignal_pipeline.zsh /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/StatisticalTests/KmerBias/KmerTable/HS/DNaseUW_m3134_with_DEX_6_F.txt /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/StatisticalTests/KmerBias/KmerTable/HS/DNaseUW_m3134_with_DEX_6_R.txt /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/HMM/InputRegions/UW_m3134_with_DEX/hd.bed /hpcwork/izkf/projects/TfbsPrediction/Data/DNaseUW/m3134_with_DEX/DNase.bam /hpcwork/izkf/projects/TfbsPrediction/Data/MM9/mm9.fa /hpcwork/izkf/projects/TfbsPrediction/Data/MM9/mm9.chrom.sizes /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Bias/UW_m3134_with_DEX/DNaseBiasCorrected.wig
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   7891.98 sec.
+    Max Memory :                                 16921 MB
+    Average Memory :                             4652.72 MB
+    Total Requested Memory :                     60000.00 MB
+    Delta Memory :                               43079.00 MB
+    Max Processes :                              7
+    Max Threads :                                8
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <BS_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 21635584: <BS> in cluster <rcc> Done
+
+Job <BS> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CreateSignal/Pipeline> was used as the working directory.
+Started at Tue May 19 17:41:33 2015
+Results reported on Tue May 19 19:52:19 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./biasSignal_pipeline.zsh /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/StatisticalTests/KmerBias/KmerTable/HS/DNaseUW_m3134_wo_DEX_6_F.txt /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/StatisticalTests/KmerBias/KmerTable/HS/DNaseUW_m3134_wo_DEX_6_R.txt /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/HMM/InputRegions/UW_m3134_wo_DEX/hd.bed /hpcwork/izkf/projects/TfbsPrediction/Data/DNaseUW/m3134_wo_DEX/DNase.bam /hpcwork/izkf/projects/TfbsPrediction/Data/MM9/mm9.fa /hpcwork/izkf/projects/TfbsPrediction/Data/MM9/mm9.chrom.sizes /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Bias/UW_m3134_wo_DEX/DNaseBiasCorrected.wig
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   7918.75 sec.
+    Max Memory :                                 12919 MB
+    Average Memory :                             2598.88 MB
+    Total Requested Memory :                     60000.00 MB
+    Delta Memory :                               47081.00 MB
+    Max Processes :                              7
+    Max Threads :                                8
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <BS_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 21635582: <BS> in cluster <rcc> Done
+
+Job <BS> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CreateSignal/Pipeline> was used as the working directory.
+Started at Tue May 19 17:41:33 2015
+Results reported on Tue May 19 20:11:03 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./biasSignal_pipeline.zsh /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/StatisticalTests/KmerBias/KmerTable/HS/DNaseUW_LnCaP_6_F.txt /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/StatisticalTests/KmerBias/KmerTable/HS/DNaseUW_LnCaP_6_R.txt /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/HMM/InputRegions/UW_LnCaP/hd.bed /hpcwork/izkf/projects/TfbsPrediction/Data/DNaseUW/LnCaP/DNase.bam /hpcwork/izkf/projects/TfbsPrediction/Data/HG19/hg19.fa /hpcwork/izkf/projects/TfbsPrediction/Data/HG19/hg19.chrom.sizes.filtered /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Bias/UW_LnCaP/DNaseBiasCorrected.wig
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   9089.70 sec.
+    Max Memory :                                 16918 MB
+    Average Memory :                             4299.01 MB
+    Total Requested Memory :                     60000.00 MB
+    Delta Memory :                               43082.00 MB
+    Max Processes :                              7
+    Max Threads :                                8
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <BS_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 21635578: <BS> in cluster <rcc> Done
+
+Job <BS> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CreateSignal/Pipeline> was used as the working directory.
+Started at Tue May 19 17:41:33 2015
+Results reported on Tue May 19 20:44:36 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./biasSignal_pipeline.zsh /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/StatisticalTests/KmerBias/KmerTable/HS/DNase_Mcf7_6_F.txt /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/StatisticalTests/KmerBias/KmerTable/HS/DNase_Mcf7_6_R.txt /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/HMM/InputRegions/DU_Mcf7/hd.bed /hpcwork/izkf/projects/TfbsPrediction/Data/DNase/Mcf7/DNase.bam /hpcwork/izkf/projects/TfbsPrediction/Data/HG19/hg19.fa /hpcwork/izkf/projects/TfbsPrediction/Data/HG19/hg19.chrom.sizes.filtered /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Bias/DU_Mcf7/DNaseBiasCorrected.wig
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   11112.39 sec.
+    Max Memory :                                 18809 MB
+    Average Memory :                             4380.72 MB
+    Total Requested Memory :                     60000.00 MB
+    Delta Memory :                               41191.00 MB
+    Max Processes :                              7
+    Max Threads :                                8
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <BS_err.txt> for stderr output of this job.
+

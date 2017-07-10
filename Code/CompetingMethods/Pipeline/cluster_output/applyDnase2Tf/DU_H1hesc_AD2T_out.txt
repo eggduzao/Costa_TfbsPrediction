@@ -1,0 +1,37 @@
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22346152: <DU_H1hesc_AD2T> in cluster <rcc> Done
+
+Job <DU_H1hesc_AD2T> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Sun Jun 14 03:58:35 2015
+Results reported on Sun Jun 14 15:43:46 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyDnase2Tf_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Data/DNase/H1hesc/DNasePeaks.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/DU_H1hesc/Dnase2Tf/DNase /hpcwork/izkf/projects/TfbsPrediction/Data/GersteinMappability/HG19/ /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/DU_H1hesc/Dnase2Tf/dinuc_freq_table_ac_DNase.txt /hpcwork/izkf/projects/TfbsPrediction/Data/HG19/ /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/H1hesc/Dnase2Tf_DU.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   42532.60 sec.
+    Max Memory :                                 13383 MB
+    Average Memory :                             6906.95 MB
+    Total Requested Memory :                     100000.00 MB
+    Delta Memory :                               86617.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <DU_H1hesc_AD2T_err.txt> for stderr output of this job.
+

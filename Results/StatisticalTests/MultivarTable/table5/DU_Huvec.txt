@@ -1,0 +1,7 @@
+CHIPSEQ_LAB	CHIPSEQ_ID	PWM_REPOSITORY	PWM_ID
+Iyer	wgEncodeEH000551	Jaspar	MA0139.1
+Farnham	wgEncodeEH001774	Jaspar	MA0476.1
+Farnham	wgEncodeEH001758	Jaspar	MA0036.2
+Snyder	wgEncodeEH000719	Jaspar	MA0488.1
+Snyder	wgEncodeEH000768	Jaspar	MA0058.2
+Iyer	wgEncodeEH000561	Jaspar	MA0147.2

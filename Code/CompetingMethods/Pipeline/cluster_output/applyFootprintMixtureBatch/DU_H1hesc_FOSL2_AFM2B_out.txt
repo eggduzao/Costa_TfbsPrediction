@@ -1,0 +1,37 @@
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 24378689: <DU_H1hesc_FOSL2_AFM2B> in cluster <rcc> Done
+
+Job <DU_H1hesc_FOSL2_AFM2B> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Oct 12 18:59:33 2015
+Results reported on Mon Oct 12 19:00:13 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyFootprintMixture2_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/All/fdr_4_inside_HS/FOSL2.bed /hpcwork/izkf/projects/TfbsPrediction/Data/DNase_DU/H1hesc/DNasePeaks.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/DU_H1hesc/FootprintMixture_batch/FOSL2_CUT.txt /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/DU_H1hesc/FootprintMixture_batch/FOSL2_SEQ.fa /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/H1hesc/FLR_batch_all/FOSL2.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   38.80 sec.
+    Max Memory :                                 322 MB
+    Average Memory :                             44.00 MB
+    Total Requested Memory :                     24000.00 MB
+    Delta Memory :                               23678.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <DU_H1hesc_FOSL2_AFM2B_err.txt> for stderr output of this job.
+

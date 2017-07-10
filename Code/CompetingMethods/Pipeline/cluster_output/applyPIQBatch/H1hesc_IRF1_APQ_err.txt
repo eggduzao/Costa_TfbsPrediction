@@ -1,0 +1,15 @@
+(OK) Loading DEVELOP environment
+(OK) Loading python 2.7.5
+(!!) NumPy, SciPy and matplotlib available.
+ Build with GCC compilers.
+Bioconductor version 3.1 (BiocInstaller 1.18.3), ?biocLite for help
+Bioconductor version 3.1 (BiocInstaller 1.18.3), ?biocLite for help
+Bioconductor version 3.1 (BiocInstaller 1.18.3), ?biocLite for help
+Bioconductor version 3.1 (BiocInstaller 1.18.3), ?biocLite for help
+Bioconductor version 3.1 (BiocInstaller 1.18.3), ?biocLite for help
+Bioconductor version 3.1 (BiocInstaller 1.18.3), ?biocLite for help
+Bioconductor version 3.1 (BiocInstaller 1.18.3), ?biocLite for help
+Bioconductor version 3.1 (BiocInstaller 1.18.3), ?biocLite for help
+Warning message:
+In dir.create(paste0(tmpdir, "/", pwmid), recursive = T) :
+  '/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/PIQ_batch/temp_IRF1//65' already exists

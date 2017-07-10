@@ -1,0 +1,226 @@
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% ----------------------------------------------------------------------
+% Class: Main.tex
+% Description: Contains the code that put together all parts and calls
+%              defined styles, etc.
+% Author: Eduardo Gade Gusmao
+% ----------------------------------------------------------------------
+% Original template by Harish Bhanderi.
+% Original template at: http://www-h.eng.cam.ac.uk/help/tpl/textprocessing/ThesisStyle/
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Style file for Latex
+% Placed in the external file ./Latex/Classes/PhDthesisPSnPDF.
+\documentclass[twoside,openany,11pt]{Latex/Classes/PhDthesisPSnPDF}
+
+% Macro file for Latex
+% Placed in the external file /Latex/Macros/MacroFile1.tex
+\include{Latex/Macros/MacroFile1}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%% Title
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% PDF header
+\ifpdf
+    \pdfinfo { /Title  (Dissertacao de Mestrado)
+               /Creator (TeX)
+               /Producer (pdfTeX)
+               /Author (Eduardo Gade Gusmao egg@cin.ufpe.br)
+               /CreationDate (D:YYYYMMDDhhmmss)  %format D:YYYYMMDDhhmmss
+               /ModDate (D:YYYYMMDDhhmm)
+               /Subject (Bioinformatica)
+               /Keywords (DNase-seq, ChIP-seq, TFBS, HMM) }
+    \pdfcatalog { /PageMode (/UseOutlines)
+                  /OpenAction (fitbh)  }
+\fi
+
+% Title
+\title{Identificação de sítios de ligação de fatores de transcrição com a integração de dados epigenéticos}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%% Front Matter Information
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\ifpdf
+
+  % Front cover
+  \author{Eduardo Gade Gusmão}
+  \collegeordept{Centro de Informática}
+  \university{Universidade Federal de Pernambuco}
+
+  % Institution logos
+  \crest{\includegraphics[width=3.5cm,height=4cm]{0_FrontMatter/Figures/logoufpe.jpg} \hspace{40 mm} \includegraphics[width=5cm,height=2.7cm]{0_FrontMatter/Figures/logocin.jpg}}
+
+  % Default dissertation text
+  \newcommand{\defaulttext}{ Dissertação apresentada ao Centro de Informática da
+                           Universidade Federal de Pernambuco, como parte dos requisitos necessários
+                           para obtenção do título de Mestre em Ciência da Computação.}
+                           
+  % Advisor information
+  \newcommand{\advisortext}{Orientador}
+  \newcommand{\advisor}{Ivan Gesteira Costa Filho}
+  \newcommand{\coadvisortext}{Co-orientador}
+  \newcommand{\coadvisor}{Marcilio Carlos Pereira de Souto}
+  
+  %\newcommand{\advisortitle}{Ph.D. em Bioinformática -- Max-Planck-Institute for Molecular Genetics}
+  
+  % Library requirements information
+  \newcommand{\libreqname}{Gusmão, Eduardo Gade}
+  \newcommand{\libreqtitle}{Identificação de sítios de ligação de fatores de transcrição com a integração de dados epigenéticos / 
+                            Eduardo Gade Gusmão. -- Recife: O autor, 2012.}
+  \newcommand{\libreqpages}{100 p.}
+  \newcommand{\libreqinstitute}{Dissertação (mestrado) -- Universidade Federal de Pernambuco. CIn. Ciência da computação, 2012.}
+  \newcommand{\libreqbib}{Inclui bibliografia.}
+  \newcommand{\libreqarea}{1. Bioinformática. I. Título.}
+  \newcommand{\libreqcode}{516.36 \hspace{20 mm} CDD(22. ed.) \hspace{20 mm} MEI2012 -- 076}
+  
+  % Reviewers information
+  \newcommand{\reviewersintro}{ Dissertação submetida ao corpo docente do programa de pós-graduação do Centro
+                           de Informática da Universidade Federal de Pernambuco como parte dos requisitos necessários
+                           para obtenção do grau de mestre em Ciência da Computação.}
+  \newcommand{\reviewersorienter}{Ivan Gesteira Costa Filho}
+  \newcommand{\reviewersorienterinst}{Centro de Informática - UFPE}
+  \newcommand{\reviewersone}{Katia Silva Guimarães}
+  \newcommand{\reviewersoneinst}{Centro de Informática - UFPE}
+  \newcommand{\reviewerstwo}{Ana Maria Benko Iseppon}
+  \newcommand{\reviewerstwoinst}{Departamento de Genética - UFPE}
+  \newcommand{\reviewersthree}{Paulo Gustavo Soares da Fonseca}
+  \newcommand{\reviewersthreeinst}{Centro de Informática - UFPE}
+  \newcommand{\reviewerstitle}{IDENTIFICAÇÃO DE SÍTIOS DE LIGAÇÃO DE FATORES DE TRANSCRIÇÃO COM A INTEGRAÇÃO DE DADOS EPIGENÉTICOS.}
+  \newcommand{\reviewersname}{Eduardo Gade Gusmão}
+  \newcommand{\reviewersuniversity}{UNIVERSIDADE FEDERAL DE PERNAMBUCO}
+  \newcommand{\reviewerscenter}{CENTRO DE INFORMÁTICA}
+  \newcommand{\reviewersaddress}{Cidade Universitária -- Tels. (81) 2126-8414 -- Fax: (81) 2126-8410.}
+  \newcommand{\reviewersstatecountry}{RECIFE -- BRASIL}
+  \newcommand{\reviewersdate}{Outubro -- 2012}
+
+\else
+  \author{Eduardo Gade Gusmão}
+  \collegeordept{Centro de Informática}
+  \university{Universidade Federal de Pernambuco}
+  \crest{\includegraphics[width=4cm]{logo}}
+\fi
+
+% Front cover
+\renewcommand{\submittedtext}{Dissertação de Mestrado}
+\degree{Ciência da Computação}
+\degreedate{Outubro 2012}
+
+% Turn off overfull and underfull hboxes
+\hbadness=10000
+\hfuzz=50pt
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%% Front Matter
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+% Set line spacing
+\renewcommand\baselinestretch{1.2}
+\baselineskip=16pt plus1pt
+
+% Generate cover page
+\maketitle
+\newpage
+
+% Generate second cover page
+\makesecondpage
+\newpage
+
+% Generate library requirements page
+%\libreq
+%\newpage
+
+% Generate reviewers page
+\reviewerspage
+% Generate reviewers page based on reviewers.png (after scanning the signatures)
+%\reviewerspagesigned
+
+%%%%% Acknowledgements
+\include{0_FrontMatter/Acknowledgement}
+
+%%%%% Dedication
+\include{0_FrontMatter/Dedication}
+
+%%%%% Resumo
+\include{0_FrontMatter/Resumo}
+
+%%%%% Abstract
+\include{0_FrontMatter/Abstract}
+
+%%%%% Contents
+% Levels are: 0 - chapter, 1 - section, 2 - subsection, 3 - subsection
+\setcounter{secnumdepth}{3} % organisational level that receives a numbers
+\setcounter{tocdepth}{3}    % print table of contents for level 3
+
+% Renaming the original titles the list of contents to the portuguese version
+\renewcommand*\contentsname{Sumário}
+\renewcommand\listfigurename{Lista de Figuras}
+\renewcommand\listtablename{Lista de Tabelas}
+
+\tableofcontents % print the table of contents
+\listoffigures	 % print list of figures
+\listoftables  % print list of tables
+
+%%%%% Glossary
+\include{0_FrontMatter/Glossary}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%% Main Document
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\mainmatter
+
+\renewcommand{\chaptername}{} % uncomment to print only "1" not "Chapter 1"
+
+% Create headers and footers
+\pagestyle{fancy}
+
+% Change paragraph spacing
+\setlength{\parskip}{10pt}
+
+%%%%% Introduction
+\include{1_Introduction/Introduction}
+
+%%%%% Chapter 2
+\include{2_Chapter2/Chapter2}
+
+%%%%% Chapter 3
+\include{3_Chapter3/Chapter3}	
+
+%%%%% Chapter 4		
+\include{4_Chapter4/Chapter4}	
+
+%%%%% Chapter 5
+\include{5_Chapter5/Chapter5}
+
+%%%%% Chapter 6
+\include{6_Chapter6/Chapter6}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%% Back Matter
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%% Bibliography
+
+\begin{multicols}{2} % \begin{multicols}{ # columns}[ header text][ space]
+\begin{footnotesize} % tiny(5) < scriptsize(7) < footnotesize(8) < small (9)
+
+\bibliographystyle{Latex/Classes/jmb} % Title is link if provided
+\renewcommand{\bibname}{Referências} % changes the header; default: Bibliography
+
+% \nocite{*} % Also declare uncited references
+
+\bibliography{7_BackMatter/References} % adjust this to fit your BibTex file
+
+\end{footnotesize}
+\end{multicols}
+
+
+\end{document}

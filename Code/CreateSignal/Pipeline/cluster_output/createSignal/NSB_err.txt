@@ -1,0 +1,4 @@
+line 47829832 of /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/NormSlopeBias/UW_LnCaP/DNaseBiasCorrected_norm.wig: chromosome chr1 has 197206432 bases, but item starts at 197321135
+line 47829832 of /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/NormSlopeBias/UW_LnCaP/DNaseBiasCorrected_slope.wig: chromosome chr1 has 197206432 bases, but item starts at 197321135
+line 53425136 of /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/NormSlopeBias/DU_Mcf7/DNaseBiasCorrected_norm.wig: chromosome chr1 has 197206432 bases, but item starts at 197217216
+line 53425136 of /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/NormSlopeBias/DU_Mcf7/DNaseBiasCorrected_slope.wig: chromosome chr1 has 197206432 bases, but item starts at 197217216

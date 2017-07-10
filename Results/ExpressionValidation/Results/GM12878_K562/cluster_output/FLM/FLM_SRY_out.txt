@@ -1,0 +1,37 @@
+Sender: LSF System <lsfadmin@linuxbmc0786>
+Subject: Job 24990195: <FLM_SRY> in cluster <rcc> Done
+
+Job <FLM_SRY> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0786>, in queue <low>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/ExpressionValidation/Results/GM12878_K562> was used as the working directory.
+Started at Wed Nov 18 21:37:54 2015
+Results reported on Wed Nov 18 21:38:09 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./filterMetrics_pipeline.zsh /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/ExpressionValidation/Validation/distribution/SRY.txt
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   11.77 sec.
+    Max Memory :                                 812 MB
+    Average Memory :                             524.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11188.00 MB
+    Max Processes :                              5
+    Max Threads :                                6
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <FLM_SRY_err.txt> for stderr output of this job.
+

@@ -1,0 +1,37 @@
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22270390: <UW_Huvec_CMT> in cluster <rcc> Done
+
+Job <UW_Huvec_CMT> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/StatisticalTests/MultivarTable> was used as the working directory.
+Started at Wed Jun 10 22:18:51 2015
+Results reported on Thu Jun 11 01:57:51 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./createMultivarTable_pipeline.zsh UW Huvec
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   18171.17 sec.
+    Max Memory :                                 4587 MB
+    Average Memory :                             3840.01 MB
+    Total Requested Memory :                     24000.00 MB
+    Delta Memory :                               19413.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <UW_Huvec_CMT_err.txt> for stderr output of this job.
+

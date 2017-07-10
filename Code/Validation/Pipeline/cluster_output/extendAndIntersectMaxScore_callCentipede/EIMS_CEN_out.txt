@@ -1,0 +1,3329 @@
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22739058: <EIMS_CEN> in cluster <rcc> Done
+
+Job <EIMS_CEN> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Wed Jul  1 20:47:49 2015
+Results reported on Wed Jul  1 20:48:11 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/GABP.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/Pique/GABP_ces.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/Centipede_DU/GABP_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   5.67 sec.
+    Max Memory :                                 65 MB
+    Average Memory :                             52.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11935.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CEN_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22739057: <EIMS_CEN> in cluster <rcc> Done
+
+Job <EIMS_CEN> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Wed Jul  1 20:47:04 2015
+Results reported on Wed Jul  1 20:48:12 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/NRF1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/Pique/NRF1_ces.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/Centipede_DU/NRF1_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   4.86 sec.
+    Max Memory :                                 61 MB
+    Average Memory :                             21.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11939.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CEN_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22739050: <EIMS_CEN> in cluster <rcc> Done
+
+Job <EIMS_CEN> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Wed Jul  1 20:44:20 2015
+Results reported on Wed Jul  1 20:48:18 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/MYC.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/Pique/MYC_ces.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/Centipede_DU/MYC_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   14.68 sec.
+    Max Memory :                                 182 MB
+    Average Memory :                             79.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11818.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CEN_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22739063: <EIMS_CEN> in cluster <rcc> Done
+
+Job <EIMS_CEN> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Wed Jul  1 20:47:51 2015
+Results reported on Wed Jul  1 20:48:20 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/USF2.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/Pique/USF2_ces.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/Centipede_DU/USF2_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   16.13 sec.
+    Max Memory :                                 271 MB
+    Average Memory :                             114.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11729.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CEN_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22739056: <EIMS_CEN> in cluster <rcc> Done
+
+Job <EIMS_CEN> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Wed Jul  1 20:47:03 2015
+Results reported on Wed Jul  1 20:48:20 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/JUND.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/Pique/JUND_ces.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/Centipede_DU/JUND_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   16.36 sec.
+    Max Memory :                                 215 MB
+    Average Memory :                             78.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11785.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CEN_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22739052: <EIMS_CEN> in cluster <rcc> Done
+
+Job <EIMS_CEN> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Wed Jul  1 20:44:20 2015
+Results reported on Wed Jul  1 20:48:20 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/FOSL1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/Pique/FOSL1_ces.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/Centipede_DU/FOSL1_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   16.22 sec.
+    Max Memory :                                 255 MB
+    Average Memory :                             118.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11745.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CEN_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22739061: <EIMS_CEN> in cluster <rcc> Done
+
+Job <EIMS_CEN> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Wed Jul  1 20:47:50 2015
+Results reported on Wed Jul  1 20:48:20 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/BACH1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/Pique/BACH1_ces.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/Centipede_DU/BACH1_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   14.70 sec.
+    Max Memory :                                 225 MB
+    Average Memory :                             50.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11775.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CEN_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22739054: <EIMS_CEN> in cluster <rcc> Done
+
+Job <EIMS_CEN> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Wed Jul  1 20:44:20 2015
+Results reported on Wed Jul  1 20:48:21 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/SP4.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/Pique/SP4_ces.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/Centipede_DU/SP4_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   12.41 sec.
+    Max Memory :                                 185 MB
+    Average Memory :                             30.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11815.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CEN_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22739048: <EIMS_CEN> in cluster <rcc> Done
+
+Job <EIMS_CEN> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Wed Jul  1 20:44:20 2015
+Results reported on Wed Jul  1 20:48:25 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/MAX.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/Pique/MAX_ces.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/Centipede_DU/MAX_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   19.24 sec.
+    Max Memory :                                 300 MB
+    Average Memory :                             65.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11700.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CEN_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22739049: <EIMS_CEN> in cluster <rcc> Done
+
+Job <EIMS_CEN> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Wed Jul  1 20:44:20 2015
+Results reported on Wed Jul  1 20:48:26 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/USF1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/Pique/USF1_ces.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/Centipede_DU/USF1_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   15.03 sec.
+    Max Memory :                                 247 MB
+    Average Memory :                             28.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11753.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CEN_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22739064: <EIMS_CEN> in cluster <rcc> Done
+
+Job <EIMS_CEN> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Wed Jul  1 20:47:51 2015
+Results reported on Wed Jul  1 20:48:27 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/SRF.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/Pique/SRF_ces.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/Centipede_DU/SRF_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   21.96 sec.
+    Max Memory :                                 302 MB
+    Average Memory :                             130.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11698.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CEN_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22739051: <EIMS_CEN> in cluster <rcc> Done
+
+Job <EIMS_CEN> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Wed Jul  1 20:44:20 2015
+Results reported on Wed Jul  1 20:48:31 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/MAFK.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/Pique/MAFK_ces.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/Centipede_DU/MAFK_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   26.70 sec.
+    Max Memory :                                 356 MB
+    Average Memory :                             17.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11644.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CEN_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22739067: <EIMS_CEN> in cluster <rcc> Done
+
+Job <EIMS_CEN> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Wed Jul  1 20:48:00 2015
+Results reported on Wed Jul  1 20:48:32 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/YY1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/Pique/YY1_ces.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/Centipede_DU/YY1_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   27.14 sec.
+    Max Memory :                                 456 MB
+    Average Memory :                             90.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11544.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CEN_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22739069: <EIMS_CEN> in cluster <rcc> Done
+
+Job <EIMS_CEN> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Wed Jul  1 20:48:01 2015
+Results reported on Wed Jul  1 20:48:36 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/RAD21.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/Pique/RAD21_ces.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/Centipede_DU/RAD21_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   14.49 sec.
+    Max Memory :                                 212 MB
+    Average Memory :                             28.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11788.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CEN_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22739060: <EIMS_CEN> in cluster <rcc> Done
+
+Job <EIMS_CEN> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Wed Jul  1 20:47:50 2015
+Results reported on Wed Jul  1 20:48:36 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/P300.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/Pique/P300_ces.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/Centipede_DU/P300_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   14.42 sec.
+    Max Memory :                                 217 MB
+    Average Memory :                             23.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11783.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CEN_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22739068: <EIMS_CEN> in cluster <rcc> Done
+
+Job <EIMS_CEN> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Wed Jul  1 20:48:00 2015
+Results reported on Wed Jul  1 20:48:37 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/TCF12.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/Pique/TCF12_ces.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/Centipede_DU/TCF12_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   21.31 sec.
+    Max Memory :                                 326 MB
+    Average Memory :                             23.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11674.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CEN_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22739055: <EIMS_CEN> in cluster <rcc> Done
+
+Job <EIMS_CEN> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Wed Jul  1 20:47:03 2015
+Results reported on Wed Jul  1 20:48:38 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/SP2.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/Pique/SP2_ces.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/Centipede_DU/SP2_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   34.18 sec.
+    Max Memory :                                 553 MB
+    Average Memory :                             116.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11447.00 MB
+    Max Processes :                              7
+    Max Threads :                                8
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CEN_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22739062: <EIMS_CEN> in cluster <rcc> Done
+
+Job <EIMS_CEN> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Wed Jul  1 20:47:50 2015
+Results reported on Wed Jul  1 20:48:43 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/RXRA.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/Pique/RXRA_ces.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/Centipede_DU/RXRA_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   24.75 sec.
+    Max Memory :                                 395 MB
+    Average Memory :                             30.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11605.00 MB
+    Max Processes :                              7
+    Max Threads :                                8
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CEN_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22739047: <EIMS_CEN> in cluster <rcc> Done
+
+Job <EIMS_CEN> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Wed Jul  1 20:44:20 2015
+Results reported on Wed Jul  1 20:48:44 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/CEBPB.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/Pique/CEBPB_ces.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/Centipede_DU/CEBPB_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   27.94 sec.
+    Max Memory :                                 480 MB
+    Average Memory :                             34.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11520.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CEN_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22739059: <EIMS_CEN> in cluster <rcc> Done
+
+Job <EIMS_CEN> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Wed Jul  1 20:47:50 2015
+Results reported on Wed Jul  1 20:48:45 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/EGR1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/Pique/EGR1_ces.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/Centipede_DU/EGR1_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   27.24 sec.
+    Max Memory :                                 386 MB
+    Average Memory :                             38.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11614.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CEN_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22739053: <EIMS_CEN> in cluster <rcc> Done
+
+Job <EIMS_CEN> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Wed Jul  1 20:44:20 2015
+Results reported on Wed Jul  1 20:48:45 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/JUN.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/Pique/JUN_ces.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/Centipede_DU/JUN_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   17.95 sec.
+    Max Memory :                                 293 MB
+    Average Memory :                             16.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11707.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CEN_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22739066: <EIMS_CEN> in cluster <rcc> Done
+
+Job <EIMS_CEN> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Wed Jul  1 20:48:00 2015
+Results reported on Wed Jul  1 20:48:54 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/SP1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/Pique/SP1_ces.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/Centipede_DU/SP1_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   42.34 sec.
+    Max Memory :                                 635 MB
+    Average Memory :                             113.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11365.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CEN_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22739072: <EIMS_CEN> in cluster <rcc> Done
+
+Job <EIMS_CEN> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Wed Jul  1 20:48:46 2015
+Results reported on Wed Jul  1 20:49:19 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/REST.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/Pique/REST_ces.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/Centipede_DU/REST_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   15.26 sec.
+    Max Memory :                                 192 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11808.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CEN_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22739075: <EIMS_CEN> in cluster <rcc> Done
+
+Job <EIMS_CEN> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Wed Jul  1 20:48:56 2015
+Results reported on Wed Jul  1 20:49:20 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/RFX5.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/Pique/RFX5_ces.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/Centipede_DU/RFX5_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   15.52 sec.
+    Max Memory :                                 209 MB
+    Average Memory :                             34.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11791.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CEN_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22739077: <EIMS_CEN> in cluster <rcc> Done
+
+Job <EIMS_CEN> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Wed Jul  1 20:48:57 2015
+Results reported on Wed Jul  1 20:49:26 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/ATF3.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/Pique/ATF3_ces.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/Centipede_DU/ATF3_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   15.36 sec.
+    Max Memory :                                 249 MB
+    Average Memory :                             48.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11751.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CEN_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22739071: <EIMS_CEN> in cluster <rcc> Done
+
+Job <EIMS_CEN> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Wed Jul  1 20:48:46 2015
+Results reported on Wed Jul  1 20:49:27 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/CTCF.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/Pique/CTCF_ces.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/Centipede_DU/CTCF_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   14.10 sec.
+    Max Memory :                                 208 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11792.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CEN_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22739074: <EIMS_CEN> in cluster <rcc> Done
+
+Job <EIMS_CEN> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Wed Jul  1 20:48:56 2015
+Results reported on Wed Jul  1 20:49:27 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/TBP.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/Pique/TBP_ces.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/Centipede_DU/TBP_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   18.10 sec.
+    Max Memory :                                 293 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11707.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CEN_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22739070: <EIMS_CEN> in cluster <rcc> Done
+
+Job <EIMS_CEN> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Wed Jul  1 20:48:45 2015
+Results reported on Wed Jul  1 20:49:28 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/BRCA1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/Pique/BRCA1_ces.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/Centipede_DU/BRCA1_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   8.68 sec.
+    Max Memory :                                 125 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11875.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CEN_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22739091: <EIMS_CEN> in cluster <rcc> Done
+
+Job <EIMS_CEN> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Wed Jul  1 20:49:12 2015
+Results reported on Wed Jul  1 20:49:28 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/MYC.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Pique/MYC_ces.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Centipede_DU/MYC_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   13.81 sec.
+    Max Memory :                                 182 MB
+    Average Memory :                             72.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11818.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CEN_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22739080: <EIMS_CEN> in cluster <rcc> Done
+
+Job <EIMS_CEN> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Wed Jul  1 20:48:59 2015
+Results reported on Wed Jul  1 20:49:28 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/CEBPB.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Pique/CEBPB_ces.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Centipede_DU/CEBPB_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   28.47 sec.
+    Max Memory :                                 481 MB
+    Average Memory :                             238.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11519.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CEN_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22739073: <EIMS_CEN> in cluster <rcc> Done
+
+Job <EIMS_CEN> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Wed Jul  1 20:48:53 2015
+Results reported on Wed Jul  1 20:49:29 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/SIX5.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/Pique/SIX5_ces.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/Centipede_DU/SIX5_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   23.26 sec.
+    Max Memory :                                 368 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11632.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CEN_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22739079: <EIMS_CEN> in cluster <rcc> Done
+
+Job <EIMS_CEN> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Wed Jul  1 20:48:59 2015
+Results reported on Wed Jul  1 20:49:30 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/ELF1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Pique/ELF1_ces.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Centipede_DU/ELF1_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   24.31 sec.
+    Max Memory :                                 371 MB
+    Average Memory :                             51.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11629.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CEN_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22739076: <EIMS_CEN> in cluster <rcc> Done
+
+Job <EIMS_CEN> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Wed Jul  1 20:48:57 2015
+Results reported on Wed Jul  1 20:49:30 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/ZNF143.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/Pique/ZNF143_ces.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/Centipede_DU/ZNF143_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   22.87 sec.
+    Max Memory :                                 376 MB
+    Average Memory :                             41.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11624.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CEN_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22739087: <EIMS_CEN> in cluster <rcc> Done
+
+Job <EIMS_CEN> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Wed Jul  1 20:49:06 2015
+Results reported on Wed Jul  1 20:49:31 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/NFYB.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Pique/NFYB_ces.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Centipede_DU/NFYB_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   11.72 sec.
+    Max Memory :                                 179 MB
+    Average Memory :                             20.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11821.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CEN_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22739081: <EIMS_CEN> in cluster <rcc> Done
+
+Job <EIMS_CEN> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Wed Jul  1 20:49:06 2015
+Results reported on Wed Jul  1 20:49:33 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/EJUNB.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Pique/EJUNB_ces.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Centipede_DU/EJUNB_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   17.75 sec.
+    Max Memory :                                 266 MB
+    Average Memory :                             49.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11734.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CEN_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22739090: <EIMS_CEN> in cluster <rcc> Done
+
+Job <EIMS_CEN> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Wed Jul  1 20:49:12 2015
+Results reported on Wed Jul  1 20:49:37 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/EFOS.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Pique/EFOS_ces.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Centipede_DU/EFOS_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   18.40 sec.
+    Max Memory :                                 280 MB
+    Average Memory :                             33.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11720.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CEN_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22739089: <EIMS_CEN> in cluster <rcc> Done
+
+Job <EIMS_CEN> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Wed Jul  1 20:49:11 2015
+Results reported on Wed Jul  1 20:49:38 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/USF1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Pique/USF1_ces.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Centipede_DU/USF1_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   16.08 sec.
+    Max Memory :                                 254 MB
+    Average Memory :                             25.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11746.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CEN_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22739082: <EIMS_CEN> in cluster <rcc> Done
+
+Job <EIMS_CEN> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Wed Jul  1 20:49:06 2015
+Results reported on Wed Jul  1 20:49:38 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/EGATA.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Pique/EGATA_ces.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Centipede_DU/EGATA_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   23.06 sec.
+    Max Memory :                                 375 MB
+    Average Memory :                             64.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11625.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CEN_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22739086: <EIMS_CEN> in cluster <rcc> Done
+
+Job <EIMS_CEN> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Wed Jul  1 20:49:06 2015
+Results reported on Wed Jul  1 20:49:49 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/MAX.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Pique/MAX_ces.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Centipede_DU/MAX_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   19.70 sec.
+    Max Memory :                                 305 MB
+    Average Memory :                             17.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11695.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CEN_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22739084: <EIMS_CEN> in cluster <rcc> Done
+
+Job <EIMS_CEN> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Wed Jul  1 20:49:06 2015
+Results reported on Wed Jul  1 20:49:50 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/MAFF.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Pique/MAFF_ces.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Centipede_DU/MAFF_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   28.04 sec.
+    Max Memory :                                 439 MB
+    Average Memory :                             21.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11561.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CEN_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22739078: <EIMS_CEN> in cluster <rcc> Done
+
+Job <EIMS_CEN> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Wed Jul  1 20:48:58 2015
+Results reported on Wed Jul  1 20:49:56 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/TagCount_DU/POU5F1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/Pique/POU5F1_ces.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/Centipede_DU/POU5F1_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   44.68 sec.
+    Max Memory :                                 806 MB
+    Average Memory :                             70.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11194.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CEN_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22739092: <EIMS_CEN> in cluster <rcc> Done
+
+Job <EIMS_CEN> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Wed Jul  1 20:49:30 2015
+Results reported on Wed Jul  1 20:50:04 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/TR4.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Pique/TR4_ces.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Centipede_DU/TR4_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   19.16 sec.
+    Max Memory :                                 300 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11700.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CEN_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22739085: <EIMS_CEN> in cluster <rcc> Done
+
+Job <EIMS_CEN> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Wed Jul  1 20:49:06 2015
+Results reported on Wed Jul  1 20:50:12 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/ZNF263.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Pique/ZNF263_ces.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Centipede_DU/ZNF263_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   53.11 sec.
+    Max Memory :                                 768 MB
+    Average Memory :                             21.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11232.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CEN_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22739105: <EIMS_CEN> in cluster <rcc> Done
+
+Job <EIMS_CEN> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Wed Jul  1 20:50:06 2015
+Results reported on Wed Jul  1 20:50:16 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/NRF1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Pique/NRF1_ces.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Centipede_DU/NRF1_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   4.64 sec.
+    Max Memory :                                 61 MB
+    Average Memory :                             29.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11939.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CEN_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22739103: <EIMS_CEN> in cluster <rcc> Done
+
+Job <EIMS_CEN> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Wed Jul  1 20:50:05 2015
+Results reported on Wed Jul  1 20:50:17 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/ELK1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Pique/ELK1_ces.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Centipede_DU/ELK1_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   3.69 sec.
+    Max Memory :                                 48 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11952.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CEN_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22739088: <EIMS_CEN> in cluster <rcc> Done
+
+Job <EIMS_CEN> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Wed Jul  1 20:49:06 2015
+Results reported on Wed Jul  1 20:50:20 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/IRF1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Pique/IRF1_ces.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Centipede_DU/IRF1_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   61.41 sec.
+    Max Memory :                                 847 MB
+    Average Memory :                             33.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11153.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CEN_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22739101: <EIMS_CEN> in cluster <rcc> Done
+
+Job <EIMS_CEN> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Wed Jul  1 20:50:01 2015
+Results reported on Wed Jul  1 20:50:28 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/NR2F2.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Pique/NR2F2_ces.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Centipede_DU/NR2F2_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   15.35 sec.
+    Max Memory :                                 233 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11767.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CEN_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22739095: <EIMS_CEN> in cluster <rcc> Done
+
+Job <EIMS_CEN> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Wed Jul  1 20:49:52 2015
+Results reported on Wed Jul  1 20:50:29 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/FOSL1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Pique/FOSL1_ces.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Centipede_DU/FOSL1_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   17.77 sec.
+    Max Memory :                                 272 MB
+    Average Memory :                             10.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11728.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CEN_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22739108: <EIMS_CEN> in cluster <rcc> Done
+
+Job <EIMS_CEN> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Wed Jul  1 20:50:17 2015
+Results reported on Wed Jul  1 20:50:30 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/E2F4.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Pique/E2F4_ces.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Centipede_DU/E2F4_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   4.82 sec.
+    Max Memory :                                 72 MB
+    Average Memory :                             1.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11928.00 MB
+    Max Processes :                              1
+    Max Threads :                                1
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CEN_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22739106: <EIMS_CEN> in cluster <rcc> Done
+
+Job <EIMS_CEN> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Wed Jul  1 20:50:12 2015
+Results reported on Wed Jul  1 20:50:30 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/GABP.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Pique/GABP_ces.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Centipede_DU/GABP_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   5.12 sec.
+    Max Memory :                                 131 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11869.00 MB
+    Max Processes :                              2
+    Max Threads :                                1
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CEN_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22739110: <EIMS_CEN> in cluster <rcc> Done
+
+Job <EIMS_CEN> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Wed Jul  1 20:50:19 2015
+Results reported on Wed Jul  1 20:50:30 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/ZBTB33.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Pique/ZBTB33_ces.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Centipede_DU/ZBTB33_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   3.16 sec.
+    Max Memory :                                 46 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11954.00 MB
+    Max Processes :                              1
+    Max Threads :                                1
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CEN_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22739099: <EIMS_CEN> in cluster <rcc> Done
+
+Job <EIMS_CEN> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Wed Jul  1 20:49:59 2015
+Results reported on Wed Jul  1 20:50:33 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/EJUND.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Pique/EJUND_ces.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Centipede_DU/EJUND_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   18.46 sec.
+    Max Memory :                                 266 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11734.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CEN_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22739097: <EIMS_CEN> in cluster <rcc> Done
+
+Job <EIMS_CEN> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Wed Jul  1 20:49:55 2015
+Results reported on Wed Jul  1 20:50:41 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/JUN.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Pique/JUN_ces.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Centipede_DU/JUN_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   18.50 sec.
+    Max Memory :                                 297 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11703.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CEN_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22739104: <EIMS_CEN> in cluster <rcc> Done
+
+Job <EIMS_CEN> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Wed Jul  1 20:50:05 2015
+Results reported on Wed Jul  1 20:50:43 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/JUND.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Pique/JUND_ces.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Centipede_DU/JUND_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   17.52 sec.
+    Max Memory :                                 265 MB
+    Average Memory :                             23.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11735.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CEN_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22739096: <EIMS_CEN> in cluster <rcc> Done
+
+Job <EIMS_CEN> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Wed Jul  1 20:49:52 2015
+Results reported on Wed Jul  1 20:50:44 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/E2F6.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Pique/E2F6_ces.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Centipede_DU/E2F6_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   23.67 sec.
+    Max Memory :                                 377 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11623.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CEN_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22739093: <EIMS_CEN> in cluster <rcc> Done
+
+Job <EIMS_CEN> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Wed Jul  1 20:49:50 2015
+Results reported on Wed Jul  1 20:50:44 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/ETS1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Pique/ETS1_ces.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Centipede_DU/ETS1_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   30.43 sec.
+    Max Memory :                                 473 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11527.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CEN_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22739100: <EIMS_CEN> in cluster <rcc> Done
+
+Job <EIMS_CEN> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Wed Jul  1 20:50:00 2015
+Results reported on Wed Jul  1 20:50:44 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/STAT5A.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Pique/STAT5A_ces.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Centipede_DU/STAT5A_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   28.82 sec.
+    Max Memory :                                 473 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11527.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CEN_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22739094: <EIMS_CEN> in cluster <rcc> Done
+
+Job <EIMS_CEN> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Wed Jul  1 20:49:51 2015
+Results reported on Wed Jul  1 20:50:45 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/MAFK.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Pique/MAFK_ces.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Centipede_DU/MAFK_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   27.90 sec.
+    Max Memory :                                 440 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11560.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CEN_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22739102: <EIMS_CEN> in cluster <rcc> Done
+
+Job <EIMS_CEN> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Wed Jul  1 20:50:02 2015
+Results reported on Wed Jul  1 20:50:54 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/SP2.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Pique/SP2_ces.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Centipede_DU/SP2_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   39.68 sec.
+    Max Memory :                                 569 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11431.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CEN_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22739112: <EIMS_CEN> in cluster <rcc> Done
+
+Job <EIMS_CEN> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Wed Jul  1 20:50:33 2015
+Results reported on Wed Jul  1 20:50:55 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/ATF1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Pique/ATF1_ces.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Centipede_DU/ATF1_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   6.27 sec.
+    Max Memory :                                 97 MB
+    Average Memory :                             1.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11903.00 MB
+    Max Processes :                              1
+    Max Threads :                                1
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CEN_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22739107: <EIMS_CEN> in cluster <rcc> Done
+
+Job <EIMS_CEN> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Wed Jul  1 20:50:14 2015
+Results reported on Wed Jul  1 20:50:56 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/CTCFL.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Pique/CTCFL_ces.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Centipede_DU/CTCFL_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   14.43 sec.
+    Max Memory :                                 215 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11785.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CEN_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22739111: <EIMS_CEN> in cluster <rcc> Done
+
+Job <EIMS_CEN> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Wed Jul  1 20:50:33 2015
+Results reported on Wed Jul  1 20:51:00 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/ZBTB7A.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Pique/ZBTB7A_ces.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Centipede_DU/ZBTB7A_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   12.13 sec.
+    Max Memory :                                 205 MB
+    Average Memory :                             3.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11795.00 MB
+    Max Processes :                              2
+    Max Threads :                                1
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CEN_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22739113: <EIMS_CEN> in cluster <rcc> Done
+
+Job <EIMS_CEN> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Wed Jul  1 20:50:34 2015
+Results reported on Wed Jul  1 20:51:05 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/BACH1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Pique/BACH1_ces.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Centipede_DU/BACH1_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   15.03 sec.
+    Max Memory :                                 195 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11805.00 MB
+    Max Processes :                              7
+    Max Threads :                                8
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CEN_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22739109: <EIMS_CEN> in cluster <rcc> Done
+
+Job <EIMS_CEN> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Wed Jul  1 20:50:17 2015
+Results reported on Wed Jul  1 20:51:06 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/EGR1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Pique/EGR1_ces.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Centipede_DU/EGR1_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   26.04 sec.
+    Max Memory :                                 391 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11609.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CEN_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22739121: <EIMS_CEN> in cluster <rcc> Done
+
+Job <EIMS_CEN> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Wed Jul  1 20:51:03 2015
+Results reported on Wed Jul  1 20:51:22 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/RAD21.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Pique/RAD21_ces.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Centipede_DU/RAD21_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   14.67 sec.
+    Max Memory :                                 181 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11819.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CEN_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22739120: <EIMS_CEN> in cluster <rcc> Done
+
+Job <EIMS_CEN> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Wed Jul  1 20:51:02 2015
+Results reported on Wed Jul  1 20:51:24 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/TAL1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Pique/TAL1_ces.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Centipede_DU/TAL1_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   16.56 sec.
+    Max Memory :                                 240 MB
+    Average Memory :                             23.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11760.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CEN_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22739118: <EIMS_CEN> in cluster <rcc> Done
+
+Job <EIMS_CEN> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Wed Jul  1 20:51:02 2015
+Results reported on Wed Jul  1 20:51:32 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/NFE2.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Pique/NFE2_ces.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Centipede_DU/NFE2_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   18.61 sec.
+    Max Memory :                                 308 MB
+    Average Memory :                             22.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11692.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CEN_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22739114: <EIMS_CEN> in cluster <rcc> Done
+
+Job <EIMS_CEN> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Wed Jul  1 20:50:57 2015
+Results reported on Wed Jul  1 20:51:32 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/USF2.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Pique/USF2_ces.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Centipede_DU/USF2_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   17.29 sec.
+    Max Memory :                                 276 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11724.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CEN_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22739115: <EIMS_CEN> in cluster <rcc> Done
+
+Job <EIMS_CEN> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Wed Jul  1 20:50:57 2015
+Results reported on Wed Jul  1 20:51:33 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/SRF.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Pique/SRF_ces.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Centipede_DU/SRF_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   23.35 sec.
+    Max Memory :                                 364 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11636.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CEN_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22739117: <EIMS_CEN> in cluster <rcc> Done
+
+Job <EIMS_CEN> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Wed Jul  1 20:51:01 2015
+Results reported on Wed Jul  1 20:51:38 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/YY1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Pique/YY1_ces.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Centipede_DU/YY1_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   27.84 sec.
+    Max Memory :                                 487 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11513.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CEN_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22739119: <EIMS_CEN> in cluster <rcc> Done
+
+Job <EIMS_CEN> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Wed Jul  1 20:51:02 2015
+Results reported on Wed Jul  1 20:51:40 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/GATA2.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Pique/GATA2_ces.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Centipede_DU/GATA2_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   23.36 sec.
+    Max Memory :                                 375 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11625.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CEN_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22739128: <EIMS_CEN> in cluster <rcc> Done
+
+Job <EIMS_CEN> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Wed Jul  1 20:51:20 2015
+Results reported on Wed Jul  1 20:51:43 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/BHLHE40.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Pique/BHLHE40_ces.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Centipede_DU/BHLHE40_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   13.87 sec.
+    Max Memory :                                 219 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11781.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CEN_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22739098: <EIMS_CEN> in cluster <rcc> Done
+
+Job <EIMS_CEN> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Wed Jul  1 20:49:59 2015
+Results reported on Wed Jul  1 20:51:43 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/MEF2A.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Pique/MEF2A_ces.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Centipede_DU/MEF2A_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   81.09 sec.
+    Max Memory :                                 1205 MB
+    Average Memory :                             525.50 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               10795.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CEN_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22739124: <EIMS_CEN> in cluster <rcc> Done
+
+Job <EIMS_CEN> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Wed Jul  1 20:51:17 2015
+Results reported on Wed Jul  1 20:51:44 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/CTCF.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Pique/CTCF_ces.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Centipede_DU/CTCF_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   14.63 sec.
+    Max Memory :                                 213 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11787.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CEN_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22739127: <EIMS_CEN> in cluster <rcc> Done
+
+Job <EIMS_CEN> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Wed Jul  1 20:51:17 2015
+Results reported on Wed Jul  1 20:51:47 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/NFYA.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Pique/NFYA_ces.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Centipede_DU/NFYA_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   10.83 sec.
+    Max Memory :                                 162 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11838.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CEN_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22739125: <EIMS_CEN> in cluster <rcc> Done
+
+Job <EIMS_CEN> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Wed Jul  1 20:51:17 2015
+Results reported on Wed Jul  1 20:51:48 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/REST.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Pique/REST_ces.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Centipede_DU/REST_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   15.06 sec.
+    Max Memory :                                 233 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11767.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CEN_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22739126: <EIMS_CEN> in cluster <rcc> Done
+
+Job <EIMS_CEN> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Wed Jul  1 20:51:17 2015
+Results reported on Wed Jul  1 20:51:50 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/SIX5.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Pique/SIX5_ces.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Centipede_DU/SIX5_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   22.52 sec.
+    Max Memory :                                 310 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11690.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CEN_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22739131: <EIMS_CEN> in cluster <rcc> Done
+
+Job <EIMS_CEN> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Wed Jul  1 20:51:24 2015
+Results reported on Wed Jul  1 20:51:52 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/TBP.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Pique/TBP_ces.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Centipede_DU/TBP_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   19.24 sec.
+    Max Memory :                                 300 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11700.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CEN_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22739129: <EIMS_CEN> in cluster <rcc> Done
+
+Job <EIMS_CEN> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Wed Jul  1 20:51:21 2015
+Results reported on Wed Jul  1 20:51:53 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/SMC3.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Pique/SMC3_ces.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Centipede_DU/SMC3_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   14.67 sec.
+    Max Memory :                                 213 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11787.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CEN_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22739123: <EIMS_CEN> in cluster <rcc> Done
+
+Job <EIMS_CEN> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Wed Jul  1 20:51:17 2015
+Results reported on Wed Jul  1 20:51:55 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/GATA1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Pique/GATA1_ces.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Centipede_DU/GATA1_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   23.16 sec.
+    Max Memory :                                 379 MB
+    Average Memory :                             1.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11621.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CEN_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22739133: <EIMS_CEN> in cluster <rcc> Done
+
+Job <EIMS_CEN> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Wed Jul  1 20:51:40 2015
+Results reported on Wed Jul  1 20:52:00 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/RFX5.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Pique/RFX5_ces.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Centipede_DU/RFX5_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   14.08 sec.
+    Max Memory :                                 240 MB
+    Average Memory :                             11.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11760.00 MB
+    Max Processes :                              1
+    Max Threads :                                1
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CEN_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22739116: <EIMS_CEN> in cluster <rcc> Done
+
+Job <EIMS_CEN> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Wed Jul  1 20:50:58 2015
+Results reported on Wed Jul  1 20:52:00 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/SP1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Pique/SP1_ces.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Centipede_DU/SP1_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   47.66 sec.
+    Max Memory :                                 659 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11341.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CEN_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22739134: <EIMS_CEN> in cluster <rcc> Done
+
+Job <EIMS_CEN> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Wed Jul  1 20:51:40 2015
+Results reported on Wed Jul  1 20:52:01 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/CCNT2.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Pique/CCNT2_ces.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Centipede_DU/CCNT2_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   16.20 sec.
+    Max Memory :                                 292 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11708.00 MB
+    Max Processes :                              2
+    Max Threads :                                2
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CEN_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22739132: <EIMS_CEN> in cluster <rcc> Done
+
+Job <EIMS_CEN> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Wed Jul  1 20:51:24 2015
+Results reported on Wed Jul  1 20:52:03 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/STAT1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Pique/STAT1_ces.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Centipede_DU/STAT1_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   28.79 sec.
+    Max Memory :                                 498 MB
+    Average Memory :                             41.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11502.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CEN_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22739137: <EIMS_CEN> in cluster <rcc> Done
+
+Job <EIMS_CEN> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Wed Jul  1 20:52:03 2015
+Results reported on Wed Jul  1 20:52:29 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/ATF3.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Pique/ATF3_ces.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Centipede_DU/ATF3_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   11.11 sec.
+    Max Memory :                                 210 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11790.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CEN_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22739138: <EIMS_CEN> in cluster <rcc> Done
+
+Job <EIMS_CEN> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Wed Jul  1 20:52:04 2015
+Results reported on Wed Jul  1 20:52:30 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/THAP1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Pique/THAP1_ces.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Centipede_DU/THAP1_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   13.14 sec.
+    Max Memory :                                 211 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11789.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CEN_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22739122: <EIMS_CEN> in cluster <rcc> Done
+
+Job <EIMS_CEN> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Wed Jul  1 20:51:04 2015
+Results reported on Wed Jul  1 20:52:31 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/STAT2.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Pique/STAT2_ces.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Centipede_DU/STAT2_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   69.16 sec.
+    Max Memory :                                 1104 MB
+    Average Memory :                             373.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               10896.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CEN_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22739135: <EIMS_CEN> in cluster <rcc> Done
+
+Job <EIMS_CEN> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Wed Jul  1 20:52:02 2015
+Results reported on Wed Jul  1 20:52:34 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/ZNF143.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Pique/ZNF143_ces.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Centipede_DU/ZNF143_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   22.86 sec.
+    Max Memory :                                 379 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11621.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CEN_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22739130: <EIMS_CEN> in cluster <rcc> Done
+
+Job <EIMS_CEN> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Wed Jul  1 20:51:22 2015
+Results reported on Wed Jul  1 20:52:36 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/PU1.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Pique/PU1_ces.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Centipede_DU/PU1_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   44.67 sec.
+    Max Memory :                                 740 MB
+    Average Memory :                             265.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11260.00 MB
+    Max Processes :                              9
+    Max Threads :                                10
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CEN_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22739136: <EIMS_CEN> in cluster <rcc> Done
+
+Job <EIMS_CEN> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Wed Jul  1 20:52:02 2015
+Results reported on Wed Jul  1 20:53:02 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/FOS.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Pique/FOS_ces.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Centipede_DU/FOS_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   18.42 sec.
+    Max Memory :                                 278 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11722.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CEN_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22739139: <EIMS_CEN> in cluster <rcc> Done
+
+Job <EIMS_CEN> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Validation/Pipeline> was used as the working directory.
+Started at Wed Jul  1 20:52:06 2015
+Results reported on Wed Jul  1 20:53:04 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./extendAndIntersectMaxScore_pipeline.zsh 0 0 /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/TagCount_DU/ARID3A.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Pique/ARID3A_ces.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/Centipede_DU/ARID3A_0.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   45.88 sec.
+    Max Memory :                                 767 MB
+    Average Memory :                             57.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11233.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EIMS_CEN_err.txt> for stderr output of this job.
+

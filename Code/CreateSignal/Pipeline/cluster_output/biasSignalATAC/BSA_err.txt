@@ -1,0 +1,10 @@
+(OK) Loading DEVELOP environment
+(OK) Loading python 2.7.5
+(!!) NumPy, SciPy and matplotlib available.
+ Build with GCC compilers.
+hashMustFindVal: 'chr17_gl000205_random' not found
+(OK) Loading DEVELOP environment
+(OK) Loading python 2.7.5
+(!!) NumPy, SciPy and matplotlib available.
+ Build with GCC compilers.
+hashMustFindVal: 'chr17_gl000205_random' not found

@@ -1,0 +1,36 @@
+Sender: LSF System <lsfadmin@linuxbsc011>
+Subject: Job 25008941: <FLM_PPARG> in cluster <rcc> Done
+
+Job <FLM_PPARG> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbsc011>, in queue <low>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/ExpressionValidation/Results/H1hesc_K562> was used as the working directory.
+Started at Fri Nov 20 04:09:01 2015
+Results reported on Fri Nov 20 04:09:30 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./filterMetrics_pipeline.zsh /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/ExpressionValidation/Validation/distribution/PPARG.txt
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   25.15 sec.
+    Max Memory :                                 919 MB
+    Total Requested Memory :                     24000.00 MB
+    Delta Memory :                               23081.00 MB
+    Max Processes :                              2
+    Max Threads :                                2
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <FLM_PPARG_err.txt> for stderr output of this job.
+

@@ -1,0 +1,62 @@
+Reading positive sequence file...
+Reading negative sequence file...
+Counting words in positive sequences...
+Looking for k-mers of gap 0
+Looking for k-mers of gap 1
+Looking for k-mers of gap 2
+Looking for k-mers of gap 3
+Looking for k-mers of gap 4
+Looking for k-mers of gap 5
+Looking for k-mers of gap 6
+Looking for k-mers of gap 7
+Looking for k-mers of gap 8
+Looking for k-mers of gap 9
+Looking for k-mers of gap 10
+Counting words in negative sequences...
+Looking for k-mers of gap 0
+Looking for k-mers of gap 1
+Looking for k-mers of gap 2
+Looking for k-mers of gap 3
+Looking for k-mers of gap 4
+Looking for k-mers of gap 5
+Looking for k-mers of gap 6
+Looking for k-mers of gap 7
+Looking for k-mers of gap 8
+Looking for k-mers of gap 9
+Looking for k-mers of gap 10
+Calculating z-scores...
+Sorting keys by z-scores...
+Writing to results to ./res/CTCF_best.words
+Writing k-mers with gap 0
+Gap 0 has standard deviation z-score of 0.119077380266
+Gap 0 had 5 k-mers above the threshold that are above the minimum number of sites
+Writing k-mers with gap 1
+Gap 1 has standard deviation z-score of 0.106503900048
+Gap 1 had 3 k-mers above the threshold that are above the minimum number of sites
+Writing k-mers with gap 2
+Gap 2 has standard deviation z-score of 0.0977950070176
+Gap 2 had 3 k-mers above the threshold that are above the minimum number of sites
+Writing k-mers with gap 3
+Gap 3 has standard deviation z-score of 0.0905883243772
+Gap 3 had 3 k-mers above the threshold that are above the minimum number of sites
+Writing k-mers with gap 4
+Gap 4 has standard deviation z-score of 0.0853949954356
+Gap 4 had 3 k-mers above the threshold that are above the minimum number of sites
+Writing k-mers with gap 5
+Gap 5 has standard deviation z-score of 0.081774030249
+Gap 5 had 2 k-mers above the threshold that are above the minimum number of sites
+Writing k-mers with gap 6
+Gap 6 has standard deviation z-score of 0.0794602857046
+Gap 6 had 2 k-mers above the threshold that are above the minimum number of sites
+Writing k-mers with gap 7
+Gap 7 has standard deviation z-score of 0.0779369353051
+Gap 7 had 2 k-mers above the threshold that are above the minimum number of sites
+Writing k-mers with gap 8
+Gap 8 has standard deviation z-score of 0.0767714213433
+Gap 8 had 2 k-mers above the threshold that are above the minimum number of sites
+Writing k-mers with gap 9
+Gap 9 has standard deviation z-score of 0.0752921424364
+Gap 9 had 2 k-mers above the threshold that are above the minimum number of sites
+Writing k-mers with gap 10
+Gap 10 has standard deviation z-score of 0.0735698162257
+Gap 10 had 2 k-mers above the threshold that are above the minimum number of sites

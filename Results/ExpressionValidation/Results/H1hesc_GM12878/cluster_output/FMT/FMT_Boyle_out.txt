@@ -1,0 +1,37 @@
+Sender: LSF System <lsfadmin@linuxbmc0127>
+Subject: Job 25009062: <FMT_Boyle> in cluster <rcc> Done
+
+Job <FMT_Boyle> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0127>, in queue <low>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/ExpressionValidation/Results/H1hesc_GM12878> was used as the working directory.
+Started at Fri Nov 20 04:38:27 2015
+Results reported on Fri Nov 20 05:40:24 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./fetchMultivarTable_pipeline.zsh Boyle /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/ExpressionValidation/Results/H1hesc_GM12878/multivar_table/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   3706.30 sec.
+    Max Memory :                                 15523 MB
+    Average Memory :                             8083.59 MB
+    Total Requested Memory :                     24000.00 MB
+    Delta Memory :                               8477.00 MB
+    Max Processes :                              5
+    Max Threads :                                6
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <FMT_Boyle_err.txt> for stderr output of this job.
+

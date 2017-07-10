@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/bin/../Graphics/rocFromBedSBSC.py", line 266, in <module>
+    outputFile = open(outputLocation+mpbsName+"_stats.txt","w")
+IOError: [Errno 108] Cannot send after transport endpoint shutdown: '/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/ROC_NM3/K562/PU1_stats.txt'

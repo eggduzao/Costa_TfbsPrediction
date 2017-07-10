@@ -1,0 +1,9 @@
+Berlage's Comments 1:
+
+1. Your topic is even more specialized than Manuel’s. It is relatively hard to track for each section what you are actually arguing about. You should maybe go through the text and at several points add short high level organizers what you are arguing next. You can use simple (but imprecise) and detailed (but complex) text segments side by side.
+
+2. The term „computational footprinting“ is not very telling or even misleading. You are actually measuring the footprint, but you have to use a data analysis algorithm to extract it from the data. You are not doing an algorithmic analysis based on a stochastic (sequence-based) model. I am not sure the term can be changed, but it needs to be explained and related to other terms. It is not intuitive what it is that you are actually footprinting. Is it TFs? Is it a cell state? Is it a regulatory difference?
+
+3. As the reviewers will not be familiar with the topic and will struggle with how this fits into the field of computer science, you should add a few pages in the introduction where you describe regulation or regulatory networks (a conecpt that will be more related to computer science) and map it to your footprints. Also, some of the challenges and contributions should be explained as well in some simpler terms (even if somewhat imprecise), as it will help the reader to build up the concepts. Basically, you need a story for an elevator pitch that people can remember while reading the detail.
+
+

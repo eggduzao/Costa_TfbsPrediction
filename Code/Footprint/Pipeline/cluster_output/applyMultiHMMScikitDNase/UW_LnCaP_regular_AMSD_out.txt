@@ -1,0 +1,37 @@
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 21653770: <UW_LnCaP_regular_AMSD> in cluster <rcc> Done
+
+Job <UW_LnCaP_regular_AMSD> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Footprint/Pipeline> was used as the working directory.
+Started at Thu May 21 05:19:17 2015
+Results reported on Thu May 21 21:36:50 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyMultiHMMScikitDNase_pipeline.zsh /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/HMM/InputRegions/UW_LnCaP/dnase_HS_regions.bed /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/HMM/Models_DNase/LnCaP/Model/regular.hmm /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/NormSlope/UW_LnCaP/DNase_norm.bw,/hpcwork/izkf/projects/TfbsPrediction/Results/Signals/NormSlope/UW_LnCaP/DNase_slope.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/LnCaP/HMM_DNase_UW/DNase_ModelLnCaP.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   59425.60 sec.
+    Max Memory :                                 1605 MB
+    Average Memory :                             882.74 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               10395.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <UW_LnCaP_regular_AMSD_err.txt> for stderr output of this job.
+

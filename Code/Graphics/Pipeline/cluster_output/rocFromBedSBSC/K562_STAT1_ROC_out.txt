@@ -1,0 +1,37 @@
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 25238036: <K562_STAT1_ROC> in cluster <rcc> Done
+
+Job <K562_STAT1_ROC> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Graphics/Pipeline> was used as the working directory.
+Started at Wed Dec  9 06:04:10 2015
+Results reported on Wed Dec  9 07:59:56 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./rocFromBedSBSC_pipeline.zsh STAT1 SC,SB,SB,SB,SB,SB,SB,SC,SC,SC,SC,SC,SB,SB,SB,SB,SB,SB,SB,SC,SB,SB,SB,SB,SB,SB,SB,SB,SB,SC,SB,SB,SC,SB,SB,SB,SB,SB,SB PWM,Boyle_DU,Centipede_80,Centipede_85,Centipede_90,Centipede_95,Centipede_99,Cuellar_80,Cuellar_85,Cuellar_90,Cuellar_95,Cuellar_99,Dnase2Tf_DU,Dnase2Tf_rank,FLR_80,FLR_85,FLR_90,FLR_95,FLR_99,FS_DU,HINT-BC_D_DU,HINT-BCN_D_DU,HINT_D_DU,Neph_DU,PIQ_80,PIQ_85,PIQ_90,PIQ_95,PIQ_99,TC_DU,Wellington_DU,Wellington_rank,Protection_DU,BinDNase_80,BinDNase_85,BinDNase_90,BinDNase_95,BinDNase_99,BinDNase_rank /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/Boyle_DU.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/Centipede_80.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/Centipede_85.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/Centipede_90.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/Centipede_95.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/Centipede_99.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/Cuellar_80.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/Cuellar_85.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/Cuellar_90.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/Cuellar_95.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/Cuellar_99.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/Dnase2Tf_DU.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/Dnase2Tf_rank.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/FLR_80.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/FLR_85.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/FLR_90.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/FLR_95.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/FLR_99.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/FS_DU.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/HINT-BC_D_DU.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/HINT-BCN_D_DU.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/HINT_D_DU.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/Neph_DU.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/PIQ_80.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/PIQ_85.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/PIQ_90.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/PIQ_95.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/PIQ_99.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/TC_DU.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/Wellington_DU.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/Wellington_rank.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/Protection_DU.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/BinDNase_80.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/BinDNase_85.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/BinDNase_90.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/BinDNase_95.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/BinDNase_99.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/BinDNase_rank.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/ROC_NM3/K562/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   7067.93 sec.
+    Max Memory :                                 6651 MB
+    Average Memory :                             4296.76 MB
+    Total Requested Memory :                     48000.00 MB
+    Delta Memory :                               41349.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <K562_STAT1_ROC_err.txt> for stderr output of this job.
+

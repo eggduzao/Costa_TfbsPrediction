@@ -1,0 +1,37 @@
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 24454639: <K562_ZNF263_ACE> in cluster <rcc> Done
+
+Job <K562_ZNF263_ACE> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Wed Oct 21 20:39:16 2015
+Results reported on Wed Oct 21 20:51:11 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyCentipede_pipeline.zsh ZNF263 /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/All/fdr_4_inside_HS/ZNF263.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/DU_K562/Centipede_batch/ZNF263_PRIOR.txt /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/DU_K562/Centipede_batch/ZNF263_DNASE.txt /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/K562/Centipede_batch/ZNF263.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   738.90 sec.
+    Max Memory :                                 5404 MB
+    Average Memory :                             4485.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               6596.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <K562_ZNF263_ACE_err.txt> for stderr output of this job.
+

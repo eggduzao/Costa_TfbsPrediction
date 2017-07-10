@@ -1,0 +1,2220 @@
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 23788694: <AHM_ROCS> in cluster <rcc> Done
+
+Job <AHM_ROCS> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Graphics/Pipeline> was used as the working directory.
+Started at Tue Sep  1 18:04:40 2015
+Results reported on Tue Sep  1 18:51:33 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./rocFromBedSBSC_pipeline.zsh E2F4 SC,SC,SC,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB PWM,TC_DU,FS_DU,butterlow,elliphigh,endstd_1,order_1.2,Order_1,Order_4,Order_8,Startstd_4,Startstd_5,window_20,window_30,wp_0.2,wp_0.6,wp_0.8 /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/TC_DU.bed.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/FS_DU.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/butterlow.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/elliphigh.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/endstd_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/order_1.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_8.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_5.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_20.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_30.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.6.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.8.bed /hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/ROC/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   2171.13 sec.
+    Max Memory :                                 10522 MB
+    Average Memory :                             5458.49 MB
+    Total Requested Memory :                     24000.00 MB
+    Delta Memory :                               13478.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <AHM_ROCS_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 23788686: <AHM_ROCS> in cluster <rcc> Done
+
+Job <AHM_ROCS> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Graphics/Pipeline> was used as the working directory.
+Started at Tue Sep  1 18:04:40 2015
+Results reported on Tue Sep  1 18:52:03 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./rocFromBedSBSC_pipeline.zsh ATF1 SC,SC,SC,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB PWM,TC_DU,FS_DU,butterlow,elliphigh,endstd_1,order_1.2,Order_1,Order_4,Order_8,Startstd_4,Startstd_5,window_20,window_30,wp_0.2,wp_0.6,wp_0.8 /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/TC_DU.bed.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/FS_DU.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/butterlow.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/elliphigh.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/endstd_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/order_1.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_8.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_5.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_20.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_30.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.6.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.8.bed /hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/ROC/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   2213.26 sec.
+    Max Memory :                                 12938 MB
+    Average Memory :                             6948.21 MB
+    Total Requested Memory :                     24000.00 MB
+    Delta Memory :                               11062.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <AHM_ROCS_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 23788687: <AHM_ROCS> in cluster <rcc> Done
+
+Job <AHM_ROCS> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Graphics/Pipeline> was used as the working directory.
+Started at Tue Sep  1 18:04:40 2015
+Results reported on Tue Sep  1 18:54:36 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./rocFromBedSBSC_pipeline.zsh ATF3 SC,SC,SC,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB PWM,TC_DU,FS_DU,butterlow,elliphigh,endstd_1,order_1.2,Order_1,Order_4,Order_8,Startstd_4,Startstd_5,window_20,window_30,wp_0.2,wp_0.6,wp_0.8 /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/TC_DU.bed.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/FS_DU.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/butterlow.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/elliphigh.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/endstd_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/order_1.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_8.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_5.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_20.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_30.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.6.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.8.bed /hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/ROC/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   2414.85 sec.
+    Max Memory :                                 2273 MB
+    Average Memory :                             1177.41 MB
+    Total Requested Memory :                     24000.00 MB
+    Delta Memory :                               21727.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <AHM_ROCS_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 23788689: <AHM_ROCS> in cluster <rcc> Done
+
+Job <AHM_ROCS> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Graphics/Pipeline> was used as the working directory.
+Started at Tue Sep  1 18:04:40 2015
+Results reported on Tue Sep  1 18:56:45 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./rocFromBedSBSC_pipeline.zsh BHLHE40 SC,SC,SC,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB PWM,TC_DU,FS_DU,butterlow,elliphigh,endstd_1,order_1.2,Order_1,Order_4,Order_8,Startstd_4,Startstd_5,window_20,window_30,wp_0.2,wp_0.6,wp_0.8 /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/TC_DU.bed.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/FS_DU.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/butterlow.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/elliphigh.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/endstd_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/order_1.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_8.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_5.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_20.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_30.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.6.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.8.bed /hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/ROC/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   2568.14 sec.
+    Max Memory :                                 5853 MB
+    Average Memory :                             2997.23 MB
+    Total Requested Memory :                     24000.00 MB
+    Delta Memory :                               18147.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <AHM_ROCS_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 23788688: <AHM_ROCS> in cluster <rcc> Done
+
+Job <AHM_ROCS> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Graphics/Pipeline> was used as the working directory.
+Started at Tue Sep  1 18:04:40 2015
+Results reported on Tue Sep  1 18:58:20 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./rocFromBedSBSC_pipeline.zsh BACH1 SC,SC,SC,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB PWM,TC_DU,FS_DU,butterlow,elliphigh,endstd_1,order_1.2,Order_1,Order_4,Order_8,Startstd_4,Startstd_5,window_20,window_30,wp_0.2,wp_0.6,wp_0.8 /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/TC_DU.bed.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/FS_DU.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/butterlow.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/elliphigh.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/endstd_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/order_1.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_8.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_5.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_20.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_30.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.6.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.8.bed /hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/ROC/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   2671.91 sec.
+    Max Memory :                                 2250 MB
+    Average Memory :                             1225.09 MB
+    Total Requested Memory :                     24000.00 MB
+    Delta Memory :                               21750.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <AHM_ROCS_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 23788690: <AHM_ROCS> in cluster <rcc> Done
+
+Job <AHM_ROCS> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Graphics/Pipeline> was used as the working directory.
+Started at Tue Sep  1 18:04:40 2015
+Results reported on Tue Sep  1 18:59:34 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./rocFromBedSBSC_pipeline.zsh CCNT2 SC,SC,SC,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB PWM,TC_DU,FS_DU,butterlow,elliphigh,endstd_1,order_1.2,Order_1,Order_4,Order_8,Startstd_4,Startstd_5,window_20,window_30,wp_0.2,wp_0.6,wp_0.8 /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/TC_DU.bed.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/FS_DU.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/butterlow.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/elliphigh.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/endstd_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/order_1.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_8.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_5.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_20.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_30.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.6.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.8.bed /hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/ROC/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   2763.14 sec.
+    Max Memory :                                 2337 MB
+    Average Memory :                             1295.41 MB
+    Total Requested Memory :                     24000.00 MB
+    Delta Memory :                               21663.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <AHM_ROCS_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 23788693: <AHM_ROCS> in cluster <rcc> Done
+
+Job <AHM_ROCS> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Graphics/Pipeline> was used as the working directory.
+Started at Tue Sep  1 18:04:40 2015
+Results reported on Tue Sep  1 19:00:57 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./rocFromBedSBSC_pipeline.zsh CTCFL SC,SC,SC,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB PWM,TC_DU,FS_DU,butterlow,elliphigh,endstd_1,order_1.2,Order_1,Order_4,Order_8,Startstd_4,Startstd_5,window_20,window_30,wp_0.2,wp_0.6,wp_0.8 /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/TC_DU.bed.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/FS_DU.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/butterlow.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/elliphigh.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/endstd_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/order_1.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_8.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_5.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_20.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_30.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.6.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.8.bed /hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/ROC/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   2831.81 sec.
+    Max Memory :                                 2166 MB
+    Average Memory :                             1216.43 MB
+    Total Requested Memory :                     24000.00 MB
+    Delta Memory :                               21834.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <AHM_ROCS_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 23788692: <AHM_ROCS> in cluster <rcc> Done
+
+Job <AHM_ROCS> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Graphics/Pipeline> was used as the working directory.
+Started at Tue Sep  1 18:04:40 2015
+Results reported on Tue Sep  1 19:01:00 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./rocFromBedSBSC_pipeline.zsh CTCF SC,SC,SC,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB PWM,TC_DU,FS_DU,butterlow,elliphigh,endstd_1,order_1.2,Order_1,Order_4,Order_8,Startstd_4,Startstd_5,window_20,window_30,wp_0.2,wp_0.6,wp_0.8 /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/TC_DU.bed.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/FS_DU.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/butterlow.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/elliphigh.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/endstd_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/order_1.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_8.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_5.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_20.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_30.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.6.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.8.bed /hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/ROC/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   2837.31 sec.
+    Max Memory :                                 6821 MB
+    Average Memory :                             4004.05 MB
+    Total Requested Memory :                     24000.00 MB
+    Delta Memory :                               17179.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <AHM_ROCS_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 23788699: <AHM_ROCS> in cluster <rcc> Done
+
+Job <AHM_ROCS> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Graphics/Pipeline> was used as the working directory.
+Started at Tue Sep  1 18:04:40 2015
+Results reported on Tue Sep  1 19:01:01 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./rocFromBedSBSC_pipeline.zsh EJUNB SC,SC,SC,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB PWM,TC_DU,FS_DU,butterlow,elliphigh,endstd_1,order_1.2,Order_1,Order_4,Order_8,Startstd_4,Startstd_5,window_20,window_30,wp_0.2,wp_0.6,wp_0.8 /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/TC_DU.bed.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/FS_DU.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/butterlow.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/elliphigh.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/endstd_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/order_1.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_8.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_5.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_20.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_30.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.6.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.8.bed /hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/ROC/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   2867.70 sec.
+    Max Memory :                                 2429 MB
+    Average Memory :                             1374.98 MB
+    Total Requested Memory :                     24000.00 MB
+    Delta Memory :                               21571.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <AHM_ROCS_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 23788696: <AHM_ROCS> in cluster <rcc> Done
+
+Job <AHM_ROCS> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Graphics/Pipeline> was used as the working directory.
+Started at Tue Sep  1 18:04:40 2015
+Results reported on Tue Sep  1 19:02:06 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./rocFromBedSBSC_pipeline.zsh EFOS SC,SC,SC,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB PWM,TC_DU,FS_DU,butterlow,elliphigh,endstd_1,order_1.2,Order_1,Order_4,Order_8,Startstd_4,Startstd_5,window_20,window_30,wp_0.2,wp_0.6,wp_0.8 /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/TC_DU.bed.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/FS_DU.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/butterlow.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/elliphigh.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/endstd_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/order_1.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_8.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_5.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_20.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_30.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.6.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.8.bed /hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/ROC/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   2952.64 sec.
+    Max Memory :                                 7775 MB
+    Average Memory :                             4799.42 MB
+    Total Requested Memory :                     24000.00 MB
+    Delta Memory :                               16225.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <AHM_ROCS_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 23788697: <AHM_ROCS> in cluster <rcc> Done
+
+Job <AHM_ROCS> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Graphics/Pipeline> was used as the working directory.
+Started at Tue Sep  1 18:04:40 2015
+Results reported on Tue Sep  1 19:07:22 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./rocFromBedSBSC_pipeline.zsh EGATA SC,SC,SC,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB PWM,TC_DU,FS_DU,butterlow,elliphigh,endstd_1,order_1.2,Order_1,Order_4,Order_8,Startstd_4,Startstd_5,window_20,window_30,wp_0.2,wp_0.6,wp_0.8 /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/TC_DU.bed.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/FS_DU.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/butterlow.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/elliphigh.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/endstd_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/order_1.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_8.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_5.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_20.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_30.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.6.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.8.bed /hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/ROC/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   3304.41 sec.
+    Max Memory :                                 2959 MB
+    Average Memory :                             1765.51 MB
+    Total Requested Memory :                     24000.00 MB
+    Delta Memory :                               21041.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <AHM_ROCS_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 23788695: <AHM_ROCS> in cluster <rcc> Done
+
+Job <AHM_ROCS> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Graphics/Pipeline> was used as the working directory.
+Started at Tue Sep  1 18:04:40 2015
+Results reported on Tue Sep  1 19:13:39 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./rocFromBedSBSC_pipeline.zsh E2F6 SC,SC,SC,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB PWM,TC_DU,FS_DU,butterlow,elliphigh,endstd_1,order_1.2,Order_1,Order_4,Order_8,Startstd_4,Startstd_5,window_20,window_30,wp_0.2,wp_0.6,wp_0.8 /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/TC_DU.bed.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/FS_DU.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/butterlow.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/elliphigh.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/endstd_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/order_1.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_8.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_5.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_20.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_30.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.6.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.8.bed /hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/ROC/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   3690.21 sec.
+    Max Memory :                                 2989 MB
+    Average Memory :                             1894.89 MB
+    Total Requested Memory :                     24000.00 MB
+    Delta Memory :                               21011.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <AHM_ROCS_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 23788691: <AHM_ROCS> in cluster <rcc> Done
+
+Job <AHM_ROCS> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Graphics/Pipeline> was used as the working directory.
+Started at Tue Sep  1 18:04:40 2015
+Results reported on Tue Sep  1 19:14:09 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./rocFromBedSBSC_pipeline.zsh CEBPB SC,SC,SC,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB PWM,TC_DU,FS_DU,butterlow,elliphigh,endstd_1,order_1.2,Order_1,Order_4,Order_8,Startstd_4,Startstd_5,window_20,window_30,wp_0.2,wp_0.6,wp_0.8 /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/TC_DU.bed.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/FS_DU.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/butterlow.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/elliphigh.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/endstd_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/order_1.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_8.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_5.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_20.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_30.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.6.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.8.bed /hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/ROC/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   3771.16 sec.
+    Max Memory :                                 7756 MB
+    Average Memory :                             5128.53 MB
+    Total Requested Memory :                     24000.00 MB
+    Delta Memory :                               16244.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <AHM_ROCS_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 23788698: <AHM_ROCS> in cluster <rcc> Done
+
+Job <AHM_ROCS> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Graphics/Pipeline> was used as the working directory.
+Started at Tue Sep  1 18:04:40 2015
+Results reported on Tue Sep  1 19:23:01 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./rocFromBedSBSC_pipeline.zsh EGR1 SC,SC,SC,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB PWM,TC_DU,FS_DU,butterlow,elliphigh,endstd_1,order_1.2,Order_1,Order_4,Order_8,Startstd_4,Startstd_5,window_20,window_30,wp_0.2,wp_0.6,wp_0.8 /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/TC_DU.bed.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/FS_DU.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/butterlow.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/elliphigh.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/endstd_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/order_1.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_8.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_5.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_20.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_30.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.6.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.8.bed /hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/ROC/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   4260.39 sec.
+    Max Memory :                                 2935 MB
+    Average Memory :                             1963.62 MB
+    Total Requested Memory :                     24000.00 MB
+    Delta Memory :                               21065.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <AHM_ROCS_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 23788719: <AHM_ROCS> in cluster <rcc> Done
+
+Job <AHM_ROCS> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Graphics/Pipeline> was used as the working directory.
+Started at Tue Sep  1 19:01:51 2015
+Results reported on Tue Sep  1 19:39:58 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./rocFromBedSBSC_pipeline.zsh NFYA SC,SC,SC,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB PWM,TC_DU,FS_DU,butterlow,elliphigh,endstd_1,order_1.2,Order_1,Order_4,Order_8,Startstd_4,Startstd_5,window_20,window_30,wp_0.2,wp_0.6,wp_0.8 /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/TC_DU.bed.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/FS_DU.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/butterlow.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/elliphigh.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/endstd_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/order_1.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_8.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_5.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_20.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_30.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.6.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.8.bed /hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/ROC/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   2150.03 sec.
+    Max Memory :                                 4601 MB
+    Average Memory :                             1642.80 MB
+    Total Requested Memory :                     24000.00 MB
+    Delta Memory :                               19399.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <AHM_ROCS_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 23788720: <AHM_ROCS> in cluster <rcc> Done
+
+Job <AHM_ROCS> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Graphics/Pipeline> was used as the working directory.
+Started at Tue Sep  1 19:02:47 2015
+Results reported on Tue Sep  1 19:40:58 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./rocFromBedSBSC_pipeline.zsh NFYB SC,SC,SC,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB PWM,TC_DU,FS_DU,butterlow,elliphigh,endstd_1,order_1.2,Order_1,Order_4,Order_8,Startstd_4,Startstd_5,window_20,window_30,wp_0.2,wp_0.6,wp_0.8 /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/TC_DU.bed.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/FS_DU.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/butterlow.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/elliphigh.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/endstd_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/order_1.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_8.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_5.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_20.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_30.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.6.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.8.bed /hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/ROC/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   2178.89 sec.
+    Max Memory :                                 2360 MB
+    Average Memory :                             1016.12 MB
+    Total Requested Memory :                     24000.00 MB
+    Delta Memory :                               21640.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <AHM_ROCS_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 23788685: <AHM_ROCS> in cluster <rcc> Done
+
+Job <AHM_ROCS> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Graphics/Pipeline> was used as the working directory.
+Started at Tue Sep  1 18:04:40 2015
+Results reported on Tue Sep  1 19:40:58 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./rocFromBedSBSC_pipeline.zsh ARID3A SC,SC,SC,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB PWM,TC_DU,FS_DU,butterlow,elliphigh,endstd_1,order_1.2,Order_1,Order_4,Order_8,Startstd_4,Startstd_5,window_20,window_30,wp_0.2,wp_0.6,wp_0.8 /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/TC_DU.bed.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/FS_DU.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/butterlow.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/elliphigh.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/endstd_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/order_1.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_8.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_5.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_20.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_30.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.6.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.8.bed /hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/ROC/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   5530.77 sec.
+    Max Memory :                                 5161 MB
+    Average Memory :                             3710.84 MB
+    Total Requested Memory :                     24000.00 MB
+    Delta Memory :                               18839.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <AHM_ROCS_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 23788717: <AHM_ROCS> in cluster <rcc> Done
+
+Job <AHM_ROCS> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Graphics/Pipeline> was used as the working directory.
+Started at Tue Sep  1 19:01:23 2015
+Results reported on Tue Sep  1 19:42:48 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./rocFromBedSBSC_pipeline.zsh MYC SC,SC,SC,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB PWM,TC_DU,FS_DU,butterlow,elliphigh,endstd_1,order_1.2,Order_1,Order_4,Order_8,Startstd_4,Startstd_5,window_20,window_30,wp_0.2,wp_0.6,wp_0.8 /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/TC_DU.bed.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/FS_DU.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/butterlow.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/elliphigh.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/endstd_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/order_1.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_8.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_5.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_20.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_30.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.6.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.8.bed /hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/ROC/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   2344.83 sec.
+    Max Memory :                                 2447 MB
+    Average Memory :                             1450.56 MB
+    Total Requested Memory :                     24000.00 MB
+    Delta Memory :                               21553.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <AHM_ROCS_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 23788722: <AHM_ROCS> in cluster <rcc> Done
+
+Job <AHM_ROCS> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Graphics/Pipeline> was used as the working directory.
+Started at Tue Sep  1 19:14:14 2015
+Results reported on Tue Sep  1 19:46:18 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./rocFromBedSBSC_pipeline.zsh NRF1 SC,SC,SC,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB PWM,TC_DU,FS_DU,butterlow,elliphigh,endstd_1,order_1.2,Order_1,Order_4,Order_8,Startstd_4,Startstd_5,window_20,window_30,wp_0.2,wp_0.6,wp_0.8 /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/TC_DU.bed.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/FS_DU.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/butterlow.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/elliphigh.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/endstd_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/order_1.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_8.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_5.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_20.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_30.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.6.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.8.bed /hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/ROC/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   1823.63 sec.
+    Max Memory :                                 3000 MB
+    Average Memory :                             1509.40 MB
+    Total Requested Memory :                     24000.00 MB
+    Delta Memory :                               21000.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <AHM_ROCS_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 23788712: <AHM_ROCS> in cluster <rcc> Done
+
+Job <AHM_ROCS> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Graphics/Pipeline> was used as the working directory.
+Started at Tue Sep  1 18:52:41 2015
+Results reported on Tue Sep  1 19:46:46 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./rocFromBedSBSC_pipeline.zsh JUND SC,SC,SC,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB PWM,TC_DU,FS_DU,butterlow,elliphigh,endstd_1,order_1.2,Order_1,Order_4,Order_8,Startstd_4,Startstd_5,window_20,window_30,wp_0.2,wp_0.6,wp_0.8 /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/TC_DU.bed.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/FS_DU.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/butterlow.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/elliphigh.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/endstd_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/order_1.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_8.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_5.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_20.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_30.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.6.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.8.bed /hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/ROC/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   2710.42 sec.
+    Max Memory :                                 19341 MB
+    Average Memory :                             12127.23 MB
+    Total Requested Memory :                     24000.00 MB
+    Delta Memory :                               4659.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <AHM_ROCS_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 23788711: <AHM_ROCS> in cluster <rcc> Done
+
+Job <AHM_ROCS> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Graphics/Pipeline> was used as the working directory.
+Started at Tue Sep  1 18:52:15 2015
+Results reported on Tue Sep  1 19:46:47 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./rocFromBedSBSC_pipeline.zsh JUN SC,SC,SC,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB PWM,TC_DU,FS_DU,butterlow,elliphigh,endstd_1,order_1.2,Order_1,Order_4,Order_8,Startstd_4,Startstd_5,window_20,window_30,wp_0.2,wp_0.6,wp_0.8 /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/TC_DU.bed.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/FS_DU.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/butterlow.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/elliphigh.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/endstd_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/order_1.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_8.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_5.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_20.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_30.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.6.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.8.bed /hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/ROC/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   2711.34 sec.
+    Max Memory :                                 14168 MB
+    Average Memory :                             9172.76 MB
+    Total Requested Memory :                     24000.00 MB
+    Delta Memory :                               9832.00 MB
+    Max Processes :                              7
+    Max Threads :                                8
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <AHM_ROCS_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 23788718: <AHM_ROCS> in cluster <rcc> Done
+
+Job <AHM_ROCS> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Graphics/Pipeline> was used as the working directory.
+Started at Tue Sep  1 19:01:51 2015
+Results reported on Tue Sep  1 19:47:39 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./rocFromBedSBSC_pipeline.zsh NFE2 SC,SC,SC,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB PWM,TC_DU,FS_DU,butterlow,elliphigh,endstd_1,order_1.2,Order_1,Order_4,Order_8,Startstd_4,Startstd_5,window_20,window_30,wp_0.2,wp_0.6,wp_0.8 /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/TC_DU.bed.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/FS_DU.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/butterlow.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/elliphigh.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/endstd_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/order_1.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_8.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_5.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_20.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_30.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.6.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.8.bed /hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/ROC/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   2637.63 sec.
+    Max Memory :                                 5418 MB
+    Average Memory :                             2460.31 MB
+    Total Requested Memory :                     24000.00 MB
+    Delta Memory :                               18582.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <AHM_ROCS_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 23788715: <AHM_ROCS> in cluster <rcc> Done
+
+Job <AHM_ROCS> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Graphics/Pipeline> was used as the working directory.
+Started at Tue Sep  1 18:58:50 2015
+Results reported on Tue Sep  1 19:48:07 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./rocFromBedSBSC_pipeline.zsh MAX SC,SC,SC,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB PWM,TC_DU,FS_DU,butterlow,elliphigh,endstd_1,order_1.2,Order_1,Order_4,Order_8,Startstd_4,Startstd_5,window_20,window_30,wp_0.2,wp_0.6,wp_0.8 /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/TC_DU.bed.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/FS_DU.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/butterlow.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/elliphigh.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/endstd_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/order_1.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_8.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_5.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_20.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_30.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.6.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.8.bed /hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/ROC/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   2703.88 sec.
+    Max Memory :                                 3532 MB
+    Average Memory :                             2269.91 MB
+    Total Requested Memory :                     24000.00 MB
+    Delta Memory :                               20468.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <AHM_ROCS_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 23788721: <AHM_ROCS> in cluster <rcc> Done
+
+Job <AHM_ROCS> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Graphics/Pipeline> was used as the working directory.
+Started at Tue Sep  1 19:07:48 2015
+Results reported on Tue Sep  1 19:49:18 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./rocFromBedSBSC_pipeline.zsh NR2F2 SC,SC,SC,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB PWM,TC_DU,FS_DU,butterlow,elliphigh,endstd_1,order_1.2,Order_1,Order_4,Order_8,Startstd_4,Startstd_5,window_20,window_30,wp_0.2,wp_0.6,wp_0.8 /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/TC_DU.bed.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/FS_DU.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/butterlow.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/elliphigh.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/endstd_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/order_1.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_8.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_5.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_20.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_30.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.6.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.8.bed /hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/ROC/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   2342.76 sec.
+    Max Memory :                                 4228 MB
+    Average Memory :                             3043.02 MB
+    Total Requested Memory :                     24000.00 MB
+    Delta Memory :                               19772.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <AHM_ROCS_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 23788714: <AHM_ROCS> in cluster <rcc> Done
+
+Job <AHM_ROCS> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Graphics/Pipeline> was used as the working directory.
+Started at Tue Sep  1 18:57:16 2015
+Results reported on Tue Sep  1 19:57:28 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./rocFromBedSBSC_pipeline.zsh MAFK SC,SC,SC,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB PWM,TC_DU,FS_DU,butterlow,elliphigh,endstd_1,order_1.2,Order_1,Order_4,Order_8,Startstd_4,Startstd_5,window_20,window_30,wp_0.2,wp_0.6,wp_0.8 /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/TC_DU.bed.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/FS_DU.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/butterlow.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/elliphigh.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/endstd_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/order_1.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_8.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_5.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_20.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_30.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.6.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.8.bed /hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/ROC/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   3416.45 sec.
+    Max Memory :                                 4698 MB
+    Average Memory :                             3180.59 MB
+    Total Requested Memory :                     24000.00 MB
+    Delta Memory :                               19302.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <AHM_ROCS_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 23788713: <AHM_ROCS> in cluster <rcc> Done
+
+Job <AHM_ROCS> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Graphics/Pipeline> was used as the working directory.
+Started at Tue Sep  1 18:55:08 2015
+Results reported on Tue Sep  1 19:57:58 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./rocFromBedSBSC_pipeline.zsh MAFF SC,SC,SC,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB PWM,TC_DU,FS_DU,butterlow,elliphigh,endstd_1,order_1.2,Order_1,Order_4,Order_8,Startstd_4,Startstd_5,window_20,window_30,wp_0.2,wp_0.6,wp_0.8 /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/TC_DU.bed.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/FS_DU.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/butterlow.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/elliphigh.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/endstd_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/order_1.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_8.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_5.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_20.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_30.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.6.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.8.bed /hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/ROC/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   3484.62 sec.
+    Max Memory :                                 3511 MB
+    Average Memory :                             2331.44 MB
+    Total Requested Memory :                     24000.00 MB
+    Delta Memory :                               20489.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <AHM_ROCS_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 23788724: <AHM_ROCS> in cluster <rcc> Done
+
+Job <AHM_ROCS> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Graphics/Pipeline> was used as the working directory.
+Started at Tue Sep  1 19:23:33 2015
+Results reported on Tue Sep  1 20:05:35 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./rocFromBedSBSC_pipeline.zsh RAD21 SC,SC,SC,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB PWM,TC_DU,FS_DU,butterlow,elliphigh,endstd_1,order_1.2,Order_1,Order_4,Order_8,Startstd_4,Startstd_5,window_20,window_30,wp_0.2,wp_0.6,wp_0.8 /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/TC_DU.bed.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/FS_DU.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/butterlow.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/elliphigh.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/endstd_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/order_1.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_8.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_5.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_20.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_30.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.6.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.8.bed /hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/ROC/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   2469.86 sec.
+    Max Memory :                                 2813 MB
+    Average Memory :                             1462.73 MB
+    Total Requested Memory :                     24000.00 MB
+    Delta Memory :                               21187.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <AHM_ROCS_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 23788726: <AHM_ROCS> in cluster <rcc> Done
+
+Job <AHM_ROCS> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Graphics/Pipeline> was used as the working directory.
+Started at Tue Sep  1 19:40:59 2015
+Results reported on Tue Sep  1 20:30:07 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./rocFromBedSBSC_pipeline.zsh RFX5 SC,SC,SC,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB PWM,TC_DU,FS_DU,butterlow,elliphigh,endstd_1,order_1.2,Order_1,Order_4,Order_8,Startstd_4,Startstd_5,window_20,window_30,wp_0.2,wp_0.6,wp_0.8 /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/TC_DU.bed.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/FS_DU.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/butterlow.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/elliphigh.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/endstd_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/order_1.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_8.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_5.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_20.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_30.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.6.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.8.bed /hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/ROC/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   2471.57 sec.
+    Max Memory :                                 8786 MB
+    Average Memory :                             5290.88 MB
+    Total Requested Memory :                     24000.00 MB
+    Delta Memory :                               15214.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <AHM_ROCS_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 23788735: <AHM_ROCS> in cluster <rcc> Done
+
+Job <AHM_ROCS> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Graphics/Pipeline> was used as the working directory.
+Started at Tue Sep  1 19:48:31 2015
+Results reported on Tue Sep  1 20:30:48 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./rocFromBedSBSC_pipeline.zsh TAL1 SC,SC,SC,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB PWM,TC_DU,FS_DU,butterlow,elliphigh,endstd_1,order_1.2,Order_1,Order_4,Order_8,Startstd_4,Startstd_5,window_20,window_30,wp_0.2,wp_0.6,wp_0.8 /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/TC_DU.bed.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/FS_DU.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/butterlow.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/elliphigh.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/endstd_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/order_1.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_8.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_5.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_20.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_30.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.6.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.8.bed /hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/ROC/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   2472.79 sec.
+    Max Memory :                                 2383 MB
+    Average Memory :                             1543.25 MB
+    Total Requested Memory :                     24000.00 MB
+    Delta Memory :                               21617.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <AHM_ROCS_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 23788725: <AHM_ROCS> in cluster <rcc> Done
+
+Job <AHM_ROCS> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Graphics/Pipeline> was used as the working directory.
+Started at Tue Sep  1 19:40:58 2015
+Results reported on Tue Sep  1 20:30:49 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./rocFromBedSBSC_pipeline.zsh REST SC,SC,SC,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB PWM,TC_DU,FS_DU,butterlow,elliphigh,endstd_1,order_1.2,Order_1,Order_4,Order_8,Startstd_4,Startstd_5,window_20,window_30,wp_0.2,wp_0.6,wp_0.8 /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/TC_DU.bed.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/FS_DU.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/butterlow.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/elliphigh.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/endstd_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/order_1.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_8.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_5.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_20.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_30.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.6.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.8.bed /hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/ROC/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   2540.11 sec.
+    Max Memory :                                 6355 MB
+    Average Memory :                             3860.74 MB
+    Total Requested Memory :                     24000.00 MB
+    Delta Memory :                               17645.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <AHM_ROCS_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 23788736: <AHM_ROCS> in cluster <rcc> Done
+
+Job <AHM_ROCS> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Graphics/Pipeline> was used as the working directory.
+Started at Tue Sep  1 19:49:45 2015
+Results reported on Tue Sep  1 20:31:52 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./rocFromBedSBSC_pipeline.zsh TBP SC,SC,SC,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB PWM,TC_DU,FS_DU,butterlow,elliphigh,endstd_1,order_1.2,Order_1,Order_4,Order_8,Startstd_4,Startstd_5,window_20,window_30,wp_0.2,wp_0.6,wp_0.8 /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/TC_DU.bed.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/FS_DU.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/butterlow.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/elliphigh.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/endstd_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/order_1.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_8.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_5.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_20.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_30.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.6.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.8.bed /hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/ROC/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   2540.41 sec.
+    Max Memory :                                 2155 MB
+    Average Memory :                             1299.17 MB
+    Total Requested Memory :                     24000.00 MB
+    Delta Memory :                               21845.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <AHM_ROCS_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 23788728: <AHM_ROCS> in cluster <rcc> Done
+
+Job <AHM_ROCS> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Graphics/Pipeline> was used as the working directory.
+Started at Tue Sep  1 19:41:32 2015
+Results reported on Tue Sep  1 20:31:52 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./rocFromBedSBSC_pipeline.zsh SMC3 SC,SC,SC,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB PWM,TC_DU,FS_DU,butterlow,elliphigh,endstd_1,order_1.2,Order_1,Order_4,Order_8,Startstd_4,Startstd_5,window_20,window_30,wp_0.2,wp_0.6,wp_0.8 /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/TC_DU.bed.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/FS_DU.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/butterlow.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/elliphigh.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/endstd_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/order_1.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_8.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_5.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_20.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_30.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.6.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.8.bed /hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/ROC/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   2605.72 sec.
+    Max Memory :                                 12671 MB
+    Average Memory :                             7683.53 MB
+    Total Requested Memory :                     24000.00 MB
+    Delta Memory :                               11329.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <AHM_ROCS_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 23788737: <AHM_ROCS> in cluster <rcc> Done
+
+Job <AHM_ROCS> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Graphics/Pipeline> was used as the working directory.
+Started at Tue Sep  1 19:58:01 2015
+Results reported on Tue Sep  1 20:36:04 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./rocFromBedSBSC_pipeline.zsh THAP1 SC,SC,SC,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB PWM,TC_DU,FS_DU,butterlow,elliphigh,endstd_1,order_1.2,Order_1,Order_4,Order_8,Startstd_4,Startstd_5,window_20,window_30,wp_0.2,wp_0.6,wp_0.8 /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/TC_DU.bed.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/FS_DU.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/butterlow.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/elliphigh.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/endstd_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/order_1.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_8.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_5.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_20.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_30.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.6.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.8.bed /hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/ROC/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   2238.99 sec.
+    Max Memory :                                 1567 MB
+    Average Memory :                             925.30 MB
+    Total Requested Memory :                     24000.00 MB
+    Delta Memory :                               22433.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <AHM_ROCS_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 23788731: <AHM_ROCS> in cluster <rcc> Done
+
+Job <AHM_ROCS> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Graphics/Pipeline> was used as the working directory.
+Started at Tue Sep  1 19:46:55 2015
+Results reported on Tue Sep  1 20:38:54 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./rocFromBedSBSC_pipeline.zsh SRF SC,SC,SC,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB PWM,TC_DU,FS_DU,butterlow,elliphigh,endstd_1,order_1.2,Order_1,Order_4,Order_8,Startstd_4,Startstd_5,window_20,window_30,wp_0.2,wp_0.6,wp_0.8 /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/TC_DU.bed.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/FS_DU.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/butterlow.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/elliphigh.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/endstd_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/order_1.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_8.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_5.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_20.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_30.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.6.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.8.bed /hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/ROC/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   2981.99 sec.
+    Max Memory :                                 6132 MB
+    Average Memory :                             4920.26 MB
+    Total Requested Memory :                     24000.00 MB
+    Delta Memory :                               17868.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <AHM_ROCS_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 23788727: <AHM_ROCS> in cluster <rcc> Done
+
+Job <AHM_ROCS> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Graphics/Pipeline> was used as the working directory.
+Started at Tue Sep  1 19:40:59 2015
+Results reported on Tue Sep  1 20:42:20 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./rocFromBedSBSC_pipeline.zsh SIX5 SC,SC,SC,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB PWM,TC_DU,FS_DU,butterlow,elliphigh,endstd_1,order_1.2,Order_1,Order_4,Order_8,Startstd_4,Startstd_5,window_20,window_30,wp_0.2,wp_0.6,wp_0.8 /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/TC_DU.bed.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/FS_DU.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/butterlow.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/elliphigh.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/endstd_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/order_1.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_8.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_5.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_20.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_30.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.6.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.8.bed /hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/ROC/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   3320.79 sec.
+    Max Memory :                                 8082 MB
+    Average Memory :                             5378.45 MB
+    Total Requested Memory :                     24000.00 MB
+    Delta Memory :                               15918.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <AHM_ROCS_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 23788738: <AHM_ROCS> in cluster <rcc> Done
+
+Job <AHM_ROCS> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Graphics/Pipeline> was used as the working directory.
+Started at Tue Sep  1 19:58:26 2015
+Results reported on Tue Sep  1 20:45:53 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./rocFromBedSBSC_pipeline.zsh TR4 SC,SC,SC,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB PWM,TC_DU,FS_DU,butterlow,elliphigh,endstd_1,order_1.2,Order_1,Order_4,Order_8,Startstd_4,Startstd_5,window_20,window_30,wp_0.2,wp_0.6,wp_0.8 /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/TC_DU.bed.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/FS_DU.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/butterlow.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/elliphigh.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/endstd_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/order_1.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_8.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_5.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_20.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_30.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.6.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.8.bed /hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/ROC/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   2840.43 sec.
+    Max Memory :                                 2344 MB
+    Average Memory :                             1558.78 MB
+    Total Requested Memory :                     24000.00 MB
+    Delta Memory :                               21656.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <AHM_ROCS_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 23788732: <AHM_ROCS> in cluster <rcc> Done
+
+Job <AHM_ROCS> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Graphics/Pipeline> was used as the working directory.
+Started at Tue Sep  1 19:48:07 2015
+Results reported on Tue Sep  1 20:48:04 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./rocFromBedSBSC_pipeline.zsh STAT1 SC,SC,SC,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB PWM,TC_DU,FS_DU,butterlow,elliphigh,endstd_1,order_1.2,Order_1,Order_4,Order_8,Startstd_4,Startstd_5,window_20,window_30,wp_0.2,wp_0.6,wp_0.8 /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/TC_DU.bed.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/FS_DU.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/butterlow.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/elliphigh.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/endstd_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/order_1.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_8.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_5.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_20.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_30.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.6.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.8.bed /hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/ROC/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   3558.39 sec.
+    Max Memory :                                 3360 MB
+    Average Memory :                             2308.26 MB
+    Total Requested Memory :                     24000.00 MB
+    Delta Memory :                               20640.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <AHM_ROCS_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 23788734: <AHM_ROCS> in cluster <rcc> Done
+
+Job <AHM_ROCS> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Graphics/Pipeline> was used as the working directory.
+Started at Tue Sep  1 19:48:31 2015
+Results reported on Tue Sep  1 20:48:30 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./rocFromBedSBSC_pipeline.zsh STAT5A SC,SC,SC,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB PWM,TC_DU,FS_DU,butterlow,elliphigh,endstd_1,order_1.2,Order_1,Order_4,Order_8,Startstd_4,Startstd_5,window_20,window_30,wp_0.2,wp_0.6,wp_0.8 /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/TC_DU.bed.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/FS_DU.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/butterlow.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/elliphigh.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/endstd_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/order_1.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_8.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_5.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_20.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_30.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.6.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.8.bed /hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/ROC/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   3578.67 sec.
+    Max Memory :                                 3355 MB
+    Average Memory :                             2313.37 MB
+    Total Requested Memory :                     24000.00 MB
+    Delta Memory :                               20645.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <AHM_ROCS_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 23788739: <AHM_ROCS> in cluster <rcc> Done
+
+Job <AHM_ROCS> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Graphics/Pipeline> was used as the working directory.
+Started at Tue Sep  1 20:06:19 2015
+Results reported on Tue Sep  1 20:48:31 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./rocFromBedSBSC_pipeline.zsh USF1 SC,SC,SC,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB PWM,TC_DU,FS_DU,butterlow,elliphigh,endstd_1,order_1.2,Order_1,Order_4,Order_8,Startstd_4,Startstd_5,window_20,window_30,wp_0.2,wp_0.6,wp_0.8 /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/TC_DU.bed.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/FS_DU.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/butterlow.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/elliphigh.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/endstd_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/order_1.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_8.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_5.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_20.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_30.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.6.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.8.bed /hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/ROC/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   2443.42 sec.
+    Max Memory :                                 3232 MB
+    Average Memory :                             1595.13 MB
+    Total Requested Memory :                     24000.00 MB
+    Delta Memory :                               20768.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <AHM_ROCS_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 23788723: <AHM_ROCS> in cluster <rcc> Done
+
+Job <AHM_ROCS> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Graphics/Pipeline> was used as the working directory.
+Started at Tue Sep  1 19:14:43 2015
+Results reported on Tue Sep  1 21:02:00 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./rocFromBedSBSC_pipeline.zsh PU1 SC,SC,SC,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB PWM,TC_DU,FS_DU,butterlow,elliphigh,endstd_1,order_1.2,Order_1,Order_4,Order_8,Startstd_4,Startstd_5,window_20,window_30,wp_0.2,wp_0.6,wp_0.8 /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/TC_DU.bed.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/FS_DU.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/butterlow.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/elliphigh.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/endstd_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/order_1.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_8.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_5.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_20.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_30.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.6.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.8.bed /hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/ROC/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   6403.31 sec.
+    Max Memory :                                 14063 MB
+    Average Memory :                             9944.24 MB
+    Total Requested Memory :                     24000.00 MB
+    Delta Memory :                               9937.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <AHM_ROCS_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 23788743: <AHM_ROCS> in cluster <rcc> Done
+
+Job <AHM_ROCS> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Graphics/Pipeline> was used as the working directory.
+Started at Tue Sep  1 20:31:18 2015
+Results reported on Tue Sep  1 21:04:44 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./rocFromBedSBSC_pipeline.zsh ZBTB33 SC,SC,SC,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB PWM,TC_DU,FS_DU,butterlow,elliphigh,endstd_1,order_1.2,Order_1,Order_4,Order_8,Startstd_4,Startstd_5,window_20,window_30,wp_0.2,wp_0.6,wp_0.8 /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/TC_DU.bed.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/FS_DU.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/butterlow.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/elliphigh.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/endstd_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/order_1.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_8.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_5.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_20.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_30.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.6.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.8.bed /hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/ROC/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   1774.33 sec.
+    Max Memory :                                 5238 MB
+    Average Memory :                             1526.40 MB
+    Total Requested Memory :                     24000.00 MB
+    Delta Memory :                               18762.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <AHM_ROCS_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 23788742: <AHM_ROCS> in cluster <rcc> Done
+
+Job <AHM_ROCS> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Graphics/Pipeline> was used as the working directory.
+Started at Tue Sep  1 20:30:29 2015
+Results reported on Tue Sep  1 21:08:54 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./rocFromBedSBSC_pipeline.zsh ZBTB7A SC,SC,SC,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB PWM,TC_DU,FS_DU,butterlow,elliphigh,endstd_1,order_1.2,Order_1,Order_4,Order_8,Startstd_4,Startstd_5,window_20,window_30,wp_0.2,wp_0.6,wp_0.8 /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/TC_DU.bed.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/FS_DU.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/butterlow.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/elliphigh.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/endstd_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/order_1.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_8.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_5.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_20.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_30.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.6.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.8.bed /hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/ROC/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   2055.63 sec.
+    Max Memory :                                 5877 MB
+    Average Memory :                             3723.64 MB
+    Total Requested Memory :                     24000.00 MB
+    Delta Memory :                               18123.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <AHM_ROCS_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 23788702: <AHM_ROCS> in cluster <rcc> Done
+
+Job <AHM_ROCS> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Graphics/Pipeline> was used as the working directory.
+Started at Tue Sep  1 20:39:32 2015
+Results reported on Tue Sep  1 21:09:41 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./rocFromBedSBSC_pipeline.zsh ELK1 SC,SC,SC,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB PWM,TC_DU,FS_DU,butterlow,elliphigh,endstd_1,order_1.2,Order_1,Order_4,Order_8,Startstd_4,Startstd_5,window_20,window_30,wp_0.2,wp_0.6,wp_0.8 /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/TC_DU.bed.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/FS_DU.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/butterlow.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/elliphigh.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/endstd_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/order_1.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_8.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_5.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_20.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_30.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.6.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.8.bed /hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/ROC/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   1760.78 sec.
+    Max Memory :                                 5242 MB
+    Average Memory :                             2210.74 MB
+    Total Requested Memory :                     24000.00 MB
+    Delta Memory :                               18758.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <AHM_ROCS_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 23788740: <AHM_ROCS> in cluster <rcc> Done
+
+Job <AHM_ROCS> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Graphics/Pipeline> was used as the working directory.
+Started at Tue Sep  1 20:21:55 2015
+Results reported on Tue Sep  1 21:09:42 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./rocFromBedSBSC_pipeline.zsh USF2 SC,SC,SC,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB PWM,TC_DU,FS_DU,butterlow,elliphigh,endstd_1,order_1.2,Order_1,Order_4,Order_8,Startstd_4,Startstd_5,window_20,window_30,wp_0.2,wp_0.6,wp_0.8 /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/TC_DU.bed.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/FS_DU.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/butterlow.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/elliphigh.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/endstd_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/order_1.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_8.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_5.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_20.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_30.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.6.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.8.bed /hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/ROC/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   2602.41 sec.
+    Max Memory :                                 23350 MB
+    Average Memory :                             13482.03 MB
+    Total Requested Memory :                     24000.00 MB
+    Delta Memory :                               650.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <AHM_ROCS_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 23788700: <AHM_ROCS> in cluster <rcc> Done
+
+Job <AHM_ROCS> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Graphics/Pipeline> was used as the working directory.
+Started at Tue Sep  1 20:32:34 2015
+Results reported on Tue Sep  1 21:16:55 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./rocFromBedSBSC_pipeline.zsh EJUND SC,SC,SC,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB PWM,TC_DU,FS_DU,butterlow,elliphigh,endstd_1,order_1.2,Order_1,Order_4,Order_8,Startstd_4,Startstd_5,window_20,window_30,wp_0.2,wp_0.6,wp_0.8 /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/TC_DU.bed.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/FS_DU.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/butterlow.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/elliphigh.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/endstd_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/order_1.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_8.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_5.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_20.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_30.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.6.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.8.bed /hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/ROC/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   2596.90 sec.
+    Max Memory :                                 5051 MB
+    Average Memory :                             2113.50 MB
+    Total Requested Memory :                     24000.00 MB
+    Delta Memory :                               18949.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <AHM_ROCS_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 23788706: <AHM_ROCS> in cluster <rcc> Done
+
+Job <AHM_ROCS> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Graphics/Pipeline> was used as the working directory.
+Started at Tue Sep  1 20:48:56 2015
+Results reported on Tue Sep  1 21:19:36 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./rocFromBedSBSC_pipeline.zsh GABP SC,SC,SC,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB PWM,TC_DU,FS_DU,butterlow,elliphigh,endstd_1,order_1.2,Order_1,Order_4,Order_8,Startstd_4,Startstd_5,window_20,window_30,wp_0.2,wp_0.6,wp_0.8 /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/TC_DU.bed.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/FS_DU.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/butterlow.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/elliphigh.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/endstd_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/order_1.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_8.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_5.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_20.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_30.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.6.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.8.bed /hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/ROC/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   1837.05 sec.
+    Max Memory :                                 467 MB
+    Average Memory :                             242.66 MB
+    Total Requested Memory :                     24000.00 MB
+    Delta Memory :                               23533.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <AHM_ROCS_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 23788741: <AHM_ROCS> in cluster <rcc> Done
+
+Job <AHM_ROCS> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Graphics/Pipeline> was used as the working directory.
+Started at Tue Sep  1 20:21:55 2015
+Results reported on Tue Sep  1 21:25:08 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./rocFromBedSBSC_pipeline.zsh YY1 SC,SC,SC,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB PWM,TC_DU,FS_DU,butterlow,elliphigh,endstd_1,order_1.2,Order_1,Order_4,Order_8,Startstd_4,Startstd_5,window_20,window_30,wp_0.2,wp_0.6,wp_0.8 /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/TC_DU.bed.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/FS_DU.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/butterlow.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/elliphigh.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/endstd_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/order_1.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_8.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_5.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_20.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_30.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.6.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.8.bed /hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/ROC/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   3646.45 sec.
+    Max Memory :                                 3869 MB
+    Average Memory :                             2678.50 MB
+    Total Requested Memory :                     24000.00 MB
+    Delta Memory :                               20131.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <AHM_ROCS_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 23788744: <AHM_ROCS> in cluster <rcc> Done
+
+Job <AHM_ROCS> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Graphics/Pipeline> was used as the working directory.
+Started at Tue Sep  1 20:31:18 2015
+Results reported on Tue Sep  1 21:27:17 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./rocFromBedSBSC_pipeline.zsh ZNF143 SC,SC,SC,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB PWM,TC_DU,FS_DU,butterlow,elliphigh,endstd_1,order_1.2,Order_1,Order_4,Order_8,Startstd_4,Startstd_5,window_20,window_30,wp_0.2,wp_0.6,wp_0.8 /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/TC_DU.bed.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/FS_DU.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/butterlow.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/elliphigh.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/endstd_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/order_1.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_8.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_5.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_20.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_30.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.6.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.8.bed /hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/ROC/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   3258.02 sec.
+    Max Memory :                                 4746 MB
+    Average Memory :                             2694.55 MB
+    Total Requested Memory :                     24000.00 MB
+    Delta Memory :                               19254.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <AHM_ROCS_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 23788730: <AHM_ROCS> in cluster <rcc> Done
+
+Job <AHM_ROCS> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Graphics/Pipeline> was used as the working directory.
+Started at Tue Sep  1 19:43:11 2015
+Results reported on Tue Sep  1 21:28:17 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./rocFromBedSBSC_pipeline.zsh SP2 SC,SC,SC,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB PWM,TC_DU,FS_DU,butterlow,elliphigh,endstd_1,order_1.2,Order_1,Order_4,Order_8,Startstd_4,Startstd_5,window_20,window_30,wp_0.2,wp_0.6,wp_0.8 /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/TC_DU.bed.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/FS_DU.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/butterlow.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/elliphigh.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/endstd_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/order_1.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_8.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_5.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_20.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_30.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.6.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.8.bed /hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/ROC/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   6241.83 sec.
+    Max Memory :                                 6215 MB
+    Average Memory :                             5223.29 MB
+    Total Requested Memory :                     24000.00 MB
+    Delta Memory :                               17785.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <AHM_ROCS_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 23788704: <AHM_ROCS> in cluster <rcc> Done
+
+Job <AHM_ROCS> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Graphics/Pipeline> was used as the working directory.
+Started at Tue Sep  1 20:46:28 2015
+Results reported on Tue Sep  1 21:30:18 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./rocFromBedSBSC_pipeline.zsh FOS SC,SC,SC,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB PWM,TC_DU,FS_DU,butterlow,elliphigh,endstd_1,order_1.2,Order_1,Order_4,Order_8,Startstd_4,Startstd_5,window_20,window_30,wp_0.2,wp_0.6,wp_0.8 /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/TC_DU.bed.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/FS_DU.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/butterlow.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/elliphigh.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/endstd_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/order_1.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_8.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_5.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_20.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_30.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.6.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.8.bed /hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/ROC/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   2645.34 sec.
+    Max Memory :                                 2393 MB
+    Average Memory :                             1604.04 MB
+    Total Requested Memory :                     24000.00 MB
+    Delta Memory :                               21607.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <AHM_ROCS_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 23788705: <AHM_ROCS> in cluster <rcc> Done
+
+Job <AHM_ROCS> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Graphics/Pipeline> was used as the working directory.
+Started at Tue Sep  1 20:48:31 2015
+Results reported on Tue Sep  1 21:30:49 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./rocFromBedSBSC_pipeline.zsh FOSL1 SC,SC,SC,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB PWM,TC_DU,FS_DU,butterlow,elliphigh,endstd_1,order_1.2,Order_1,Order_4,Order_8,Startstd_4,Startstd_5,window_20,window_30,wp_0.2,wp_0.6,wp_0.8 /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/TC_DU.bed.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/FS_DU.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/butterlow.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/elliphigh.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/endstd_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/order_1.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_8.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_5.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_20.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_30.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.6.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.8.bed /hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/ROC/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   2556.71 sec.
+    Max Memory :                                 1954 MB
+    Average Memory :                             1248.86 MB
+    Total Requested Memory :                     24000.00 MB
+    Delta Memory :                               22046.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <AHM_ROCS_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 23788701: <AHM_ROCS> in cluster <rcc> Done
+
+Job <AHM_ROCS> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Graphics/Pipeline> was used as the working directory.
+Started at Tue Sep  1 20:36:40 2015
+Results reported on Tue Sep  1 21:31:19 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./rocFromBedSBSC_pipeline.zsh ELF1 SC,SC,SC,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB PWM,TC_DU,FS_DU,butterlow,elliphigh,endstd_1,order_1.2,Order_1,Order_4,Order_8,Startstd_4,Startstd_5,window_20,window_30,wp_0.2,wp_0.6,wp_0.8 /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/TC_DU.bed.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/FS_DU.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/butterlow.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/elliphigh.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/endstd_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/order_1.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_8.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_5.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_20.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_30.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.6.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.8.bed /hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/ROC/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   3211.93 sec.
+    Max Memory :                                 6386 MB
+    Average Memory :                             4805.61 MB
+    Total Requested Memory :                     24000.00 MB
+    Delta Memory :                               17614.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <AHM_ROCS_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 23788729: <AHM_ROCS> in cluster <rcc> Done
+
+Job <AHM_ROCS> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Graphics/Pipeline> was used as the working directory.
+Started at Tue Sep  1 19:41:32 2015
+Results reported on Tue Sep  1 21:37:51 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./rocFromBedSBSC_pipeline.zsh SP1 SC,SC,SC,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB PWM,TC_DU,FS_DU,butterlow,elliphigh,endstd_1,order_1.2,Order_1,Order_4,Order_8,Startstd_4,Startstd_5,window_20,window_30,wp_0.2,wp_0.6,wp_0.8 /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/TC_DU.bed.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/FS_DU.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/butterlow.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/elliphigh.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/endstd_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/order_1.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_8.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_5.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_20.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_30.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.6.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.8.bed /hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/ROC/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   6851.15 sec.
+    Max Memory :                                 5111 MB
+    Average Memory :                             4163.09 MB
+    Total Requested Memory :                     24000.00 MB
+    Delta Memory :                               18889.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <AHM_ROCS_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 23788708: <AHM_ROCS> in cluster <rcc> Done
+
+Job <AHM_ROCS> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Graphics/Pipeline> was used as the working directory.
+Started at Tue Sep  1 20:48:56 2015
+Results reported on Tue Sep  1 21:38:28 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./rocFromBedSBSC_pipeline.zsh GATA1 SC,SC,SC,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB PWM,TC_DU,FS_DU,butterlow,elliphigh,endstd_1,order_1.2,Order_1,Order_4,Order_8,Startstd_4,Startstd_5,window_20,window_30,wp_0.2,wp_0.6,wp_0.8 /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/TC_DU.bed.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/FS_DU.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/butterlow.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/elliphigh.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/endstd_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/order_1.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_8.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_5.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_20.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_30.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.6.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.8.bed /hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/ROC/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   2995.85 sec.
+    Max Memory :                                 3115 MB
+    Average Memory :                             1791.32 MB
+    Total Requested Memory :                     24000.00 MB
+    Delta Memory :                               20885.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <AHM_ROCS_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 23788716: <AHM_ROCS> in cluster <rcc> Done
+
+Job <AHM_ROCS> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Graphics/Pipeline> was used as the working directory.
+Started at Tue Sep  1 19:00:04 2015
+Results reported on Tue Sep  1 21:46:00 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./rocFromBedSBSC_pipeline.zsh MEF2A SC,SC,SC,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB PWM,TC_DU,FS_DU,butterlow,elliphigh,endstd_1,order_1.2,Order_1,Order_4,Order_8,Startstd_4,Startstd_5,window_20,window_30,wp_0.2,wp_0.6,wp_0.8 /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/TC_DU.bed.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/FS_DU.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/butterlow.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/elliphigh.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/endstd_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/order_1.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_8.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_5.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_20.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_30.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.6.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.8.bed /hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/ROC/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   9987.71 sec.
+    Max Memory :                                 8129 MB
+    Average Memory :                             6810.71 MB
+    Total Requested Memory :                     24000.00 MB
+    Delta Memory :                               15871.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <AHM_ROCS_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 23788703: <AHM_ROCS> in cluster <rcc> Done
+
+Job <AHM_ROCS> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Graphics/Pipeline> was used as the working directory.
+Started at Tue Sep  1 20:42:48 2015
+Results reported on Tue Sep  1 21:49:30 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./rocFromBedSBSC_pipeline.zsh ETS1 SC,SC,SC,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB PWM,TC_DU,FS_DU,butterlow,elliphigh,endstd_1,order_1.2,Order_1,Order_4,Order_8,Startstd_4,Startstd_5,window_20,window_30,wp_0.2,wp_0.6,wp_0.8 /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/TC_DU.bed.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/FS_DU.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/butterlow.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/elliphigh.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/endstd_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/order_1.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_8.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_5.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_20.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_30.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.6.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.8.bed /hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/ROC/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   4017.66 sec.
+    Max Memory :                                 3445 MB
+    Average Memory :                             2523.85 MB
+    Total Requested Memory :                     24000.00 MB
+    Delta Memory :                               20555.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <AHM_ROCS_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 23788709: <AHM_ROCS> in cluster <rcc> Done
+
+Job <AHM_ROCS> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Graphics/Pipeline> was used as the working directory.
+Started at Tue Sep  1 21:02:28 2015
+Results reported on Tue Sep  1 21:55:31 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./rocFromBedSBSC_pipeline.zsh GATA2 SC,SC,SC,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB PWM,TC_DU,FS_DU,butterlow,elliphigh,endstd_1,order_1.2,Order_1,Order_4,Order_8,Startstd_4,Startstd_5,window_20,window_30,wp_0.2,wp_0.6,wp_0.8 /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/TC_DU.bed.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/FS_DU.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/butterlow.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/elliphigh.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/endstd_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/order_1.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_8.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_5.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_20.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_30.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.6.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.8.bed /hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/ROC/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   3025.79 sec.
+    Max Memory :                                 12960 MB
+    Average Memory :                             7401.06 MB
+    Total Requested Memory :                     24000.00 MB
+    Delta Memory :                               11040.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <AHM_ROCS_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 23788733: <AHM_ROCS> in cluster <rcc> Done
+
+Job <AHM_ROCS> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Graphics/Pipeline> was used as the working directory.
+Started at Tue Sep  1 19:48:07 2015
+Results reported on Tue Sep  1 22:33:05 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./rocFromBedSBSC_pipeline.zsh STAT2 SC,SC,SC,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB PWM,TC_DU,FS_DU,butterlow,elliphigh,endstd_1,order_1.2,Order_1,Order_4,Order_8,Startstd_4,Startstd_5,window_20,window_30,wp_0.2,wp_0.6,wp_0.8 /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/TC_DU.bed.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/FS_DU.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/butterlow.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/elliphigh.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/endstd_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/order_1.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_8.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_5.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_20.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_30.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.6.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.8.bed /hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/ROC/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   9982.62 sec.
+    Max Memory :                                 7182 MB
+    Average Memory :                             5942.34 MB
+    Total Requested Memory :                     24000.00 MB
+    Delta Memory :                               16818.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <AHM_ROCS_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 23788710: <AHM_ROCS> in cluster <rcc> Done
+
+Job <AHM_ROCS> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Graphics/Pipeline> was used as the working directory.
+Started at Tue Sep  1 21:05:07 2015
+Results reported on Tue Sep  1 22:55:42 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./rocFromBedSBSC_pipeline.zsh IRF1 SC,SC,SC,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB PWM,TC_DU,FS_DU,butterlow,elliphigh,endstd_1,order_1.2,Order_1,Order_4,Order_8,Startstd_4,Startstd_5,window_20,window_30,wp_0.2,wp_0.6,wp_0.8 /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/TC_DU.bed.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/FS_DU.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/butterlow.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/elliphigh.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/endstd_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/order_1.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_8.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_5.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_20.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_30.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.6.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.8.bed /hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/ROC/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   6665.38 sec.
+    Max Memory :                                 6268 MB
+    Average Memory :                             5062.35 MB
+    Total Requested Memory :                     24000.00 MB
+    Delta Memory :                               17732.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <AHM_ROCS_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 23788745: <AHM_ROCS> in cluster <rcc> Done
+
+Job <AHM_ROCS> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Graphics/Pipeline> was used as the working directory.
+Started at Tue Sep  1 20:32:34 2015
+Results reported on Tue Sep  1 23:16:24 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./rocFromBedSBSC_pipeline.zsh ZNF263 SC,SC,SC,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB,SB PWM,TC_DU,FS_DU,butterlow,elliphigh,endstd_1,order_1.2,Order_1,Order_4,Order_8,Startstd_4,Startstd_5,window_20,window_30,wp_0.2,wp_0.6,wp_0.8 /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/TC_DU.bed.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/K562/FS_DU.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/butterlow.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/elliphigh.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/endstd_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/order_1.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_1.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Order_8.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/Startstd_5.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_20.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/window_30.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.2.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.6.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/Results/wp_0.8.bed /hpcwork/izkf/projects/TfbsPrediction/Results/SignalProcessing/ROC/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   9884.23 sec.
+    Max Memory :                                 6485 MB
+    Average Memory :                             5517.30 MB
+    Total Requested Memory :                     24000.00 MB
+    Delta Memory :                               17515.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <AHM_ROCS_err.txt> for stderr output of this job.
+

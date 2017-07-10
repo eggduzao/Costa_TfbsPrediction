@@ -1,0 +1,39 @@
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22692411: <DU_K562_GATA2_AFM2> in cluster <rcc> Exited
+
+Job <DU_K562_GATA2_AFM2> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Jun 29 00:45:50 2015
+Results reported on Fri Jul  3 18:36:28 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyFootprintMixture2_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/K562_Evidence/fdr_4/GATA2.bed /hpcwork/izkf/projects/TfbsPrediction/Data/DNase/K562/DNasePeaks.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/DU_K562/FootprintMixture/GATA2_CUT.txt /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/DU_K562/FootprintMixture/GATA2_SEQ.fa /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/K562/FootprintMixture2_DU/GATA2.bed
+------------------------------------------------------------
+
+TERM_OWNER: job killed by owner.
+Exited with exit code 130.
+
+Resource usage summary:
+
+    CPU time :                                   412721.06 sec.
+    Max Memory :                                 3913 MB
+    Average Memory :                             3576.98 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               8087.00 MB
+    Max Swap :                                   2 MB
+    Max Processes :                              11
+    Max Threads :                                12
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <DU_K562_GATA2_AFM2_err.txt> for stderr output of this job.
+

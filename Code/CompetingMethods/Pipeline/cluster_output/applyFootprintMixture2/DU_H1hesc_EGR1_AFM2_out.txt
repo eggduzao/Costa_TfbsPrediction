@@ -1,0 +1,27 @@
+Sender: LSF System <lsfadmin@linuxbcsc66>
+Subject: Job 22595254: <DU_H1hesc_EGR1_AFM2> in cluster <rcc> Exited
+
+Job <DU_H1hesc_EGR1_AFM2> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbcsc66>, in queue <low>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Mon Jun 22 21:25:46 2015
+Results reported on Thu Jul  9 12:47:34 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyFootprintMixture2_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/H1hesc_Evidence/fdr_4/EGR1.bed /hpcwork/izkf/projects/TfbsPrediction/Data/DNase/H1hesc/DNasePeaks.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/DU_H1hesc/FootprintMixture/EGR1_CUT.txt /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/DU_H1hesc/FootprintMixture/EGR1_SEQ.fa /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/H1hesc/FootprintMixture2_DU/EGR1.bed
+------------------------------------------------------------
+
+TERM_ADMIN: job killed by root or an administrator.
+Exited
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <DU_H1hesc_EGR1_AFM2_err.txt> for stderr output of this job.
+

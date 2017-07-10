@@ -1,0 +1,37 @@
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 24443275: <K562_ELK4_CCSB> in cluster <rcc> Done
+
+Job <K562_ELK4_CCSB> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Wed Oct 21 00:19:25 2015
+Results reported on Wed Oct 21 01:02:09 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./createCentipedeSignal_pipeline.zsh ELK4 /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/All/fdr_4_inside_HS/ELK4.bed /hpcwork/izkf/projects/TfbsPrediction/Data/PhastCons/PhastCons.bw /hpcwork/izkf/projects/TfbsPrediction/Data/DistanceTSS/distanceTSS.bw 200 /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/DU_K562/DNasePos.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/DU_K562/DNaseNeg.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/DU_K562/Centipede_batch/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   4158.26 sec.
+    Max Memory :                                 588 MB
+    Average Memory :                             289.79 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11412.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <K562_ELK4_CCSB_err.txt> for stderr output of this job.
+

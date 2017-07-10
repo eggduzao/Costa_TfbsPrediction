@@ -1,0 +1,37 @@
+Sender: LSF System <lsfadmin@linuxbmc0820>
+Subject: Job 24740911: <GM12878_PPARG_ACP> in cluster <rcc> Done
+
+Job <GM12878_PPARG_ACP> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0820>, in queue <low>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Fri Nov  6 20:52:09 2015
+Results reported on Fri Nov  6 23:43:22 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyCuellarHs_pipeline.zsh PPARG 0.00001 /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/HMM/InputRegions/DU_GM12878/hd.bed /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/ExpressionValidation/MPBS/MEME/PPARG.meme /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/DU_GM12878/Cuellar/DNase_prior.bw /hpcwork/izkf/projects/TfbsPrediction/Data/HG19/ /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/GM12878/Cuellar_batch/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   10746.29 sec.
+    Max Memory :                                 157 MB
+    Average Memory :                             69.04 MB
+    Total Requested Memory :                     8192.00 MB
+    Delta Memory :                               8035.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <GM12878_PPARG_ACP_err.txt> for stderr output of this job.
+

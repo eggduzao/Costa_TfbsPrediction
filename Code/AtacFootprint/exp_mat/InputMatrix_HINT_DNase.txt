@@ -1,0 +1,3 @@
+name	type	file	data	group
+HS	regions	/hpcwork/izkf/projects/TfbsPrediction/Data/ATAC/K562/ATACPeaks.bed	HS	K562_HINT
+DNase	reads	/hpcwork/izkf/projects/TfbsPrediction/Data/ATAC/K562/ATAC.bam	DNASE	K562_HINT

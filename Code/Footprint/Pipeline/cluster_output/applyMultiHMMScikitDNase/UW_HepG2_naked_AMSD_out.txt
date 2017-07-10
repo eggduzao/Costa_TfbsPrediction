@@ -1,0 +1,37 @@
+Sender: LSF System <lsfadmin@linuxbmc1223>
+Subject: Job 21664352: <UW_HepG2_naked_AMSD> in cluster <rcc> Done
+
+Job <UW_HepG2_naked_AMSD> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc1223>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Footprint/Pipeline> was used as the working directory.
+Started at Thu May 21 18:52:02 2015
+Results reported on Fri May 22 09:22:04 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyMultiHMMScikitDNase_pipeline.zsh /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/HMM/InputRegions/UW_HepG2/dnase_HS_regions.bed /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/HMM/Models_DNase/HepG2/Model/naked.hmm /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/NormSlopeBiasNaked/UW_HepG2/DNaseBiasCorrected_norm.bw,/hpcwork/izkf/projects/TfbsPrediction/Results/Signals/NormSlopeBiasNaked/UW_HepG2/DNaseBiasCorrected_slope.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/HepG2/HMM_DNase_UW_NAKED/DNase_ModelHepG2.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   52764.16 sec.
+    Max Memory :                                 3227 MB
+    Average Memory :                             1684.80 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               8773.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <UW_HepG2_naked_AMSD_err.txt> for stderr output of this job.
+

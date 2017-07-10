@@ -1,0 +1,10 @@
+/usr/local_rwth/sw/python/2.7.5/x86_64/extra/lib/python2.7/site-packages/numpy/core/_methods.py:57: RuntimeWarning: invalid value encountered in double_scalars
+  ret = ret / float(rcount)
+/usr/local_rwth/sw/python/2.7.5/x86_64/extra/lib/python2.7/site-packages/numpy/core/_methods.py:72: RuntimeWarning: invalid value encountered in true_divide
+  out=arrmean, casting='unsafe', subok=False)
+/usr/local_rwth/sw/python/2.7.5/x86_64/extra/lib/python2.7/site-packages/numpy/core/_methods.py:96: RuntimeWarning: invalid value encountered in double_scalars
+  ret = ret / float(rcount)
+/usr/local_rwth/sw/python/2.7.5/x86_64/extra/lib/python2.7/site-packages/scipy/stats/stats.py:3436: RuntimeWarning: invalid value encountered in divide
+  cdf2 = (np.searchsorted(data2,data_all,side='right'))/(1.0*n2)
+/usr/local_rwth/sw/python/2.7.5/x86_64/extra/lib/python2.7/site-packages/scipy/stats/stats.py:3441: RuntimeWarning: divide by zero encountered in double_scalars
+  prob = ksprob((en+0.12+0.11/en)*d)

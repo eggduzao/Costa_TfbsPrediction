@@ -1,0 +1,249 @@
+\documentclass[landscape, 8pt]{report}
+\usepackage{rotating}
+\usepackage{multirow}
+\usepackage{array}
+\begin{document}
+
+\begin{table}[t]
+\begin{center}
+\caption{Statistics for H1hesc gold standard dataset.}
+\label{tab:H1hesc.tfbsstats}
+    \renewcommand{\arraystretch}{1.2}
+    \begin{tabular}{ |>{\centering\arraybackslash} m{1.8cm} >{\centering\arraybackslash} m{1.2cm} >{\centering\arraybackslash} m{1.4cm} >{\centering\arraybackslash} m{1.4cm} >{\centering\arraybackslash} m{1.6cm} | >{\centering\arraybackslash} m{1.8cm} >{\centering\arraybackslash} m{1.2cm} >{\centering\arraybackslash} m{1.4cm} >{\centering\arraybackslash} m{1.4cm} >{\centering\arraybackslash} m{1.6cm} | }
+        \hline
+        \textbf{Factor} & \textbf{ChIP-seq Peaks} & \textbf{Bit-score} & \textbf{MPBSs} & \textbf{ChIP+ MPBS(\%)} & \textbf{Factor} & \textbf{ChIP-seq Peaks} & \textbf{Bit-score} & \textbf{MPBSs} & \textbf{ChIP+ MPBS(\%)} \\
+        \hline
+        \multirow{2}{*}{ATF3} & \multirow{2}{*}{4804} & 13.2877 & 86997 & 24.81 & 
+        \multirow{2}{*}{BACH1} & \multirow{2}{*}{11457} & 13.2877 & 73890 & 7.87 \\ 
+        & & 10.3789 & 691899 & 37.03 & & & 9.0247 & 614421 & 25.7 \\ \hline
+        \multirow{2}{*}{CEBPB} & \multirow{2}{*}{15557} & 13.2877 & 258034 & 28.95 & 
+        \multirow{2}{*}{CTCF} & \multirow{2}{*}{54070} & 13.2877 & 65307 & 47.41 \\ 
+        & & 10.3727 & 1342548 & 62.49 & & & 8.3074 & 565933 & 77.68 \\ \hline
+        \multirow{2}{*}{EGR1} & \multirow{2}{*}{8743} & 13.2877 & 254088 & 42.06 & 
+        \multirow{2}{*}{GABPA} & \multirow{2}{*}{5652} & 13.2877 & 23582 & 24.15 \\ 
+        & & 10.041 & 1060314 & 59.93 & & & 10.3874 & 181503 & 38.32 \\ \hline
+        \multirow{2}{*}{C-jun} & \multirow{2}{*}{2148} & 13.2877 & 149728 & 15.64 & 
+        \multirow{2}{*}{JunD} & \multirow{2}{*}{9550} & 13.2877 & 145422 & 26.1 \\ 
+        & & 8.8895 & 832374 & 30.17 & & & 8.5358 & 717223 & 39.65 \\ \hline
+        \multirow{2}{*}{MAFK} & \multirow{2}{*}{11425} & 13.2877 & 275246 & 46.56 & 
+        \multirow{2}{*}{MAX} & \multirow{2}{*}{11124} & 13.2877 & 215060 & 8.7 \\ 
+        & & 10.0822 & 1221488 & 68.71 & & & 11.1038 & 855374 & 28.14 \\ \hline
+        \multirow{2}{*}{Myc} & \multirow{2}{*}{4551} & 13.2877 & 204957 & 11.01 & 
+        \multirow{2}{*}{NRF1} & \multirow{2}{*}{4513} & 13.2877 & 29820 & 66.76 \\ 
+        & & 11.2326 & 614797 & 25.55 & & & 9.8346 & 137117 & 80.57 \\ \hline
+        \multirow{2}{*}{POU5F1} & \multirow{2}{*}{3994} & 13.2877 & 275838 & 47.97 & 
+        \multirow{2}{*}{RAD21} & \multirow{2}{*}{55674} & 13.2877 & 65307 & 46.04 \\ 
+        & & 9.4834 & 2201678 & 69.15 & & & 8.3074 & 565933 & 76.64 \\ \hline
+        \multirow{2}{*}{REST} & \multirow{2}{*}{13269} & 13.2877 & 26122 & 31.44 & 
+        \multirow{2}{*}{RFX5} & \multirow{2}{*}{1695} & 13.2877 & 131377 & 30.03 \\ 
+        & & 4.5733 & 629168 & 48.56 & & & 10.2372 & 629248 & 41.12 \\ \hline
+        \multirow{2}{*}{RXRA} & \multirow{2}{*}{1306} & 13.2877 & 350121 & 7.12 & 
+        \multirow{2}{*}{SIX5} & \multirow{2}{*}{3422} & 13.2877 & 137900 & 32.09 \\ 
+        & & 10.7089 & 1110004 & 21.13 & & & 9.8891 & 1032447 & 49.09 \\ \hline
+        \multirow{2}{*}{SP1} & \multirow{2}{*}{15103} & 13.2877 & 437639 & 21.55 & 
+        \multirow{2}{*}{SP2} & \multirow{2}{*}{2469} & 13.2877 & 349740 & 30.82 \\ 
+        & & 10.6832 & 1797400 & 35.35 & & & 10.2241 & 1587339 & 50.67 \\ \hline
+        \multirow{2}{*}{SP4} & \multirow{2}{*}{5752} & 13.2877 & 72668 & 14.13 & 
+        \multirow{2}{*}{SRF} & \multirow{2}{*}{5102} & 13.2877 & 152139 & 46.88 \\ 
+        & & 9.4983 & 503235 & 31.54 & & & 9.0972 & 1024023 & 58.19 \\ \hline
+        \multirow{2}{*}{TCF12} & \multirow{2}{*}{7829} & 13.2877 & 246510 & 9.13 & 
+        \multirow{2}{*}{USF1} & \multirow{2}{*}{26028} & 13.2877 & 86997 & 38.6 \\ 
+        & & 11.0653 & 893836 & 24.43 & & & 10.3789 & 691899 & 70.27 \\ \hline
+        \multirow{2}{*}{USF2} & \multirow{2}{*}{6952} & 13.2877 & 135124 & 42.38 & 
+        \multirow{2}{*}{YY1} & \multirow{2}{*}{18310} & 13.2877 & 186685 & 22.89 \\ 
+        & & 10.5847 & 759040 & 64.59 & & & 9.7387 & 1325447 & 35.61 \\ \hline
+        \multirow{2}{*}{ZNF143} & \multirow{2}{*}{30687} & 13.2877 & 137900 & 5.73 & 
+        \multirow{2}{*}{} & \multirow{2}{*}{} & & & \\ 
+        & & 9.8891 & 1032447 & 12.46 & & & & & \\ \hline
+    \end{tabular}
+\end{center}
+\end{table}
+\clearpage
+\begin{table}[t]
+\begin{center}
+\caption{Statistics for HeLaS3 gold standard dataset.}
+\label{tab:HeLaS3.tfbsstats}
+    \renewcommand{\arraystretch}{1.2}
+    \begin{tabular}{ |>{\centering\arraybackslash} m{1.8cm} >{\centering\arraybackslash} m{1.2cm} >{\centering\arraybackslash} m{1.4cm} >{\centering\arraybackslash} m{1.4cm} >{\centering\arraybackslash} m{1.6cm} | >{\centering\arraybackslash} m{1.8cm} >{\centering\arraybackslash} m{1.2cm} >{\centering\arraybackslash} m{1.4cm} >{\centering\arraybackslash} m{1.4cm} >{\centering\arraybackslash} m{1.6cm} | }
+        \hline
+        \textbf{Factor} & \textbf{ChIP-seq Peaks} & \textbf{Bit-score} & \textbf{MPBSs} & \textbf{ChIP+ MPBS(\%)} & \textbf{Factor} & \textbf{ChIP-seq Peaks} & \textbf{Bit-score} & \textbf{MPBSs} & \textbf{ChIP+ MPBS(\%)} \\
+        \hline
+        \multirow{2}{*}{CEBPB} & \multirow{2}{*}{61004} & 13.2877 & 258034 & 19.66 & 
+        \multirow{2}{*}{CTCF} & \multirow{2}{*}{52783} & 13.2877 & 65307 & 46.15 \\ 
+        & & 10.3727 & 1342548 & 43.93 & & & 8.3074 & 565933 & 72.79 \\ \hline
+        \multirow{2}{*}{E2F4} & \multirow{2}{*}{2831} & 13.2877 & 77280 & 31.05 & 
+        \multirow{2}{*}{E2F6} & \multirow{2}{*}{4775} & 13.2877 & 302788 & 16.88 \\ 
+        & & 10.4967 & 173646 & 49.45 & & & 10.7236 & 1051116 & 30.68 \\ \hline
+        \multirow{2}{*}{ELK1} & \multirow{2}{*}{4809} & 13.2877 & -- & --  & 
+        \multirow{2}{*}{C-fos} & \multirow{2}{*}{9325} & 13.2877 & 202911 & 52.75 \\ 
+        & & 10.4554 & 100691 & 39.51 & & & 10.3019 & 762222 & 74.06 \\ \hline
+        \multirow{2}{*}{GABPA} & \multirow{2}{*}{6761} & 13.2877 & 23582 & 27.33 & 
+        \multirow{2}{*}{C-jun} & \multirow{2}{*}{21903} & 13.2877 & 149728 & 5.98 \\ 
+        & & 10.3874 & 181503 & 52.83 & & & 8.8895 & 832374 & 15.15 \\ \hline
+        \multirow{2}{*}{JunD} & \multirow{2}{*}{31633} & 13.2877 & 145422 & 42.73 & 
+        \multirow{2}{*}{MAFK} & \multirow{2}{*}{14185} & 13.2877 & 275246 & 38.87 \\ 
+        & & 8.5358 & 717223 & 67.01 & & & 10.0822 & 1221488 & 61.09 \\ \hline
+        \multirow{2}{*}{MAX} & \multirow{2}{*}{29647} & 13.2877 & 215060 & 2.84 & 
+        \multirow{2}{*}{Myc} & \multirow{2}{*}{10226} & 13.2877 & 204957 & 6.5 \\ 
+        & & 11.1038 & 855374 & 10.83 & & & 11.2326 & 614797 & 16.15 \\ \hline
+        \multirow{2}{*}{NF-YA} & \multirow{2}{*}{5978} & 13.2877 & 79828 & 18.03 & 
+        \multirow{2}{*}{NF-YB} & \multirow{2}{*}{7156} & 13.2877 & 117371 & 33.02 \\ 
+        & & 8.2746 & 428913 & 42.49 & & & 9.6997 & 470725 & 57.95 \\ \hline
+        \multirow{2}{*}{NRF1} & \multirow{2}{*}{2915} & 13.2877 & 29820 & 70.77 & 
+        \multirow{2}{*}{RAD21} & \multirow{2}{*}{43420} & 13.2877 & 65307 & 46.07 \\ 
+        & & 9.8346 & 137117 & 81.27 & & & 8.3074 & 565933 & 70.0 \\ \hline
+        \multirow{2}{*}{REST} & \multirow{2}{*}{10247} & 13.2877 & 26122 & 30.96 & 
+        \multirow{2}{*}{STAT1} & \multirow{2}{*}{16158} & 13.2877 & 256939 & 23.13 \\ 
+        & & 4.5733 & 629168 & 44.15 & & & 9.1862 & 1272026 & 35.09 \\ \hline
+        \multirow{2}{*}{USF2} & \multirow{2}{*}{12306} & 13.2877 & 135124 & 29.09 & 
+        \multirow{2}{*}{ZNF143} & \multirow{2}{*}{7048} & 13.2877 & 137900 & 14.78 \\ 
+        & & 10.5847 & 759040 & 49.59 & & & 9.8891 & 1032447 & 26.53 \\ \hline
+    \end{tabular}
+\end{center}
+\end{table}
+\clearpage
+\begin{table}[t]
+\begin{center}
+\caption{Statistics for HepG2 gold standard dataset.}
+\label{tab:HepG2.tfbsstats}
+    \renewcommand{\arraystretch}{1.2}
+    \begin{tabular}{ |>{\centering\arraybackslash} m{1.8cm} >{\centering\arraybackslash} m{1.2cm} >{\centering\arraybackslash} m{1.4cm} >{\centering\arraybackslash} m{1.4cm} >{\centering\arraybackslash} m{1.6cm} | >{\centering\arraybackslash} m{1.8cm} >{\centering\arraybackslash} m{1.2cm} >{\centering\arraybackslash} m{1.4cm} >{\centering\arraybackslash} m{1.4cm} >{\centering\arraybackslash} m{1.6cm} | }
+        \hline
+        \textbf{Factor} & \textbf{ChIP-seq Peaks} & \textbf{Bit-score} & \textbf{MPBSs} & \textbf{ChIP+ MPBS(\%)} & \textbf{Factor} & \textbf{ChIP-seq Peaks} & \textbf{Bit-score} & \textbf{MPBSs} & \textbf{ChIP+ MPBS(\%)} \\
+        \hline
+        \multirow{2}{*}{BHLHE40} & \multirow{2}{*}{2859} & 13.2877 & 131233 & 22.46 & 
+        \multirow{2}{*}{CEBPB} & \multirow{2}{*}{18114} & 13.2877 & 258034 & 23.47 \\ 
+        & & 10.9358 & 572185 & 41.55 & & & 10.3727 & 1342548 & 56.03 \\ \hline
+        \multirow{2}{*}{CTCF} & \multirow{2}{*}{55733} & 13.2877 & 65307 & 48.62 & 
+        \multirow{2}{*}{ELF1} & \multirow{2}{*}{17998} & 13.2877 & 229645 & 22.62 \\ 
+        & & 8.3074 & 565933 & 79.54 & & & 10.3812 & 1026618 & 48.56 \\ \hline
+        \multirow{2}{*}{GABPA} & \multirow{2}{*}{10105} & 13.2877 & 23582 & 22.18 & 
+        \multirow{2}{*}{C-jun} & \multirow{2}{*}{12669} & 13.2877 & 149728 & 41.57 \\ 
+        & & 10.3874 & 181503 & 46.79 & & & 8.8895 & 832374 & 56.37 \\ \hline
+        \multirow{2}{*}{JunD} & \multirow{2}{*}{21606} & 13.2877 & 145422 & 24.06 & 
+        \multirow{2}{*}{MAFF} & \multirow{2}{*}{37587} & 13.2877 & 195374 & 48.84 \\ 
+        & & 8.5358 & 717223 & 39.35 & & & 9.9826 & 1215808 & 77.92 \\ \hline
+        \multirow{2}{*}{MAFK} & \multirow{2}{*}{61847} & 13.2877 & 275246 & 42.01 & 
+        \multirow{2}{*}{MAX} & \multirow{2}{*}{11852} & 13.2877 & 215060 & 3.81 \\ 
+        & & 10.0822 & 1221488 & 71.65 & & & 11.1038 & 855374 & 17.77 \\ \hline
+        \multirow{2}{*}{Myc} & \multirow{2}{*}{4411} & 13.2877 & 204957 & 10.93 & 
+        \multirow{2}{*}{NRF1} & \multirow{2}{*}{1902} & 13.2877 & 29820 & 80.44 \\ 
+        & & 11.2326 & 614797 & 26.34 & & & 9.8346 & 137117 & 89.33 \\ \hline
+        \multirow{2}{*}{RAD21} & \multirow{2}{*}{54261} & 13.2877 & 65307 & 46.27 & 
+        \multirow{2}{*}{REST} & \multirow{2}{*}{6021} & 13.2877 & 26122 & 35.61 \\ 
+        & & 8.3074 & 565933 & 75.26 & & & 4.5733 & 629168 & 47.35 \\ \hline
+        \multirow{2}{*}{RXRA} & \multirow{2}{*}{17059} & 13.2877 & 350121 & 9.7 & 
+        \multirow{2}{*}{SP1} & \multirow{2}{*}{25465} & 13.2877 & 437639 & 11.16 \\ 
+        & & 10.7089 & 1110004 & 27.26 & & & 10.6832 & 1797400 & 20.86 \\ \hline
+        \multirow{2}{*}{SP2} & \multirow{2}{*}{2626} & 13.2877 & 349740 & 11.42 & 
+        \multirow{2}{*}{SRF} & \multirow{2}{*}{5311} & 13.2877 & 152139 & 33.14 \\ 
+        & & 10.2241 & 1587339 & 21.86 & & & 9.0972 & 1024023 & 50.71 \\ \hline
+        \multirow{2}{*}{USF1} & \multirow{2}{*}{21885} & 13.2877 & 86997 & 36.07 & 
+        \multirow{2}{*}{USF2} & \multirow{2}{*}{6290} & 13.2877 & 135124 & 51.65 \\ 
+        & & 10.3789 & 691899 & 64.93 & & & 10.5847 & 759040 & 73.48 \\ \hline
+        \multirow{2}{*}{YY1} & \multirow{2}{*}{17871} & 13.2877 & 186685 & 13.69 & 
+        \multirow{2}{*}{} & \multirow{2}{*}{} & & & \\ 
+        & & 9.7387 & 1325447 & 22.62 & & & & & \\ \hline
+    \end{tabular}
+\end{center}
+\end{table}
+\clearpage
+\begin{table}[t]
+\begin{center}
+\caption{Statistics for K562 gold standard dataset.}
+\label{tab:K562.tfbsstats}
+    \renewcommand{\arraystretch}{1.2}
+    \begin{tabular}{ |>{\centering\arraybackslash} m{1.8cm} >{\centering\arraybackslash} m{1.2cm} >{\centering\arraybackslash} m{1.4cm} >{\centering\arraybackslash} m{1.4cm} >{\centering\arraybackslash} m{1.6cm} | >{\centering\arraybackslash} m{1.8cm} >{\centering\arraybackslash} m{1.2cm} >{\centering\arraybackslash} m{1.4cm} >{\centering\arraybackslash} m{1.4cm} >{\centering\arraybackslash} m{1.6cm} | }
+        \hline
+        \textbf{Factor} & \textbf{ChIP-seq Peaks} & \textbf{Bit-score} & \textbf{MPBSs} & \textbf{ChIP+ MPBS(\%)} & \textbf{Factor} & \textbf{ChIP-seq Peaks} & \textbf{Bit-score} & \textbf{MPBSs} & \textbf{ChIP+ MPBS(\%)} \\
+        \hline
+        \multirow{2}{*}{ATF1} & \multirow{2}{*}{14864} & 13.2877 & 20325 & 6.53 & 
+        \multirow{2}{*}{ATF3} & \multirow{2}{*}{1233} & 13.2877 & -- & --  \\ 
+        & & 9.3778 & 246442 & 17.6 & & & 10.3578 & 496476 & 13.38 \\ \hline
+        \multirow{2}{*}{BACH1} & \multirow{2}{*}{3806} & 13.2877 & 73890 & 15.74 & 
+        \multirow{2}{*}{BHLHE40} & \multirow{2}{*}{22497} & 13.2877 & 131233 & 13.0 \\ 
+        & & 9.0247 & 614421 & 52.05 & & & 10.9358 & 572185 & 26.51 \\ \hline
+        \multirow{2}{*}{CCNT2} & \multirow{2}{*}{20057} & 13.2877 & 121757 & 6.58 & 
+        \multirow{2}{*}{CEBPB} & \multirow{2}{*}{38715} & 13.2877 & 258034 & 35.61 \\ 
+        & & 9.7947 & 708983 & 11.46 & & & 10.3727 & 1342548 & 64.05 \\ \hline
+        \multirow{2}{*}{CTCF} & \multirow{2}{*}{54387} & 13.2877 & 65307 & 46.13 & 
+        \multirow{2}{*}{CTCFL} & \multirow{2}{*}{11533} & 13.2877 & 65307 & 49.88 \\ 
+        & & 8.3074 & 565933 & 75.62 & & & 8.3074 & 565933 & 77.01 \\ \hline
+        \multirow{2}{*}{E2F4} & \multirow{2}{*}{8181} & 13.2877 & 77280 & 18.62 & 
+        \multirow{2}{*}{E2F6} & \multirow{2}{*}{16312} & 13.2877 & 302788 & 13.55 \\ 
+        & & 10.4967 & 173646 & 34.48 & & & 10.7236 & 1051116 & 26.16 \\ \hline
+        \multirow{2}{*}{eGFP-FOS} & \multirow{2}{*}{10256} & 13.2877 & 202911 & 65.78 & 
+        \multirow{2}{*}{eGFP-GATA2} & \multirow{2}{*}{11478} & 13.2877 & 270225 & 12.83 \\ 
+        & & 10.3019 & 762222 & 85.93 & & & 10.5372 & 1028569 & 33.66 \\ \hline
+        \multirow{2}{*}{EGR1} & \multirow{2}{*}{36997} & 13.2877 & 254088 & 41.29 & 
+        \multirow{2}{*}{eGFP-JunB} & \multirow{2}{*}{12287} & 13.2877 & 210090 & 46.44 \\ 
+        & & 10.041 & 1060314 & 68.08 & & & 10.0929 & 717235 & 63.47 \\ \hline
+        \multirow{2}{*}{eGFP-JunD} & \multirow{2}{*}{26674} & 13.2877 & 145422 & 25.62 & 
+        \multirow{2}{*}{ELF1} & \multirow{2}{*}{27780} & 13.2877 & 229645 & 26.5 \\ 
+        & & 8.5358 & 717223 & 41.4 & & & 10.3812 & 1026618 & 51.62 \\ \hline
+        \multirow{2}{*}{ELK1} & \multirow{2}{*}{2961} & 13.2877 & -- & --  & 
+        \multirow{2}{*}{ETS1} & \multirow{2}{*}{10726} & 13.2877 & 260115 & 5.99 \\ 
+        & & 10.4554 & 100691 & 44.48 & & & 10.332 & 1319961 & 16.24 \\ \hline
+        \multirow{2}{*}{C-fos} & \multirow{2}{*}{7646} & 13.2877 & 202911 & 34.17 & 
+        \multirow{2}{*}{FOSL1} & \multirow{2}{*}{11174} & 13.2877 & 197170 & 63.83 \\ 
+        & & 10.3019 & 762222 & 44.79 & & & 9.4446 & 699220 & 79.36 \\ \hline
+        \multirow{2}{*}{GABPA} & \multirow{2}{*}{14393} & 13.2877 & 23582 & 17.54 & 
+        \multirow{2}{*}{GATA1} & \multirow{2}{*}{4074} & 13.2877 & 255049 & 21.13 \\ 
+        & & 10.3874 & 181503 & 37.61 & & & 10.4359 & 1040470 & 47.32 \\ \hline
+        \multirow{2}{*}{GATA2} & \multirow{2}{*}{10648} & 13.2877 & 270225 & 14.68 & 
+        \multirow{2}{*}{IRF1} & \multirow{2}{*}{8352} & 13.2877 & 1199156 & 35.6 \\ 
+        & & 10.5372 & 1028569 & 40.2 & & & 7.4658 & 2330047 & 39.22 \\ \hline
+        \multirow{2}{*}{C-jun} & \multirow{2}{*}{9848} & 13.2877 & 149728 & 9.56 & 
+        \multirow{2}{*}{JunD} & \multirow{2}{*}{40052} & 13.2877 & 145422 & 23.38 \\ 
+        & & 8.8895 & 832374 & 21.86 & & & 8.5358 & 717223 & 38.47 \\ \hline
+        \multirow{2}{*}{MAFF} & \multirow{2}{*}{25074} & 13.2877 & 195374 & 45.78 & 
+        \multirow{2}{*}{MAFK} & \multirow{2}{*}{19317} & 13.2877 & 275246 & 41.64 \\ 
+        & & 9.9826 & 1215808 & 69.51 & & & 10.0822 & 1221488 & 64.33 \\ \hline
+        \multirow{2}{*}{MAX} & \multirow{2}{*}{31436} & 13.2877 & 215060 & 3.8 & 
+        \multirow{2}{*}{MEF2A} & \multirow{2}{*}{5631} & 13.2877 & 820713 & 30.35 \\ 
+        & & 11.1038 & 855374 & 15.18 & & & 9.4253 & 3210613 & 47.38 \\ \hline
+        \multirow{2}{*}{Myc} & \multirow{2}{*}{5023} & 13.2877 & 204957 & 11.15 & 
+        \multirow{2}{*}{NF-E2} & \multirow{2}{*}{2637} & 13.2877 & 75390 & 69.09 \\ 
+        & & 11.2326 & 614797 & 26.16 & & & 7.5338 & 796063 & 82.56 \\ \hline
+        \multirow{2}{*}{NF-YA} & \multirow{2}{*}{4286} & 13.2877 & 79828 & 33.04 & 
+        \multirow{2}{*}{NF-YB} & \multirow{2}{*}{10096} & 13.2877 & 117371 & 53.79 \\ 
+        & & 8.2746 & 428913 & 64.72 & & & 9.6997 & 470725 & 77.19 \\ \hline
+        \multirow{2}{*}{NR2F2} & \multirow{2}{*}{16678} & 13.2877 & 140437 & 5.87 & 
+        \multirow{2}{*}{NRF1} & \multirow{2}{*}{4211} & 13.2877 & 29820 & 59.18 \\ 
+        & & 10.0106 & 626663 & 17.85 & & & 9.8346 & 137117 & 73.95 \\ \hline
+        \multirow{2}{*}{PU.1} & \multirow{2}{*}{28677} & 13.2877 & 432751 & 63.31 & 
+        \multirow{2}{*}{RAD21} & \multirow{2}{*}{17627} & 13.2877 & 65307 & 69.65 \\ 
+        & & 9.9922 & 2040890 & 85.99 & & & 8.3074 & 565933 & 92.01 \\ \hline
+        \multirow{2}{*}{REST} & \multirow{2}{*}{15849} & 13.2877 & 26122 & 17.33 & 
+        \multirow{2}{*}{RFX5} & \multirow{2}{*}{2201} & 13.2877 & 131377 & 13.86 \\ 
+        & & 4.5733 & 629168 & 26.46 & & & 10.2372 & 629248 & 21.58 \\ \hline
+        \multirow{2}{*}{SIX5} & \multirow{2}{*}{4194} & 13.2877 & 137900 & 23.56 & 
+        \multirow{2}{*}{SMC3} & \multirow{2}{*}{23598} & 13.2877 & 65307 & 65.28 \\ 
+        & & 9.8891 & 1032447 & 37.08 & & & 8.3074 & 565933 & 87.97 \\ \hline
+        \multirow{2}{*}{SP1} & \multirow{2}{*}{7206} & 13.2877 & 437639 & 29.07 & 
+        \multirow{2}{*}{SP2} & \multirow{2}{*}{3124} & 13.2877 & 349740 & 35.53 \\ 
+        & & 10.6832 & 1797400 & 45.49 & & & 10.2241 & 1587339 & 55.95 \\ \hline
+        \multirow{2}{*}{SRF} & \multirow{2}{*}{4717} & 13.2877 & 152139 & 22.01 & 
+        \multirow{2}{*}{STAT1} & \multirow{2}{*}{1476} & 13.2877 & 256939 & 5.96 \\ 
+        & & 9.0972 & 1024023 & 31.27 & & & 9.1862 & 1272026 & 13.89 \\ \hline
+        \multirow{2}{*}{STAT2} & \multirow{2}{*}{1923} & 13.2877 & 370218 & 46.65 & 
+        \multirow{2}{*}{STAT5A} & \multirow{2}{*}{9811} & 13.2877 & 339560 & 15.34 \\ 
+        & & 8.3974 & 3077582 & 58.92 & & & 10.4537 & 1292097 & 20.75 \\ \hline
+        \multirow{2}{*}{TAL1} & \multirow{2}{*}{26260} & 13.2877 & 121757 & 23.22 & 
+        \multirow{2}{*}{TR4} & \multirow{2}{*}{587} & 13.2877 & 101864 & 22.15 \\ 
+        & & 9.7947 & 708983 & 43.25 & & & 8.8 & 825980 & 28.96 \\ \hline
+        \multirow{2}{*}{USF1} & \multirow{2}{*}{18521} & 13.2877 & 86997 & 36.68 & 
+        \multirow{2}{*}{USF2} & \multirow{2}{*}{3083} & 13.2877 & 135124 & 52.55 \\ 
+        & & 10.3789 & 691899 & 64.62 & & & 10.5847 & 759040 & 73.79 \\ \hline
+        \multirow{2}{*}{YY1} & \multirow{2}{*}{4948} & 13.2877 & 186685 & 46.28 & 
+        \multirow{2}{*}{ZBTB33} & \multirow{2}{*}{3285} & 13.2877 & 12582 & 29.01 \\ 
+        & & 9.7387 & 1325447 & 61.34 & & & 9.7537 & 82928 & 44.29 \\ \hline
+        \multirow{2}{*}{ZNF143} & \multirow{2}{*}{29069} & 13.2877 & 137900 & 5.9 & 
+        \multirow{2}{*}{ZNF263} & \multirow{2}{*}{3081} & 13.2877 & 2324743 & 35.18 \\ 
+        & & 9.8891 & 1032447 & 12.55 & & & 9.1216 & 2577084 & 36.19 \\ \hline
+    \end{tabular}
+\end{center}
+\end{table}
+\clearpage
+
+\end{document}

@@ -1,0 +1,37 @@
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 22746701: <Mcf7_ER_5min_ROCS> in cluster <rcc> Done
+
+Job <Mcf7_ER_5min_ROCS> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Graphics/Pipeline> was used as the working directory.
+Started at Thu Jul  2 07:36:37 2015
+Results reported on Thu Jul  2 07:40:42 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./rocFromBedSBSC_pipeline.zsh ER_5min SC,SC,SC,SB,SB,SB PWM,TC_DU,FOS_DU,HMMD_DU,HMMD_DU_BIAS,HMMD_DU_NAKED /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/Mcf7_Evidence/fdr_4.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/Mcf7/TagCount_DU.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/Mcf7/FOS_DU.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/Mcf7/HMM_DNase_DU_ModelMcf7_5.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/Mcf7/HMM_DNase_DU_BIAS_ModelMcf7_5.bed,/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results_TC/Mcf7/HMM_DNase_DU_NAKED_ModelMcf7_5.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/ROC_NM3/Mcf7/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   228.23 sec.
+    Max Memory :                                 2085 MB
+    Average Memory :                             1372.50 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               9915.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <Mcf7_ER_5min_ROCS_err.txt> for stderr output of this job.
+

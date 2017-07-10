@@ -1,0 +1,37 @@
+Sender: LSF System <lsfadmin@linuxnc092>
+Subject: Job 21664336: <DU_Mcf7_bias_AMSD> in cluster <rcc> Done
+
+Job <DU_Mcf7_bias_AMSD> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxnc092>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Footprint/Pipeline> was used as the working directory.
+Started at Thu May 21 18:33:59 2015
+Results reported on Fri May 22 11:55:00 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyMultiHMMScikitDNase_pipeline.zsh /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/HMM/InputRegions/DU_Mcf7/dnase_HS_regions.bed /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/HMM/Models_DNase/Mcf7/Model/bias.hmm /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/NormSlopeBias/DU_Mcf7/DNaseBiasCorrected_norm.bw,/hpcwork/izkf/projects/TfbsPrediction/Results/Signals/NormSlopeBias/DU_Mcf7/DNaseBiasCorrected_slope.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/Mcf7/HMM_DNase_DU_BIAS/DNase_ModelMcf7.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   63197.99 sec.
+    Max Memory :                                 2492 MB
+    Average Memory :                             1321.64 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               9508.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <DU_Mcf7_bias_AMSD_err.txt> for stderr output of this job.
+

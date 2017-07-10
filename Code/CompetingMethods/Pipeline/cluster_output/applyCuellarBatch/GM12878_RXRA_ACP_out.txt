@@ -1,0 +1,37 @@
+Sender: LSF System <lsfadmin@linuxbmc1027>
+Subject: Job 24740988: <GM12878_RXRA_ACP> in cluster <rcc> Done
+
+Job <GM12878_RXRA_ACP> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc1027>, in queue <low>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Fri Nov  6 22:09:35 2015
+Results reported on Sat Nov  7 01:09:07 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyCuellarHs_pipeline.zsh RXRA 0.00001 /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/HMM/InputRegions/DU_GM12878/hd.bed /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/ExpressionValidation/MPBS/MEME/RXRA.meme /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/DU_GM12878/Cuellar/DNase_prior.bw /hpcwork/izkf/projects/TfbsPrediction/Data/HG19/ /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/GM12878/Cuellar_batch/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   11128.15 sec.
+    Max Memory :                                 2145 MB
+    Average Memory :                             1175.23 MB
+    Total Requested Memory :                     8192.00 MB
+    Delta Memory :                               6047.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <GM12878_RXRA_ACP_err.txt> for stderr output of this job.
+

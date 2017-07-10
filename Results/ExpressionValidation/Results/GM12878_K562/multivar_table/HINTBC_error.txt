@@ -1,0 +1,2 @@
+METHOD	protection	tc	fos	flr
+HINTBC	14	40	6	12

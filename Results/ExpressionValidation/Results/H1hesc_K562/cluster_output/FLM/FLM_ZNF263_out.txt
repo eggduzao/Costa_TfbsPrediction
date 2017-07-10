@@ -1,0 +1,37 @@
+Sender: LSF System <lsfadmin@linuxbsc004>
+Subject: Job 25009059: <FLM_ZNF263> in cluster <rcc> Done
+
+Job <FLM_ZNF263> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbsc004>, in queue <low>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/ExpressionValidation/Results/H1hesc_K562> was used as the working directory.
+Started at Fri Nov 20 04:15:18 2015
+Results reported on Fri Nov 20 04:29:58 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./filterMetrics_pipeline.zsh /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/ExpressionValidation/Validation/distribution/ZNF263.txt
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   873.66 sec.
+    Max Memory :                                 16965 MB
+    Average Memory :                             12924.55 MB
+    Total Requested Memory :                     24000.00 MB
+    Delta Memory :                               7035.00 MB
+    Max Processes :                              5
+    Max Threads :                                6
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <FLM_ZNF263_err.txt> for stderr output of this job.
+

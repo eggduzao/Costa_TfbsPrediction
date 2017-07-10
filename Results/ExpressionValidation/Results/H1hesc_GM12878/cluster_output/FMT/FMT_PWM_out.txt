@@ -1,0 +1,37 @@
+Sender: LSF System <lsfadmin@linuxbsc013>
+Subject: Job 25009092: <FMT_PWM> in cluster <rcc> Done
+
+Job <FMT_PWM> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbsc013>, in queue <low>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/ExpressionValidation/Results/H1hesc_GM12878> was used as the working directory.
+Started at Fri Nov 20 04:38:27 2015
+Results reported on Fri Nov 20 06:18:50 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./fetchMultivarTable_pipeline.zsh PWM /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/ExpressionValidation/Results/H1hesc_GM12878/multivar_table/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   6032.97 sec.
+    Max Memory :                                 15088 MB
+    Average Memory :                             7762.67 MB
+    Total Requested Memory :                     24000.00 MB
+    Delta Memory :                               8912.00 MB
+    Max Processes :                              5
+    Max Threads :                                6
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <FMT_PWM_err.txt> for stderr output of this job.
+

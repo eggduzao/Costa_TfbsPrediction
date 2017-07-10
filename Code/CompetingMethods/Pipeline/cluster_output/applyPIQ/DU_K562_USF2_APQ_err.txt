@@ -1,0 +1,14 @@
+Bioconductor version 3.1 (BiocInstaller 1.18.3), ?biocLite for help
+Bioconductor version 3.1 (BiocInstaller 1.18.3), ?biocLite for help
+Bioconductor version 3.1 (BiocInstaller 1.18.3), ?biocLite for help
+Bioconductor version 3.1 (BiocInstaller 1.18.3), ?biocLite for help
+Warning message:
+In dir.create(paste0(tmpdir, "/", pwmid), recursive = T) :
+  '/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/temp_USF2//53' already exists
+Bioconductor version 3.1 (BiocInstaller 1.18.3), ?biocLite for help
+Bioconductor version 3.1 (BiocInstaller 1.18.3), ?biocLite for help
+Bioconductor version 3.1 (BiocInstaller 1.18.3), ?biocLite for help
+Bioconductor version 3.1 (BiocInstaller 1.18.3), ?biocLite for help
+Warning message:
+In dir.create(paste0(tmpdir, "/", pwmid), recursive = T) :
+  '/hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/K562/PIQ_DU/temp_USF2//53' already exists

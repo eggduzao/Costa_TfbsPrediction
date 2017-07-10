@@ -1,0 +1,37 @@
+Sender: LSF System <lsfadmin@linuxbmc0016>
+Subject: Job 25009104: <FMT_Dnase2Tf> in cluster <rcc> Done
+
+Job <FMT_Dnase2Tf> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc0016>, in queue <low>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/ExpressionValidation/Results/H1hesc_K562> was used as the working directory.
+Started at Fri Nov 20 05:19:12 2015
+Results reported on Fri Nov 20 06:31:38 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./fetchMultivarTable_pipeline.zsh Dnase2Tf /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/ExpressionValidation/Results/H1hesc_K562/multivar_table/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   4351.69 sec.
+    Max Memory :                                 1935 MB
+    Average Memory :                             1287.65 MB
+    Total Requested Memory :                     24000.00 MB
+    Delta Memory :                               22065.00 MB
+    Max Processes :                              5
+    Max Threads :                                6
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <FMT_Dnase2Tf_err.txt> for stderr output of this job.
+

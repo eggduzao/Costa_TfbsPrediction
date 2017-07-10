@@ -1,0 +1,37 @@
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 24728664: <DU_GM12878_TP53_AFM2B> in cluster <rcc> Done
+
+Job <DU_GM12878_TP53_AFM2B> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Thu Nov  5 01:29:54 2015
+Results reported on Thu Nov  5 01:30:28 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyFootprintMixture2_pipeline.zsh /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/All/fdr_4_inside_HS/TP53.bed /hpcwork/izkf/projects/TfbsPrediction/Data/DNase_DU/GM12878/DNasePeaks.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/DU_GM12878/FootprintMixture_batch/TP53_CUT.txt /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/DU_GM12878/FootprintMixture_batch/TP53_SEQ.fa /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Results/GM12878/FLR_batch/TP53.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   30.63 sec.
+    Max Memory :                                 272 MB
+    Average Memory :                             5.50 MB
+    Total Requested Memory :                     24000.00 MB
+    Delta Memory :                               23728.00 MB
+    Max Processes :                              1
+    Max Threads :                                1
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <DU_GM12878_TP53_AFM2B_err.txt> for stderr output of this job.
+

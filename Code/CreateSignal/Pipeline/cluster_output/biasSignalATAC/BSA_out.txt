@@ -1,0 +1,74 @@
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 23818495: <BSA> in cluster <rcc> Done
+
+Job <BSA> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CreateSignal/Pipeline> was used as the working directory.
+Started at Thu Sep  3 18:09:37 2015
+Results reported on Thu Sep  3 19:42:09 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./biasSignalATAC_pipeline.zsh 4,-5,0,1 /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/ATAC/KmerBias/KmerResults/Tables/HS/K562_8_F.txt /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/ATAC/KmerBias/KmerResults/Tables/HS/K562_8_R.txt /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/ATAC/HMM/InputRegions/K562/ATAC_HS_Extended.bed /hpcwork/izkf/projects/TfbsPrediction/Data/ATAC/K562/ATAC.bam /hpcwork/izkf/projects/TfbsPrediction/Data/HG19/hg19.fa /hpcwork/izkf/projects/TfbsPrediction/Data/HG19/hg19.chrom.sizes.filtered /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/ATAC/Bias/K562/ATACBiasCorrected.wig
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   5576.24 sec.
+    Max Memory :                                 7658 MB
+    Average Memory :                             3394.39 MB
+    Total Requested Memory :                     40000.00 MB
+    Delta Memory :                               32342.00 MB
+    Max Processes :                              7
+    Max Threads :                                8
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <BSA_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 23818496: <BSA> in cluster <rcc> Done
+
+Job <BSA> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CreateSignal/Pipeline> was used as the working directory.
+Started at Thu Sep  3 18:09:37 2015
+Results reported on Thu Sep  3 19:42:39 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./biasSignalATAC_pipeline.zsh 0,0,0,9 /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/ATAC/KmerBias/KmerResults/Tables/HS/K562_8_F.txt /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/ATAC/KmerBias/KmerResults/Tables/HS/K562_8_R.txt /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/ATAC/HMM/InputRegions/K562/ATAC_HS_Extended.bed /hpcwork/izkf/projects/TfbsPrediction/Data/ATAC/K562/ATAC.bam /hpcwork/izkf/projects/TfbsPrediction/Data/HG19/hg19.fa /hpcwork/izkf/projects/TfbsPrediction/Data/HG19/hg19.chrom.sizes.filtered /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/ATAC/Bias/K562/ATACBOBiasCorrected.wig
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   5598.52 sec.
+    Max Memory :                                 3811 MB
+    Average Memory :                             1610.75 MB
+    Total Requested Memory :                     40000.00 MB
+    Delta Memory :                               36189.00 MB
+    Max Processes :                              7
+    Max Threads :                                8
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <BSA_err.txt> for stderr output of this job.
+

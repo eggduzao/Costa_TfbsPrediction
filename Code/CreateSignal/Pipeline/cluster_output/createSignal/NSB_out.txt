@@ -1,0 +1,148 @@
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 21651327: <NSB> in cluster <rcc> Done
+
+Job <NSB> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CreateSignal/Pipeline> was used as the working directory.
+Started at Wed May 20 17:35:08 2015
+Results reported on Wed May 20 22:00:50 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./createSignal_pipeline.zsh 9 98 98 /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/HMM/InputRegions/UW_m3134_with_DEX/hd.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Bias/UW_m3134_with_DEX/DNaseBiasCorrected.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/NormSlopeBias/UW_m3134_with_DEX/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   16237.04 sec.
+    Max Memory :                                 14253 MB
+    Average Memory :                             3029.92 MB
+    Total Requested Memory :                     60000.00 MB
+    Delta Memory :                               45747.00 MB
+    Max Processes :                              7
+    Max Threads :                                8
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <NSB_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 21651328: <NSB> in cluster <rcc> Done
+
+Job <NSB> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CreateSignal/Pipeline> was used as the working directory.
+Started at Wed May 20 17:35:08 2015
+Results reported on Wed May 20 22:02:28 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./createSignal_pipeline.zsh 9 98 98 /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/HMM/InputRegions/UW_m3134_wo_DEX/hd.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Bias/UW_m3134_wo_DEX/DNaseBiasCorrected.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/NormSlopeBias/UW_m3134_wo_DEX/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   16393.98 sec.
+    Max Memory :                                 14412 MB
+    Average Memory :                             3046.64 MB
+    Total Requested Memory :                     60000.00 MB
+    Delta Memory :                               45588.00 MB
+    Max Processes :                              7
+    Max Threads :                                8
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <NSB_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 21651326: <NSB> in cluster <rcc> Done
+
+Job <NSB> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CreateSignal/Pipeline> was used as the working directory.
+Started at Wed May 20 17:35:08 2015
+Results reported on Wed May 20 22:21:38 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./createSignal_pipeline.zsh 9 98 98 /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/HMM/InputRegions/UW_LnCaP/hd.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Bias/UW_LnCaP/DNaseBiasCorrected.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/NormSlopeBias/UW_LnCaP/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   17534.52 sec.
+    Max Memory :                                 7471 MB
+    Average Memory :                             3168.74 MB
+    Total Requested Memory :                     60000.00 MB
+    Delta Memory :                               52529.00 MB
+    Max Processes :                              7
+    Max Threads :                                8
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <NSB_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 21651324: <NSB> in cluster <rcc> Done
+
+Job <NSB> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CreateSignal/Pipeline> was used as the working directory.
+Started at Wed May 20 17:35:08 2015
+Results reported on Thu May 21 00:00:05 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./createSignal_pipeline.zsh 9 98 98 /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/HMM/InputRegions/DU_Mcf7/hd.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Bias/DU_Mcf7/DNaseBiasCorrected.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/NormSlopeBias/DU_Mcf7/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   23569.17 sec.
+    Max Memory :                                 10175 MB
+    Average Memory :                             5040.46 MB
+    Total Requested Memory :                     60000.00 MB
+    Delta Memory :                               49825.00 MB
+    Max Processes :                              7
+    Max Threads :                                8
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <NSB_err.txt> for stderr output of this job.
+

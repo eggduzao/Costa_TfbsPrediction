@@ -1,0 +1,148 @@
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 21637543: <EP> in cluster <rcc> Done
+
+Job <EP> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/StatisticalTests/TFSpecificBias> was used as the working directory.
+Started at Tue May 19 19:12:39 2015
+Results reported on Tue May 19 19:13:50 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./evaluatePearson_pipeline.zsh /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/StatisticalTests/KmerBias/KmerTable/HS/DNaseUW_m3134_with_DEX_6_F.txt /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/StatisticalTests/KmerBias/KmerTable/HS/DNaseUW_m3134_with_DEX_6_R.txt /hpcwork/izkf/projects/TfbsPrediction/Data/DNaseUW/m3134_with_DEX/DNase.bam /hpcwork/izkf/projects/TfbsPrediction/Data/MM9/mm9.fa /hpcwork/izkf/projects/TfbsPrediction/Data/MM9/mm9.chrom.sizes /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/m3134_Evidence/fdr_4/ /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/StatisticalTests/TFSpecificBias/Pearson/UW_m3134_with_DEX/ /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/StatisticalTests/TFSpecificBias/Pearson/UW_m3134_with_DEX/PWM/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   38.51 sec.
+    Max Memory :                                 283 MB
+    Average Memory :                             20.50 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11717.00 MB
+    Max Processes :                              5
+    Max Threads :                                6
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EP_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 21637542: <EP> in cluster <rcc> Done
+
+Job <EP> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/StatisticalTests/TFSpecificBias> was used as the working directory.
+Started at Tue May 19 19:12:39 2015
+Results reported on Tue May 19 19:14:04 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./evaluatePearson_pipeline.zsh /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/StatisticalTests/KmerBias/KmerTable/HS/DNaseUW_LnCaP_6_F.txt /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/StatisticalTests/KmerBias/KmerTable/HS/DNaseUW_LnCaP_6_R.txt /hpcwork/izkf/projects/TfbsPrediction/Data/DNaseUW/LnCaP/DNase.bam /hpcwork/izkf/projects/TfbsPrediction/Data/HG19/hg19.fa /hpcwork/izkf/projects/TfbsPrediction/Data/HG19/hg19.chrom.sizes.filtered /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/LnCaP_Evidence/fdr_4/ /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/StatisticalTests/TFSpecificBias/Pearson/UW_LnCaP/ /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/StatisticalTests/TFSpecificBias/Pearson/UW_LnCaP/PWM/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   51.28 sec.
+    Max Memory :                                 1265 MB
+    Average Memory :                             530.50 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               10735.00 MB
+    Max Processes :                              5
+    Max Threads :                                6
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EP_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 21637540: <EP> in cluster <rcc> Done
+
+Job <EP> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/StatisticalTests/TFSpecificBias> was used as the working directory.
+Started at Tue May 19 19:12:39 2015
+Results reported on Tue May 19 19:14:05 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./evaluatePearson_pipeline.zsh /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/StatisticalTests/KmerBias/KmerTable/HS/DNase_Mcf7_6_F.txt /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/StatisticalTests/KmerBias/KmerTable/HS/DNase_Mcf7_6_R.txt /hpcwork/izkf/projects/TfbsPrediction/Data/DNase/Mcf7/DNase.bam /hpcwork/izkf/projects/TfbsPrediction/Data/HG19/hg19.fa /hpcwork/izkf/projects/TfbsPrediction/Data/HG19/hg19.chrom.sizes.filtered /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/Mcf7_Evidence/fdr_4/ /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/StatisticalTests/TFSpecificBias/Pearson/DU_Mcf7/ /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/StatisticalTests/TFSpecificBias/Pearson/DU_Mcf7/PWM/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   60.71 sec.
+    Max Memory :                                 426 MB
+    Average Memory :                             211.50 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11574.00 MB
+    Max Processes :                              5
+    Max Threads :                                6
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EP_err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 21637544: <EP> in cluster <rcc> Done
+
+Job <EP> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/StatisticalTests/TFSpecificBias> was used as the working directory.
+Started at Tue May 19 19:14:10 2015
+Results reported on Tue May 19 19:15:37 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./evaluatePearson_pipeline.zsh /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/StatisticalTests/KmerBias/KmerTable/HS/DNaseUW_m3134_wo_DEX_6_F.txt /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/StatisticalTests/KmerBias/KmerTable/HS/DNaseUW_m3134_wo_DEX_6_R.txt /hpcwork/izkf/projects/TfbsPrediction/Data/DNaseUW/m3134_wo_DEX/DNase.bam /hpcwork/izkf/projects/TfbsPrediction/Data/MM9/mm9.fa /hpcwork/izkf/projects/TfbsPrediction/Data/MM9/mm9.chrom.sizes /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/m3134_Evidence/fdr_4/ /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/StatisticalTests/TFSpecificBias/Pearson/UW_m3134_wo_DEX/ /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/StatisticalTests/TFSpecificBias/Pearson/UW_m3134_wo_DEX/PWM/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   47.07 sec.
+    Max Memory :                                 3648 MB
+    Average Memory :                             1908.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               8352.00 MB
+    Max Processes :                              5
+    Max Threads :                                6
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <EP_err.txt> for stderr output of this job.
+

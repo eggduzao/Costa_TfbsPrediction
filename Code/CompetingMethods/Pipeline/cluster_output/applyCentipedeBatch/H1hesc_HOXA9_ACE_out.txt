@@ -1,0 +1,37 @@
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 24454564: <H1hesc_HOXA9_ACE> in cluster <rcc> Done
+
+Job <H1hesc_HOXA9_ACE> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/CompetingMethods/Pipeline> was used as the working directory.
+Started at Wed Oct 21 20:34:30 2015
+Results reported on Wed Oct 21 20:35:01 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyCentipede_pipeline.zsh HOXA9 /hpcwork/izkf/projects/TfbsPrediction/Results/MPBSAWG/All/fdr_4_inside_HS/HOXA9.bed /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/DU_H1hesc/Centipede_batch/HOXA9_PRIOR.txt /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/Counts/DU_H1hesc/Centipede_batch/HOXA9_DNASE.txt /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions/H1hesc/Centipede_batch/HOXA9.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   18.42 sec.
+    Max Memory :                                 286 MB
+    Average Memory :                             9.50 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11714.00 MB
+    Max Processes :                              1
+    Max Threads :                                1
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <H1hesc_HOXA9_ACE_err.txt> for stderr output of this job.
+

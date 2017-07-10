@@ -1,0 +1,2 @@
+METHOD	protection	tc	fos	flr
+Wellington	31	50	38	37

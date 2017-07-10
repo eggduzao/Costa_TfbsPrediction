@@ -1,0 +1,37 @@
+Sender: LSF System <lsfadmin@linuxbmc1006>
+Subject: Job 21664345: <DU_HeLaS3_naked_AMSD> in cluster <rcc> Done
+
+Job <DU_HeLaS3_naked_AMSD> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbmc1006>, in queue <normal>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Code/Footprint/Pipeline> was used as the working directory.
+Started at Thu May 21 18:51:18 2015
+Results reported on Fri May 22 10:41:03 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./applyMultiHMMScikitDNase_pipeline.zsh /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/HMM/InputRegions/DU_HeLaS3/dnase_HS_regions.bed /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/HMM/Models_DNase/HeLaS3/Model/naked.hmm /hpcwork/izkf/projects/TfbsPrediction/Results/Signals/NormSlopeBiasNaked/DU_HeLaS3/DNaseBiasCorrected_norm.bw,/hpcwork/izkf/projects/TfbsPrediction/Results/Signals/NormSlopeBiasNaked/DU_HeLaS3/DNaseBiasCorrected_slope.bw /hpcwork/izkf/projects/TfbsPrediction/Results/Footprints/Predictions_NM/HeLaS3/HMM_DNase_DU_NAKED/DNase_ModelHeLaS3.bed
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   57562.32 sec.
+    Max Memory :                                 3607 MB
+    Average Memory :                             1906.17 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               8393.00 MB
+    Max Processes :                              6
+    Max Threads :                                7
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <DU_HeLaS3_naked_AMSD_err.txt> for stderr output of this job.
+

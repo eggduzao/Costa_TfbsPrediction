@@ -1,0 +1,37 @@
+Sender: LSF System <lsfadmin@linuxbsc002>
+Subject: Job 24990467: <FLM_MEIS1> in cluster <rcc> Done
+
+Job <FLM_MEIS1> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxbsc002>, in queue <low>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/ExpressionValidation/Results/GM12878_K562> was used as the working directory.
+Started at Wed Nov 18 21:43:11 2015
+Results reported on Wed Nov 18 21:45:03 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./filterMetrics_pipeline.zsh /work/eg474423/eg474423_Projects/trunk/TfbsPrediction/Results/ExpressionValidation/Validation/distribution/MEIS1.txt
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   100.37 sec.
+    Max Memory :                                 2837 MB
+    Average Memory :                             1273.25 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               9163.00 MB
+    Max Processes :                              13
+    Max Threads :                                14
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <FLM_MEIS1_err.txt> for stderr output of this job.
+
