@@ -1,0 +1,137 @@
+
+#################################################
+# Total number of experiments
+#################################################
+
+Dataset		Cells	DNase-seq	TFs(ChIP-seq)	Methods
+He_Replication	1	1		36		6
+Benchmarking	2	2		88*		6
+Full		13	13**		144*+		14
+
+* Removed: P300, TBP, AR(1nm, 10nm), GR(woDEX), ER(0m, 2m, 5m, 10m), P53
+** Removed: m3134_wo_DEX
++ The complete set with overlap is 233 TFs
+
+#################################################
+# Cell Nomenclature
+#################################################
+
+File_Names	Corrected_Names
+H1hesc		H1-hESC
+H7hesc		H7-hESC
+HeLaS3		HeLa-S3
+HepG2		HepG2
+Huvec		Huvec
+K562		K562
+Mcf7		MCF-7
+Saos2		Saos-2
+LnCaP		LNCaP
+m3134_with_DEX	m3134
+IMR90		IMR90
+
+#################################################
+# Method Nomenclature
+#################################################
+
+File_Names	Corrected_Names
+PWM		PWM
+Cuellar		Cuellar
+Pique		Centipede
+Neph		Neph
+Boyle		Boyle
+TC		TC
+FOS		FS
+HINT		HINT
+HINT_BC		HINT-BC
+HINT_BCN	HINT-BCN
+Hager		DNase2TF
+Ohler		FLR
+Gifford		PIQ
+Ott		Wellington
+
+#################################################
+# TF Nomenclature
+#################################################
+
+File_Names	Corrected_Names
+ARID3A		ARID3A
+ATF1		ATF1
+ATF3		ATF3
+BACH1		BACH1
+BHLHE40		BHLHE40
+BRCA1		BRCA1
+CCNT2		CCNT2
+CEBPB		CEBPB
+CTCF		CTCF
+CTCFL		CTCFL
+E2F4		E2F4
+E2F6		E2F6
+EFOS		eGFP-FOS
+EGATA		eGFP-GATA2
+EGR1		EGR1
+EJUNB		eGFP-JunB
+EJUND		eGFP-JunD
+ELF1		ELF1
+ELK1		ELK1
+ETS1		ETS1
+FOS		C-fos
+FOSL1		FOSL1
+GABP		GABPA
+GATA1		GATA1
+GATA2		GATA2
+IRF1		IRF1
+JUN		C-jun
+JUND		JunD
+MAFF		MAFF
+MAFK		MAFK
+MAX		MAX
+MEF2A		MEF2A
+MYC		Myc
+NFE2		NF-E2
+NFYA		NF-YA
+NFYB		NF-YB
+NR2F2		NR2F2
+NRF1		NRF1
+P300		p300
+POU5F1		POU5F1
+PU1		PU.1
+RAD21		RAD21
+REST		REST
+RFX5		RFX5
+RXRA		RXRA
+SIX5		SIX5
+SMC3		SMC3
+SP1		SP1
+SP2		SP2
+SP4		SP4
+SRF		SRF
+STAT1		STAT1
+STAT2		STAT2
+STAT5A		STAT5A
+TAL1		TAL1
+TBP		TBP
+TCF12		TCF12
+THAP1		THAP1
+TR4		TR4
+USF1		USF1
+USF2		USF2
+YY1		YY1
+ZBTB7A		ZBTB7A
+ZBTB33		ZBTB33
+ZNF143		ZNF143
+ZNF263		ZNF263
+AR_1nmR		AR(1nmR)
+AR_10nmR	AR(10nmR)
+AR_ethl		AR(ethl)
+AR_R1881	AR(R1881)
+GR_withDEX	GR(withDEX)
+GR_woDEX	GR(woDEX)
+P53		P53
+ER_0min		ER(0m)
+ER_2min		ER(2m)
+ER_5min		ER(5m)
+ER_10min	ER(10m)
+ER_40min	ER(40m)
+ER_160min	ER(160m)
+
+

@@ -1,0 +1,67 @@
+\documentclass[landscape, 8pt]{report}
+\usepackage[landscape]{geometry}
+\usepackage{rotating}
+\usepackage{multirow}
+\begin{document}
+
+\begin{table}[h!]
+\label{tab:ranking}
+\vspace{0.0cm}
+\begin{center}
+\caption{Friedman ranking. For each metric, the methods are displayed in decreasing order with their respective Friedman ranking.}
+\renewcommand{\arraystretch}{1.2}
+  \begin{tabular}{ |lr| }
+    \hline
+    \multicolumn{2}{|c|}{\textbf{AUC}} \\
+    \hline
+    HINT-BC & 1.3409 \\
+    HINT-BCN & 2.0682 \\
+    HINT & 3.6023 \\
+    DNase2TF & 4.0682 \\
+    PIQ & 5.6932 \\
+    Wellington & 6.3068 \\
+    Neph & 6.9091 \\
+    Boyle & 7.6477 \\
+    FLR & 9.3807 \\
+    Centipede & 9.7045 \\
+    Cuellar & 10.6761 \\
+    TC & 11.1705 \\
+    PWM & 12.7273 \\
+    FS & 13.7045 \\
+    \hline
+  \end{tabular}
+\end{center}
+\vspace{0.0cm}
+\end{table}
+
+\begin{table}[h!]
+\label{tab:friedman.nemenyi.auc}
+\vspace{0.0cm}
+\begin{center}
+\caption{Friedman-Nemenyi hypothesis test results for the \textbf{AUC} metric. The asterisc and the cross, respectively, mean that the method in the column outperformed the method in the row with significance levels of 0.05 and 0.1}
+\vspace{0.5cm}
+\renewcommand{\arraystretch}{1.2}
+  \begin{tabular}{ rcccccccccccccc }
+    & \rotatebox{90}{HINT-BC} & \rotatebox{90}{HINT-BCN} & \rotatebox{90}{HINT} & \rotatebox{90}{DNase2TF} & \rotatebox{90}{PIQ} & \rotatebox{90}{Wellington} & \rotatebox{90}{Neph} & \rotatebox{90}{Boyle} & \rotatebox{90}{FLR} & \rotatebox{90}{Centipede} & \rotatebox{90}{Cuellar} & \rotatebox{90}{TC} & \rotatebox{90}{PWM} & \rotatebox{90}{FS} \\
+    \hline
+    HINT-BC &     &     &     &     &     &     &     &     &     &     &     &     &     &     \\
+    HINT-BCN &     &     &     &     &     &     &     &     &     &     &     &     &     &     \\
+    HINT & $*$ &     &     &     &     &     &     &     &     &     &     &     &     &     \\
+    DNase2TF & $*$ & $+$ &     &     &     &     &     &     &     &     &     &     &     &     \\
+    PIQ & $*$ & $*$ & $+$ &     &     &     &     &     &     &     &     &     &     &     \\
+    Wellington & $*$ & $*$ & $*$ & $*$ &     &     &     &     &     &     &     &     &     &     \\
+    Neph & $*$ & $*$ & $*$ & $*$ &     &     &     &     &     &     &     &     &     &     \\
+    Boyle & $*$ & $*$ & $*$ & $*$ &     &     &     &     &     &     &     &     &     &     \\
+    FLR & $*$ & $*$ & $*$ & $*$ & $*$ & $*$ & $*$ &     &     &     &     &     &     &     \\
+    Centipede & $*$ & $*$ & $*$ & $*$ & $*$ & $*$ & $*$ & $+$ &     &     &     &     &     &     \\
+    Cuellar & $*$ & $*$ & $*$ & $*$ & $*$ & $*$ & $*$ & $*$ &     &     &     &     &     &     \\
+    TC & $*$ & $*$ & $*$ & $*$ & $*$ & $*$ & $*$ & $*$ &     &     &     &     &     &     \\
+    PWM & $*$ & $*$ & $*$ & $*$ & $*$ & $*$ & $*$ & $*$ & $*$ & $*$ & $+$ &     &     &     \\
+    FS & $*$ & $*$ & $*$ & $*$ & $*$ & $*$ & $*$ & $*$ & $*$ & $*$ & $*$ & $*$ &     &     \\
+    \hline
+  \end{tabular}
+\end{center}
+\vspace{0.0cm}
+\end{table}
+
+\end{document}
