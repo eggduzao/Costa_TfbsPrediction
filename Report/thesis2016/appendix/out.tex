@@ -1,0 +1,561 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Appendix -> Supplementary Tables
+% Author: Eduardo G Gusmao
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{Appendix -- Supplementary Tables}
+\label{cha:appendix}
+
+\graphicspath{{appendix/figs/}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Section: Data
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\section{Data}
+%\label{sec:appendix.data}
+
+% Table - Summary of DNase-seq data
+\begin{longtable}{p{3.5cm}p{1.2cm}p{3.7cm}p{2.5cm}p{2.8cm}}
+\caption[Summary of DNase-seq data]{\textbf{Summary of DNase-seq data.} DNase-seq datasets used as input for computational footprinting methods (main comparative experiments and further empirical analyses) are highlighted in bold. The other DNase-seq datasets were used in the DNase-seq bias estimates clustering analysis. We represent both DNase-seq protocols as: single-hit (SH; generated in Crawford lab) and double-hit (DH; generated in Stamatoyannopoulous lab). Naked DNA DNase-seq experiments are represented as NK.} \\
+\label{tab:dataencode.dnase} \\[-0.8cm]
+\hline
+Cell Type & Protocol                 & UCSC ID             & GEO/NCBI ID                    & \# Mapped Reads \\
+\hline
+\textbf{H1-hESC} & \textbf{SH} & \textbf{wgEncodeEH000556} & \textbf{GSM816632} & \textbf{110303078} \\
+\textbf{HeLa-S3} & \textbf{SH} & \textbf{wgEncodeEH000540} & \textbf{GSM816643} & \textbf{54267867} \\
+\textbf{HepG2} & \textbf{SH} & \textbf{wgEncodeEH000537} & \textbf{GSM816662} & \textbf{50838536} \\
+\textbf{Huvec} & \textbf{SH} & \textbf{wgEncodeEH000548} & \textbf{GSM816646} & \textbf{31848532} \\
+\textbf{K562} & \textbf{SH} & \textbf{wgEncodeEH000530} & \textbf{GSM816655} & \textbf{365820647} \\
+\textbf{LNCaP} & \textbf{SH} & \textbf{wgEncodeEH001097} & \textbf{GSM816637} & \textbf{163625945} \\
+\textbf{MCF-7} & \textbf{SH} & \textbf{wgEncodeEH000579} & \textbf{GSM816627} & \textbf{89113893} \\
+\textbf{K562} & \textbf{NK} & \textbf{--} & \textbf{GSM1496625} & \textbf{202001412} \\
+\textbf{MCF-7} & \textbf{NK} & \textbf{--} & \textbf{GSM1496626} & \textbf{210715393} \\
+\textbf{H7-hESC} & \textbf{DH} & \textbf{wgEncodeEH000511} & \textbf{GSM736638} \newline \textbf{GSM736610} & \textbf{302050785} \\
+\textbf{HepG2} & \textbf{DH} & \textbf{wgEncodeEH000482} & \textbf{GSM736637} \newline \textbf{GSM736639} & \textbf{168883956} \\
+\textbf{Huvec} & \textbf{DH} & \textbf{wgEncodeEH000488} & \textbf{GSM736575} \newline \textbf{GSM736533} & \textbf{429088276} \\
+\textbf{K562} & \textbf{DH} & \textbf{wgEncodeEH000484} & \textbf{GSM736629} \newline \textbf{GSM736566} & \textbf{179970820} \\
+\textbf{m3134} & \textbf{DH} & \textbf{wgEncodeEM001721} & \textbf{GSM1014196} & \textbf{127594903} \\
+\textbf{IMR90} & \textbf{NK} & \textbf{--}    & \textbf{SRA068503} & \textbf{138604440} \\
+H7-hESC & SH & wgEncodeEH002554 & GSM1008596 & 433296955 \\
+CD14+ & SH & wgEncodeEH003466 & GSM1008582 & 287039145 \\
+SK-N-SH & SH & wgEncodeEH003483 & GSM1008585 & 287186739 \\
+MCF-7/RandshRNA & SH & wgEncodeEH003468 & GSM1008603 & 288004844 \\
+K562/SAHA-Ctrl & SH & wgEncodeEH003489 & GSM1008580 & 503410467 \\
+MCF-7 & SH & wgEncodeEH003470 & GSM1008565 & 89113893 \\
+IMR90 & SH & wgEncodeEH003482 & GSM1008586 & 303769598 \\
+HeLa-S3/IFNa4h & SH & wgEncodeEH000577 & GSM816633 & 110348694 \\
+K562/G2-Mphase & SH & wgEncodeEH003472 & GSM1008567 & 431722812 \\
+K562/G1phase & SH & wgEncodeEH003469 & GSM1008602 & 426934260 \\
+K562/SAHA1um72h & SH & wgEncodeEH003490 & GSM1008558 & 503301111 \\
+MCF-7/HypLacAc & SH & wgEncodeEH001745 & GSM816670 & 244207602 \\
+K562/NaBut & SH & wgEncodeEH002559 & GSM1008601 & 267722720 \\
+CD20+RO01794 & SH & wgEncodeEH003465 & GSM1008588 & 256442597 \\
+GM12878 & SH & wgEncodeEH000534 & GSM816665 & 245090730 \\
+A549 & SH & wgEncodeEH001095 & GSM816649 & 133567925 \\
+MCF-7/CTCFshRNA & SH & wgEncodeEH003467 & GSM1008581 & 295954052 \\
+K562/ZNFP5 & DH & wgEncodeEH003016 & -- & 70400755 \\
+CD20+RO01778 & DH & wgEncodeEH001884 & GSM1024765 \newline GSM1024766 & 71398619 \\
+HeLa-S3 & DH & wgEncodeEH000495 & GSM736510 \newline GSM736564 & 70669968 \\
+K562/ZNF4C50C4 & DH & wgEncodeEH003009 & -- & 82579252 \\
+A549 & DH & wgEncodeEH001180 & GSM736506 \newline GSM736580 & 75764710 \\
+K562/ZNFb34A8 & DH & wgEncodeEH003012 & -- & 95113482 \\
+K562/ZNFg54A11 & DH & wgEncodeEH003015 & -- & 76873236 \\
+CD14+ & DH & wgEncodeEH001196 & -- & 33322702 \\
+MCF-7/EstCtrl0h & DH & wgEncodeEH003018 & GSM1024764 \newline GSM1024767 & 151170759 \\
+MCF-7/Est100nm1h & DH & wgEncodeEH003017 & GSM1024783 \newline GSM1024784 & 164440980 \\
+K562/ZNF4G7D3 & DH & wgEncodeEH003010 & -- & 83034668 \\
+K562/ZNFe103C6 & DH & wgEncodeEH003013 & -- & 78100065 \\
+K562/ZNF2C10C5 & DH & wgEncodeEH003008 & -- & 173334712 \\
+LHCN-M2 & DH & wgEncodeEH003005 & GSM1024786 \newline GSM1024787 & 89558026 \\
+LHCN-M2/Diff4d & DH & wgEncodeEH003006 & GSM1024771 \newline GSM1024772 & 120358720 \\
+H1-hESC & DH & wgEncodeEH000496 & GSM736582 & 24431583 \\
+MCF-7 & DH & wgEncodeEH000502 & GSM736581 \newline GSM736588 & 89482135 \\
+K562/ZNFf41B2 & DH & wgEncodeEH003014 & -- & 109124535 \\
+CD14+/RO01746 & DH & wgEncodeEH001196 & GSM1024791 & 67698560 \\
+GM12878 & DH & wgEncodeEH000492 & GSM736496 \newline GSM736620 & 47899421 \\
+K562/ZNFa41C6 & DH & wgEncodeEH003011 & -- & 99106989 \\
+HepG2 & DH & wgEncodeEH000476 & GSM646559 & 69810990 \\
+K562 & DH & wgEncodeEH000480 & GSM646567 & 71250291 \\
+CD20+RO01778 & DH & wgEncodeEH002442 & GSM1014525 & 240594387 \\
+K562/ZNFP5 & DH & wgEncodeEH003153 & -- & 346226678 \\
+K562/ZNFa41C6 & DH & wgEncodeEH003152 & -- & 372806338 \\
+LHCN-M2 & DH & wgEncodeEH003149 & GSM1014524 & 255134452 \\
+LHCN-M2/Diff4d & DH & wgEncodeEH003154 & GSM1014539 & 357827356 \\
+H7-hESC & DH & wgEncodeEH000834 & GSM646563 & 302050785 \\
+HUVEC & DH & wgEncodeEH002460 & GSM1014528 & 429088276 \\
+A549 & DH & wgEncodeEH003146 & GSM1014517 & 350629033 \\
+\hline
+\end{longtable}
+
+\clearpage
+
+% Table - Summary of the histone modification ChIP-seq data
+\begin{table}[t]
+\begin{center}
+\caption[Summary of the histone modification ChIP-seq data]{\textbf{Summary of the histone modification ChIP-seq data.} All data sets were generated in Bernstein lab.}
+\label{tab:dataencode.histone}
+    \renewcommand{\arraystretch}{1.2}
+    \begin{tabular}{ llllr }
+        \hline
+        Cell Type & Data Type & UCSC Access.     & GEO ID & \# Mapped Reads \\
+        \hline
+        H1-hESC   & H3K4me1   & wgEncodeEH000106 & GSM733782   & 27286943        \\
+        H1-hESC   & H3K4me3   & wgEncodeEH000086 & GSM733657   & 19203931        \\
+        H1-hESC   & H3K9ac    & wgEncodeEH000109 & GSM733773   & 30288927        \\
+        H1-hESC   & H3K27ac   & wgEncodeEH000997 & GSM733718   & 31993560        \\
+        H1-hESC   & H2A.Z     & wgEncodeEH002082 & GSM1003579  & 76761942        \\
+        K562      & H3K4me1   & wgEncodeEH000046 & GSM733692   & 29197613        \\
+        K562      & H3K4me3   & wgEncodeEH000048 & GSM733680   & 25153055        \\
+        K562      & H3K9ac    & wgEncodeEH000049 & GSM733778   & 32634427        \\
+        K562      & H3K27ac   & wgEncodeEH000043 & GSM733656   & 24470196        \\
+        K562      & H2A.Z     & wgEncodeEH001038 & GSM733786   & 38763180        \\
+        GM12878   & H3K4me1   & wgEncodeEH000033 & GSM733772   & 48444878        \\
+        GM12878   & H3K4me3   & wgEncodeEH000028 & GSM733708   & 64016296        \\
+        GM12878   & H3K9ac    & wgEncodeEH000035 & GSM733677   & 19513948        \\
+        GM12878   & H3K27ac   & wgEncodeEH000030 & GSM733771   & 19582373        \\
+        GM12878   & H2A.Z     & wgEncodeEH001033 & GSM733767   & 32327975        \\
+        HeLa-S3   & H3K4me1   & wgEncodeEH001750 & GSM798322   & 38435440        \\
+        HeLa-S3   & H3K4me3   & wgEncodeEH001017 & GSM733682   & 35897578        \\
+        HepG2     & H3K4me1   & wgEncodeEH001749 & GSM798321   & 52320612        \\
+        HepG2     & H3K4me3   & wgEncodeEH000095 & GSM733737   & 18620773        \\
+        \hline
+    \end{tabular}
+\end{center}
+\end{table}
+
+\clearpage
+
+% Table - PFMs and TF ChIP-seq used in the ChIP-seq evaluation methodology
+{\scriptsize
+\begin{longtable}{p{0.2cm}p{1.1cm}p{1.0cm}p{1.0cm}p{1.0cm}p{1.0cm}p{2.3cm}p{1.0cm}p{0.8cm}p{0.8cm}p{0.8cm}}
+\caption[PFMs and TF ChIP-seq used in the ChIP-seq evaluation methodology]{\textbf{\scriptsize PFMs and TF ChIP-seq used in the ChIP-seq evaluation methodology.}}\\
+\label{tab:dataencode.pfm.chipseq} \\[-2cm]
+\rotatebox{60}{LAB} & \rotatebox{60}{CELL} & \rotatebox{60}{FACTOR} & \rotatebox{60}{PFM REPOSITORY} & \rotatebox{60}{PFM ID} & \rotatebox{60}{CHIPSEQ LAB} & \rotatebox{60}{CHIPSEQ ID} & \rotatebox{60}{NUMBER MOTIFS} & \rotatebox{60}{NUMBER PEAKS} & \rotatebox{60}{\parbox{4cm}{NUMBER PEAKS \\ with MOTIFS}} & \rotatebox{60}{\parbox{4cm}{PERC PEAKS \\ with MOTIFS}}\\
+        \hline
+SH & H1-hESC & ATF3 & Jaspar & MA0093.2 & Myers & wgEncodeEH001566 & 691899 & 4804 & 1777 & 36.99\\
+SH & H1-hESC & BACH1 & Transfac & M00495 & Snyder & wgEncodeEH002842 & 614421 & 11457 & 2941 & 25.66\\
+SH & H1-hESC & BRCA1 & Jaspar & MA0133.1 & Snyder & wgEncodeEH002801 & 333055 & 2025 & 15 & 0.74\\
+SH & H1-hESC & CEBPB & Jaspar & MA0466.1 & Snyder & wgEncodeEH002825 & 1342548 & 15557 & 9720 & 62.47\\
+SH & H1-hESC & CTCF & Jaspar & MA0139.1 & Myers & wgEncodeEH001649 & 565933 & 54070 & 41994 & 77.66\\
+SH & H1-hESC & EGR1 & Jaspar & MA0162.2 & Myers & wgEncodeEH001538 & 1060314 & 8743 & 5225 & 59.76\\
+SH & H1-hESC & FOSL1 & Jaspar & MA0477.1 & Myers & wgEncodeEH001660 & 699220 & 1111 & 61 & 5.49\\
+SH & H1-hESC & GABP & Jaspar & MA0062.2 & Myers & wgEncodeEH001534 & 181503 & 5652 & 2165 & 38.30\\
+SH & H1-hESC & JUN & Jaspar & MA0488.1 & Snyder & wgEncodeEH001854 & 832374 & 2148 & 646 & 30.07\\
+SH & H1-hESC & JUND & Jaspar & MA0491.1 & Snyder & wgEncodeEH002023 & 717223 & 9550 & 3784 & 39.62\\
+SH & H1-hESC & MAFK & Jaspar & MA0496.1 & Snyder & wgEncodeEH002828 & 1221488 & 11425 & 7849 & 68.70\\
+SH & H1-hESC & MAX & Jaspar & MA0058.2 & Farnham & wgEncodeEH001757 & 855374 & 11124 & 3126 & 28.10\\
+SH & H1-hESC & MYC & Jaspar & MA0147.2 & Snyder & wgEncodeEH002795 & 614797 & 4551 & 1161 & 25.51\\
+SH & H1-hESC & NRF1 & Jaspar & MA0506.1 & Snyder & wgEncodeEH001847 & 137117 & 4513 & 3636 & 80.56\\
+SH & H1-hESC & POU5F1 & Jaspar & MA0142.1 & Myers & wgEncodeEH001636 & 2201678 & 3994 & 2757 & 69.02\\
+SH & H1-hESC & RAD21 & Jaspar & MA0139.1 & Snyder & wgEncodeEH001836 & 565933 & 55674 & 42657 & 76.61\\
+SH & H1-hESC & REST & Jaspar & MA0138.2 & Myers & wgEncodeEH001498 & 629168 & 13269 & 6440 & 48.53\\
+SH & H1-hESC & RFX5 & Jaspar & MA0510.1 & Snyder & wgEncodeEH001835 & 629248 & 1695 & 697 & 41.12\\
+SH & H1-hESC & RXRA & Jaspar & MA0512.1 & Myers & wgEncodeEH001560 & 1110004 & 1306 & 276 & 21.13\\
+SH & H1-hESC & SIX5 & Jaspar & MA0088.1 & Myers & wgEncodeEH001528 & 1032447 & 3422 & 1680 & 49.09\\
+SH & H1-hESC & SP1 & Jaspar & MA0079.3 & Myers & wgEncodeEH001529 & 1797400 & 15103 & 5303 & 35.11\\
+SH & H1-hESC & SP2 & Jaspar & MA0516.1 & Myers & wgEncodeEH002302 & 1587339 & 2469 & 1247 & 50.50\\
+SH & H1-hESC & SP4 & Uniprobe & UP00002 & Myers & wgEncodeEH002317 & 503235 & 5752 & 1802 & 31.32\\
+SH & H1-hESC & SRF & Jaspar & MA0083.2 & Myers & wgEncodeEH001533 & 1024023 & 5102 & 2969 & 58.19\\
+SH & H1-hESC & TCF12 & Jaspar & MA0521.1 & Myers & wgEncodeEH001531 & 893836 & 7829 & 1904 & 24.31\\
+SH & H1-hESC & USF1 & Jaspar & MA0093.2 & Myers & wgEncodeEH001532 & 691899 & 26028 & 18288 & 70.26\\
+SH & H1-hESC & USF2 & Jaspar & MA0526.1 & Snyder & wgEncodeEH001837 & 759040 & 6952 & 4488 & 64.55\\
+SH & H1-hESC & YY1 & Jaspar & MA0095.2 & Myers & wgEncodeEH001567 & 1325447 & 18310 & 6506 & 35.53\\
+SH & H1-hESC & ZNF143 & Jaspar & MA0088.1 & Snyder & wgEncodeEH002802 & 1032447 & 30687 & 3809 & 12.41\\
+SH & HeLa-S3 & BRCA1 & Jaspar & MA0133.1 & Snyder & wgEncodeEH001814 & 333055 & 8114 & 88 & 1.08\\
+SH & HeLa-S3 & CEBPB & Jaspar & MA0466.1 & Snyder & wgEncodeEH001815 & 1342548 & 61004 & 26770 & 43.88\\
+SH & HeLa-S3 & CTCF & Jaspar & MA0139.1 & Bernstein & wgEncodeEH001012 & 565933 & 52783 & 38397 & 72.74\\
+SH & HeLa-S3 & E2F4 & Jaspar & MA0470.1 & Snyder & wgEncodeEH000689 & 173646 & 2831 & 1397 & 49.34\\
+SH & HeLa-S3 & E2F6 & Jaspar & MA0471.1 & Snyder & wgEncodeEH000692 & 1051116 & 4775 & 1457 & 30.51\\
+SH & HeLa-S3 & ELK1 & Jaspar & MA0028.1 & Snyder & wgEncodeEH002864 & 100691 & 4809 & 1892 & 39.34\\
+SH & HeLa-S3 & FOS & Jaspar & MA0476.1 & Snyder & wgEncodeEH000647 & 762222 & 9325 & 6900 & 73.99\\
+SH & HeLa-S3 & GABP & Jaspar & MA0062.2 & Myers & wgEncodeEH001504 & 181503 & 6761 & 3571 & 52.81\\
+SH & HeLa-S3 & JUN & Jaspar & MA0488.1 & Snyder & wgEncodeEH000746 & 832374 & 21903 & 3302 & 15.07\\
+SH & HeLa-S3 & JUND & Jaspar & MA0491.1 & Snyder & wgEncodeEH000745 & 717223 & 31633 & 21182 & 66.96\\
+SH & HeLa-S3 & MAFK & Jaspar & MA0496.1 & Snyder & wgEncodeEH002856 & 1221488 & 14185 & 8658 & 61.03\\
+SH & HeLa-S3 & MAX & Jaspar & MA0058.2 & Snyder & wgEncodeEH002830 & 855374 & 29647 & 3204 & 10.80\\
+SH & HeLa-S3 & MYC & Jaspar & MA0147.2 & Snyder & wgEncodeEH000648 & 614797 & 10226 & 1647 & 16.10\\
+SH & HeLa-S3 & NFYA & Jaspar & MA0060.2 & Snyder & wgEncodeEH002066 & 428913 & 5978 & 2537 & 42.43\\
+SH & HeLa-S3 & NFYB & Jaspar & MA0502.1 & Snyder & wgEncodeEH002067 & 470725 & 7156 & 4139 & 57.83\\
+SH & HeLa-S3 & NRF1 & Jaspar & MA0506.1 & Snyder & wgEncodeEH000723 & 137117 & 2915 & 2369 & 81.26\\
+SH & HeLa-S3 & RAD21 & Jaspar & MA0139.1 & Snyder & wgEncodeEH001789 & 565933 & 43420 & 30385 & 69.97\\
+SH & HeLa-S3 & REST & Jaspar & MA0138.2 & Myers & wgEncodeEH001629 & 629168 & 10247 & 4524 & 44.14\\
+SH & HeLa-S3 & STAT1 & Jaspar & MA0137.3 & Snyder & wgEncodeEH000614 & 1272026 & 16158 & 5655 & 34.99\\
+SH & HeLa-S3 & USF2 & Jaspar & MA0526.1 & Snyder & wgEncodeEH001819 & 759040 & 12306 & 6099 & 49.56\\
+SH & HeLa-S3 & ZNF143 & Jaspar & MA0088.1 & Snyder & wgEncodeEH002028 & 1032447 & 7048 & 1865 & 26.46\\
+SH & HepG2 & ARID3A & Jaspar & MA0151.1 & Snyder & wgEncodeEH002858 & 2112327 & 17614 & 1041 & 5.91\\
+SH & HepG2 & ATF3 & Jaspar & MA0018.2 & Myers & wgEncodeEH001568 & 496476 & 3290 & 270 & 8.20\\
+SH & HepG2 & BHLHE40 & Jaspar & MA0464.1 & Myers & wgEncodeEH001515 & 572185 & 2859 & 1186 & 41.48\\
+SH & HepG2 & BRCA1 & Jaspar & MA0133.1 & Snyder & wgEncodeEH001859 & 333055 & 1497 & 15 & 1.00\\
+SH & HepG2 & CEBPB & Jaspar & MA0466.1 & Myers & wgEncodeEH002304 & 1342548 & 18114 & 10146 & 56.01\\
+SH & HepG2 & CTCF & Jaspar & MA0139.1 & Myers & wgEncodeEH001516 & 565933 & 55733 & 44323 & 79.52\\
+SH & HepG2 & ELF1 & Jaspar & MA0473.1 & Myers & wgEncodeEH001641 & 1026618 & 17998 & 8728 & 48.49\\
+SH & HepG2 & GABP & Jaspar & MA0062.2 & Myers & wgEncodeEH001548 & 181503 & 10105 & 4722 & 46.72\\
+SH & HepG2 & JUN & Jaspar & MA0488.1 & Snyder & wgEncodeEH001794 & 832374 & 12669 & 7136 & 56.32\\
+SH & HepG2 & JUND & Jaspar & MA0491.1 & Myers & wgEncodeEH001470 & 717223 & 21606 & 8490 & 39.29\\
+SH & HepG2 & MAFF & Jaspar & MA0495.1 & Snyder & wgEncodeEH001841 & 1215808 & 37587 & 29284 & 77.90\\
+SH & HepG2 & MAFK & Jaspar & MA0496.1 & Snyder & wgEncodeEH001842 & 1221488 & 61847 & 44299 & 71.62\\
+SH & HepG2 & MAX & Jaspar & MA0058.2 & Snyder & wgEncodeEH002796 & 855374 & 11852 & 2101 & 17.72\\
+SH & HepG2 & MYC & Jaspar & MA0147.2 & Iyer & wgEncodeEH000545 & 614797 & 4411 & 1160 & 26.29\\
+SH & HepG2 & NRF1 & Jaspar & MA0506.1 & Snyder & wgEncodeEH001802 & 137117 & 1902 & 1699 & 89.32\\
+SH & HepG2 & RAD21 & Jaspar & MA0139.1 & Myers & wgEncodeEH001608 & 565933 & 54261 & 40827 & 75.24\\
+SH & HepG2 & REST & Jaspar & MA0138.2 & Myers & wgEncodeEH001549 & 629168 & 6021 & 2848 & 47.30\\
+SH & HepG2 & RXRA & Jaspar & MA0512.1 & Myers & wgEncodeEH001506 & 1110004 & 17059 & 4628 & 27.12\\
+SH & HepG2 & SP1 & Jaspar & MA0079.3 & Myers & wgEncodeEH001561 & 1797400 & 25465 & 5277 & 20.72\\
+SH & HepG2 & SP2 & Jaspar & MA0516.1 & Myers & wgEncodeEH002264 & 1587339 & 2626 & 567 & 21.59\\
+SH & HepG2 & SRF & Jaspar & MA0083.2 & Myers & wgEncodeEH001611 & 1024023 & 5311 & 2693 & 50.70\\
+SH & HepG2 & USF1 & Jaspar & MA0093.2 & Myers & wgEncodeEH001472 & 691899 & 21885 & 14209 & 64.92\\
+SH & HepG2 & USF2 & Jaspar & MA0526.1 & Snyder & wgEncodeEH001804 & 759040 & 6290 & 4621 & 73.46\\
+SH & HepG2 & YY1 & Jaspar & MA0095.2 & Myers & wgEncodeEH001661 & 1325447 & 17871 & 4035 & 22.57\\
+SH & Huvec & CTCF & Jaspar & MA0139.1 & Iyer & wgEncodeEH000551 & 565933 & 43982 & 36279 & 82.48\\
+SH & Huvec & FOS & Jaspar & MA0476.1 & Farnham & wgEncodeEH001774 & 762222 & 46726 & 29319 & 62.74\\
+SH & Huvec & GATA2 & Jaspar & MA0036.2 & Farnham & wgEncodeEH001758 & 1028569 & 27454 & 6162 & 22.44\\
+SH & Huvec & JUN & Jaspar & MA0488.1 & Snyder & wgEncodeEH000719 & 832374 & 29502 & 4220 & 14.30\\
+SH & Huvec & MAX & Jaspar & MA0058.2 & Snyder & wgEncodeEH000768 & 855374 & 9120 & 2650 & 29.05\\
+SH & Huvec & MYC & Jaspar & MA0147.2 & Iyer & wgEncodeEH000561 & 614797 & 5143 & 1213 & 23.58\\
+SH & K562 & ARID3A & Jaspar & MA0151.1 & Snyder & wgEncodeEH002861 & 2112327 & 9026 & 606 & 6.71\\
+SH & K562 & ATF1 & Uniprobe & UP00020 & Struhl & wgEncodeEH002865 & 246442 & 14864 & 2609 & 17.55\\
+SH & K562 & ATF3 & Jaspar & MA0018.2 & Struhl & wgEncodeEH000700 & 496476 & 1233 & 165 & 13.38\\
+SH & K562 & BACH1 & Transfac & M00495 & Snyder & wgEncodeEH002846 & 614421 & 3806 & 1980 & 52.02\\
+SH & K562 & BHLHE40 & Jaspar & MA0464.1 & Snyder & wgEncodeEH001857 & 572185 & 22497 & 5958 & 26.48\\
+SH & K562 & CCNT2 & Jaspar & MA0140.2 & Struhl & wgEncodeEH001864 & 708983 & 20057 & 2284 & 11.38\\
+SH & K562 & CEBPB & Jaspar & MA0466.1 & Snyder & wgEncodeEH001821 & 1342548 & 38715 & 24789 & 64.02\\
+SH & K562 & CTCF & Jaspar & MA0139.1 & Snyder & wgEncodeEH002797 & 565933 & 54387 & 41122 & 75.60\\
+SH & K562 & CTCFL & Jaspar & MA0139.1 & Myers & wgEncodeEH001652 & 565933 & 11533 & 8878 & 76.97\\
+SH & K562 & E2F4 & Jaspar & MA0470.1 & Farnham & wgEncodeEH000671 & 173646 & 8181 & 2809 & 34.33\\
+SH & K562 & E2F6 & Jaspar & MA0471.1 & Farnham & wgEncodeEH000676 & 1051116 & 16312 & 4251 & 26.06\\
+SH & K562 & EFOS & Jaspar & MA0476.1 & White & wgEncodeEH001207 & 762222 & 10256 & 8796 & 85.76\\
+SH & K562 & EGATA & Jaspar & MA0036.2 & White & wgEncodeEH001208 & 1028569 & 11478 & 3846 & 33.50\\
+SH & K562 & EGR1 & Jaspar & MA0162.2 & Myers & wgEncodeEH001646 & 1060314 & 36997 & 25164 & 68.01\\
+SH & K562 & EJUNB & Jaspar & MA0490.1 & White & wgEncodeEH001210 & 717235 & 12287 & 7788 & 63.38\\
+SH & K562 & EJUND & Jaspar & MA0491.1 & White & wgEncodeEH001211 & 717223 & 26674 & 11027 & 41.33\\
+SH & K562 & ELF1 & Jaspar & MA0473.1 & Myers & wgEncodeEH001619 & 1026618 & 27780 & 14324 & 51.56\\
+SH & K562 & ELK1 & Jaspar & MA0028.1 & Snyder & wgEncodeEH003356 & 100691 & 2961 & 1315 & 44.41\\
+SH & K562 & ETS1 & Jaspar & MA0098.2 & Myers & wgEncodeEH001580 & 1319961 & 10726 & 1734 & 16.16\\
+SH & K562 & FOS & Jaspar & MA0476.1 & Snyder & wgEncodeEH000619 & 762222 & 7646 & 3423 & 44.76\\
+SH & K562 & FOSL1 & Jaspar & MA0477.1 & Myers & wgEncodeEH001637 & 699220 & 11174 & 8865 & 79.33\\
+SH & K562 & GABP & Jaspar & MA0062.2 & Myers & wgEncodeEH001604 & 181503 & 14393 & 5406 & 37.55\\
+SH & K562 & GATA1 & Jaspar & MA0035.3 & Farnham & wgEncodeEH000638 & 1040470 & 4074 & 1923 & 47.20\\
+SH & K562 & GATA2 & Jaspar & MA0036.2 & Farnham & wgEncodeEH000683 & 1028569 & 10648 & 4267 & 40.07\\
+SH & K562 & IRF1 & Jaspar & MA0050.2 & Snyder & wgEncodeEH002798 & 2330047 & 8352 & 3274 & 39.20\\
+SH & K562 & JUN & Jaspar & MA0488.1 & Snyder & wgEncodeEH000620 & 832374 & 9848 & 2150 & 21.83\\
+SH & K562 & JUND & Jaspar & MA0491.1 & Snyder & wgEncodeEH002164 & 717223 & 40052 & 15395 & 38.43\\
+SH & K562 & MAFF & Jaspar & MA0495.1 & Snyder & wgEncodeEH002804 & 1215808 & 25074 & 17425 & 69.49\\
+SH & K562 & MAFK & Jaspar & MA0496.1 & Snyder & wgEncodeEH001844 & 1221488 & 19317 & 12423 & 64.31\\
+SH & K562 & MAX & Jaspar & MA0058.2 & Snyder & wgEncodeEH002869 & 855374 & 31436 & 4766 & 15.16\\
+SH & K562 & MEF2A & Jaspar & MA0052.2 & Myers & wgEncodeEH001663 & 3210613 & 5631 & 2664 & 47.30\\
+SH & K562 & MYC & Jaspar & MA0147.2 & Snyder & wgEncodeEH000621 & 614797 & 5023 & 1312 & 26.11\\
+SH & K562 & NFE2 & Jaspar & MA0501.1 & Snyder & wgEncodeEH000624 & 796063 & 2637 & 2177 & 82.55\\
+SH & K562 & NFYA & Jaspar & MA0060.2 & Snyder & wgEncodeEH002021 & 428913 & 4286 & 2770 & 64.62\\
+SH & K562 & NFYB & Jaspar & MA0502.1 & Snyder & wgEncodeEH002024 & 470725 & 10096 & 7786 & 77.11\\
+SH & K562 & NR2F2 & Uniprobe & UP00009 & Myers & wgEncodeEH002382 & 626663 & 16678 & 2971 & 17.81\\
+SH & K562 & NRF1 & Jaspar & MA0506.1 & Snyder & wgEncodeEH001796 & 137117 & 4211 & 3114 & 73.94\\
+SH & K562 & PU1 & Jaspar & MA0080.3 & Myers & wgEncodeEH001482 & 2040890 & 28677 & 24657 & 85.98\\
+SH & K562 & RAD21 & Jaspar & MA0139.1 & Snyder & wgEncodeEH000649 & 565933 & 17627 & 16218 & 92.00\\
+SH & K562 & REST & Jaspar & MA0138.2 & Myers & wgEncodeEH001638 & 629168 & 15849 & 4191 & 26.44\\
+SH & K562 & RFX5 & Jaspar & MA0510.1 & Snyder & wgEncodeEH002033 & 629248 & 2201 & 475 & 21.58\\
+SH & K562 & SIX5 & Jaspar & MA0088.1 & Myers & wgEncodeEH001483 & 1032447 & 4194 & 1554 & 37.05\\
+SH & K562 & SMC3 & Jaspar & MA0139.1 & Snyder & wgEncodeEH001845 & 565933 & 23598 & 20753 & 87.94\\
+SH & K562 & SP1 & Jaspar & MA0079.3 & Myers & wgEncodeEH001578 & 1797400 & 7206 & 3269 & 45.36\\
+SH & K562 & SP2 & Jaspar & MA0516.1 & Myers & wgEncodeEH001653 & 1587339 & 3124 & 1735 & 55.53\\
+SH & K562 & SRF & Jaspar & MA0083.2 & Myers & wgEncodeEH001600 & 1024023 & 4717 & 1473 & 31.22\\
+SH & K562 & STAT1 & Jaspar & MA0137.3 & Snyder & wgEncodeEH000664 & 1272026 & 1476 & 204 & 13.82\\
+SH & K562 & STAT2 & Jaspar & MA0517.1 & Snyder & wgEncodeEH000666 & 3077582 & 1923 & 1132 & 58.86\\
+SH & K562 & STAT5A & Jaspar & MA0519.1 & Myers & wgEncodeEH002347 & 1292097 & 9811 & 2033 & 20.72\\
+SH & K562 & TAL1 & Jaspar & MA0140.2 & Snyder & wgEncodeEH001824 & 708983 & 26260 & 11345 & 43.20\\
+SH & K562 & THAP1 & Jaspar & MA0597.1 & Myers & wgEncodeEH001655 & 561707 & 3506 & 338 & 9.64\\
+SH & K562 & TR4 & Jaspar & MA0504.1 & Farnham & wgEncodeEH000682 & 825980 & 587 & 170 & 28.96\\
+SH & K562 & USF1 & Jaspar & MA0093.2 & Myers & wgEncodeEH001583 & 691899 & 18521 & 11966 & 64.60\\
+SH & K562 & USF2 & Jaspar & MA0526.1 & Snyder & wgEncodeEH001797 & 759040 & 3083 & 2271 & 73.66\\
+SH & K562 & YY1 & Jaspar & MA0095.2 & Farnham & wgEncodeEH000684 & 1325447 & 4948 & 3035 & 61.33\\
+SH & K562 & ZBTB33 & Jaspar & MA0527.1 & Myers & wgEncodeEH001569 & 82928 & 3285 & 1454 & 44.26\\
+SH & K562 & ZBTB7A & Uniprobe & UP00047 & Myers & wgEncodeEH001620 & 412506 & 21711 & 801 & 3.68\\
+SH & K562 & ZNF143 & Jaspar & MA0088.1 & Snyder & wgEncodeEH002030 & 1032447 & 29069 & 3628 & 12.48\\
+SH & K562 & ZNF263 & Jaspar & MA0528.1 & Farnham & wgEncodeEH000630 & 2577084 & 3081 & 1110 & 36.02\\
+SH & Mcf7 & ER(160m) & Jaspar & MA0112.2 & Hager & GSM1325251 & 801832 & 1450 & 801 & 55.24\\
+SH & Mcf7 & ER(40m) & Jaspar & MA0112.2 & Hager & GSM1325250 & 801832 & 10397 & 4696 & 45.16\\
+DH & denovo & 0458 & NA & NA & NA & NA & 1552159 & NA & NA & NA\\
+DH & denovo & 0500 & NA & NA & NA & NA & 1345022 & NA & NA & NA\\
+DH & HepG2 & ARID3A & Jaspar & MA0151.1 & Snyder & wgEncodeEH002858 & 2112327 & 17614 & 1041 & 5.91\\
+DH & HepG2 & ATF3 & Jaspar & MA0018.2 & Myers & wgEncodeEH001568 & 496476 & 3290 & 270 & 8.20\\
+DH & HepG2 & BHLHE40 & Jaspar & MA0464.1 & Myers & wgEncodeEH001515 & 572185 & 2859 & 1186 & 41.48\\
+DH & HepG2 & BRCA1 & Jaspar & MA0133.1 & Snyder & wgEncodeEH001859 & 333055 & 1497 & 15 & 1.00\\
+DH & HepG2 & CEBPB & Jaspar & MA0466.1 & Myers & wgEncodeEH002304 & 1342548 & 18114 & 10146 & 56.01\\
+DH & HepG2 & CTCF & Jaspar & MA0139.1 & Myers & wgEncodeEH001516 & 565933 & 55733 & 44323 & 79.52\\
+DH & HepG2 & ELF1 & Jaspar & MA0473.1 & Myers & wgEncodeEH001641 & 1026618 & 17998 & 8728 & 48.49\\
+DH & HepG2 & GABP & Jaspar & MA0062.2 & Myers & wgEncodeEH001548 & 181503 & 10105 & 4722 & 46.72\\
+DH & HepG2 & JUN & Jaspar & MA0488.1 & Snyder & wgEncodeEH001794 & 832374 & 12669 & 7136 & 56.32\\
+DH & HepG2 & JUND & Jaspar & MA0491.1 & Myers & wgEncodeEH001470 & 717223 & 21606 & 8490 & 39.29\\
+DH & HepG2 & MAFF & Jaspar & MA0495.1 & Snyder & wgEncodeEH001841 & 1215808 & 37587 & 29284 & 77.90\\
+DH & HepG2 & MAFK & Jaspar & MA0496.1 & Snyder & wgEncodeEH001842 & 1221488 & 61847 & 44299 & 71.62\\
+DH & HepG2 & MAX & Jaspar & MA0058.2 & Snyder & wgEncodeEH002796 & 855374 & 11852 & 2101 & 17.72\\
+DH & HepG2 & MYC & Jaspar & MA0147.2 & Iyer & wgEncodeEH000545 & 614797 & 4411 & 1160 & 26.29\\
+DH & HepG2 & NRF1 & Jaspar & MA0506.1 & Snyder & wgEncodeEH001802 & 137117 & 1902 & 1699 & 89.32\\
+DH & HepG2 & RAD21 & Jaspar & MA0139.1 & Myers & wgEncodeEH001608 & 565933 & 54261 & 40827 & 75.24\\
+DH & HepG2 & REST & Jaspar & MA0138.2 & Myers & wgEncodeEH001549 & 629168 & 6021 & 2848 & 47.30\\
+DH & HepG2 & RXRA & Jaspar & MA0512.1 & Myers & wgEncodeEH001506 & 1110004 & 17059 & 4628 & 27.12\\
+DH & HepG2 & SP1 & Jaspar & MA0079.3 & Myers & wgEncodeEH001561 & 1797400 & 25465 & 5277 & 20.72\\
+DH & HepG2 & SP2 & Jaspar & MA0516.1 & Myers & wgEncodeEH002264 & 1587339 & 2626 & 567 & 21.59\\
+DH & HepG2 & SRF & Jaspar & MA0083.2 & Myers & wgEncodeEH001611 & 1024023 & 5311 & 2693 & 50.70\\
+DH & HepG2 & USF1 & Jaspar & MA0093.2 & Myers & wgEncodeEH001472 & 691899 & 21885 & 14209 & 64.92\\
+DH & HepG2 & USF2 & Jaspar & MA0526.1 & Snyder & wgEncodeEH001804 & 759040 & 6290 & 4621 & 73.46\\
+DH & HepG2 & YY1 & Jaspar & MA0095.2 & Myers & wgEncodeEH001661 & 1325447 & 17871 & 4035 & 22.57\\
+DH & Huvec & CTCF & Jaspar & MA0139.1 & Iyer & wgEncodeEH000551 & 565933 & 43982 & 36279 & 82.48\\
+DH & Huvec & FOS & Jaspar & MA0476.1 & Farnham & wgEncodeEH001774 & 762222 & 46726 & 29319 & 62.74\\
+DH & Huvec & GATA2 & Jaspar & MA0036.2 & Farnham & wgEncodeEH001758 & 1028569 & 27454 & 6162 & 22.44\\
+DH & Huvec & JUN & Jaspar & MA0488.1 & Snyder & wgEncodeEH000719 & 832374 & 29502 & 4220 & 14.30\\
+DH & Huvec & MAX & Jaspar & MA0058.2 & Snyder & wgEncodeEH000768 & 855374 & 9120 & 2650 & 29.05\\
+DH & Huvec & MYC & Jaspar & MA0147.2 & Iyer & wgEncodeEH000561 & 614797 & 5143 & 1213 & 23.58\\
+DH & K562 & ARID3A & Jaspar & MA0151.1 & Snyder & wgEncodeEH002861 & 2112327 & 9026 & 606 & 6.71\\
+DH & K562 & ATF1 & Uniprobe & UP00020 & Struhl & wgEncodeEH002865 & 246442 & 14864 & 2609 & 17.55\\
+DH & K562 & ATF3 & Jaspar & MA0018.2 & Struhl & wgEncodeEH000700 & 496476 & 1233 & 165 & 13.38\\
+DH & K562 & BACH1 & Transfac & M00495 & Snyder & wgEncodeEH002846 & 614421 & 3806 & 1980 & 52.02\\
+DH & K562 & BHLHE40 & Jaspar & MA0464.1 & Snyder & wgEncodeEH001857 & 572185 & 22497 & 5958 & 26.48\\
+DH & K562 & CCNT2 & Jaspar & MA0140.2 & Struhl & wgEncodeEH001864 & 708983 & 20057 & 2284 & 11.38\\
+DH & K562 & CEBPB & Jaspar & MA0466.1 & Snyder & wgEncodeEH001821 & 1342548 & 38715 & 24789 & 64.02\\
+DH & K562 & CTCF & Jaspar & MA0139.1 & Snyder & wgEncodeEH002797 & 565933 & 54387 & 41122 & 75.60\\
+DH & K562 & CTCFL & Jaspar & MA0139.1 & Myers & wgEncodeEH001652 & 565933 & 11533 & 8878 & 76.97\\
+DH & K562 & E2F4 & Jaspar & MA0470.1 & Farnham & wgEncodeEH000671 & 173646 & 8181 & 2809 & 34.33\\
+DH & K562 & E2F6 & Jaspar & MA0471.1 & Farnham & wgEncodeEH000676 & 1051116 & 16312 & 4251 & 26.06\\
+DH & K562 & EFOS & Jaspar & MA0476.1 & White & wgEncodeEH001207 & 762222 & 10256 & 8796 & 85.76\\
+DH & K562 & EGATA & Jaspar & MA0036.2 & White & wgEncodeEH001208 & 1028569 & 11478 & 3846 & 33.50\\
+DH & K562 & EGR1 & Jaspar & MA0162.2 & Myers & wgEncodeEH001646 & 1060314 & 36997 & 25164 & 68.01\\
+DH & K562 & EJUNB & Jaspar & MA0490.1 & White & wgEncodeEH001210 & 717235 & 12287 & 7788 & 63.38\\
+DH & K562 & EJUND & Jaspar & MA0491.1 & White & wgEncodeEH001211 & 717223 & 26674 & 11027 & 41.33\\
+DH & K562 & ELF1 & Jaspar & MA0473.1 & Myers & wgEncodeEH001619 & 1026618 & 27780 & 14324 & 51.56\\
+DH & K562 & ELK1 & Jaspar & MA0028.1 & Snyder & wgEncodeEH003356 & 100691 & 2961 & 1315 & 44.41\\
+DH & K562 & ETS1 & Jaspar & MA0098.2 & Myers & wgEncodeEH001580 & 1319961 & 10726 & 1734 & 16.16\\
+DH & K562 & FOS & Jaspar & MA0476.1 & Snyder & wgEncodeEH000619 & 762222 & 7646 & 3423 & 44.76\\
+DH & K562 & FOSL1 & Jaspar & MA0477.1 & Myers & wgEncodeEH001637 & 699220 & 11174 & 8865 & 79.33\\
+DH & K562 & GABP & Jaspar & MA0062.2 & Myers & wgEncodeEH001604 & 181503 & 14393 & 5406 & 37.55\\
+DH & K562 & GATA1 & Jaspar & MA0035.3 & Farnham & wgEncodeEH000638 & 1040470 & 4074 & 1923 & 47.20\\
+DH & K562 & GATA2 & Jaspar & MA0036.2 & Farnham & wgEncodeEH000683 & 1028569 & 10648 & 4267 & 40.07\\
+DH & K562 & IRF1 & Jaspar & MA0050.2 & Snyder & wgEncodeEH002798 & 2330047 & 8352 & 3274 & 39.20\\
+DH & K562 & JUN & Jaspar & MA0488.1 & Snyder & wgEncodeEH000620 & 832374 & 9848 & 2150 & 21.83\\
+DH & K562 & JUND & Jaspar & MA0491.1 & Snyder & wgEncodeEH002164 & 717223 & 40052 & 15395 & 38.43\\
+DH & K562 & MAFF & Jaspar & MA0495.1 & Snyder & wgEncodeEH002804 & 1215808 & 25074 & 17425 & 69.49\\
+DH & K562 & MAFK & Jaspar & MA0496.1 & Snyder & wgEncodeEH001844 & 1221488 & 19317 & 12423 & 64.31\\
+DH & K562 & MAX & Jaspar & MA0058.2 & Snyder & wgEncodeEH002869 & 855374 & 31436 & 4766 & 15.16\\
+DH & K562 & MEF2A & Jaspar & MA0052.2 & Myers & wgEncodeEH001663 & 3210613 & 5631 & 2664 & 47.30\\
+DH & K562 & MYC & Jaspar & MA0147.2 & Snyder & wgEncodeEH000621 & 614797 & 5023 & 1312 & 26.11\\
+DH & K562 & NFE2 & Jaspar & MA0501.1 & Snyder & wgEncodeEH000624 & 796063 & 2637 & 2177 & 82.55\\
+DH & K562 & NFYA & Jaspar & MA0060.2 & Snyder & wgEncodeEH002021 & 428913 & 4286 & 2770 & 64.62\\
+DH & K562 & NFYB & Jaspar & MA0502.1 & Snyder & wgEncodeEH002024 & 470725 & 10096 & 7786 & 77.11\\
+DH & K562 & NR2F2 & Uniprobe & UP00009 & Myers & wgEncodeEH002382 & 626663 & 16678 & 2971 & 17.81\\
+DH & K562 & NRF1 & Jaspar & MA0506.1 & Snyder & wgEncodeEH001796 & 137117 & 4211 & 3114 & 73.94\\
+DH & K562 & PU1 & Jaspar & MA0080.3 & Myers & wgEncodeEH001482 & 2040890 & 28677 & 24657 & 85.98\\
+DH & K562 & RAD21 & Jaspar & MA0139.1 & Snyder & wgEncodeEH000649 & 565933 & 17627 & 16218 & 92.00\\
+DH & K562 & REST & Jaspar & MA0138.2 & Myers & wgEncodeEH001638 & 629168 & 15849 & 4191 & 26.44\\
+DH & K562 & RFX5 & Jaspar & MA0510.1 & Snyder & wgEncodeEH002033 & 629248 & 2201 & 475 & 21.58\\
+DH & K562 & SIX5 & Jaspar & MA0088.1 & Myers & wgEncodeEH001483 & 1032447 & 4194 & 1554 & 37.05\\
+DH & K562 & SMC3 & Jaspar & MA0139.1 & Snyder & wgEncodeEH001845 & 565933 & 23598 & 20753 & 87.94\\
+DH & K562 & SP1 & Jaspar & MA0079.3 & Myers & wgEncodeEH001578 & 1797400 & 7206 & 3269 & 45.36\\
+DH & K562 & SP2 & Jaspar & MA0516.1 & Myers & wgEncodeEH001653 & 1587339 & 3124 & 1735 & 55.53\\
+DH & K562 & SRF & Jaspar & MA0083.2 & Myers & wgEncodeEH001600 & 1024023 & 4717 & 1473 & 31.22\\
+DH & K562 & STAT1 & Jaspar & MA0137.3 & Snyder & wgEncodeEH000664 & 1272026 & 1476 & 204 & 13.82\\
+DH & K562 & STAT2 & Jaspar & MA0517.1 & Snyder & wgEncodeEH000666 & 3077582 & 1923 & 1132 & 58.86\\
+DH & K562 & STAT5A & Jaspar & MA0519.1 & Myers & wgEncodeEH002347 & 1292097 & 9811 & 2033 & 20.72\\
+DH & K562 & TAL1 & Jaspar & MA0140.2 & Snyder & wgEncodeEH001824 & 708983 & 26260 & 11345 & 43.20\\
+DH & K562 & THAP1 & Jaspar & MA0597.1 & Myers & wgEncodeEH001655 & 561707 & 3506 & 338 & 9.64\\
+DH & K562 & TR4 & Jaspar & MA0504.1 & Farnham & wgEncodeEH000682 & 825980 & 587 & 170 & 28.96\\
+DH & K562 & USF1 & Jaspar & MA0093.2 & Myers & wgEncodeEH001583 & 691899 & 18521 & 11966 & 64.60\\
+DH & K562 & USF2 & Jaspar & MA0526.1 & Snyder & wgEncodeEH001797 & 759040 & 3083 & 2271 & 73.66\\
+DH & K562 & YY1 & Jaspar & MA0095.2 & Farnham & wgEncodeEH000684 & 1325447 & 4948 & 3035 & 61.33\\
+DH & K562 & ZBTB33 & Jaspar & MA0527.1 & Myers & wgEncodeEH001569 & 82928 & 3285 & 1454 & 44.26\\
+DH & K562 & ZBTB7A & Uniprobe & UP00047 & Myers & wgEncodeEH001620 & 412506 & 21711 & 801 & 3.68\\
+DH & K562 & ZNF143 & Jaspar & MA0088.1 & Snyder & wgEncodeEH002030 & 1032447 & 29069 & 3628 & 12.48\\
+DH & K562 & ZNF263 & Jaspar & MA0528.1 & Farnham & wgEncodeEH000630 & 2577084 & 3081 & 1110 & 36.02\\
+DH & LnCaP & AR(R1881) & Jaspar & MA0007.2 & Yu & GSM353644 & 913583 & 51799 & 12978 & 25.05\\
+DH & LnCaP & AR(ethl) & Jaspar & MA0007.2 & Yu & GSM353643 & 913583 & 6103 & 685 & 11.22\\
+DH & m3134 & GR(DEX) & Jaspar & MA0113.2 & Stam. & SRP004871 & 1051822 & 28078 & 7270 & 25.89\\
+        \hline
+\end{longtable}
+}
+
+\clearpage
+
+% Table - PFMs used in the gene expression evaluation methodology
+\tablecaption[PFMs used in the gene expression evaluation methodology]{\textbf{PFMs used in the gene expression evaluation methodology.}}
+\label{tab:dataencode.pfm.flrexp}
+\twocolumn
+\begin{supertabular}{cc}
+        \hline
+FACTOR & PWM ID\\
+        \hline
+MYCN & MA0104.3\\
+PBX1 & MA0070.1\\
+TCF7L1 & MA0522.1\\
+TP53 & MA0106.2\\
+ETS1 & MA0098.2\\
+TCF7L2 & MA0523.1\\
+AR & MA0007.2\\
+SRY & MA0084.1\\
+TFAP2C & MA0524.1\\
+ZNF354C & MA0130.1\\
+FOXO1 & MA0480.1\\
+NR5A2 & MA0505.1\\
+FLII & MA0475.1\\
+FOXH1 & MA0479.1\\
+CREB1 & MA0018.2\\
+EGR2 & MA0472.1\\
+REST & MA0138.2\\
+RFX5 & MA0510.1\\
+SOX3 & MA0514.1\\
+FOXD3 & MA0041.1\\
+HNF4G & MA0484.1\\
+SOX9 & MA0077.1\\
+NKX3-1 & MA0124.1\\
+INSM1 & MA0155.1\\
+ERG & MA0474.1\\
+STAT1 & MA0137.3\\
+USF1 & MA0093.2\\
+EGR1 & MA0162.2\\
+CTCF & MA0139.1\\
+MAFB & MA0117.1\\
+E2F1 & MA0024.2\\
+STAT4 & MA0518.1\\
+MAFK & MA0496.1\\
+NFYA & MA0060.2\\
+GABPA & MA0062.2\\
+YY1 & MA0095.2\\
+KLF4 & MA0039.2\\
+SRF & MA0083.2\\
+STAT3 & MA0144.2\\
+HOXA5 & MA0158.1\\
+SREBF2 & MA0596.1\\
+HOXA9 & MA0594.1\\
+FOSL2 & MA0478.1\\
+TCF12 & MA0521.1\\
+SOX10 & MA0442.1\\
+FOXP2 & MA0593.1\\
+ATOH1 & MA0461.1\\
+PPARG & MA0066.1\\
+GATA3 & MA0037.2\\
+NR2F1 & MA0017.1\\
+SOX17 & MA0078.1\\
+NKX2-5 & MA0503.1\\
+HLF & MA0043.1\\
+HNF1A & MA0046.1\\
+NR2E3 & MA0164.1\\
+PAX2 & MA0067.1\\
+PAX5 & MA0014.2\\
+RXRA & MA0512.1\\
+HINFP & MA0131.1\\
+MYOG & MA0500.1\\
+NKX3-2 & MA0122.1\\
+EBF1 & MA0154.2\\
+HNF1B & MA0153.1\\
+ESR1 & MA0112.2\\
+NR2C2 & MA0504.1\\
+FOXC1 & MA0032.1\\
+NRF1 & MA0506.1\\
+HNF4A & MA0114.2\\
+LHX3 & MA0135.1\\
+FOXL1 & MA0033.1\\
+RUNX2 & MA0511.1\\
+FOXI1 & MA0042.1\\
+FOXA2 & MA0047.2\\
+HSF1 & MA0486.1\\
+E2F4 & MA0470.1\\
+ZNF143 & MA0088.1\\
+FOXP1 & MA0481.1\\
+FEV & MA0156.1\\
+TFAP2A & MA0003.2\\
+FOXQ1 & MA0040.1\\
+ELF5 & MA0136.1\\
+ZNF263 & MA0528.1\\
+E2F3 & MA0469.1\\
+PAX4 & MA0068.1\\
+ESRRA & MA0592.1\\
+T & MA0009.1\\
+EN1 & MA0027.1\\
+FOXD1 & MA0031.1\\
+HLTF & MA0109.1\\
+MAX & MA0058.2\\
+CDX2 & MA0465.1\\
+FOXO3 & MA0157.1\\
+THAP1 & MA0597.1\\
+SREBF1 & MA0595.1\\
+GFI1 & MA0038.1\\
+GATA4 & MA0482.1\\
+ZBTB33 & MA0527.1\\
+FOSL1 & MA0477.1\\
+FOXA1 & MA0148.3\\
+FOXF2 & MA0030.1\\
+ELK1 & MA0028.1\\
+RFX2 & MA0600.1\\
+MAFF & MA0495.1\\
+SP2 & MA0516.1\\
+NHLH1 & MA0048.1\\
+ZFX & MA0146.2\\
+ELK4 & MA0076.2\\
+CEBPB & MA0466.1\\
+NFE2L2 & MA0150.2\\
+BCL6 & MA0463.1\\
+NFIL3 & MA0025.1\\
+PRDM1 & MA0508.1\\
+NFKB1 & MA0105.3\\
+TBP & MA0108.2\\
+BRCA1 & MA0133.1\\
+ESR2 & MA0258.2\\
+RREB1 & MA0073.1\\
+RELA & MA0107.1\\
+JUN & MA0489.1\\
+IRF1 & MA0050.2\\
+REL & MA0101.1\\
+SOX5 & MA0087.1\\
+E2F6 & MA0471.1\\
+TP63 & MA0525.1\\
+NR4A2 & MA0160.1\\
+PAX6 & MA0069.1\\
+KLF1 & MA0493.1\\
+NR3C1 & MA0113.2\\
+ELF1 & MA0473.1\\
+MYC & MA0147.2\\
+NFATC2 & MA0152.1\\
+SPI1 & MA0080.3\\
+ZEB1 & MA0103.2\\
+KLF5 & MA0599.1\\
+RUNX1 & MA0002.2\\
+MEIS1 & MA0498.1\\
+GATA2 & MA0036.2\\
+GFI1B & MA0483.1\\
+MYB & MA0100.2\\
+MECOM & MA0029.1\\
+GATA1 & MA0035.3\\
+MEF2C & MA0497.1\\
+BHLHE40 & MA0464.1\\
+        \hline
+\end{supertabular}
+
+\onecolumn
+
+\clearpage
+
+% Table - Summary of the gene expression data
+\begin{table}[t]
+\begin{center}
+\caption[Summary of the gene expression data]{\textbf{Summary of the gene expression data.}}
+\label{tab:data.expression}
+    \renewcommand{\arraystretch}{1.2}
+    \begin{tabular}{ llr }
+        \hline
+        Cell Type & GEO Accession & \# Samples \\
+        \hline
+        GM12878   & GSE12760 & 20 \\
+        H1-hESC   & GSE14863 & 4  \\
+        K562      & GSE12760 & 21 \\
+        \hline
+    \end{tabular}
+\end{center}
+\end{table}
+
+\clearpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Section: Supplementary Results
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\section{Results}
+%\label{sec:appendix.supplementary.results}
+
+
+
+

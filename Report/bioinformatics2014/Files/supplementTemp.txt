@@ -1,0 +1,5 @@
+% XXX - I would leave this out.
+% We have performed a similar analysis changing the
+%PWM's IC for the proportion of ChIP-seq peaks with motif associated
+%(see Tables~\ref{tab:H1hesc.tfbsstats}--~\ref{tab:K562.tfbsstats.2}) but also with no
+%significant results (correlation coefficient $\approx 0.0673 $ with $p$-value $> 0.1$).

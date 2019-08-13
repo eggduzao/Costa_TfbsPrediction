@@ -1,0 +1,51 @@
+\documentclass[landscape, 8pt]{report}
+\usepackage[landscape]{geometry}
+\usepackage{rotating}
+\usepackage{multirow}
+\begin{document}
+
+\begin{table}[h!]
+\label{tab:ranking}
+\vspace{0.0cm}
+\begin{center}
+\caption{Friedman ranking. For each metric, the methods are displayed in decreasing order with their respective Friedman ranking.}
+\renewcommand{\arraystretch}{1.2}
+  \begin{tabular}{ |lr| }
+    \hline
+    \multicolumn{2}{|c|}{\textbf{AUPR}} \\
+    \hline
+    HINT-BC & 1.2017 \\
+    HINT-BCN & 1.9142 \\
+    HINT & 3.0043 \\
+    TC & 4.1245 \\
+    PWM & 5.3004 \\
+    FS & 5.4549 \\
+    \hline
+  \end{tabular}
+\end{center}
+\vspace{0.0cm}
+\end{table}
+
+\begin{table}[h!]
+\label{tab:friedman.nemenyi.aupr}
+\vspace{0.0cm}
+\begin{center}
+\caption{Friedman-Nemenyi hypothesis test results for the \textbf{AUPR} metric. The asterisc and the cross, respectively, mean that the method in the column outperformed the method in the row with significance levels of 0.05 and 0.1}
+\vspace{0.5cm}
+\renewcommand{\arraystretch}{1.2}
+  \begin{tabular}{ rcccccc }
+    & \rotatebox{90}{HINT-BC} & \rotatebox{90}{HINT-BCN} & \rotatebox{90}{HINT} & \rotatebox{90}{TC} & \rotatebox{90}{PWM} & \rotatebox{90}{FS} \\
+    \hline
+    HINT-BC &     &     &     &     &     &     \\
+    HINT-BCN & $*$ &     &     &     &     &     \\
+    HINT & $*$ & $*$ &     &     &     &     \\
+    TC & $*$ & $*$ & $*$ &     &     &     \\
+    PWM & $*$ & $*$ & $*$ & $*$ &     &     \\
+    FS & $*$ & $*$ & $*$ & $*$ &     &     \\
+    \hline
+  \end{tabular}
+\end{center}
+\vspace{0.0cm}
+\end{table}
+
+\end{document}

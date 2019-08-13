@@ -1,0 +1,1282 @@
+\chapter{Appendix}
+% \section{Preparation of Data Set DC-H3K27ac}
+% \label{DC_dataset_H3K27ac}
+% We briefly explain how our collaborators at the university clinic Aachen prepared the DC dataset of histone modification H3K27ac (DC-H3K27ac, see Table~\ref{table_datasets_with_replicates}).
+% This project was founded by the author's graduate school AICES and the Excellence Initiative of the German Federal and State Governments and the German Research Foundation through Grant GSC~111.
+% 
+% Chromatin immunoprecipitation (ChIP) was performed with minor modifications~\citep{Dahl2008, Chauvistre2014}. 
+% Briefly, sorted cells were cross-linked at a concentration of 2 million cells/ml with 1$\%$ formaldehyde for 6 min at room temperature. Cross-linking was stopped with 0.125 M glycine. 
+% % Chromatin sonication into fragments of 200-400 bp in size was done in Bioruptor with cooling device (Diagenode) at 4\degree C with 30 s pulse/pause cycles until a fragment size of 200 bp was obtained. Sheared lysates were clarified by centrifugation at 12,000g (10 min, 4\degree C). 
+% 10 $\mu$l Dynabeads Protein A (Life Technologies) were preincubated with 1 $\mu$g anti-H3K27ac antibodies (Abcam). 
+% % For immunoprecipitation 10 $\mu$g sheared chromatin was added to the preincubated beads over night at 4\degree C. 
+% % Chromatin complexes were isolated by magnetic bead selection and washed with RIPA and TE buffer. Chromatin complexes were digested with 50 $\mu$g/ml RNase (Roche) at 37\degree C for 30 min.
+% The ChIP procedure was repeated five times (50 $\mu$g chromatin in total) and immunoprecipitated DNA was purified using QIAquick PCR Purification Kit (Qiagen). 
+% DNA concentration of immunoprecipitated DNA was determined by using Qubit dsDNA HS Assay kit (Life Technologies). 
+% Libraries were prepared and subjected to deep-sequencing on the Illumina platform according to the manufacturer's protocols. 
+% RNA was isolated using RNeasy Plus Mini Kit with DNaseI digestion (Qiagen)~\citep{felker2010}. 
+% Libraries were prepared and subjected to strand-specific RNA-seq on the Illumina platform according to the manufacturer's protocols.
+% 
+% \newpage
+\section{Results with ODIN}
+\subsection{Simulation}
+
+\begin{table}[h!]
+\begin{center}
+\renewcommand{\arraystretch}{1.2}
+  \begin{tabular}{ |lr| }
+    \hline
+    \multicolumn{2}{|c|}{\textbf{AUC}} \\
+    \hline
+    ODIN-binomial & 1.3333 \\
+    ODIN-poisson-1 & 2.0 \\
+    ODIN-poisson-4 & 3.4444 \\
+    ODIN-poisson-3 & 4.2222 \\
+    ODIN-poisson-2 & 5.3333 \\
+    MACS2 & 5.8889 \\
+    MAnorm & 6.0 \\
+    DESeq-macs & 8.2222 \\
+    DBChIP & 8.5556 \\
+    \hline
+  \end{tabular}
+\end{center}
+\caption[Friedman ranking of simulated data without replicates]{Friedman ranking for the results based on the simulated data. For each metric, the methods are displayed in decreasing order with their respective Friedman ranking.}
+\label{tab_sim_ranking_without_rep}
+\end{table}
+
+
+
+
+\newpage
+\subsection{Parameter Selection}
+%%%%%%%%%%%%%%%%%%%%%%%%
+% Tables
+%%%%%%%%%%%%%%%%%%%%%%%%
+% % % % % % % % % % % % % % % 
+% % % % % % % % % % % % % % % inital parameter Testing for our HMM (8 version) for TF experiments
+% % % % % % % % % % % % % % % 
+\begin{table}[H]
+\label{tab:ranking}
+% \vspace{0.0cm}
+\begin{center}
+\renewcommand{\arraystretch}{1.2}
+  \begin{tabular}{ |lr| }
+    \hline
+    \multicolumn{2}{|c|}{\textbf{AUC}} \\
+    \hline
+    input-DNA, nomapReg, GC & 3.5 \\
+    input-DNA, mapReg, GC & 3.7813 \\
+    noinput-DNA, nomapReg, GC & 3.9375 \\
+    input-DNA, nomapReg, noGC & 4.4375 \\
+    noinput-DNA, mapReg, GC & 4.4688 \\
+    input-DNA, mapReg, noGC & 4.7813 \\
+    noinput-DNA, mapReg, noGC & 5.1563 \\
+    noinput-DNA, nomapReg, noGC & 5.9375 \\
+    \hline
+  \end{tabular}
+\end{center}
+\caption[Friedman ranking of ODIN's parametrization for TF experiments]{The Friedman ranking for the construction of the genomic signal based on TF experiments. 
+For the DAGE statistic we use $h=50,\ H=500$. 
+We restrict our analysis to DPs in chromosome 1.
+We are interested in all 8 combinations of using: (1) the \nuc{GC}-content model (GC, noGC), (2) filtering reads aligned to poor mappability regions (mapReg, nomapReg) and (3) the subtraction of input-DNA (input-DNA, noinput-DNA).}
+\label{tab_preprocess_tf}
+\end{table}
+
+% % % % % % % % % % % % % % % % 
+% % % % % % % % % % % % % % % % inital parameter Testing for our HMM (8 version) for histone modification experiments
+% % % % % % % % % % % % % % % % 
+\begin{table}[H]
+\label{tab:friedman.nemenyi.auc}
+% \vspace{0.0cm}
+\begin{center}
+\renewcommand{\arraystretch}{1.2}
+  \begin{tabular}{ rcccccccc }
+    & \rotatebox{90}{input-DNA, nomapReg, GC} & \rotatebox{90}{input-DNA, mapReg, GC} & \rotatebox{90}{noinput-DNA, nomapReg, GC} & \rotatebox{90}{input-DNA, nomapReg, noGC} & \rotatebox{90}{noinput-DNA, mapReg, GC} & \rotatebox{90}{input-DNA, mapReg, noGC} & \rotatebox{90}{noinput-DNA, mapReg, noGC} & \rotatebox{90}{noinput-DNA, nomapReg, noGC} \\
+    \hline
+    input-DNA, nomapReg, GC &     &     &     &     &     &     &     &     \\
+    input-DNA, mapReg, GC &     &     &     &     &     &     &     &     \\
+    noinput-DNA, nomapReg, GC &     &     &     &     &     &     &     &     \\
+    input-DNA, nomapReg, noGC &     &     &     &     &     &     &     &     \\
+    noinput-DNA, mapReg, GC &     &     &     &     &     &     &     &     \\
+    input-DNA, mapReg, noGC &     &     &     &     &     &     &     &     \\
+    noinput-DNA, mapReg, noGC &     &     &     &     &     &     &     &     \\
+    noinput-DNA, nomapReg, noGC & $+$ &     &     &     &     &     &     &     \\
+    \hline
+  \end{tabular}
+\end{center}
+% \vspace{0.0cm}
+\caption[Friedman-Nemenyi test of ODIN's parametrization for TF experiments]{Friedman-Nemenyi hypothesis test results for the construction of the genomic signal based on TF experiments.
+The asterisk and the cross, respectively, mean that the method in the column outperformed the method in the row with significance levels of 0.05 and 0.1.}
+\label{tab_preprocess_tf_sig}
+\end{table}
+
+
+\begin{table}[h!]
+\label{tab:ranking}
+\begin{center}
+\renewcommand{\arraystretch}{1.2}
+  \begin{tabular}{ |lr| }
+    \hline
+    \multicolumn{2}{|c|}{\textbf{AUC}} \\
+    \hline
+    input-DNA, nomapReg, GC & 3.9286 \\
+    input-DNA, mapReg, GC & 4.0 \\
+    noinput-DNA, mapReg, GC & 4.0 \\
+    noinput-DNA, nomapReg, GC & 4.2143 \\
+    input-DNA, nomapReg, noGC & 4.7143 \\
+    input-DNA, mapReg, noGC & 4.7857 \\
+    noinput-DNA, nomapReg, noGC & 4.9286 \\
+    noinput-DNA, mapReg, noGC & 5.4286 \\
+    \hline
+  \end{tabular}
+\end{center}
+\caption[Friedman ranking of ODIN's parametrization for histone experiments]{The Friedman ranking for the construction of the genomic signal based on histone modification experiments. 
+For the DAGE statistic we use $h=50,\ H=500$. 
+We restrict our analysis to DPs in chromosome 1.
+We are interested in all 8 combinations of using: (1) the \nuc{GC}-content model (GC, noGC), (2) filtering reads aligned to poor mappability regions (mapReg, nomapReg) and (3) the subtraction of input-DNA (input-DNA, noinput-DNA).}
+\label{tab_preprocess_hist}
+\end{table}
+
+ \begin{table}[]
+ \label{tab:friedman.nemenyi.auc}
+ \vspace{0.0cm}
+ \begin{center}
+ \vspace{0.5cm}
+ \renewcommand{\arraystretch}{1.2}
+   \begin{tabular}{ rcccccccc }
+     & \rotatebox{90}{input-DNA, nomapReg, GC} & \rotatebox{90}{input-DNA, mapReg, GC} & \rotatebox{90}{noinput-DNA, mapReg, GC} & \rotatebox{90}{noinput-NA, nomapReg, GC} & \rotatebox{90}{input-DNA, nomapReg, noGC} & \rotatebox{90}{input-DNA, mapReg, noGC} & \rotatebox{90}{noinput-DNA, nomapReg, noGC} & \rotatebox{90}{noinput-DNA, mapReg, noGC} \\
+     \hline
+     input-DNA, nomapReg, GC &     &     &     &     &     &     &     &     \\
+     input-DNA, mapReg, GC &     &     &     &     &     &     &     &     \\
+     noinput-DNA, mapReg, GC &     &     &     &     &     &     &     &     \\
+     noinput-DNA, nomapReg, GC &     &     &     &     &     &     &     &     \\
+     input-DNA, nomapReg, noGC &     &     &     &     &     &     &     &     \\
+     input-DNA, mapReg, noGC &     &     &     &     &     &     &     &     \\
+     noinput-DNA, nomapReg, noGC &     &     &     &     &     &     &     &     \\
+     noinput-DNA, mapReg, noGC &     &     &     &     &     &     &     &     \\
+     \hline
+   \end{tabular}
+ \end{center}
+ \caption[Friedman-Nemenyi test of ODIN's parametrization for histone experiments]{Friedman-Nemenyi hypothesis test results for the construction of the genomic signal based on histone modification experiments.
+ The asterisk and the cross, respectively, mean that the method in the column outperformed the method in the row with significance levels of 0.05 and 0.1.}
+ \label{tab_preprocess_hist_sig}
+ \end{table}
+
+ 
+% % % % % % % % % % % % % %  ODIN with different emission
+\begin{table}[h!]
+\begin{center}
+\renewcommand{\arraystretch}{1.2}
+  \begin{tabular}{ |lr| }
+    \hline
+    \multicolumn{2}{|c|}{\textbf{AUC}} \\
+    \hline
+    poisson1 & 2.5 \\
+    binomial & 2.8125 \\
+    poisson3 & 3.1563 \\
+    poisson4 & 3.1875 \\
+    poisson2 & 3.3438 \\
+    \hline
+  \end{tabular}
+\end{center}
+\caption[Friedman ranking of ODIN's emissions for TF experiments]{Results based on TF experiments and emission distributions applied by ODIN. We constrain our analysis on chromosome 1 and use $h=50$ and $H=500$ for the DAGE score. Friedman ranking: for each metric, the methods are displayed in decreasing order with their respective Friedman ranking.}
+\label{tab_preprocess_dist_tf}
+\end{table}
+
+\begin{table}[h!]
+\begin{center}
+\vspace{0.5cm}
+\renewcommand{\arraystretch}{1.2}
+  \begin{tabular}{ rccccc }
+    & \rotatebox{90}{poisson1} & \rotatebox{90}{binomial} & \rotatebox{90}{poisson3} & \rotatebox{90}{poisson4} & \rotatebox{90}{poisson2} \\
+    \hline
+    poisson1 &     &     &     &     &     \\
+    binomial &     &     &     &     &     \\
+    poisson3 &     &     &     &     &     \\
+    poisson4 &     &     &     &     &     \\
+    poisson2 &     &     &     &     &     \\
+    \hline
+  \end{tabular}
+\end{center}
+\caption[Friedman-Nemenyi test of ODIN's emissions for TF experiments]{Results based on TF experiments and emission distributions applied by ODIN. Friedman-Nemenyi hypothesis test results for the \textbf{AUC} metric. The asterisk and the cross, respectively, mean that the method in the column outperformed the method in the row with significance levels of 0.05 and 0.1.}
+\label{tab_preprocess_dist_tf_sig}
+\end{table}
+
+
+
+\begin{table}[h!]
+\begin{center}
+\renewcommand{\arraystretch}{1.2}
+  \begin{tabular}{ |lr| }
+    \hline
+    \multicolumn{2}{|c|}{\textbf{AUC}} \\
+    \hline
+    poisson4 & 2.4286 \\
+    poisson3 & 2.5714 \\
+    poisson2 & 3.0 \\
+    poisson1 & 3.1429 \\
+    binomial & 3.8571 \\
+    \hline
+  \end{tabular}
+\end{center}
+\caption[Friedman ranking of ODIN's emissions for histone experiments]{Results based on histone experiments and emission distributions applied by ODIN. We constrain our analysis on chromosome 1 and use $h=50$ and $H=500$ for the DAGE score. Friedman ranking: for each metric, the methods are displayed in decreasing order with their respective Friedman ranking.}
+\label{tab_preprocess_dist_hist}
+\end{table}
+
+\begin{table}[h!]
+\begin{center}
+\vspace{0.5cm}
+\renewcommand{\arraystretch}{1.2}
+  \begin{tabular}{ rccccc }
+    & \rotatebox{90}{poisson4} & \rotatebox{90}{poisson3} & \rotatebox{90}{poisson2} & \rotatebox{90}{poisson1} & \rotatebox{90}{binomial} \\
+    \hline
+    poisson4 &     &     &     &     &     \\
+    poisson3 &     &     &     &     &     \\
+    poisson2 &     &     &     &     &     \\
+    poisson1 &     &     &     &     &     \\
+    binomial &     &     &     &     &     \\
+    \hline
+  \end{tabular}
+\end{center}
+\caption[Friedman-Nemenyi test of ODIN's emissions for histone experiments]{Results based on histone experiments and emission distributions applied by ODIN. Friedman-Nemenyi hypothesis test results for the \textbf{AUC} metric. The asterisk and the cross, respectively, mean that the method in the column outperformed the method in the row with significance levels of 0.05 and 0.1.}
+\label{tab_preprocess_dist_sig}
+\end{table}
+
+
+
+% % % % % % % % % % % % % % % % two-stage DPCs with different SPCs
+
+\begin{table}[h!]
+\begin{center}
+\renewcommand{\arraystretch}{1.2}
+  \begin{tabular}{ |lr| }
+    \hline
+    \multicolumn{2}{|c|}{\textbf{AUC}} \\
+    \hline
+    MAnorm-macs & 2.375 \\
+    MAnorm-quest & 3.0625 \\
+    MAnorm-peakseq & 3.125 \\
+    DBChIP-quest & 3.8125 \\
+    DBChIP-macs & 4.125 \\
+    DBChIP-peakseq & 4.5 \\
+    \hline
+  \end{tabular}
+\end{center}
+\caption[Friedman ranking of SPCs for TF experiments]{Results based on TF experiments. We consider different combinations of two-stage DPC and underlying SPC. We constrain our analysis on chromosome 1 and use $h=50$ and $H=500$ for the DAGE score. Friedman ranking: for each metric, the methods are displayed in decreasing order with their respective Friedman ranking.}
+\label{tab_preprocess_spc_tf}
+\end{table}
+
+\begin{table}[h!]
+\begin{center}
+\vspace{0.5cm}
+\renewcommand{\arraystretch}{1.2}
+  \begin{tabular}{ rcccccc }
+    & \rotatebox{90}{MAnorm-macs} & \rotatebox{90}{MAnorm-quest} & \rotatebox{90}{MAnorm-peakseq} & \rotatebox{90}{DBChIP-quest} & \rotatebox{90}{DBChIP-macs} & \rotatebox{90}{DBChIP-peakseq} \\
+    \hline
+    MAnorm-macs &     &     &     &     &     &     \\
+    MAnorm-quest &     &     &     &     &     &     \\
+    MAnorm-peakseq &     &     &     &     &     &     \\
+    DBChIP-quest &     &     &     &     &     &     \\
+    DBChIP-macs & $+$ &     &     &     &     &     \\
+    DBChIP-peakseq & $*$ &     &     &     &     &     \\
+    \hline
+  \end{tabular}
+\end{center}
+\caption[Friedman-Nemenyi test of SPCs for TF experiments]{Results based on TF experiments. We consider different combinations of two-stage DPC and underlying SPC. Friedman-Nemenyi hypothesis test results for the \textbf{AUC} metric. The asterisk and the cross, respectively, mean that the method in the column outperformed the method in the row with significance levels of 0.05 and 0.1.}
+\label{tab_preprocess_spc_tf_sig}
+\end{table}
+
+
+\begin{table}[h!]
+\begin{center}
+\renewcommand{\arraystretch}{1.2}
+  \begin{tabular}{ |lr| }
+    \hline
+    \multicolumn{2}{|c|}{\textbf{AUC}} \\
+    \hline
+    MAnorm-macs & 1.3929 \\
+    MAnorm-quest & 2.4286 \\
+    MAnorm-peakseq & 3.1429 \\
+    DESeq-quest & 4.2143 \\
+    DESeq-macs & 4.75 \\
+    DESeq-peakseq & 5.0714 \\
+    \hline
+  \end{tabular}
+\end{center}
+\caption[Friedman ranking of SPCs for histone experiments]{Results based on histone experiments. We consider different combinations of two-stage DPC and underlying SPC. We constrain our analysis on chromosome 1 and use $h=50$ and $H=500$ for the DAGE score. Friedman ranking: for each metric, the methods are displayed in decreasing order with their respective Friedman ranking.}
+\label{tab_preprocess_spc_hist}
+\end{table}
+
+\begin{table}[h!]
+\begin{center}
+\vspace{0.5cm}
+\renewcommand{\arraystretch}{1.2}
+  \begin{tabular}{ rcccccc }
+    & \rotatebox{90}{MAnorm-macs} & \rotatebox{90}{MAnorm-quest} & \rotatebox{90}{MAnorm-peakseq} & \rotatebox{90}{DESeq-quest} & \rotatebox{90}{DESeq-macs} & \rotatebox{90}{DESeq-peakseq} \\
+    \hline
+    MAnorm-macs &     &     &     &     &     &     \\
+    MAnorm-quest &     &     &     &     &     &     \\
+    MAnorm-peakseq &     &     &     &     &     &     \\
+    DESeq-quest & $*$ &     &     &     &     &     \\
+    DESeq-macs & $*$ & $*$ &     &     &     &     \\
+    DESeq-peakseq & $*$ & $*$ & $+$ &     &     &     \\
+    \hline
+  \end{tabular}
+\end{center}
+\caption[Friedman-Nemenyi test of SPCs for histone experiments]{Results based on histone experiments. We consider different combinations of two-stage DPC and underlying SPC. Friedman-Nemenyi hypothesis test results for the \textbf{AUC} metric. The asterisk and the cross, respectively, mean that the method in the column outperformed the method in the row with significance levels of 0.05 and 0.1.}
+\label{tab_preprocess_spc_hist_sig}
+\end{table}
+
+
+% % % % % % % % % % % % % % % % % % p-value comparison, ODIN, DESeq and edgeR
+\begin{table}[h!]
+\begin{center}
+\renewcommand{\arraystretch}{1.2}
+  \begin{tabular}{ |lr| }
+    \hline
+    \multicolumn{2}{|c|}{\textbf{AUC}} \\
+    \hline
+    ODIN & 1.1875 \\
+    ODIN-deseq & 2.3125 \\
+    ODIN-edgeR & 2.5 \\
+    \hline
+  \end{tabular}
+\end{center}
+\caption[Friedman ranking of $p$-value estimation strategies for TF experiments]{Results based on TF experiments. We constrain our analysis on chromosome~1 and use $h=50$ and $H=500$ for the DAGE score. Friedman ranking: for each metric, the methods are displayed in decreasing order with their respective Friedman ranking.}
+\label{tab_pvaluecomp_tf}
+\end{table}
+
+
+
+\begin{table}[h!]
+\begin{center}
+\renewcommand{\arraystretch}{1.2}
+  \begin{tabular}{ |lr| }
+    \hline
+    \multicolumn{2}{|c|}{\textbf{AUC}} \\
+    \hline
+    ODIN & 1.2143 \\
+    ODIN-deseq & 1.8571 \\
+    ODIN-edgeR & 2.9286 \\
+    \hline
+  \end{tabular}
+\end{center}
+\caption[Friedman ranking of $p$-value estimation strategies for histone experiments]{Results based on histone experiments. We constrain our analysis on chromosome~1 and use $h=50$ and $H=500$ for the DAGE score. Friedman ranking: for each metric, the methods are displayed in decreasing order with their respective Friedman ranking.}
+\label{tab_pvaluecomp_hist}
+\end{table}
+
+
+\clearpage
+% % % % %  picture
+% \begin{figure}[ht]
+%   \centering
+%    \includegraphics[width=14cm]{pics/example_irf1}
+% \caption[Example DPC for TLR4 study]{Example for data based on \cite{kaikonnen2013}: gene Irf1 with histone, TF and GROseq data for the untreated condition as well as the condition after $24$h treatment. We can see that both the coding region of Irf1 and an upstream region of Irf1 (a potential lncRNA) have expression changes in the vicinity of differential peaks.}
+% \label{fig_example_irf1}
+% \end{figure}
+
+
+\clearpage
+\subsection{DAGE}
+
+\begin{figure}[h!]
+\begin{center}
+   \includegraphics[width=14cm]{pics/dage_results1}
+\end{center}
+\caption[DAGE curves for TLR4 study (histones)]{DAGE results for histone experiments (based on \cite{kaikonnen2013})}
+\label{fig_dage1}
+\end{figure}
+
+\begin{figure}[ht]
+\begin{center}
+   \includegraphics[width=14cm]{pics/dage_results2}
+\end{center}
+\caption[DAGE curves for TLR4 study (TFs)] {DAGE results for TF experiments (based on \cite{kaikonnen2013})}
+\label{fig_dage2}
+\end{figure}
+
+\begin{figure}[ht]
+\begin{center}
+   \includegraphics[width=14cm]{pics/dage_results3}
+\end{center}
+\caption[DAGE curves for DC study (histones)]{DAGE results for histone experiments (based on \cite{Lin2015}}
+\label{fig_dage3}
+\end{figure}
+
+\begin{figure}[ht]
+\begin{center}
+   \includegraphics[width=14cm]{pics/dage_results4}
+\end{center}
+\caption[DAGE curves for DC study (TFs)]{DAGE results for TF experiments (based on \cite{Lin2015}}
+\label{fig_dage4}
+\end{figure}
+
+\clearpage
+
+% % % % % % % % % % % % % without ChIPDiff
+\begin{table}[h!]
+\begin{center}
+\renewcommand{\arraystretch}{1.2}
+  \begin{tabular}{ |lr| }
+    \hline
+    \multicolumn{2}{|c|}{\textbf{AUC}} \\
+    \hline
+    ODIN-poisson-1 & 1.875 \\
+    ODIN-binomial & 2.1875 \\
+    MAnorm-macs & 3.4063 \\
+    MACS2 & 3.6563 \\
+    DBChIP-quest & 3.875 \\
+    \hline
+  \end{tabular}
+\end{center}
+\caption[Friedman ranking of DAGE results for TF experiments]{DAGE results based on TF experiments. We use $h=200$ and $H=10000$ for the DAGE score. Friedman ranking: for each metric, the methods are displayed in decreasing order with their respective Friedman ranking.}
+\label{tab_dage_tf}
+\end{table}
+
+
+
+\begin{table}[h!]
+\begin{center}
+\renewcommand{\arraystretch}{1.2}
+  \begin{tabular}{ |lr| }
+    \hline
+    \multicolumn{2}{|c|}{\textbf{AUC}} \\
+    \hline
+    ODIN-binomial & 1.6429 \\
+    ODIN-poisson-4 & 2.0 \\
+    MAnorm-macs & 3.2857 \\
+    MACS2 & 3.3571 \\
+    DEseq-quest & 4.7143 \\
+    \hline
+  \end{tabular}
+\end{center}
+\caption[Friedman ranking of DAGE results for histone experiments]{DAGE results based on histone experiments. We use $h=200$ and $H=10000$ for the DAGE score. Friedman ranking: for each metric, the methods are displayed in decreasing order with their respective Friedman ranking.}
+\label{tab_dage_hist}
+\end{table}
+
+
+
+
+
+
+% % % % % % % % % % with ChIPDiff
+\begin{table}[h!]
+\begin{center}
+\renewcommand{\arraystretch}{1.2}
+  \begin{tabular}{ |lr| }
+    \hline
+    \multicolumn{2}{|c|}{\textbf{AUC}} \\
+    \hline
+    ODIN & 2.1875 \\
+    ODIN-poisson-1 & 2.3125 \\
+    MACS2 & 3.75 \\
+    ChIPDiff & 4.0 \\
+    MAnorm-macs & 4.125 \\
+    DBChIP-quest & 4.625 \\
+    \hline
+  \end{tabular}
+\end{center}
+\caption[Friedman ranking of DAGE results with ChIPDiff for TF experiments]{DAGE results with ChIPDiff based on TF experiments. We use $h=200$; $H$ equals the number of DPs called by ChIPDiff. Friedman ranking: for each metric, the methods are displayed in decreasing order with their respective Friedman ranking.}
+\label{tab_dagechipdiff_tf}
+\end{table}
+
+\begin{table}[h!]
+\begin{center}
+\vspace{0.5cm}
+\renewcommand{\arraystretch}{1.2}
+  \begin{tabular}{ rcccccc }
+    & \rotatebox{90}{ODIN} & \rotatebox{90}{ODIN-poisson-1} & \rotatebox{90}{MACS2} & \rotatebox{90}{ChIPDiff} & \rotatebox{90}{MAnorm-macs} & \rotatebox{90}{DBChIP-quest} \\
+    \hline
+    ODIN &     &     &     &     &     &     \\
+    ODIN-poisson-1 &     &     &     &     &     &     \\
+    MACS2 &     &     &     &     &     &     \\
+    ChIPDiff & $+$ &     &     &     &     &     \\
+    MAnorm-macs & $*$ & $+$ &     &     &     &     \\
+    DBChIP-quest & $*$ & $*$ &     &     &     &     \\
+    \hline
+  \end{tabular}
+\end{center}
+\caption[Friedman-Nemenyi test of DAGE results with ChIPDiff for TF experiments]{DAGE results with ChIPDiff based on TF experiments. Friedman-Nemenyi hypothesis test results for the \textbf{AUC} metric. The asterisk and the cross, respectively, mean that the method in the column outperformed the method in the row with significance levels of 0.05 and 0.1.}
+\label{tab_dagechipdiff_tf_sig}
+\end{table}
+
+
+\begin{table}[h!]
+\begin{center}
+\renewcommand{\arraystretch}{1.2}
+  \begin{tabular}{ |lr| }
+    \hline
+    \multicolumn{2}{|c|}{\textbf{AUC}} \\
+    \hline
+    ODIN-poisson-4 & 2.5 \\
+    ODIN & 2.5714 \\
+    MAnorm-macs & 3.4286 \\
+    ChIPDiff & 3.6429 \\
+    MACS2 & 3.7143 \\
+    DESeq-quest & 5.1429 \\
+    \hline
+  \end{tabular}
+\end{center}
+\caption[Friedman ranking of DAGE results with ChIPDiff for histone experiments]{DAGE results with ChIPDiff based on histone experiments. We use $h=200$; $H$ equals the number of DPs called by ChIPDiff. Friedman ranking: for each metric, the methods are displayed in decreasing order with their respective Friedman ranking.}
+\label{tab_dagechipdiff_hist}
+\end{table}
+
+\begin{table}[h!]
+\begin{center}
+\vspace{0.5cm}
+\renewcommand{\arraystretch}{1.2}
+  \begin{tabular}{ rcccccc }
+    & \rotatebox{90}{ODIN-poisson-4} & \rotatebox{90}{ODIN} & \rotatebox{90}{MAnorm-macs} & \rotatebox{90}{ChIPDiff} & \rotatebox{90}{MACS2} & \rotatebox{90}{DESeq-quest} \\
+    \hline
+    ODIN-poisson-4 &     &     &     &     &     &     \\
+    ODIN &     &     &     &     &     &     \\
+    MAnorm-macs &     &     &     &     &     &     \\
+    ChIPDiff &     &     &     &     &     &     \\
+    MACS2 &     &     &     &     &     &     \\
+    DESeq-quest & $*$ & $*$ &     &     &     &     \\
+    \hline
+  \end{tabular}
+\end{center}
+\caption[Friedman-Nemenyi test of DAGE results with ChIPDiff for histone experiments]{DAGE results with ChIPDiff based on histone experiments. Friedman-Nemenyi hypothesis test results for the \textbf{AUC} metric. The asterisk and the cross, respectively, mean that the method in the column outperformed the method in the row with significance levels of 0.05 and 0.1.}
+\label{tab_dagechipdiff_hist_sig}
+\end{table}
+
+\clearpage
+\section{Results with THOR}
+
+
+\subsection{Simulation}
+% % % % % % % % % altogether
+\begin{table}[h!]
+\begin{center}
+\renewcommand{\arraystretch}{1.2}
+  \begin{tabular}{ |lr| }
+    \hline
+    \multicolumn{2}{|c|}{\textbf{AUC}} \\
+    \hline
+    THOR & 1.0652 \\
+    MACS2 & 3.0598 \\
+    DESeq-JAMM & 3.9185 \\
+    DiffReps & 4.087 \\
+    DESeq-IDR & 4.4891 \\
+    DiffBind & 5.0761 \\
+    Poisson-THOR & 6.3043 \\
+    \hline
+  \end{tabular}
+\end{center}
+\caption[Friedman ranking of simulated data with replicates]{Friedman ranking of simulated data for all parameter settings based on the AUC statistic (see main document Section~4.3.3 for details). The methods are displayed in decreasing order with their respective Friedman ranking.}
+\label{tab_res_with_rep_sim_all}
+\end{table}
+
+% % % % % % % %  separate conditions
+
+% % % % % % % % % % % % % simulation condition specific, 2 replicates
+% low within variance, moderate peak size variablity
+\begin{table}[h!]
+\begin{center}
+\vspace{0.5cm}
+\renewcommand{\arraystretch}{1.2}
+  \begin{tabular}{ rccccccc }
+    & \rotatebox{90}{THOR} & \rotatebox{90}{DESeq-IDR} & \rotatebox{90}{MACS2} & \rotatebox{90}{DiffReps} & \rotatebox{90}{DiffBind} & \rotatebox{90}{DESeq-JAMM} & \rotatebox{90}{Poisson-THOR} \\
+    \hline
+    THOR &     &     &     &     &     &     &     \\
+    DESeq-IDR &     &     &     &     &     &     &     \\
+    MACS2 &     &     &     &     &     &     &     \\
+    DiffReps & $*$ &     &     &     &     &     &     \\
+    DiffBind & $*$ & $*$ & $+$ &     &     &     &     \\
+    DESeq-JAMM & $*$ & $*$ & $*$ &     &     &     &     \\
+    Poisson-THOR & $*$ & $*$ & $*$ & $*$ &     &     &     \\
+    \hline
+  \end{tabular}
+\end{center}
+\caption[Friedman-Nemenyi test of sim. data for: 2 rep/low within/mod. peak]{Friedman-Nemenyi hypothesis test results for the \textbf{AUC} metric. We consider the case with 2 replicates, low within condition variance, and moderate peak size variability. The asterisk and the cross, respectively, mean that the method in the column outperformed the method in the row with significance levels of 0.05 and 0.1.}
+\label{res_with_sep_cond_low_mod_2rep}
+\end{table}
+
+% medium within variance, moderate peak size variablity
+\begin{table}[h!]
+\begin{center}
+\vspace{0.5cm}
+\renewcommand{\arraystretch}{1.2}
+  \begin{tabular}{ rccccccc }
+    & \rotatebox{90}{THOR} & \rotatebox{90}{DESeq-IDR} & \rotatebox{90}{MACS2} & \rotatebox{90}{DiffReps} & \rotatebox{90}{DiffBind} & \rotatebox{90}{DESeq-JAMM} & \rotatebox{90}{Poisson-THOR} \\
+    \hline
+    THOR &     &     &     &     &     &     &     \\
+    DESeq-IDR &     &     &     &     &     &     &     \\
+    MACS2 &     &     &     &     &     &     &     \\
+    DiffReps & $*$ &     &     &     &     &     &     \\
+    DiffBind & $*$ & $*$ & $+$ &     &     &     &     \\
+    DESeq-JAMM & $*$ & $*$ & $*$ &     &     &     &     \\
+    Poisson-THOR & $*$ & $*$ & $*$ & $*$ &     &     &     \\
+    \hline
+  \end{tabular}
+\end{center}
+\caption[Friedman-Nemenyi test of sim. data for: 2 rep/medium within/mod. peak]{Friedman-Nemenyi hypothesis test results for the \textbf{AUC} metric. We consider the case with 2 replicates, medium within condition variance, and moderate peak size variability. The asterisk and the cross, respectively, mean that the method in the column outperformed the method in the row with significance levels of 0.05 and 0.1.}
+\label{res_with_sep_cond_medium_mod_2rep}
+\end{table}
+
+% high within variance, moderate peak size variablity
+\begin{table}[h!]
+\begin{center}
+\vspace{0.5cm}
+\renewcommand{\arraystretch}{1.2}
+  \begin{tabular}{ rccccccc }
+    & \rotatebox{90}{THOR} & \rotatebox{90}{DESeq-IDR} & \rotatebox{90}{MACS2} & \rotatebox{90}{DiffReps} & \rotatebox{90}{DiffBind} & \rotatebox{90}{DESeq-JAMM} & \rotatebox{90}{Poisson-THOR} \\
+    \hline
+    THOR &     &     &     &     &     &     &     \\
+    DESeq-IDR &     &     &     &     &     &     &     \\
+    MACS2 &     &     &     &     &     &     &     \\
+    DiffReps & $*$ & $+$ &     &     &     &     &     \\
+    DiffBind & $*$ & $*$ &     &     &     &     &     \\
+    DESeq-JAMM & $*$ & $*$ & $*$ &     &     &     &     \\
+    Poisson-THOR & $*$ & $*$ & $*$ &     &     &     &     \\
+    \hline
+  \end{tabular}
+\end{center}
+\caption[Friedman-Nemenyi test of sim. data for: 2 rep/high within/mod. peak]{Friedman-Nemenyi hypothesis test results for the \textbf{AUC} metric. We consider the case with 2 replicates, high within condition variance, and moderate peak size variability. The asterisk and the cross, respectively, mean that the method in the column outperformed the method in the row with significance levels of 0.05 and 0.1.}
+\label{res_with_sep_cond_high_mod_2rep}
+\end{table}
+
+% low within variance, high peak size variablity
+\begin{table}[h!]
+\begin{center}
+\vspace{0.5cm}
+\renewcommand{\arraystretch}{1.2}
+  \begin{tabular}{ rccccccc }
+    & \rotatebox{90}{THOR} & \rotatebox{90}{DESeq-IDR} & \rotatebox{90}{MACS2} & \rotatebox{90}{DiffReps} & \rotatebox{90}{DESeq-JAMM} & \rotatebox{90}{Poisson-THOR} & \rotatebox{90}{DiffBind} \\
+    \hline
+    THOR &     &     &     &     &     &     &     \\
+    DESeq-IDR &     &     &     &     &     &     &     \\
+    MACS2 &     &     &     &     &     &     &     \\
+    DiffReps & $*$ & $+$ &     &     &     &     &     \\
+    DESeq-JAMM & $*$ & $*$ &     &     &     &     &     \\
+    Poisson-THOR & $*$ & $*$ & $*$ &     &     &     &     \\
+    DiffBind & $*$ & $*$ & $*$ & $*$ &     &     &     \\
+    \hline
+  \end{tabular}
+\end{center}
+\caption[Friedman-Nemenyi test of sim. data for: 2 rep/low within/high peak]{Friedman-Nemenyi hypothesis test results for the \textbf{AUC} metric. We consider the case with 2 replicates, low within condition variance, and high peak size variability. The asterisk and the cross, respectively, mean that the method in the column outperformed the method in the row with significance levels of 0.05 and 0.1.}
+\label{res_with_sep_cond_low_high_2rep}
+\end{table}
+
+% medium within variance, high peak size variablity
+\begin{table}[h!]
+\begin{center}
+\vspace{0.5cm}
+\renewcommand{\arraystretch}{1.2}
+  \begin{tabular}{ rccccccc }
+    & \rotatebox{90}{THOR} & \rotatebox{90}{DESeq-IDR} & \rotatebox{90}{MACS2} & \rotatebox{90}{DiffReps} & \rotatebox{90}{DESeq-JAMM} & \rotatebox{90}{Poisson-THOR} & \rotatebox{90}{DiffBind} \\
+    \hline
+    THOR &     &     &     &     &     &     &     \\
+    DESeq-IDR &     &     &     &     &     &     &     \\
+    MACS2 &     &     &     &     &     &     &     \\
+    DiffReps & $*$ &     &     &     &     &     &     \\
+    DESeq-JAMM & $*$ & $*$ & $+$ &     &     &     &     \\
+    Poisson-THOR & $*$ & $*$ & $*$ &     &     &     &     \\
+    DiffBind & $*$ & $*$ & $*$ & $*$ &     &     &     \\
+    \hline
+  \end{tabular}
+\end{center}
+\caption[Friedman-Nemenyi test of sim. data for: 2 rep/medium within/high peak]{Friedman-Nemenyi hypothesis test results for the \textbf{AUC} metric. We consider the case with 2 replicates, medium within condition variance, and high peak size variability. The asterisk and the cross, respectively, mean that the method in the column outperformed the method in the row with significance levels of 0.05 and 0.1.}
+\label{res_with_sep_cond_medium_high_2rep}
+\end{table}
+
+% high within variance, high peak size variablity
+\begin{table}[h!]
+\begin{center}
+\vspace{0.5cm}
+\renewcommand{\arraystretch}{1.2}
+  \begin{tabular}{ rccccccc }
+    & \rotatebox{90}{THOR} & \rotatebox{90}{DESeq-IDR} & \rotatebox{90}{MACS2} & \rotatebox{90}{DiffReps} & \rotatebox{90}{Poisson-THOR} & \rotatebox{90}{DESeq-JAMM} & \rotatebox{90}{DiffBind} \\
+    \hline
+    THOR &     &     &     &     &     &     &     \\
+    DESeq-IDR &     &     &     &     &     &     &     \\
+    MACS2 & $*$ &     &     &     &     &     &     \\
+    DiffReps & $*$ & $+$ &     &     &     &     &     \\
+    Poisson-THOR & $*$ & $*$ &     &     &     &     &     \\
+    DESeq-JAMM & $*$ & $*$ &     &     &     &     &     \\
+    DiffBind & $*$ & $*$ & $*$ & $+$ &     &     &     \\
+    \hline
+  \end{tabular}
+\end{center}
+\caption[Friedman-Nemenyi test of sim. data for: 2 rep/high within/high peak]{Friedman-Nemenyi hypothesis test results for the \textbf{AUC} metric. We consider the case with 2 replicates, high within condition variance, and high peak size variability. The asterisk and the cross, respectively, mean that the method in the column outperformed the method in the row with significance levels of 0.05 and 0.1.}
+\label{res_with_sep_cond_high_high_2rep}
+\end{table}
+
+% 4 replicates
+% low within variance, moderate peak size variablity
+\begin{table}[h!]
+\begin{center}
+\vspace{0.5cm}
+\renewcommand{\arraystretch}{1.2}
+  \begin{tabular}{ rccccccc }
+    & \rotatebox{90}{THOR} & \rotatebox{90}{DESeq-JAMM} & \rotatebox{90}{MACS2} & \rotatebox{90}{DiffReps} & \rotatebox{90}{DiffBind} & \rotatebox{90}{Poisson-THOR} & \rotatebox{90}{DESeq-IDR} \\
+    \hline
+    THOR &     &     &     &     &     &     &     \\
+    DESeq-JAMM &     &     &     &     &     &     &     \\
+    MACS2 &     &     &     &     &     &     &     \\
+    DiffReps & $*$ &     &     &     &     &     &     \\
+    DiffBind & $*$ & $*$ &     &     &     &     &     \\
+    Poisson-THOR & $*$ & $*$ & $*$ &     &     &     &     \\
+    DESeq-IDR & $*$ & $*$ & $*$ & $*$ &     &     &     \\
+    \hline
+  \end{tabular}
+\end{center}
+\caption[Friedman-Nemenyi test of sim. data for: 4 rep/low within/mod. peak]{Friedman-Nemenyi hypothesis test results for the \textbf{AUC} metric. We consider the case with 4 replicates, low within condition variance, and moderate peak size variability. The asterisk and the cross, respectively, mean that the method in the column outperformed the method in the row with significance levels of 0.05 and 0.1.}
+\label{res_with_sep_cond_low_mod_4rep}
+\end{table}
+
+% medium within variance, moderate peak size variablity
+\begin{table}[h!]
+\begin{center}
+\vspace{0.5cm}
+\renewcommand{\arraystretch}{1.2}
+  \begin{tabular}{ rccccccc }
+    & \rotatebox{90}{THOR} & \rotatebox{90}{DESeq-JAMM} & \rotatebox{90}{MACS2} & \rotatebox{90}{DiffReps} & \rotatebox{90}{DiffBind} & \rotatebox{90}{Poisson-THOR} & \rotatebox{90}{DESeq-IDR} \\
+    \hline
+    THOR &     &     &     &     &     &     &     \\
+    DESeq-JAMM &     &     &     &     &     &     &     \\
+    MACS2 &     &     &     &     &     &     &     \\
+    DiffReps & $*$ &     &     &     &     &     &     \\
+    DiffBind & $*$ & $*$ &     &     &     &     &     \\
+    Poisson-THOR & $*$ & $*$ & $*$ &     &     &     &     \\
+    DESeq-IDR & $*$ & $*$ & $*$ & $*$ &     &     &     \\
+    \hline
+  \end{tabular}
+\end{center}
+\caption[Friedman-Nemenyi test of sim. data for: 4 rep/medium within/mod. peak]{Friedman-Nemenyi hypothesis test results for the \textbf{AUC} metric. We consider the case with 4 replicates, medium within condition variance, and moderate peak size variability. The asterisk and the cross, respectively, mean that the method in the column outperformed the method in the row with significance levels of 0.05 and 0.1.}
+\label{res_with_sep_cond_medium_mod_4rep}
+\end{table}
+
+% high within variance, moderate peak size variablity
+\begin{table}[h!]
+\begin{center}
+\vspace{0.5cm}
+\renewcommand{\arraystretch}{1.2}
+  \begin{tabular}{ rccccccc }
+    & \rotatebox{90}{THOR} & \rotatebox{90}{DESeq-JAMM} & \rotatebox{90}{MACS2} & \rotatebox{90}{DiffReps} & \rotatebox{90}{DiffBind} & \rotatebox{90}{Poisson-THOR} & \rotatebox{90}{DESeq-IDR} \\
+    \hline
+    THOR &     &     &     &     &     &     &     \\
+    DESeq-JAMM &     &     &     &     &     &     &     \\
+    MACS2 &     &     &     &     &     &     &     \\
+    DiffReps & $*$ &     &     &     &     &     &     \\
+    DiffBind & $*$ & $*$ &     &     &     &     &     \\
+    Poisson-THOR & $*$ & $*$ & $*$ &     &     &     &     \\
+    DESeq-IDR & $*$ & $*$ & $*$ & $*$ &     &     &     \\
+    \hline
+  \end{tabular}
+\end{center}
+\caption[Friedman-Nemenyi test of sim. data for: 4 rep/high within/mod. peak]{Friedman-Nemenyi hypothesis test results for the \textbf{AUC} metric. We consider the case with 4 replicates, high within condition variance, and moderate peak size variability. The asterisk and the cross, respectively, mean that the method in the column outperformed the method in the row with significance levels of 0.05 and 0.1.}
+\label{res_with_sep_cond_high_mod_4rep}
+\end{table}
+
+% low within variance, high peak size variablity
+\begin{table}[h!]
+\begin{center}
+\vspace{0.5cm}
+\renewcommand{\arraystretch}{1.2}
+  \begin{tabular}{ rccccccc }
+    & \rotatebox{90}{THOR} & \rotatebox{90}{DESeq-JAMM} & \rotatebox{90}{MACS2} & \rotatebox{90}{DiffReps} & \rotatebox{90}{DiffBind} & \rotatebox{90}{Poisson-THOR} & \rotatebox{90}{DESeq-IDR} \\
+    \hline
+    THOR &     &     &     &     &     &     &     \\
+    DESeq-JAMM &     &     &     &     &     &     &     \\
+    MACS2 &     &     &     &     &     &     &     \\
+    DiffReps & $*$ &     &     &     &     &     &     \\
+    DiffBind & $*$ & $*$ &     &     &     &     &     \\
+    Poisson-THOR & $*$ & $*$ & $*$ &     &     &     &     \\
+    DESeq-IDR & $*$ & $*$ & $*$ & $*$ &     &     &     \\
+    \hline
+  \end{tabular}
+\end{center}
+\caption[Friedman-Nemenyi test of sim. data for: 4 rep/low within/high peak]{Friedman-Nemenyi hypothesis test results for the \textbf{AUC} metric. We consider the case with 4 replicates, low within condition variance, and high peak size variability. The asterisk and the cross, respectively, mean that the method in the column outperformed the method in the row with significance levels of 0.05 and 0.1.}
+\label{res_with_sep_cond_low_high_4rep}
+\end{table}
+
+% medium within variance, high peak size variablity
+\begin{table}[h!]
+\begin{center}
+\vspace{0.5cm}
+\renewcommand{\arraystretch}{1.2}
+  \begin{tabular}{ rccccccc }
+    & \rotatebox{90}{THOR} & \rotatebox{90}{DESeq-JAMM} & \rotatebox{90}{MACS2} & \rotatebox{90}{DiffReps} & \rotatebox{90}{DiffBind} & \rotatebox{90}{Poisson-THOR} & \rotatebox{90}{DESeq-IDR} \\
+    \hline
+    THOR &     &     &     &     &     &     &     \\
+    DESeq-JAMM &     &     &     &     &     &     &     \\
+    MACS2 &     &     &     &     &     &     &     \\
+    DiffReps & $*$ &     &     &     &     &     &     \\
+    DiffBind & $*$ & $*$ &     &     &     &     &     \\
+    Poisson-THOR & $*$ & $*$ & $*$ &     &     &     &     \\
+    DESeq-IDR & $*$ & $*$ & $*$ & $*$ &     &     &     \\
+    \hline
+  \end{tabular}
+\end{center}
+\caption[Friedman-Nemenyi test of sim. data for: 4 rep/medium within/high peak]{Friedman-Nemenyi hypothesis test results for the \textbf{AUC} metric. We consider the case with 4 replicates, medium within condition variance, and high peak size variability. The asterisk and the cross, respectively, mean that the method in the column outperformed the method in the row with significance levels of 0.05 and 0.1.}
+\label{res_with_sep_cond_medium_high_4rep}
+\end{table}
+
+% high within variance, high peak size variablity
+\begin{table}[h!]
+\begin{center}
+\vspace{0.5cm}
+\renewcommand{\arraystretch}{1.2}
+  \begin{tabular}{ rccccccc }
+    & \rotatebox{90}{THOR} & \rotatebox{90}{DESeq-JAMM} & \rotatebox{90}{MACS2} & \rotatebox{90}{DiffReps} & \rotatebox{90}{DiffBind} & \rotatebox{90}{Poisson-THOR} & \rotatebox{90}{DESeq-IDR} \\
+    \hline
+    THOR &     &     &     &     &     &     &     \\
+    DESeq-JAMM &     &     &     &     &     &     &     \\
+    MACS2 &     &     &     &     &     &     &     \\
+    DiffReps & $*$ &     &     &     &     &     &     \\
+    DiffBind & $*$ & $*$ &     &     &     &     &     \\
+    Poisson-THOR & $*$ & $*$ & $*$ &     &     &     &     \\
+    DESeq-IDR & $*$ & $*$ & $*$ & $*$ &     &     &     \\
+    \hline
+  \end{tabular}
+\end{center}
+\caption[Friedman-Nemenyi test of sim. data for: 4 rep/high within/high peak]{Friedman-Nemenyi hypothesis test results for the \textbf{AUC} metric. We consider the case with 4 replicates, high within condition variance, and high peak size variability. The asterisk and the cross, respectively, mean that the method in the column outperformed the method in the row with significance levels of 0.05 and 0.1.}
+\label{res_with_sep_cond_high_high_4rep}
+\end{table}
+
+
+\clearpage
+\newpage
+
+\subsection{Parameter Selection}
+% % % % % % % % % % % % % % % % % % % % 
+% % % % % % % % % % % % % % % % % % % % RESULTS FOR INITIAL THOR PARAMTER (FRIEDMAN)
+% % % % % % % % % % % % % % % % % % % % 
+
+\begin{table}[h!]
+\begin{center}
+\renewcommand{\arraystretch}{1.2}
+  \begin{tabular}{ |lr| }
+    \hline
+    \multicolumn{2}{|c|}{\textbf{AUC}} \\
+    \hline
+    THOR-1.6/95 & 2.2857 \\
+    THOR-1.3/95 & 2.4286 \\
+    THOR-1.6/99 & 2.5 \\
+    THOR-1.3/99 & 2.7857 \\
+    \hline
+  \end{tabular}
+\end{center}
+\caption[Friedman ranking of THOR's parametrization]{Friedman ranking based on DCA score ($h=100, H=1000$). We evaluate the initial parameter setting of THOR, that is, $t_1 \in \{\langle x \rangle^{.95}, \langle x \rangle^{.99}\}$ and $t_2 \in \{1.3, 1.6\}$ where $t_1$ is the fold change criteria and $t_2$ the minimum difference between signals based on percentile estimates (see main document Section~4.3.4 for details). The analysis is restricted to chromosome 1. For each metric, the methods are displayed in decreasing order with their respective Friedman ranking.}
+\label{tab_dca_initial}
+\end{table}
+
+\begin{table}[h!]
+\begin{center}
+\vspace{0.5cm}
+\renewcommand{\arraystretch}{1.2}
+  \begin{tabular}{ rcccc }
+    & \rotatebox{90}{THOR-1.6/95} & \rotatebox{90}{THOR-1.3/95} & \rotatebox{90}{THOR-1.6/99} & \rotatebox{90}{THOR-1.3/99} \\
+    \hline
+    THOR-1.6/95 &     &     &     &     \\
+    THOR-1.3/95 &     &     &     &     \\
+    THOR-1.6/99 &     &     &     &     \\
+    THOR-1.3/99 &     &     &     &     \\
+    \hline
+  \end{tabular}
+\end{center}
+\caption[Friedman-Nemenyi ranking of THOR's parametrization]{Friedman-Nemenyi hypothesis test results for the DCA score ($h=100, H=1000$) restricted to chromosome 1. The asterisk and the cross, respectively, mean that the method in the column outperformed the method in the row with significance levels of 0.05 and 0.1.}
+\label{tab_dca_initial_sig}
+\end{table}
+
+\clearpage
+\newpage
+
+% % % % % % % % % % % DCA curves
+\subsection{DCA}
+\begin{figure}[ht]
+  \begin{center}
+    \includegraphics[width=\textwidth]{pics/res_nestler.pdf}
+  \end{center}
+\caption[DCA curves for CO study]{DCA curves for CO study. We run THOR with TMM and housekeeping genes normalization approach. PePr required input-DNA and is therefore unable to call DPs.}
+\label{fig_dca_curves_co}
+\end{figure}
+
+\begin{figure}[ht]
+  \begin{center}
+    \includegraphics[width=\textwidth]{pics/res_zenke.pdf}
+  \end{center}
+\caption[DCA curves for DC study]{DCA curves for DC study. We run THOR with TMM and housekeeping genes normalization approach.}
+\label{fig_dca_curves_dc}
+\end{figure}
+
+\begin{figure}[ht]
+  \begin{center}
+    \includegraphics[width=\textwidth]{pics/res_payton.pdf}
+  \end{center}
+\caption[DCA curves for LYMP study]{DCA curves for LYMP study. We run THOR with TMM and housekeeping genes normalization approach.}
+\label{fig_dca_curves_lymp}
+\end{figure}
+
+
+\begin{figure}[ht]
+  \begin{center}
+    \includegraphics[width=\textwidth]{pics/res_blueprint.pdf}
+  \end{center}
+\caption[DCA curves for MM study]{DCA curves for MM study. We run THOR with TMM and housekeeping genes normalization approach. PePr required input-DNA and is therefore unable to call DPs.}
+\label{fig_dca_curves_mm}
+\end{figure}
+
+
+\clearpage
+\newpage
+% % % % % %  DCA tables
+% without pepr
+\begin{table}[h!]
+\begin{center}
+\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{ |lr| }
+    \hline
+    \multicolumn{2}{|c|}{\textbf{AUC}} \\
+    \hline
+    THOR-HK & 2.0 \\
+    THOR-TMM & 2.4286 \\
+    macs2 & 3.7857 \\
+    DiffReps & 4.4286 \\
+    DiffBind & 5.2143 \\
+    DESeqIDR & 5.6429 \\
+    Poisson-THOR & 5.7143 \\
+    csaw & 6.7857 \\
+    \hline
+  \end{tabular}
+\end{center}
+\caption[Friedman ranking of DCA results]{Friedman ranking based on DCA score ($h=500, H=10000$) for all datasets (CO, DC, LYMP and MM). The methods are displayed in decreasing order with their respective Friedman ranking.}
+\label{tab_res_real_with_rep_without_pepr}
+\end{table}
+
+
+\begin{table}[h!]
+\begin{center}
+\renewcommand{\arraystretch}{1.2}
+  \begin{tabular}{ |lr| }
+    \hline
+    \multicolumn{2}{|c|}{\textbf{AUC}} \\
+    \hline
+    THOR-HK & 2.3333 \\
+    THOR-TMM & 2.7778 \\
+    macs2 & 4.3333 \\
+    PePr & 4.6667 \\
+    DiffReps & 5.0 \\
+    DiffBind & 5.7778 \\
+    DESeqIDR & 6.0 \\
+    Poisson-THOR & 6.3333 \\
+    csaw & 7.7778 \\
+    \hline
+  \end{tabular}
+\end{center}
+\caption[Friedman ranking of DCA results with PePr]{Friedman ranking based on DCA score ($h=500, H=10000$) for datasets DC and LYMP. We restrict the analysis to DC and LYMP as PePr requires input-DNA which is not provided by CO and MM. The methods are displayed in decreasing order with their respective Friedman ranking.}
+\label{tab_res_real_with_rep_with_pepr}
+\end{table}
+
+\begin{table}[h!]
+\begin{center}
+\vspace{0.5cm}
+\renewcommand{\arraystretch}{1.2}
+  \begin{tabular}{ rccccccccc }
+    & \rotatebox{90}{THOR-HK} & \rotatebox{90}{THOR-TMM} & \rotatebox{90}{macs2} & \rotatebox{90}{PePr} & \rotatebox{90}{DiffReps} & \rotatebox{90}{DiffBind} & \rotatebox{90}{DESeqIDR} & \rotatebox{90}{Poisson-THOR} & \rotatebox{90}{csaw} \\
+    \hline
+    THOR-HK &     &     &     &     &     &     &     &     &     \\
+    THOR-TMM &     &     &     &     &     &     &     &     &     \\
+    macs2 &     &     &     &     &     &     &     &     &     \\
+    PePr &     &     &     &     &     &     &     &     &     \\
+    DiffReps &     &     &     &     &     &     &     &     &     \\
+    DiffBind &     &     &     &     &     &     &     &     &     \\
+    DESeqIDR &     &     &     &     &     &     &     &     &     \\
+    Poisson-THOR & $+$ &     &     &     &     &     &     &     &     \\
+    csaw & $*$ & $*$ &     &     &     &     &     &     &     \\
+    \hline
+  \end{tabular}
+\end{center}
+\caption[Friedman-Nemenyi test of DCA results with PePr]{Friedman-Nemenyi hypothesis test results for the DCA score ($h=500, H=10000$). The asterisk and the cross, respectively, mean that the method in the column outperformed the method in the row with significance levels of 0.05 and 0.1.}
+\label{tab_res_real_with_rep_with_pepr_sig}
+\end{table}
+
+\clearpage
+\newpage
+
+\subsection{Use Cases of THOR}
+
+\begin{table}[h!]
+\tiny
+\centering
+ \begin{tabular}{rlrlrcllc}
+ rank & chrom & pos & dbSNP rID & $-\log_{10}$ $p$-value & dir & Gene upstream & Gene downstream & Figure~\ref{fig_rsnps}? \\\hline
+1 & chr3 & 16553883 & rs2346911 & 99.8922475655 & - & RFTN1 (+1330) & OXNAD1 (+247178)       & \\
+2 & chr1 & 192776414 & rs1418718 & 77.6115468364 & - & RGS2 (-1757) & RGS13 (+171140) & X      \\
+3 & chr9 & 127562788 & rs750691 & 73.6809538923 & + & OLFML2A (+23239) & RPL35 (+61452)       & \\
+4 & chr9 & 127562973 & rs913232 & 73.6809538923 & + & OLFML2A (+23424) & RPL35 (+61267)       & \\
+5 & chr11 & 71752160 & rs7115200 & 69.3486017723 & + & LRTOMT (-39222) & IL18BP (+42052) & X      \\
+6 & chr1 & 192577986 & rs4130930 & 65.9782743138 & - & RGS13 (-27289) & RGS1 (+33130) & X      \\
+7 & chr1 & 192578763 & rs7538087 & 65.9782743138 & - & RGS13 (-26512) & RGS1 (+33907) & X      \\
+8 & chr17 & 74524652 & rs8077736 & 53.8122623004 & + & RHBDF2 (-27164) & CYGB (+9335)       & \\
+9 & chr10 & 6391031 & rs12416248 & 49.3236112959 & - & PFKFB3 (+146138) & PRKCQ (+231232)       & \\
+10 & chr11 & 65197393 & rs674485 & 43.6775100799 & - & SCYL1 (-95155) & FRMD8 (+43324) & X      \\
+11 & chr21 & 45615896 & rs2838520 & 36.4901273214 & - & ICOSLG (+44932) & C21orf33 (+62410)       & \\
+12 & chr21 & 45615917 & rs2838521 & 36.4901273214 & - & ICOSLG (+44911) & C21orf33 (+62431)       & \\
+13 & chr8 & 27247339 & rs34947559 & 26.0782531932 & + & PTK2B (+78341) & CHRNA2 (+89474) & X      \\
+14 & chr17 & 41400290 & NA & 25.3212748249 & + & ARL4D (-76037) & TMEM106A (+36397)       & \\
+15 & chr17 & 41400913 & NA & 25.3212748249 & + & ARL4D (-75414) & TMEM106A (+37020)       & \\
+16 & chr11 & 128496565 & rs949097 & 24.244683318 & + & FLI1 (-67325) & ETS1 (-39129)       & \\
+17 & chr17 & 56709222 & rs444393 & 24.1492427636 & - & SEPT4 (-91044) & TEX14 (+60162)       & \\
+18 & chr1 & 182558137 & rs10911102 & 21.5391751611 & + & RNASEL (+254) & RGSL1 (+138857)       & \\
+19 & chr6 & 167527097 & rs6909252 & 20.9400452035 & - & CCR6 (-9160) & FGFR1OP (+114428) & X      \\
+20 & chr1 & 147806874 & rs2999607 & 20.6529101183 & + & NBPF24 (-207326) & PPIAL4A (+148545)       & \\
+21 & chr1 & 147807277 & rs481176 & 20.6529101183 & + & NBPF24 (-207729) & PPIAL4A (+148142)       & \\
+22 & chr17 & 6659146 & rs955462 & 20.4274431857 & + & SLC13A5 (-42261) & XAF1 (-13)       & \\
+23 & chr1 & 151031667 & rs3806386 & 18.8647292719 & + & MLLT11 (+1434) & CDC42SE1 (+11134)       & \\
+24 & chr3 & 115377254 & rs13100660 & 18.168913574 & + & GAP43 (+34898) & LSAMP (+787124)       & \\
+25 & chr9 & 134144806 & rs7861111 & 17.4971632608 & + & PPAPDC3 (-20275) & NUP214 (+143859)       & \\
+26 & chr16 & 56946804 & rs711746 & 17.3017972487 & + & HERPUD1 (-19156) & SLC12A3 (+47686)       & \\
+27 & chr17 & 45213047 & NA & 17.1375858395 & - & RPRML (-156434) & CDC27 (+53495)       & \\
+28 & chrX & 15693367 & rs4830979 & 17.0962250807 & + & CA5B (-63026) & TMEM27 (-10214)       & \\
+29 & chrX & 15693461 & rs4830980 & 17.0962250807 & + & CA5B (-62932) & TMEM27 (-10308)       & \\
+30 & chr3 & 56591508 & rs73079894 & 15.0492637401 & + & CCDC66 (+308) & ARHGEF3 (+521828)       & \\
+31 & chr18 & 46549675 & rs4939571 & 14.2426089689 & + & SMAD7 (-72595) & DYM (+437497)       & \\
+32 & chr6 & 88182439 & rs2273129 & 14.2079766474 & + & SLC35A1 (-256) & C6orf163 (+127869)       & \\
+33 & chr2 & 44588941 & rs698775 & 14.0871764676 & + & PREPL (-309) & CAMKMT (-162)       & \\
+34 & chr20 & 56056342 & rs1001752 & 14.0111470481 & - & CTCFL (+43821) & RBM38 (+89880)       & \\
+35 & chr7 & 1979750 & rs10950456 & 13.7186584489 & + & ELFN1 (+251996) & MAD1L1 (+293128)       & \\
+36 & chr17 & 67323781 & rs333938 & 13.3851108104 & + & MAP2K6 (-87058) & ABCA5 (-540)       & \\
+37 & chr7 & 22862192 & rs2270106 & 13.313357982 & + & TOMM7 (+278) & IL6 (+96690)       & \\
+38 & chr22 & 48494758 & rs5768350 & 12.1807933237 & + & FAM19A5 (-390514)        \\
+39 & chr1 & 43418026 & rs2297972 & 11.1639466495 & + & SLC2A1 (+6475) & ZNF691 (+105720)       & \\
+40 & chr4 & 64378 & NA & 11.0619722048 & + & ZNF595 (+11169) & ZNF732 (+234732)       & \\
+41 & chr22 & 46984098 & rs1883193 & 10.9788053627 & + & CELSR1 (-51032) & GRAMD4 (-32201)       & \\
+42 & chr22 & 46984100 & rs1883192 & 10.9788053627 & + & CELSR1 (-51034) & GRAMD4 (-32199)       & \\
+43 & chr22 & 46984268 & rs909558 & 10.9788053627 & + & CELSR1 (-51202) & GRAMD4 (-32031)       & \\
+44 & chr5 & 149793457 & rs1560661 & 10.6980883333 & + & CD74 (-1144) & RPS14 (+35853)       & \\
+45 & chr6 & 32634104 & NA & 10.4960726902 & + & HLA-DQB1 (+357) & HLA-DQA1 (+28971)       & \\
+46 & chr3 & 28390351 & rs1870259 & 10.4450508705 & + & AZI2 (+267) & CMC1 (+107266)       & \\
+47 & chr8 & 47829990 & rs13259304 & 10.441488493 & + & SPIDR (-343177)        \\
+48 & chr8 & 47829991 & rs13259305 & 10.441488493 & + & SPIDR (-343176)        \\
+49 & chr17 & 70025931 & rs2193053 & 9.895586428 & + & SOX9 (-91230)        \\
+50 & chr22 & 22400882 & rs4145408 & 9.3687977404 & - & VPREB1 (-198205) & TOP3B (-63736)       & \\
+51 & chr22 & 24142330 & rs738795 & 9.3254710848 & - & SMARCB1 (+13170) & DERL3 (+38863)       & \\
+52 & chr17 & 33905468 & rs321600 & 9.2026740212 & + & SLFN14 (-20352) & PEX12 (+180)       & \\
+53 & chr15 & 52528193 & rs6493549 & 8.9018777619 & + & GNB5 (-44628) & MYO5C (+59802)       & \\
+54 & chr9 & 126101008 & rs10114139 & 8.8987861442 & + & STRBP (-70154) & CRB2 (-17531)       & \\
+55 & chr7 & 45025720 & rs3213658 & 8.279020729 & - & CCM2 (-40905) & MYO1G (-7024)       & \\
+56 & chr9 & 137029841 & rs28650068 & 8.1713392696 & - & RXRA (-188585) & WDR5 (+28632)       & \\
+57 & chr1 & 32355180 & rs593133 & 8.0917910077 & + & SPOCD1 (-73529) & PTP4A2 (+48808)       & \\
+58 & chr12 & 6570966 & rs1045548 & 7.5019308863 & + & VAMP1 (+8877) & TAPBPL (+9717)       & \\
+59 & chr5 & 156700461 & rs62383003 & 7.2378390446 & + & CYFIP2 (+7324) & FNDC9 (+72268)       & \\
+60 & chr5 & 130588550 & rs6596007 & 7.0902630177 & + & CDC42SE2 (-11243) & LYRM7 (+82048)       & \\
+61 & chr7 & 2750918 & rs10252130 & 6.8566385722 & + & AMZ1 (+31763) & GNA12 (+133040)       & \\
+62 & chr5 & 43313178 & rs10039048 & 6.7651996991 & + & HMGCS1 (+417) & ENSG00000177453 (+120225)       & \\
+63 & chr1 & 172412995 & rs3213563 & 6.7522493823 & + & PIGC (+231) & DNM3 (+602375)       & \\
+64 & chr5 & 163342658 & rs13184669 & 6.5468860152 & + & MAT2B (+410105)        \\
+65 & chr5 & 163343803 & rs12516138 & 6.5468860152 & + & MAT2B (+411250)        \\
+66 & chr1 & 205601464 & rs3088136 & 6.2865958958 & + & ELK4 (-375) & SLC45A3 (+48123)       & \\
+67 & chr1 & 242011406 & rs1776179 & 6.1953416871 & + & OPN3 (-207744) & EXO1 (-76)       & \\
+68 & chr10 & 126289743 & rs2104227 & 6.0646970367 & + & LHPP (+139340) & FAM53B (+142876)       & \\
+69 & chr6 & 116600774 & rs3749895 & 6.0268617678 & + & TSPYL4 (-25514) & TSPYL1 (+292)       & \\
+70 & chr3 & 14473000 & rs7620731 & 5.9079302255 & + & C3orf20 (-243606) & SLC6A6 (+28925)       & \\
+71 & chr8 & 135613597 & rs894346 & 5.8709599503 & + & ZFAT (+111684)        \\
+72 & chr8 & 135613624 & rs894347 & 5.8709599503 & + & ZFAT (+111657)        \\
+73 & chr2 & 109065858 & rs2460947 & 5.8340918213 & + & LIMS1 (-205635) & GCC2 (+842)       & \\
+74 & chr11 & 1873950 & rs2089908 & 5.7990375522 & + & LSP1 (-12445) & TNNI2 (+13240)       & \\
+75 & chr3 & 188108642 & rs56046601 & 5.7612327644 & - & TPRG1 (-781121) & LPP (+177922)       & \\
+76 & chr5 & 40835088 & rs2270625 & 5.6276004169 & + & PRKAA1 (-36613) & RPL37 (+349)       & \\
+77 & chr1 & 179051300 & rs2296377 & 5.3746650821 & - & TOR3A (+789) & ABL2 (+147436)       & \\
+78 & chr9 & 6704188 & rs820495 & 5.133890915 & + & GLDC (-58539) & KDM4C (-53468)       & \\
+79 & chr9 & 6704237 & rs820494 & 5.133890915 & + & GLDC (-58588) & KDM4C (-53419)       & \\
+80 & chr2 & 225867366 & rs281527 & 5.0464335748 & + & CUL3 (-417302) & DOCK10 (+39793)       & \\
+% 81 & chr19 & 54694334 & rs16985457 & 5.0124676988 & + & MBOAT7 (-669) & TSEN34 (-248)       & \\
+% 82 & chr18 & 46395022 & rs7240004 & 4.9568855974 & - & SMAD7 (+82059) & CTIF (+329494)       & \\
+% 83 & chr2 & 88316073 & rs72847757 & 4.8458620801 & + & RGPD2 (-190603) & SMYD1 (-51226)       & \\
+% 84 & chr19 & 48825103 & rs10403090 & 4.7837859648 & + & EMP3 (-3479) & CCDC114 (-1772)       & \\
+% 85 & chr4 & 186347055 & rs2289720 & 4.6095422553 & + & UFSP2 (+84) & ANKRD37 (+29418)       & \\
+% 86 & chr8 & 52811342 & rs1467197 & 4.3511308065 & + & PXDNL (-89338) & PCMTD1 (+316)       & \\
+% 87 & chr1 & 17231687 & rs9435780 & 4.1441899738 & + & NBPF1 (-291706) & CROCC (-16758)       & \\
+% 88 & chr1 & 17231724 & rs9435695 & 4.1441899738 & + & NBPF1 (-291743) & CROCC (-16721)       & \\
+% 89 & chr17 & 3817609 & rs1007637 & 4.1424718443 & + & CAMKK1 (-21272) & P2RX1 (+2185)       & \\
+% 90 & chr18 & 3178525 & rs4798071 & 4.1367864571 & + & LPIN2 (-166581) & MYOM1 (+41581)       & \\
+% 91 & chr6 & 7916207 & rs1743634 & 4.0681914219 & + & TXNDC5 (-5161) & BLOC1S5 (+148440)       & \\
+% 92 & chr2 & 20251675 & rs1513829 & 3.9638418958 & + & MATN3 (-39221) & LAPTM4A (+114)       & \\
+% 93 & chr1 & 234509259 & rs10910420 & 3.8754854387 & + & COA6 (-170) & SLC35F3 (+468581)       & \\
+% 94 & chr5 & 49963235 & rs62366937 & 3.8438382184 & + & ISL1 (-715686) & PARP8 (+464)       & \\
+% 95 & chr14 & 64971743 & rs761546 & 3.8434296935 & + & HSPA2 (-35443) & ZBTB25 (-442)       & \\
+% 96 & chr19 & 19431963 & rs12460764 & 3.8135240681 & + & GATAD2A (-64679) & SUGP1 (-311)       & \\
+% 97 & chr2 & 227773157 & rs4675118 & 3.7169162745 & + & RHBDD1 (+72487) & COL4A4 (+255672)       & \\
+% 98 & chr5 & 150594802 & rs979455 & 3.5537225469 & + & ANXA6 (-57360) & GM2A (-37651)       & \\
+% 99 & chr5 & 150594860 & rs979454 & 3.5537225469 & + & ANXA6 (-57418) & GM2A (-37593)       & \\
+% 100 & chr19 & 18134596 & rs380991 & 3.5348617003 & + & MAST3 (-74007) & ARRDC2 (+15620)       & \\
+% 101 & chr1 & 85039828 & rs41299545 & 3.4542527246 & + & GNG5 (-67581) & CTBS (+319)       & \\
+% 102 & chr11 & 47789549 & rs11039376 & 3.3844955821 & + & FNBP4 (-697) & NUP160 (+80470)       & \\
+% 103 & chr17 & 76775673 & rs8079047 & 3.3522674082 & + & DNAH17 (-202198) & CYTH1 (+2703)       & \\
+% 104 & chr3 & 38206906 & rs9839010 & 3.2578601553 & + & OXSR1 (-90) & MYD88 (+26938)       & \\
+% 105 & chr5 & 114937967 & rs256965 & 3.1183208776 & + & FEM1C (-57377) & TMED7-TICAM2 (+23891)       & \\
+% 106 & chr6 & 14276691 & rs9476531 & 3.1014136798 & + & JARID2 (-969836) & CD83 (+158820)       & \\
+% 107 & chr17 & 56736785 & rs372648 & 3.0387819124 & - & SEPT4 (-118607) & TEX14 (+32599)       & \\
+% 108 & chr11 & 30344761 & rs1222218 & 2.8814114556 & + & ARL14EP (+164) & MPPED2 (+257282)       & \\
+% 109 & chr19 & 5130079 & rs2620841 & 2.8481196646 & + & KDM4B (+160948) & PTPRS (+210735)       & \\
+% 110 & chr19 & 37063969 & rs3096617 & 2.717484893 & + & ZNF260 (-44408) & ZNF529 (+185)       & \\
+% 111 & chr19 & 37064050 & rs3108596 & 2.717484893 & + & ZNF260 (-44489) & ZNF529 (+104)       & \\
+% 112 & chr5 & 153765239 & rs3734083 & 2.7101979997 & + & SAP30L (-60278) & GALNT10 (+194950)       & \\
+% 113 & chr18 & 74766651 & rs11662391 & 2.6118281519 & + & MBP (+78074) & ZNF236 (+230536)       & \\
+% 114 & chr9 & 33025418 & rs2297217 & 2.5532635933 & + & DNAJA1 (+210) & SMU1 (+51239)       & \\
+% 115 & chr6 & 159515270 & rs575998 & 2.4856485666 & + & FNDC1 (-75159) & TAGAP (-49087)       & \\
+% 116 & chr22 & 43327316 & rs3788600 & 2.4080873082 & + & ARFGAP3 (-73909) & PACSIN2 (+83835)       & \\
+% 117 & chr5 & 65810920 & rs62359503 & 2.3370042967 & + & MAST4 (-81269) & SREK1 (+370875)       & \\
+% 118 & chr22 & 24143502 & rs75919464 & 2.3132918794 & + & SMARCB1 (+14342) & DERL3 (+37691)       & \\
+% 119 & chr1 & 11968078 & rs6671723 & 2.2837409127 & + & NPPB (-49091) & KIAA2013 (+18402)       & \\
+% 120 & chr17 & 30850132 & rs4795704 & 2.2715370592 & + & CDK5R1 (+36496) & MYO1D (+354063)       & \\
+% 121 & chr8 & 86113160 & rs2403085 & 2.2480921685 & + & CA13 (-44596) & E2F5 (+23539)       & \\
+% 122 & chrX 40944301 & rs35884638 & 2.2156179377 & + & MED14 (-349519) & USP9X (-587)       & \\
+% 123 & chr17 & 73685659 & rs2053508 & 2.2012805415 & + & ITGB4 (-31857) & RECQL5 (-22391)       & \\
+% 124 & chr8 & 27235818 & rs10106782 & 2.1659661495 & + & PTK2B (+66820) & CHRNA2 (+100995)       & \\
+% 125 & chr15 & 89179531 & rs111871577 & 2.1361363377 & + & ISG20 (-2443) & AEN (+15005)       & \\
+% 126 & chr12 & 97300657 & rs10777821 & 2.1220730799 & + & CDK17 (-506320) & NEDD1 (-587)       & \\
+% 127 & chr14 & 102414825 & rs2093025 & 2.0639440437 & + & DYNC1H1 (-16040) & PPP2R5C (+186691)       & \\
+% 128 & chr6 & 26458265 & rs6929846 & 1.9945564521 & + & BTN1A1 (-43184) & BTN2A1 (+113)       & \\
+% 129 & chr3 & 47422152 & rs922957 & 1.9215961899 & + & KIF9 (-97816) & PTPN23 (-358)       & \\
+% 130 & chr5 & 140700489 & rs10875595 & 1.8841023085 & + & PCDHGA1 (-9763) & TAF7 (-160)       & \\
+% 131 & chr19 & 21688495 & rs73017722 & 1.7601249134 & + & ZNF429 (+130) & ZNF100 (+261935)       & \\
+% 132 & chr6 & 6331444 & rs1742917 & 1.7576656782 & + & LY86 (-256897) & F13A1 (-10378)       & \\
+% 133 & chr18 & 3261875 & rs1579765 & 1.6631934443 & + & MYL12B (-540) & MYL12A (+14348)       & \\
+% 134 & chr7 & 150104410 & rs2293282 & 1.647850282 & + & GIMAP8 (-43308) & ZNF775 (+27987)       & \\
+% 135 & chr11 & 95523433 & rs1622515 & 1.5826413048 & + & FAM76B (-479) & CEP57 (-192)       & \\
+% 136 & chr10 & 43904959 & rs2819034 & 1.5694713498 & + & ZNF487 (-27615) & HNRNPF (-12681)       & \\
+% 137 & chr1 & 109618308 & rs34069017 & 1.5522613031 & + & WDR47 (-33701) & TAF13 (+316)       & \\
+ \end{tabular}
+\caption[List of candidate rSNPs]{List of candidate rSNPs ranked by the negative logarithm of the $p$-value of the DPs called by THOR. 
+For each SNP we give the rank, the chromosome, the position, the dbSNP rID, the negative logarithm of the DP called by THOR the SNP lies within and the genes that lay in close vicinity.
+We also indicate whether the rSNP is pictured in Figure~\ref{fig_rsnps}.
+We list the top $80/137$ ranked rSNPs.}
+\label{tab_res_candidate_SNPs}
+\end{table}
+% cut -f 1,3,4,12,13,14,15,16 candidate_regulatory_snps.csv | awk -F="\t" -vOFS='\t' '{print $1,$2,$3,$4,$5,$6,$7 $8 "\\\\"}' | sed 's/\t*//' | sed 's/\t/ \& /g' | sed 's/\&  \&//g' | sed 's/X *&/X/g'
+
+\clearpage
+\newpage
+% cat tab1.csv | sed 's/\t/ \& /g' | sed -e 's/$/ \\\\/'
+\begin{table}
+\small \centering 
+ \begin{tabular}{rllrrcr}
+rank & gene & chrom & start & end & strand & -$\log_{10}$ $p$-value \\\hline
+1 & \textbf{H2-AA} & chr17 & 34419688 & 34424772 & - & 9342.50545168 \\
+2 & \textbf{H2-AB1} & chr17 & 34400153 & 34406363 & + & 8018.77571673 \\
+3 & \textbf{H2-EB1} & chr17 & 34442821 & 34453144 & + & 4555.68454975 \\
+4 & \textbf{ID2} & chr12 & 25778665 & 25780957 & - & 3379.91074335 \\
+5 & \textbf{H2-EA-PS} & chr17 & 34342933 & 34344643 & - & 2380.2150288 \\
+6 & \textbf{H2-EB2} & chr17 & 34462609 & 34477174 & + & 2380.2150288 \\
+7 & KLRK1 & chr6 & 129560340 & 129573882 & - & 2200.32296143 \\
+8 & \textbf{CD74} & chr18 & 60963501 & 60972300 & + & 2101.33787491 \\
+9 & IFI202B & chr1 & 175892699 & 175912975 & - & 2080.14008533 \\
+10 & OLFR433 & chr1 & 175972063 & 175973067 & + & 2080.14008533 \\
+11 & MARCKS & chr10 & 36853180 & 36858726 & - & 1815.84060863 \\
+12 & CCND1 & chr7 & 152115835 & 152125774 & - & 1591.72987841 \\
+13 & \textbf{ADAM19} & chr11 & 45869493 & 45960845 & + & 1559.08891211 \\
+14 & \textbf{IRF8} & chr8 & 123260257 & 123280594 & + & 1530.25808614 \\
+15 & CST3 & chr2 & 148697457 & 148701428 & - & 1458.44354685 \\
+16 & \textbf{H2-DMB1} & chr17 & 34290016 & 34297175 & + & 1412.96685804 \\
+17 & \textbf{H2-DMB2} & chr17 & 34280251 & 34288498 & + & 1412.96685804 \\
+18 & TNKS & chr8 & 35892232 & 36028744 & - & 1380.13798257 \\
+19 & NF1 & chr11 & 79153194 & 79395114 & + & 1372.2157044 \\
+20 & CD83 & chr13 & 43880475 & 43898499 & + & 1291.08471599 \\
+21 & AMZ1 & chr5 & 141200080 & 141237393 & + & 1286.78303837 \\
+22 & P2RY10 & chrX & 104283830 & 104300313 & + & 1163.99255182 \\
+23 & HERPUD1 & chr8 & 96910337 & 96919277 & + & 1056.72241201 \\
+24 & SLC12A3 & chr8 & 96853091 & 96890113 & + & 1056.72241201 \\
+25 & BC051142 & chr17 & 34535764 & 34597679 & + & 1049.4840957 \\
+26 & EGR3 & chr14 & 70477251 & 70479964 & + & 1039.28587015 \\
+27 & AHRR & chr13 & 74348565 & 74429779 & - & 1017.25699529 \\
+28 & \textbf{CIITA} & chr16 & 10488270 & 10527657 & + & 1006.89398006 \\
+29 & PRKAR2A & chr9 & 108594473 & 108651843 & + & 975.004304756 \\
+30 & PMEPA1 & chr2 & 173049958 & 173102034 & - & 968.09089682 \\
+31 & HIAT1 & chr3 & 116334081 & 116384178 & - & 946.531575531 \\
+32 & A330009N23Rik & chr15 & 101055056 & 101055069 & - & 929.20633982 \\
+33 & GRASP & chr15 & 101054637 & 101063186 & + & 929.20633982 \\
+34 & HRH1 & chr6 & 114347929 & 114433290 & + & 919.54865411 \\
+35 & ZFP800 & chr6 & 28189930 & 28348005 & - & 913.228573003 \\
+36 & GRAMD3 & chr18 & 56591785 & 56663446 & + & 895.274922571 \\
+37 & \textbf{H2-OB} & chr17 & 34375847 & 34382852 & + & 855.004458933 \\
+38 & WDR86 & chr5 & 24217555 & 24236545 & - & 845.047427982 \\
+39 & P2RX5 & chr11 & 72973922 & 72986187 & + & 844.537705199 \\
+40 & NCOA7 & chr10 & 30365389 & 30522913 & - & 843.985543271 \\
+41 & ACTB & chr5 & 143664793 & 143668433 & - & 840.4456036 \\
+42 & COL25A1 & chr3 & 129883808 & 130302795 & + & 831.737274956 \\
+43 & 5830416P10RIK & chr19 & 53526024 & 53526024 & - & 826.028290432 \\
+44 & SMNDC1 & chr19 & 53453703 & 53465063 & - & 826.028290432 \\
+45 & SLFN5 & chr11 & 82764850 & 82776443 & + & 820.070737402 \\
+44 & GM8817 & chrX & 163526888 & 163553394 & - & 817.998789877 \\
+47 & \textbf{KIT} & chr5 & 75970940 & 76052747 & + & 794.821851563 \\
+48 & DIS3L2 & chr1 & 88600382 & 88946670 & + & 791.794724159 \\
+49 & FAM46A & chr9 & 85214045 & 85220955 & - & 788.360435944 \\
+50 & ANKRD55 & chr13 & 113078658 & 113174210 & + & 784.448973727 \\
+ \end{tabular}
+\caption[List of genes associated with cDC peaks]{List of genes in DC-CDP-cDC (cDC peaks) that are associated with DPs called by THOR.
+We rank the genes by the $p$-value of the assigned DP.
+For each gene, we give the chromosome, the start and end positions, the strand as well as the $p$-value the gene is assigned to.
+Genes that are highlighted in bold are specifically known to be associated with dendritic cells and in particular cDC cells.}
+\label{tab_res_dc_cDC_gene_list}
+\end{table}
+
+
+\clearpage
+\newpage
+
+% cat tab2.csv | sed 's/,/ \& /g' | sed -e 's/$/ \\\\/'
+\begin{table}
+\small \centering 
+ \begin{tabular}{rllrrcr}
+rank & gene & chrom & start & end & strand & -$\log_{10}$ $p$-value \\\hline
+1 & \textbf{SIGLECH} & chr7 & 63023547 & 63034295 & + & 9678.16863265 \\
+2 & \textbf{IRF8} & chr8 & 123260257 & 123280594 & + & 9397.95545021 \\
+3 & PECAM1 & chr11 & 106515530 & 106611942 & - & 7721.79239662 \\
+4 & TEX2 & chr11 & 106363460 & 106474737 & - & 7721.79239662 \\
+5 & PSAP & chr10 & 59740374 & 59765345 & + & 6767.12351276 \\
+6 & MCTP2 & chr7 & 79222715 & 79451481 & - & 6471.46286813 \\
+7 & EGFR & chr11 & 16652205 & 16818161 & + & 6031.83979238 \\
+8 & FBXO48 & chr11 & 16851377 & 16854775 & + & 6031.83979238 \\
+9 & \textbf{IFNAR1} & chr16 & 91485482 & 91507686 & + & 5777.69157412 \\
+10 & \textbf{IL10RB} & chr16 & 91406408 & 91426079 & + & 5777.69157412 \\
+11 & LDLRAD3 & chr2 & 101790359 & 102026542 & - & 5257.7739313 \\
+12 & SEMA4B & chr7 & 87331726 & 87371280 & + & 4773.62970215 \\
+13 & ST8SIA4 & chr1 & 97484258 & 97564148 & - & 4752.49374499 \\
+14 & PPM1H & chr10 & 122115817 & 122382851 & + & 4708.84903533 \\
+15 & PRKAG2 & chr5 & 24368561 & 24606460 & - & 4318.68020523 \\
+16 & OLFR164 & chr16 & 19285835 & 19286930 & - & 4135.75145138 \\
+17 & CDK20 & chr13 & 64533860 & 64541028 & + & 4015.81891814 \\
+18 & CTSL & chr13 & 64464521 & 64471614 & - & 4015.81891814 \\
+19 & MTAP7D1 & chr4 & 125933470 & 125933614 & - & 3892.15227629 \\
+20 & STAMBPL1 & chr19 & 34266718 & 34314823 & + & 3697.16215076 \\
+21 & ATP1B1 & chr1 & 166367397 & 166388486 & - & 3647.33666707 \\
+22 & CYBASC3 & chr19 & 10651929 & 10651951 & + & 3619.76719482 \\
+23 & TMEM138 & chr19 & 10644967 & 10651852 & - & 3619.76719482 \\
+24 & ARL5C & chr11 & 97850891 & 97857495 & - & 3528.20546387 \\
+25 & EPHA2 & chr4 & 140857154 & 140885299 & + & 3428.42485528 \\
+26 & MED16 & chr10 & 79357452 & 79371668 & - & 3330.06424981 \\
+27 & TMEM229B & chr12 & 80062781 & 80108614 & - & 3321.71551074 \\
+28 & RPGRIP1 & chr14 & 52730378 & 52783221 & + & 3282.52005794 \\
+29 & CMAH & chr13 & 24419288 & 24569154 & + & 3276.26687301 \\
+30 & LRP8 & chr4 & 107474865 & 107549445 & + & 3227.01828285 \\
+31 & RPL31 & chr1 & 39424695 & 39428753 & + & 3154.91756008 \\
+32 & TBC1D8 & chr1 & 39428343 & 39535592 & - & 3154.91756008 \\
+33 & KLHDC4 & chr8 & 124320212 & 124353469 & - & 3036.19329771 \\
+34 & SLC7A5 & chr8 & 124405049 & 124431594 & - & 3036.19329771 \\
+35 & HPSE2 & chr19 & 42863436 & 43462801 & - & 3020.84986442 \\
+36 & \textbf{PACSIN1} & chr17 & 27792453 & 27848051 & + & 2978.26587504 \\
+37 & CCDC162 & chr10 & 41258651 & 41429106 & - & 2881.08000048 \\
+38 & BCR & chr10 & 74523640 & 74647668 & + & 2861.03007096 \\
+39 & LY6E & chr15 & 74785480 & 74790335 & + & 2850.91050473 \\
+40 & MED12L & chr3 & 58810899 & 59122332 & + & 2834.58051421 \\
+41 & \textbf{TCF4} & chr18 & 69503799 & 69847621 & + & 2698.42429934 \\
+42 & DGAT2 & chr7 & 106302172 & 106331223 & - & 2670.94433911 \\
+43 & UVRAG & chr7 & 106035252 & 106289654 & - & 2670.94433911 \\
+44 & 3300005D01RIK & chr17 & 5803242 & 5803242 & + & 2661.34040582 \\
+45 & SNX9 & chr17 & 5841327 & 5931033 & + & 2661.34040582 \\
+46 & PMEPA1 & chr2 & 173049958 & 173102034 & - & 2627.43181036 \\
+47 & CD4 & chr6 & 124814709 & 124838239 & - & 2614.28892241 \\
+48 & LAG3 & chr6 & 124854378 & 124861723 & - & 2614.28892241 \\
+49 & \textbf{RUNX2} & chr17 & 44632935 & 44951746 & - & 2580.8334652 \\
+50 & CD33 & chr7 & 50782825 & 50788541 & - & 2563.80058712 \\
+
+ \end{tabular}
+\caption[List of genes associated with pDC peaks]{List of genes in DC-CDP-pDC (pDC peaks) that are associated with DPs called by THOR.
+We rank the genes by the $p$-value of the assigned DP.
+For each gene, we give the chromosome, the start and end positions, the strand as well as the $p$-value the gene is assigned to.
+Genes that are highlighted in bold are specifically known to be associated with dendritic cells and in particular pDC cells.}
+\label{tab_res_dc_pDC_gene_list}
+\end{table}

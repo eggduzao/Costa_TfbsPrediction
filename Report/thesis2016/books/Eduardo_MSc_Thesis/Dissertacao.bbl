@@ -1,0 +1,423 @@
+\begin{thebibliography}{72}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[{Alberts(2007)}]{alberts2007}
+{\sc Alberts, B.} (2007). {\em {Molecular Biology of the Cell}\/}. Other, 5th
+  edn.
+
+\bibitem[{Allis {\em et~al.\/}(2007)Allis, Jenuwein \& Reinberg}]{allis2007}
+{\sc Allis, C., Jenuwein, T. \& Reinberg, D.} (2007). {\em Epigenetics\/}. Cold
+  Spring Harbor Laboratory Press.
+
+\bibitem[{Barski {\em et~al.\/}(2007)Barski, Cuddapah, Cui, Roh, Schones, Wang,
+  Wei, Chepelev \& Zhao}]{barski2007}
+{\sc Barski, A., Cuddapah, S., Cui, K., Roh, T.Y., Schones, D.E., Wang, Z.,
+  Wei, G., Chepelev, I. \& Zhao, K.} (2007). {High-Resolution Profiling of
+  Histone Methylations in the Human Genome}. {\em Cell\/}, {\bf 129}, 823--837.
+
+\bibitem[{Bilmes(1997)}]{bilmes1998}
+{\sc Bilmes, J.} (1997). {A Gentle Tutorial on the EM Algorithm and its
+  Application to Parameter Estimation for Gaussian Mixture and Hidden Markov
+  Models}.
+
+\bibitem[{Bishop(2006)}]{bishop2006}
+{\sc Bishop, C.M.} (2006). {\em {Pattern recognition and machine learning}\/}.
+  Springer, 1st edn.
+
+\bibitem[{Boyle {\em et~al.\/}(2008{\natexlab{a}})Boyle, Davis, Shulha,
+  Meltzer, Margulies, Weng, Furey \& Crawford}]{boyle2008a}
+{\sc Boyle, A.P., Davis, S., Shulha, H.P., Meltzer, P., Margulies, E.H., Weng,
+  Z., Furey, T.S. \& Crawford, G.E.} (2008{\natexlab{a}}). High-resolution
+  mapping and characterization of open chromatin across the genome. {\em
+  Cell\/}, {\bf 132}, 311--322.
+
+\bibitem[{Boyle {\em et~al.\/}(2008{\natexlab{b}})Boyle, Guinney, Crawford \&
+  Furey}]{boyle2008b}
+{\sc Boyle, A.P., Guinney, J., Crawford, G.E. \& Furey, T.S.}
+  (2008{\natexlab{b}}). F-seq: a feature density estimator for high-throughput
+  sequence tags. {\em Bioinformatics\/}, {\bf 24}, 2537--2538.
+
+\bibitem[{Boyle {\em et~al.\/}(2011)Boyle, Song, Lee, London, Keefe, Birney,
+  Iyer, Crawford \& Furey}]{boyle2011}
+{\sc Boyle, A.P., Song, L., Lee, B.K., London, D., Keefe, D., Birney, E., Iyer,
+  V.R., Crawford, G.E. \& Furey, T.S.} (2011). {High-resolution genome-wide in
+  vivo footprinting of diverse transcription factors in human cells}. {\em
+  Genome Research\/}, {\bf 21}, 456--464.
+
+\bibitem[{Bryne {\em et~al.\/}(2008)Bryne, Valen, Tang, Marstrand, Winther,
+  da~Piedade, Krogh, Lenhard \& Sandelin}]{bryne2008}
+{\sc Bryne, J.C.C., Valen, E., Tang, M.H.E.H., Marstrand, T., Winther, O.,
+  da~Piedade, I., Krogh, A., Lenhard, B. \& Sandelin, A.} (2008). {JASPAR, the
+  open access database of transcription factor-binding profiles: new content
+  and tools in the 2008 update}. {\em Nucleic acids research\/}, {\bf 36},
+  D102--D106.
+
+\bibitem[{Buck \& Lieb(2004)}]{buck2004}
+{\sc Buck, M.J. \& Lieb, J.D.} (2004). {ChIP-chip: considerations for the
+  design, analysis, and application of genome-wide chromatin
+  immunoprecipitation experiments}. {\em Genomics\/}, {\bf 83}, 349--360.
+
+\bibitem[{Cock {\em et~al.\/}(2009)Cock, Antao, Chang, Chapman, Cox, Dalke,
+  Friedberg, Hamelryck, Kauff, Wilczynski \& de~Hoon}]{cock2009}
+{\sc Cock, P.J.A., Antao, T., Chang, J.T., Chapman, B.A., Cox, C.J., Dalke, A.,
+  Friedberg, I., Hamelryck, T., Kauff, F., Wilczynski, B. \& de~Hoon, M.J.L.}
+  (2009). {Biopython: freely available Python tools for computational molecular
+  biology and bioinformatics}. {\em Bioinformatics\/}, {\bf 25}, 1422--1423.
+
+\bibitem[{Crawford {\em et~al.\/}(2004)Crawford, Holt, Mullikin, Tai,
+  Blakesley, Bouffard, Young, Masiello, Green, Wolfsberg, Collins \& {National
+  Institutes Of Health Intramural Sequencing Center}}]{crawford2004}
+{\sc Crawford, G.E., Holt, I.E., Mullikin, J.C., Tai, D., Blakesley, R.,
+  Bouffard, G., Young, A., Masiello, C., Green, E.D., Wolfsberg, T.G., Collins,
+  F.S. \& {National Institutes Of Health Intramural Sequencing Center}} (2004).
+  {Identifying gene regulatory elements by genome-wide recovery of DNase
+  hypersensitive sites}. {\em Proceedings of the National Academy of Sciences
+  of the United States of America\/}, {\bf 101}, 992--997.
+
+\bibitem[{Crawford {\em et~al.\/}(2006{\natexlab{a}})Crawford, Davis, Scacheri,
+  Renaud, Halawi, Erdos, Green, Meltzer, Wolfsberg \& Collins}]{crawford2006a}
+{\sc Crawford, G.E., Davis, S., Scacheri, P.C., Renaud, G., Halawi, M.J.,
+  Erdos, M.R., Green, R., Meltzer, P.S., Wolfsberg, T.G. \& Collins, F.S.}
+  (2006{\natexlab{a}}). {DNase-chip: a high-resolution method to identify DNase
+  I hypersensitive sites using tiled microarrays}. {\em Nature methods\/}, {\bf
+  3}, 503--509.
+
+\bibitem[{Crawford {\em et~al.\/}(2006{\natexlab{b}})Crawford, Holt, Whittle,
+  Webb, Tai, Davis, Margulies, Chen, Bernat, Ginsburg, Zhou, Luo, Vasicek,
+  Daly, Wolfsberg \& Collins}]{crawford2006b}
+{\sc Crawford, G.E., Holt, I.E., Whittle, J., Webb, B.D., Tai, D., Davis, S.,
+  Margulies, E.H., Chen, Y., Bernat, J.A., Ginsburg, D., Zhou, D., Luo, S.,
+  Vasicek, T.J., Daly, M.J., Wolfsberg, T.G. \& Collins, F.S.}
+  (2006{\natexlab{b}}). {Genome-wide mapping of DNase hypersensitive sites
+  using massively parallel signature sequencing (MPSS)}. {\em Genome
+  Research\/}, {\bf 16}, 123--131.
+
+\bibitem[{Creyghton {\em et~al.\/}(2010)Creyghton, Cheng, Welstead, Kooistra,
+  Carey, Steine, Hanna, Lodato, Frampton, Sharp \& et~al.}]{creyghton2010}
+{\sc Creyghton, M.P., Cheng, A.W., Welstead, G.G., Kooistra, T., Carey, B.W.,
+  Steine, E.J., Hanna, J., Lodato, M.A., Frampton, G.M., Sharp, P.A. \& et~al.}
+  (2010). Histone h3k27ac separates active from poised enhancers and predicts
+  developmental state. {\em Proceedings of the National Academy of Sciences of
+  the United States of America\/}, {\bf 107}, 21931--21936.
+
+\bibitem[{Cuellar-Partida {\em et~al.\/}(2012)Cuellar-Partida, Buske, McLeay,
+  Whitington, Noble \& Bailey}]{cuellar2012}
+{\sc Cuellar-Partida, G., Buske, F.A., McLeay, R.C., Whitington, T., Noble,
+  W.S. \& Bailey, T.L.} (2012). {Epigenetic priors for identifying active
+  transcription factor binding sites}. {\em Bioinformatics\/}, {\bf 28},
+  56--62.
+
+\bibitem[{{DNA Sequencing Consortiums}(2012)}]{dnaseqweb2012}
+{\sc {DNA Sequencing Consortiums}} (2012). Dna sequencing website. {\em
+  http://www.dnasequencing.org\/}.
+
+\bibitem[{Drouin {\em et~al.\/}(1997)Drouin, Angers, Dallaire, Rose, Khandjian
+  \& Rousseau}]{drouin1997}
+{\sc Drouin, R., Angers, M., Dallaire, N., Rose, T.M., Khandjian, E.W. \&
+  Rousseau, F.} (1997). Structural and functional characterization of the human
+  fmr1 promoter reveals similarities with the hnrnp-a2 promoter region. {\em
+  Human Molecular Genetics\/}, {\bf 1}, 91--96.
+
+\bibitem[{Duda {\em et~al.\/}(2000)Duda, Stork \& Hart}]{duda2000}
+{\sc Duda, R.O., Stork, D.G. \& Hart, P.E.} (2000). {\em {Pattern
+  classification}\/}. Wiley, 2nd edn.
+
+\bibitem[{Durbin {\em et~al.\/}(1998)Durbin, Eddy, Krogh \&
+  Mitchison}]{durbin1998}
+{\sc Durbin, R., Eddy, S.R., Krogh, A. \& Mitchison, G.} (1998). {\em
+  {Biological Sequence Analysis: Probabilistic Models of Proteins and Nucleic
+  Acids}\/}. Cambridge University Press.
+
+\bibitem[{Dymarski(2011)}]{dymarski2011}
+{\sc Dymarski, P.}, ed. (2011). {\em {Hidden Markov Models, Theory and
+  Applications}\/}. InTech.
+
+\bibitem[{Ernst \& Kellis(2010)}]{ernst2010}
+{\sc Ernst, J. \& Kellis, M.} (2010). {Discovery and characterization of
+  chromatin states for systematic annotation of the human genome}. {\em Nature
+  Biotechnology\/}, {\bf 28}, 817--825.
+
+\bibitem[{Essien {\em et~al.\/}(2009)Essien, Vigneau, Apreleva, Singh,
+  Bartolomei \& Hannenhalli}]{essien2009}
+{\sc Essien, K., Vigneau, S., Apreleva, S., Singh, L., Bartolomei, M. \&
+  Hannenhalli, S.} (2009). {CTCF binding site classes exhibit distinct
+  evolutionary, genomic, epigenomic and transcriptomic features}. {\em Genome
+  Biology\/}, {\bf 10}, R131+.
+
+\bibitem[{Felsenfeld \& Groudine(2003)}]{felsenfeld2003}
+{\sc Felsenfeld, G. \& Groudine, M.} (2003). Controlling the double helix. {\em
+  Nature\/}, {\bf 421}, 448--453.
+
+\bibitem[{Gorry(1990)}]{gorry1990}
+{\sc Gorry, P.A.} (1990). {General least-squares smoothing and differentiation
+  by the convolution (Savitzky-Golay) method}. {\em Analytical Chemistry\/},
+  {\bf 62}, 570--573.
+
+\bibitem[{Grant(2001)}]{grant2001}
+{\sc Grant, P.A.} (2001). {A tale of histone modifications}. {\em Genome
+  biology\/}, {\bf 2}, reviews0003.1--reviews0003.6.
+
+\bibitem[{Gross \& Garrard(1988)}]{gross1988}
+{\sc Gross, D.S. \& Garrard, W.T.} (1988). Nuclease hypersensitive sites in
+  chromatin. {\em Annual Review of Biochemistry\/}, {\bf 57}, 159--197.
+
+\bibitem[{Guttman {\em et~al.\/}(2010)Guttman, Garber, Levin, Donaghey,
+  Robinson, Adiconis, Fan, Koziol, Gnirke, Nusbaum, Rinn, Lander \&
+  Regev}]{guttman2010}
+{\sc Guttman, M., Garber, M., Levin, J.Z., Donaghey, J., Robinson, J.,
+  Adiconis, X., Fan, L., Koziol, M.J., Gnirke, A., Nusbaum, C., Rinn, J.L.,
+  Lander, E.S. \& Regev, A.} (2010). {Ab initio reconstruction of cell
+  type-specific transcriptomes in mouse reveals the conserved multi-exonic
+  structure of lincRNAs}. {\em Nature biotechnology\/}, {\bf 28}, 503--510.
+
+\bibitem[{Hair {\em et~al.\/}(1998)Hair, Tatham, Anderson \& Black}]{hair1998}
+{\sc Hair, J.F., Tatham, R.L., Anderson, R.E. \& Black, W.} (1998). {\em
+  {Multivariate Data Analysis}\/}. Prentice Hall, 5th edn.
+
+\bibitem[{Hastie {\em et~al.\/}(2009)Hastie, Tibshirani \&
+  Friedman}]{hastie2009}
+{\sc Hastie, T., Tibshirani, R. \& Friedman, J.H.} (2009). {\em {The elements
+  of statistical learning : data mining, inference, and prediction}\/}.
+  Springer series in statistics, Springer.
+
+\bibitem[{He {\em et~al.\/}(2012)He, Meyer, Chen, Jordan, Brown \&
+  Liu}]{he2012}
+{\sc He, H.H., Meyer, C.A., Chen, M.W., Jordan, V.C., Brown, M. \& Liu, X.S.}
+  (2012). {Differential DNase I hypersensitivity reveals factor-dependent
+  chromatin dynamics}. {\em Genome Research\/}, {\bf 22}, 1015--1025.
+
+\bibitem[{Heintzman {\em et~al.\/}(2007)Heintzman, Stuart, Hon, Fu, Ching,
+  Hawkins, Barrera, Van~Calcar, Qu, Ching, Wang, Weng, Green, Crawford \&
+  Ren}]{heintzman2007}
+{\sc Heintzman, N.D., Stuart, R.K., Hon, G., Fu, Y., Ching, C.W., Hawkins,
+  R.D., Barrera, L.O., Van~Calcar, S., Qu, C., Ching, K.A., Wang, W., Weng, Z.,
+  Green, R.D., Crawford, G.E. \& Ren, B.} (2007). {Distinct and predictive
+  chromatin signatures of transcriptional promoters and enhancers in the human
+  genome}. {\em Nature genetics\/}, {\bf 39}, 311--318.
+
+\bibitem[{Hon {\em et~al.\/}(2009)Hon, Wang \& Ren}]{hon2009}
+{\sc Hon, G., Wang, W. \& Ren, B.} (2009). {Discovery and Annotation of
+  Functional Chromatin Signatures in the Human Genome}. {\em PLoS Comput
+  Biol\/}, {\bf 5}, e1000566+.
+
+\bibitem[{Keene {\em et~al.\/}(1981)Keene, Corces, Lowenhaupt \&
+  Elgin}]{keene1981}
+{\sc Keene, M.A., Corces, V., Lowenhaupt, K. \& Elgin, S.C.} (1981). Dnase i
+  hypersensitive sites in drosophila chromatin occur at the 5' ends of regions
+  of transcription. {\em Proceedings of the National Academy of Sciences of the
+  United States of America\/}, {\bf 78}, 143--146.
+
+\bibitem[{Kent {\em et~al.\/}(2002)Kent, Sugnet, Furey, Roskin, Pringle, Zahler
+  \& Haussler}]{kent2002a}
+{\sc Kent, W.J., Sugnet, C.W., Furey, T.S., Roskin, K.M., Pringle, T.H.,
+  Zahler, A.M. \& Haussler, D.} (2002). {The Human Genome Browser at UCSC}.
+  {\em Genome Research\/}, {\bf 12}, 996--1006.
+
+\bibitem[{Lassig(2007)}]{lassig2007}
+{\sc Lassig, M.} (2007). {From biophysics to evolutionary genetics: statistical
+  aspects of gene regulation}. {\em BMC Bioinformatics\/}, {\bf 8}, S7+.
+
+\bibitem[{Leach {\em et~al.\/}(1984)Leach, Carter \& Harris}]{leach1984}
+{\sc Leach, R.A., Carter, C.A. \& Harris, J.M.} (1984). Least-squares
+  polynomial filters for initial point and slope estimation. {\em Analytical
+  Chemistry\/}, {\bf 56}, 2304--2307.
+
+\bibitem[{Lesk(2005)}]{lesk2005}
+{\sc Lesk, A.M.} (2005). {\em {Introduction to bioinformatics}\/}. Oxford
+  University Press.
+
+\bibitem[{Levin {\em et~al.\/}(2008)Levin, Peres \& Wilmer}]{levin2008}
+{\sc Levin, D.A., Peres, Y. \& Wilmer, E.L.} (2008). {\em {Markov Chains and
+  Mixing Times}\/}. American Mathematical Society, 1st edn.
+
+\bibitem[{Lewin(2003)}]{lewin2003}
+{\sc Lewin, B.} (2003). {\em {Genes VIII}\/}. Benjamin Cummings, united states
+  ed edn.
+
+\bibitem[{Lodish {\em et~al.\/}(2007)Lodish, Berk, Kaiser, Krieger, Scott,
+  Bretscher, Ploegh \& Matsudaira}]{lodish2007}
+{\sc Lodish, H., Berk, A., Kaiser, C.A., Krieger, M., Scott, M.P., Bretscher,
+  A., Ploegh, H. \& Matsudaira, P.} (2007). {\em {Molecular Cell Biology}\/}.
+  W. H. Freeman, 6th edn.
+
+\bibitem[{Luo {\em et~al.\/}(2005)Luo, Ying, He \& Bai}]{luo2005}
+{\sc Luo, J., Ying, K., He, P. \& Bai, J.} (2005). Properties of savitzky golay
+  digital differentiators. {\em Digital Signal Processing\/}, {\bf 15},
+  122--136.
+
+\bibitem[{Madden(1978)}]{madden1978}
+{\sc Madden, H.H.} (1978). {Comments on the Savitzky-Golay convolution method
+  for least-squares fit smoothing and differentiation of digital data}. {\em
+  Anal.Chem.\/}, {\bf 50}, 1383--1386.
+
+\bibitem[{Mahony \& Benos(2007)}]{mahony2007}
+{\sc Mahony, S. \& Benos, P.V.} (2007). {STAMP: a web tool for exploring
+  DNA-binding motif similarities}. {\em Nucleic acids research\/}, {\bf 35},
+  gkm272--258.
+
+\bibitem[{Maston {\em et~al.\/}(2006)Maston, Evans \& Green}]{maston2006}
+{\sc Maston, G.A., Evans, S.K. \& Green, M.R.} (2006). {Transcriptional
+  Regulatory Elements in the Human Genome}. {\em Annual Review of Genomics and
+  Human Genetics\/}, {\bf 7}, 29--59.
+
+\bibitem[{Matys {\em et~al.\/}(2006)Matys, Kel-Margoulis, Fricke, Liebich,
+  Land, Barre-Dirrie, Reuter, Chekmenev, Krull, Hornischer, Voss, Stegmaier,
+  Lewicki-Potapov, Saxel, Kel \& Wingender}]{matys2006}
+{\sc Matys, V., Kel-Margoulis, O.V., Fricke, E., Liebich, I., Land, S.,
+  Barre-Dirrie, A., Reuter, I., Chekmenev, D., Krull, M., Hornischer, K., Voss,
+  N., Stegmaier, P., Lewicki-Potapov, B., Saxel, H., Kel, A.E. \& Wingender,
+  E.} (2006). {TRANSFAC and its module TRANSCompel: transcriptional gene
+  regulation in eukaryotes}. {\em Nucleic acids research\/}, {\bf 34},
+  D108--D110.
+
+\bibitem[{Mitchell(1997)}]{mitchell1997}
+{\sc Mitchell, T.M.} (1997). {\em {Machine Learning}\/}. McGraw-Hill
+  Science/Engineering/Math, 1st edn.
+
+\bibitem[{Newburger \& Bulyk(2009)}]{newburger2009}
+{\sc Newburger, D.E. \& Bulyk, M.L.} (2009). {UniPROBE: an online database of
+  protein binding microarray data on protein-DNA interactions}. {\em Nucleic
+  Acids Research\/}, {\bf 37}, D77--D82.
+
+\bibitem[{Park(2009)}]{park2009}
+{\sc Park, P.J.} (2009). {ChIP-seq: advantages and challenges of a maturing
+  technology}. {\em Nat Rev Genet\/}, {\bf 10}, 669--680.
+
+\bibitem[{Pique-Regi {\em et~al.\/}(2011)Pique-Regi, Degner, Pai, Gaffney,
+  Gilad \& Pritchard}]{pique2011}
+{\sc Pique-Regi, R., Degner, J.F., Pai, A.A., Gaffney, D.J., Gilad, Y. \&
+  Pritchard, J.K.} (2011). {Accurate inference of transcription factor binding
+  from DNA sequence and chromatin accessibility data}. {\em Genome Research\/},
+  {\bf 21}, 447--455.
+
+\bibitem[{Press {\em et~al.\/}(1992)Press, Teukolsky, Vetterling \&
+  Flannery}]{press1992}
+{\sc Press, W.H., Teukolsky, S.A., Vetterling, W.T. \& Flannery, B.P.} (1992).
+  Numerical recipes in c: The art of scientific computing. second edition.
+
+\bibitem[{Rabiner(1989)}]{rabiner1989}
+{\sc Rabiner, L.R.} (1989). {A tutorial on hidden Markov models and selected
+  applications in speech recognition}. {\em Proceedings of the IEEE\/}, {\bf
+  77}, 257--286.
+
+\bibitem[{Ramsey {\em et~al.\/}(2010)Ramsey, Knijnenburg, Kennedy, Zak,
+  Gilchrist, Gold, Johnson, Lampano, Litvak, Navarro \& et~al.}]{ramsey2010}
+{\sc Ramsey, S.A., Knijnenburg, T.A., Kennedy, K.A., Zak, D.E., Gilchrist, M.,
+  Gold, E.S., Johnson, C.D., Lampano, A.E., Litvak, V., Navarro, G. \& et~al.}
+  (2010). Genome-wide histone acetylation data improve prediction of mammalian
+  transcription factor binding sites. {\em Bioinformatics\/}, {\bf 26},
+  2071--2075.
+
+\bibitem[{Rosenbloom {\em et~al.\/}(2011)Rosenbloom, Dreszer, Long, Malladi,
+  Sloan, Raney, Cline, Karolchik, Barber, Clawson, Diekhans, Fujita, Goldman,
+  Gravell, Harte, Hinrichs, Kirkup, Kuhn, Learned, Maddren, Meyer, Pohl, Rhead,
+  Wong, Zweig, Haussler \& Kent}]{encode2011b}
+{\sc Rosenbloom, K.R., Dreszer, T.R., Long, J.C., Malladi, V.S., Sloan, C.A.,
+  Raney, B.J., Cline, M.S., Karolchik, D., Barber, G.P., Clawson, H., Diekhans,
+  M., Fujita, P.A., Goldman, M., Gravell, R.C., Harte, R.A., Hinrichs, A.S.,
+  Kirkup, V.M., Kuhn, R.M., Learned, K., Maddren, M., Meyer, L.R., Pohl, A.,
+  Rhead, B., Wong, M.C., Zweig, A.S., Haussler, D. \& Kent, W.J.} (2011).
+  {ENCODE whole-genome data in the UCSC Genome Browser: update 2012}. {\em
+  Nucleic Acids Research\/}.
+
+\bibitem[{Russell \& Norvig(2002)}]{russel2002}
+{\sc Russell, S. \& Norvig, P.} (2002). {\em {Artificial Intelligence: A Modern
+  Approach (2nd Edition)}\/}. Prentice Hall series in artificial intelligence,
+  Prentice Hall, 2nd edn.
+
+\bibitem[{Schliep {\em et~al.\/}(2004)Schliep, Georgi, Rungsarityotin \&
+  Sch\"{o}nhuth}]{schliep2004}
+{\sc Schliep, A., Georgi, B., Rungsarityotin, W. \& Sch\"{o}nhuth, A.} (2004).
+  {The general hidden markov model library: Analyzing systems with unobservable
+  states}. {\em Proceedings of the ISMB 2004\/}.
+
+\bibitem[{Schones \& Zhao(2008)}]{schones2008}
+{\sc Schones, D.E. \& Zhao, K.} (2008). {Genome-wide approaches to studying
+  chromatin modifications}. {\em Nature Reviews Genetics\/}, {\bf 9}, 179--191.
+
+\bibitem[{Setubal \& Meidanis(1997)}]{setubal1997}
+{\sc Setubal, C. \& Meidanis, J.} (1997). {\em {Introduction to Computational
+  Molecular Biology}\/}. PWS Publishing.
+
+\bibitem[{Shu {\em et~al.\/}(2011)Shu, Chen, Bo \& Wang}]{shu2011}
+{\sc Shu, W., Chen, H., Bo, X. \& Wang, S.} (2011). {Genome-wide analysis of
+  the relationships between DNaseI HS, histone modifications and gene
+  expression reveals distinct modes of chromatin domains}. {\em Nucleic Acids
+  Research\/}, {\bf 39}, 7428--7443.
+
+\bibitem[{Song \& Crawford(2010)}]{song2010}
+{\sc Song, L. \& Crawford, G.E.} (2010). {DNase-seq: A High-Resolution
+  Technique for Mapping Active Gene Regulatory Elements across the Genome from
+  Mammalian Cells}. {\em Cold Spring Harbor Protocols\/}, {\bf 2010},
+  pdb.prot5384+.
+
+\bibitem[{Song {\em et~al.\/}(2011)Song, Zhang, Grasfeder, Boyle, Giresi, Lee,
+  Sheffield, Gr\"{a}f, Huss, Keefe, Liu, London, McDaniell, Shibata, Showers,
+  Simon, Vales, Wang, Winter, Zhang, Clarke, Birney, Iyer, Crawford, Lieb \&
+  Furey}]{song2011b}
+{\sc Song, L., Zhang, Z., Grasfeder, L.L., Boyle, A.P., Giresi, P.G., Lee,
+  B.K., Sheffield, N.C., Gr\"{a}f, S., Huss, M., Keefe, D., Liu, Z., London,
+  D., McDaniell, R.M., Shibata, Y., Showers, K.A., Simon, J.M., Vales, T.,
+  Wang, T., Winter, D., Zhang, Z., Clarke, N.D., Birney, E., Iyer, V.R.,
+  Crawford, G.E., Lieb, J.D. \& Furey, T.S.} (2011). {Open chromatin defined by
+  DNaseI and FAIRE identifies regulatory elements that shape cell-type
+  identity}. {\em Genome Research\/}, {\bf 21}, 1757--1767.
+
+\bibitem[{Spivakov \& Fisher(2007)}]{spivakov2007}
+{\sc Spivakov, M. \& Fisher, A.G.} (2007). {Epigenetic signatures of stem-cell
+  identity}. {\em Nat Rev Genet\/}, {\bf 8}, 263--271.
+
+\bibitem[{Stormo(2000)}]{stormo2000}
+{\sc Stormo, G.D.} (2000). {DNA binding sites: representation and discovery}.
+  {\em Bioinformatics\/}, {\bf 16}, 16--23.
+
+\bibitem[{{The ENCODE Project Consortium}(2004)}]{encode2004}
+{\sc {The ENCODE Project Consortium}} (2004). {The ENCODE (ENCyclopedia Of DNA
+  Elements) Project}. {\em Science\/}, {\bf 306}, 636--640.
+
+\bibitem[{{The ENCODE Project Consortium}(2007)}]{encode2007}
+{\sc {The ENCODE Project Consortium}} (2007). {Identification and analysis of
+  functional elements in 1\% of the human genome by the ENCODE pilot project}.
+  {\em Nature\/}, {\bf 447}, 799--816.
+
+\bibitem[{{The ENCODE Project Consortium}(2011)}]{encode2011a}
+{\sc {The ENCODE Project Consortium}} (2011). {A User's Guide to the
+  Encyclopedia of DNA Elements (ENCODE)}. {\em PLoS Biol\/}, {\bf 9},
+  e1001046+.
+
+\bibitem[{Wasserman \& Sandelin(2004)}]{wasserman2004}
+{\sc Wasserman, W.W. \& Sandelin, A.} (2004). {Applied bioinformatics for the
+  identification of regulatory elements}. {\em Nature reviews. Genetics\/},
+  {\bf 5}, 276--287.
+
+\bibitem[{Watson {\em et~al.\/}(2003)Watson, Baker, Bell, Gann, Levine \&
+  Losick}]{watson2003}
+{\sc Watson, J.D., Baker, T.A., Bell, S.P., Gann, A., Levine, M. \& Losick, R.}
+  (2003). {\em {Molecular Biology of the Gene}\/}. Benjamin Cummings, 5th edn.
+
+\bibitem[{Whitington {\em et~al.\/}(2009)Whitington, Perkins \&
+  Bailey}]{whitington2009}
+{\sc Whitington, T., Perkins, A.C. \& Bailey, T.L.} (2009). {High-throughput
+  chromatin information enables accurate tissue-specific prediction of
+  transcription factor binding sites}. {\em Nucleic Acids Research\/}, {\bf
+  37}, 14--25.
+
+\bibitem[{Wingender {\em et~al.\/}(1996)Wingender, Dietze, Karas \&
+  Kn\"{u}ppel}]{wingender1996}
+{\sc Wingender, E., Dietze, P., Karas, H. \& Kn\"{u}ppel, R.} (1996).
+  {TRANSFAC: A Database on Transcription Factors and Their DNA Binding Sites}.
+  {\em Nucleic Acids Research\/}, {\bf 24}, 238--241.
+
+\bibitem[{Won {\em et~al.\/}(2010)Won, Ren \& Wang}]{won2010}
+{\sc Won, K.J., Ren, B. \& Wang, W.} (2010). {Genome-wide prediction of
+  transcription factor binding sites using an integrated model}. {\em Genome
+  Biology\/}, {\bf 11}, R7+.
+
+\bibitem[{Zhang {\em et~al.\/}(2008)Zhang, Liu, Meyer, Eeckhoute, Johnson,
+  Bernstein, Nusbaum, Myers, Brown, Li \& Liu}]{zhang2008}
+{\sc Zhang, Y., Liu, T., Meyer, C.A., Eeckhoute, J., Johnson, D.S., Bernstein,
+  B.E., Nusbaum, C., Myers, R.M., Brown, M., Li, W. \& Liu, X.S.} (2008).
+  {Model-based analysis of ChIP-Seq (MACS)}. {\em Genome biology\/}, {\bf 9},
+  R137+.
+
+\end{thebibliography}

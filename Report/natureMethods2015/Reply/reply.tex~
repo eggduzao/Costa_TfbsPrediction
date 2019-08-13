@@ -1,0 +1,132 @@
+\documentclass[11pt]{article}
+\usepackage[body={6.25in,8.85in}]{geometry}
+\usepackage{url}
+\usepackage[scaled]{helvet}
+\usepackage[authoryear,round,longnamesfirst]{natbib}
+
+\begin{document}
+\title{Reply to referees: Correction of DNase-seq cleavage bias impacts on quality of footprinting} \date{}
+
+\author{Eduardo G. Gusm\~{a}o, Martin Zenke and Ivan G. Costa}
+
+\thispagestyle{empty}
+
+\maketitle
+
+\setlength{\parskip}{0.5cm}
+
+We would like to thank all three referees for their valuable considerations. We addressed all questions posed by the referees by improving the manuscript and performing additional analyses. You can find below detailed comments to all major requests. All minor corrections have been incorporated into the manuscript.
+
+\section*{Reviewer 1}
+
+\noindent{\textit{\textbf{Remarks to the Author}
+
+\noindent{\textit{\textbf{1.} The analyses by Gusmao et al. are informative with the respect to comparison of computational footprinting methods, which was not systematically performed by He et al. This is an important clarification and is of general interest to the field. However, I am not convinced that results from Gusmao et al. disagree with conclusions of He et al. Rather they expand some of the He et al. analyses by including additional methods.}}
+
+%XXX TODO
+
+\noindent{\textit{\textbf{2.} He et al. evaluated the effects of differential footprinting for predicting differences in TF binding between conditions and demonstrated high performance of this metric compared to footprinting score. It would be informative to see Gusmao and coauthors evaluate HINT and other methods for similar analyses.}}
+
+%XXX TODO
+
+\noindent{\textit{\textbf{General Comments}
+
+\noindent{\textit{\textbf{1.} I disagree with the claim by Gusmao et al. that He et al. claim that "the simplest method for detection of active binding sites possible, outperforms computational footprinting". The authors only made observations for the methods that were evaluated.}}
+
+%XXX TODO
+
+\noindent{\textit{\textbf{2.} The authors demonstrate improved footprinting of six factors after DNase bias correction. However, no results are shown for AR and GR, which was given as a main example of uninformative footprints in He et al. Can the authors provide such analyses? Furthermore, it would be useful to compare corrected footprints for between He et al. and Gusmao et al. on the same set of 6+ factors (Fig. 5, SI).}}
+
+%XXX TODO
+
+\noindent{\textit{\textbf{3.} It is currently difficult to evaluate the results for a specific TF from the graph (Fig. 3, SI). Can the authors summarize the results of their AUC vs OBS analyses in a spreadsheet wtr to individual TFs and footprinting methods, so that the performance of methods can be evaluated for individual TFs?}}
+
+%XXX TODO
+
+\noindent{\textit{\textbf{4.} Can the authors comment on He et al.'s evaluation of 0500 and 0458 motifs? Do Gusmao et al. agree that these footprints are artifacts of DNaseI?}}
+
+%XXX TODO
+
+\section*{Reviewer 2}
+
+\noindent{\textit{\textbf{Remarks to the Author}
+
+\noindent{\textit{\textbf{1.} The authors are overstating the implications from He et al. The main point of that study was to raise concerns that simple methods that do not account for background, including some that had been used in high profile publications, could lead to false positive footprints (they do not suggest that no method would ever be able to identify footprints). In my opinion, this was shown unequivocally. More importantly, they authors have missed several studies that have already addressed this very question, published as independent papers rather than a short note.}}
+
+%XXX TODO
+
+\noindent{\textit{\textbf{a.} Hager lab, Mol Cell 2014 these authors develop explicit models for background and suggest (and show with a few examples) that many factors would not lead to discernable footprints. Specifically, depth of a footprint would be attributable to residence time, while the shape would be entirely due to background.}}
+
+%XXX TODO
+
+\noindent{\textit{\textbf{b.} Crawford and Ohler labs, NAR 2014 this study came out almost at the same time and led to somewhat different conclusions. It contains a mixture model with a background component, and quantifies how well the actual footprint, rather than overall accessibility, would predict bound sites.}}
+
+%XXX TODO
+
+\noindent{\textit{\textbf{c.} Gifford lab (Nat.Biotech 2014) with the method "PIQ": This is also a sitecentric method where footprints are learned from ChIP and DNase signal magnitude and shape in a TFspecific manner. [This method might be less relevant since a 400bp window is considered instead of immediate motif vicinity and there are no claims/correction regarding bias, but it would certainly be relevant to see how it compares.}}
+
+%XXX TODO
+
+\noindent{\textit{\textbf{d.} Ott lab (NAR 2013) with the method "Wellington" (implemented in pyDNase): This is a segmentationbased method that takes advantage of the strandspecific imbalance of DNase cuts, resulting from size selection in the doublehit protocol. So this would only be applicable to U Wash data analyses, but has been shown to perform well in several comparisons.}}
+
+%XXX TODO
+
+\noindent{\textit{\textbf{2.} There is an issue with the estimation of the bias. Rather than explicitly using the bias parameters estimated on dechromatinized DNA by Crawford and Ohler for the Duke protocol, or earlier by Stamatoyannopoulos for the U Wash protocol, this is done using aligned reads inside DHSs. This is of course open chromatin, but not equivalent to naked DNA. This problem is reflected in supplementary figure 1, which shows the correlations of these 6mer bias values in different datasets and protocols. Crawford and Ohler showed that the bias in Wash vs Duke protocols is positively correlation (0.74), whereas here this appears to be much lower or not detectable. Cleavage is not just be influenced by the sequence but also what is really unbound and accessible.}}
+
+%XXX TODO
+
+\noindent{\textit{\textbf{3.} The authors do not include the nuclear receptors in their studies (with a note that they are not represented in major PWM repositories). This is the "poster child" for factors that likely do not leave discernible footprints, and they need to include those.}}
+
+%XXX TODO
+
+\noindent{\textit{\textbf{4.} In their analysis they find that some of the methods are not significantly influenced by bias. These are methods like Cuellar and Centipede that take advantage of smoothed signals in windows significantly larger than the motif itself (150200bp). This is probably the reason for their relative immunity to the bias problem, and I don't find this very surprising. Therefore it is unclear to me what this finding contributes to the field precisely. It is certainly not enough to rule out the necessity for bias corrections. In fact the authors incorporate bias correction in their own method (HINTBC). These broad differences between methods that use larger regions vs just sites is not clearly explained and phrased and should be revised.}}
+
+%XXX TODO
+
+\noindent{\textit{\textbf{Minor Concerns}
+
+\noindent{\textit{\textbf{1.} The labels in figure 1A appear to be wrong, they don't agree with the text. (Figure 1A is the same as supplementary figure 3, this seems a bit redundant)}}
+
+%XXX TODO
+
+\noindent{\textit{\textbf{2.} The method, HINT, appears like a promising approach. With the size constraints imposed by the format, there is too little information how this is trained and whether and how it might differ to the original publication.}}
+
+%XXX TODO
+
+\noindent{\textit{\textbf{3.} Some results and comparisons would benefit from a more indepth discussion. For instance, the original Cuellar Partida is a prior derived from tag counts, and the comparably worse performance seems to result from a combination with FIMO (PWM scores). Similarly, "Neph" is compared against FS score (which is pretty much the same without optimized flank scores) but performs much better. Insights into the flank optimization (which in the original Neph appears to be done manually/ad hoc) would certainly help others in the field.}}
+
+%XXX TODO
+
+\noindent{\textit{\textbf{Final Remarks}
+
+\noindent{\textit{Overall, given that the main question has been addressed by others, the authors may fare best to write up a more in depth computational study that focuses on the method and insights how different approaches work or do not work rather than the background issue.}}
+
+%XXX TODO
+
+\section*{Reviewer 3}
+
+\noindent{\textit{\textbf{Remarks to the Author}
+
+\noindent{\textit{\textbf{1.} The He paper outlined the problem of footprinting TF from DNaseseq experiments and showed how different TF are affect at different levels. Sung et al 2014 further defined the problem by examining factor dynamics in detecting footprints.}}
+
+%XXX TODO
+
+\noindent{\textit{\textbf{2.} In this correspondence the authors address the overall bias across all factors, but do not show how there method corrects for the bias for specific factors which have short binding times.}}
+
+%XXX TODO
+
+\noindent{\textit{\textbf{3.} For example, one of the key finding in He et al was that AR and p53 can not be accurately detected by DNaseseq footprinting. Does HINTBS accurately detect AR or p53 footprints? With out this included it is hard to understand if correcting for bias will make a difference.}}
+
+%XXX TODO
+
+\vspace{20mm}
+
+\noindent
+In summary, we successfully addressed all points made by the reviewers and very much hope that the paper can now be accepted in \emph{Nature Methods}. If you have any further question, please let us know.
+
+\bibliographystyle{natbib}
+\bibliography{document}
+
+\end{document}
+
+

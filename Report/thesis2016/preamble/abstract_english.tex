@@ -1,0 +1,21 @@
+\chapter*{Abstract (English)}
+
+% Introduction - gene regulation
+Transcriptional regulation orchestrates the proper temporal and spatial expression of genes. The identification of transcriptional regulatory elements, such as transcription factor binding sites (TFBSs), is crucial to understand regulatory networks driving cellular processes such as cell development and the onset of diseases. 
+
+% Sequence-based methods
+The standard computational approach is to use sequence-based methods, which search over the genome's DNA for sequences representing the DNA binding affinity sequence of transcription factors (TFs). However, this approach is not able to predict active binding sites, i.e. binding sites that are being currently bound by TFs at a particular cell state. This happens as the sequence-based methods do not account for the fact that the chromatin dynamically changes its state between an open form (and accessible to TF binding) and closed (not accessible by TFs).
+
+% NGS-based methods
+Advances in next-generation sequencing techniques have enabled the measurement of such open chromatin regions in a genome-wide manner with assays such as the chromatin immunoprecipitation followed by massive sequencing (ChIP-seq) and DNase I digestion followed by massive sequencing (DNase-seq). Current research has proven that such open chromatin genome-wide assays improve sequence-based detection of active TFBSs. The rationale is to restrict the sequence-based search of binding sites to genomic regions where these assays indicate the chromatin is open and accessible for TF binding, in a cell-specific manner.
+
+% Our approach (signal and HMM)
+We propose the first computational framework which integrates both DNase-seq and ChIP-seq data to perform predictions of active TFBSs. We have previously observed that there is a distinctive pattern at active TFBSs regarding both DNase-seq and ChIP-seq data. Our framework treats these data using signal normalization strategies and searches for these distinctive patterns, the so-called ``footprints'', by segmenting the genome using hidden Markov models (HMMs). Given that, our framework -- termed HINT (HMM-based identification of TF footprints) -- is categorized as a ``computational footprinting method''.
+
+% Evaluation and comparative analysis
+We evaluate our computational footprinting method by comparing the footprint predictions to experimentally verified active TFBSs. Our evaluation approach creates statistics which enables the comparison between our method and competing computational footprinting methods. Our comparative experiment is the most complete so far, with a total of $14$ computational footprinting methods and $233$ TFs evaluated.
+
+% Application in real biological data
+Furthermore, we successfully applied our computational footprinting method HINT in two different biological studies to identify regulatory elements involved in specific biological conditions. HINT has proven to be a useful computational framework in biological studies involving regulatory genomics.
+
+

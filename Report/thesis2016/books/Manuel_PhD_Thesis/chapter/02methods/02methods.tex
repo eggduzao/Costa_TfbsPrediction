@@ -1,0 +1,1018 @@
+\chapter{Methods}
+\label{chapter_methods}
+In the previous chapter, we have introduced the fundamental biological concepts as well as the ChIP-seq technique. 
+We furthermore formalized and motivated the differential peak calling problem.
+The aim of the thesis is to develop algorithms to call differential peaks in ChIP-seq profiles.
+In this chapter we explain our differential peak calling methods to achieve this aim.
+We first introduce the notation and conventions that are necessary to formalize our solution.
+We then explain the preprocessing steps that are required to make the ChIP-seq signal applicable for our method.
+After a brief introduction to HMMs, we describe how to use them to estimate potential DP candidates.
+Next, we explain which postprocessing steps are performed to obtain the final DPs.
+Algorithm~\ref{alg_dpc} gives an overview of all necessary steps.
+Finally, the implementation of our solution is described.
+
+
+\section{Notations and Conventions}
+We denote an alphabet $\Sigma$ and typically use $\Sigma = \{A, C, G, T\}$, where the nucleotides are given as capital letters.
+Character N is used as a wildcard that represents any element in $\Sigma$.
+A string is an element of $\Sigma^{*}$ and is described with a lower case character.
+Let $s = \langle s_1, \ldots, s_m \rangle$ be a string.
+Then, string s has length $|s| = m $ and the substring $\langle s_i, s_{i+1}, \ldots, s_j \rangle$ is written as $[s_i, s_j]$.
+A genome is a string which can be divided into a sequence $\langle b_1, \ldots, b_L\rangle$ of bins.
+A bin can be assigned to any value describing a genomic signal.
+The index of a genome is denoted a genomic position.
+We use genomic signal, ChIP-seq experiment and ChIP-seq profile as synonyms.
+
+Matrix $\signalmatrix{X}$ is the matrix that represents a genomic signal 
+$$ \signalmatrix{X} = {\{{x}_{ij}\}}^{D \times L}, $$  
+where $D$ is the number of genomic signals and $L$ the number of bins. 
+% In case $D=2$, we take into account two ChIP-seq signals, that is, in contrary to case $D>2$, no replicates are described by $\signalmatrix{X}$.
+The $i$th genomic signal is represented by the vector $x_{i\cdot} = (x_{i1}, \ldots, x_{iL})$ and the genomic signals for bin $j$ is represented by the vector $x_{\cdot j} = (x_{1j}, \ldots, x_{Dj})$.
+Moreover, each ChIP-seq experiment belongs to one of $K$ biological conditions. 
+The set of experiments associated to condition $k$ is given as
+$$G_k = \{i \mid i \in \{1, \ldots, D\}, i \text{ belongs to }k\},$$
+and the set of all experiment as
+$$G=\{G_1,...,G_K\}.$$
+\noindent 
+In this thesis we investigate the case $K = |G| = 2$, that is, we are interested in two biological conditions.
+In particular, in case $D = 2$ without replicates, we have $|G|=2$ and the two genomic signals are associated to different conditions. 
+Further, $x_{G_kj}$ represents the genomic signal restricted to experiments belonging to $G_k$ and $\overline{x}_{G_k j}$ is the mean read count for all experiments in condition $k$, that is,
+$$\overline{x}_{G_k j} = \frac{\sum_{i \in G_k} x_{ij}}{|G_k|}.$$ 
+Moreover, ChIP-seq experiments often have input-DNA for each cell type analyzed (see Section~\ref{sec_control_sample}).
+We will refer to input-DNA as  $x^{input}=\{x^{input}_1,...,x^{input}_L\}$. 
+
+% A set is described by an upper case character.
+% The number of elements in set A is given by $|A|$.
+% It is always clear from the context whether a upper case character refers to a set or a nucleotide.
+The probabilities measure is given by $\Pr$.
+We use bp (base pair) as length unit for nucleotide sequences.
+
+
+
+\section{Preprocessing Pipeline}
+\label{sec_prepocessing_pipeline}
+We employ a pipeline to preprocess data obtained by ChIP-seq.
+The aim of the pipeline is to construct and to improve the genomic signal represented by matrix $\signalmatrix{X}$.
+Signal improvement is necessary since the data usually contain bias as it is described in Section~\ref{sec_chipseq_challenges}.
+The first step of Algorithm~\ref{alg_dpc} gives an overview of the pipeline.
+We assume that the data are given as reads that are aligned to a genome $g$.
+
+
+
+\subsection{Filtering of Reads}
+\label{sec_method_read_mapping}
+Reads are mapped to the reference genome $g$ and serve as input for our method.
+We ignore reads mapping to genomic regions which are either unassembled (denoted by Ns in the genome) or that exhibit a poor mappability (see Section~\ref{sec_challenges_sequencing}). 
+Regions with poor mappability stem from the fact that short reads cannot be uniquely mapped to repetitive regions that exhibit a higher length than the reads themselves \citep{song2011}. 
+Reads aligned completely to a region with poor mappability are ignored.
+Moreover, we ignore all reads but one that are mapped to a same coordinate as it is likely that these reads stem from PCR duplicates (see Section~\ref{sec_challenges_pcr_duplicates}).
+% XXX add reference for ignoring all but one read
+
+
+
+\subsection{Fragment Size Estimation}
+\label{sec_method_frag_size}
+Figure~\ref{pic_fragment_size_estimate} (see Section~\ref{sec_challenges_shift}) depicts the situation where reads are aligned to the forward and reverse genome and lay half the fragment size away from the ChIP-seq source.
+As only the beginning of the sample's DNA fragments is sequenced in the ChIP-seq protocol, we have to reconstruct the unknown fragment size $f$.
+With the reconstructed fragment size, peaks in the read distribution correlate to protein position in the ChIP-seq signal.
+
+Given set $F$ of the leftmost positions of all reads aligned to the forward strand and given set $R$ of the rightmost positions of all reads aligned to the reverse strand, we follow \cite{mammana2013} and define the strand cross-correlation function
+$$c(f) = \sum_{p \in F \cup R} h(p) \cdot h(f + p), \quad \text{with}$$ 
+$$h(x) = \begin{cases} 
+	    0, & x \notin F \cup R, \\ 
+	    2, & x \in F \cap R, \\
+	    1, & \text{else.}
+	 \end{cases}$$
+The convolution $c$ gives the correlation between counts on the forward and reverse strands for a given fragment size $f$. 
+The fragment size $f$ corresponds to the value with the maximum correlation between both strands, that is, 
+$$\hat{f}=\argmaxu{f \in G} c(f),$$
+with $G \subseteq \mathbb{N}$.
+In other words, we shift the coordinates and compute the overlap. 
+The shifting distance resulting in a maximum overlap corresponds to the size of the fragments covering the target DNA-protein complexes~\citep{kharchenko2008}.
+
+\begin{algorithm}[ht]
+\caption[Differential Peak Calling Algorithm]{Differential peak calling algorithm}
+\label{alg_dpc}
+\textit{Input:} reference genome $g$, two sets of aligned reads $S_1, S_2$\\
+\textit{Output:} list of DPs $\langle d_i \rangle,\ i \in \mathbb{N}$
+
+  \begin{enumerate}[label=\arabic*.]
+    \item employ preprocessing pipeline to $S_1$ and $S_2$: \Comment{Section~\ref{sec_prepocessing_pipeline}}
+    \begin{enumerate}[label=1.\arabic*]
+     \item filter reads in $S_1, S_2$ \Comment{Section~\ref{sec_method_read_mapping}}
+     \item estimate fragmentation size $\hat{f}$ \Comment{Section~\ref{sec_method_frag_size}}
+     \item create signal matrix $\signalmatrix{X}^{D \times L}$ \Comment{Section~\ref{sec_method_profile}}
+     \item normalize $\signalmatrix{X}$ against GC-content \Comment{Section~\ref{sec_method_gccontent}}
+     
+     \item \textbf{if} $x^{input}$ available: \\ 
+     \ $\text{ } \quad \quad \ $ normalize with input-DNA $x_{i\cdot} =x_{i\cdot}' - \alpha \cdot x_i^{input}$ \Comment{Section~\ref{sec_method_control_norm}}
+     \item normalize $\signalmatrix{X}$ among ChIP-seq profiles \Comment{Section~\ref{sec_sample_norm}}
+    \end{enumerate}
+    
+    \item identify candidate DPs $\langle d_i' \rangle$ with HMM $\delta$:\\
+    \vspace{-5mm}
+    
+    \textbf{if} $D > 2$: \Comment{with replicates}\\
+    \ $\text{ } \quad \quad \ $ use Negative Binomial as emission of HMM $\delta$ \Comment{Section~\ref{sec_method_hmm_with}}\\
+    \textbf{else}: \Comment{without replicates}\\
+    \ $\text{ } \quad \quad \ $ use Binomial or mixture of Poissons as emission of HMM $\delta$\Comment{Section~\ref{sec_method_hmm_without}}
+    
+    \item postprocess candidate DPs $\langle d_i' \rangle$ and output final DPs $\langle d_i \rangle$ \Comment{Section~\ref{sec_method_artefacts}}
+  \end{enumerate}
+\end{algorithm}
+
+\subsection{Signal Profile}
+\label{sec_method_profile}
+We create the genomic profile of a ChIP-seq experiment by fragmenting the genome into bins and counting the reads falling in these bins. 
+First, we extend all forward (reverse) reads from the leftmost (rightmost) position to the $3'$ ($5'$) direction by the estimated read fragment size~$\hat{f}$. 
+Second, we divide the genome into consecutive bins $\langle b_1, \ldots, b_L\rangle$ by using a sliding window approach. 
+Each bin $b_j$ covers the genomic positions $[j \cdot s - 0.5 \cdot w, j \cdot s + 0.5 \cdot w]$, where $s$ and $w$ are the step size and the window size.
+The genomic positions are restricted to a range from 0 to the genome's length.
+The value of the genomic profile $x_{ij}$ is the number of extended reads of ChIP-seq signal $i$ aligned to regions overlapping bin $b_j$. 
+If a read lies entirely in a filtered region, it will be ignored (see Section \ref{sec_method_read_mapping}). 
+
+
+\subsection{GC-Content}
+\label{sec_method_gccontent}
+Sequencing technologies usually exhibit an unwished correlation between the number of reads and the \nuc{GC}-content of the regions where the reads are located (see Section~\ref{sec_challenges_sequencing}).
+To model and correct this effect, we use an histogram-based approach inspired by~\cite{ashoor2013}. 
+Let $g_j \in [0,1]$ indicate the \nuc{GC}-content of the genomic bin $b_j$, that is, the proportion of \nuc{G}s and \nuc{C}s in the bin's underlying genomic sequence. 
+We want to measure the average number of reads from input signal $x^{input}$ assigned to bins on a particular \nuc{GC}-content interval. 
+For an interval $[v,v+\delta] \subseteq [0,1]$ with resolution parameter $\delta$ and genomic control signal $x^{input}$, we have
+$$
+h(v) =  \frac{\sum_{j=1}^{L} x^{input}_{j} \mathbf{1}(g_j \in [v,v+\delta] )}{\sum_{j=1}^{L} \mathbf{1}(g_j \in [v,v+\delta])},
+$$
+where $\mathbf{1}$ is an indicator function and $v\in\{0, \delta, \ldots, 1-\delta\}$. 
+We sum over all bins $j$ to compute the average input-DNA signal for a particular \nuc{GC}-content interval.
+Next, we define the expected signal value of function $h$ as
+$$T=\delta \cdot \sum_v h(v).$$
+We then correct the genomic signal $x_{ij}$ for given $g_j \in [v,v+\delta]$ with
+$$x_{ij}^{\nuc{GC}} =  x_{ij} \cdot \frac{T}{h(v)}.$$
+
+\noindent
+Loosely speaking, we increase (decrease) the genomic signal of a bin, if the average \nuc{GC}-dependent signal is lower (higher) than expected.
+We use input-DNA as no immunoprecipitate step has taken place (see Section~\ref{sec_chip}) and therefore no signal induced by antibodies may influence the correlation between the number of reads the the \nuc{GC}-content.
+
+\subsection{Control Normalization}
+\label{sec_method_control_norm}
+To avoid bias associated to the DNA shearing process, it is usual to subtract the input-DNA from the ChIP-seq genomic signals. 
+We follow the sequencing extraction scaling approach of \cite{diaz2012}, which performs a signal normalization previous to the subtraction. 
+The rationale is that while input-DNA and ChIP-seq libraries usually have similar number of reads, the mass of ChIP-seq reads are concentrated in protein-DNA interaction sites. Therefore, a simple subtraction tends to over-penalize the ChIP-seq signal.
+For a scaling factor $\alpha$ and input-DNA $x^{input}$, we perform for the $i$th signal
+$$x_{i\cdot} = x_{i\cdot}' - \alpha \cdot x^{input}_i,$$
+\noindent
+where $x_{i\cdot}'$ indicates the original signal.
+See \cite{diaz2012} for details about the computation of factor $\alpha$.
+
+
+\subsection{Sample Normalization}
+\label{sec_sample_norm}
+A crucial aspect in the analysis of multiple ChIP-seq samples is the strategy for a genome-wide normalization of samples to bring them to a similar scale. 
+Here, we introduce three different normalization approaches.
+We justify the use of these approaches and also point out their disadvantages.
+
+% % % % % ODIN
+% We perform a global sequencing depth scaling approach to normalize two ChIP-seq signals.
+\subsubsection{SDS-based Normalization Approach}
+An easy, intuitive approach for normalization is the global sequencing depth scaling (SDS) approach.
+Here, we simply increase the ChIP-seq signal that exhibit a genome-wide overall lower sequencing depth.
+% We use this approach for the case without replicates.
+
+\noindent
+More formally, let $S^1 = \sum_{j=1}^{L} x_{G_1j}$ and  $S^2 = \sum_{j=1}^{L} x_{G_2j}$ be the signal's total sum for $x_{G_1\cdot}$ and $x_{G_2\cdot}$.
+% We scale up the genomic signal with less number of reads by the factor $\gamma = \max(S^1/S^2, S^2/S^1)$.
+We scale up the genomic signal with less overall signal by the factor $f = \max(S^1/S^2, S^2/S^1)$.
+For example, if $S^1 < S^2$, we have 
+$$x_{G_1\cdot}^{\text{norm}} = f \cdot x_{G_1\cdot}$$
+with $f = S^2/S^1.$
+We round all values to obtain count data again.%\footnote{For simplicity we refer to this signal as read counts in the following text.}
+
+% We filter all bins $b_j$ with low number of reads ($x_{G_1j}  + x_{G_2j} > 3$) and  $\frac{x_{G_1j}}{S^1}+\frac{x_{G_2j}}{S^2} < \frac{2}{L \cdot M}$,
+% where $M$ represents the proportion of mappable regions. 
+% This filtering steps discards $80\%$ of bins with low count evidence.
+% This approach is tailored for the case of a ChIP-seq experiment that does not provide replicates.
+
+
+
+\subsubsection{TMM-based Normalization Approach}
+Outliers in the data, that is, bins with unexpected high read counts, negatively influence the SDS approach.
+Due to technical issues in the protocol, high read counts usually occur in ChIP-seq data and the SDS approach consequently artificially increases the signal.
+A more robust way to normalize is to use the trimmed mean of the genome wide logarithmic counts (TMM)~\citep{Robinson2010norm}.
+Currently, most DPCs use TMM for the normalization of replicates. 
+
+More formally, for a given signal $x_{i\cdot}$ with $i \in G_k$, we first estimate the mean signal $\overline{x}_{G_k\cdot}$ of condition~$k$. 
+We add 1 to all count data to avoid zero counts.
+Then, the logarithmic ratio (M-values) 
+$$M_j = \log\bigg(\frac{\overline{x}_{G_kj}}{x_{ij}}\bigg), $$
+\noindent
+and the logarithmic average (A-values)
+$$A_j = 0.5 \cdot \log(\overline{x}_{G_kj} \cdot x_{ij}),$$
+are estimated for all bins $j$.
+To reduce the number of outliers, we use trimmed values for $M_j$ and $A_j$.
+The normalization factor $f_i$ is the ratio of M- and A-values weighted by A-values
+$$\log(f_i) = \frac{\sum_j A_j \cdot M_j}{\sum_j A_j}.$$
+
+
+\subsubsection{Housekeeping Gene Normalization Approach}
+TMM was initially devised for gene expression experiments which assumes that counts of most observations (genes or peaks) do not change. 
+This is not necessarily the case for protein interactions, as two distinct cells can have distinct amounts of proteins or histone modifications bound to their DNA~\citep{Meyer2014}. 
+Particularly problematic in this normalization approaches is the effect of replicate specific signal-to-noise ratio (see Figure~\ref{pic_ratio_to_noise}). 
+
+We propose a normalization approach that is based on the idea that particular control regions serve as reference points to bring the ChIP-seq signals to the same level independently from the biological condition and from the experiments.
+% We explore an alternative approach based on the use of control regions. 
+Among others, control regions can be obtained by ChIP-PCR on selected genomic regions. 
+For the case of activating histone modification, we use the promoter of housekeeping genes (HK). 
+\cite{Karlic2010} show that histone modifications correlate well to gene expression and can therefore be used to predict the gene expression level.
+Housekeeping genes contribute to basic cell maintenance and are therefore expected to maintain constant gene expression level and consequently constant histone modifications~\citep{Eisenberg2013}.
+The overall working assumption for our normalization approach is that housekeeping genes do not change their expression or the abundance of histone marks in their promoter.
+
+More formally, we define a set of control genomic regions, $R=\{r_1, \ldots ,r_N\}$. The ChIP-seq signal of region $r_n$ for sample~$i$ is
+$$h_{in} = \sum_j {x_{ij} \cdot \mathbf{1}(b_j \text{ overlaps } r_n )}.$$
+\noindent
+First, for a given region $n$, we normalize the mean of each sample to the particular signal~$i$
+$$h'_{in} = \frac{\overline{h}_{\cdot n}}{h_{in}}.$$
+\noindent
+The normalization factor for sample $i$ is 
+$$f_i = \frac{\sum_n h'_{in}}{N},$$
+where $N$ is the number of HK genes. 
+\noindent
+Finally, ChIP-seq count estimates for sample $i$ are given by
+$$x'_{i\cdot} = f_i \cdot x_{i\cdot}.$$
+\noindent 
+We use the promoter of housekeeping genes that are described by \cite{Eisenberg2013}, namely C1orf43, CHMP2A, EMC7, GPI, PSMB2, PSMB4, RAB7A, REEP5, SNRPD3, VCP, VPS29, for the human genome.
+For the mouse genome, we use the corresponding genes but left out the human specific C1orf43. 
+See Figure~\ref{pic_hk_norm} for a schematic example of this normalization approach.
+
+As example we perform the HK gene normalization for the signals shown in Figure~\ref{pic_ratio_to_noise}.
+Similar to Figure~\ref{pic_norms_maplot}, which shows the MA-plots after applying the global and TMM normalization, we depict in Figure~\ref{pic_norms_maplot_HK} the MA-plot after normalizing the signals with the HK gene strategy.
+We apply a normalization factor of $4.1$ for S1 and of $1.1$ for S2.
+In contrary to the global and the TMM normalization approaches, the usage of HK genes ensures not to take noise signal into account.
+We obtain a mean M-value of peak associated bins (MMP) of $0.81$ which is lower than after the global ($1.54$) and TMM ($1.79$) normalization.
+Low M-values are expected as the peaks are based on two replicates of the same condition.
+Hence, this example demonstrates the advantage of the HK gene over the global and TMM normalization.
+
+\begin{figure}[ht]
+  \centering
+%   \includegraphics[width = \textwidth]{pics/norm_MA_plots.pdf}
+  \includegraphics[width = 0.35\textwidth]{pics/norm_MA_plots_HK.png}
+\caption[MA-plot for HK gene normalization]{MA-plot for the HK gene normalization for the region shown in Figure~\ref{pic_ratio_to_noise}.
+We show the HK gene normalization factors $F1$ and $F2$ as well as the mean M-value of peak associated bins (MMP).}
+\label{pic_norms_maplot_HK}
+\end{figure}
+
+\begin{figure}[ht]
+  \centering
+%   \includegraphics[width = 15cm]{pics/hk_norm.pdf}
+  \includegraphics[width = 15cm]{pics/hk_norm.png}
+\caption[Housekeeping gene normalization approach]{HK gene normalization approach. 
+The left panel shows four ChIP-seq signals assigned to two biological conditions (red and green).
+More details about the presented data can be found in Section~\ref{sec_biol_datasets}. 
+Boxes in signals contain peaks where its peak mass is given. 
+The bold box gives the promoter of a HK gene used for normalization. 
+In this carton, the normalization procedure gives 0.8 for ChIP-seq signal FL14, 1.7 for FL16, 0.5 for CC3 and 2.5 for CC4 as normalization factor. 
+The right panel shows the normalized signal with updated mass values of each peak located in a box. 
+The HK gene normalization approach brings all ChIP-seq signals to the same scale for any further downstream analysis steps.
+}
+\label{pic_hk_norm}
+\end{figure}
+
+
+
+
+\section{Differential Peak Calling}
+\label{sec_dpc}
+We first give a brief introduction to HMMs. 
+Second, we explain how we use HMMs to call candidate DPs.
+We describe the emission distribution used for the HMM, and explain how to initialize as well as how to train the HMM.
+
+\subsection{HMM Introduction}
+A hidden Markov model (HMM) is a stochastic model based on Markov chains.
+An HMM has a finite set $S = \{1, \ldots, M\}$ of states and a probability density function assigned to each state.
+The HMM is in each time point at a particular state and emits a symbol following the density function.
+The emitted symbol is also called observation.
+More formal, let $X = (X_1, \ldots, X_L)$ be a random variable and let $x=(x_1, \ldots, x_L)$ be a realisation of $X$ that represents the observation sequence.
+Moreover, let $Q = (Q_1, \ldots, Q_L)$ be an unknown variable.
+For observation $x=(x_1, \ldots, x_j, \ldots, x_L)$, we have an unknown sequence of states $q = (q_1, \ldots, q_j, \ldots, q_L)$ ($q_j \in S$), where state $q_j$ emits observation $x_j$.
+% The pair $x$ and $q$ defines an HMM.
+There are two major assumptions for HMMs:
+\begin{enumerate}
+ \item the probability to be in a state depends only of the previous state, that is,
+ \begin{align} 
+   \Pr(q_j \mid q_1, \ldots, q_{j-1}) = \Pr(q_j \mid q_{j-1}) , \quad \text{and} \label{eq_hmm_prob}
+ \end{align}
+ \item emitting observation $x_j$ depends only on state $q_j$, that is,
+ $$\Pr(x_j \mid q_1, \ldots, q_j) = \Pr(x_j \mid q_j).$$
+\end{enumerate}
+\noindent
+The probability given by Equation~\ref{eq_hmm_prob} to reach a state is described by a transition matrix
+$$A = (a_{kl}) \quad \text{with} \quad a_{kl} = \Pr(q_j = k \mid q_{j-1} = l),$$
+for $1 \leq k \leq M$, $1 \leq l \leq M$, $a_{kl} > 0$ and $\sum_l a_{kl} = 1$.
+Furthermore, let $\pi = (\pi_1, \ldots, \pi_M)$ be the initial state probabilities $\Pr(q_1 = k) = \pi_k$.
+In our case, the observation space $X$ is discrete. 
+We consequently can reduce the probability density functions to probability mass functions $\mathbb{B}$.
+Hence, an HMM $\delta$ is parameterized by $\delta = (A, \mathbb{B}, \pi)$.
+Let $b_s$ denote the probability mass function associated to state $s$, that is,
+$$b_s(y) = \Pr(y = x_j \mid q_j = s, \Theta_s)$$ %= f(y, \Theta_s),$$
+with $1 \leq s \leq M$ and $y \in X$.
+Parameter $\Theta_s$ describes the parameter of function~$b_s$.
+
+There are three fundamental computational problems associated to HMMs.
+The first question that naturally arises is how to compute the likelihood of a sequence of observations $x$ for a given HMM $\delta$, that is, one has to evaluate
+\begin{align}
+ \Pr(x \mid \delta) = \sum_{q \in \mathbb{Q}} \Pr(x, q | \delta) \label{eq_hmm_prob1}, 
+\end{align}
+where $\mathbb{Q}$ gives all possible state sequences.
+Due to Equation~\ref{eq_hmm_prob}, it is easy to see that Equation~\ref{eq_hmm_prob1} is equivalent to
+\begin{align}
+ \Pr(x \mid \delta) = \sum_{q \in \mathbb{Q}}  \pi_{q_1}b_{q_1}(x_1)a_{q_1q_2} \dots a_{q_{L-1}q_L}b_{q_L}(x_L). \label{eq_hmm_prob1_ext}
+\end{align}
+Evaluating Equation~\ref{eq_hmm_prob1_ext} needs potentially infeasible $O(LM^L)$ operations.
+However, the for\-ward-backward algorithm solves Equation~\ref{eq_hmm_prob1_ext} in $O(ML)$ by taking advantage of dynamic programming and two variables called for\-ward- and backward-variable~\citep{rabiner1989}.
+The forward-variable is defined as 
+\begin{align}
+ \alpha_s(j) = \Pr((x_1, \ldots, x_j), q_j = s \mid \delta). \notag  %\label{eq_hmm_forward}
+\end{align}
+Loosely spoken, for a given HMM $\delta$  the forward-variable gives the probability to produce prefix $(x_1, \ldots, x_j)$ of the observation $x$ and end up in state~$s$.
+The backward-variable is defined as
+\begin{align}
+ \beta_s(j) = \begin{cases}
+               \Pr((x_{j+1}, \ldots, x_L), q_j = s), & \text{for } 1 \leq j \leq L, \\
+               1, & \text{for } j = L.
+              \end{cases} \notag %\label{eq_hmm_backward}
+\end{align}
+For a given HMM $\delta$, the backward-variable gives the probability to obtain suffix $(x_{j+1}, \ldots, x_L)$ of the observation $x$ by starting from state~$s$.
+Both variable are recursively defined and can be computed by dynamic programming.
+Combining the forward- and backward variable leads to the forward-backward algorithm.
+The forward-backward algorithm can also be used to compute a further important measure, namely the posterior probability $\gamma$.
+The posterior probability $\gamma_s(j)$ is defined as the probability of being in state $s$ at time $j$, that is,
+\begin{align}
+ \gamma_s(j) = \Pr(q_j = s \mid \delta, x). \label{eq_hmm_posterior}
+\end{align}
+It can be shown that the posterior probability $\gamma_s(j)$ is given by
+\begin{align*}
+ \gamma_s(j) = \frac{\alpha_s(j)\beta_s(j)}{\sum_j^L \alpha_s(j)\beta_s(j)}. \nonumber
+\end{align*}
+
+\noindent
+The second problem is about finding a state sequence that maximizes its likelihood for a given HMM $\delta$ and observation $x$, that is, one has to evaluate
+\begin{align*}
+ \hat{q} = \argmax{q} \Pr(x, q \mid \delta).
+\end{align*}
+The Viterbi algorithm which works similar to the forward-backward algorithm can solve the problem in $O(M^2L)$~\citep{rabiner1989}.
+The most likely state sequence is therefore also called Viterbi path.
+
+\noindent
+The last problem is about the maximum likelihood estimation of an HMM $\delta$ for a given observation $x$, that is, one has to evaluate
+\begin{align}
+ \hat{\delta} = \argmax{\delta} \Pr(x \mid \delta). \label{eq_hmm_prob3}
+\end{align}
+Equation~\ref{eq_hmm_prob3} cannot be solved analytically.
+A popular numeric maximization approach is the Baum-Welch algorithm, a specific instance of the EM-algorithm for HMMs.
+To apply the Baum-Welch algorithm for a discrete HMM with emission distribution $b$, the following equation has to be solved, either numerically or analytically,
+\begin{align}
+ \hat{\Theta} \in \argmax{\Theta} \sum_{s=0}^M \sum_{j=0}^{L} \gamma_s(j) \log b_s(y). \label{eq_em_emission}
+\end{align}
+% XXX put more details about the EM algorithm? With formulas from the dipl arbeit?
+
+\noindent
+This chapter is based on \cite{Couvreur1996}.
+For more details and proofs, please see \cite{rabiner1989}.
+Also, to get a deeper understanding of the Baum-Welch algorithm, we refer the reader to \cite{bilmes1997}.
+
+
+\subsection{HMM for Differential Peak Calling}
+\label{hmm_for_dpc}
+We model the differential peak calling problem by a three state HMM, which receives a $D \times L$ dimensional signal matrix $\signalmatrix{X}$ as input. 
+The signals are the ChIP-Seq profiles after the application of all preprocessing steps described in Section~\ref{sec_prepocessing_pipeline}. 
+This first order HMM contains a state representing DPs gained in the first biological condition $G_1$ (\hmmstate{Gain 1}), a state for DPs gained in the second biological condition $G_2$ (\hmmstate{Gain 2}) and a background state (\hmmstate{Back}).
+We will call DPs to be \hmmstate{Gain~1} (\hmmstate{Gain~2}) for all competing methods, whenever they are detected to have higher signal in $x_{G_1\cdot}$ ($x_{G_12\cdot}$).
+Figure~\ref{pic_hmm} shows the HMM topology, where all states have transitions to other states and to themselves.
+We constrain the emission distribution to avoid label switching and to reduce number of free parameters of the HMM.
+
+The main idea to obtain candidate DPs is to first train an HMM with the Baum-Welch algorithm and then derive the most likely state sequence from the given data using the Viterbi algorithm.
+The state sequence is then associated to genomic regions exhibiting a DP in the first or second condition.
+This strategy crucially depends on the HMM's emission distribution that has to properly reflect the distribution of $\signalmatrix{X}$.
+In case with replicates, overdispersion typically occurs and has to be considered by the emission distribution. 
+The application of the HMM to the signal matrix $\signalmatrix{X}$ is the second step in Algorithm~\ref{alg_dpc}.
+% If the emission distribution does not properly cover the data characteristics, that is, in particular the the mean and variance, the association between a candidate DPs and the Viterbi path is not reliable.
+% Because of their complexity, we distinguish between the case without replicates ($D = 2$) and with replicates ($D > 2$) and consequently introduce HMMs with various emission distributions.
+
+
+\begin{figure}[ht]
+  \centering
+  \includegraphics[width = 11cm]{pics/hmm.pdf}
+\caption[Hidden Markov model topology]{HMM topology. 
+The emission distributions are assigned to each state. 
+To avoid label switching and to reduce number of free parameters, we constraint several parameters of the emission distributions. 
+That is, the location parameter $E_\text{low}$ and $E_\text{high}$ of the emission distribution that are associated to state \hmmstate{Gain 1} and state \hmmstate{Gain 2} are equal across the conditions.
+State \hmmstate{Back} exhibit location parameter $E_\text{back}$.
+In case with replicates, the HMM has a Negative Binomial distribution as emission.
+The location parameters $\mu_{\text{low}}$ and $\mu_{\text{high}}$ correspond to $E_\text{low}$ and $E_\text{high}$.
+Furthermore, we set $\mu_{\text{low}}$ equal to $E_\text{back}$.
+In case without replicates, the HMM has either a Binomial or a mixture of Poisson distributions as emission.
+For the Binomial, we have $E_\text{low} = n p_{\text{low}}$, $E_\text{high} = n p_{\text{high}}$, and $E_\text{back} = n p_{\text{back}}.$
+For the mixture of Poisson distributions, we use $\lambda_{si1}$ respectively.
+}
+\label{pic_hmm}
+\end{figure}
+
+
+\subsection{Emission Distribution}
+For a given state~$s$ and observation~$x_{\cdot j}$, the emission distribution $b_s$ of the HMM is given by the product of probabilities for each biological condition~$G$, that is,
+\begin{align}
+ b_s(y) = \Pr\textstyle_{s}(y = x_{\cdot j} \mid q_j = s)= \prod_{k \leq \mid G \mid} \Pr\textstyle_{sk}(x_{G_kj}). \label{eq_hmm_em_emmission}
+\end{align}
+
+\noindent The probability of observing $x_{G_kj}$ in state $s$ and condition~$k$ is given by the product of the observation's probabilities associated to condition~$k$
+\begin{align}
+  \Pr\textstyle_{sk}(x_{G_kj}) = \prod_{i \in G_k} \Pr\textstyle_{sk}(x_{ij}). \label{eq_hmm_em_cond} 
+\end{align}
+
+\noindent
+In case $D=2$ without replicates, Equation~\ref{eq_hmm_em_cond} consists only of one factor, as $G_1$ and $G_2$ contain only one element.
+% The emission distribution described by Equation~\ref{eq_hmm_em_emmission} is associated to each state of the HMM and models the observations.
+% For given data, it is crucial to choose the proper emission distribution that captures all important data characteristics.
+In the following, we will give the HMM emission distribution for three cases: Binomial, mixture of Poissons and Negative Binomial.
+
+
+
+
+
+% We will show that using a Binomial distribution in the case without replicates is sufficient as two ChIP-seq profiles do not lead to overdispersion that negatively affects the DP estimation.
+% In contrary, in case with replicates, we will show that it is highly recommended to use an emission distribution that can handle overdispersion.
+% Such a flexible emission distribution is for example given by the Negative Binomial distribution.
+% For both cases, we will describe the HMM emission distribution, how to initialize the HMM and how to train it.
+
+
+% XXX add example picture like Tobi?, add formula with mean and variance of all three distributions?
+
+\subsubsection{HMM without Replicates}
+\label{sec_method_hmm_without}
+In case without replicates two ChIP-seq profiles describing two biological conditions have to be taken into account, where DPs are defined by differences between both profiles.
+The counts of both signals are modelled by a 2-dimensional emission distribution.
+We choose a Binomial distribution, as it models the number of successes in a sequence of independent Bernoulli experiments, that is, experiments with either a true or false outcome.
+Given a hypothetical Bernoulli experiment, the reads can either fall into the particular bin (true outcome) or into all other bins (false outcome).
+Hence, the number of reads in a genomic bin is modelled by a Binomial distribution.
+
+
+% We use the product of Binomial or mixture of Poisson distributions as emissions for our HMM.
+% More formally, for a given state $s$, we have $\Pr_{s}(x_{\cdot j})=\Pr_{s1}(x_{1j}) \cdot \Pr_{s2}(x_{2j}),$. In case of the Binomial distribution as emission, we have
+% For the Binomial distribution we have for a given state~$s$ and condition~$k$
+More formally, we only have one ChIP-seq signal $i$ per condition $k$.
+Equation~\ref{eq_hmm_em_emmission} gives the emission distribution $b_s$ for state $s$ for a Binomial distribution by
+
+\begin{align}
+ b_s(y) = \Pr\textstyle_{s}(y = x_{\cdot j} \mid q_j = s)= \prod_{k \leq \mid G \mid} \prod_{i \in G_k} {n \choose x_{\cdot j} }p_{sG_k}^{x_{ij}}(1-p_{sG_k})^{n-x_{ij}}. \label{eq_hmm_bin_emission}
+\end{align}
+\noindent
+with free parameters
+\begin{align*}
+ \Theta =& \{p_{sG_k}\}_{s = 1,2,3, k = 1,2} \cup \{n\}.
+\end{align*}
+
+\noindent
+Parameter $n$ is independent of state $s$ and represents the number of reads of the largest library $$n=\max\Bigg(\sum_{j=1}^{L} x_{G_1j}, \sum_{j=1}^{L} x_{G_2j}\Bigg).$$ 
+Parameter $p_{sk}$ is the probability of observing a read in state~$s$ and condition $k$.
+
+For a high number of Bernoulli experiments, the Binomial distribution approximates the Poisson distribution.
+As we potentially have a high number of reads in a ChIP-seq experiment, we therefore also evaluate the Poisson distribution as emission.
+We additionally extend our model by using a mixture of Poisson distributions.
+The rationale is that a mixture model is suitable to model outliers in the count data.
+In our case, due to various sources of bias in the ChIP-seq protocol there are usually bins with unexpected high number of reads that we want to model.
+The Poisson distribution describes the probability of a given number of events occurring in a fixed interval.
+Similar to the Binomial distribution, we thereby model the number of reads falling into a genomic bin.
+
+More formally, we have as emission distribution
+\begin{align}
+ b_s(y) = \Pr\textstyle_{s}(y = x_{\cdot j} \mid q_j = s)= \prod_{k \leq \mid G \mid} \prod_{i \in G_k} \sum_{l=1}^N c_{sl} \cdot b_{skl}(x_{ij}), \label{eq_hmm_poisson_emission}
+\end{align}
+
+\noindent
+% \begin{align*}
+% \Pr\textstyle_{sk}(x_{ij}) = \sum_{l=1}^N c_{sl} \cdot b_{skl}(x_{ij}).
+% \end{align*}
+where $N$ is the number of mixture components, where matrix $c \in \mathbb{R}^{M \times N}$ gives the mixing coefficient of the mixture for each state $s \in [1, 2, \ldots, M]$ (here $M=3$) and component $l \in [1, 2, \ldots, N]$ with $c_{sl} \in [0,1]$ and $\sum_{l=1}^N c_{sl} = 1 $ for each state, and where
+\begin{align*}
+b_{skl}(x_{ij}) = \frac{\exp(-f(l) \cdot \lambda_{sk1}) \cdot ( f(l) \cdot \lambda_{sk1})^{x_{ij}}}{x_{ij}!}
+\end{align*}
+gives the Poisson component of the mixture model. 
+We use function $f(l) = l$ to ensure that the mean of each mixture component are multiple of each other.
+This is equivalent to the constraint 
+\begin{align}
+  \lambda_{skl} = l \cdot \lambda_{sk1} \label{eq_constraint_poisson}.
+\end{align}
+
+\noindent
+This constraint was introduced to mitigate the fact that during mixture estimation some components can end up with little data support (or low mixing coefficients). 
+This is usual when outliers (peaks with unusually high number of reads) are present in the data.
+In the case of the mixture of Poisson distributions, we have
+\begin{align*}
+ \Theta =& \{\lambda_{sk1}, c_{sl}\}_{s = 1,2,3, k = 1,2, l=\{1, \ldots, N\}}
+\end{align*}
+as free parameters.
+
+\subsubsection{HMM with Replicates}
+\label{sec_method_hmm_with}
+In case with replicates we model a DP by a D-dimensional emission distribution. 
+There is additionally variance within the conditions which makes it in general harder to properly model the observations with the HMM emission distribution.
+% Besides judging whether there is significant difference between the two signals of both conditions, it is necessary to model the variance of ChIP-seq profiles of a single condition.
+In particular, given various ChIP-seq profiles of one condition, it is likely to observe overdispersion, that is, that the mean exceeds the variance.
+The Binomial and Poisson distribution cannot cope with overdispersion, as their variance linearly depends one the mean~\citep{Ismail2007}.
+We therefore use the Negative Binomial distribution as emission, since it is able to take overdispersion into account.
+Indeed, it can be shown that the Poisson distribution where the mean is separately drawn from a Gamma distribution results in a Negative Binomial distribution~\citep{Cameron1999}.
+% Hence, we extend our model by assuming that the mean of the Poisson distribution is separately drawn from a Gamma distribution.
+% We thereby introduce an additional parameter for the variance and obtain the Negative Binomial distribution which can handle overdispersion.
+As there is no analytical solution for the Baum-Welch algorithm with a Negative Binomial distribution, we will show how to empirically estimate the distribution.
+
+% In case $D > 2$ with replicates, we define a Negative Binomial distribution as emission distribution for our HMM.
+More formally, Equation~\ref{eq_hmm_em_emmission} gives the emission distribution $b_s$ for state $s$, condition $k$ and sample $i$ by
+
+\begin{align}
+ b_s(y) &= \Pr\textstyle_{s}(y = x_{\cdot j} \mid q_j = s) \notag \\
+ &= \prod_{k \leq \mid G \mid} \prod_{i \in G_k} g(x_{ij} \mid \Theta_s = \{\mu_{sG_k}, a_{sG_k} \}) \label{eq_hmm_neg_bin_emission_g} \\
+ &= \prod_{k \leq \mid G \mid} \prod_{i \in G_k} \frac{\Gamma(x_{ij} + a_{sG_k}^{-1})}{\Gamma(x_{ij} + 1) \cdot \Gamma(a_{sG_k}^{-1})} \cdot \left( \frac{a_{sG_k}^{-1}}{a_{sG_k}^{-1} + \mu_{sG_k}} \right)^{a_{sG_k}^{-1}} \cdot \left( \frac{\mu_{sG_k}}{a_{sG_k}^{-1} + \mu_{sG_k}} \right)^{a_{sG_k}^{-1}}, \label{eq_hmm_neg_bin_emission}
+\end{align}
+\noindent
+with free parameters
+\begin{align*}
+ \Theta = \{\mu_{sG_k}, a_{sG_k}\}_{s = 1,2,3, k = 1,2},%\\
+%  =& \{\mu_{1G_1}, \mu_{2G_1}, \mu_{3G_1}, \mu_{1G_2}, \mu_{2G_2}, \mu_{3G_2}, a_{1G_1}, a_{2G_1}, a_{3G_1}, a_{1G_2}, a_{2G_2}, a_{3G_2} \}.
+\end{align*}
+% XXX maybe put Gamma function defnition here?
+
+\noindent 
+where $a_{sG_k}$ is the dispersion parameter, $\mu_{sG_k}$ the location parameter and $\Gamma$ the gamma function.
+% The parameters $a_{sG_k}$ and $\mu_{sG_k}$ are fixed for samples of a same biological condition.
+The Negative Binomial distribution~$g$ has mean $\mathbb{E}(x_i) = \mu_{sG_k}$ and variance 
+\begin{align}
+ Var(x_i) = \mu_{sG_k} (1 + a_{sG_k} \mu_{sG_k}). \label{eq_ng_var}
+\end{align}
+If $a_{sG_k}=0$, the mean equals the variance and the distribution results in a Poison distribution. 
+For  $a_{sG_k}>0$, variance increases with mean as usual when dealing with NGS data containing replicates~\citep{anders2010}.
+
+
+
+
+
+
+\subsection{HMM Training}
+\label{sec_hmm_training}
+The HMM is estimated with the Baum-Welch algorithm. 
+Estimates of the initial state and transition probabilities follow usual methods~\citep{rabiner1989}. 
+Training is performed until convergence. 
+See for example \cite{Couvreur1996} for a gentle introduction to the Baum-Welch algorithm.
+For a given emission distribution, we have to evaluate Equation~\ref{eq_em_emission} to obtain the estimates for the emission in the Baum-Welch algorithm.
+In the following we will explain how to compute the estimate for the Binomial, mixture of Poisson and the Negative Binomial distribution.
+
+\subsubsection{Binomial Distribution as Emission without Replicates}
+Equation~\ref{eq_hmm_bin_emission} gives the HMM emission based on a Binomial distribution with free parameters
+\begin{align*}
+ \Theta =& \{p_{sG_k}\}_{s = 1,2,3, k = 1,2} \cup \{n\}.
+\end{align*}
+
+\noindent
+% Parameter $n$ is independently of state $s$ and represents the number of reads of the largest library $$n=\max\Bigg(\sum_{j=1}^{L} x_{G_1j}, \sum_{j=1}^{L} x_{G_2j}\Bigg).$$ 
+% The SDS normalization approach used for the case without replicates and described in Section~\ref{sec_sample_norm} ensures $S^1 \approx S^2$.
+To reduce the number of parameter estimates, we constrain the parameters from {\tt Back} state ($s=3$) to be equal $p_{\text{back}}=p_{31}=p_{32}$. 
+We also constrain emissions for state {\tt Gain 1} (s=1) and state {\tt Gain 2} (s=2) by $p_{\text{low}}=p_{1G_1}=p_{2G_2}$ and $p_{\text{high}}=p_{1G_2}=p_{2G_1}$ to avoid label switching~\citep{rabiner1989}.
+This makes the distributions of enriched signals (non-enriched signals) from states {\tt Gain 1} and {\tt Gain 2} equal (Figure~\ref{pic_hmm}). 
+In our case, we have $|G|=2$ conditions and $M=3$ HMM's states.
+We only have to solve $3$ optimization problems, that is, determining $p_{\text{back}}$, $p_{\text{high}}$ and $p_{\text{low}}$, to solve Equation~\ref{eq_em_emission}.
+Here we show the estimation of $p_{\text{high}}$.
+The other parameter estimates follow respectively.
+As we do not have replicates, we rewrite Equation \ref{eq_em_emission} as
+\begin{align*}
+ & \argmax{p_{\text{high}} \in \Theta}  \sum_{s=1}^M \sum_{j=1}^L \gamma_s(j) \log \Bigg( \sum_{k \leq |G|} \sum_{i \in G_k}  {n\choose x_{ij} }p_{1G_k}^{x_{ij}}(1-p_{1G_k})^{n-x_{ij}} \Bigg) \notag \\
+ =& \argmax{p_{\text{high}} \in \Theta} \sum_{s=1}^M \sum_{j=1}^L \gamma_1(j) \log \Bigg( {n \choose x_{1j} }p_{sG_1}^{x_{1j}}(1-p_{sG_1})^{n-x_{ij}} \Bigg) \\ &+ \sum_{s=1}^M \sum_{j=1}^L \gamma_2(j) \log \Bigg( {n \choose x_{2j} }p_{sG_2}^{x_{2j}}(1-p_{sG_2})^{n-x_{2j}} \Bigg) \\
+ =& \argmax{p_{\text{high}} \in \Theta} f(p_{\text{high}}=p_{1G_1}) + h(p_{\text{high}}=p_{2G_2})
+\end{align*}
+\noindent
+To compute the maximum of function~$f+h$, we first compute the derivation for $p_{\text{high}}$
+\begin{align*}
+ \frac{f}{\delta p_{\text{high}}} + \frac{h}{\delta p_{\text{high}}} =& \sum_{j=1}^L \gamma_1(j) \frac{x_{1j} {n \choose x_{1j}} p_{1G_1}^{x_{1j}-1}(1-p)^{n-x_{1j}} - {n \choose x_{1j}} p_{1G_1}^{x_{1j}} (n - x_{1j}) (1-p_{1G_1})^{n-x_{1j}-1}}{{n \choose x_{1j}} p^{x_{1j}}(1-p_{1G_1})^{n-x_{ij}}}\\
+ &+ \sum_{j=1}^L \gamma_2(j) \frac{x_{2j} {n \choose x_{2j}} p_{1G_2}^{x_{2j}-1}(1-p)^{n-x_{2j}} - {n \choose x_{2j}} p_{1G_2}^{x_{2j}} (n - x_{2j}) (1-p_{1G_2})^{n-x_{2j}-1}}{{n \choose x_{2j}} p^{x_{2j}}(1-p_{1G_2})^{n-x_{2j}}}\\
+ =& \sum_{j=1}^L \gamma_1
+(j) \frac{x_{1j} - np_{1G_1}}{p_{1G_1}(1- p_{1G_1})} + \sum_{j=1}^L \gamma_2(j) \frac{x_{2j} - np_{1G_2}}{p_{1G_2}(1- p_{1G_2})}.
+\end{align*}
+
+\noindent
+Then, we obtain the estimate of the maximum of the function~$f+h$ for $p_{\text{high}}$:
+\begin{align*}
+ \hat{p}_{\text{high}} = \sum_{j=1}^N \frac{\gamma_1(j) x_{1j} + \gamma_2(j) x_{2j}}{n \cdot \gamma_1(j) + n \cdot \gamma_2(j)}.
+\end{align*}
+
+\noindent
+The other parameters can be computed accordingly.
+We obtain
+% Let $\gamma_s(j)$ to be the posterior probability that the HMM is at state $s$ after observing $x_{\cdot j}$ (see Equation~\ref{eq_hmm_posterior}), it can be shown that the maximum likelihood estimates of those parameters are:
+% $$p_{1G_1}=p_{2G_2}=\sum_{j=1}^N \frac{\gamma_1(j) x_{1j} + \gamma_2(j) x_{2j}}{n \cdot \gamma_1(j) + n \cdot \gamma_2(j)}$$ 
+$$p_{\text{low}} = p_{1G_2}=p_{2G_1}=\sum_{j=1}^N \frac{\gamma_1(j) x_{2j} + \gamma_2(j) x_{1j} }{n \cdot \gamma_1(j) + n \cdot \gamma_2(j) }, \quad \text{and}$$
+$$p_{\text{back}} = p_{3G_1}=p_{3G_2}=\sum_{j=1}^N \frac{\gamma_3(j) x_{1j} + \gamma_3(j) x_{2j} }{2 \cdot n \cdot \gamma_3(j)}.$$
+
+
+\subsubsection{Mixture of Poisson Distributions as Emission without Replicates}
+The HMM emission based on the mixture of Poisson distributions is described by Equation~\ref{eq_hmm_poisson_emission}.
+We use the $Q$ function (see Section $4.2$ in \cite{bilmes1997}) to obtain the equations for the EM-algorithm.
+
+\noindent
+With regard to our constraint described in Equation \ref{eq_constraint_poisson}, we consequently have to solve 
+$$\max_{\Theta_{sk1} \in \mathbb{R}}\sum_{s=1}^M\sum_{l=1}^N\sum_{j=1}^L \log b_{sil}(x_{ij}) \cdot p(O, q_j = s, m_{q_jj} = l \mid \lambda'),$$
+where $q=(q_1, \ldots, q_L)$ is a sequence of states and where $s_j \in \{1, \ldots, N\}$ is the state at time $j$.
+Furthermore $m$ is a vector that indicates the mixture component for each state at each time.
+
+\noindent
+We obtain $\lambda_{si1}$ for the first component as
+
+$$\lambda_{si1} = \frac{\sum_{j=1}^L \sum_{l=1}^N x_{ij} \cdot r_{sl}(j)}{\sum_{j=1}^L \sum_{l=1}^N f(l) \cdot r_{sl}(j)},$$
+\noindent
+where $r_{sl}(j)$ is the posterior probability of being in state $s$ at time $j$ with regard to the component $l$. 
+The mixing coefficients $c_{sl}$ and posterior probabilities $r_{sl}(j)$ follow standard parameterizations and are defined as
+
+$$c_{sl} = \frac{\sum_{j=1}^L r_{sl}(j)}{\sum_{j=1}^L \gamma_s(j)} \text{, and}$$
+
+$$r_{sl}(j) = \gamma_s(j) \cdot \frac{c_{sl} \cdot b_{sl}(x_{ij}) }{\sum_{l=1}^N c_{sl} \cdot b_{sl}(x_{ij})},$$
+
+\noindent
+Furthermore, we compute $\lambda_{si1}$ for the component $l$ as
+$$\lambda_{sil} = l \cdot \lambda_{si1},$$
+
+\noindent
+where $\gamma_s(j)$ is the posterior probability to be at state $s$ at time $j$.
+
+\noindent
+We constrain the mixture distribution for each component $l$ accordingly to the case of the Binomial distribution $\lambda_{11l} = \lambda_{22l}, \lambda_{12l}=\lambda_{21l}$ and $\lambda_{31l}=\lambda_{32l}$.
+All other parameters follow standard mixture model estimates.
+
+% $$\lambda_{11l} = \lambda_{22l} = \sum_{j=1}^N \frac{\gamma_1(j) \lambda_{11l} + \gamma_2(j) \lambda_{22l}}{\gamma_1(j) + \gamma_2(j) }$$
+% $$\lambda_{12l}=\lambda_{21l}=\sum_{j=1}^N \frac{\gamma_1(j) \lambda_{12l} + \gamma_2(j) \lambda_{21l} }{\gamma_1(j) + \gamma_2(j) }$$
+% $$\lambda_{31l}=\lambda_{32l}=\sum_{j=1}^N \frac{\gamma_3(j) \lambda_{31l} + \gamma_3(j) \lambda_{32l} }{2 \cdot \gamma_3(j)} $$
+% We can compute  $\lambda_{si1}$ for the first component as
+% 
+% $$\lambda_{si1} = \frac{\sum_{j=1}^L \sum_{l=1}^M x_{ij} \cdot r_{sl}(j)}{\sum_{j=1}^L \sum_{l=1}^M f(l) \cdot r_{sl}(j)},$$
+% 
+% \noindent
+% and for component $l$ 
+% 
+% $$\lambda_{sil} = l \cdot \lambda_{si1},$$
+
+% \noindent
+% where $r_{sl}(j)$ is the posterior probability of being in component $l$ at state $s$ at time $j$. 
+ 
+% We constrain the HMM's mixture distributions accordingly to the case of the Binomial distribution.
+% See Appendix~\ref{sec_appendix_poisson} for more details.
+
+\subsubsection{Negative Binomial Distribution as Emission with Replicates}
+Equation~\ref{eq_hmm_neg_bin_emission} gives the HMM emission based on a Negative Binomial distribution with free parameters
+\begin{align*}
+ \Theta_{sG_k} = \{a_{sG_k}, \mu_{sG_k}\},%\\
+%  =& \{\mu_{1G_1}, \mu_{2G_1}, \mu_{3G_1}, \mu_{1G_2}, \mu_{2G_2}, \mu_{3G_2}, a_{1G_1}, a_{2G_1}, a_{3G_1}, a_{1G_2}, a_{2G_2}, a_{3G_2} \}.
+\end{align*}
+
+\noindent for state $s$ and condition $k$, where $a_{sG_k}$ is the dispersion parameter and where $\mu_{sG_k}$ gives the location.
+For parameters $\Theta_{sG_k}$ of the Negative Binomial distribution, Equation~\ref{eq_em_emission} cannot be solved analytically.
+% XXX citations?
+Instead we estimate $\mu_{sG_k}$ and $a_{sG_k}$ based on a moment approach.
+
+In our case, we have $|G|=2$ conditions and $M=3$ HMM's states.
+Given Equation~\ref{eq_em_emission}, we therefore have to solve $6$ optimization problems for each condition and state.
+We constrain location parameters of \hmmstate{Gain 1} (s=1) and state \hmmstate{Gain 2} (s=2) associated to enriched signals to be equal $\mu_{1G_1}=\mu_{2G_2}=\mu_{\text{high}}$. 
+We also constrain location parameters of low values and background states to be equal $\mu_{1G_2}=\mu_{2G_1}=\mu_{3G_1}=\mu_{3G_2}=\mu_{\text{low}}$ (see Figure~\ref{pic_hmm}).
+% XXX explain with the picture variable
+This avoids label switching problems in the HMM~\citep{rabiner1989}.
+Consequently, we only have to solve $2$ optimization problems, that is, determining $\mu_{\text{high}}$ and $\mu_{\text{low}}$, to solve Equation~\ref{eq_em_emission}.
+Here we show the estimation of $\mu_{\text{high}} = \mu_{11} = \mu_{22}$.
+% The other parameter estimates follow respectively.
+
+In Equation~\ref{eq_em_emission}, we restrict our optimization space and obtain 
+\begin{align}
+& \argmax{\mu_{\text{high}} \in \Theta}  \sum_{s=1}^M \sum_{k \leq |G|} \sum_{i \in G_k} \sum_{j=1}^L \gamma_s(j) \log g(x_{ij} | \mu_{sG_k}) \notag + \sum_{s=1}^M \sum_{k \leq |G|} \sum_{i \in G_k} \sum_{j=0}^L \gamma_s(j) \log g(x_{ij} | \mu_{sG_k}) \\\notag
+= & \argmax{\mu_{\text{high}} \in \Theta} \sum_{s=1}^M \sum_{i \in G_1} \sum_{j=1}^L \gamma_s(j) \log g(x_{ij} | \mu_{sG_1}) + \sum_{s=1}^M \sum_{i \in G_2} \sum_{j=0}^L \gamma_s(j) \log g(x_{ij} | \mu_{sG_2}) \\\notag 
+% &\quad + \sum_{i \in G_1} \sum_{j=0}^L \gamma_1(j) \log g(x_{ij} | \mu_{1G_1}) + \sum_{i \in G_2} \sum_{j=0}^L \gamma_1(j) \log g(x_{ij} | \mu_{1G_2}) \\\notag 
+= & 
+\argmax{\mu_{\text{high}} \in \Theta} f(\mu_{\text{high}}) \notag 
+\end{align}
+\noindent  We define a function $f$ depending on $\mu_{\text{high}}$.
+As we want to optimize $f$, we derive $f$.
+The derivation of $f$ is restricted to the case $s=1$ and $s=2$.
+\begin{align}
+\frac{f}{\delta \mu_{\text{high}} } &=  \frac{\sum_{i \in G_1} \sum_{j=0}^L \gamma_1(j) \log g(x_{ij} | \mu_{1G_1})}{\delta \mu_{\text{high}} }&&+ \frac{\sum_{i \in G_2} \sum_{j=0}^L \gamma_2(j) \log g(x_{ij} | \mu_{2G_2})}{\delta \mu_{\text{high}} }\notag \\
+&=\quad  \frac{f_1}{\delta \mu_{\text{high}}} &&+ \quad \frac{f_2}{\delta \mu_{\text{high}}} \label{eq_der_f}
+\end{align}
+\noindent  Sums containing $\mu_{2G_1}$ and $\mu_{1G_2}$ are constants while deriving $f$ with regard to $\mu_{\text{high}}$ and therefore are no longer considered. 
+To simplify the notation, we introduce functions $f_1$ and $f_2$, which we have to derive separately to obtain the derivation of $f$.
+
+\noindent  The derivation estimation for $f_2$ works respectively.
+Accordingly to \cite{Ismail2007}, we can rewrite Equation \ref{eq_hmm_neg_bin_emission_g} as
+\begin{align}
+g(x_{ij} | \Theta_{sG_k}) &= \Bigg( \sum_{h=1}^{x_{ij} - 1}  \ln(1 + a_{sG_k}h)\Bigg) - x_{ij} \cdot \ln(a_{sG_k}) - \ln(x_{ij}!) + x_{ij} \cdot \ln(a_{sG_k} \cdot \mu_{sG_k}) \notag \\
+&\quad- (x_{ij} + a_{sG_k}^{-1}) \cdot \ln(1 + a_{sG_k} \cdot \mu_{sG_k}) \label{eq_newg}
+%  &= l(\alpha, \mu) \notag
+\end{align}
+\noindent 
+We plug in Equation~\ref{eq_newg} in function $f_1$ of Equation~\ref{eq_der_f}.
+The derivation of $f_1$ is given by
+$$\frac{f_1}{\delta \mu_{\text{high}}} = \sum_{i \in G_2} \sum_{j=0}^L \gamma_1(j) \frac{x_{ij} - \mu_{\text{high}}}{\mu_{\text{high}} + a_{1} \mu_{\text{high}}^2}$$
+\noindent  
+We plug in $f_1/\delta \mu_{\text{high}}$ and $f_2/\delta\mu_{\text{high}}$ in Equation \ref{eq_der_f}, set $f/\delta \mu_{\text{high}}$ to 0 and obtain the parameter $\hat{\mu}_\text{high}$ that optimize function $f$, that is,
+
+\begin{align}
+ \frac{f}{\delta \mu_{\text{high}} } \stackrel{!}{=} 0 &= \sum_{i \in G_1} \sum_{j=0}^L \gamma_1(j) \frac{x_{ij} - \mu_{\text{high}}}{\mu_{\text{high}} + a_{1} \mu_{\text{high}}^2} + \sum_{i \in G_2} \sum_{j=0}^L \gamma_2(j) \frac{x_{ij} - \mu_{\text{high}}}{\mu_{\text{high}} + a_{1} \mu_{\text{high}}^2} \notag \\
+ \Rightarrow \quad \quad \quad \hat{\mu}_{\text{high}} &= \frac{\sum_{i \in G_1} \sum_{j=0}^L \gamma_1(j) x_{ij} + \sum_{i \in G_2} \sum_{j=0}^L \gamma_2(j) x_{ij}} {|G_1| \sum_{j=0}^L \gamma_1(j) + |G_2| \sum_{j=0}^L \gamma_2(j)} \notag
+\end{align}
+\noindent  Parameter $\hat{\mu}_{\text{low}}$ is computed accordingly.
+% $$\hat{\mu}_{\text{high}} = \frac{\sum_{i \in G_2} \sum_{j=0}^L \gamma_2(j) x_{ij} + \sum_{i \in G_1} \sum_{j=0}^L \gamma_1(j) x_{ij}} {|G_2| \sum_{j=0}^L \gamma_2(j) + |G_1| \sum_{j=0}^L \gamma_1(j)} \notag \text{ and}$$
+% $$\hat{\mu}_{\text{low}} = \frac{\sum_{i \in G_2} \sum_{j=0}^L \gamma_1(j) x_{ij} + \sum_{i \in G_1} \sum_{j=0}^L \gamma_2(j) x_{ij} + \sum_{i \in G_2} \sum_{j=0}^L \gamma_3(j) x_{ij} + \sum_{i \in G_1} \sum_{j=0}^L \gamma_3(j) x_{ij}} {|G_2| \sum_{j=0}^L \gamma_1(j) + |G_1| \sum_{j=0}^L \gamma_2(j) + |G_2| \sum_{j=0}^L \gamma_3(j) + |G_1| \sum_{j=0}^L \gamma_3(j)} \notag$$
+% $$\hat{\mu}_{\text{low}} = \frac{\sum_{i \in G_2} \sum_{j=0}^L \gamma_1(j) x_{ij} + \sum_{i \in G_1} \sum_{j=0}^L \gamma_2(j) x_{ij} } {|G_1| \sum_{j=0}^L \gamma_1(j) + |G_2| \sum_{j=0}^L \gamma_2(j)} \notag$$
+
+\noindent
+% See Appendix~\ref{sec_appendix_neg_bin} for more details.
+To obtain reliable variance estimates on small sample sizes, we assume that the variance can be described by a smooth function based on the mean estimates similar as described by~\cite{anders2010}. 
+We use a quadratic function  
+\begin{align}
+ v_k(x) = c_{1G_k} \cdot x^2 + x + c_{2G_k}, \label{eq_quad_func}
+\end{align}
+\noindent
+which is estimated for the ChIP-seq data on samples of condition~$k$ previous to the Baum-welch algorithm. 
+The dispersion parameter $a_{sk}$ is derived from Equation~\ref{eq_ng_var} and given by 
+$$a_{sG_k} = \frac{v_k(\mu_{sG_k})-\mu_{sG_k}}{\mu_{sG_k}^2}.$$
+\noindent
+We apply the Viterbi algorithm to estimate a state sequence for the complete genomic signal.
+Finally, we merge consecutive bins associated to states \hmmstate{Gain 1} or \hmmstate{Gain 2} to obtain the candidate DPs.
+
+\subsection{Initial HMM Estimates}
+The Baum-Welch algorithm depends on the initial estimates to train the HMM.
+We use potential DPs as initial estimates and use two kinds of criteria to define them.
+First, a fold change criterion to quantify the intensity of a potential DP and second, a minimum signal criterion to avoid DP exhibiting too low counts.
+Based on these criteria, we annotate bins as initial DPs.
+We then use the initial DPs to obtain a posterior probability as well as to perform a single M-Step of the Baum-Welch algorithm to compute initial parameters.
+Given the large size of the genomic signals with initial DPs, we only use a random selection of regions to train the HMM. 
+We select genomic regions formed by contiguous bins not filtered out in Section~\ref{sec_prepocessing_pipeline}, which have at least a bin annotated with either \hmmstate{Gain 1} or \hmmstate{Gain 2} state. 
+% The selection is done until the training set has at least $3 \cdot 10^6$ bins.
+Depending on the absence of replicates, we follow two strategies to define initial DPs.
+
+\subsubsection{HMM without Replicates}
+A bin $b_j$ will be assigned to state \hmmstate{Gain 1} if 
+$$x_{G_1j} / x_{G_2j} > t,$$
+to state \hmmstate{Gain 2} if 
+$$ x_{G_2j} / x_{G_1j} > t$$
+and to \hmmstate{Back} state otherwise. 
+
+
+
+\subsubsection{HMM with Replicates}
+\label{sec_initial_hmm_with_rep}
+For state \hmmstate{Gain~1}, we select bins if there is a difference in counts between two signals ($t_1$)
+$$\overline{x}_{G_1j} - \overline{x}_{G_2j} > t_1,$$
+\noindent 
+or if there is a high fold change $t_2$ and minimum signal support $t_3$
+$$\overline{x}_{G_1j} / \overline{x}_{G_2j} > t_2 \quad \text{and} \quad \overline{x}_{G_1j} + \overline{x}_{G_2j} > t_3.$$
+DPs associated to state \hmmstate{Gain~2} are defined accordingly. 
+Otherwise, the bin is assigned the \hmmstate{Back} state.
+% XXX why more complex in this case?
+
+\section{Postprocessing Steps}
+\label{sec_postpocessing_pipeline}
+We perform postprocessing steps to improve the DP estimation. 
+First, we assign a $p$-value to each DP to evaluate how significant the difference between the two biological conditions is.
+Then, we remove DPs that are likely false positives caused by technical issues due to the ChIP-seq protocol~\citep{Pepke2009}.
+This postprocessing pipeline is the third step in Algorithm~\ref{alg_dpc}.
+
+\subsection{$P$-Value Calculation}
+\label{sec_pvalue}
+Statistical hypothesis testing is about the analysis of empirically collected data and in particular about the question whether the data provide enough evidence to reject a stated null hypothesis.
+We assume the null hypothesis to be true unless there is strong evidence in the data against it.
+If so, we reject the null hypothesis and assume the alternative hypothesis to be true.
+% Typically, the alternative hypothesis contradicts the null hypothesis.
+For a given null hypothesis, the $p$-value is a function describing the probability of obtaining a result equal or more extreme than the observed results.
+If the $p$-value is sufficient low, the observed result does not go in accordance with the null hypothesis which is then rejected.
+% Consequently, there is strong evidence against the null hypothesis and the alternative hypothesis is assumed to be true.
+% In other words, the $p$-value gives the probability for an observed event under the assumption of a given hypothesis.
+% The $p$-value does not give the probability of the hypothesis to be true.
+% In our case, we have a set of potential candidate DPs where each DP contains the counts of the first and second biological condition.
+% The null hypothesis is that there is not enough differences in the counts to consider the potential DP to be a true one.
+% We compute a $p$-value to test the null hypothesis.
+% If the $p$-value assigned to a DP is low, we reject the null hypothesis and assume the alternative hypothesis to be true, that is, the potential DP is indeed a DP.
+In our case, under the assumption that the count distribution of the first and second biological conditions describes the genomic background signal, the $p$-value gives the probability for a candidate DP.
+If the $p$-value is low, the null hypothesis is rejected and the potential DP is considered to be a true candidate DP.
+
+More formally, we follow the idea of \cite{anders2010} to assign a $p$-value to each DP. 
+Let 
+$$y_{1}=\sum_{j=u}^v x_{G_1j} \quad \text{and} \quad  y_{2}=\sum_{j=u}^v x_{G_2j}$$
+be the read counts of a DP spanning from bin $u$ to $v$ with two biological conditions $G_1$ and $G_2$. 
+For a DP gaining a peak in condition $G_1$, the $p$-value is the sum of probabilities of the tuple $(a,b)$ with $a > y_1$ and $a + b = y_1 + y_2$.
+In other words, given a DP with counts $(y_1, y_2)$, we add up all probabilities of tuples with more extreme values.
+More extreme values a defined as $a > y_1$ for a fixed margin sum $a + b = y_1 + y_2$.
+
+\noindent
+More formally,
+\begin{align}
+ \Pr(a > y_{1}|y_{2}) = \sum_{\stackrel{a + b = y_{1}+ y_{2}}{a > y_{1}}} \Pr(a,b), \label{eq_pvalue1}
+\end{align}
+\noindent
+where $a,b \in \mathbb{N}$.
+We compute the probability $\Pr(a,b)$ as
+\begin{align}
+ \Pr(a,b) = \frac{\Pr(a \mid s=3, \Theta_{31}) \cdot \Pr(b \mid s=3, \Theta_{32})}{\sum_{c + d=a+b} \Pr(c \mid s=3, \Theta_{31}) \cdot \Pr(d \mid s=3, \Theta_{32})} \label{eq_pvalue2},
+\end{align}
+\noindent
+where $c,d \in \mathbb{N}$ with $c+d=a+b$.
+The $p$-value for DPs gaining a peak in condition $G_2$ can be defined accordingly.
+
+For large $y_1, y_2$ values, the computation of the sums in Equation~\ref{eq_pvalue1} and Equation~\ref{eq_pvalue2} are computationally expensive which makes improvements in the formalization for a faster $p$-value calculation necessary.
+We combine both equations and obtain 
+\begin{align}
+ \Pr(a > y_{1}|y_{2}) = \frac{\sum_{\stackrel{a + b = y_{1}+ y_{2}}{a > y_{1}}} \Pr(a \mid s=3, \Theta_{31})  \cdot \Pr(b \mid s=3, \Theta_{32})}{\sum_{c + d = y_{1}+ y_{2} } \Pr(c \mid s=3, \Theta_{31}) \cdot \Pr(d \mid s=3, \Theta_{32})} \label{eq_pvalue}.
+\end{align}
+
+\noindent
+The sum of the nominator is a subset of the sum of the denominator. 
+Consequently, we only need to evaluate the sum of the denominator and take into account the appropriate values for the nominator.
+
+We model the probability of the counts with the HMM's emission distribution that is assigned to the \hmmstate{Back} state.
+The distribution has parameters $\Theta_{31} = \Theta_{32}$.
+In the following we assume that a Binomial distribution $B$ is assigned to the \hmmstate{Back} state of the HMM.
+Given that $b=y_1 + y_2 - a$ we can then rewrite the main term in the nominator (and denominator) as a combination of Binomial distributions:
+
+\begin{mydef}[Combined Binomial (CB) Distribution]
+ Let $B$ a Binomial distribution, the combined Binomial (CB) distribution is defined as
+ $$f(x) = B(x \mid n, p) \cdot B(y_1 + y_2 - x \mid n, p), \quad \text{with}$$
+ $$B(x \mid n, p) = {n \choose x} p^x (1-p)^{n-x},$$
+ with fixed $y_1, y_2 \in \mathbb{N}$ and where $n \in \mathbb{N}$ $p \in [0,1]$ are the parameters of the Binomial distribution.
+\end{mydef}
+
+\noindent
+To further improve the computation of Equation~\ref{eq_pvalue}, we show that DB distributions are axially symmetrical and have a global maximum at $q=(y_1 + y_2)/2$ given that $p_{31}=p_{32}$. 
+To investigate these characteristics, we first give a statement about the binomial coefficient.
+
+\begin{mylemma}
+ Let ${n \choose k}$ be the binomial coefficient with $n, k \in \mathbb{B}$ and $k \leq n$.
+ It is
+ $${n \choose k} = {n \choose k-1} \frac{n-k+1}{k}.$$
+\label{lemma_bin_coeff}	
+\end{mylemma}
+\begin{proof}
+  \begin{align*}
+   {n \choose k} = \frac{n!}{k!\,(n-k)!} = \frac{n!}{(k-1)!(n-k+1)!} \cdot \frac{n-k+1}{k} = {n \choose k-1} \frac{n-k+1}{k}
+  \end{align*}
+\end{proof}
+
+\noindent
+We show that the DB distribution is symmetrical.
+
+\begin{mylemma}
+ Let $f$ be a CB distribution, $f$ is symmetrical to the $y$-axis parallel going through the point $q = (y_1 + y_2)/2$.
+\label{lemma_cb_parallel}
+\end{mylemma}
+\begin{proof}
+ Let $d \in \mathbb{N}$, it is
+ \begin{align*}
+  f(q + d) &= B(\frac{y_1+y_2}{2} + d \mid n, p) \cdot B(y_1 + y_2 - \frac{y_1+y_2}{2} - d \mid n, p) \\
+  &= B(y_1 + y_2 - (\frac{y_1 + y_2}{2} - d) \mid n, p) \cdot B(\frac{y_1 + y_2}{2} - d \mid n, p) \\
+  &= f(\frac{y_1 + y_2}{2} - d)\\
+  &= f(q-d).
+ \end{align*}
+\end{proof}
+
+\noindent
+Next, we estimate the maximum of a CB distribution.
+We will show that the CB distribution monotonically decrease starting from point $q = (y_1 + y_2)/2$.
+Due to its symmetrical property, we conclude the maximum at point $q$.
+
+\begin{mylemma}
+ Let $f$ be a CB distribution, $f$ monotonically decreases starting from point $q = (y_1 + y_2)/2$, $q \in \mathbb{N}$, for all $x \geq q$.
+\label{lemma_cb_mono}
+\end{mylemma}
+\begin{proof}
+ We will use complete induction with the induction hypothesis
+ \begin{align}
+  \frac{f(q+k)}{f(q+k+1)} > 1, \label{eq_ind_hypo}
+ \end{align}
+ with $k \in \mathbb{N}$ and $k \geq 0$.
+ 
+ \noindent
+ First, we start with the base case $k=0$.
+ 
+ \begin{align*}
+  \frac{f(q)}{f(q+1)} &= \frac{{n \choose q}p^q(1-p)^{n-q} {n \choose q} p^q (1-p)^{n-q}}{{n \choose q+1} p^{q+1} (1-p)^{n-q-1} {n \choose q-1} p^{q-1} (1-p)^{n-q+1}} \\
+  &= \frac{(q+1)!(n-q-1)!(q-1)! (n-q+1)!)}{q! (n-q)! q!(n-q)!} \\
+  &= \frac{q+1}{q} \cdot \frac{n-q+1}{n-q} > 1.
+ \end{align*}
+
+ \noindent
+ We assume that the induction hypothesis in Equation~\ref{eq_ind_hypo} holds for $k$.
+ In the induction step, we will proof that the induction hypothesis holds for the case $k+1$ as well.
+ Here, we use Lemma~\ref{lemma_bin_coeff} to bring the binomial coefficient in the right form.
+ 
+ \begin{align*}
+  \frac{f(q+k+1)}{f(q+k+2)} &= \frac{{n \choose q+k+1} p^{q+k+1} (1-p)^{n-q-k-1} {n \choose y_1 + y_2 -q-k-1} p^{y_1+y_2-q-k-1} (1-p)^{n-y_1-y_2+q+k+1}}{{n \choose q+k+2} p^{q+k+2} (1-p)^{n-q-k-2} {n \choose y_1 + y_2 -q-k-2} p^{y_1+y_2-q-k-2} (1-p)^{n-y_1-y_2+q+k+2}} \\
+  &\overset{\tiny \ref{lemma_bin_coeff}}{=} \frac{{n \choose q+k} \frac{n-q-k}{q+k+1}p^{q+k}p(1-p)^{n-q-k}{n \choose y_1+y_2-q-k}\frac{y_1+y_2-q-k}{n-y_1-y_2+q+k+1}p^{y_1+y_2-q-k}}{{n \choose q+k+1} \frac{n-q-k-2}{q+k+2}p^{q+k+1}p(1-p)(1-p)^{n-q-k-2}} \\
+  &\cdot \frac{p^{-1}(1-p)^{n-y_1-y_2+q+k}(1-p)}{{n \choose y_1+y_2-q-k-1}\frac{y_1+y_2-q-k-1}{n-y_1-y_2+q+k+2}p^{y_1+y_2-q-k-1}p^{-1}(1-p)^{n-y_1-y_2+q+k+1}(1-p)} \\
+  &= \frac{f(q+k)}{f(q+k+1)} \cdot \frac{\frac{n-q-k}{q+k+1}p\frac{y_1+y_2-q-k}{n-y_1-y_2+q+k+1} (1-p) p^{-1}}{\frac{n-q-k-2}{q+k+2}p\frac{y_1+y_2-q-k-1}{n-y_1-y_2+q+k+2}p^{-1}(1-p)} \\
+  &= \underbrace{\frac{f(q+k)}{f(q+k+1)}}_{> 1, \text{induction}} \cdot \underbrace{\frac{n-q-k}{n-q-k-2}}_{>1} \cdot \underbrace{\frac{y_1+y_2-q-k}{y_1+y_2-q-k-1}}_{>1} \cdot \underbrace{\frac{q+k+2}{q+k+1}}_{>1} \cdot \underbrace{\frac{n-y_1-y_2+q+k+2}{n-y_1-y_2+q+k+1}}_{>1}
+ \end{align*}
+\end{proof}
+
+\noindent
+We can now state that a CB distribution has its maximum at $q = (y_1 + y_2)/2, q\in \mathbb{N}$.
+\begin{mylemma}
+ Let $f$ be a CB distribution. Function $f$ has its maximum at $q = (y_1 + y_2)/2$, $q \in \mathbb{N}$.
+\label{lemma_cb_max}
+\end{mylemma}
+\begin{proof}
+ Lemma~\ref{lemma_cb_mono} state that function $f$ monotonically decreases from point $q = (y_1 + y_2)/2$ for all $x>q$, $q \in \mathbb{N}$.
+ As function $f$ is symmetrical to a $y$-axis parallel going through point $q$ (Lemma~\ref{lemma_cb_parallel}), it is clear that $f$ has a maximum at $q, q \in \mathbb{N}$.
+ If $q \notin \mathbb{N}$, $f$ has two maxima at $q_1 = \lfloor (y_1 + y_2)/2 \rfloor$ and $ q_2 = \lfloor(y_1 + y_2)/2 \rfloor+1$.
+ For this case, it is clear that the main ideas of the lemmata presented here still hold.
+\end{proof}
+
+\noindent
+As CD distributions are symmetrical (Lemma~\ref{lemma_cb_parallel}), we only have to evaluate half of the sum's values of the numerator (denominator) of Equation~\ref{eq_pvalue}.
+Furthermore, as DB distributions decrease monotonically (Lemma~\ref{lemma_cb_mono} and Lemma~\ref{lemma_cb_max}) departing from $q$, we can approximate the $p$-value calculation by making $f(e)=f(a)$ for all $e>a$ given that $f(a)-f(a+1) < \epsilon$. 
+% Please see Appendix~\ref{sec_appendix_pvalue} for the proofs of these statements.
+These steps allow a speed up of 100 times on the $p$-value calculations on our experiments. 
+The lemmata presented here do not hold for the mixture of Poisson distribution or the Negative Binomial distribution. %, therefore we estimate a Binomial distribution using the posterior probability of the Background model in this case.
+
+% XXX add proof to appendix
+
+\subsection{Filtering of ChIP-seq experimental artifacts}
+\label{sec_method_artefacts}
+We perform several postprocessing steps to remove spurious DPs.
+The rationale is that the ChIP-seq protocol induces biases that lead to peaks in the ChIP-seq signal that are not caused by biological events~\citep{Pepke2009}.
+
+First, we ignore all DPs with a size smaller than the estimated fragment size $\hat{f}$. 
+We also merge concordant DPs, which have a distance less than the estimated fragment size $\hat{f}$. 
+The second step is only suggested for histone modification data, which is usually localized in broader genomic regions. 
+$P$-values are re-estimated after merging and corrected for controlling the False Discovery Rate~\citep{Benjamini1995}.
+
+For the case with replicates, we use the mean of estimated fragment sizes.
+Additionally, false positive DPs may be caused by a high strand lag~\citep{Pepke2009}.
+For each DP, we therefore count the forward and reverse reads, normalize the ratio by computing the z-scores and filter out all DPs that exhibit a high/low z-score.
+By default, we choose a z-scores threshold of $2$ which corresponds to a two fold standard deviation from the normalized ratio distribution. 
+Also, DPs falling into blacklisted genomic regions (see Section~\ref{sec_challenges_sequencing}) are filtered out.
+% These are regions with unstructured, high signals in next generation experiments independently of cell lines and the type of experiment~\cite{Dunham2012}.
+% Then, we merge significant DPs, which have a distance less than the mean of all estimated fragment sizes $\hat{f}$. 
+
+
+\section{Implementation}
+We implemented our HMM-based strategy to detect DP in ChIP-seq signals associated to two biological conditions as Python command line tools.
+ODIN (\underline{O}ne-stage \underline{DI}ffere\underline{N}tial peak caller) comprise the HMM with a Binomial and mixture of Poisson distributions for the case of a ChIP-seq analysis without replicates.
+THOR can be seen as an extension of ODIN and provides an HMM with a Negative Binomial distribution to take replicates into account.
+Both tools perform the pre- and postprocessing steps described in Section~\ref{sec_prepocessing_pipeline} and Section~\ref{sec_postpocessing_pipeline}.
+% Furthermore, they apply the HMM to estimate DP as it is describe din Section~\ref{sec_dpc}.
+
+THOR and ODIN are part of the Regulatory Genomics Toolbox (RGT) which provides functions for Python to handle genomic signals.
+In particular RGT gives an infrastructure to analyze ChIP-seq signals.
+THOR and ODIN are available under the terms of the \textit{GNU General Public Licence v3 (GPL v3)}.
+% XXX put this somewhere in the tool
+At their current version (ODIN 0.4 and THOR 0.1), they exhibit 3253 and 2821 lines of code with 136 and 112 functions, respectively.
+ODIN was released in October 2014 and THOR was released in July 2015.
+The HMM both tools are using is implemented in the HMMlearn package (see \url{https://github.com/hmmlearn/hmmlearn}), which is based on the machine learning package Scikit-learn~\citep{pedregosa2011}.
+
+ODIN and THOR take as input BAM files describing the aligned reads, a fasta file describing the genome to consider, and a tab separated file describing the chromosome size of the genome.
+They output bigwig files to describe the normalized ChIP-seq signal for each replicate and condition.
+Furthermore they give BED and narrowPeak files describing the identified DPs.
+Please see \url{https://genome.ucsc.edu/FAQ/FAQformat.html} for more details about the file formats.
+Besides HMMlearn, further important non-standard python packages that are used are HTSeq to process FASTA files, scipy to process BAM files and scipy and numpy to cope with the ChIP-seq signal.
+
+We tested ODIN and THOR with Python 2.7, Numpy 1.4.0, Scipy 0.7, Scikit-learn 0.14, Pysam 0.7.5, HTSeq 0.6.5 and HMMlearn 0.0.1.
+We use a local Linux Ubuntu 14.04.4 LTS x86 64-bit machine running with 8 Intel(R) Core(TM) i7-4770 CPU at 3.40GHz and 16 GB RAM.
+Furthermore, we run both tools on an HPC cluster mainly based on Intel Xeon-based 8- to 128-way SMP 64-bit nodes with Scientific Linux release 6.6 (Carbon).
+
+\noindent
+For more information how to use ODIN, please see
+
+\begin{center}
+ \url{www.regulatory-genomics.org/ODIN},
+\end{center}
+
+\noindent
+and for THOR please see 
+
+\begin{center}
+ \url{www.regulatory-genomics.org/THOR}.
+\end{center}
+
+
+\noindent
+All websites mentioned in this Section were accessed on 14th November, 2015.
+
+% XXX example how to use them?
+% XXX algorithm for THOR/ODIN as summary ?
+
+\section{Summary}
+In this chapter, we introduce our algorithms, ODIN and THOR, to identify DPs in ChIP-seq signals without and with replicates (see Algorithm~\ref{alg_dpc}).
+We introduce the preprocessing steps that are necessary to make the ChIP-seq signals applicable to our algorithms.
+Importantly, we introduce a novel normalization strategy for the ChIP-seq profiles which is based on the use of control regions.
+ODIN and THOR apply an HMM to segment the signal by detecting peaks with variable size through the use of posterior decoding algorithms.
+We apply the Baum-Welch algorithm to estimate the HMM, such that finding estimates for the HMM's emission distribution is from particular importance.
+In the case without replicates, we use a Binomial or a mixture of Poisson distributions as emission.
+The rationale is that the Binomial distribution models the number of successes in a sequence of independent Bernoulli experiments.
+We can see the ChIP-seq profile construction as a sequence of Bernoulli experiments, where each reads falls or does not fall into a particular genomic bin.
+In the case with replicates, we apply a Negative Binomial distribution as emission.
+The rationale is that the Negative Binomial is equivalent to the Poisson distribution, where the mean is separately drawn from a Gamma distribution.
+Furthermore, the Negative Binomial distribution accounts for overdispersion, which typically occurs when dealing with NGS count data.
+We also explain our postprocessing strategy to get rid of technical artifacts.
+We compute a $p$-value for each DPs.
+The calculation is based on the emission distribution of the used HMMs.
+
+

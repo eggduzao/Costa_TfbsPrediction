@@ -1,0 +1,701 @@
+\chapter{Experimental Methods}
+\label{chapter_exp_methods}
+Evaluation and comparison of DPCs are still open problems, as there are neither direct metrics to rate DP estimates nor datasets which could serve as gold standards in the evaluation procedure.
+We apply two alternative strategies to evaluate DPs.
+First, we use simulated ChIP-seq data to produce artificial gold standards.
+Second, we propose an indirect metric by associating DPs with gene expression changes in the same cellular conditions.
+Moreover, we describe the biological datasets used for the evaluation.
+Next, we briefly explain the statistical test we apply to quantify different methods solving DPCP.
+Finally, we describe the experiments performed with and without replicates to evaluate the DPCs THOR, ODIN and their competing methods.
+
+\section{Evaluation with Simulated Data}
+With the simulation of ChIP-seq data it is possible to produce a gold standard which can be used to evaluate DPCs.
+This allows us to evaluate methods for data with distinct characteristics such as the number of replicates and the number of reads per sample.
+For a given DPC, we check whether DPs in the simulated data are (in-)correctly called or not called.
+
+The simulation of single ChIP-seq datasets has already been addressed by \cite{zhang2008} and \cite{humburg2011} (see Section~\ref{sec_sim_previous_work}), but none of these approaches can be used directly for DPCP. 
+% XXX add example picture of simulated data?
+
+\subsection{Simulation Method}
+\label{sec_sim_with_rep}
+Algorithm~\ref{alg_sim_with} describes how we simulate ChIP-seq reads that contain replicates.
+Figure \ref{pic_sim_workflow} pictures the simulation procedure.
+In the following, we describe each step in more detail. 
+
+
+\begin{enumerate}[label=\hspace{4cm} \arabic*. Step, leftmargin=1.35cm]
+ \item \textbf{Creating Protein Domains}
+We define $n$ protein domains $(D_i)_{i=1 \ldots n}$ for a genome $g$ (see Figure~\ref{pic_sim_workflow}, Step 1).
+Protein domains are regions in the genome that contain proteins.
+Depending on the number of proteins, these domains model histone modifications (high number of proteins) or TFs (low number of proteins) within the genome.
+Genomic regions with repetitive or unassembled parts are ignored for the domain placement. 
+For each protein domain $D_i$, we sample the actual number $q_i$~of proteins $(P_{i,j})_{j=1 \ldots q_i}$ that are contained.
+The protein number $q_i$ follows a Negative Binomial distribution $q_i \thicksim NB_{m_1, p_1}$.
+We determine the positions $r_{i,1}$ of the first protein $P_{i,1}$ by uniformly selecting a position within the genome: $r_{i,1} \thicksim U[g]$.
+We then place further proteins $r_{i, j}$ with a particular space between each other, that is, $r_{i,j} = r_{i,1} + \sum_{k=1}^{j-1} b_k \ (j \in \{2 \ldots q_i\})$. 
+The spacing variable $b_k$ follows a mixture of normal distributions $b_k \thicksim \sum_{l} c_l \cdot N_{\mu_l, \sigma_l^2}$.
+
+\begin{figure}[H]
+\begin{center}
+ \includegraphics[width=16cm]{pics/simulation_workflow.pdf}
+\end{center}
+\caption[ChIP-seq simulation workflow]{Workflow to simulate ChIP-seq data. 
+First, unassembled and repeated regions are marked and ignored in the further progress. 
+We then uniformly place domains of proteins in the genome. 
+Here, domain $D_1$ contains proteins $P_{11}$, $P_{12}$, $P_{13}$ and $P_{14}$, and Domain $D_2$ contains proteins $P_{21}$, $P_{22}$ and $P_{23}$. 
+The spacing between two proteins of a domain, for example $b_2$ between protein $P_{12}$ and $P_{13}$, is sampled from a mixture normal distribution. 
+Next, fragments are assigned to a protein, e.g. fragment $F_{148}$ is associated with protein $P_{14}$.
+In the next step, fragments are assigned to both biological conditions ($S_1$, $S_2$) as well as replicates (black, white).
+We add noise to the data and define reads as the beginning or ending part of the fragments.
+}
+\label{pic_sim_workflow}
+\end{figure}
+\newpage
+
+ \item \textbf{Sampling Fragments}
+We sample the fragments $\{F_{i,j,l}\}$ that are bound to the protein $P_{i,j}$ (see Figure~\ref{pic_sim_workflow}, Step 2). 
+The length $s_{i,j,l}$ of each fragment $F_{i,j,l}$ follows a normal distribution $s_{i,j,l} \thicksim N_{\mu, \sigma^2}$.
+Fragments are assigned randomly to each DNA strand and always cover the entire length $o_{i,j}$ of the protein $P_{i,j}$ to which they are associated. 
+However, since fragments are usually larger than the corresponding proteins, they are randomly moved up- or downstream.
+That is, for a given fragment's midpoint $m_{i,j,l}$,
+$$m_{i,j,l} = r_{i,j} + t \quad with \quad t \thicksim U[-(s_{i,j,l} - o_{i,j}), (s_{i,j,l} - o_{i,j})].$$
+
+For MA-plots of biological data, we typically observe a non-linear decrease of M-values for higher A-values.
+We model this non linearity by using function $f$ which is described by a Laplace function:
+
+\begin{align}
+f_{b, \mu}(d_{i,j}) = \frac{1}{2b} \exp\left(- \frac{\left| d_{i,j} - \mu \right|}{b}\right), \label{eq_f}
+\end{align}
+
+\noindent
+with $b=0.5$, $\mu=0.2$ and where $d_{i,j}$ gives the ratio of the fragments assigned to one of the biological conditions.
+The number $l$ of fragments we sample for a protein is given by 
+$$l = f_{0.5, 0.2}(d_{i,j}) \cdot p,$$ 
+where $p$ follows a Negative Binomial distribution $p \thicksim NB_{m_2, p_2}$. 
+Figure \ref{pic_maplot} shows an example of an MA plot of simulated data.
+The factor $f_{0.5, 0.2}$ causes the typical non-linear relationship between $M$ and $A$ values.
+
+\begin{figure}[H]
+\begin{center}
+ \includegraphics[width=8cm]{pics/simdata-MA-new.png}
+\end{center}
+\caption[MA-plot example of simulated ChIP-seq data]{MA-plot example of simulated ChIP-seq data. 
+We use mean $m_1=8$ and variance $p_1=14$ for the negative binomial distribution describing the protein domains.
+The number of fragments assigned to each protein follows a Negative Binomial distribution with mean $m_1=150$ and variance $p_1=10000$.
+We have 2 replicates for each condition with $\alpha_0=5$ for a moderate variance between the replicates.
+The Laplace function (Equation~\ref{eq_f}) leads to the typical shape of the MA-plot.}
+\label{pic_maplot}
+\end{figure}
+% XXX redo plot
+
+ \item \textbf{Assigning Fragments}
+For a given protein $P_{i,j}$, factor $d_{i,j}$ describes the ratio of the protein associated fragments that are assigned to the biological conditions.
+In our model, the ratio $d_{i,j}$ follows a beta distribution $B(0.5, 0.5)$.
+% Fragments of the first or second biological condition are then assigned to the replicates (see Figure~\ref{pic_sim_workflow}, Step 3).
+The beta distribution $B(0.5, 0.5)$ is symmetrical to $0.5$ and tends to assume the extreme values $0$ and $1$.
+We thereby increase the probability that fragments are mostly assigned to one condition which could potentially result in a DP.
+
+For each protein domain $P_{i,j}$ and each biological condition, we randomly choose a replicate and assign fragments to it (see Figure~\ref{pic_sim_workflow}, Step 3).
+For $n$ replicates in a condition and for a constant vector $\overline{\alpha} = \langle \alpha_0, \ldots, \alpha_0 \rangle$ of length $n$, where $\alpha_0$ describes the variance to distribute fragments among the replicates, the probability distribution to assign fragments to replicates is given by a Dirichlet distribution of order $n$, that is,
+
+$$
+f(\overline{x}, \overline{\alpha}) = \frac{1}{B(\alpha)} \prod_{i=1}^K x_i^{\alpha_i-1}, \quad \text{with}
+$$
+
+$$B(\overline{\alpha}) = \frac{\prod_{i=1}^K \Gamma (\alpha_i)}{\Gamma\left( \sum_{i=1}^K \alpha_i\right)}.$$
+\noindent 
+For each fragment, we follow the sampled probabilities to assign it to a replicate.
+The lower $\alpha_0$, the higher is the variance within the replicates.
+
+
+ \item \textbf{Adding Noise}
+We follow~\cite{zhang2008} to add noise to each replicate (see Figure~\ref{pic_sim_workflow}, Step 4).
+We divide the genome into bins and assign a random weight to each bin.
+We assume that the majority of noise fragments in a ChIP-seq experiment appear in single locations, but some of them build dense clusters.
+We therefore use a right skewed gamma distribution to model a bins' weight.
+
+Accordingly to the weights, we randomly sample $t$ bins with replacement.
+For each sampled bin, we add a noise fragment with a uniformly chosen position to the bin.
+The number $t$ of chosen bins for replicate $r$ is defined as
+
+$$t = \min\left(\frac{\#\text{fragments}}{\text{FRiP}}, \frac{b \cdot \text{genome's length}}{\text{read's length}}\right).$$
+
+\noindent
+FRiP is the fraction of reads in peaks.
+% We use a FRiP of $5 \%$ which is the lowest threshold for ChIP-seq profiles recommended by~\cite{landt2012}.
+To have the number $t$ invariant towards genome's length, we multiply the ratio of genome's and read's length by $b$.
+The variable $b$ gives the average background coverage.
+
+\begin{algorithm}[t]
+\textit{Input:} reference genome $g$\\
+\textit{Output:} ChIP-seq read $\langle r_{kG_i} \rangle_{k \in \mathbb{N}, i \in {1,2}}$ for condition $G_i$ with replicates
+  \begin{enumerate}[label=\arabic*.]
+    \item select genomic regions in $g$, include protein domains $D_i$, and sample proteins $P_{i,j}$ in domain $D_i$
+    \item sample and place fragments $F_{i,j,l}$ per protein $P_{i,j}$
+    \item assign a proportion $d_{i,j}$ of fragments of a protein $P_{i,j}$, and assign fragments to a ChIP-seq replicate of a biological condition $G_i$
+    \item add noise to the data
+    \item define DPs for each protein $P_{i,j}$ and output reads $\langle r_{kG_i} \rangle_{k \in \mathbb{N}}$ for condition $G_i$
+  \end{enumerate}
+ 
+ \caption[ChIP-seq read simulator]{ChIP-seq read simulator}
+ \label{alg_sim_with}
+\end{algorithm}
+
+ \item \textbf{Deriving Reads from Fragments and Defining Differential Peaks}
+Reads are obtained by getting the initial $u$ base pairs of fragments in the forward strand (or the last $u$ base pairs of the reverse strand).
+We define a DP gaining signal in condition $G_i$, if the number of fragment in condition $G_i$ is higher than a given threshold $e$ and at least $v$ fragments are present, that is,
+
+$$\frac{\mid \{ F_{i,j,l} \} \big |_{G_i} \mid} {\mid \{ F_{i,j,l} \} \mid} > e \quad \text{and} \quad \big |\{ F_{i,j,l} \} \big |_{G_i} \geq v,$$
+\noindent
+where $|\{F_{i,j,l} \} |_{G_i}$ gives the fragments of condition $G_i$ (see Figure~\ref{pic_sim_workflow}, Step 5).
+The position of the DP is defined by the protein position $r_{i, j}$.
+\end{enumerate}
+
+To simulate ChIP-seq reads without replicates, we use a simpler version of Algorithm~\ref{alg_sim_with}.
+First, we use a fixed spacing $b$ between the proteins within a domain (see Step 1).
+Second, for the number $l$ of fragments to sample per protein (see Step 2), we use a random variable following a Negative Binomial distribution. 
+We do not consider the non-linear property of the MA-plot by using the Laplace function.
+Next, we use a constant ratio to assign fragments to one of the biological conditions (see Step 3).
+Finally, we do not add background noise to the ChIP-seq data, that is, we do not perform Step 4.
+The rationale of this simulation version is a historical one, as we first developed the simulation algorithm without replicates and then extended the approach to account for replicates.
+
+\subsection{Evaluation}
+\label{sec_sim_eval}
+We describe how we use simulated data to evaluate DPCs.
+For given simulated data and DP predictions, Table~\ref{tab_pos_outcomes} gives an overview of the possible classification of DPs.
+For a gentle introduction to the evaluation of a classifier, please see~\cite{Fawcett2004}.
+
+\begin{table}[ht]
+\centering
+  	\begin{tabular}{c|c c}
+% 	  &		& \multicolumn{2}{c}{simulated data} \\
+	  		& simulated DP			& no simulated DP\\ \hline
+	  called DP	& true positives		& false positives \\
+	  not called DP	& false negatives		& true negatives \\
+  	\end{tabular}
+\caption[Possible classification]{Possible classification.
+For a given genomic region, a DPC calls or does not call a DP (rows), while the simulated data actually contain or do not contain a DP (columns).
+This results in four possible classifications performed by the DPC, namely true/false positive/negative DPs.}
+\label{tab_pos_outcomes}
+\end{table}
+\noindent
+If the simulated region is a DP and is classified as positive (negative), the region is called a true positive (false negative).
+If the simulated region is no DP and is classified as positive (negative), the region is called a false positive (true negative).
+For a DPC, the numbers in the major diagonal (true positives and true negatives) give the correct decisions.
+The numbers outside the major diagonal (false negatives and false positives) give the incorrect decisions.
+Moreover, we define the true positive rate (TPR) as the ratio between positive called DPs and the total number of positives, that is,
+$$\text{TPR} = \frac{\text{true positives}}{\text{true positives} + \text{false negatives}}.$$
+The false positive rate (FPR) is given by
+$$\text{FPR} = \frac{\text{false positives}}{\text{false positives} + \text{true negatives}}.$$
+
+\noindent
+DPCs assign a $p$-value to the called DPs, where a lower $p$-value indicates a higher probability that the DP is a true positive.
+DPCs typically use a $p$-value threshold to define final DPs.
+Stricter thresholds lead to a stricter classification and in particular stricter FPR.
+The \underline{r}eceiver \underline{o}perating \underline{c}haracteristic (ROC) curve describes the relationship between FPR and TPR for distinct $p$-value thresholds.
+The ROC curve therefore allows a visual representation of a classifier performance under distinct FPRs.
+The \underline{a}rea \underline{u}nder the \underline{c}urve (AUC), that is, the integral, of a ROC curve gives a single score for a DPC.
+The higher the AUC ROC, the better the DP predictions of the considered method.
+We use ROC and AUC ROC to evalaute DPCs with simulated data.
+
+In our case, true or false positives and negatives are given as genomic regions.
+To classify these regions, we define an interval algebra.
+% This interval algebra makes it possible to compute all DP classifications stated in Table~\ref{tab_pos_outcomes}.
+A genomic region $r=(r_s, r_e)$ is described by its starting position $r_s$ and ending position $r_e$.
+We omit the chromosome information as we restrict our analysis to one chromosome.
+The intersection of two genomic regions $r_1=(r_{1s}, r_{1e})$ and $r_2=(r_{2s}, r_{2e})$ is defined as
+
+\[
+r_1 \cap r_2 = 
+  \begin{cases}
+    (\max(r_{1s}, r_{2s}), \min(r_{1e}, r_{2e})) & \text{if } r_1 \text{ and } r_2 \text{ overlap,} \\
+    \emptyset & \text{ else.}
+  \end{cases}
+\]
+\noindent
+The subtraction of two genomic regions is defined as
+
+\[
+r_1 - r_2 = 
+  \begin{cases}
+    (r_{1s}, r_{2s}) 			& \text{if } r_1 \text{ and } r_2 \text{ overlap},\ r_{1s} < r_{2s},\ r_{1e} < r_{2e},\\
+    (r_{2e}, r_{1e}) 			& \text{if } r_1 \text{ and } r_2 \text{ overlap},\ r_{1s} > r_{2s},\ r_{1e} > r_{2e},\\
+    \{(r_{1s}, r_{2s}), (r_{2e}, r_{1e})\} 	& \text{if } r_1 \text{ and } r_2 \text{ overlap},\ r_{1s} < r_{2s},\ r_{1e} > r_{2e},\\
+    \emptyset 				& \text{if } r_1 \text{ and } r_2 \text{ overlap},\ r_{1s} > r_{2s},\ r_{1e} < r_{2e},\\
+    (r_{1s}, r_{1e}) 			& \text{else.}
+  \end{cases}
+\]
+
+\noindent
+For two sets of genomic regions the subtraction and intersection operation is performed element-wise.
+The size of a genomic region set is defined as the sum of all genomic regions' length.
+
+With the interval algebra on genomic regions, we are able to quantify the classification outcome of DP predictions. 
+For a given simulation instance based on genome $g$, we have a set of genomic regions $T$ describing true DPs in the simulated data and a set $P_A$ of genomic regions describing DPs predicted by algorithm $A$.
+We obtain true positive DPs by computing $T \cap P_A$, false positive DPs by computing $P_A - T$, false negative DPs by computing $T - P_A$ and true negative DPs by computing $\text{genome} - T - P_A$.
+Figure~\ref{pic_region_classification} gives an example of the operations on genomic regions and the resulting classification.
+We use the algebra based classification and obtain
+$$\text{TPR} = \frac{|T \cap P_A|}{|T|} \quad \text{and} \quad \text{FPR} = \frac{|P_A - T|}{|\text{g} - T|}.$$
+
+In the case without replicates, we use a simpler approach to evaluate DP predictions.
+DPCs are evaluated by sorting the called DPs by smallest $p$-value and calculating the proportion of true positives among the top $r$ called DPs. 
+
+
+\begin{figure}[H]
+\begin{center}
+ \includegraphics[width=12cm]{pics/regions_classification}
+\end{center}
+\caption[Algebra on genomic regions]{Algebra on genomic regions.
+For a given genome $g$, true DPs $T$ in the simulated data and predicted DPs $P_A$, we perform operations on genomic regions to compute all possible classification outcomes: true positive (TP), false positive (FP), false negative (FN) and true negative (TN) DPs.
+In our case of DPCP, we typically obtain a high number of true negative DPs, as the majority of the genome does not contain ChIP-seq signal.}
+\label{pic_region_classification}
+\end{figure}
+
+\subsection{Implementation}
+We implemented both strategies to simulate ChIP-seq data with and without replicates as Python command line tools.
+The tools are public available at \url{http://costalab.org/wp/odin} and \url{http://costalab.org/wp/thor} under the terms of the \textit{GNU General Public Licence v3 (GPL v3)}.
+The required input is the reference genome in fasta format and the genomic regions in BED format describing repeated regions within the genome.
+In the case with replicates, the user additionally has to define the number of replicates for each condition.
+The tools are highly parametrized, that is, all variables introduced here, such as the number of protein within a domain and the number of reads, can be customized for each run which allows a flexible tool usage.
+We use the same computational landscape of THOR and ODIN for the simulators.
+% That is, we tested both tools with Python 2.7, Numpy 1.4.0, Scipy 0.7, Scikit-learn 0.14, Pysam 0.7.5 and HTSeq 0.6.5.
+% We use a local Linux Ubuntu 14.04.4 LTS x86 64-bit machine running with 8 Intel(R) Core(TM) i7-4770 CPU at 3.40GHz and 16 GB RAM.
+% Furthermore, we run the simulators on an HPC cluster mainly based on Intel Xeon-based 8- to 128-way SMP 64-bit nodes with Scientific Linux release 6.6 (Carbon).
+% XXX make license for the simulators
+\noindent
+All websites mentioned in this section were accessed on 17th November, 2015.
+
+\section{Evaluation with Biological Data}
+We motivate and discuss two approaches to measure the quality of DPs called by DPCs on real datasets.
+These approaches are based on the correlation of DPs and associated gene expression data. 
+
+\subsection{DAGE and DCA}
+\label{sec_dage_dca}
+We associate changes in protein-DNA interactions with changes in gene expression whenever gene expression is measured in the same cellular conditions.
+The idea is based on the fact that the level of histone modifications correlates with the expression of the surrounding genes~\citep{Karlic2010}.
+Several groups have already used histone modifications to predict gene expression~\citep{Cheng2011, Maze2014}.
+We will use histone modifications to evaluate DPs.
+
+Our measure is independent of the number of called peaks and can be applied either to gene expression data from sequencing or microarray data. 
+% The main idea is to quantify changes in gene expression in the proximity of DPs. 
+For sequencing data, we first extend the DPs to have a length at least of 1000bps. 
+Next, we count the reads of the gene expression data falling into the DPs.
+The use of minimum windows around DPs is based on the fact that we want to capture the expression of known genes or uncharacterized lncRNAs in the close proximity of the DPs.
+For microarray data, DPs are assigned to genes if (1) they are located in the gene or close the promoter of a gene (1000bp upstream) or (2) if the DPs are located 50~Kbps away from the TSS without a TSS of another gene in between.
+The average expression value of genes assigned to a peak is used. 
+Peaks not assigned to genes are ignored. 
+
+For the case without replicates, we sort DPs called by algorithm $A$ by increasing $p$-value and take the top $k$ ranked DPs that are associated with the HMM state \hmmstate{Gain 1} (or \hmmstate{Gain 2}).
+Let $s_{Ai1}$ and $s_{Ai2}$ be the gene expression values associated with the $i$th DP called by algorithm $A$ in the first and second condition.
+We define the function 
+\begin{align}
+ e(k) = \frac{\sum_{i \leq k} \log\left(\frac{s_{Ai1}}{s_{Ai2}}\right)}{k}, \label{eq_dage_e}
+\end{align}
+\noindent
+for $k \in \mathbb{N}$.
+Function $e$ gives the average logarithmic ratio of condition specific expression values for the top $k$ DPs.
+% By increasing~$k$, we obtain curves depicted in Figure~4. 
+The higher the value is, the higher is the association between DP and changes in expression. 
+
+We compute the integral of function $e$ and obtain the single statistic DAGE (\underline{D}ifferential \underline{A}verage \underline{G}ene \underline{E}xpression).
+% Let $e(k)$ be the average log ratio expression associated with the best $k$ DPs for either {\tt Gain 1} or {\tt Gain 2}.
+We use Equation~\ref{eq_dage_e} and define
+\begin{align}
+ \text{DAGE} =  \left( \sum_{k \in K} \left| e(k) \right| \right) \cdot h \label{eq_dage},
+\end{align}
+for $ K = [h, 2 \cdot h, \ldots, H]$ where $h$ is the step size and $H$ the maximum number of DPs used.
+
+If replicates are available, we perform a differential expression analysis with DESeq~\citep{anders2010} for RNA-seq and limma~\citep{Ritchie2015} for microarray data. 
+We compute $p$-values of the differential expression analysis and use them to indicate expression changes. 
+This approach improves the DAGE statistic, which is based on a simple fold change.
+
+We rank the DPs by increasing $p$-values. 
+For a given DP with rank $i$, let $p_{Ai1}$ be the corresponding $p$-value of the DPC algorithm $A$ and let $p_{Ai2}$ be the corresponding $p$-value of the gene expression analysis.
+We compute the Spearmann rank-correlation~\citep{Spearman1904} between $p$-value lists $\langle p_{Ai1} \rangle$ and $\langle p_{Ai2} \rangle$ for the top $k$ ranked DPs, that is,
+\begin{align}
+ f(k) = \text{cor}\big(\langle p_{Ai1} \rangle, \langle p_{Ai2} \rangle \big)_{\text{Spearmann}} \label{eq_dca_e}, 
+\end{align}
+for all $i < k,\ k \in \mathbb{N}$.
+We obtain DCA (\underline{D}ifferential \underline{C}orrelation \underline{A}nalysis) curves which indicate the association of gene expression and DPs for a distinct number of called peaks.
+Furthermore, we obtain a single score for algorithm $A$ by estimating the normalized area under the DCA curve, that is, we use Equation~\ref{eq_dca_e} and obtain
+\begin{align}
+ \text{DCA} = \frac{\bigg(\sum_{k \in K} \max\big(0, f(k)\big)\bigg) \cdot h}{H} \label{eq_dca},
+\end{align}
+for $ K = [h, 2 \cdot h, \ldots, H]$, where $h$ is the step size and $H$ the maximum number of DPs used.
+We ignore DPs with a negative correlation between gene expression and count data, as they represent spurious solutions.
+The DCA score detects the positive correlation between gene expression changes and DPs. 
+
+DAGE and DCA evaluation are based on the use of cumulative values computed by the functions~$e$ and $f$.
+Evaluation of $e(k)$ takes into account $s_{Ai1}$ and $s_{Ai2}$ with $i \leq k$.
+Evaluation of $e(k+1)$ also considers $s_{Ai1}$ and $s_{Ai2}$ with $i \leq k$.
+Additionally, the succeeding values $s_{A(k+1)1}$ and $s_{A(k+1)2}$ are evaluated.
+This pattern makes the values $s_{Ai1}$ and $s_{Ai2}$ gain higher impact on distinct evaluations of function~$e$ than all succeeding values $s_{Aj1}$ and $s_{Aj2}$ with $j > i$.
+For function~$f$, a corresponding statement is valid.
+This characteristic of DAGE and DCA is motivated by the ROC curves described in Section~\ref{sec_sim_eval} whose computation is based on the cumulative evaluation of FDR and TDR for distinct $p$-value thresholds.
+% XXX justify probelm das Berlage pointet out with DAGE and DCA with the cumulative mean signal
+
+
+\section{Biological Datasets}
+\label{sec_biol_datasets}
+We list the biological datasets that we use to evaluate DPCs.
+Depending on the availability of replicates, we use the DAGE or DCA statistic for the evaluation.
+Table~\ref{table_datasets_with_replicates} gives an overview of the DPC experiments with replicates and Table~\ref{table_datasets_without_replicates} of the datasets without replicates.
+We use BWA \citep{li2010} version $0.6.1-\text{r}104$ with default parameters for read mapping to the mouse (mm9) or human genome (hg19).
+
+\begin{itemize}
+\item \textbf{Dendritic Cell (DC) Differentiation}
+This in-house study measures regulatory changes during the development of antigen-presenting dendritic cells (DC) which  develop from hematopoietic stem cells in bone marrow. 
+Our collaborators have established an in-vitro protocol to differentiate multipotent progenitors (MPP) from adult mouse bone marrow to common DC progenitors (CDP)~\citep{felker2010}. 
+CDP cells are further differentiated to either classical DC (cDC) or plasmacytoid DC (pDC). 
+For these four cell types, we have performed a DP analysis comparing the lineage commitment steps (MPP to CDP, CDP to cDC, CDP to pDC) and DC subset specification (cDC and pDC).
+
+ChIP-seq experiments without replicates were performed for the histone modification H3K4me1 and the TF PU.1 by~\cite{Lin2015}.
+The data is available at the Gene Expression omnibus (GEO) database~\citep{Edgar2002} with accession number GSE57563.
+It has been shown that the TF PU.1 is associated to active gene regulation~\citep{Lin2015}.
+Hence, similar to histone modifications, we use PU.1 to evaluate DPs with the DAGE score.
+A single input-DNA profile which serves as control for all cell types is available.
+We also have gene expression data from microarrays for all four cell types from~\cite{felker2010} (GEO accession GSE22432).
+Altogether, we obtain 8 experiments which are listed in Table~\ref{table_datasets_without_replicates}.
+
+Furthermore, ChIP-seq experiments with two technical replicates were performed for the histone modification H3K27ac (GEO accession GSE73143).
+Input-DNA for each cell type is available.
+This study represents a scenario with potentially very low variability within the biological conditions and leads to 4 experiments in Table~\ref{table_datasets_with_replicates}.
+% Please see Appendix~\ref{DC_dataset_H3K27ac} for more details about the sample preparation done by our collaborators.
+
+\item \textbf{TLF4 Pathway Analysis (TLR4)}
+\cite{kaikonnen2013} investigate the response of macrophages after activation of the TLR4 signaling pathway in mice.
+They provide ChIP-seq experiments without replicates for the TF PU.1 at time points 0h, 1h, 6h, 12h and 24h and for the histone modification H3K4me2 at time points 0h, 1h, 6h and 24h (time point 12h was not available). 
+We perform differential peak calling by comparing the time point 0h with all other time points, which leads to 7 experiments (Table~\ref{table_datasets_without_replicates}).
+The study provides an input-DNA signal of untreated cells, which is used as control.
+Moreover, we use the genomic run-on sequencing (GRO-seq) experiments, which measure the quantity of nascent transcripts, at time points 0h, 1h, 6h, 12h and 24h for evaluation. 
+% Similar to the DC study, this study represents a scenario with clear, isolated peaks across the conditions.
+These data were obtained from GEO accession number GSE48759.
+
+\begin{table}[th]\centering
+\begin{tabular}{lllll}
+  Experiment & Protein & Cond. 1 & Cond. 2 \\ \hline
+  TLR4-PU.1-0h-1h & PU.1 & 0h & 1h \\
+  TLR4-PU.1-0h-6h & PU.1 & 0h & 6h \\
+  TLR4-PU.1-0h-12h & PU.1 & 0h & 12h \\
+  TLR4-PU.1-0h-24h & PU.1 & 0h & 24h \\
+  TLR4-H3K4me2-0h-1h & H3K4me2 & 0h & 1h \\
+  TLR4-H3K4me2-0h-6h & H3K4me2 & 0h & 6h \\
+  TLR4-H3K4me2-0h-24h & H3K4me2 & 0h & 24h \\ 
+  DC-PU.1-MPP-CDP & PU.1 & MPP & CDP \\
+  DC-PU.1-CDP-cDC & PU.1 & CDP & cDC \\
+  DC-PU.1-CDP-pDC & PU.1 & CDP & pDC \\
+  DC-PU.1-cDC-pDC & PU.1 & cDC & pDC \\
+  DC-H3K4me1-MPP-CDP & H3K4me1 & MPP & CDP \\
+  DC-H3K4me1-CDP-cDC & H3K4me1 & CDP & cDC \\
+  DC-H3K4me1-CDP-pDC & H3K4me1 & CDP & pDC \\
+  DC-H3K4me1-cDC-pDC & H3K4me1 & cDC & pDC \\
+\end{tabular}
+\caption[Overview of DP experiments without replicates]{Overview of DP experiments without replicates.
+We give the experiment name, protein type as well as the cellular conditions for each of the evaluated differential peak problems.
+}
+\label{table_datasets_without_replicates}
+\end{table}
+
+\item \textbf{Epigenomics Effects of Cocaine (CO)}
+\cite{Feng2014} analyse epigenetic changes after cocaine intake on mouse nucleus accumbens.
+The study measures histone modifications of three biological replicates after treatment with a cocaine or saline solution.
+We use data from histone modifications H3K4me1 and H3K36me3, which leads to two DP calling experiments. 
+The authors provide RNA-seq data matching the samples, but no input-DNA (GEO accession number GSE42811 and GSE24850).
+This study represents a scenario with biological replicates that exhibit a similar genomic background. 
+Therefore, we expect a low variance within the biological conditions. 
+
+\item \textbf{Monocyte and Macrophages (MM)}
+This study provides samples of monocytes (MO\-NO) activated to macrophages (MAC) in up to 8 human samples~\citep{Stunnenberg2014}.
+We consider the histone modifications H3K4me1, H3K27ac and H3Kme3.
+For histone modification H3K4me1 there are 6 MONO and 10 MAC, for H3K27ac there are 5 MONO and 8 MAC and for H3K4me3 there are 6 MONO and 10 MAC samples.
+We perform DP estimations between MONO and MAC for all histone modifications.
+Condition specific RNA-seq data (36 MAC and 25 MONO samples) are used for evaluation.
+The study does not provide input-DNA data for the ChIP-seq experiments.
+The data are available with restricted access at the European Genome-phenome Archive (EGA)~\citep{Lappalainen2015}, accession number EGAD00001001011.
+This study represents a scenario with human biological replicates with a moderate within group variability.
+
+\item \textbf{B cell lymphoma (LYMP)} \cite{Koues2015} performed a comprehensive analysis of regulatory genomic features in lymphomas. 
+We use ChIP-seq data of the histone modification H3K27ac on follicular lymphoma cells (FLs), as well as distinct populations of B~cells from healthy donors: proliferative centroblasts (CC) and peripheral blood B~cells (PBBA). 
+We only consider samples with a matching input-DNA and gene expression (measured with microarrays): CC samples 1-5, FL samples 1, 2, 5, 8, 10, 11, 14, 16 and PBBA sample 1-3 (GEO accession number GSE62246). 
+We evaluate DPs in the cases FL vs. CC, FL vs. PBBA and CC vs. PBBA. 
+This dataset contains human biological replicates and disease samples and is expected to have a high within group variability. 
+
+\end{itemize}
+
+
+
+\begin{table}[th]\centering
+\begin{tabular}{llllll}
+ Experiment & Histone & Cond. 1 & Cond. 2 & \#rep \\ \hline
+ DC-H3K27ac-MPP-CDP & H3K27ac & MPP & CDP & 2, 2 \\
+ DC-H3K27ac-CDP-cDC & H3K27ac & CDP & cDC & 2, 2 \\
+ DC-H3K27ac-CDP-pDC & H3K27ac & CDP & pDC & 2, 2 \\
+ DC-H3K27ac-cDC-pDC & H3K27ac & cDC & pDC & 2, 2 \\
+ CO-H3K36me3 & H3K36me3 & saline & cocaine & 3, 3 \\
+ CO-H3K4me1 & H3K4me1 & saline & cocaine & 3, 3 \\
+ MM-H3K27ac & H3K27ac & MONO & MAC & 5, 8 \\
+ MM-H3K4me1 & H3K4me1 & MONO & MAC & 5, 8 \\
+ MM-H3K4me3 & H3K4me3 & MONO & MAC & 6, 10 \\
+ LYMP-FL-CC & H3K27ac & FL & CC & 8, 5 \\
+ LYMP-FL-PBBA & H3K27ac & FL & PBBA & 8, 3 \\
+ LYMP-CC-PBBA & H3K27ac & CC & PBBA & 5, 3 \\
+ \end{tabular}
+\caption[Overview of DP experiments with replicates]{Overview of DP experiments with replicates. 
+For each experiment, we describe the experiment name, histone modification type, cellular conditions and number of replicates.
+}
+\label{table_datasets_with_replicates}
+\end{table}
+
+\section{Statistical Analysis}
+\label{sec_friedman_test}
+We apply the Friedman-Nemenyi test~\citep{demsar2006} to the DAGE and DCA values as well as to the measures provided by the ChIP-seq simulation to evaluate DPCs.
+The Friedman-Nemenyi test consists of two parts.
+First, the non-parametric Friedman test~\citep{Friedman1937} detects differences in observations estimated by various methods across multiple datasets.
+The test computes for each method a rank for the observations of all datasets.
+Under the assumption of uniformly distributed ranks across the methods, that is, that the methods give similar observations, the test checks for significant differences within the ranks.
+Depending on the number of observations and methods, the test statistic approaches a $\chi^2$ distribution.
+Second, the Nemenyi test~\citep{Nemenyi1963} is applied to identify the method that causes the significant difference in the rank statistic.
+In our case, the Friedman-Nemenyi test indicates whether one of the DPCs is assigned to significant higher values than others across multiple datasets. 
+
+\section{Experiments without Replicates}
+We describe the experiments we perform to evaluate ODIN and other methods that do not account for replicates. 
+ODIN is run with a Binomial and a mixture of Poisson distribution as emission.
+Moreover, we evaluate DBChIP, MAnorm, ChIPDiff, MACS2 and DESeq based on peaks called by various SPCs (see Table~\ref{tab_tools}).
+% We perform DPC with all methods described in Table~\ref{tab_tools} that do not take replicates into account, that is, DBChIP, MAnorm and MACS2.
+% XXX why not ChIPDiff for simulated data?
+First, we describe how we use the simulated data.
+Second, we resort to the biological data for the evaluation experiments.
+
+\subsection{Evaluation of Methods with Simulation Data}
+\label{sec_expmethods_sim_without}
+We describe the simulation experiments without replicates.
+First, we explain the experimental setup and second, we give details about the parametrization of the simulator and all used DPCs.
+
+\subsubsection{Experimental Setup}
+We investigate the effect of protein domain sizes as well as the number of reads in the libraries.
+We therefore vary the parameters
+\begin{itemize}
+ \item $m_1$ to obtain larger protein domains,
+ \item $p_1$ to obtain more variable sized protein domains,
+ \item $m_2$ to obtain peaks with higher number of reads, and
+ \item $p_2$ to obtain peaks with higher variance in their size.
+\end{itemize}
+See Section~\ref{sec_sim_with_rep} for a detailed description of the parameters.
+We evaluate the parameter settings
+$$(m_1,\ p_1) \in  \{(1,4),(4,6),(8,14)\} \quad \text{and}$$ 
+$$(m_2,\ p_2) \in \{(20,200),(20,2000),(100,200)\}.$$
+
+We combine the two-stage DPC DBChIP and MAnorm with the SPC MACS, as MACS provides good performance~\citep{Chen2012, wilbanks2010} and does not require input-DNA for the execution.
+Moreover, we evaluate the usage of DESeq in this scenario.
+Hence, we combine DESeq with MACS and refer to this algorithm as DESeq-MACS.
+We run ODIN with the Binomial and mixture of Poisson emission distribution.
+For the mixture of Poisson we consider 1, 2, 3, and 4 components.
+
+
+\subsubsection{Parametrization of Methods}
+The following values are set as constants in our simulated ChIP-seq experiments. 
+We generate $10,000$ protein domains per dataset.
+The spacing $b$ between proteins is defined as 200~bp, which reflects the average spacing between nucleosomes~\citep{mammana2013}. 
+Furthermore, ChIP fragments typically have a length of 200~bp~\citep{Furey2012}.
+We therefore model the fragment's size with mean $\mu=200$ and standard deviation $\sigma=20$. 
+The standard deviation follows estimates taken from paired-end sequencing data reported in~\citep{Marschall2012}.
+The minimum number of reads $v$ to support a DP is 25 and the ratio $e$ for definition of a DP is defined as $e=0.6$.
+We use a ChIP-seq read size of $26$~bp.
+We choose chromosome 1 of the mouse genome (mm9) as reference genome and align the simulated reads with BWA~\citep{li2010} version $0.6.1-\text{r}104$ with default parameters.
+For each parametrization choice, we generate 50 simulated datasets.
+We run all methods with default parameters.
+
+\subsection{Evaluation of Methods with Biological Data}
+We give details about the experiments performed with biological datasets without replicates.
+First, we introduce the experimental setup and second, we describe the parametrization of all considered DPCs.
+
+\subsubsection{Experimental Setup}
+We use all datasets which are listed in Table~\ref{table_datasets_without_replicates}, that is, all 15 ChIP-seq experiments from the TLR4 study~\citep{kaikonnen2013} and the DC study~\citep{Lin2015} without replicates.
+% XXX give quality metrics: \#reads/NRF, FRiP, NSC, RSC (Landt)?
+The two-stage DPCs DBChIP, DESeq and MAnorm require peaks of each ChIP-seq signal as input.
+In contrast to the simulated data which does not provide input-DNA, we here are able to separately evaluate the SPCs PeakSeq, Quest and MACS to compute the candidate peaks.
+The SPCs were selected based on their good performance~\citep{Chen2012, wilbanks2010}.
+We also define a two-stage DPC which merges all candidate peaks and uses them as input for DESeq. 
+
+DBChIP uses predefined short windows of 250bps around the peak summits as candidates for DPs.
+As proposed by the authors, we apply DBChIP to TF based ChIP-seq data which typically exhibit well defined, sharp peaks.
+In contrast to the DPC approach that combines DESeq with candidate peaks finds DPs with variable size common in histone ChIP-seq.
+Hence, we distinguish between experiments with TFs and histone modifications. 
+As ChIPDiff does not provide $p$-values or any criteria to sort DPs, we can only obtain points for the DAGE curve. 
+
+In our experiments, ODIN (with a single component in the mixture model) requires averagely 12GB of memory.
+The calculations last on average 4 hours on a 3.4GHz machine. 
+Computational time increases linearly with the number of components in the case of mixture of Poisson distributions.
+
+
+\subsubsection{Parametrization of Methods}
+For ODIN, we use the mappability files that are provided by \cite{landt2012}\footnote{\url{http://hgdownload-test.cse.ucsc.edu/goldenPath/mm9/encodeDCC/wgEncodeMapability/}, last access: 25th\ No\-vember 2015, } to compute the genomic signal (Section~\ref{sec_method_read_mapping}).
+We only consider regions with an mappability value of $1$.  
+We compute the fragment size (Section~\ref{sec_method_frag_size}) with $\hat{f}=\argmaxu{f \in G} c(f)$ for the range $G=[0,5, \ldots, 600]$.
+Moreover, we use a step size $s$ of 50 and window size $w$ of 100 to compute the signal profile (Section~\ref{sec_method_profile}). 
+This choice was based on visual inspection of peaks: smaller windows did not affect peaks and larger windows induced too large peaks. We only use input-DNA signal of chromosome 1 to build the \nuc{GC}-content histogram (Section~\ref{sec_method_gccontent}). 
+
+ChIPDiff is also run with default parameters ($FC = 3$, $\text{minRegionDist} = 1000$ and $\text{minP} = 0.95$). 
+It finds less than 20 peaks for half of the experiments from the TLR4 study. 
+For these experiments, we change parameters ($FC = 1.5$, $\text{minRegionDist} = 200$ and $\text{minP} = 0.7$) to obtain at least 100 DPs.
+% We also try to use RSEG with no success. 
+% For the dataset PU1-MPP-CDP, it returns very large peaks (mean size of 58,716~bps) in comparison to ODIN (315~bps). 
+% Per definition, RSEG is tailored for identifying broad genomic domains and will not be considered here.
+MACS2 is run with parameter $C=0.5$ for the TLR4 study and $C=1.5$ for the DC study. 
+MAnorm, DBChIP and DESeq and all SPCS are run with default parameters.
+
+\subsection{Evaluation of $P$-value Estimation Strategies}
+We evaluate distinct estimations strategies to compute $p$-values of DPs.
+For this, we call DPs with ODIN for all biological datasets (see Table~\ref{table_datasets_without_replicates}) and re-compute the $p$-values with DESeq and edgeR.
+% Although both DESeq and edgeR are not tailored for analysing DPs, one can tread a DP as an expression analysis without replicates.
+As we do not consider replicates, we have to choose the following parameters for DEseq's function \textit{estimateDispersions}: 
+the method \textit{blind}, the sharingMode \textit{fit-only} and the fitType \textit{local}.
+For edgeR, we follow the user guide and use a dispersion factor of $0.04$ in the \textit{exactTest} function.
+We use edgeR version $3.6.8$ and DEseq version $1.16.0$.
+% The DAGE score is based on the $p$-values assigned to each DP.
+We compare the DAGE scores based on the $p$-value estimates of ODIN, edgeR and DESeq.
+
+
+\section{Experiments with Replicates}
+We describe the experiments to evaluate THOR and competing DPCs that take replicates into account. 
+First, we resort to simulated data and then we describe how we use biological data for the evaluation experiments.
+
+We perform DPC with THOR and all methods described in Table~\ref{tab_tools} that account for replicates, that is, MACS2, DiffBind and DiffReps, PePr and csaw.
+Moreover, we combine DESeq with the SPC JAMM, which can handle replicates. 
+We also combine DESeq with IDR, which uses peaks called by MACS2 on single ChIP-seq profiles to estimate common peaks within a condition (see Section~\ref{sec_previous_twostage_dpcs}).
+We refer to these approaches as DESeq-JAMM and DESeq-IDR respectively.
+
+As described in Section~\ref{sec_method_hmm_without}, ODIN uses a Binomial or, for large $n$, where $n$ is the number of reads in the ChIP-seq libraries, an equivalent Poisson distribution.
+We evaluate THOR with a Poisson distribution by fixing $a_{sG_k}=0$ (see Section~\ref{sec_method_hmm_with}) which can be seen as a version of ODIN version that supports replicates.
+We refer to this approach as Poisson-THOR.
+
+\subsection{Evaluation of Methods with Simulation Data}
+We describe the simulation experiments with replicates. 
+First, we explain the experimental setup and second, we give details about the parametrization of the simulator as well as all DPCs.
+
+\subsubsection{Experimental Setup}
+We are interested how methods perform when the number of reads of each protein in a domain, the number of replicates and the variance within replicates changes. 
+We therefore simulate the following parameter settings: 
+\begin{itemize}
+ \item $(m_2, p_2) \in \{(100, 200), (100, 400)\}$ to obtain peaks with moderate and high variance in their sizes. 
+ Thereby, we model distinct types of histone modifications which have either uniform or varying peak sizes;
+ \item $(r_1, r_2) \in \{(2,2), (4,4)\}$  to evaluate experiments with 2 and 4 replicates in each condition, and 
+ \item $\alpha_0 \in \{5, 10, 60\}$ to obtain data with low (60), moderate (15) and high (5) variance within a biological condition.
+ This parameter controls the consistency between replicates: higher variance impose lower consistency and more difficult DPCPs.
+\end{itemize}
+See Section~\ref{sec_sim_with_rep} for a detailed description of the parameters.
+Experiments with 2 replicates are obtaining by discarding 2 ChIP-seq experiments from each biological condition of the experiments with 4 replicates. 
+We were not able to run csaw on the simulated data, even when trying out distinct parameters as used in the real data.
+Furthermore, PePr requires input-DNA which is not provided by our simulation model.
+
+\subsubsection{Parametrization of Methods}
+We model the space between the proteins $b_k$ within the same domain. 
+Since we are interested in modelling histones, we estimate mixture model parameters by using histone position data in yeast~\citep{Assaf2010}.
+For this, we randomly take $10,000$ consecutive histone positions and fit a mixture normal distribution to their distance.
+We ignore positions which are 500bp away from each other, as we assume that these positions belong to two different histone domains.
+Bayesian information criterion (BIC) shows that $2$ components fit best for the mixture model ($-1.5 \cdot 10^2$).
+To model histone characteristics, we define the minimum distance between proteins in a domain as the sum of the usual estimate of histone size (147bps) and the average linker size (55bps)~\citep{Szerlong2011}.
+
+Similar to the case without replicates, we generate $n=10,000$ protein domains per dataset.
+ChIP fragments typically have a length of 200 bp~\citep{Furey2012}.
+We therefore model the fragment's size with mean $\mu=200$ and standard deviation $\sigma=20$. 
+The standard deviation follows estimates taken from paired-end sequencing data reported by~\cite{Marschall2012}.
+The minimum number of reads to support a DP $v$ is 25 and the ratio $e$ for definition of a DP is defined as $e=0.6$.
+We use a read size $u$ of $26$.
+Reads are sampled from chromosome 1 of mm9 and aligned with BWA with default parameters. 
+We use a FRiP of $0.05$~\citep{landt2012} for the estimation of the noise in the simulated signal.
+Our empirical studies have shown that the average background coverage $b$ should be around $0.25$ in ChIP-seq experiments.
+We use $m_1=8$ and $p_1=14$ for the Negative Binomial distribution $NB_{m_1, p_1}$ describing the number of proteins in a protein domain.
+We repeat each experiment 25 times.
+% Sup. Fig.~\ref{pic_simexample} gives two examples for simulated ChIP-seq profiles.
+We run all methods DPCs with default parameters.
+ 
+
+
+\subsection{Evaluation of Methods with Biological Data}
+We describe the experiments performed with biological datasets that contain replicates. 
+First, we explain the experimental setup and second, we detail the parametrization of all considered DPCs.
+
+\subsubsection{Experimental Setup}
+We use all 12 dataset which are listed in Table~\ref{table_datasets_with_replicates}, that is, 4 experiments from the DC~\citep{Lin2015}, 2 experiments from the CO~\citep{Feng2014}, 3 experiments from the MM~\citep{Stunnenberg2014} and 3 experiments from the LYMP study~\citep{Koues2015}.
+
+We run THOR with two normalization strategies, the housekeeping gene approach as well as TMM (see Section~\ref{sec_sample_norm}), and refer to them as THOR-HK and THOR-TMM.
+The evaluation of the normalization strategies was not necessary in the case of the simulated data, as we ensure that both condition have the same overall number of reads.
+
+On the dataset with largest number of ChIP-seq samples (MM-H3K4me3), THOR required 4 hours and 16 GBs of memory on a 3.4GHz machine. 
+
+
+
+\subsubsection{Parametrization of Methods}
+\label{sec_expmethods_with_biol_para}
+As described in Section~\ref{sec_initial_hmm_with_rep}, we use certain criteria to define initial DPs used to train the HMM of THOR.
+We use $t_1 = \langle x \rangle^{.95}$ as minimum difference between signals, where $\langle x \rangle^{.95}$ is the value in the $95\%$ percentile of  $\signalmatrix{X}$; $t_2=1.6$ as fold change criteria, and $t_3=t_1/2$.  
+If these parameters yield a training set smaller than $t^{\min}=100$, we decrease $t_2$ by $15$ and $t_1$ by $0.1$, and repeat the training set construction procedure. 
+To estimate the mean-variance function for each biological condition $k$, we randomly choose $20.000$ bins, estimate mean and variance for each bin and fit the quadratic model described in Equation~\ref{eq_quad_func} using an non-linear least squares approach~\citep{Levenberg1944}.
+
+We use the following parametrization for the competing methods.
+For csaw, as suggested by the authors, we use a window size of 150bp and a step size of 25bp.  
+All other parameters are set as default. 
+For Pepr, we follow the instructions on their webpage (see~\url{https://ones.ccmb.med.umich.edu/wiki/PePr/}, last access on 12th November 2014) including a procedure to remove artefacts in ChIP-seq data.
+To obtain a number of DPs comparable to other tools, we increase the $p$-value threshold parameter to $0.01$.
+Initially, MACS2 called too few DPs, such that we had to decrease both the minimum length for DPs by using $l=50$ and the fold-change cutoff by using $C=1.5$ in the algorithm \textit{bdgdiff}.
+Moreover, we increased the $p$-value threshold to $0.2$ to increase the number of peaks for the algorithm \textit{callpeak}. 
+MACS2's \textit{callpeak} algorithm serves as internal SPC by identifying peaks in single ChIP-seq profiles.
+These peak estimates represent the base for all downstream steps to call DPs.
+For DiffBind, as recommended by authors, we choose parameter \textit{minOverlap} to be~$3$~in the \text{count} function to only consider peaks supported in up to three replicates across all conditions. 
+Moreover, we increase the threshold for significant DPs (\textit{th=0.1}).
+We run DiffReps with default parameters, that is, we use a window size if 1000bp and a step size of 100bp, but increase significance threshold for called DP (by using the option \textit{--pval 0.1}).
+For DESeq-IDR, we follow the framework of ENCODE (see~\url{https://sites.google.com/site/anshulkundaje/projects/idr}, last access on 21th November 2014) to estimate common peaks with IDR.
+We use an IDR threshold of $0.01$ for the replicates, an IDR threshold of $0.02$ for the self-consistency replicates, and an IDR  threshold of $0.0025$ for the pooled pseudo replicates.
+We then apply DESeq with default parameters to check for DPs. 
+Moreover, we use JAMM in combination with DESeq where we use default parameters for both of the methods.
+
+\subsection{Use Cases with THOR}
+We use THOR in several studies that investigate biological motivated questions.
+The aim is to present biological results that are expected to arise, as we thereby ensure that THOR is performing proper DP predictions.
+The prior knowledge about the results stem from the study specific biological background.
+
+\subsubsection{Identifying rSNPs}
+\label{sec_expmethod_rsnps}
+We evaluate the ability of THOR with the housekeeping normalization approach to detect DPs that support regulatory single nucleotide polymorphisms (rSNPs). 
+Regulatory single nucleotide polymorphisms are point mutations of the DNA which may modify the specific transcription factor binding site (TFBS) such that the TF binding affinity is influenced.
+These rSNPs thereby influence the gene expression as well as the chromatin state~\citep{Hawkins2010, Guo2014}.
+Figure~\ref{pic_rsnp_concept} gives an example for a rSNP.
+% XXX add citation for chormatin state change
+
+\begin{figure}[ht]
+  \centering
+  \includegraphics[width = 10cm]{pics/TFBS_TFBS.pdf}
+\caption[Regulatory SNP]{A regulatory SNP, here a substitution of a single nucleotide \nuc{A} to \nuc{T}, effects the TBFS such that the TF cannot bind at that genomic position.
+Hence, the gene expression is influenced and the chromatin structure is modified.
+The figure is based on \cite{Hawkins2010}.
+}
+\label{pic_rsnp_concept}
+\end{figure}
+
+
+We evaluate the presence of disease-associated rSNPs in DPs by considering samples of tumour B-cell from patients follicular lymphoma (FL) and centroblasts B-cell from healthy donors (CC) (dataset LYMP-FL-CC from the study of~\cite{Koues2015}, see Table~\ref{table_datasets_with_replicates}).
+
+We call SNPs in FL samples using GATK's \textit{UnifiedGenotyper}~\citep{McKenna2010}. 
+Concerning filtering steps performed by GATK, we use a threshold value of 20 for read depth across samples (DP), the Variant Confidence/Quality by Depth (QD) and the RMS Mapping Quality (MQ).
+We filter SNPs that lie on chromosomes chrY and chrM.
+Moreover, we exclude SNPs falling into blacklisted regions~\citep{Dunham2012} and restrict our analysis to loci with at least 4 reads in more than 2 CC and 3 FLs samples. 
+This yields 4390 candidates SNPs.
+We further filter SNPs, if the frequency of alternative alleles is higher in FL than in CC samples ($p$-value $<$ 0.05; Fisher Exact Test). 
+This procedure results in 243 candidate SNPs, of which 143 overlapped with DPs called by THOR (FL vs. CC). 
+Moreover, we evaluate all transcription factor binding sites with JASPAR~\citep{Mathelier2014} and UNIPROBE~\citep{Robasky2011} motifs and a FDR of $10^{-4}$ using the motif analysis tool from~\url{www.regulatory-genomics.org} (last access: 3rd December 2015).
+Altogether, 117 rSNPs were associated with DPs gained in FL (vs CC) and 20 rSNPs were associated with peaks gained in CC (vs. FL). 
+See Sup. Table~\ref{tab_res_candidate_SNPs} for a selection of the rSNPs.
+The overlap with DPs called by MACS2 only covers 41 candidate rSNPs, which is the highest overlap among all competing methods of THOR.
+
+
+\subsubsection{Analysing the Development of Dendritic Cells}
+We evaluate the confirmability of DPs called by THOR by analysing the datasets DC-H3K27ac-CDP-cDC and DC-H3K27ac-CDP-pDC (see Table~\ref{table_datasets_with_replicates}) from the study of \cite{Lin2015} in more detail.
+We apply THOR with the housekeeping gene normalization approach and restrict our analysis to the case where peaks are gained respectively in the cDC and pDC condition.
+Similar to the DCA and DAGE approach (see Section~\ref{sec_dage_dca}), we assign DPs to genes if (1) they are located in the gene or close the promoter of a gene, (1000bp upstream) or (2) if the peaks are located 50~Kbps way from the TSS without a TSS of another gene in between.
+We sort the gene list by the associated $p$-values of the DPs. 
+If multiple DPs are assigned to a gene, we take the DP with the smallest $p$-value. 
+The rationale for this ex\-pe\-riment is that under the assumption that THOR calls reasonable DPs, genes that are known to be associated with the differentiation of CDP to cDC or pDC cells should be ranked in the top of the list, that is, close to DPs with lowest p-values. 
+
+
+

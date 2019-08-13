@@ -1,0 +1,58 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/dev/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: Dissertacao.aux
+A level-1 auxiliary file: 0_FrontMatter/Acknowledgement.aux
+A level-1 auxiliary file: 0_FrontMatter/Dedication.aux
+A level-1 auxiliary file: 0_FrontMatter/Resumo.aux
+A level-1 auxiliary file: 0_FrontMatter/Abstract.aux
+A level-1 auxiliary file: 0_FrontMatter/Glossary.aux
+A level-1 auxiliary file: 1_Introduction/Introduction.aux
+A level-1 auxiliary file: 2_Chapter2/Chapter2.aux
+A level-1 auxiliary file: 3_Chapter3/Chapter3.aux
+A level-1 auxiliary file: 4_Chapter4/Chapter4.aux
+A level-1 auxiliary file: 5_Chapter5/Chapter5.aux
+A level-1 auxiliary file: 6_Chapter6/Chapter6.aux
+The style file: Latex/Classes/jmb.bst
+Database file #1: 7_BackMatter/References.bib
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+You've used 72 entries,
+            3018 wiz_defined-function locations,
+            1042 strings with 21439 characters,
+and the built_in function-call counts, 53423 in all, are:
+= -- 4292
+> -- 3417
+< -- 44
++ -- 1184
+- -- 1110
+* -- 4705
+:= -- 8175
+add.period$ -- 214
+call.type$ -- 72
+change.case$ -- 734
+chr.to.int$ -- 112
+cite$ -- 72
+duplicate$ -- 3361
+empty$ -- 3342
+format.name$ -- 1314
+if$ -- 10495
+int.to.chr$ -- 3
+int.to.str$ -- 1
+missing$ -- 783
+newline$ -- 220
+num.names$ -- 289
+pop$ -- 1742
+preamble$ -- 1
+purify$ -- 658
+quote$ -- 0
+skip$ -- 1270
+stack$ -- 0
+substring$ -- 2170
+swap$ -- 1939
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 600
+warning$ -- 0
+while$ -- 320
+width$ -- 0
+write$ -- 784

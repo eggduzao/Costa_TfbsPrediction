@@ -1,0 +1,199 @@
+\begin{thebibliography}{}
+
+\bibitem[{Bergman, C. M. \emph{et al.}}(2005){Bergman, C. M. \emph{et
+  al.}}]{bergman2005}
+{Bergman, C. M. \emph{et al.}} (2005).
+\newblock Drosophila {DNase} i footprint database: a systematic genome
+  annotation of transcription factor binding sites in the fruitfly, drosophila
+  melanogaster.
+\newblock {\em Bioinformatics\/}, {\bf 21}(8), 1747--1749.
+
+\bibitem[{Boyle, A. P. \emph{et al.}}(2011){Boyle, A. P. \emph{et
+  al.}}]{boyle2011}
+{Boyle, A. P. \emph{et al.}} (2011).
+\newblock {High-resolution genome-wide in vivo footprinting of diverse
+  transcription factors in human cells}.
+\newblock {\em Genome Research\/}, {\bf 21}(3), 456--464.
+
+\bibitem[{Crawford, G. E. \emph{et al.}}(2006){Crawford, G. E. \emph{et
+  al.}}]{crawford2006b}
+{Crawford, G. E. \emph{et al.}} (2006).
+\newblock {Genome-wide mapping of DNase hypersensitive sites using massively
+  parallel signature sequencing (MPSS)}.
+\newblock {\em Genome Research\/}, {\bf 16}(1), 123--131.
+
+\bibitem[{Cuellar-Partida, G. \emph{et al.}}(2012){Cuellar-Partida, G. \emph{et
+  al.}}]{cuellar2012}
+{Cuellar-Partida, G. \emph{et al.}} (2012).
+\newblock {Epigenetic priors for identifying active transcription factor
+  binding sites}.
+\newblock {\em Bioinformatics\/}, {\bf 28}(1), 56--62.
+
+\bibitem[{de Wit, E. \emph{et al.}}(2013){de Wit, E. \emph{et al.}}]{dewit2013}
+{de Wit, E. \emph{et al.}} (2013).
+\newblock The pluripotent genome in three dimensions is shaped around
+  pluripotency factors.
+\newblock {\em Nature\/}, {\bf 501}(7466), 227--231.
+
+\bibitem[{ENCODE Project Consortium}(2012){ENCODE Project
+  Consortium}]{encode2012}
+{ENCODE Project Consortium} (2012).
+\newblock An integrated encyclopedia of {DNA} elements in the human genome.
+\newblock {\em Nature\/}, {\bf 489}(7414), 57--74.
+
+\bibitem[Furey(2013)Furey]{furey2013}
+Furey, T.~S. (2013).
+\newblock Furey lab: Dnase-seq footprints.
+\newblock http://fureylab.web.unc.edu/datasets/footprints/.
+
+\bibitem[{Grant, C. E. \emph{et al.}}(2011){Grant, C. E. \emph{et
+  al.}}]{grant2011}
+{Grant, C. E. \emph{et al.}} (2011).
+\newblock {FIMO}: scanning for occurrences of a given motif.
+\newblock {\em Bioinformatics\/}, {\bf 27}(7), 1017--1018.
+
+\bibitem[{Hesselberth, J. R. \emph{et al.}}(2009){Hesselberth, J. R. \emph{et
+  al.}}]{hesselberth2009}
+{Hesselberth, J. R. \emph{et al.}} (2009).
+\newblock Global mapping of {protein-DNA} interactions in vivo by digital
+  genomic footprinting.
+\newblock {\em Nature Methods\/}, {\bf 6}(4), 283--289.
+
+\bibitem[{Hu, G. \emph{et al.}}(2012){Hu, G. \emph{et al.}}]{hu2012}
+{Hu, G. \emph{et al.}} (2012).
+\newblock {H2A}.z facilitates access of active and repressive complexes to
+  chromatin in embryonic stem cell {Self-Renewal} and differentiation.
+\newblock {\em Cell Stem Cell\/}.
+
+\bibitem[{Hubbard, T. \emph{et al.}}(2002){Hubbard, T. \emph{et
+  al.}}]{hubbard2002}
+{Hubbard, T. \emph{et al.}} (2002).
+\newblock The ensembl genome database project.
+\newblock {\em Nucleic acids research\/}, {\bf 30}(1), 38--41.
+
+\bibitem[{Jankowski, A. \emph{et al.}}(2013){Jankowski, A. \emph{et
+  al.}}]{jankowski2013}
+{Jankowski, A. \emph{et al.}} (2013).
+\newblock {Comprehensive prediction in 78 human cell lines reveals rigidity and
+  compactness of transcription factor dimers}.
+\newblock {\em Genome Research\/}.
+
+\bibitem[{Kulakovskiy, I. V. \emph{et al.}}(2009){Kulakovskiy, I. V. \emph{et
+  al.}}]{kulakovskiy2009}
+{Kulakovskiy, I. V. \emph{et al.}} (2009).
+\newblock Motif discovery and motif finding from genome-mapped {DNase}
+  footprint data.
+\newblock {\em Bioinformatics\/}, {\bf 25}(18), 2318--2325.
+
+\bibitem[{Kundaje, A. \emph{et al.}}(2012){Kundaje, A. \emph{et
+  al.}}]{kundaje2012}
+{Kundaje, A. \emph{et al.}} (2012).
+\newblock {Ubiquitous heterogeneity and asymmetry of the chromatin environment
+  at regulatory elements}.
+\newblock {\em Genome Research\/}, {\bf 22}(9), 1735--1747.
+
+\bibitem[Machanick and Bailey(2011)Machanick and Bailey]{machanick2011}
+Machanick, P. and Bailey, T.~L. (2011).
+\newblock {MEME}-{ChIP}: motif analysis of large {DNA} datasets.
+\newblock {\em Bioinformatics\/}, {\bf 27}(12), 1696--1697.
+
+\bibitem[{Mathelier, A. \emph{et al.}}(2014){Mathelier, A. \emph{et
+  al.}}]{mathelier2014}
+{Mathelier, A. \emph{et al.}} (2014).
+\newblock {JASPAR} 2014: an extensively expanded and updated open-access
+  database of transcription factor binding profiles.
+\newblock {\em Nucleic Acids Research\/}, {\bf 42}(D1), D142--D147.
+
+\bibitem[{Matys, V. \emph{et al.}}(2006){Matys, V. \emph{et al.}}]{matys2006}
+{Matys, V. \emph{et al.}} (2006).
+\newblock {TRANSFAC and its module TRANSCompel: transcriptional gene regulation
+  in eukaryotes}.
+\newblock {\em Nucleic acids research\/}, {\bf 34}(Database issue), D108--D110.
+
+\bibitem[{Neph, S. \emph{et al.}}(2012){Neph, S. \emph{et al.}}]{neph2012a}
+{Neph, S. \emph{et al.}} (2012).
+\newblock {An expansive human regulatory lexicon encoded in transcription
+  factor footprints}.
+\newblock {\em Nature\/}, {\bf 489}(7414), 83--90.
+
+\bibitem[{Pique-Regi, R. \emph{et al.}}(2011){Pique-Regi, R. \emph{et
+  al.}}]{pique2011}
+{Pique-Regi, R. \emph{et al.}} (2011).
+\newblock {Accurate inference of transcription factor binding from DNA sequence
+  and chromatin accessibility data}.
+\newblock {\em Genome Research\/}, {\bf 21}(3), 447--455.
+
+\bibitem[Rabiner(1989)Rabiner]{rabiner1989}
+Rabiner, L.~R. (1989).
+\newblock {A tutorial on hidden Markov models and selected applications in
+  speech recognition}.
+\newblock {\em Proceedings of the IEEE\/}, {\bf 77}(2), 257--286.
+
+\bibitem[{Rada-Iglesias, A. \emph{et al.}}(2010){Rada-Iglesias, A. \emph{et
+  al.}}]{rada2010}
+{Rada-Iglesias, A. \emph{et al.}} (2010).
+\newblock A unique chromatin signature uncovers early developmental enhancers
+  in humans.
+\newblock {\em Nature\/}, {\bf 470}, 279--283+.
+
+\bibitem[Robasky and Bulyk(2011)Robasky and Bulyk]{robasky2011}
+Robasky, K. and Bulyk, M.~L. (2011).
+\newblock {UniPROBE}, update 2011: expanded content and search tools in the
+  online database of protein-binding microarray data on {protein-DNA}
+  interactions.
+\newblock {\em Nucleic acids research\/}, {\bf 39}(Database issue).
+
+\bibitem[{Siepel, A. \emph{et al.}}(2005){Siepel, A. \emph{et
+  al.}}]{siepel2005}
+{Siepel, A. \emph{et al.}} (2005).
+\newblock Evolutionarily conserved elements in vertebrate, insect, worm, and
+  yeast genomes.
+\newblock {\em Genome research\/}, {\bf 15}(8), 1034--1050.
+
+\bibitem[Song and Crawford(2010)Song and Crawford]{song2010}
+Song, L. and Crawford, G.~E. (2010).
+\newblock {DNase-seq: A High-Resolution Technique for Mapping Active Gene
+  Regulatory Elements across the Genome from Mammalian Cells}.
+\newblock {\em Cold Spring Harbor Protocols\/}, {\bf 2010}(2), pdb.prot5384+.
+
+\bibitem[{Subramanian, V. \emph{et al.}}(2013){Subramanian, V. \emph{et
+  al.}}]{subramanian2013}
+{Subramanian, V. \emph{et al.}} (2013).
+\newblock H2a.z acidic patch couples chromatin dynamics to regulation of gene
+  expression programs during esc differentiation.
+\newblock {\em PLoS Genet\/}, {\bf 9}(8), e1003725.
+
+\bibitem[{Whitington, T. \emph{et al.}}(2009){Whitington, T. \emph{et
+  al.}}]{whitington2009}
+{Whitington, T. \emph{et al.}} (2009).
+\newblock {High-throughput chromatin information enables accurate
+  tissue-specific prediction of transcription factor binding sites}.
+\newblock {\em Nucleic Acids Research\/}, {\bf 37}(1), 14--25.
+
+\bibitem[{Wilczynski, B. \emph{et al.}}(2009){Wilczynski, B. \emph{et
+  al.}}]{wilczynski2009}
+{Wilczynski, B. \emph{et al.}} (2009).
+\newblock Finding evolutionarily conserved cis-regulatory modules with a
+  universal set of motifs.
+\newblock {\em BMC bioinformatics\/}, {\bf 10}(1), 82+.
+
+\bibitem[{Wingender, E. \emph{et al.}}(2013){Wingender, E. \emph{et
+  al.}}]{wingender2013}
+{Wingender, E. \emph{et al.}} (2013).
+\newblock {TFClass}: an expandable hierarchical classification of human
+  transcription factors.
+\newblock {\em Nucleic Acids Research\/}, {\bf 41}(D1), D165--D170.
+
+\bibitem[{Won, K. J. \emph{et al.}}(2010){Won, K. J. \emph{et al.}}]{won2010}
+{Won, K. J. \emph{et al.}} (2010).
+\newblock {Genome-wide prediction of transcription factor binding sites using
+  an integrated model}.
+\newblock {\em Genome Biology\/}, {\bf 11}(1), R7+.
+
+\bibitem[{Yip, K. \emph{et al.}}(2012){Yip, K. \emph{et al.}}]{yip2012}
+{Yip, K. \emph{et al.}} (2012).
+\newblock {Classification of human genomic regions based on experimentally
+  determined binding sites of more than 100 transcription-related factors}.
+\newblock {\em Genome Biology\/}, {\bf 13}(9), R48+.
+
+\end{thebibliography}
