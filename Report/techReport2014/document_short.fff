@@ -1,0 +1,51 @@
+\begin{figure}[h]
+\centering
+  \includegraphics[width=0.7\textwidth]{Figs/Kmer_correlation_spearman.pdf}
+\caption{Pairwise Spearman correlation coefficient ($R$) between different DNase-seq data sets calculated based on each 6-mer $w$ ratio between observed and expected cleavage bias ($o^s_w \cdot R / r^s_w \cdot O^s$). Crawford's lab data sets are represented by ``DU'' (Duke University; single-hit protocol) and Stamatoyannopoulous' lab data sets are represented by ``UW'' (University of Washington; double-hit protocol).}
+\label{fig:datasetcorr}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[h!]
+\centering
+  \includegraphics[width=0.70\textwidth]{Figs/BiasCorr_HeReplication.pdf}
+\caption{Correlation between the performance of methods and their OBS on {\tt He Dataset}. The $x$-axis represents the observed sequence bias. The $y$-axis represents the ratio between the AUC at $10\%$ FPR for a particular method and the TC method.}
+\label{fig:tcbiasuwk}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.7\textwidth]{Figs/BiasCorr_AllMethods.pdf}
+\caption{Correlation between the performance of methods and their OBS on {\tt Benchmarking Dataset}. The $x$-axis represents the observed sequence bias. The $y$-axis represents the ratio between the AUC at $10\%$ FPR for a particular method and the TC scoring method.}
+\label{fig:tcbiasall}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.8\textwidth]{Figs/AUC_Boxplot.pdf}
+\caption{AUC distribution for eight compared methods regarding all validation sets (ordered by median AUC).}
+\label{fig:auc_boxplot}
+\vspace{0.1cm}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[t!]
+\centering
+\centerline{
+\includegraphics[width=0.33\textwidth]{Figs/BC_ATF3_PWM_H1hESC.pdf}
+\includegraphics[width=0.33\textwidth]{Figs/BC_EGR1_PWM_H1hESC.pdf}
+\includegraphics[width=0.33\textwidth]{Figs/BC_NRF1_PWM_H1hESC.pdf} }
+\vspace{1.0cm}
+\centerline{
+\includegraphics[width=0.33\textwidth]{Figs/BC_RAD21_PWM_H1hESC.pdf}
+\includegraphics[width=0.33\textwidth]{Figs/BC_SP1_PWM_H1hESC.pdf}
+\includegraphics[width=0.33\textwidth]{Figs/BC_SP4_PWM_H1hESC.pdf}
+}
+\vspace{-0.1cm}
+\caption{Average DNase-seq signals around selected TFs with ChIP-seq evidence in H1-hESC (DU) cell type. In the top panel, we show the strand-specific average DNase-seq signal on deproteinized DNA experiments (MCF-7 cell type); the middle panel shows the strand-specific estimated cleavage bias signal; and the bottom panels shows the (1) uncorrected -- observed DNase-seq I cleavage signal and (2) corrected -- DNase-seq signal after the bias correction by using Eq.~\ref{eq:biascorrsignal}. Bottom panel signals were standardized to be in [0,1]. Below the graphs, it is shown the motif logo estimated on the DNA sequences of these regions.}
+\label{fig:lineOBCsignal}
+\end{figure}
+\efloatseparator
+ 

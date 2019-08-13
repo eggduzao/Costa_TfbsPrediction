@@ -1,0 +1,52 @@
+
+###############################################################################
+# Comments to the Editor
+###############################################################################
+
+This paper has two major problems that concerns this reviewer. The first is related to the lack of clarity and consistency within the text. Second, their methodology was not successfully evaluated given that: (1) the authors did not compare their work with competing methods and (2) there is no statistical test to support their hypotheses. The most critical part is the statement by the authors that a "sufficient" amount of accuracy was shown, which does not seem scientific and was not proven given the aforementioned reasons.
+
+###############################################################################
+# Comments to Author
+###############################################################################
+
+# General Comments
+
+In this paper, Iqbal et al. present a novel framework for the classification of G protein–coupled receptors families and subfamilies. With the increasing submission of novel proteins in well-established repositories, such method is important as an exploratory tool for biological studies on drug development and their association with the onset of diseases. They addressed the problem by processing the input amino acid sequences using a distance-based sequence encoding method and classifying the proteins using neural networks and support vector machines. However, this reviewer has some issues to be addressed by the authors:
+
+a. Major
+
+1. The "related works" section is somehow confusing. There are different classifications of algorithms proposed in the literature. This section should be clarified by defining which category each technique belongs to.
+
+2. Is there a methodological reason behind the usage of a 30% test / 70% train approach? In this area it is very common to use smaller training approaches such as 10-fold cross validation strategies. Do the authors have any data that shows that their method is not overfitted?
+
+3. A full description and mathematical formalization is needed on the distance metrics between proteins and the decomposition levels used.
+
+4. Why the particular parameters present in Tables 3 and 4 for the NN and SVM classifiers chosen? Did the authors perform any experiments on parameter selection? 
+
+5. My major concern is that the authors did not executed any other competing method within their evaluation framework. The authors list a number of competing methods but data is needed regarding the comparison of the proposed method with at least one (most successful) competing method. Furthermore, the authors state that a "sufficient" amount of accuracy increase was shown. However no statistical test is performed. In order to assess the contribution of this novel approach, statistical tests against a competing method is essential.
+
+b. Minor
+
+1. The English should be revised throughout the text for grammar and clarity. Some sentences are not very clear to this reviewer such as: What does "exclusive" means in "The exclusive GPCRs protein sequences belonging to three families"?
+
+2. Figure 1 and the sigmoid function in Table 3 are not in high-resolution vectorial format.
+
+3. There are some features in this paper which should be standardized such as the mathematical notation. In table 3 it is shown the equation of the sigmoid (as a figure); while in the table 4 the radial basis kernel function is shown in textual format.
+
+4. The tables 9 and 10 could be shown in a single bar plot. Visual cues would enhance the paper's message.
+
+###############################################################################
+# IJCNN Criteria
+###############################################################################
+
+Originality: weak reject
+Significance of Topic: weak accept
+Technical Quality: reject
+Relevance to IJCNN 2016: weak reject
+Presentation: reject
+Overall Rating: weak reject
+Reviewer’s Expertise on the Topic: medium
+Most Suitable form of Presentation: poster
+Best Paper Award Nomination: no
+
+

@@ -1,0 +1,1400 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2015.5.1)  13 OCT 2015 16:22
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**supplement.tex
+(./supplement.tex
+LaTeX2e <2014/05/01>
+Babel <3.9l> and hyphenation patterns for 2 languages loaded.
+(./bioinfo.cls
+Document Class: bioinfo 2003/02/08 0.1
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2014/04/30 v1.2b Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+) (./crop.sty
+Package: crop 2001/11/16 v1.6 cropmarks (mf)
+\CROP@width=\dimen102
+\CROP@height=\dimen103
+\CROP@index=\count79
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count80
+))
+\CROP@offset=\count81
+)
+Package crop Info: using pdf(la)tex graphics driver on input line 33.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/04/25 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/05/08 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+\Gin@req@height=\dimen104
+\Gin@req@width=\dimen105
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip41
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks17
+\ex@=\dimen106
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen107
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count82
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count83
+\leftroot@=\count84
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count85
+\DOTSCASE@=\count86
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen108
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count87
+\c@MaxMatrixCols=\count88
+\dotsspace@=\muskip10
+\c@parentequation=\count89
+\dspbrk@lvl=\count90
+\tag@help=\toks18
+\row@=\count91
+\column@=\count92
+\maxfields@=\count93
+\andhelp@=\toks19
+\eqnshift@=\dimen109
+\alignsep@=\dimen110
+\tagshift@=\dimen111
+\tagwidth@=\dimen112
+\totwidth@=\dimen113
+\lineht@=\dimen114
+\@envbody=\toks20
+\multlinegap=\skip42
+\multlinetaggap=\skip43
+\mathdisplay@stack=\toks21
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen115
+\extrarowheight=\dimen116
+\NC@list=\toks22
+\extratabsurround=\skip44
+\backup@length=\skip45
+) (./color.sty
+Package: color 1999/02/16 v1.0i Standard LaTeX Color (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 125.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(./flushend.sty
+Package: flushend 1997/10/01
+\@aaa=\box28
+\@ccc=\box29
+\@viper=\box30
+\hold@viper=\box31
+\atColsBreak=\toks23
+\@extra@skip=\dimen117
+\@nd@page@rule=\dimen118
+) (./stfloats.sty
+Package: stfloats 1999/10/22
+\@dblbotnum=\count94
+\c@dblbotnumber=\count95
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2009/07/02 v2.20.1
+\thm@style=\toks24
+\thm@bodyfont=\toks25
+\thm@headfont=\toks26
+\thm@notefont=\toks27
+\thm@headpunct=\toks28
+\thm@preskip=\skip46
+\thm@postskip=\skip47
+\thm@headsep=\skip48
+\dth@everypar=\toks29
+) (./chngpage.sty
+Package: chngpage 2001/01/31 v1.1b change page layout
+\c@cp@cnt=\count96
+\c@cp@tempcnt=\count97
+)
+(./times.sty
+Package: times 2000/01/12 PSNFSS-v8.1 Times font as default roman (SPQR) 
+)
+\c@section=\count98
+\c@subsection=\count99
+\c@subsubsection=\count100
+\c@paragraph=\count101
+\c@subparagraph=\count102
+\c@figure=\count103
+\c@table=\count104
+\dropfromtop=\skip49
+\extraspace=\skip50
+\aboveskipchk=\skip51
+\abovecaptionskip=\skip52
+\belowcaptionskip=\skip53
+\rotdimen=\dimen119
+\tempdime=\dimen120
+\temptbox=\box32
+ (./natbib.sty
+Package: natbib 2000/07/24 7.0a (PWD)
+\bibhang=\skip54
+\bibsep=\skip55
+LaTeX Info: Redefining \cite on input line 508.
+\c@NAT@ctr=\count105
+))
+(/usr/share/texlive/texmf-dist/tex/latex/base/latexsym.sty
+Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
+\symlasy=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
+(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 47.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/subfigure/subfigure.sty
+Package: subfigure 2002/03/15 v2.1.5 subfigure package
+
+
+Package subfigure Warning: Your document class has a bad definition
+ of \endfigure, most likely
+ \let\endfigure=\end@float
+ which has now been changed to
+ \def\endfigure{\end@float}
+ because otherwise subsequent changes to \end@float
+ (like done by several packages changing float behaviour)
+ can't take effect on \endfigure.
+ Please complain to your document class author.
+
+\subfigtopskip=\skip56
+\subfigcapskip=\skip57
+\subfigcaptopadj=\dimen121
+\subfigbottomskip=\skip58
+\subfigcapmargin=\dimen122
+\subfiglabelskip=\skip59
+\c@subfigure=\count106
+\c@lofdepth=\count107
+\c@subtable=\count108
+\c@lotdepth=\count109
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(/usr/share/texlive/texmf-dist/tex/latex/subfigure/subfigure.cfg)
+\subfig@top=\skip60
+\subfig@bottom=\skip61
+)
+(/usr/share/texlive/texmf-dist/tex/latex/rotating/rotating.sty
+Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@r@tfl@t=\count110
+\rotFPtop=\skip62
+\rotFPbot=\skip63
+\rot@float@box=\box33
+\rot@mess@toks=\toks30
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/epsfig.sty
+Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
+\epsfxsize=\dimen123
+\epsfysize=\dimen124
+)
+(/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf.sty
+Package: epstopdf 2010/02/09 v2.5 Conversion with epstopdf on the fly (HO)
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+)))
+(/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
+\bigstrutjot=\dimen125
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks31
+\verbatim@line=\toks32
+\verbatim@in@stream=\read1
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/bm.sty
+Package: bm 2014/10/28 v1.1c Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup7
+\symboldletters=\mathgroup8
+\symboldsymbols=\mathgroup9
+\symboldlasy=\mathgroup10
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 137.
+LaTeX Info: Redefining \bm on input line 203.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/bbm-macros/bbm.sty
+Package: bbm 1999/03/15 V 1.2 provides fonts for set symbols - TH
+LaTeX Font Info:    Overwriting math alphabet `\mathbbm' in version `bold'
+(Font)                  U/bbm/m/n --> U/bbm/bx/n on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathbbmss' in version `bold'
+(Font)                  U/bbmss/m/n --> U/bbmss/bx/n on input line 35.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/endfloat/endfloat.sty
+Package: endfloat 2011/12/25 v2.5d LaTeX2e package puts figures and tables at e
+nd (jdm)
+\c@postfigure=\count111
+\efloat@postfff=\write3
+\@ef@fffopen=\count112
+\c@posttable=\count113
+\efloat@postttt=\write4
+\@ef@tttopen=\count114
+)
+(./supplement.aux)
+\openout1 = `supplement.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 33.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count115
+\scratchdimen=\dimen126
+\scratchbox=\box34
+\nofMPsegments=\count116
+\nofMParguments=\count117
+\everyMPshowfont=\toks33
+\MPscratchCnt=\count118
+\MPscratchDim=\dimen127
+\MPnumerator=\count119
+\makeMPintoPDFobject=\count120
+\everyMPtoPDFconversion=\toks34
+)
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 52.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1phv.fd
+File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
+)
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <9> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 52.
+LaTeX Font Info:    Font shape `OT1/phv/bx/it' in size <9> not available
+(Font)              Font shape `OT1/phv/b/it' tried instead on input line 52.
+LaTeX Font Info:    Font shape `OT1/phv/b/it' in size <9> not available
+(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 52.
+LaTeX Font Info:    Font shape `OT1/phv/bx/it' in size <19> not available
+(Font)              Font shape `OT1/phv/b/it' tried instead on input line 52.
+LaTeX Font Info:    Font shape `OT1/phv/b/it' in size <19> not available
+(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 52.
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <8> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 52.
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <9> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 52.
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <16> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 52.
+LaTeX Font Info:    Calculating math sizes for size <13> on input line 52.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <13> not available
+(Font)              size <12> substituted on input line 52.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <6.5> not available
+(Font)              size <6> substituted on input line 52.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <13> not available
+(Font)              size <12> substituted on input line 52.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <6.5> not available
+(Font)              size <6> substituted on input line 52.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <13> not available
+(Font)              size <12> substituted on input line 52.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <6.5> not available
+(Font)              size <6> substituted on input line 52.
+
+LaTeX Font Info:    Try loading font information for U+msa on input line 52.
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 52.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for U+lasy on input line 52.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ulasy.fd
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+)
+
+LaTeX Font Warning: Font shape `U/lasy/m/n' in size <13> not available
+(Font)              size <12> substituted on input line 52.
+
+
+LaTeX Font Warning: Font shape `U/lasy/m/n' in size <6.5> not available
+(Font)              size <6> substituted on input line 52.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <13> not available
+(Font)              size <12> substituted on input line 52.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <6.5> not available
+(Font)              size <6> substituted on input line 52.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <13> not available
+(Font)              size <12> substituted on input line 52.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <6.5> not available
+(Font)              size <6> substituted on input line 52.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <13> not available
+(Font)              size <12> substituted on input line 52.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <6.5> not available
+(Font)              size <6> substituted on input line 52.
+
+
+LaTeX Font Warning: Font shape `U/lasy/b/n' in size <13> not available
+(Font)              size <12> substituted on input line 52.
+
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <9.09996> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 52.
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <6.5> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 52.
+
+LaTeX Font Warning: Font shape `U/lasy/m/n' in size <6.5> not available
+(Font)              size <6> substituted on input line 52.
+
+LaTeX Font Info:    Calculating math sizes for size <9.09996> on input line 52.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <4.54997> not available
+(Font)              size <5> substituted on input line 52.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <4.54997> not available
+(Font)              size <5> substituted on input line 52.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <4.54997> not available
+(Font)              size <5> substituted on input line 52.
+
+
+LaTeX Font Warning: Font shape `U/lasy/m/n' in size <4.54997> not available
+(Font)              size <5> substituted on input line 52.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <4.54997> not available
+(Font)              size <5> substituted on input line 52.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <4.54997> not available
+(Font)              size <5> substituted on input line 52.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <4.54997> not available
+(Font)              size <5> substituted on input line 52.
+
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <6.36993> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 52.
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <4.54997> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 52.
+
+LaTeX Font Warning: Font shape `U/lasy/m/n' in size <4.54997> not available
+(Font)              size <5> substituted on input line 52.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <7.5> not available
+(Font)              size <7> substituted on input line 52.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <7.5> not available
+(Font)              size <7> substituted on input line 52.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <7.5> not available
+(Font)              size <7> substituted on input line 52.
+
+
+LaTeX Font Warning: Font shape `U/lasy/m/n' in size <7.5> not available
+(Font)              size <7> substituted on input line 52.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <7.5> not available
+(Font)              size <7> substituted on input line 52.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <7.5> not available
+(Font)              size <7> substituted on input line 52.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <7.5> not available
+(Font)              size <7> substituted on input line 52.
+
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <7.5> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 52.
+
+LaTeX Font Warning: Font shape `U/lasy/m/n' in size <7.5> not available
+(Font)              size <7> substituted on input line 52.
+
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <5> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 52.
+
+Underfull \hbox (badness 10000) detected at line 52
+[]
+ []
+
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <8> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 52.
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <6> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 52.
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 54.
+
+Underfull \hbox (badness 2875) in paragraph at lines 57--69
+\OT1/ptm/m/n/9 factor binding site (TFBS) detection using data that reflect
+ []
+
+
+Underfull \hbox (badness 2608) in paragraph at lines 57--69
+\OT1/ptm/m/n/9 chromatin state. We have categorized them in two classes:
+ []
+
+
+Underfull \hbox (badness 3907) in paragraph at lines 96--103
+[]\OT1/ptm/m/n/9 Furthermore, Neph, S. \OT1/ptm/m/it/9 et al. \OT1/ptm/m/n/9 (2
+012) used an improved
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Font Info:    Try loading font information for OMS+phv on input line 119.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsphv.fd
+File: omsphv.fd 
+)
+LaTeX Font Info:    Font shape `OMS/phv/m/n' in size <7> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 119.
+ [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+
+
+]
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <9> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 145.
+
+Underfull \hbox (badness 1478) in paragraph at lines 171--179
+\OT1/ptm/m/n/9 matching) with cell-specific experimental evidence of binding
+ []
+
+
+Underfull \hbox (badness 1365) in paragraph at lines 220--229
+\OT1/ptm/m/n/9 region encloses the promoter of the gene RCOR3, which is
+ []
+
+
+Underfull \hbox (badness 1983) in paragraph at lines 220--229
+\OT1/ptm/m/n/9 were trained in the region spanning from 26,942,000 bp to
+ []
+
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <8> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 243.
+LaTeX Font Info:    Font shape `OT1/phv/bx/it' in size <8> not available
+(Font)              Font shape `OT1/phv/b/it' tried instead on input line 243.
+LaTeX Font Info:    Font shape `OT1/phv/b/it' in size <8> not available
+(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 243.
+
+Overfull \hbox (261.0pt too wide) has occurred while \output is active
+[][] 
+ []
+
+
+Overfull \vbox (1.0pt too high) has occurred while \output is active []
+
+
+Overfull \hbox (261.0pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[2]
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 298.
+
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
+Underfull \hbox (badness 1024) in paragraph at lines 333--342
+[]\OT1/ptm/m/n/9 We show in Fig. 6[]A the distribution of the pairwise AUC
+ []
+
+
+Overfull \hbox (261.0pt too wide) has occurred while \output is active
+[][] 
+ []
+
+
+Overfull \vbox (1.0pt too high) has occurred while \output is active []
+
+ [3]
+Underfull \hbox (badness 7238) in paragraph at lines 361--369
+[]\OT1/ptm/m/n/9 The Fig. 7[] presents the distribution of AUCs for all
+ []
+
+
+Underfull \hbox (badness 2277) in paragraph at lines 370--377
+\OT1/ptm/m/n/9 histone models. Although a few histone triples significantly
+ []
+
+
+Underfull \hbox (badness 1052) in paragraph at lines 384--394
+\OT1/ptm/m/n/9 hESC and K562. For instance, given the top seven methods
+ []
+
+
+Underfull \hbox (badness 1132) in paragraph at lines 384--394
+\OT1/ptm/m/n/9 H2A.Z; while three contained such histone variant for K562.
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 1210) in paragraph at lines 419--425
+[]\OT1/ptm/m/n/9 We can observe in Fig. 8[] that only in one out of twelve
+ []
+
+
+Underfull \hbox (badness 6625) in paragraph at lines 430--433
+\OT1/ptm/m/n/9 Although the epigenetic grammar around TFBSs is well-
+ []
+
+Missing character: There is no â in font cmr9!
+Missing character: There is no ˆ in font cmr9!
+Missing character: There is no ’ in font cmr9!
+
+Underfull \hbox (badness 1038) in paragraph at lines 434--441
+[]\OT1/ptm/m/n/9 We have performed two analyses regarding this issue. The
+ []
+
+
+Underfull \hbox (badness 2027) in paragraph at lines 434--441
+\OT1/ptm/m/n/9 first analysis searches for correlations between our method's
+ []
+
+
+Underfull \hbox (badness 1365) in paragraph at lines 434--441
+\OT1/ptm/m/n/9 We have observed no correlation between these two features
+ []
+
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no ˆ in font ptmr7t!
+Missing character: There is no ’ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no ˆ in font ptmr7t!
+Missing character: There is no ’ in font ptmr7t!
+
+Underfull \hbox (badness 1194) in paragraph at lines 458--466
+\OT1/ptm/m/n/9 grammar for TF binding and many TF features. In this test
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (261.0pt too wide) has occurred while \output is active
+[][] 
+ []
+
+
+Overfull \vbox (1.0pt too high) has occurred while \output is active []
+
+
+Overfull \hbox (261.0pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[4]
+Underfull \hbox (badness 1178) in paragraph at lines 471--476
+\OT1/ptm/m/n/9 We performed further analyses to investigate the coverage of
+ []
+
+
+Underfull \hbox (badness 2205) in paragraph at lines 471--476
+\OT1/ptm/m/n/9 do not provide genome-wide footprint predictions (i.e. their
+ []
+
+
+Underfull \hbox (badness 1067) in paragraph at lines 471--476
+\OT1/ptm/m/n/9 predictions are already based on known protein-DNA binding
+ []
+
+
+Underfull \hbox (badness 1776) in paragraph at lines 477--490
+[]\OT1/ptm/m/n/9 It is common to encounter multiple footprints at a single
+ []
+
+
+Underfull \hbox (badness 1983) in paragraph at lines 521--534
+\OT1/ptm/m/n/9 2011) in the set of DHS regions without any overlap with
+ []
+
+
+Underfull \hbox (badness 2027) in paragraph at lines 521--534
+\OT1/ptm/m/n/9 the footprint predictions from DH-HMM (with three histone
+ []
+
+
+Overfull \hbox (261.0pt too wide) has occurred while \output is active
+[][] 
+ []
+
+
+Overfull \vbox (1.0pt too high) has occurred while \output is active []
+
+ [5]
+Underfull \hbox (badness 1292) in paragraph at lines 569--583
+\OT1/ptm/m/n/9 as a multinomial (conditional on the total number of reads).
+ []
+
+(./supplement.bbl
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 9.
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--48
+[]\OT1/ptm/m/n/7 Furey, T. S. (2013).  Furey lab: Dnase-seq footprints.
+ []
+
+
+Overfull \hbox (261.0pt too wide) has occurred while \output is active
+[][] 
+ []
+
+
+Overfull \vbox (1.0pt too high) has occurred while \output is active []
+
+
+Overfull \hbox (261.0pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[6])
+\openout3 = `supplement.fff'.
+
+ (supplement.fff)
+\openout4 = `supplement.ttt'.
+
+ (supplement.ttt)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+Extra height:10.0pt when 244.72272pt
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+Extra height:10.0pt when 245.72272pt
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+Extra height:10.0pt when 246.72272pt
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+Extra height:10.0pt when 247.72272pt
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+Extra height:10.0pt when 248.72272pt
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+Extra height:10.0pt when 249.72272pt
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+Extra height:10.0pt when 250.72272pt
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+Extra height:10.0pt when 251.72272pt
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+Extra height:10.0pt when 252.72272pt
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+Extra height:0.0pt when 253.72272pt
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+(2)Left:253.72272pt Right:237.44545pt Output:253.72272pt
+- LAST -
+Extra skip:0.0pt
+Left:253.72272pt
+Right:237.44545pt
+Output:253.72272pt
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (261.0pt too wide) has occurred while \output is active
+[][] 
+ []
+
+
+Overfull \vbox (1.0pt too high) has occurred while \output is active []
+
+ [7
+
+]
+AED endfloat: Processing end Figures and Tables (./supplement.fff
+<Figs/NormType.pdf, id=42, 904.37875pt x 493.845pt>
+File: Figs/NormType.pdf Graphic file (type pdf)
+ <use Figs/NormType.pdf>
+Package pdftex.def Info: Figs/NormType.pdf used on input line 3.
+(pdftex.def)             Requested size: 498.96277pt x 272.45955pt.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 4.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (1.0pt too high) has occurred while \output is active []
+
+ [8 <./Figs/NormType.pdf>] <Figs/NormSlope.pdf, id=57, 1003.75pt x 437.635pt>
+File: Figs/NormSlope.pdf Graphic file (type pdf)
+
+<use Figs/NormSlope.pdf>
+Package pdftex.def Info: Figs/NormSlope.pdf used on input line 11.
+(pdftex.def)             Requested size: 498.96277pt x 217.54819pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (1.0pt too high) has occurred while \output is active []
+
+ [9 <./Figs/NormSlope.pdf>] <Figs/HMM_Topologies.pdf, id=74, 799.98875pt x 313.
+17pt>
+File: Figs/HMM_Topologies.pdf Graphic file (type pdf)
+
+<use Figs/HMM_Topologies.pdf>
+Package pdftex.def Info: Figs/HMM_Topologies.pdf used on input line 19.
+(pdftex.def)             Requested size: 498.96277pt x 195.32936pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (1.0pt too high) has occurred while \output is active []
+
+ [10 <./Figs/HMM_Topologies.pdf>] <Figs/ModelType.pdf, id=90, 361.35pt x 433.62
+pt>
+File: Figs/ModelType.pdf Graphic file (type pdf)
+
+<use Figs/ModelType.pdf>
+Package pdftex.def Info: Figs/ModelType.pdf used on input line 27.
+(pdftex.def)             Requested size: 252.0pt x 302.40051pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (1.0pt too high) has occurred while \output is active []
+
+ [11 <./Figs/ModelType.pdf>] <Figs/Assymetric.pdf, id=100, 408.52625pt x 308.15
+125pt>
+File: Figs/Assymetric.pdf Graphic file (type pdf)
+
+<use Figs/Assymetric.pdf>
+Package pdftex.def Info: Figs/Assymetric.pdf used on input line 35.
+(pdftex.def)             Requested size: 252.0pt x 190.08788pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (1.0pt too high) has occurred while \output is active []
+
+ [12 <./Figs/Assymetric.pdf>] <Figs/PosteriorTest.pdf, id=118, 768.8725pt x 431
+.6125pt>
+File: Figs/PosteriorTest.pdf Graphic file (type pdf)
+
+<use Figs/PosteriorTest.pdf>
+Package pdftex.def Info: Figs/PosteriorTest.pdf used on input line 43.
+(pdftex.def)             Requested size: 498.96277pt x 280.10353pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (1.0pt too high) has occurred while \output is active []
+
+ [13 <./Figs/PosteriorTest.pdf>]
+<Figs/SignalTypeTest_boxplot.pdf, id=134, 650.43pt x 505.89pt>
+File: Figs/SignalTypeTest_boxplot.pdf Graphic file (type pdf)
+
+<use Figs/SignalTypeTest_boxplot.pdf>
+Package pdftex.def Info: Figs/SignalTypeTest_boxplot.pdf used on input line 51.
+
+(pdftex.def)             Requested size: 498.96277pt x 388.09299pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (1.0pt too high) has occurred while \output is active []
+
+ [14 <./Figs/SignalTypeTest_boxplot.pdf>]
+<Figs/CellType.pdf, id=143, 1336.995pt x 521.95pt>
+File: Figs/CellType.pdf Graphic file (type pdf)
+ <use Figs/CellType.pdf>
+Package pdftex.def Info: Figs/CellType.pdf used on input line 59.
+(pdftex.def)             Requested size: 498.96277pt x 194.79097pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (1.0pt too high) has occurred while \output is active []
+
+ [15 <./Figs/CellType.pdf>] <Figs/TfQuality_Correlation.pdf, id=167, 505.89pt x
+ 433.62pt>
+File: Figs/TfQuality_Correlation.pdf Graphic file (type pdf)
+
+<use Figs/TfQuality_Correlation.pdf>
+Package pdftex.def Info: Figs/TfQuality_Correlation.pdf used on input line 67.
+(pdftex.def)             Requested size: 498.96277pt x 427.69055pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (1.0pt too high) has occurred while \output is active []
+
+ [16 <./Figs/TfQuality_Correlation.pdf>]
+<Figs/TfQuality_Boxplot.pdf, id=182, 722.7pt x 361.35pt>
+File: Figs/TfQuality_Boxplot.pdf Graphic file (type pdf)
+
+<use Figs/TfQuality_Boxplot.pdf>
+Package pdftex.def Info: Figs/TfQuality_Boxplot.pdf used on input line 75.
+(pdftex.def)             Requested size: 498.96277pt x 249.48064pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (1.0pt too high) has occurred while \output is active []
+
+ [17 <./Figs/TfQuality_Boxplot.pdf>]
+<Figs/DHS_Histogram_Boyle.pdf, id=199, 433.62pt x 505.89pt>
+File: Figs/DHS_Histogram_Boyle.pdf Graphic file (type pdf)
+
+<use Figs/DHS_Histogram_Boyle.pdf>
+Package pdftex.def Info: Figs/DHS_Histogram_Boyle.pdf used on input line 83.
+(pdftex.def)             Requested size: 166.32092pt x 194.03877pt.
+
+<Figs/DHS_Histogram_Neph.pdf, id=200, 433.62pt x 505.89pt>
+File: Figs/DHS_Histogram_Neph.pdf Graphic file (type pdf)
+
+<use Figs/DHS_Histogram_Neph.pdf>
+Package pdftex.def Info: Figs/DHS_Histogram_Neph.pdf used on input line 84.
+(pdftex.def)             Requested size: 166.32092pt x 194.03877pt.
+
+<Figs/DHS_Histogram_DHHMM3.pdf, id=201, 433.62pt x 505.89pt>
+File: Figs/DHS_Histogram_DHHMM3.pdf Graphic file (type pdf)
+
+<use Figs/DHS_Histogram_DHHMM3.pdf>
+Package pdftex.def Info: Figs/DHS_Histogram_DHHMM3.pdf used on input line 85.
+(pdftex.def)             Requested size: 166.32092pt x 194.03877pt.
+
+<Figs/DHS_Histogram_Legend.pdf, id=202, 65.24374pt x 49.18375pt>
+File: Figs/DHS_Histogram_Legend.pdf Graphic file (type pdf)
+
+<use Figs/DHS_Histogram_Legend.pdf>
+Package pdftex.def Info: Figs/DHS_Histogram_Legend.pdf used on input line 87.
+(pdftex.def)             Requested size: 50.40308pt x 37.99692pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (1.0pt too high) has occurred while \output is active []
+
+ [18 <./Figs/DHS_Histogram_Boyle.pdf> <./Figs/DHS_Histogram_Neph.pdf> <./Figs/D
+HS_Histogram_DHHMM3.pdf> <./Figs/DHS_Histogram_Legend.pdf>]
+<Figs/CentipedeTest.pdf, id=238, 1562.83875pt x 1089.06876pt>
+File: Figs/CentipedeTest.pdf Graphic file (type pdf)
+
+<use Figs/CentipedeTest.pdf>
+Package pdftex.def Info: Figs/CentipedeTest.pdf used on input line 95.
+(pdftex.def)             Requested size: 498.96277pt x 347.69485pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (1.0pt too high) has occurred while \output is active []
+
+ [19 <./Figs/CentipedeTest.pdf>]
+<Figs/CentipedeTest_Boxplot.pdf, id=261, 480.79625pt x 327.2225pt>
+File: Figs/CentipedeTest_Boxplot.pdf Graphic file (type pdf)
+
+<use Figs/CentipedeTest_Boxplot.pdf>
+Package pdftex.def Info: Figs/CentipedeTest_Boxplot.pdf used on input line 103.
+
+(pdftex.def)             Requested size: 498.96277pt x 339.59436pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (1.0pt too high) has occurred while \output is active []
+
+ [20 <./Figs/CentipedeTest_Boxplot.pdf>]
+<Figs/CuellarFimo.pdf, id=276, 361.35pt x 505.89pt>
+File: Figs/CuellarFimo.pdf Graphic file (type pdf)
+ <use Figs/CuellarFimo.pdf>
+Package pdftex.def Info: Figs/CuellarFimo.pdf used on input line 111.
+(pdftex.def)             Requested size: 252.0pt x 352.80058pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (1.0pt too high) has occurred while \output is active []
+
+ [21 <./Figs/CuellarFimo.pdf>]) (./supplement.ttt
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 8.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (1.0pt too high) has occurred while \output is active []
+
+ [22]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (1.0pt too high) has occurred while \output is active []
+
+ [23]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (1.0pt too high) has occurred while \output is active []
+
+ [24]
+Overfull \hbox (0.67694pt too wide) in paragraph at lines 86--87
+ []|[]| 
+ []
+
+
+Overfull \hbox (2.02243pt too wide) in paragraph at lines 88--89
+ []|[]| 
+ []
+
+
+Overfull \hbox (2.02243pt too wide) in paragraph at lines 97--98
+ []|[]| 
+ []
+
+
+Overfull \hbox (2.02243pt too wide) in paragraph at lines 99--100
+ []|[]| 
+ []
+
+
+Overfull \hbox (2.02243pt too wide) in paragraph at lines 108--109
+ []|[]| 
+ []
+
+
+Overfull \hbox (2.02243pt too wide) in paragraph at lines 110--111
+ []|[]| 
+ []
+
+
+Overfull \hbox (2.02243pt too wide) in paragraph at lines 119--120
+ []|[]| 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (1.0pt too high) has occurred while \output is active []
+
+ [25]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (1.0pt too high) has occurred while \output is active []
+
+ [26]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (1.0pt too high) has occurred while \output is active []
+
+ [27]
+Overfull \hbox (16.21048pt too wide) in paragraph at lines 206--236
+ [] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (1.0pt too high) has occurred while \output is active []
+
+ [28]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (1.0pt too high) has occurred while \output is active []
+
+ [29]
+Overfull \hbox (20.6473pt too wide) in paragraph at lines 290--320
+ [] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (1.0pt too high) has occurred while \output is active []
+
+ [30]
+Overfull \hbox (21.5779pt too wide) in paragraph at lines 332--362
+ [] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (1.0pt too high) has occurred while \output is active []
+
+ [31]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (1.0pt too high) has occurred while \output is active []
+
+ [32]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (1.0pt too high) has occurred while \output is active []
+
+ [33]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (1.0pt too high) has occurred while \output is active []
+
+ [34]
+<Figs/MEME_HMM3_logo1.pdf, id=327, 653.44125pt x 212.795pt>
+File: Figs/MEME_HMM3_logo1.pdf Graphic file (type pdf)
+
+<use Figs/MEME_HMM3_logo1.pdf>
+Package pdftex.def Info: Figs/MEME_HMM3_logo1.pdf used on input line 440.
+(pdftex.def)             Requested size: 161.27603pt x 42.67838pt.
+
+Overfull \hbox (1.94809pt too wide) in paragraph at lines 439--442
+[]|$[]$|  
+ []
+
+<Figs/MEME_HMM3_logo2.pdf, id=328, 482.80376pt x 212.795pt>
+File: Figs/MEME_HMM3_logo2.pdf Graphic file (type pdf)
+
+<use Figs/MEME_HMM3_logo2.pdf>
+Package pdftex.def Info: Figs/MEME_HMM3_logo2.pdf used on input line 445.
+(pdftex.def)             Requested size: 118.43898pt x 42.67838pt.
+
+<Figs/MEME_HMM3_logo5.pdf, id=329, 653.44125pt x 212.795pt>
+File: Figs/MEME_HMM3_logo5.pdf Graphic file (type pdf)
+
+<use Figs/MEME_HMM3_logo5.pdf>
+Package pdftex.def Info: Figs/MEME_HMM3_logo5.pdf used on input line 450.
+(pdftex.def)             Requested size: 161.27603pt x 42.67838pt.
+
+Overfull \hbox (1.94809pt too wide) in paragraph at lines 449--452
+[]|$[]$|  
+ []
+
+<Figs/MEME_HMM3_logo3.pdf, id=330, 653.44125pt x 212.795pt>
+File: Figs/MEME_HMM3_logo3.pdf Graphic file (type pdf)
+
+<use Figs/MEME_HMM3_logo3.pdf>
+Package pdftex.def Info: Figs/MEME_HMM3_logo3.pdf used on input line 455.
+(pdftex.def)             Requested size: 161.27603pt x 42.67838pt.
+
+Overfull \hbox (1.94809pt too wide) in paragraph at lines 454--457
+[]|$[]$|  
+ []
+
+<Figs/MEME_HMM3_logo4.pdf, id=331, 284.06125pt x 212.795pt>
+File: Figs/MEME_HMM3_logo4.pdf Graphic file (type pdf)
+
+<use Figs/MEME_HMM3_logo4.pdf>
+Package pdftex.def Info: Figs/MEME_HMM3_logo4.pdf used on input line 460.
+(pdftex.def)             Requested size: 68.03738pt x 42.67838pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (1.0pt too high) has occurred while \output is active []
+
+ [35 <./Figs/MEME_HMM3_logo1.pdf> <./Figs/MEME_HMM3_logo2.pdf> <./Figs/MEME_HMM
+3_logo5.pdf> <./Figs/MEME_HMM3_logo3.pdf> <./Figs/MEME_HMM3_logo4.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (1.0pt too high) has occurred while \output is active []
+
+ [36]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (1.0pt too high) has occurred while \output is active []
+
+ [37]
+Overfull \hbox (11.0998pt too wide) in paragraph at lines 518--565
+ [] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (1.0pt too high) has occurred while \output is active []
+
+ [38]
+Overfull \hbox (11.0998pt too wide) in paragraph at lines 574--624
+ [] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (1.0pt too high) has occurred while \output is active []
+
+ [39]
+Overfull \hbox (11.0998pt too wide) in paragraph at lines 633--677
+ [] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (1.0pt too high) has occurred while \output is active []
+
+ [40]
+Overfull \hbox (11.0998pt too wide) in paragraph at lines 686--721
+ [] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (1.0pt too high) has occurred while \output is active []
+
+ [41]
+Overfull \hbox (11.0998pt too wide) in paragraph at lines 730--768
+ [] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (1.0pt too high) has occurred while \output is active []
+
+ [42]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (1.0pt too high) has occurred while \output is active []
+
+ [43]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (1.0pt too high) has occurred while \output is active []
+
+ [44]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (1.0pt too high) has occurred while \output is active []
+
+ [45]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (1.0pt too high) has occurred while \output is active []
+
+ [46]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (1.0pt too high) has occurred while \output is active []
+
+ [47]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (1.0pt too high) has occurred while \output is active []
+
+ [48])
+(./supplement.aux)
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 1.0pt have occurred.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 4313 strings out of 495020
+ 58193 string characters out of 6181325
+ 151306 words of memory out of 5000000
+ 7319 multiletter control sequences out of 15000+600000
+ 57920 words of font info for 136 fonts, out of 8000000 for 9000
+ 18 hyphenation exceptions out of 8191
+ 42i,17n,28p,912b,487s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/ur
+w/helvetic/uhvbo8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/
+uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/urw/times/utmri8a.pfb>
+Output written on supplement.pdf (48 pages, 1151219 bytes).
+PDF statistics:
+ 481 PDF objects out of 1000 (max. 8388607)
+ 323 compressed objects within 4 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 111 words of extra memory for PDF output out of 10000 (max. 10000000)
+

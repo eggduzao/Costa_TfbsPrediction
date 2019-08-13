@@ -1,0 +1,135 @@
+fixedStep chrom=chr1 start=21 step=1
+21.0
+22.0
+23.0
+24.0
+25.0
+26.0
+27.0
+28.0
+fixedStep chrom=chr1 start=20 step=1
+20.0
+21.0
+22.0
+23.0
+24.0
+25.0
+26.0
+27.0
+fixedStep chrom=chr1 start=19 step=1
+19.0
+20.0
+21.0
+22.0
+23.0
+24.0
+25.0
+26.0
+fixedStep chrom=chr1 start=8 step=1
+8.0
+9.0
+10.0
+11.0
+12.0
+13.0
+14.0
+15.0
+fixedStep chrom=chr1 start=8 step=1
+8.0
+9.0
+10.0
+11.0
+12.0
+13.0
+14.0
+15.0
+fixedStep chrom=chr1 start=14 step=1
+14.0
+15.0
+16.0
+17.0
+18.0
+19.0
+20.0
+21.0
+fixedStep chrom=chr1 start=12 step=1
+12.0
+13.0
+14.0
+15.0
+16.0
+17.0
+18.0
+19.0
+fixedStep chrom=chr1 start=11 step=1
+11.0
+12.0
+13.0
+14.0
+15.0
+16.0
+17.0
+18.0
+fixedStep chrom=chr1 start=8 step=1
+8.0
+9.0
+10.0
+11.0
+12.0
+13.0
+14.0
+15.0
+fixedStep chrom=chr2 start=112 step=1
+112.0
+113.0
+114.0
+115.0
+116.0
+117.0
+118.0
+119.0
+fixedStep chrom=chr1 start=18 step=1
+18.0
+19.0
+20.0
+21.0
+22.0
+23.0
+24.0
+25.0
+fixedStep chrom=chr2 start=127 step=1
+127.0
+128.0
+129.0
+130.0
+131.0
+132.0
+133.0
+134.0
+fixedStep chrom=chr1 start=29 step=1
+29.0
+30.0
+31.0
+32.0
+33.0
+34.0
+35.0
+36.0
+fixedStep chrom=chr2 start=138 step=1
+138.0
+139.0
+140.0
+141.0
+142.0
+143.0
+144.0
+145.0
+fixedStep chrom=chr12 start=106 step=1
+1006.0
+1007.0
+1008.0
+1009.0
+1010.0
+1011.0
+1012.0
+1013.0

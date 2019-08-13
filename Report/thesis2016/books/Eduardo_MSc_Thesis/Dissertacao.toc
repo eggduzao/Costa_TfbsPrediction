@@ -1,0 +1,59 @@
+\select@language {portuguese}
+\contentsline {chapter}{Lista de Figuras}{x}{section*.3}
+\contentsline {chapter}{Lista de Tabelas}{xi}{section*.5}
+\contentsline {chapter}{Gloss\'ario}{xii}{chapter*.6}
+\contentsline {chapter}{\numberline {1}Introdu\c c\~ao}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Motiva\c c\~ao}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}Contribui\c c\~oes}{4}{section.1.2}
+\contentsline {section}{\numberline {1.3}Estrutura do Documento}{5}{section.1.3}
+\contentsline {chapter}{\numberline {2}Contextualiza\c c\~ao Biol\'ogica}{7}{chapter.2}
+\contentsline {section}{\numberline {2.1}Conceitos B\'asicos em Biologia Molecular}{8}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}DNA e RNA}{9}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Prote\IeC {\'\i }nas}{10}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}Estrutura da Cromatina}{12}{subsection.2.1.3}
+\contentsline {subsection}{\numberline {2.1.4}Dogma Central da Biologia Molecular}{13}{subsection.2.1.4}
+\contentsline {section}{\numberline {2.2}Regula\c c\~ao G\^enica em Eucariotos}{18}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Maquinaria Regulat\'oria Proximal}{19}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Elementos Regulat\'orios Transcricionais}{21}{subsection.2.2.2}
+\contentsline {subsubsection}{\numberline {2.2.2.1}N\'ucleo do Promotor}{21}{subsubsection.2.2.2.1}
+\contentsline {subsubsection}{\numberline {2.2.2.2}Elementos Promotores Proximais}{22}{subsubsection.2.2.2.2}
+\contentsline {subsubsection}{\numberline {2.2.2.3}Amplificadores}{23}{subsubsection.2.2.2.3}
+\contentsline {subsubsection}{\numberline {2.2.2.4}Silenciadores}{23}{subsubsection.2.2.2.4}
+\contentsline {subsubsection}{\numberline {2.2.2.5}Insuladores}{24}{subsubsection.2.2.2.5}
+\contentsline {subsubsection}{\numberline {2.2.2.6}Regi\~oes de Controle de Locus}{24}{subsubsection.2.2.2.6}
+\contentsline {section}{\numberline {2.3}Identifica\c c\~ao de S\IeC {\'\i }tios de Liga\c c\~ao de Fatores de Transcri\c c\~ao}{24}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}DNase~I Footprinting}{26}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Imunoprecipita\c c\~ao da Cromatina}{27}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}Motif Matching}{29}{subsection.2.3.3}
+\contentsline {section}{\numberline {2.4}Solu\c c\~ao Epigen\'etica}{32}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Conceitos e Elementos Epigen\'eticos}{33}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}M\'etodos de Obten\c c\~ao de Dados Epigen\'eticos}{35}{subsection.2.4.2}
+\contentsline {subsection}{\numberline {2.4.3}Gera\c c\~ao de Sinais}{37}{subsection.2.4.3}
+\contentsline {section}{\numberline {2.5}Revis\~ao da Literatura}{39}{section.2.5}
+\contentsline {section}{\numberline {2.6}Considera\c c\~oes Finais}{40}{section.2.6}
+\contentsline {chapter}{\numberline {3}Modelos Escondidos de Markov}{42}{chapter.3}
+\contentsline {section}{\numberline {3.1}Modelos Escondidos de Markov}{43}{section.3.1}
+\contentsline {section}{\numberline {3.2}M\'etodos de Predi\c c\~ao Baseados em HMMs}{45}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Algoritmo de Viterbi}{46}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Probabilidade Posterior}{48}{subsection.3.2.2}
+\contentsline {section}{\numberline {3.3}Estima\c c\~ao de Par\^ametros em HMMs}{50}{section.3.3}
+\contentsline {section}{\numberline {3.4}Considera\c c\~oes Finais}{52}{section.3.4}
+\contentsline {chapter}{\numberline {4}Metodologia}{53}{chapter.4}
+\contentsline {section}{\numberline {4.1}Bases de Dados}{54}{section.4.1}
+\contentsline {section}{\numberline {4.2}Motif Matching}{57}{section.4.2}
+\contentsline {section}{\numberline {4.3}An\'alises de Enriquecimento}{57}{section.4.3}
+\contentsline {section}{\numberline {4.4}Processamento dos Sinais Epigen\'eticos}{58}{section.4.4}
+\contentsline {section}{\numberline {4.5}Footprinting com HMMs}{60}{section.4.5}
+\contentsline {section}{\numberline {4.6}Estima\c c\~ao de Par\^ametros e Aplica\c c\~ao dos HMMs}{62}{section.4.6}
+\contentsline {section}{\numberline {4.7}Gold Standard}{64}{section.4.7}
+\contentsline {section}{\numberline {4.8}Considera\c c\~oes Finais}{65}{section.4.8}
+\contentsline {chapter}{\numberline {5}Resultados e Discuss\~ao}{66}{chapter.5}
+\contentsline {section}{\numberline {5.1}An\'alise dos Sinais Epigen\'eticos}{67}{section.5.1}
+\contentsline {section}{\numberline {5.2}Acur\'acia do Modelo Proposto}{76}{section.5.2}
+\contentsline {section}{\numberline {5.3}Tempo de Execu\c c\~ao e Armazenamento}{85}{section.5.3}
+\contentsline {section}{\numberline {5.4}Considera\c c\~oes Finais}{87}{section.5.4}
+\contentsline {chapter}{\numberline {6}Conclus\~ao}{88}{chapter.6}
+\contentsline {section}{\numberline {6.1}Objetivos Atingidos}{88}{section.6.1}
+\contentsline {section}{\numberline {6.2}Dificuldades e Limita\c c\~oes de Escopo}{89}{section.6.2}
+\contentsline {section}{\numberline {6.3}Trabalhos Futuros}{89}{section.6.3}
+\contentsline {chapter}{Refer\^encias}{91}{section*.8}

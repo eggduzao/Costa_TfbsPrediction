@@ -1,0 +1,1400 @@
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2012.4.11)  4 JAN 2016 04:50
+entering extended mode
+ %&-line parsing enabled.
+**Dissertacao.tex
+(./Dissertacao.tex
+LaTeX2e <2005/12/01>
+Babel <v3.8h> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, arabic, basque, bulgarian, coptic, welsh, czech, slovak, german, ng
+erman, danish, esperanto, spanish, catalan, galician, estonian, farsi, finnish,
+ french, greek, monogreek, ancientgreek, croatian, hungarian, interlingua, ibyc
+us, indonesian, icelandic, italian, latin, mongolian, dutch, norsk, polish, por
+tuguese, pinyin, romanian, russian, slovenian, uppersorbian, serbian, swedish, 
+turkish, ukenglish, ukrainian, loaded.
+(./Latex/Classes/PhDthesisPSnPDF.cls
+Document Class: Latex/Classes/PhDthesisPSnPDF 2007/09/06 v2 PhD thesis class
+(/usr/share/texmf/tex/latex/base/book.cls
+Document Class: book 2005/09/16 v1.4f Standard LaTeX document class
+(/usr/share/texmf/tex/latex/base/bk11.clo
+File: bk11.clo 2005/09/16 v1.4f Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texmf/tex/latex/base/inputenc.sty
+Package: inputenc 2006/05/05 v1.1b Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+
+(/usr/share/texmf/tex/latex/base/latin1.def
+File: latin1.def 2006/05/05 v1.1b Input encoding file
+))
+(/usr/share/texmf/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2002/01/22 v2.2d
+
+(/usr/share/texmf/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2001/10/25 v2.2f
+\@emptytoks=\toks16
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 132.
+))
+(/usr/share/texmf/tex/latex/graphics/graphics.sty
+Package: graphics 2006/02/20 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/share/texmf/tex/latex/config/graphics.cfg
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 90.
+
+(/usr/share/texmf/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2007/01/08 v0.04d Graphics/color for pdfTeX
+\Gread@gobject=\count88
+))
+(/usr/share/texmf/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+(/usr/share/texmf/tex/latex/oberdiek/epstopdf.sty
+Package: epstopdf 2006/08/26 v1.3 Conversion with epstopdf on the fly (HO)
+
+
+Package epstopdf Warning: Shell escape feature is not enabled.
+
+) (./caption.sty
+Package: caption 2004/05/16 v3.0b Customising captions (AS)
+\captionmargin=\dimen105
+\captionwidth=\dimen106
+\captionindent=\dimen107
+\captionparindent=\dimen108
+\captionhangindent=\dimen109
+) (/usr/share/texmf/tex/latex/fancyhdr/fancyhdr.sty
+\fancy@headwidth=\skip43
+\f@ncyO@elh=\skip44
+\f@ncyO@erh=\skip45
+\f@ncyO@olh=\skip46
+\f@ncyO@orh=\skip47
+\f@ncyO@elf=\skip48
+\f@ncyO@erf=\skip49
+\f@ncyO@olf=\skip50
+\f@ncyO@orf=\skip51
+)
+(/usr/share/texmf/tex/latex/amsfonts/eucal.sty
+Package: eucal 2001/10/01 v2.2d Euler Script fonts
+LaTeX Font Info:    Overwriting math alphabet `\EuScript' in version `bold'
+(Font)                  U/eus/m/n --> U/eus/b/n on input line 55.
+)
+(/usr/share/texmf/tex/generic/babel/babel.sty
+Package: babel 2005/11/23 v3.8h The Babel package
+
+(/usr/share/texmf/tex/generic/babel/portuges.ldf
+Language: portuges 2005/03/31 v1.2p Portuguese support from the babel system
+
+(/usr/share/texmf/tex/generic/babel/babel.def
+File: babel.def 2005/11/23 v3.8h Babel common definitions
+\babel@savecnt=\count89
+\U@D=\dimen110
+)
+Package babel Info: Making " an active character on input line 145.
+))
+(/usr/share/texmf/tex/latex/graphics/color.sty
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+(/usr/share/texmf/tex/latex/config/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+
+(/usr/share/texmf/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+)) (./footmisc.sty
+Package: footmisc 2007/06/12 v5.4b a miscellany of footnote facilities
+\FN@temptoken=\toks18
+\footnotemargin=\dimen111
+\c@pp@next@reset=\count90
+\c@@fnserial=\count91
+Package footmisc Info: Declaring symbol style bringhurst on input line 855.
+Package footmisc Info: Declaring symbol style chicago on input line 863.
+Package footmisc Info: Declaring symbol style wiley on input line 872.
+Package footmisc Info: Declaring symbol style lamport-robust on input line 883.
+
+Package footmisc Info: Declaring symbol style lamport* on input line 903.
+Package footmisc Info: Declaring symbol style lamport*-robust on input line 924
+.
+)
+(/usr/share/texmf/tex/latex/natbib/natbib.sty
+Package: natbib 2007/02/05 8.0 (PWD)
+\bibhang=\skip52
+\bibsep=\skip53
+LaTeX Info: Redefining \cite on input line 602.
+\c@NAT@ctr=\count92
+)
+(/usr/share/texmf/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/share/texmf/tex/latex/tools/multicol.sty
+Package: multicol 2006/05/18 v1.6g multicolumn formatting (FMi)
+\c@tracingmulticols=\count93
+\mult@box=\box26
+\multicol@leftmargin=\dimen112
+\c@unbalance=\count94
+\c@collectmore=\count95
+\doublecol@number=\count96
+\multicoltolerance=\count97
+\multicolpretolerance=\count98
+\full@width=\dimen113
+\page@free=\dimen114
+\premulticols=\dimen115
+\postmulticols=\dimen116
+\multicolsep=\skip54
+\multicolbaselineskip=\skip55
+\partial@page=\box27
+\last@line=\box28
+\mult@rightbox=\box29
+\mult@grightbox=\box30
+\mult@gfirstbox=\box31
+\mult@firstbox=\box32
+\@tempa=\box33
+\@tempa=\box34
+\@tempa=\box35
+\@tempa=\box36
+\@tempa=\box37
+\@tempa=\box38
+\@tempa=\box39
+\@tempa=\box40
+\@tempa=\box41
+\@tempa=\box42
+\@tempa=\box43
+\@tempa=\box44
+\@tempa=\box45
+\@tempa=\box46
+\@tempa=\box47
+\@tempa=\box48
+\@tempa=\box49
+\c@columnbadness=\count99
+\c@finalcolumnbadness=\count100
+\last@try=\dimen117
+\multicolovershoot=\dimen118
+\multicolundershoot=\dimen119
+\mult@nat@firstbox=\box50
+\colbreak@box=\box51
+) (./tocbibind.sty
+Package: tocbibind 2003/02/04 v1.5f extra ToC listings
+
+
+Package tocbibind Note: The document has chapter divisions.
+
+
+Package tocbibind Note: Using chapter style headings, unless overridden.
+
+) (/usr/share/texmf/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2006/02/20 v1.4 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in pdf mode detected.
+) (./setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+(./filecontents.sty
+Package: filecontents 2006/03/11 v1.1a Create an external file from within a La
+TeX document
+) (/usr/share/texmf/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip56
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texmf/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/share/texmf/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks19
+\ex@=\dimen120
+))
+(/usr/share/texmf/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen121
+)
+(/usr/share/texmf/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count101
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count102
+\leftroot@=\count103
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count104
+\DOTSCASE@=\count105
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box52
+\strutbox@=\box53
+\big@size=\dimen122
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count106
+\c@MaxMatrixCols=\count107
+\dotsspace@=\muskip10
+\c@parentequation=\count108
+\dspbrk@lvl=\count109
+\tag@help=\toks20
+\row@=\count110
+\column@=\count111
+\maxfields@=\count112
+\andhelp@=\toks21
+\eqnshift@=\dimen123
+\alignsep@=\dimen124
+\tagshift@=\dimen125
+\tagwidth@=\dimen126
+\totwidth@=\dimen127
+\lineht@=\dimen128
+\@envbody=\toks22
+\multlinegap=\skip57
+\multlinetaggap=\skip58
+\mathdisplay@stack=\toks23
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+(/usr/share/texmf/tex/latex/amscls/amsthm.sty
+Package: amsthm 2004/08/06 v2.20
+\thm@style=\toks24
+\thm@bodyfont=\toks25
+\thm@headfont=\toks26
+\thm@notefont=\toks27
+\thm@headpunct=\toks28
+\thm@preskip=\skip59
+\thm@postskip=\skip60
+\thm@headsep=\skip61
+\dth@everypar=\toks29
+)
+(/usr/share/texmf/tex/latex/tools/array.sty
+Package: array 2005/08/23 v2.4b Tabular extension package (FMi)
+\col@sep=\dimen129
+\extrarowheight=\dimen130
+\NC@list=\toks30
+\extratabsurround=\skip62
+\backup@length=\skip63
+) (./multirow.sty
+\bigstrutjot=\dimen131
+) (./rotating.sty
+Style option: rotating.sty, v1.6 <92/5/10> (SPQR / LMB)
+\rot@box=\box54
+\rot@tempbox=\box55
+\rot@temp=\dimen132
+\rot@width=\dimen133
+\rot@height=\dimen134
+\rot@depth=\dimen135
+\rot@right=\dimen136
+\rot@left=\dimen137
+\rot@angle=\count113
+\rot@count=\count114
+\rot@circle=\count115
+) (./placeins.sty
+Package: placeins 2005/04/18  v 2.2
+) (./nomencl.sty
+Package: nomencl 2005/09/22 v4.2 Nomenclature package (LN)
+\nomlabelwidth=\dimen138
+\nom@tempdim=\dimen139
+\nomitemsep=\skip64
+)
+\@nomenclaturefile=\write3
+\openout3 = `Dissertacao.nlo'.
+
+
+Writing nomenclature file Dissertacao.nlo
+(/usr/share/texmf/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2007/02/07 v6.75r Hypertext links for LaTeX
+\@linkdim=\dimen140
+\Hy@linkcounter=\count116
+\Hy@pagecounter=\count117
+
+(/usr/share/texmf/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2007/02/07 v6.75r Hyperref: PDFDocEncoding definition (HO)
+)
+(/usr/share/texmf/tex/latex/config/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+(/usr/share/texmf/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2006/08/22 v2.4 Connects package keyval with LaTeX options (
+HO)
+)
+Package hyperref Info: Option `plainpages' set `false' on input line 2238.
+Package hyperref Info: Option `pdfpagelabels' set `true' on input line 2238.
+
+
+Package hyperref Warning: Values of option `pdfpagelayout':
+(hyperref)                * `SinglePage'
+(hyperref)                * `OneColumn'
+(hyperref)                * `TwoColumnLeft'
+(hyperref)                * `TwoColumnRight'
+(hyperref)                * `TwoPageLeft' (PDF 1.5)
+(hyperref)                * `TwoPageRight' (PDF 1.5)
+(hyperref)                * An empty value disables the option.
+(hyperref)                Unknown value `useoutlines' on input line 2238.
+
+Package hyperref Info: Option `bookmarks' set `true' on input line 2238.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 2238.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 2238
+.
+Package hyperref Info: Option `breaklinks' set `true' on input line 2238.
+Package hyperref Info: Option `linktocpage' set `true' on input line 2238.
+Package hyperref Info: Option `colorlinks' set `false' on input line 2238.
+Package hyperref Info: Option `hyperindex' set `true' on input line 2238.
+Package hyperref Info: Option `hyperfigures' set `true' on input line 2238.
+Package hyperref Info: Hyper figures ON on input line 2286.
+Package hyperref Info: Link nesting OFF on input line 2293.
+Package hyperref Info: Hyper index ON on input line 2296.
+Package hyperref Info: Plain pages OFF on input line 2303.
+Package hyperref Info: Backreferencing ON on input line 2306.
+Implicit mode ON; LaTeX internals redefined
+Package hyperref Info: Bookmarks ON on input line 2444.
+(/usr/share/texmf/tex/latex/hyperref/backref.sty
+Package: backref 2006/10/06 v1.27 Bibliographical back referencing
+)
+(/usr/share/texmf/tex/latex/html/url.sty
+Package: url 1999/03/02  ver 1.4  Verb mode for urls, email addresses, and file
+ names
+)
+LaTeX Info: Redefining \url on input line 2599.
+\Fld@menulength=\count118
+\Field@Width=\dimen141
+\Fld@charsize=\dimen142
+\Choice@toks=\toks31
+\Field@toks=\toks32
+Package hyperref Info: Hyper figures ON on input line 3100.
+Package hyperref Info: Link nesting OFF on input line 3107.
+Package hyperref Info: Hyper index ON on input line 3110.
+Package hyperref Info: backreferencing ON on input line 3115.
+Package hyperref Info: Link coloring OFF on input line 3122.
+\Hy@abspage=\count119
+\c@Item=\count120
+\c@Hfootnote=\count121
+)
+*hyperref using driver hpdftex*
+(/usr/share/texmf/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2007/02/07 v6.75r Hyperref driver for pdfTeX
+\Fld@listcount=\count122
+))
+\@input{Latex/Macros/MacroFile1.aux}
+\openout2 = `Latex/Macros/MacroFile1.aux'.
+
+(./Latex/Macros/MacroFile1.tex)
+
+LaTeX Warning: Unused global option(s):
+    [pdftex].
+
+(./Dissertacao.aux (./0_FrontMatter/Acknowledgement.aux)
+(./0_FrontMatter/Dedication.aux) (./0_FrontMatter/Resumo.aux)
+(./0_FrontMatter/Abstract.aux) (./0_FrontMatter/Glossary.aux)
+(./1_Introduction/Introduction.aux) (./2_Chapter2/Chapter2.aux)
+(./3_Chapter3/Chapter3.aux) (./4_Chapter4/Chapter4.aux)
+(./5_Chapter5/Chapter5.aux) (./6_Chapter6/Chapter6.aux))
+\openout1 = `Dissertacao.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+
+(/usr/share/texmf/tex/latex/ragged2e/ragged2e.sty
+Package: ragged2e 2003/03/25 v2.04 ragged2e Package (MS)
+
+(/usr/share/texmf/tex/latex/everysel/everysel.sty
+Package: everysel 1999/06/08 v1.03 EverySelectfont Package (MS)
+LaTeX Info: Redefining \selectfont on input line 125.
+)
+\CenteringLeftskip=\skip65
+\RaggedLeftLeftskip=\skip66
+\RaggedRightLeftskip=\skip67
+\CenteringRightskip=\skip68
+\RaggedLeftRightskip=\skip69
+\RaggedRightRightskip=\skip70
+\CenteringParfillskip=\skip71
+\RaggedLeftParfillskip=\skip72
+\RaggedRightParfillskip=\skip73
+\JustifyingParfillskip=\skip74
+\CenteringParindent=\skip75
+\RaggedLeftParindent=\skip76
+\RaggedRightParindent=\skip77
+\JustifyingParindent=\skip78
+)
+Package caption Info: rotating package v2.0 (or newer) detected on input line 1
+20.
+Package hyperref Info: Link coloring OFF on input line 120.
+
+(/usr/share/texmf/tex/latex/hyperref/nameref.sty
+Package: nameref 2006/12/27 v2.28 Cross-referencing by name of section
+
+(/usr/share/texmf/tex/latex/oberdiek/refcount.sty
+Package: refcount 2006/02/20 v3.0 Data extraction from references (HO)
+)
+\c@section@level=\count123
+)
+LaTeX Info: Redefining \ref on input line 120.
+LaTeX Info: Redefining \pageref on input line 120.
+ (./Dissertacao.out)
+(./Dissertacao.out)
+\@outlinefile=\write4
+\openout4 = `Dissertacao.out'.
+
+Package backref Info: ** backref set up for natbib ** on input line 120.
+
+<0_FrontMatter/Figures/logoufpe.jpg, id=239, 84.315pt x 108.405pt>
+File: 0_FrontMatter/Figures/logoufpe.jpg Graphic file (type jpg)
+
+<use 0_FrontMatter/Figures/logoufpe.jpg>
+<0_FrontMatter/Figures/logocin.jpg, id=240, 529.98pt x 192.72pt>
+File: 0_FrontMatter/Figures/logocin.jpg Graphic file (type jpg)
+
+<use 0_FrontMatter/Figures/logocin.jpg> [1
+
+
+
+\FN@pp@footnotehinttrue 
+
+{/usr/share/texmf/fonts/map/pdftex/updmap/pdftex.map} <./0_FrontMatter/Figures/
+logoufpe.jpg> <./0_FrontMatter/Figures/logocin.jpg>]
+LaTeX Font Info:    Try loading font information for U+msa on input line 131.
+
+(/usr/share/texmf/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2002/01/19 v2.2g AMS font definitions
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 131.
+
+(/usr/share/texmf/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2002/01/19 v2.2g AMS font definitions
+) [2] [3]
+\openout2 = `0_FrontMatter/Acknowledgement.aux'.
+
+
+(./0_FrontMatter/Acknowledgement.tex [4
+
+])
+\openout2 = `0_FrontMatter/Dedication.aux'.
+
+ (./0_FrontMatter/Dedication.tex
+[5
+
+
+])
+\openout2 = `0_FrontMatter/Resumo.aux'.
+
+ (./0_FrontMatter/Resumo.tex [6
+
+
+])
+\openout2 = `0_FrontMatter/Abstract.aux'.
+
+ (./0_FrontMatter/Abstract.tex [7
+
+
+])
+(./Dissertacao.toc [8
+\FN@pp@footnotehinttrue 
+
+
+])
+\tf@toc=\write5
+\openout5 = `Dissertacao.toc'.
+
+ [9] (./Dissertacao.lof)
+\tf@lof=\write6
+\openout6 = `Dissertacao.lof'.
+
+ [10
+
+] (./Dissertacao.lot)
+\tf@lot=\write7
+\openout7 = `Dissertacao.lot'.
+
+ [11
+
+]
+\openout2 = `0_FrontMatter/Glossary.aux'.
+
+
+(./0_FrontMatter/Glossary.tex (./Dissertacao.nls
+Underfull \hbox (badness 10000) detected at line 7
+[]\OT1/cmr/bx/n/9 ATP[]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 11
+[]\OT1/cmr/bx/n/9 bp[]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 13
+[]\OT1/cmr/bx/n/9 BRE[]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 15
+[]\OT1/cmr/bx/n/9 ChIP[]
+ []
+
+
+Underfull \hbox (badness 6236) in paragraph at lines 15--17
+[]\OT1/cmr/m/n/9 Chromatin Im-mu-no-pre-ci-pi-ta-tion (imu-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--19
+[]\OT1/cmr/m/n/9 Chromatin Im-mu-no-pre-ci-pi-ta-tion fol-
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 21
+[]\OT1/cmr/bx/n/9 DCE[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--25
+\OT1/cmr/m/n/9 regi~oes de cro-ma-tina des-con-den-sada
+ []
+
+
+Underfull \hbox (badness 5970) in paragraph at lines 25--27
+\OT1/cmr/m/n/9 de se-quen-ci-a-mento mas-sivo); t^^Secnica
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 29
+[]\OT1/cmr/bx/n/9 dNTP[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--31
+[]\OT1/cmr/m/n/9 desoxirribonucleot^^S^^Pdeo tri-fos-fato;
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 31
+[]\OT1/cmr/bx/n/9 EDTA[]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 33
+[]\OT1/cmr/bx/n/9 EM[]
+ []
+
+[12
+
+
+]
+Underfull \hbox (badness 10000) detected at line 39
+[]\OT1/cmr/bx/n/9 FAIRE[]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 41
+[]\OT1/cmr/bx/n/9 FMR1[]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 45
+[]\OT1/cmr/bx/n/9 GHMM[]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 47
+[]\OT1/cmr/bx/n/9 GTF[]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 49
+[]\OT1/cmr/bx/n/9 HMM[]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 51
+[]\OT1/cmr/bx/n/9 HS[]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 53
+[]\OT1/cmr/bx/n/9 Inr[]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 55
+[]\OT1/cmr/bx/n/9 LCR[]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 57
+[]\OT1/cmr/bx/n/9 MACS[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--63
+[]\OT1/cmr/m/n/9 Microarranjo; t^^Secnica ex-pe-ri-men-tal
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 63
+[]\OT1/cmr/bx/n/9 MM[]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 65
+[]\OT1/cmr/bx/n/9 Motif[]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 67
+[]\OT1/cmr/bx/n/9 MPBS[]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 69
+[]\OT1/cmr/bx/n/9 MPSS[]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 71
+[]\OT1/cmr/bx/n/9 MTE[]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 73
+[]\OT1/cmr/bx/n/9 PCR[]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 75
+[]\OT1/cmr/bx/n/9 PFM[]
+ []
+
+[13]
+Underfull \hbox (badness 10000) detected at line 77
+[]\OT1/cmr/bx/n/9 PIC[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--79
+[]\OT1/cmr/m/n/9 Transcription Prei-ni-ti-a-tion Com-plex
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 79
+[]\OT1/cmr/bx/n/9 PSSM[]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 81
+[]\OT1/cmr/bx/n/9 PWM[]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 83
+[]\OT1/cmr/bx/n/9 Python[]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 85
+[]\OT1/cmr/bx/n/9 rNTP[]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 87
+[]\OT1/cmr/bx/n/9 SNP[]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 89
+[]\OT1/cmr/bx/n/9 STAMP[]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 91
+[]\OT1/cmr/bx/n/9 TF[]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 93
+[]\OT1/cmr/bx/n/9 TFBS[]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 97
+[]\OT1/cmr/bx/n/9 TSS[]
+ []
+
+)) [14]
+\openout2 = `1_Introduction/Introduction.aux'.
+
+ (./1_Introduction/Introduction.tex
+ 1.
+[1
+
+
+
+
+]
+
+Package Fancyhdr Warning: \headheight is too small (10.243pt): 
+ Make it at least 14.33044pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[2] [3] [4] [5]) [6]
+\openout2 = `2_Chapter2/Chapter2.aux'.
+
+ (./2_Chapter2/Chapter2.tex
+ 2.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [7
+
+
+
+]
+
+pdfTeX warning: pdflatex (file ./2_Chapter2/Figures/alberts_61_EukaryoticCell.p
+df): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
+
+<2_Chapter2/Figures/alberts_61_EukaryoticCell.pdf, id=633, 513.40294pt x 310.96
+358pt>
+File: 2_Chapter2/Figures/alberts_61_EukaryoticCell.pdf Graphic file (type pdf)
+ <use 2_Chapter2/Figures/alberts_61_EukaryoticCell.pdf>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[8]
+
+pdfTeX warning: pdflatex (file ./2_Chapter2/Figures/alberts_37_DnaStructure.pdf
+): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
+
+<2_Chapter2/Figures/alberts_37_DnaStructure.pdf, id=645, 508.34393pt x 294.8493
+5pt>
+File: 2_Chapter2/Figures/alberts_37_DnaStructure.pdf Graphic file (type pdf)
+ <use 2_Chapter2/Figures/alberts_37_DnaStructure.pdf>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[9 <./2_Chapter2/Figures/alberts_61_EukaryoticCell.pdf
+
+pdfTeX warning: pdflatex (file ./2_Chapter2/Figures/alberts_61_EukaryoticCell.p
+df): PDF inclusion: Page Group detected which pdfTeX can't handle. Ignoring it.
+
+>] [10 <./2_Chapter2/Figures/alberts_37_DnaStructure.pdf
+
+pdfTeX warning: pdflatex (file ./2_Chapter2/Figures/alberts_37_DnaStructure.pdf
+): PDF inclusion: Page Group detected which pdfTeX can't handle. Ignoring it.
+>]
+
+pdfTeX warning: pdflatex (file ./2_Chapter2/Figures/lodish_56_DnaAndProtein.pdf
+): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
+
+<2_Chapter2/Figures/lodish_56_DnaAndProtein.pdf, id=3994, 468.94377pt x 179.643
+26pt>
+File: 2_Chapter2/Figures/lodish_56_DnaAndProtein.pdf Graphic file (type pdf)
+ <use 2_Chapter2/Figures/lodish_56_DnaAndProtein.pdf> [11 <./2_Chapter2/Figures
+/lodish_56_DnaAndProtein.pdf
+
+pdfTeX warning: pdflatex (file ./2_Chapter2/Figures/lodish_56_DnaAndProtein.pdf
+): PDF inclusion: Page Group detected which pdfTeX can't handle. Ignoring it.
+>]
+
+pdfTeX warning: pdflatex (file ./2_Chapter2/Figures/lodish_420_ChromatinStructu
+re_v3.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> a
+llowed
+
+<2_Chapter2/Figures/lodish_420_ChromatinStructure_v3.pdf, id=4571, 333.5368pt x
+ 251.20808pt>
+File: 2_Chapter2/Figures/lodish_420_ChromatinStructure_v3.pdf Graphic file (typ
+e pdf)
+ <use 2_Chapter2/Figures/lodish_420_ChromatinStructure_v3.pdf>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \vbox (badness 1112) has occurred while \output is active []
+
+ [12]
+
+pdfTeX warning: pdflatex (file ./2_Chapter2/Figures/lodish_30_CentralDogma_v2.p
+df): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
+
+<2_Chapter2/Figures/lodish_30_CentralDogma_v2.pdf, id=4581, 262.81853pt x 330.3
+703pt>
+File: 2_Chapter2/Figures/lodish_30_CentralDogma_v2.pdf Graphic file (type pdf)
+ <use 2_Chapter2/Figures/lodish_30_CentralDogma_v2.pdf>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[13 <./2_Chapter2/Figures/lodish_420_ChromatinStructure_v3.pdf
+
+pdfTeX warning: pdflatex (file ./2_Chapter2/Figures/lodish_420_ChromatinStructu
+re_v3.pdf): PDF inclusion: Page Group detected which pdfTeX can't handle. Ignor
+ing it.
+>]
+
+pdfTeX warning: pdflatex (file ./2_Chapter2/Figures/lodish_127_TranscriptionSte
+ps_v2.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> a
+llowed
+
+<2_Chapter2/Figures/lodish_127_TranscriptionSteps_v2.pdf, id=9387, 312.42683pt 
+x 413.06757pt>
+File: 2_Chapter2/Figures/lodish_127_TranscriptionSteps_v2.pdf Graphic file (typ
+e pdf)
+ <use 2_Chapter2/Figures/lodish_127_TranscriptionSteps_v2.pdf>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[14 <./2_Chapter2/Figures/lodish_30_CentralDogma_v2.pdf
+
+pdfTeX warning: pdflatex (file ./2_Chapter2/Figures/lodish_30_CentralDogma_v2.p
+df): PDF inclusion: Page Group detected which pdfTeX can't handle. Ignoring it.
+
+>]
+
+LaTeX Warning: Text page 15 contains only floats.
+
+[15 <./2_Chapter2/Figures/lodish_127_TranscriptionSteps_v2.pdf
+
+pdfTeX warning: pdflatex (file ./2_Chapter2/Figures/lodish_127_TranscriptionSte
+ps_v2.pdf): PDF inclusion: Page Group detected which pdfTeX can't handle. Ignor
+ing it.
+>] [16] [17]
+
+pdfTeX warning: pdflatex (file ./2_Chapter2/Figures/maston_3_RegulatoryElements
+_v2.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> all
+owed
+
+<2_Chapter2/Figures/maston_3_RegulatoryElements_v2.pdf, id=21207, 258.797pt x 1
+51.22105pt>
+File: 2_Chapter2/Figures/maston_3_RegulatoryElements_v2.pdf Graphic file (type 
+pdf)
+ <use 2_Chapter2/Figures/maston_3_RegulatoryElements_v2.pdf>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[18]
+
+pdfTeX warning: pdflatex (file ./2_Chapter2/Figures/maston_4_TranscriptionMachi
+nery.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> al
+lowed
+
+<2_Chapter2/Figures/maston_4_TranscriptionMachinery.pdf, id=21217, 218.57509pt 
+x 281.23312pt>
+File: 2_Chapter2/Figures/maston_4_TranscriptionMachinery.pdf Graphic file (type
+ pdf)
+ <use 2_Chapter2/Figures/maston_4_TranscriptionMachinery.pdf>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[19 <./2_Chapter2/Figures/maston_3_RegulatoryElements_v2.pdf
+
+pdfTeX warning: pdflatex (file ./2_Chapter2/Figures/maston_3_RegulatoryElements
+_v2.pdf): PDF inclusion: Page Group detected which pdfTeX can't handle. Ignorin
+g it.
+>] [20 <./2_Chapter2/Figures/maston_4_TranscriptionMachinery.pdf
+
+pdfTeX warning: pdflatex (file ./2_Chapter2/Figures/maston_4_TranscriptionMachi
+nery.pdf): PDF inclusion: Page Group detected which pdfTeX can't handle. Ignori
+ng it.
+>]
+
+pdfTeX warning: pdflatex (file ./2_Chapter2/Figures/maston_8_DistalElementsFunc
+tion_v2.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4>
+ allowed
+
+<2_Chapter2/Figures/maston_8_DistalElementsFunction_v2.pdf, id=21773, 246.89398
+pt x 227.76839pt>
+File: 2_Chapter2/Figures/maston_8_DistalElementsFunction_v2.pdf Graphic file (t
+ype pdf)
+
+<use 2_Chapter2/Figures/maston_8_DistalElementsFunction_v2.pdf>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[21]
+Underfull \vbox (badness 3635) has occurred while \output is active []
+
+ [22 <./2_Chapter2/Figures/maston_8_DistalElementsFunction_v2.pdf
+
+pdfTeX warning: pdflatex (file ./2_Chapter2/Figures/maston_8_DistalElementsFunc
+tion_v2.pdf): PDF inclusion: Page Group detected which pdfTeX can't handle. Ign
+oring it.
+>] [23] [24]
+
+Package Fancyhdr Warning: \headheight is too small (14.33044pt): 
+ Make it at least 27.93045pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[25] [26]
+
+pdfTeX warning: pdflatex (file ./2_Chapter2/Figures/lodish_472_DNAseFootprintin
+g.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allow
+ed
+
+<2_Chapter2/Figures/lodish_472_DNAseFootprinting.pdf, id=22109, 257.0133pt x 41
+3.61493pt>
+File: 2_Chapter2/Figures/lodish_472_DNAseFootprinting.pdf Graphic file (type pd
+f)
+ <use 2_Chapter2/Figures/lodish_472_DNAseFootprinting.pdf>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+
+pdfTeX warning: pdflatex (file ./2_Chapter2/Figures/park_3_ChIP.pdf): PDF inclu
+sion: found PDF version <1.5>, but at most version <1.4> allowed
+<2_Chapter2/Figures/park_3_ChIP.pdf, id=22115, 274.99937pt x 182.20337pt>
+File: 2_Chapter2/Figures/park_3_ChIP.pdf Graphic file (type pdf)
+
+<use 2_Chapter2/Figures/park_3_ChIP.pdf>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[27]
+
+LaTeX Warning: Text page 28 contains only floats.
+
+
+Underfull \vbox (badness 5260) has occurred while \output is active []
+
+ [28 <./2_Chapter2/Figures/lodish_472_DNAseFootprinting.pdf
+
+pdfTeX warning: pdflatex (file ./2_Chapter2/Figures/lodish_472_DNAseFootprintin
+g.pdf): PDF inclusion: Page Group detected which pdfTeX can't handle. Ignoring 
+it.
+>]
+
+pdfTeX warning: pdflatex (file ./2_Chapter2/Figures/wasserman_6_MotifMatching.p
+df): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
+
+<2_Chapter2/Figures/wasserman_6_MotifMatching.pdf, id=22395, 279.73643pt x 413.
+99762pt>
+File: 2_Chapter2/Figures/wasserman_6_MotifMatching.pdf Graphic file (type pdf)
+ <use 2_Chapter2/Figures/wasserman_6_MotifMatching.pdf>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[29 <./2_Chapter2/Figures/park_3_ChIP.pdf
+
+pdfTeX warning: pdflatex (file ./2_Chapter2/Figures/park_3_ChIP.pdf): PDF inclu
+sion: Page Group detected which pdfTeX can't handle. Ignoring it.
+>]
+
+LaTeX Warning: Text page 30 contains only floats.
+
+[30 <./2_Chapter2/Figures/wasserman_6_MotifMatching.pdf
+
+pdfTeX warning: pdflatex (file ./2_Chapter2/Figures/wasserman_6_MotifMatching.p
+df): PDF inclusion: Page Group detected which pdfTeX can't handle. Ignoring it.
+
+>] [31] [32] [33]
+
+pdfTeX warning: pdflatex (file ./2_Chapter2/Figures/allis_1_EpigeneticElements_
+v2.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allo
+wed
+
+<2_Chapter2/Figures/allis_1_EpigeneticElements_v2.pdf, id=23787, 718.17603pt x 
+237.23534pt>
+File: 2_Chapter2/Figures/allis_1_EpigeneticElements_v2.pdf Graphic file (type p
+df)
+ <use 2_Chapter2/Figures/allis_1_EpigeneticElements_v2.pdf>
+
+pdfTeX warning: pdflatex (file ./2_Chapter2/Figures/felsenfeld_3_HistoneModific
+ations.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> 
+allowed
+
+<2_Chapter2/Figures/felsenfeld_3_HistoneModifications.pdf, id=23795, 302.00916p
+t x 281.2151pt>
+File: 2_Chapter2/Figures/felsenfeld_3_HistoneModifications.pdf Graphic file (ty
+pe pdf)
+ <use 2_Chapter2/Figures/felsenfeld_3_HistoneModifications.pdf>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[34 <./2_Chapter2/Figures/allis_1_EpigeneticElements_v2.pdf
+
+pdfTeX warning: pdflatex (file ./2_Chapter2/Figures/allis_1_EpigeneticElements_
+v2.pdf): PDF inclusion: Page Group detected which pdfTeX can't handle. Ignoring
+ it.
+>] [35 <./2_Chapter2/Figures/felsenfeld_3_HistoneModifications.pdf
+
+pdfTeX warning: pdflatex (file ./2_Chapter2/Figures/felsenfeld_3_HistoneModific
+ations.pdf): PDF inclusion: Page Group detected which pdfTeX can't handle. Igno
+ring it.
+>] [36] [37]
+
+pdfTeX warning: pdflatex (file ./2_Chapter2/Figures/park_8_GenomicSignals.pdf):
+ PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
+
+<2_Chapter2/Figures/park_8_GenomicSignals.pdf, id=23923, 299.24101pt x 481.8368
+2pt>
+File: 2_Chapter2/Figures/park_8_GenomicSignals.pdf Graphic file (type pdf)
+ <use 2_Chapter2/Figures/park_8_GenomicSignals.pdf> [38 <./2_Chapter2/Figures/p
+ark_8_GenomicSignals.pdf
+
+pdfTeX warning: pdflatex (file ./2_Chapter2/Figures/park_8_GenomicSignals.pdf):
+ PDF inclusion: Page Group detected which pdfTeX can't handle. Ignoring it.
+>] [39]) [40] [41]
+\openout2 = `3_Chapter3/Chapter3.aux'.
+
+ (./3_Chapter3/Chapter3.tex
+ 3.
+[42
+
+
+
+]
+
+pdfTeX warning: pdflatex (file ./3_Chapter3/Figures/gusmao_1_HmmStructureDiscre
+te.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allo
+wed
+
+<3_Chapter3/Figures/gusmao_1_HmmStructureDiscrete.pdf, id=25711, 696.62744pt x 
+287.21147pt>
+File: 3_Chapter3/Figures/gusmao_1_HmmStructureDiscrete.pdf Graphic file (type p
+df)
+ <use 3_Chapter3/Figures/gusmao_1_HmmStructureDiscrete.pdf>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[43] [44 <./3_Chapter3/Figures/gusmao_1_HmmStructureDiscrete.pdf
+
+pdfTeX warning: pdflatex (file ./3_Chapter3/Figures/gusmao_1_HmmStructureDiscre
+te.pdf): PDF inclusion: Page Group detected which pdfTeX can't handle. Ignoring
+ it.
+>] [45] [46] [47] [48] [49] [50]) [51] [52]
+\openout2 = `4_Chapter4/Chapter4.aux'.
+
+ (./4_Chapter4/Chapter4.tex
+ 4.
+[53
+
+
+
+]
+
+pdfTeX warning: pdflatex (file ./4_Chapter4/Figures/gusmao_1_Pipeline.pdf): PDF
+ inclusion: found PDF version <1.5>, but at most version <1.4> allowed
+<4_Chapter4/Figures/gusmao_1_Pipeline.pdf, id=26127, 1145.7pt x 691.50723pt>
+File: 4_Chapter4/Figures/gusmao_1_Pipeline.pdf Graphic file (type pdf)
+
+<use 4_Chapter4/Figures/gusmao_1_Pipeline.pdf> [54 <./4_Chapter4/Figures/gusmao
+_1_Pipeline.pdf
+
+pdfTeX warning: pdflatex (file ./4_Chapter4/Figures/gusmao_1_Pipeline.pdf): PDF
+ inclusion: Page Group detected which pdfTeX can't handle. Ignoring it.
+>] [55] [56] [57] [58]
+
+pdfTeX warning: pdflatex (file ./4_Chapter4/Figures/gusmao_1_Processamento.pdf)
+: PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
+
+<4_Chapter4/Figures/gusmao_1_Processamento.pdf, id=26245, 719.48799pt x 452.088
+99pt>
+File: 4_Chapter4/Figures/gusmao_1_Processamento.pdf Graphic file (type pdf)
+ <use 4_Chapter4/Figures/gusmao_1_Processamento.pdf>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[59]
+
+pdfTeX warning: pdflatex (file ./4_Chapter4/Figures/gusmao_1_BoyleHMM.pdf): PDF
+ inclusion: found PDF version <1.5>, but at most version <1.4> allowed
+
+<4_Chapter4/Figures/gusmao_1_BoyleHMM.pdf, id=26259, 704.90347pt x 302.25572pt>
+File: 4_Chapter4/Figures/gusmao_1_BoyleHMM.pdf Graphic file (type pdf)
+<use 4_Chapter4/Figures/gusmao_1_BoyleHMM.pdf>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[60 <./4_Chapter4/Figures/gusmao_1_Processamento.pdf
+
+pdfTeX warning: pdflatex (file ./4_Chapter4/Figures/gusmao_1_Processamento.pdf)
+: PDF inclusion: Page Group detected which pdfTeX can't handle. Ignoring it.
+>]
+
+pdfTeX warning: pdflatex (file ./4_Chapter4/Figures/gusmao_1_ModelSignal1.pdf):
+ PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
+
+<4_Chapter4/Figures/gusmao_1_ModelSignal1.pdf, id=26284, 1219.09138pt x 546.092
+2pt>
+File: 4_Chapter4/Figures/gusmao_1_ModelSignal1.pdf Graphic file (type pdf)
+ <use 4_Chapter4/Figures/gusmao_1_ModelSignal1.pdf> [61 <./4_Chapter4/Figures/g
+usmao_1_BoyleHMM.pdf
+
+pdfTeX warning: pdflatex (file ./4_Chapter4/Figures/gusmao_1_BoyleHMM.pdf): PDF
+ inclusion: Page Group detected which pdfTeX can't handle. Ignoring it.
+>] [62 <./4_Chapter4/Figures/gusmao_1_ModelSignal1.pdf
+
+pdfTeX warning: pdflatex (file ./4_Chapter4/Figures/gusmao_1_ModelSignal1.pdf):
+ PDF inclusion: Page Group detected which pdfTeX can't handle. Ignoring it.
+>] [63] [64]) [65]
+\openout2 = `5_Chapter5/Chapter5.aux'.
+
+ (./5_Chapter5/Chapter5.tex
+ 5.
+
+LaTeX Warning: Reference `tab:regioesmpbschip' on page 66 undefined on input li
+ne 25.
+
+[66
+
+
+
+]
+
+pdfTeX warning: pdflatex (file ./5_Chapter5/Figures/gusmao_1_PwmTop_correct.pdf
+): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
+
+<5_Chapter5/Figures/gusmao_1_PwmTop_correct.pdf, id=26597, 3160.91241pt x 2282.
+12805pt>
+File: 5_Chapter5/Figures/gusmao_1_PwmTop_correct.pdf Graphic file (type pdf)
+ <use 5_Chapter5/Figures/gusmao_1_PwmTop_correct.pdf>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[67] [68 <./5_Chapter5/Figures/gusmao_1_PwmTop_correct.pdf
+
+pdfTeX warning: pdflatex (file ./5_Chapter5/Figures/gusmao_1_PwmTop_correct.pdf
+): PDF inclusion: Page Group detected which pdfTeX can't handle. Ignoring it.
+>]
+
+pdfTeX warning: pdflatex (file ./5_Chapter5/Figures/gusmao_1_PwmTfbsActiv1.pdf)
+: PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
+
+<5_Chapter5/Figures/gusmao_1_PwmTfbsActiv1.pdf, id=26676, 1197.27306pt x 1324.9
+5pt>
+File: 5_Chapter5/Figures/gusmao_1_PwmTfbsActiv1.pdf Graphic file (type pdf)
+ <use 5_Chapter5/Figures/gusmao_1_PwmTfbsActiv1.pdf>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+
+pdfTeX warning: pdflatex (file ./5_Chapter5/Figures/gusmao_1_PwmTfbsActiv2.pdf)
+: PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
+
+<5_Chapter5/Figures/gusmao_1_PwmTfbsActiv2.pdf, id=26677, 1197.27306pt x 1148.2
+9pt>
+File: 5_Chapter5/Figures/gusmao_1_PwmTfbsActiv2.pdf Graphic file (type pdf)
+ <use 5_Chapter5/Figures/gusmao_1_PwmTfbsActiv2.pdf>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[69] [70 <./5_Chapter5/Figures/gusmao_1_PwmTfbsActiv1.pdf
+
+pdfTeX warning: pdflatex (file ./5_Chapter5/Figures/gusmao_1_PwmTfbsActiv1.pdf)
+: PDF inclusion: Page Group detected which pdfTeX can't handle. Ignoring it.
+>] [71 <./5_Chapter5/Figures/gusmao_1_PwmTfbsActiv2.pdf
+
+pdfTeX warning: pdflatex (file ./5_Chapter5/Figures/gusmao_1_PwmTfbsActiv2.pdf)
+: PDF inclusion: Page Group detected which pdfTeX can't handle. Ignoring it.
+>]
+
+pdfTeX warning: pdflatex (file ./5_Chapter5/Figures/gusmao_1_PwmTfbsFootActiv1.
+pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
+
+
+<5_Chapter5/Figures/gusmao_1_PwmTfbsFootActiv1.pdf, id=29167, 1192.455pt x 1308
+.89pt>
+File: 5_Chapter5/Figures/gusmao_1_PwmTfbsFootActiv1.pdf Graphic file (type pdf)
+
+ <use 5_Chapter5/Figures/gusmao_1_PwmTfbsFootActiv1.pdf>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+
+pdfTeX warning: pdflatex (file ./5_Chapter5/Figures/gusmao_1_PwmTfbsFootActiv2.
+pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
+
+
+<5_Chapter5/Figures/gusmao_1_PwmTfbsFootActiv2.pdf, id=29168, 1197.27306pt x 11
+52.305pt>
+File: 5_Chapter5/Figures/gusmao_1_PwmTfbsFootActiv2.pdf Graphic file (type pdf)
+
+ <use 5_Chapter5/Figures/gusmao_1_PwmTfbsFootActiv2.pdf>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[72
+
+] [73 <./5_Chapter5/Figures/gusmao_1_PwmTfbsFootActiv1.pdf
+
+pdfTeX warning: pdflatex (file ./5_Chapter5/Figures/gusmao_1_PwmTfbsFootActiv1.
+pdf): PDF inclusion: Page Group detected which pdfTeX can't handle. Ignoring it
+.
+>] [74 <./5_Chapter5/Figures/gusmao_1_PwmTfbsFootActiv2.pdf
+
+pdfTeX warning: pdflatex (file ./5_Chapter5/Figures/gusmao_1_PwmTfbsFootActiv2.
+pdf): PDF inclusion: Page Group detected which pdfTeX can't handle. Ignoring it
+.
+>] [75
+
+] [76]
+
+LaTeX Warning: Reference `tab:statistics' on page 77 undefined on input line 16
+2.
+
+
+LaTeX Warning: Reference `tab:regioesmpbschip' on page 77 undefined on input li
+ne 165.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[77] [78] [79] [80] [81] [82
+
+]
+
+pdfTeX warning: pdflatex (file ./5_Chapter5/Figures/gusmao_1_GoodPredSample_v2.
+pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
+
+
+<5_Chapter5/Figures/gusmao_1_GoodPredSample_v2.pdf, id=31699, 857.2025pt x 543.
+02875pt>
+File: 5_Chapter5/Figures/gusmao_1_GoodPredSample_v2.pdf Graphic file (type pdf)
+
+ <use 5_Chapter5/Figures/gusmao_1_GoodPredSample_v2.pdf>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[83]
+
+pdfTeX warning: pdflatex (file ./5_Chapter5/Figures/gusmao_1_BadPredSample_v2.p
+df): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
+
+<5_Chapter5/Figures/gusmao_1_BadPredSample_v2.pdf, id=31708, 857.2025pt x 547.0
+4375pt>
+File: 5_Chapter5/Figures/gusmao_1_BadPredSample_v2.pdf Graphic file (type pdf)
+ <use 5_Chapter5/Figures/gusmao_1_BadPredSample_v2.pdf>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[84 <./5_Chapter5/Figures/gusmao_1_GoodPredSample_v2.pdf
+
+pdfTeX warning: pdflatex (file ./5_Chapter5/Figures/gusmao_1_GoodPredSample_v2.
+pdf): PDF inclusion: Page Group detected which pdfTeX can't handle. Ignoring it
+.
+>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[85 <./5_Chapter5/Figures/gusmao_1_BadPredSample_v2.pdf
+
+pdfTeX warning: pdflatex (file ./5_Chapter5/Figures/gusmao_1_BadPredSample_v2.p
+df): PDF inclusion: Page Group detected which pdfTeX can't handle. Ignoring it.
+
+>]
+
+LaTeX Warning: Text page 86 contains only floats.
+
+[86]) [87]
+\openout2 = `6_Chapter6/Chapter6.aux'.
+
+ (./6_Chapter6/Chapter6.tex
+ 6.
+[88
+
+
+
+] [89]) [90] (./Dissertacao.bbl (./Dissertacao.brf)
+\tf@brf=\write8
+\openout8 = `Dissertacao.brf'.
+
+ [91
+
+
+] [92] [93]) [94]
+(./Dissertacao.aux (./0_FrontMatter/Acknowledgement.aux)
+(./0_FrontMatter/Dedication.aux) (./0_FrontMatter/Resumo.aux)
+(./0_FrontMatter/Abstract.aux) (./0_FrontMatter/Glossary.aux)
+(./1_Introduction/Introduction.aux) (./2_Chapter2/Chapter2.aux)
+(./3_Chapter3/Chapter3.aux) (./4_Chapter4/Chapter4.aux)
+(./5_Chapter5/Chapter5.aux) (./6_Chapter6/Chapter6.aux))
+
+LaTeX Warning: There were undefined references.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 6742 strings out of 256216
+ 96133 string characters out of 1917072
+ 217344 words of memory out of 1500000
+ 9457 multiletter control sequences out of 10000+200000
+ 16690 words of font info for 61 fonts, out of 1200000 for 2000
+ 645 hyphenation exceptions out of 8191
+ 36i,16n,49p,1817b,696s stack positions out of 5000i,500n,6000p,200000b,15000s
+</usr/share/texmf/fonts/type1/bluesky/cm/cmbx10.pfb></usr/share/texmf/fonts/t
+ype1/bluesky/cm/cmbx12.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmbx9.pfb><
+/usr/share/texmf/fonts/type1/bluesky/cm/cmbxti10.pfb></usr/share/texmf/fonts/ty
+pe1/bluesky/cm/cmcsc10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmex10.pfb>
+</usr/share/texmf/fonts/type1/bluesky/cm/cmmi10.pfb></usr/share/texmf/fonts/typ
+e1/bluesky/cm/cmmi6.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmmi7.pfb></us
+r/share/texmf/fonts/type1/bluesky/cm/cmmi8.pfb></usr/share/texmf/fonts/type1/bl
+uesky/cm/cmr10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr12.pfb></usr/sha
+re/texmf/fonts/type1/bluesky/cm/cmr6.pfb></usr/share/texmf/fonts/type1/bluesky/
+cm/cmr7.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr8.pfb></usr/share/texmf
+/fonts/type1/bluesky/cm/cmr9.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmsy1
+0.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmsy6.pfb></usr/share/texmf/font
+s/type1/bluesky/cm/cmsy8.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmti10.pf
+b></usr/share/texmf/fonts/type1/bluesky/cm/cmti12.pfb></usr/share/texmf/fonts/t
+ype1/bluesky/cm/cmti9.pfb>
+Output written on Dissertacao.pdf (108 pages, 19926792 bytes).
+PDF statistics:
+ 32429 PDF objects out of 38293 (max. 8388607)
+ 305 named destinations out of 1000 (max. 131072)
+ 626 words of extra memory for PDF output out of 10000 (max. 10000000)
+

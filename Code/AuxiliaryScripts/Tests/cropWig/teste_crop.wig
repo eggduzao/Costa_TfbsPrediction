@@ -1,0 +1,35 @@
+fixedStep chrom=chr1 start=5 step=1 span=1
+5
+6
+7
+8
+9
+10
+fixedStep chrom=chr1 start=13 step=1 span=1
+13
+14
+15
+16
+fixedStep chrom=chr1 start=21 step=1 span=1
+21
+fixedStep chrom=chr1 start=22 step=1 span=1
+22
+23
+24
+25
+fixedStep chrom=chr2 start=9 step=1 span=1
+9
+10
+fixedStep chrom=chr2 start=11 step=1 span=1
+11
+12
+13
+14
+15
+fixedStep chrom=chr2 start=18 step=1 span=1
+18
+19
+20
+21
+22
+23
