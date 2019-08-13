@@ -1,2 +1,0 @@
-ks_pvalue_flr_method	ks_pvalue_flr_corr	ks_pvalue_fos_method	ks_pvalue_fos_corr	ks_pvalue_protection_method	ks_pvalue_protection_corr	ks_pvalue_tc_method	ks_pvalue_tc_corr	ks_stat_flr_method	ks_stat_flr_corr	ks_stat_fos_method	ks_stat_fos_corr	ks_stat_protection_method	ks_stat_protection_corr	ks_stat_tc_method	ks_stat_tc_corr
-Dnase2Tf	0.839134783761	Dnase2Tf	0.856911577743	Dnase2Tf	0.840002979536	Dnase2Tf	0.823263328045	Dnase2Tf	0.889724711908	Dnase2Tf	0.806395482452	Dnase2Tf	0.786101808989	Dnase2Tf	0.571522374339

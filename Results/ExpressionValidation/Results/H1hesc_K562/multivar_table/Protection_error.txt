@@ -1,2 +1,0 @@
-METHOD	protection	tc	fos	flr
-Protection	132	60	39	36

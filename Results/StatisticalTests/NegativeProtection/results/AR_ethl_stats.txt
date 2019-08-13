@@ -1,2 +1,0 @@
-AR_ethl_PU1_with_FP(%)
-28.9143

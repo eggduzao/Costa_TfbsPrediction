@@ -1,6 +1,0 @@
-Artificial_All	0.116559
-Artificial_F	0.117133
-Artificial_R	0.116686
-Sampled_All	0.132833
-Sampled_F	0.135334
-Sampled_R	0.134171

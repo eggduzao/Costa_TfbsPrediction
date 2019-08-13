@@ -1,2 +1,0 @@
-METHOD	protection	tc	fos	flr
-Dnase2Tf	34	50	39	37

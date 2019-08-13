@@ -1,2 +1,0 @@
-METHOD	protection	tc	fos	flr
-Centipede_99	52	56	51	52

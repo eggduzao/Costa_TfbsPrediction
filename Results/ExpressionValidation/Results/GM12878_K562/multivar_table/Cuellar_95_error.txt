@@ -1,2 +1,0 @@
-METHOD	protection	tc	fos	flr
-Cuellar_95	71	73	45	57

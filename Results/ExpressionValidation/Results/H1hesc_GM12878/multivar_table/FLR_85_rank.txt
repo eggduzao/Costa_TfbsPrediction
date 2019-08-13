@@ -1,2 +1,0 @@
-ks_pvalue_flr_method	ks_pvalue_flr_corr	ks_pvalue_fos_method	ks_pvalue_fos_corr	ks_pvalue_protection_method	ks_pvalue_protection_corr	ks_pvalue_tc_method	ks_pvalue_tc_corr	ks_stat_flr_method	ks_stat_flr_corr	ks_stat_fos_method	ks_stat_fos_corr	ks_stat_protection_method	ks_stat_protection_corr	ks_stat_tc_method	ks_stat_tc_corr
-FLR_85	0.859154929577	FLR_85	0.897768311501	FLR_85	0.813246550823	FLR_85	0.657839226501	FLR_85	0.823303457106	FLR_85	0.659706490692	FLR_85	0.516189796119	FLR_85	0.332229390328

@@ -1,2 +1,0 @@
-ks_pvalue_flr_method	ks_pvalue_flr_corr	ks_pvalue_fos_method	ks_pvalue_fos_corr	ks_pvalue_protection_method	ks_pvalue_protection_corr	ks_pvalue_tc_method	ks_pvalue_tc_corr	ks_stat_flr_method	ks_stat_flr_corr	ks_stat_fos_method	ks_stat_fos_corr	ks_stat_protection_method	ks_stat_protection_corr	ks_stat_tc_method	ks_stat_tc_corr
-Boyle	0.884378819488	Boyle	0.869633488665	Boyle	0.733208302881	Boyle	0.661822618832	Boyle	0.910633966972	Boyle	0.731651564398	Boyle	0.692603171476	Boyle	0.284337141732

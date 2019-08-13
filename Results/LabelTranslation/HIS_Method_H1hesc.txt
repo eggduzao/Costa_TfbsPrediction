@@ -1,6 +1,0 @@
-Boyle	Boyle	Boyle 5 1001.0
-Neph_5	Neph	Neph 5 1001.0
-H-HMM_13(H)	H-HMM(2)	HMMH D13 ModelH1hesc 0 1001.0
-H-HMM_139(H)	H-HMM(3)	HMMH D139 ModelH1hesc 0 1001.0
-DH-HMM_13(H)	DH-HMM(2)	HD D13 ModelH1hesc 5 1001.0
-DH-HMM_139(H)	DH-HMM(3)	HD D139 ModelH1hesc 5 1001.0

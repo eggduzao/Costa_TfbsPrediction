@@ -1,8 +1,0 @@
-FOS, R=−0.2201, p−value=0.0394
-PWM, R=−0.2044, p−value=0.0561
-HINT, R=−0.0837, p−value=0.438
-HINT(BC), R=−0.065, p−value=0.5475
-Boyle, R=−0.3076, p−value=0.0036
-Neph, R=−0.2957, p−value=0.0052
-Cuellar, R=−0.0995, p−value=0.3563
-Centipede, R=−0.1456, p−value=0.1758

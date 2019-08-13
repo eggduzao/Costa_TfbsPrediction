@@ -1,5 +1,0 @@
-TC
-FOS
-PWM
-HINT
-HINT(BC)

@@ -1,2 +1,0 @@
-METHOD	protection	tc	fos	flr
-Neph	23	55	26	15

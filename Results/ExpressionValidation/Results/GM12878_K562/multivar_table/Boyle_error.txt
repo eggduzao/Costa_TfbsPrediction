@@ -1,2 +1,0 @@
-METHOD	protection	tc	fos	flr
-Boyle	36	59	45	33

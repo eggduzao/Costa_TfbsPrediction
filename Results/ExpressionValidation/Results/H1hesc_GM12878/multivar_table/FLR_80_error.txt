@@ -1,2 +1,0 @@
-METHOD	protection	tc	fos	flr
-FLR_80	51	53	53	46

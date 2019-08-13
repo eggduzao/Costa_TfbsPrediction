@@ -1,2 +1,0 @@
-METHOD	protection	tc	fos	flr
-FS	101	80	77	68

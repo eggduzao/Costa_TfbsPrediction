@@ -1,2 +1,0 @@
-METHOD	protection	tc	fos	flr
-PIQ_90	46	61	35	45

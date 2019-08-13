@@ -1,2 +1,0 @@
-METHOD	protection	tc	fos	flr
-HINTBCN	33	47	16	21

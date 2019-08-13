@@ -1,9 +1,0 @@
-DH-HMM(3)
-DH-HMM(2)
-Cent.(estimated)
-Neph
-Cuellar(2)
-Cuellar(3)
-H-HMM(3)
-H-HMM(2)
-Boyle
