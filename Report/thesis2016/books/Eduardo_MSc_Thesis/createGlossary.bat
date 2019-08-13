@@ -1,1 +1,0 @@
-makeindex Dissertacao.nlo -s nomencl.ist -o Dissertacao.nls
