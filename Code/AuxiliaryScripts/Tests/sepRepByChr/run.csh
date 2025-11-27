@@ -1,1 +1,0 @@
-sepRepByChr spc ./ ./reps/*
