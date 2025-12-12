@@ -1,5 +1,11 @@
 #!/bin/bash
 
+cd "/Users/egg/Desktop/a"
+x="*.txt"
+echo $x
+echo "$x"
+echo $x | wc -w
+
 # Message
 echo "Cleaning system-specific artifacts..."
 
