@@ -1,0 +1,5 @@
+ERROR
+    self.kernel.store(name, index, value, mode=mode)
+  File "/home/oulgen/dev/blacksmith/smith/_inductor/codegen/pallas.py", line 1147, in store
+    raise Unsupported("pallas store mode not supported")
+smith._inductor.exc.InductorError: Unsupported: pallas store mode not supported

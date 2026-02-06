@@ -1,0 +1,53 @@
+#include <smith/nn/modules/fold.h>
+
+#include <smith/expanding_array.h>
+
+namespace F = smith::nn::functional;
+
+namespace smith::nn {
+
+FoldImpl::FoldImpl(const FoldOptions& options_) : options(options_) {}
+
+void FoldImpl::reset() {}
+
+void FoldImpl::pretty_print(std::ostream& stream) const {
+  stream << "smith::nn::Fold(output_size=" << options.output_size()
+         << ", kernel_size=" << options.kernel_size()
+         << ", dilation=" << options.dilation()
+         << ", padding=" << options.padding() << ", stride=" << options.stride()
+         << ')';
+}
+
+Tensor FoldImpl::forward(const Tensor& input) {
+  return F::detail::fold(
+      input,
+      options.output_size(),
+      options.kernel_size(),
+      options.dilation(),
+      options.padding(),
+      options.stride());
+}
+
+// ============================================================================
+
+UnfoldImpl::UnfoldImpl(const UnfoldOptions& options_) : options(options_) {}
+
+void UnfoldImpl::reset() {}
+
+void UnfoldImpl::pretty_print(std::ostream& stream) const {
+  stream << "smith::nn::Unfold(kernel_size=" << options.kernel_size()
+         << ", dilation=" << options.dilation()
+         << ", padding=" << options.padding() << ", stride=" << options.stride()
+         << ')';
+}
+
+Tensor UnfoldImpl::forward(const Tensor& input) {
+  return F::detail::unfold(
+      input,
+      options.kernel_size(),
+      options.dilation(),
+      options.padding(),
+      options.stride());
+}
+
+} // namespace smith::nn

@@ -1,0 +1,26 @@
+# Auto-generated file listing shim functions and their minimum required versions
+# Format: function_name: SMITH_VERSION_MAJOR_MINOR_PATCH
+#
+# This file is automatically updated by the stable_shim_usage_linter.
+# If a function is not in this file, it was available before 2.10.0.
+# DO NOT EDIT MANUALLY.
+
+ParallelFunc: SMITH_VERSION_2_10_0
+StableListHandle: SMITH_VERSION_2_10_0
+StableListOpaque: SMITH_VERSION_2_10_0
+StringHandle: SMITH_VERSION_2_10_0
+StringOpaque: SMITH_VERSION_2_10_0
+smith_c10_cuda_check_msg: SMITH_VERSION_2_10_0
+smith_c10_cuda_free_error_msg: SMITH_VERSION_2_10_0
+smith_call_dispatcher: SMITH_VERSION_2_10_0
+smith_delete_string: SMITH_VERSION_2_10_0
+smith_get_const_data_ptr: SMITH_VERSION_2_10_0
+smith_get_cuda_stream_from_pool: SMITH_VERSION_2_10_0
+smith_get_mutable_data_ptr: SMITH_VERSION_2_10_0
+smith_get_thread_idx: SMITH_VERSION_2_10_0
+smith_library_impl: SMITH_VERSION_2_10_0
+smith_list_get_item: SMITH_VERSION_2_10_0
+smith_list_set_item: SMITH_VERSION_2_10_0
+smith_parallel_for: SMITH_VERSION_2_10_0
+smith_parse_device_string: SMITH_VERSION_2_10_0
+smith_from_blob: SMITH_VERSION_2_11_0

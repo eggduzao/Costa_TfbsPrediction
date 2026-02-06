@@ -1,0 +1,8 @@
+local.properties
+**/*.iml
+.gradle
+.idea/*
+.externalNativeBuild
+build
+blacksmith_android/src/main/cpp/libsmith_include/**
+blacksmith_android/src/main/jniLibs/**

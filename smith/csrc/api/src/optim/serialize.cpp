@@ -1,0 +1,47 @@
+#include <smith/optim/serialize.h>
+
+#include <cstdint>
+#include <string>
+#include <vector>
+
+namespace smith::optim {
+void serialize(
+    serialize::OutputArchive& archive,
+    const std::string& key,
+    const int64_t& value) {
+  archive.write(key, IValue(value));
+}
+
+void serialize(
+    serialize::InputArchive& archive,
+    const std::string& key,
+    int64_t& value) {
+  IValue ivalue;
+  archive.read(key, ivalue);
+  value = ivalue.toInt();
+}
+
+void serialize(
+    serialize::OutputArchive& archive,
+    const std::string& key,
+    const std::vector<int64_t>& steps) {
+  std::vector<smith::Tensor> tensors;
+  tensors.reserve(steps.size());
+  for (const auto& step : steps) {
+    tensors.push_back(smith::tensor(static_cast<int64_t>(step)));
+  }
+  serialize(archive, key, tensors);
+}
+
+void serialize(
+    serialize::InputArchive& archive,
+    const std::string& key,
+    std::vector<int64_t>& steps) {
+  steps.clear();
+  std::vector<smith::Tensor> tensors;
+  serialize(archive, key, tensors);
+  for (const auto& step : tensors) {
+    steps.push_back(step.item<int64_t>());
+  }
+}
+} // namespace smith::optim

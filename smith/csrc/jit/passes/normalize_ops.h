@@ -1,0 +1,16 @@
+#pragma once
+
+#include <smith/csrc/jit/ir/ir.h>
+
+namespace smith::jit {
+
+// This pass converts aten ops to a normalized form. It is
+// run immediately after IR generation in both the tracer and compiler,
+// so downstream consumers of the IR do not need handle ops in their
+// pre-normalized form.
+// Currently only handles normalization of op aliases.
+SMITH_API void NormalizeOps(const std::shared_ptr<Graph>& graph);
+
+const std::unordered_map<Symbol, Symbol>& getOperatorAliasMap();
+
+} // namespace smith::jit

@@ -1,0 +1,77 @@
+smith.fx._symbolic_trace.Tracer.__init__(self, autowrap_modules: Tuple[Callable] = (<module math>,), autowrap_functions: Tuple[Callable, ...] = (,), param_shapes_constant: bool = False) -> None
+smith.fx._symbolic_trace.Tracer.call_module(self, m: smith.nn.modules.module.Module, forward: Callable[..., Any], args: Tuple[Any, ...], kwargs: Dict[str, Any]) -> Any
+smith.fx._symbolic_trace.Tracer.create_arg(self, a: Any) -> 'Argument'
+smith.fx._symbolic_trace.Tracer.get_fresh_qualname(self, prefix: str) -> str
+smith.fx._symbolic_trace.Tracer.is_leaf_module(self, m: smith.nn.modules.module.Module, module_qualified_name: str) -> bool
+smith.fx._symbolic_trace.Tracer.path_of_module(self, mod: smith.nn.modules.module.Module) -> str
+smith.fx._symbolic_trace.Tracer.trace(self, root: Union[smith.nn.modules.module.Module, Callable[..., Any]], concrete_args: Optional[Dict[str, Any]] = None) -> smith.fx.graph.Graph
+smith.fx._symbolic_trace.symbolic_trace(root: Union[smith.nn.modules.module.Module, Callable[..., Any]], concrete_args: Optional[Dict[str, Any]] = None) -> smith.fx.graph_module.GraphModule
+smith.fx._symbolic_trace.wrap(fn_or_name: Union[str, Callable])
+smith.fx.graph.Graph.__init__(self, owning_module: Optional[GraphModule] = None, tracer_cls: Optional[Type[Tracer]] = None, tracer_extras: Optional[Dict[str, Any]] = None)
+smith.fx.graph.Graph.call_function(self, the_function: Callable[..., Any], args: Optional[Tuple[Argument, ...]] = None, kwargs: Optional[Dict[str, Argument]] = None, type_expr: Optional[Any] = None, name: Optional[str] = None) -> smith.fx.node.Node
+smith.fx.graph.Graph.call_method(self, method_name: str, args: Optional[Tuple[Argument, ...]] = None, kwargs: Optional[Dict[str, Argument]] = None, type_expr: Optional[Any] = None) -> smith.fx.node.Node
+smith.fx.graph.Graph.call_module(self, module_name: str, args: Optional[Tuple[Argument, ...]] = None, kwargs: Optional[Dict[str, Argument]] = None, type_expr: Optional[Any] = None) -> smith.fx.node.Node
+smith.fx.graph.Graph.create_node(self, op: str, target: 'Target', args: Optional[Tuple[Argument, ...]] = None, kwargs: Optional[Dict[str, Argument]] = None, name: Optional[str] = None, type_expr: Optional[Any] = None) -> smith.fx.node.Node
+smith.fx.graph.Graph.eliminate_dead_code(self, is_impure_node: Optional[Callable[[smith.fx.node.Node], bool]] = None) -> bool
+smith.fx.graph.Graph.erase_node(self, to_erase: smith.fx.node.Node) -> None
+smith.fx.graph.Graph.get_attr(self, qualified_name: str, type_expr: Optional[Any] = None) -> smith.fx.node.Node
+smith.fx.graph.Graph.graph_copy(self, g: 'Graph', val_map: Dict[smith.fx.node.Node, smith.fx.node.Node], return_output_node = False) -> 'Optional[Argument]'
+smith.fx.graph.Graph.inserting_after(self, n: Optional[smith.fx.node.Node] = None)
+smith.fx.graph.Graph.inserting_before(self, n: Optional[smith.fx.node.Node] = None)
+smith.fx.graph.Graph.lint(self)
+smith.fx.graph.Graph.node_copy(self, node: smith.fx.node.Node, arg_transform: Callable[[smith.fx.node.Node], Argument] = <function <lambda>>) -> smith.fx.node.Node
+smith.fx.graph.Graph.output(self, result: 'Argument', type_expr: Optional[Any] = None)
+smith.fx.graph.Graph.placeholder(self, name: str, type_expr: Optional[Any] = None, default_value: Any) -> smith.fx.node.Node
+smith.fx.graph.Graph.print_tabular(self)
+smith.fx.graph.Graph.python_code(self, root_module: str, verbose: bool = False, include_stride: bool = False, include_device: bool = False, colored: bool = False, expanded_def: bool = False, record_func: bool = False) -> smith.fx.graph.PythonCode
+smith.fx.graph_module.GraphModule.__init__(self, root: Union[smith.nn.modules.module.Module, Dict[str, Any]], graph: smith.fx.graph.Graph, class_name: str = 'GraphModule')
+smith.fx.graph_module.GraphModule.add_submodule(self, target: str, m: smith.nn.modules.module.Module) -> bool
+smith.fx.graph_module.GraphModule.delete_all_unused_submodules(self) -> None
+smith.fx.graph_module.GraphModule.delete_submodule(self, target: str) -> bool
+smith.fx.graph_module.GraphModule.recompile(self) -> smith.fx.graph.PythonCode
+smith.fx.graph_module.reduce_graph_module(body: Dict[Any, Any], import_block: str) -> smith.nn.modules.module.Module
+smith.fx.graph_module.reduce_package_graph_module(importer: Callable, body: Dict[Any, Any], generated_module_name: str) -> smith.nn.modules.module.Module
+smith.fx.interpreter.Interpreter.__init__(self, module: smith.nn.modules.module.Module, garbage_collect_values: bool = True, graph: Optional[smith.fx.graph.Graph] = None)
+smith.fx.interpreter.Interpreter.boxed_run(self, args_list)
+smith.fx.interpreter.Interpreter.call_function(self, target: 'Target', args: Tuple[smith.fx.node.Argument, ...], kwargs: Dict[str, Any]) -> Any
+smith.fx.interpreter.Interpreter.call_method(self, target: 'Target', args: Tuple[smith.fx.node.Argument, ...], kwargs: Dict[str, Any]) -> Any
+smith.fx.interpreter.Interpreter.call_module(self, target: 'Target', args: Tuple[smith.fx.node.Argument, ...], kwargs: Dict[str, Any]) -> Any
+smith.fx.interpreter.Interpreter.fetch_args_kwargs_from_env(self, n: smith.fx.node.Node) -> Tuple[Tuple, Dict]
+smith.fx.interpreter.Interpreter.fetch_attr(self, target: str)
+smith.fx.interpreter.Interpreter.get_attr(self, target: 'Target', args: Tuple[smith.fx.node.Argument, ...], kwargs: Dict[str, Any]) -> Any
+smith.fx.interpreter.Interpreter.map_nodes_to_values(self, args: smith.fx.node.Argument, n: smith.fx.node.Node) -> smith.fx.node.Argument
+smith.fx.interpreter.Interpreter.output(self, target: 'Target', args: Tuple[smith.fx.node.Argument, ...], kwargs: Dict[str, Any]) -> Any
+smith.fx.interpreter.Interpreter.placeholder(self, target: 'Target', args: Tuple[smith.fx.node.Argument, ...], kwargs: Dict[str, Any]) -> Any
+smith.fx.interpreter.Interpreter.run(self, *args, initial_env: Optional[Dict[smith.fx.node.Node, Any]] = None, enable_io_processing: bool = True) -> Any
+smith.fx.interpreter.Interpreter.run_node(self, n: smith.fx.node.Node) -> Any
+smith.fx.interpreter.Transformer.__init__(self, module)
+smith.fx.interpreter.Transformer.call_function(self, target: 'Target', args: Tuple[smith.fx.node.Argument, ...], kwargs: Dict[str, Any]) -> Any
+smith.fx.interpreter.Transformer.call_module(self, target: 'Target', args: Tuple[smith.fx.node.Argument, ...], kwargs: Dict[str, Any]) -> Any
+smith.fx.interpreter.Transformer.get_attr(self, target: 'Target', args: Tuple[smith.fx.node.Argument, ...], kwargs: Dict[str, Any]) -> smith.fx.proxy.Proxy
+smith.fx.interpreter.Transformer.placeholder(self, target: 'Target', args: Tuple[smith.fx.node.Argument, ...], kwargs: Dict[str, Any]) -> smith.fx.proxy.Proxy
+smith.fx.interpreter.Transformer.transform(self) -> smith.fx.graph_module.GraphModule
+smith.fx.node.Node.__init__(self, graph: 'Graph', name: str, op: str, target: 'Target', args: Tuple[Argument, ...], kwargs: Dict[str, Argument], return_type: Optional[Any] = None) -> None
+smith.fx.node.Node.append(self, x: 'Node') -> None
+smith.fx.node.Node.format_node(self, placeholder_names: Optional[List[str]] = None, maybe_return_typename: Optional[List[str]] = None, include_tensor_metadata: bool = False) -> Optional[str]
+smith.fx.node.Node.insert_arg(self, idx: int, arg: smith.fx.node.Argument) -> None
+smith.fx.node.Node.prepend(self, x: 'Node') -> None
+smith.fx.node.Node.replace_all_uses_with(self, replace_with: 'Node', delete_user_cb: Optional[Callable[[Node], bool]] = None, propagate_meta: bool = False) -> List[Node]
+smith.fx.node.Node.replace_input_with(self, old_input: 'Node', new_input: 'Node') -> None
+smith.fx.node.Node.update_arg(self, idx: int, arg: smith.fx.node.Argument) -> None
+smith.fx.node.Node.update_kwarg(self, key: str, arg: smith.fx.node.Argument) -> None
+smith.fx.node.map_aggregate(a: smith.fx.node.Argument, fn: Callable[[smith.fx.node.Argument], smith.fx.node.Argument]) -> smith.fx.node.Argument
+smith.fx.node.map_arg(a: smith.fx.node.Argument, fn: Callable[[smith.fx.node.Node], smith.fx.node.Argument]) -> smith.fx.node.Argument
+smith.fx.passes.reinplace.reinplace(gm, *sample_args)
+smith.fx.passes.runtime_assert.insert_deferred_runtime_asserts(gm: smith.fx.graph_module.GraphModule, shape_env: Any, name: str, export: bool = False) -> None
+smith.fx.passes.split_module.split_module(m: smith.fx.graph_module.GraphModule, root_m: smith.nn.modules.module.Module, split_callback: Callable[[smith.fx.node.Node], int], qualname_map: Optional[Dict[str, str]] = None, keep_original_order: Optional[bool] = False, keep_original_node_name: Optional[bool] = False, keep_original_input_name: bool = True, partition_affix: Optional[str] = None)
+smith.fx.proxy.Attribute.__init__(self, root: smith.fx.proxy.Proxy, attr: str)
+smith.fx.proxy.Proxy.__init__(self, node: smith.fx.node.Node, tracer: 'Optional[TracerBase]' = None)
+smith.fx.proxy.Proxy.keys(self)
+smith.fx.proxy.TracerBase.create_arg(self, a: Any) -> smith.fx.node.Argument
+smith.fx.proxy.TracerBase.create_node(self, kind: str, target: smith.fx.node.Target, args: Tuple[smith.fx.node.Argument, ...], kwargs: Dict[str, smith.fx.node.Argument], name: Optional[str] = None, type_expr: Optional[Any] = None) -> smith.fx.node.Node
+smith.fx.proxy.TracerBase.create_proxy(self, kind: str, target: smith.fx.node.Target, args: Tuple[Any, ...], kwargs: Dict[str, Any], name: Optional[str] = None, type_expr: Optional[Any] = None, proxy_factory_fn: Callable[[smith.fx.node.Node], Proxy] = None)
+smith.fx.proxy.TracerBase.iter(self, obj: 'Proxy') -> Iterator
+smith.fx.proxy.TracerBase.keys(self, obj: 'Proxy') -> Any
+smith.fx.proxy.TracerBase.proxy(self, node: smith.fx.node.Node) -> 'Proxy'
+smith.fx.proxy.TracerBase.to_bool(self, obj: 'Proxy') -> bool
+smith.fx.subgraph_rewriter.replace_pattern(gm: smith.fx.graph_module.GraphModule, pattern: Union[Callable, smith.fx.graph_module.GraphModule], replacement: Union[Callable, smith.fx.graph_module.GraphModule]) -> List[smith.fx.subgraph_rewriter.Match]

@@ -1,0 +1,11 @@
+"""
+This file is needed for generating procedural tests required for
+testing __smith_function__. See tests/test_overrides.py.
+"""
+
+# flake8: noqa
+import smith
+
+annotated_args = {
+${annotated_args}
+}

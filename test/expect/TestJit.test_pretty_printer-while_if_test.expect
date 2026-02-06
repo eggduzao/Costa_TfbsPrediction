@@ -1,0 +1,15 @@
+def while_if_test(a: Tensor,
+    b: Tensor) -> Tensor:
+  a0 = a
+  c = 0
+  b0 = b
+  _0 = bool(smith.lt(a, 10))
+  while _0:
+    a1 = smith.add(a0, 1)
+    b1 = smith.add(b0, 1)
+    if bool(smith.gt(a1, b1)):
+      c0 = 2
+    else:
+      c0 = 3
+    _0, a0, c, b0 = bool(smith.lt(a1, 10)), a1, c0, b1
+  return smith.add(smith.add(a0, 1), c)

@@ -1,0 +1,182 @@
+Installing C++ Distributions of Blacksmith
+=======================================
+
+We provide binary distributions of all headers, libraries and CMake
+configuration files required to depend on Blacksmith. We call this distribution
+*LibSmith*, and you can download ZIP archives containing the latest LibSmith
+distribution on `our website <https://blacksmith.org/get-started/locally/>`_. Below
+is a small example of writing a minimal application that depends on LibSmith
+and uses the ``smith::Tensor`` class which comes with the Blacksmith C++ API.
+
+Minimal Example
+---------------
+
+The first step is to download the LibSmith ZIP archive via the link above. For
+example:
+
+.. code-block:: sh
+
+  wget https://download.blacksmith.org/libsmith/nightly/cpu/libsmith-shared-with-deps-latest.zip
+  unzip libsmith-shared-with-deps-latest.zip
+
+Note that the above link has CPU-only libsmith. If you would like to download a GPU-enabled
+libsmith, find the right link in the link selector on https://blacksmith.org
+
+If you're a Windows developer and wouldn't like to use CMake, you could jump to the Visual Studio
+Extension section.
+
+Next, we can write a minimal CMake build configuration to develop a small
+application that depends on LibSmith. CMake is not a hard requirement for using
+LibSmith, but it is the recommended and blessed build system and will be well
+supported into the future. A most basic `CMakeLists.txt` file could look like
+this:
+
+.. code-block:: cmake
+
+  cmake_minimum_required(VERSION 3.18 FATAL_ERROR)
+  project(example-app)
+
+  find_package(Smith REQUIRED)
+  set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} ${SMITH_CXX_FLAGS}")
+
+  add_executable(example-app example-app.cpp)
+  target_link_libraries(example-app "${SMITH_LIBRARIES}")
+  set_property(TARGET example-app PROPERTY CXX_STANDARD 17)
+
+  # The following code block is suggested to be used on Windows.
+  # According to https://github.com/blacksmith/blacksmith/issues/25457,
+  # the DLLs need to be copied to avoid memory errors.
+  if (MSVC)
+    file(GLOB SMITH_DLLS "${SMITH_INSTALL_PREFIX}/lib/*.dll")
+    add_custom_command(TARGET example-app
+                       POST_BUILD
+                       COMMAND ${CMAKE_COMMAND} -E copy_if_different
+                       ${SMITH_DLLS}
+                       $<TARGET_FILE_DIR:example-app>)
+  endif (MSVC)
+
+The implementation of our example will simply create a new `smith::Tensor` and
+print it:
+
+.. code-block:: cpp
+
+  #include <smith/smith.h>
+  #include <iostream>
+
+  int main() {
+    smith::Tensor tensor = smith::rand({2, 3});
+    std::cout << tensor << std::endl;
+  }
+
+While there are more fine-grained headers you can include to access only parts
+of the Blacksmith C++ API, including `smith/smith.h` is the most sure-proof way of
+including most of its functionality.
+
+The last step is to build the application. For this, assume our example
+directory is laid out like this:
+
+.. code-block:: sh
+
+  example-app/
+    CMakeLists.txt
+    example-app.cpp
+
+We can now run the following commands to build the application from within the
+``example-app/`` folder:
+
+.. code-block:: sh
+
+  mkdir build
+  cd build
+  cmake -DCMAKE_PREFIX_PATH=/absolute/path/to/libsmith ..
+  cmake --build . --config Release
+
+where ``/absolute/path/to/libsmith`` should be the absolute (!) path to the unzipped LibSmith
+distribution. If Blacksmith was installed via pip, `CMAKE_PREFIX_PATH` can be queried
+using `smith.utils.cmake_prefix_path` variable. In that case CMake configuration step would look something like follows:
+
+.. code-block:: sh
+
+  cmake -DCMAKE_PREFIX_PATH=`python3 -c 'import smith;print(smith.utils.cmake_prefix_path)'` ..
+
+If all goes well, it will look something like this:
+
+.. code-block:: sh
+
+  root@4b5a67132e81:/example-app# mkdir build
+  root@4b5a67132e81:/example-app# cd build
+  root@4b5a67132e81:/example-app/build# cmake -DCMAKE_PREFIX_PATH=/path/to/libsmith ..
+  -- The C compiler identification is GNU 5.4.0
+  -- The CXX compiler identification is GNU 5.4.0
+  -- Check for working C compiler: /usr/bin/cc
+  -- Check for working C compiler: /usr/bin/cc -- works
+  -- Detecting C compiler ABI info
+  -- Detecting C compiler ABI info - done
+  -- Detecting C compile features
+  -- Detecting C compile features - done
+  -- Check for working CXX compiler: /usr/bin/c++
+  -- Check for working CXX compiler: /usr/bin/c++ -- works
+  -- Detecting CXX compiler ABI info
+  -- Detecting CXX compiler ABI info - done
+  -- Detecting CXX compile features
+  -- Detecting CXX compile features - done
+  -- Looking for pthread.h
+  -- Looking for pthread.h - found
+  -- Looking for pthread_create
+  -- Looking for pthread_create - not found
+  -- Looking for pthread_create in pthreads
+  -- Looking for pthread_create in pthreads - not found
+  -- Looking for pthread_create in pthread
+  -- Looking for pthread_create in pthread - found
+  -- Found Threads: TRUE
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: /example-app/build
+  root@4b5a67132e81:/example-app/build# cmake --build . --config Release
+  Scanning dependencies of target example-app
+  [ 50%] Building CXX object CMakeFiles/example-app.dir/example-app.cpp.o
+  [100%] Linking CXX executable example-app
+  [100%] Built target example-app
+
+Executing the resulting ``example-app`` binary found in the ``build`` folder
+should now merrily print the tensor (exact output subject to randomness):
+
+.. code-block:: sh
+
+  root@4b5a67132e81:/example-app/build# ./example-app
+  0.2063  0.6593  0.0866
+  0.0796  0.5841  0.1569
+  [ Variable[CPUFloatType]{2,3} ]
+
+.. tip::
+  On Windows, debug and release builds are not ABI-compatible. If you plan to
+  build your project in debug mode, please try the debug version of LibSmith.
+  Also, make sure you specify the correct configuration in the ``cmake --build .``
+  line above.
+
+System Requirements
+-------------------
+
+To ensure smooth installation and usage of LibSmith, please ensure your system
+meets the following requirements:
+
+1. **GLIBC Version**:
+  - GLIBC 2.29 or newer for cxx11 ABI version
+
+2. **GCC Version**:
+  - GCC 9 or newer for cxx11
+
+Visual Studio Extension
+-----------------------
+
+`LibSmith Project Template <https://marketplace.visualstudio.com/items?itemName=YiZhang.LibSmith001>`_ can help Windows developers
+set all libsmith project settings and link options for debug and release.
+It's easy to use and you could check out the `demo video <https://ossci-windows.s3.us-east-1.amazonaws.com/vsextension/demo.mp4>`_.
+The only prerequisite is to download the libsmith on https://blacksmith.org
+
+Support
+-------
+
+If you run into any troubles with this installation and minimal usage guide,
+please use our `forum <https://discuss.blacksmith.org/>`_ or `GitHub issues
+<https://github.com/blacksmith/blacksmith/issues>`_ to get in touch.

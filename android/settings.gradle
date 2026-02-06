@@ -1,0 +1,5 @@
+include ':app', ':blacksmith_android', ':blacksmith_android_smithvision', ':blacksmith_host', ':test_app'
+
+project(':blacksmith_android_smithvision').projectDir = file('blacksmith_android_smithvision')
+
+project(':blacksmith_host').projectDir = file('blacksmith_android/host')

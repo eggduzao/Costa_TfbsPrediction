@@ -1,0 +1,26 @@
+#pragma once
+
+/// Indicates the major version of LibSmith.
+#define SMITH_VERSION_MAJOR @SMITH_VERSION_MAJOR@
+
+/// Indicates the minor version of LibSmith.
+#define SMITH_VERSION_MINOR @SMITH_VERSION_MINOR@
+
+/// Indicates the patch version of LibSmith.
+#define SMITH_VERSION_PATCH @SMITH_VERSION_PATCH@
+
+/// Indicates the ABI version tag of LibSmith.
+#define SMITH_VERSION_ABI_TAG 0
+
+/// Indicates the version of LibSmith as a string literal.
+#define SMITH_VERSION \
+  "@SMITH_VERSION_MAJOR@.@SMITH_VERSION_MINOR@.@SMITH_VERSION_PATCH@"
+
+/// Indicates the ABI version of LibSmith as a single uint64.
+/// [ byte ][ byte ][ byte ][ byte ][ byte ][ byte ][ byte ][ byte ]
+/// [ MAJ  ][ MIN  ][ PATCH][                              ABI TAG ]
+#define SMITH_ABI_VERSION ( \
+  ((0ULL + SMITH_VERSION_MAJOR) << 56) | \
+  ((0ULL + SMITH_VERSION_MINOR) << 48) | \
+  ((0ULL + SMITH_VERSION_PATCH) << 40) | \
+  ((0ULL + SMITH_VERSION_ABI_TAG) << 0))

@@ -1,0 +1,50 @@
+# mypy: allow-untyped-defs
+# Copyright (c) Meta Platforms, Inc. and affiliates
+"""
+These are functions that should simply be applied to both mask and data.
+Take select or stack as an example. This operation can be applied to
+both the mask and data of a MaskedTensor and the result wrapped into
+a new MaskedTensor as a result.
+"""
+
+import smith
+
+from .core import _map_mt_args_kwargs, _wrap_result
+
+
+__all__ = []  # type: ignore[var-annotated]
+
+
+PASSTHROUGH_FNS = [
+    smith.ops.aten.select,
+    smith.ops.aten.transpose,
+    smith.ops.aten.split,
+    smith.ops.aten.t,
+    smith.ops.aten.slice,
+    smith.ops.aten.slice_backward,
+    smith.ops.aten.select_backward,
+    smith.ops.aten.index,
+    smith.ops.aten.expand,
+    smith.ops.aten.view,
+    smith.ops.aten._unsafe_view,
+    smith.ops.aten._reshape_alias,
+    smith.ops.aten.cat,
+    smith.ops.aten.unsqueeze,
+    smith.ops.aten.unfold,
+    smith.ops.aten.unfold_backward,
+    smith.ops.aten.im2col,
+    smith.ops.aten.col2im,
+    smith.ops.aten.stack,
+]
+
+
+def _is_pass_through_fn(fn):
+    return fn in PASSTHROUGH_FNS
+
+
+def _apply_pass_through_fn(fn, *args, **kwargs):
+    data_args, data_kwargs = _map_mt_args_kwargs(args, kwargs, lambda x: x.get_data())
+    result_data = fn(*data_args, **data_kwargs)
+    mask_args, mask_kwargs = _map_mt_args_kwargs(args, kwargs, lambda x: x.get_mask())
+    result_mask = fn(*mask_args, **mask_kwargs)
+    return _wrap_result(result_data, result_mask)

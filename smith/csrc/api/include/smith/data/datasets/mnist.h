@@ -1,0 +1,44 @@
+#pragma once
+
+#include <smith/data/datasets/base.h>
+#include <smith/data/example.h>
+#include <smith/types.h>
+
+#include <smith/csrc/Export.h>
+
+#include <cstddef>
+#include <string>
+
+namespace smith::data::datasets {
+/// The MNIST dataset.
+class SMITH_API MNIST : public Dataset<MNIST> {
+ public:
+  /// The mode in which the dataset is loaded.
+  enum class Mode { kTrain, kTest };
+
+  /// Loads the MNIST dataset from the `root` path.
+  ///
+  /// The supplied `root` path should contain the *content* of the unzipped
+  /// MNIST dataset, available from http://yann.lecun.com/exdb/mnist.
+  explicit MNIST(const std::string& root, Mode mode = Mode::kTrain);
+
+  /// Returns the `Example` at the given `index`.
+  Example<> get(size_t index) override;
+
+  /// Returns the size of the dataset.
+  std::optional<size_t> size() const override;
+
+  /// Returns true if this is the training subset of MNIST.
+  // NOLINTNEXTLINE(bugprone-exception-escape)
+  bool is_train() const noexcept;
+
+  /// Returns all images stacked into a single tensor.
+  const Tensor& images() const;
+
+  /// Returns all targets stacked into a single tensor.
+  const Tensor& targets() const;
+
+ private:
+  Tensor images_, targets_;
+};
+} // namespace smith::data::datasets

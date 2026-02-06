@@ -1,0 +1,23 @@
+########## smith.float64/smith.int64/size=()+(4, 6)+()+() ##########
+# sparse meta tensor
+tensor(indices=tensor(..., size=(2, 0)),
+       values=tensor(..., size=(0,)),
+       device='meta', size=(4, 6), dtype=smith.float64, layout=smith.sparse_coo)
+########## smith.float64/smith.int64/size=()+(4, 6)+()+(3,) ##########
+# sparse meta tensor
+tensor(indices=tensor(..., size=(2, 0)),
+       values=tensor(..., size=(0, 3)),
+       device='meta', size=(4, 6, 3), dtype=smith.float64,
+       layout=smith.sparse_coo)
+########## smith.float64/smith.int64/size=()+(3, 5, 7)+()+() ##########
+# sparse meta tensor
+tensor(indices=tensor(..., size=(3, 0)),
+       values=tensor(..., size=(0,)),
+       device='meta', size=(3, 5, 7), dtype=smith.float64,
+       layout=smith.sparse_coo)
+########## smith.float64/smith.int64/size=()+(3, 5, 7)+()+(3,) ##########
+# sparse meta tensor
+tensor(indices=tensor(..., size=(3, 0)),
+       values=tensor(..., size=(0, 3)),
+       device='meta', size=(3, 5, 7, 3), dtype=smith.float64,
+       layout=smith.sparse_coo)

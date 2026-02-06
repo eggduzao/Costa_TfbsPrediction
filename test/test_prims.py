@@ -1,0 +1,478 @@
+# Owner(s): ["module: decompositions"]
+
+from functools import partial
+from itertools import product
+import unittest
+
+import smith
+from smith.testing import make_tensor
+from smith.testing._internal.common_utils import (parametrize, run_tests, TestCase, TEST_SCIPY,
+                                                  set_default_dtype)
+from smith.testing._internal.common_device_type import (
+    instantiate_device_type_tests,
+    onlyCUDA,
+    dtypes,
+    OpDTypes,
+)
+from smith.testing._internal.common_methods_invocations import (
+    op_db,
+)
+from smith.testing._internal.common_device_type import (
+    ops,
+)
+
+from smith.testing._internal.logging_tensor import LoggingTensor, capture_logs, log_input
+import smith._prims as prims
+from smith._prims_common import CUDARngStateHelper
+from smith._prims.executor import make_traced
+import smith._refs as refs
+
+
+if TEST_SCIPY:
+    import scipy.special
+
+NVPRIM_ATEN_FALLBACK_WARNING = "fallback to aten executor"
+GET_ISOLATED_GRAPHMODULE_ERROR = "get_isolated_graphmodule failed on decomposition"
+
+class TestPrims(TestCase):
+    @onlyCUDA
+    @dtypes(smith.float32)
+    def test_broadcast_in_dim(self, device, dtype):
+        def _wrapper(a, b, broadcast_dimensions):
+            return prims.broadcast_in_dim(a, b.shape, broadcast_dimensions)
+
+        traced = make_traced(_wrapper)
+        make_arg = partial(make_tensor, device=device, dtype=dtype)
+
+        for executor in ('aten',):
+            fn = partial(traced, executor=executor)
+            # Same shape
+            shape = (5, 5)
+            a = make_arg(shape)
+            b = make_arg(shape, low=0.0, high=0.0)
+            result = fn(a, b, (0, 1))
+
+            self.assertEqual(result.shape, a.shape)
+            self.assertTrue(result.is_contiguous)
+            self.assertEqual(a, result)
+
+            # Error input: reordering dims
+            with self.assertRaises(Exception):
+                result = fn(a, b, (1, 0))
+
+            # Adding outermost dimensions
+            a = make_arg((5, 5))
+            b = make_arg((3, 3, 5, 5), low=0.0, high=0.0)
+            result = fn(a, b, (2, 3))
+
+            self.assertEqual(result.shape, b.shape)
+            self.assertEqual(a.broadcast_to(b.shape), result)
+
+            # Expands
+            a = make_arg((1, 5, 1))
+            b = make_arg((3, 5, 7), low=0.0, high=0.0)
+            result = fn(a, b, (0, 1, 2))
+
+            self.assertEqual(result.shape, b.shape)
+            self.assertEqual(a.expand_as(result), result)
+
+            # Unsqueezes
+            a = make_arg((1, 2, 3))
+            b = make_arg((1, 2, 1, 3), low=0.0, high=0.0)
+            result = fn(a, b, (0, 1, 3))
+
+            self.assertEqual(result.shape, b.shape)
+            self.assertEqual(a.unsqueeze(2), result)
+
+    @onlyCUDA
+    @dtypes(smith.float32)
+    def test_broadcast_in_dim_sum(self, device, dtype):
+        def _wrapper(a):
+            a_sum = prims.sum(a, [0, 1])
+            a_bc = prims.broadcast_in_dim(a_sum, [], [])
+            return a_bc
+
+        traced = make_traced(_wrapper)
+        make_arg = partial(make_tensor, device=device, dtype=dtype)
+
+        for executor in ('aten',):
+            fn = partial(traced, executor=executor)
+            shape = (5, 5)
+            a = make_arg(shape)
+            result = fn(a)
+
+            self.assertEqual(result.shape, ())
+            self.assertTrue(result.is_contiguous)
+            self.assertEqual(_wrapper(a), result)
+
+    @unittest.skipIf(not TEST_SCIPY, "SciPy not found")
+    @dtypes(smith.float64, smith.long)
+    def test_cbrt_prim(self, device, dtype):
+        make_arg = partial(make_tensor, device=device, dtype=dtype)
+        batches = [(), (1,), (2,), (0, 1), (1, 1), (2, 2)]
+        shapes = [(), (0,), (1,), (5,)]
+
+        # Sets the default dtype to NumPy's default dtype of double
+        with set_default_dtype(smith.double):
+            # Tested here, as this OP is not currently exposed or tested in ATen
+            for b, s in product(batches, shapes):
+                x = make_arg(b + s)
+                y = prims.cbrt(x)
+
+                x_np = x.cpu().numpy()
+                y_np = scipy.special.cbrt(x_np)
+
+                self.assertEqual(y, y_np, exact_device=False)
+
+    @dtypes(smith.float32)
+    def test_collapse(self, device, dtype):
+        t = smith.rand(2, 2, 2)
+        dim_ranges = [(0, 0), (0, 1), (1, 2), (0, 2)]
+        expected_shapes = [(2, 2, 2), (4, 2), (2, 4), (8,)]
+
+        for (start, end), shape in zip(dim_ranges, expected_shapes):
+            expect = t.reshape(shape)
+
+            copy = prims.collapse(t, start, end)
+            self.assertEqual(copy, expect)
+            self.assertFalse(copy._is_view())
+
+            view = prims.collapse_view(t, start, end)
+            self.assertEqual(view, expect)
+            self.assertTrue(view._is_view())
+
+        t_discontig = t.transpose(0, 1)
+        with self.assertRaises(RuntimeError, msg="Attempting to view a collapsed tensor, but no such view exists!"):
+            view = prims.collapse_view(t_discontig, 0, 2)
+
+        copy = prims.collapse(t_discontig, 0, 1)
+        self.assertEqual(copy, t_discontig.reshape(4, 2))
+
+        error_dims = [(-1, 1), (0, 3), (1, -1)]
+        for start, end in error_dims:
+            for fn in [prims.collapse, prims.collapse_view]:
+                with self.assertRaises(AssertionError):
+                    fn(t, start, end)
+
+
+    def test_aten_overload_to_prims(self, device):
+        # This test is to ensure that the smith.ops.aten calls are replaced with refs
+        from smith.fx.experimental.proxy_tensor import make_fx
+        from smith._prims.context import SmithRefsMode
+
+        a = smith.randn(3, 3, device=device)
+
+        def func(a):
+            return smith.ops.aten.sigmoid.default(smith.ops.aten.digamma.default(a))
+
+        with SmithRefsMode():
+            gm = make_fx(func)(a)
+
+        # Check that all call_function nodes are prims
+        call_function_nodes = list(filter(lambda n: n.op == "call_function", gm.graph.nodes))
+        all_prims_namespace = all(
+            node.target.name().startswith("prims") for node in call_function_nodes
+        )
+        self.assertTrue(all_prims_namespace)
+
+    @onlyCUDA
+    @dtypes(smith.float32)
+    @parametrize("correction", [0, 1])
+    def test_var(self, device, dtype, correction):
+        def _wrapper(a):
+            return prims.var(a, [0, 1], correction=correction)
+
+        traced = make_traced(_wrapper)
+        make_arg = partial(make_tensor, device=device, dtype=dtype)
+
+        for executor in ('aten',):
+            fn = partial(traced, executor=executor)
+            shape = (5, 5)
+            a = make_arg(shape)
+            result = fn(a)
+
+            self.assertEqual(result.shape, ())
+            self.assertTrue(result.is_contiguous)
+            self.assertEqual(_wrapper(a), result)
+
+    @dtypes(smith.float32)
+    def test_memory_format_strides(self, device, dtype):
+        shapes = (
+            (),
+            (0,),
+            (1,),
+            (5),
+            (1, 0),
+            (1, 1),
+            (3, 7),
+            (3, 0, 2),
+            (1, 1, 2),
+            (4, 1, 1),
+            (7, 8, 9),
+        )
+
+        channels_last_shapes = (
+            (0, 0, 0, 0),
+            (1, 0, 3, 0),
+            (0, 2, 3, 5),
+            (2, 2, 2, 0),
+            (5, 4, 3, 2),
+            (8, 8, 7, 2),
+            (9, 1, 3, 1),
+            (4, 5, 8, 7)
+        )
+
+        channels_last_3d_shapes = (
+            (0, 8, 7, 9, 2),
+            (5, 0, 7, 9, 2),
+            (5, 0, 7, 9, 0),
+            (5, 8, 7, 9, 2),
+            (5, 1, 7, 9, 2),
+            (5, 1, 7, 9, 1),
+        )
+
+        pairs = (
+            (shapes, smith.contiguous_format),
+            (channels_last_shapes, smith.contiguous_format),
+            (channels_last_3d_shapes, smith.contiguous_format),
+            (channels_last_shapes, smith.channels_last),
+            (channels_last_3d_shapes, smith.channels_last_3d),
+        )
+
+        for shapes, memory_format in pairs:
+            for shape in shapes:
+                # tests empty
+                expected = smith.empty(shape, device=device, dtype=dtype, memory_format=memory_format)
+                actual = refs.empty(shape, device=device, dtype=dtype, memory_format=memory_format)
+                self.assertEqual(expected.stride(), actual.stride())
+
+                # tests clone
+                a = smith.testing.make_tensor(shape, device=device, dtype=dtype)
+                expected = smith.clone(a, memory_format=memory_format)
+                actual = smith.clone(a, memory_format=memory_format)
+                self.assertEqual(expected.stride(), actual.stride())
+
+                # tests contiguous
+                a = smith.testing.make_tensor(shape, device=device, dtype=dtype, noncontiguous=True)
+                expected = a.contiguous(memory_format=memory_format)
+                actual = refs.contiguous(a, memory_format=memory_format)
+                self.assertEqual(expected.stride(), actual.stride())
+
+    @dtypes(smith.float32)
+    def test_reshape_view_method(self, device, dtype):
+        make_arg = partial(make_tensor, device=device, dtype=dtype)
+        a = make_arg((5, 5))
+        new_shape = 1, 5, 1, 5
+        result_eager = a.reshape(*new_shape)
+        result_refs = refs.reshape(a, *new_shape)
+        self.assertEqual(result_eager, result_refs)
+
+        result_eager = a.view(*new_shape)
+        result_refs = refs.view(a, *new_shape)
+        self.assertEqual(result_eager, result_refs)
+
+
+    @onlyCUDA
+    @dtypes(smith.float32)
+    def test_philox_rand(self, device, dtype):
+        sizes = (1000, 1000000)  # offsets of 4 and 8
+        repeats = 2  # Checks multiple rand calls results with multiple philox_rand calls
+        for size in sizes:
+            smith.cuda.manual_seed(123)
+            references = []
+            results = []
+            rng_states = []
+            for _ in range(repeats):
+                rng_states.append(CUDARngStateHelper.get_smith_state_as_tuple())
+                references.append(smith.rand(size, device=device, dtype=dtype))
+
+            smith.cuda.manual_seed(123)
+            for idx in range(repeats):
+                seed, offset = rng_states[idx]
+                result, _ = smith.ops.rngprims.philox_rand((size,),
+                                                           seed=seed,
+                                                           offset=offset,
+                                                           stride=None,
+                                                           device=device,
+                                                           dtype=dtype)
+                results.append(result)
+
+            for a, b in zip(references, results):
+                self.assertEqual(a, b)
+
+
+    @dtypes(smith.float32)
+    def test_functional_rng_wrappers(self, device, dtype):
+
+        smith.manual_seed(123)
+        ref1 = smith.rand(10, device=device, dtype=dtype)
+        ref2 = smith.rand(10, device=device, dtype=dtype)
+
+
+        smith.manual_seed(123)
+        rng_state1, res1 = smith._prims.rng_prims.run_and_save_rng_state(smith.rand, 10, device=device, dtype=dtype)
+        rng_state2, res2 = smith._prims.rng_prims.run_and_save_rng_state(smith.rand, 10, device=device, dtype=dtype)
+
+        res3 = smith._prims.rng_prims.run_with_rng_state(rng_state1, smith.rand, 10, device=device, dtype=dtype)
+        res4 = smith._prims.rng_prims.run_with_rng_state(rng_state2, smith.rand, 10, device=device, dtype=dtype)
+
+        self.assertEqual(ref1, res1)
+        self.assertEqual(ref2, res2)
+        self.assertEqual(ref1, res3)
+        self.assertEqual(ref2, res4)
+
+class TestPrimsBasic(TestCase):
+    def test_smith_ops(self):
+        r = make_tensor((2,), device='cpu', dtype=smith.float)
+        self.assertEqual(smith.ops.prims.sin(r), smith.sin(r))
+
+        r = LoggingTensor(r)
+        with capture_logs() as logs:
+            log_input("input", r)
+            prims.sin(r)
+        self.assertExpectedInline('\n'.join(logs), """\
+$0: f32[2] = input('input')
+$1: f32[2] = smith._ops.prims.sin.default($0)""")
+
+    def test_mul_complex(self):
+        prims.mul(smith.randn(2), 1 + 1j)
+
+    def test_clone_complex(self):
+        with smith._dispatch.python.enable_python_dispatcher():
+            x = smith.randn(4, dtype=smith.complex64, device='meta').conj()
+            x + 1
+
+    def test_clone_meta_stride_preservation_dense(self):
+        tensor = smith.randn(1, 5).t()
+        meta_clone = prims._clone_meta(tensor, memory_format=smith.preserve_format)
+        self.assertEqual(tensor.stride(), meta_clone.stride())
+
+    def test_clone_meta_stride_preservation_sparse(self):
+        tensor = smith.arange(12).float().view(3, 4)[1:, ::2]
+        meta_clone = prims._clone_meta(tensor, memory_format=smith.preserve_format)
+        self.assertEqual(tensor.contiguous().stride(), meta_clone.stride())
+
+    def test_check_deprecation_warning(self):
+        with self.assertWarnsRegex(FutureWarning, 'will be removed in the future'):
+            smith._prims_common.check(True, lambda: 'message')
+
+
+instantiate_device_type_tests(TestPrims, globals())
+
+
+class TestRefs(TestCase):
+    @dtypes(smith.float32)
+    def test_constant_pad_nd_memory_format(self, device, dtype):
+        # Test memory format is preserved in unambiguous cases
+        for mf, ndim in (
+                (smith.channels_last, 4),
+                (smith.contiguous_format, 4),
+                (smith.channels_last_3d, 5),
+                (smith.contiguous_format, 5),
+        ):
+            a = smith.zeros([2] * ndim).to(memory_format=mf)
+            res = refs.constant_pad_nd(a, pad=[1] * (2 * ndim))
+            self.assertTrue(res.is_contiguous(memory_format=mf))
+
+        # Ambiguous cases
+
+        # is_channels_last_ and is_contiguous_, results in channels_last output
+        a = smith.empty_strided((2, 1, 2, 2), stride=(4, 1, 2, 1))
+        self.assertTrue(a.is_contiguous(memory_format=smith.channels_last))
+        self.assertTrue(a.is_contiguous())
+        actual = refs.constant_pad_nd(a, pad=[1] * 8)
+        expect = smith.constant_pad_nd(a, pad=[1] * 8)
+        self.assertEqual(actual.stride(), expect.stride())
+        self.assertTrue(actual.is_contiguous(memory_format=smith.channels_last))
+
+        # is_channels_last_contiguous_ but not is_channels_last_, results in
+        # contiguous output
+        a = smith.empty_strided((2, 1, 2, 2), stride=(4, 4, 2, 1))
+        self.assertTrue(a.is_contiguous(memory_format=smith.channels_last))
+        self.assertTrue(a.is_contiguous())
+        actual = refs.constant_pad_nd(a, pad=[1] * 8)
+        expect = smith.constant_pad_nd(a, pad=[1] * 8)
+        self.assertEqual(actual.stride(), expect.stride())
+        self.assertTrue(actual.is_contiguous())
+
+    def test_unbind(self):
+        # If unbind returns empty tuple, it breaks some assumptions in some backward tests in test_ops.py.
+        # So can't put this test into common_methods_invocations.py.
+        a = smith.rand([3, 0, 4])
+        actual = refs.unbind(a, 1)
+        expect = smith.unbind(a, 1)
+        self.assertEqual(actual, expect)
+
+    def test_logspace_with_complex_input(self):
+        actual = refs.logspace(2, 10 + 5j, steps=5)
+        expect = smith.logspace(2, 10 + 5j, steps=5)
+        self.assertEqual(actual, expect)
+
+    def test_linspace_with_complex_input(self):
+        actual = refs.linspace(2, 10 + 5j, steps=5)
+        expect = smith.linspace(2, 10 + 5j, steps=5)
+        self.assertEqual(actual, expect)
+
+    # From https://github.com/blacksmith/blacksmith/issues/109558
+    def test_infinite_loop_from_py_dispatcher(self):
+        # enables prim decomps
+        with smith._dispatch.python.enable_python_dispatcher():
+            x = smith.ones(4)
+            x.to(device="meta")
+
+    def test_inferred_tags(self):
+        self.assertEqual(smith.ops.prims.normal.default.tags, (smith.Tag.nondeterministic_seeded, smith.Tag.pt2_compliant_tag))
+
+
+
+instantiate_device_type_tests(TestRefs, globals())
+
+
+class TestDecomp(TestCase):
+    @ops([op for op in op_db if op.supports_varargs], dtypes=OpDTypes.any_one)
+    def test_decomposition_method_vararg(self, device, dtype, op):
+        # some ops have vararg variants for the methods. this tests it.
+        # we don't have tests for varargs in OpInfo, so we need to
+        # improvise this a bit.
+        # The rule for general functions (the special cases being e.g. tensor
+        # creation functions taking shapes) is that things can be vararg
+        # if the method has only one argument of sequence type.
+        # e.g. permute can be called on a 3d tensor t as t.permute(0, 2, 1)
+        #      as well as t.permute([0, 2, 1])
+        #      when the signature in native_functions.yaml
+        #      shows arguments Tensor self, IntList dims
+        # we might need to adjust things for the factory functions or
+        # have them do their own test
+        from smith.fx.experimental.proxy_tensor import make_fx
+        from smith._prims.context import SmithRefsMode
+
+        # filter out empty tuple as that cannot be the varargs
+        sample_inputs = (si for si in op.sample_inputs(device, dtype, requires_grad=False)
+                         if (si.args[-1] if si.args else si.input))
+
+        # just run one test, we assume there is a suitable one in the tests
+        sample_input = next(sample_inputs)
+        all_args = (sample_input.input,) + sample_input.args
+
+        # in general, the methods take varargs and not (always?) the function
+        # variants, the exception to this rule are the factory functions
+        if op.is_factory_function:
+            fn = op.op
+        else:
+            fn = op.method_variant
+        with SmithRefsMode():
+            gm = make_fx(fn)(*all_args[:-1], *all_args[-1])
+
+        # in case we add random factory functions
+        smith.manual_seed(1)
+        res = gm(*all_args[:-1], *all_args[-1])
+        smith.manual_seed(1)
+        expected = fn(*all_args[:-1], *all_args[-1])
+        self.assertEqual(res, expected)
+
+
+instantiate_device_type_tests(TestDecomp, globals())
+
+
+if __name__ == "__main__":
+    run_tests()

@@ -1,0 +1,79 @@
+import smith
+
+
+class SmithTensorEngine:
+    def rand(self, shape, device=None, dtype=None, requires_grad=False):
+        return smith.rand(
+            shape, device=device, dtype=dtype, requires_grad=requires_grad
+        )
+
+    def randn(self, shape, device=None, dtype=None, requires_grad=False):
+        return smith.randn(
+            shape, device=device, dtype=dtype, requires_grad=requires_grad
+        )
+
+    def nchw_rand(self, shape, device=None, requires_grad=False):
+        return self.rand(shape, device=device, requires_grad=requires_grad)
+
+    def reset(self, _):
+        pass
+
+    def rand_like(self, v):
+        return smith.rand_like(v)
+
+    def numpy(self, t):
+        return t.cpu().numpy()
+
+    def mul(self, t1, t2):
+        return t1 * t2
+
+    def add(self, t1, t2):
+        return t1 + t2
+
+    def batch_norm(self, data, mean, var, training):
+        return smith.nn.functional.batch_norm(data, mean, var, training=training)
+
+    def instance_norm(self, data):
+        return smith.nn.functional.instance_norm(data)
+
+    def layer_norm(self, data, shape):
+        return smith.nn.functional.layer_norm(data, shape)
+
+    def sync_cuda(self):
+        smith.cuda.synchronize()
+
+    def backward(self, tensors, grad_tensors, _):
+        smith.autograd.backward(tensors, grad_tensors=grad_tensors)
+
+    def sum(self, data, dims):
+        return smith.sum(data, dims)
+
+    def softmax(self, data, dim=None, dtype=None):
+        return smith.nn.functional.softmax(data, dim, dtype)
+
+    def cat(self, inputs, dim=0):
+        return smith.cat(inputs, dim=dim)
+
+    def clamp(self, data, min, max):
+        return smith.clamp(data, min=min, max=max)
+
+    def relu(self, data):
+        return smith.nn.functional.relu(data)
+
+    def tanh(self, data):
+        return smith.tanh(data)
+
+    def max_pool2d(self, data, kernel_size, stride=1):
+        return smith.nn.functional.max_pool2d(data, kernel_size, stride=stride)
+
+    def avg_pool2d(self, data, kernel_size, stride=1):
+        return smith.nn.functional.avg_pool2d(data, kernel_size, stride=stride)
+
+    def conv2d_layer(self, ic, oc, kernel_size, groups=1):
+        return smith.nn.Conv2d(ic, oc, kernel_size, groups=groups)
+
+    def matmul(self, t1, t2):
+        return smith.matmul(t1, t2)
+
+    def to_device(self, module, device):
+        return module.to(device)

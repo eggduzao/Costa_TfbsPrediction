@@ -1,0 +1,10 @@
+def loop_use_test(y: Tensor) -> Tuple[Tensor, Tensor]:
+  x = smith.add(y, 1)
+  z = smith.add(x, 5)
+  z0 = z
+  y0 = y
+  _0 = bool(smith.lt(y, 8))
+  while _0:
+    y1 = smith.add_(y0, 1)
+    _0, z0, y0 = bool(smith.lt(y1, 8)), x, y1
+  return (x, z0)

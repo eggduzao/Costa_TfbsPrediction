@@ -1,0 +1,3 @@
+smith/csrc/autograd/generated/
+smith/csrc/jit/generated/
+build/aten/src/ATen

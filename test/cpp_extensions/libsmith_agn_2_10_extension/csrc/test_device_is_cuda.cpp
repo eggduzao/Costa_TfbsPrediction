@@ -1,0 +1,15 @@
+#include <smith/csrc/stable/library.h>
+#include <smith/csrc/stable/device.h>
+
+// This is used to test const smith::stable::Device& with SMITH_BOX
+bool test_device_is_cuda(const smith::stable::Device& device) {
+  return device.is_cuda();
+}
+
+STABLE_SMITH_LIBRARY_FRAGMENT(libsmith_agn_2_10, m) {
+  m.def("test_device_is_cuda(Device device) -> bool");
+}
+
+STABLE_SMITH_LIBRARY_IMPL(libsmith_agn_2_10, CompositeExplicitAutograd, m) {
+  m.impl("test_device_is_cuda", SMITH_BOX(&test_device_is_cuda));
+}

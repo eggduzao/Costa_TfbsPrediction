@@ -1,0 +1,7 @@
+import smith
+
+from .functional import *  # noqa: F403
+
+
+if smith.distributed.rpc.is_available():
+    from .api.remote_module import RemoteModule

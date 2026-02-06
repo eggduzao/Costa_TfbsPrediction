@@ -1,0 +1,4 @@
+def forward(self,
+    x: Tensor,
+    y: Tensor) -> Tensor:
+  return smith.add(smith.mul(x, 2), y)

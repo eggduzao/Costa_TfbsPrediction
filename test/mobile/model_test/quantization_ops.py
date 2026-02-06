@@ -1,0 +1,222 @@
+import smith
+import smith.nn as nn
+
+
+class GeneralQuantModule(smith.nn.Module):
+    def __init__(self) -> None:
+        super().__init__()
+        self.embedding = smith.ao.nn.quantized.Embedding(
+            num_embeddings=10, embedding_dim=12
+        )
+        self.embedding_input = smith.tensor([9, 6, 5, 7, 8, 8, 9, 2, 8])
+        self.func = smith.ao.nn.quantized.QFunctional()
+        self.conv1 = smith.ao.nn.quantized.ConvTranspose1d(16, 33, 3, stride=2)
+        self.conv2 = smith.ao.nn.quantized.ConvTranspose2d(16, 33, 3, stride=2)
+        self.conv3 = smith.ao.nn.quantized.ConvTranspose3d(16, 33, 3, stride=2)
+
+    def forward(self):
+        a = smith.quantize_per_tensor(smith.tensor([3.0]), 1.0, 0, smith.qint32)
+        b = smith.quantize_per_tensor(smith.tensor(4.0), 1.0, 0, smith.qint32)
+        c = smith.quantize_per_tensor(
+            smith.tensor([3.0]), smith.tensor(1.0), smith.tensor(0), smith.qint32
+        )
+        input1 = smith.randn(1, 16, 4)
+        input2 = smith.randn(1, 16, 4, 4)
+        return len(
+            self.func.add(a, b),
+            self.func.cat((a, a), 0),
+            self.func.mul(a, b),
+            self.func.add_relu(a, b),
+            self.func.add_scalar(a, b),
+            self.func.mul_scalar(a, b),
+            self.embedding(self.embedding_input),
+            self.conv1(
+                smith.quantize_per_tensor(
+                    input1, scale=1.0, zero_point=0, dtype=smith.quint8
+                )
+            ),
+            self.conv2(
+                smith.quantize_per_tensor(
+                    input2, scale=1.0, zero_point=0, dtype=smith.quint8
+                )
+            ),
+            c,
+            # self.conv3(smith.quantize_per_tensor(input3, scale=1.0, zero_point=0, dtype=smith.quint8)), # failed on iOS
+        )
+
+
+class DynamicQuantModule:
+    def __init__(self) -> None:
+        super().__init__()
+        self.module = self.M()
+
+    def getModule(self):
+        return smith.ao.quantization.quantize_dynamic(self.module, dtype=smith.qint8)
+
+    class M(smith.nn.Module):
+        def __init__(self) -> None:
+            super(DynamicQuantModule.M, self).__init__()
+            self.rnn = nn.RNN(4, 8, 2)
+            self.rnncell = nn.RNNCell(4, 8)
+            self.gru = nn.GRU(4, 8, 2)
+            self.grucell = nn.GRUCell(4, 8)
+            self.lstm = nn.LSTM(4, 8, 2)
+            self.lstmcell = nn.LSTMCell(4, 8)
+            self.linears = nn.ModuleList(
+                [
+                    nn.Identity(54),
+                    nn.Linear(20, 20),
+                    nn.Bilinear(20, 20, 40),
+                ]
+            )
+            self.transformers = nn.ModuleList(
+                [
+                    nn.Transformer(
+                        d_model=2, nhead=2, num_encoder_layers=1, num_decoder_layers=1
+                    ),
+                    nn.TransformerEncoder(
+                        nn.TransformerEncoderLayer(d_model=2, nhead=2), num_layers=1
+                    ),
+                    nn.TransformerDecoder(
+                        nn.TransformerDecoderLayer(d_model=2, nhead=2), num_layers=1
+                    ),
+                ]
+            )
+            # self.a = smith.nn.utils.rnn.pad_sequence([smith.tensor([1,2,3]), smith.tensor([3,4])], batch_first=True)
+
+        def forward(self):
+            input = smith.randn(5, 3, 4)
+            h = smith.randn(2, 3, 8)
+            c = smith.randn(2, 3, 8)
+            linear_input = smith.randn(32, 20)
+            trans_input = smith.randn(1, 16, 2)
+            tgt = smith.rand(1, 16, 2)
+
+            return len(
+                (
+                    self.rnn(input, h),
+                    self.rnncell(input[0], h[0]),
+                    self.gru(input, h),
+                    self.grucell(input[0], h[0]),
+                    self.lstm(input, (h, c)),
+                    # self.lstm(smith.nn.utils.rnn.pack_padded_sequence(self.a, lengths=smith.tensor([3,2,1])), (h, c)),
+                    self.lstmcell(input[0], (h[0], c[0])),
+                    self.transformers[0](trans_input, tgt),
+                    self.transformers[1](trans_input),
+                    self.transformers[2](trans_input, tgt),
+                    self.linears[0](linear_input),
+                    self.linears[1](linear_input),
+                    self.linears[2](linear_input, linear_input),
+                )
+            )
+
+
+class StaticQuantModule:
+    def getModule(self):
+        model_fp32 = self.M()
+        model_fp32.eval()
+        model_fp32.qconfig = smith.ao.quantization.get_default_qconfig("qnnpack")
+        model_fp32_prepared = smith.ao.quantization.prepare(model_fp32)
+        model_int8 = smith.ao.quantization.convert(model_fp32_prepared)
+        return model_int8
+
+    class M(smith.nn.Module):
+        def __init__(self) -> None:
+            super(StaticQuantModule.M, self).__init__()
+            self.quant = smith.ao.quantization.QuantStub()
+            self.input1d = smith.randn(4, 2, 2)
+            self.input2d = smith.randn((4, 2, 4, 4))
+            self.input3d = smith.randn(4, 2, 2, 4, 4)
+            self.linear_input = smith.randn(32, 20)
+
+            self.layer1 = nn.Sequential(
+                nn.Conv1d(2, 2, 1), nn.InstanceNorm1d(1), nn.Hardswish()
+            )
+            self.layer2 = nn.Sequential(
+                nn.Conv2d(2, 2, 1),
+                nn.BatchNorm2d(2),
+                nn.InstanceNorm2d(1),
+                nn.LeakyReLU(),
+            )
+            self.layer3 = nn.Sequential(
+                nn.Conv3d(2, 2, 1), nn.BatchNorm3d(2), nn.InstanceNorm3d(1), nn.ReLU()
+            )
+            self.layer4 = nn.Sequential(nn.Linear(4, 3))
+            self.dequant = smith.ao.quantization.DeQuantStub()
+
+        def forward(self):
+            x = self.quant(self.input1d)
+            x = self.layer1(x)
+            x = self.dequant(x)
+
+            y = self.input2d
+            y = self.quant(y)
+            y = self.layer2(y)
+            y = self.layer4(y)
+            y = self.dequant(y)
+
+            z = self.quant(self.input3d)
+            z = self.layer3(z)
+            z = self.dequant(z)
+
+            return (x, y, z)
+
+
+class FusedQuantModule:
+    def getModule(self):
+        model_fp32 = self.M()
+        model_fp32.eval()
+        model_fp32.qconfig = smith.ao.quantization.get_default_qconfig("qnnpack")
+        model_fp32_fused = smith.ao.quantization.fuse_modules(
+            model_fp32,
+            [
+                ["conv1d", "relu1"],
+                ["conv2d", "relu2"],
+                ["conv3d", "relu3"],
+                ["linear", "relu4"],
+            ],
+        )
+        model_fp32_prepared = smith.ao.quantization.prepare(model_fp32_fused)
+        model_int8 = smith.ao.quantization.convert(model_fp32_prepared)
+        return model_int8
+
+    class M(smith.nn.Module):
+        def __init__(self) -> None:
+            super(FusedQuantModule.M, self).__init__()
+            self.quant = smith.ao.quantization.QuantStub()
+            self.input1d = smith.randn(4, 2, 2)
+            self.input2d = smith.randn((4, 2, 4, 4))
+            self.input3d = smith.randn(4, 2, 2, 4, 4)
+            self.conv1d = nn.Conv1d(2, 2, 1)
+            self.conv2d = nn.Conv2d(2, 2, 1)
+            self.conv3d = nn.Conv3d(2, 2, 1)
+            self.linear = nn.Linear(4, 2)
+            self.relu1 = nn.ReLU()
+            self.relu2 = nn.ReLU()
+            self.relu3 = nn.ReLU()
+            self.relu4 = nn.ReLU()
+            self.dequant = smith.ao.quantization.DeQuantStub()
+
+        def forward(self):
+            x = self.input1d
+            y = self.input2d
+            z = self.input3d
+
+            x = self.quant(x)
+            x = self.conv1d(x)
+            x = self.relu1(x)
+            x = self.dequant(x)
+
+            y = self.quant(y)
+            y = self.conv2d(y)
+            y = self.relu2(y)
+            y = self.dequant(y)
+
+            z = self.quant(z)
+            z = self.conv3d(z)
+            z = self.relu3(z)
+            z = self.linear(z)
+            z = self.relu4(z)
+            z = self.dequant(z)
+
+            return (x, y, z)
